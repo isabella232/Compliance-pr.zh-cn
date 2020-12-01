@@ -1,0 +1,53 @@
+---
+title: 网络安全
+description: 了解 Microsoft 365 中的网络安全性
+ms.author: robmazz
+author: robmazz
+manager: laurawi
+ms.reviewer: sosstah
+audience: Admin
+ms.topic: article
+f1.keywords:
+- NOCSH
+ms.service: O365-seccomp
+localization_priority: Normal
+ms.collection:
+- Strat_O365_IP
+- M365-security-compliance
+- MS-Compliance
+search.appverid:
+- MET150
+- MOE150
+titleSuffix: Microsoft Service Assurance
+ms.openlocfilehash: c063460fdfba44265b3a1504a049a4772b484dff
+ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "49505910"
+---
+# <a name="network-security-overview"></a><span data-ttu-id="d1884-103">网络安全概述</span><span class="sxs-lookup"><span data-stu-id="d1884-103">Network security overview</span></span>
+
+## <a name="how-does-microsoft-365-secure-the-network-boundary"></a><span data-ttu-id="d1884-104">Microsoft 365 如何保护网络边界？</span><span class="sxs-lookup"><span data-stu-id="d1884-104">How does Microsoft 365 secure the network boundary?</span></span>
+
+<span data-ttu-id="d1884-105">Microsoft 365 采用多种策略来保护其网络边界，包括自动检测和阻止基于网络的攻击、专用防火墙设备以及 Exchange Online Protection (EOP) 用于反垃圾邮件和反恶意软件保护。</span><span class="sxs-lookup"><span data-stu-id="d1884-105">Microsoft 365 employs multiple strategies for securing its network boundary, including automated detection and prevention of network-based attacks, specialized firewall devices, and Exchange Online Protection (EOP) for anti-spam and anti-malware protection.</span></span> <span data-ttu-id="d1884-106">此外，Microsoft 365 将其生产环境划分为逻辑隔离的网络段，仅允许在分段之间进行必要的通信。</span><span class="sxs-lookup"><span data-stu-id="d1884-106">In addition, Microsoft 365 separates its production environment into logically isolated network segments, with only necessary communication permitted between segments.</span></span> <span data-ttu-id="d1884-107">使用边界点的其他网络防火墙保护网络流量，以帮助检测、阻止和缓解网络攻击。</span><span class="sxs-lookup"><span data-stu-id="d1884-107">Network traffic is secured using additional network firewalls at boundary points to help detect, prevent, and mitigate network attacks.</span></span>
+
+## <a name="how-does-microsoft-365-defend-against-ddos-attacks"></a><span data-ttu-id="d1884-108">Microsoft 365 如何防御 DDoS 攻击？</span><span class="sxs-lookup"><span data-stu-id="d1884-108">How does Microsoft 365 defend against DDoS attacks?</span></span>
+
+<span data-ttu-id="d1884-109">Microsoft 的大型 internet 状态将其与许多分布式拒绝服务 (DDoS) 攻击的负面影响隔离开来。</span><span class="sxs-lookup"><span data-stu-id="d1884-109">Microsoft's large internet presence insulates it from the negative effects of many distributed denial-of-service (DDoS) attacks.</span></span> <span data-ttu-id="d1884-110">每个 Microsoft 365 服务的分布式实例和每个服务的多个路由都会限制针对系统的 DDoS 攻击的影响。</span><span class="sxs-lookup"><span data-stu-id="d1884-110">Distributed instances of each Microsoft 365 service and multiple routes to each service limit the impact of DDoS attacks against the system.</span></span> <span data-ttu-id="d1884-111">此冗余改进了 Microsoft 365 吸收 DDoS 攻击的能力，并增加了在影响服务可用性之前检测和缓解 DDoS 攻击的可用时间量。</span><span class="sxs-lookup"><span data-stu-id="d1884-111">This redundancy improves Microsoft 365's ability to absorb DDoS attacks and increases the amount of time available to detect and mitigate DDoS attacks before they impact service availability.</span></span>
+
+<span data-ttu-id="d1884-112">除了 Microsoft 的冗余系统体系结构之外，Microsoft 还使用完善的检测和缓解工具来响应 DDoS 攻击。</span><span class="sxs-lookup"><span data-stu-id="d1884-112">In addition to Microsoft's redundant system architecture, Microsoft uses sophisticated detection and mitigation tools to respond to DDoS attacks.</span></span> <span data-ttu-id="d1884-113">特殊用途的防火墙会监视并丢弃不需要的流量，然后将边界与网络交叉，从而减少了网络边界内的系统上的压力。</span><span class="sxs-lookup"><span data-stu-id="d1884-113">Special-purpose firewalls monitor and drop unwanted traffic before it crosses the boundary into the network, reducing stress on systems located inside the network boundary.</span></span> <span data-ttu-id="d1884-114">为了进一步保护我们的云服务，Microsoft 利用了在 Microsoft Azure 中部署的 DDoS 防御系统。</span><span class="sxs-lookup"><span data-stu-id="d1884-114">To further protect our cloud services, Microsoft utilizes a DDoS defense system deployed as part of Microsoft Azure.</span></span> <span data-ttu-id="d1884-115">Azure DDoS 防御系统旨在抵御来自外部的攻击以及来自其他 Azure 租户的攻击。</span><span class="sxs-lookup"><span data-stu-id="d1884-115">The Azure DDoS defense system is designed to withstand attacks from the outside as well as from other Azure tenants.</span></span>
+
+## <a name="how-does-microsoft-365-protect-users-against-spam-and-malware-being-uploaded-or-sent-through-online-services"></a><span data-ttu-id="d1884-116">Microsoft 365 如何保护用户免受通过在线服务上传或发送的垃圾邮件和恶意软件的侵害？</span><span class="sxs-lookup"><span data-stu-id="d1884-116">How does Microsoft 365 protect users against spam and malware being uploaded or sent through online services?</span></span>
+
+<span data-ttu-id="d1884-117">Microsoft 365 将反恶意软件保护转换为可能是恶意代码的媒介的服务，例如 Exchange Online 和 SharePoint Online。</span><span class="sxs-lookup"><span data-stu-id="d1884-117">Microsoft 365 builds antimalware protection into services that might be vectors for malicious code, such as Exchange Online and SharePoint Online.</span></span> <span data-ttu-id="d1884-118">Exchange Online Protection (EOP) 在电子邮件和电子邮件附件进入和退出系统时对其进行扫描，以防止传递受感染的邮件和附件。</span><span class="sxs-lookup"><span data-stu-id="d1884-118">Exchange Online Protection (EOP) scans all emails and email attachments for malware as they enter and exit the system, preventing infected messages and attachments from being delivered.</span></span> <span data-ttu-id="d1884-119">高级垃圾邮件筛选功能将自动应用于入站和出站邮件，以帮助防止客户组织接收和发送垃圾邮件。</span><span class="sxs-lookup"><span data-stu-id="d1884-119">Advanced spam filtering is automatically applied to inbound and outbound messages to help prevent customer organizations from receiving and sending spam.</span></span> <span data-ttu-id="d1884-120">这一层保护可抵御利用未经请求或未经授权的电子邮件的攻击，如网络钓鱼攻击。</span><span class="sxs-lookup"><span data-stu-id="d1884-120">This layer of protection guards against attacks that take advantage of unsolicited or unauthorized email, such as phishing attacks.</span></span> <span data-ttu-id="d1884-121">SharePoint Online 使用相同的病毒检测引擎来选择性地扫描上载的文件中的恶意软件。</span><span class="sxs-lookup"><span data-stu-id="d1884-121">SharePoint Online uses the same virus detection engine to selectively scan uploaded files for malware.</span></span> <span data-ttu-id="d1884-122">如果文件被标记为 "已感染"，则将阻止用户下载或同步文件以保护客户端终结点。</span><span class="sxs-lookup"><span data-stu-id="d1884-122">If a file is marked as infected, users are prevented from downloading or syncing the file to protect client endpoints.</span></span>
+
+## <a name="related-external-regulations--certifications"></a><span data-ttu-id="d1884-123">& 认证的相关外部法规</span><span class="sxs-lookup"><span data-stu-id="d1884-123">Related external regulations & certifications</span></span>
+
+<span data-ttu-id="d1884-124">将定期审核 Microsoft 的在线服务，以遵守外部法规和认证。</span><span class="sxs-lookup"><span data-stu-id="d1884-124">Microsoft's online services are regularly audited for compliance with external regulations and certifications.</span></span> <span data-ttu-id="d1884-125">有关与网络安全相关的控件的验证，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="d1884-125">Please refer to the following table for validation of controls related to network security.</span></span>
+
+| <span data-ttu-id="d1884-126">**外部审核**</span><span class="sxs-lookup"><span data-stu-id="d1884-126">**External audits**</span></span> | <span data-ttu-id="d1884-127">**Section**</span><span class="sxs-lookup"><span data-stu-id="d1884-127">**Section**</span></span> | <span data-ttu-id="d1884-128">**最新报告日期**</span><span class="sxs-lookup"><span data-stu-id="d1884-128">**Latest report date**</span></span> |
+|:--------------------|:------------|:-----------------------|
+| [<span data-ttu-id="d1884-129">FedRAMP (Office 365) </span><span class="sxs-lookup"><span data-stu-id="d1884-129">FedRAMP (Office 365)</span></span>](https://compliance.microsoft.com/compliancemanager) | <span data-ttu-id="d1884-130">SC-5：拒绝服务保护</span><span class="sxs-lookup"><span data-stu-id="d1884-130">SC-5: Denial of service protection</span></span> <br> <span data-ttu-id="d1884-131">SC-7：边界保护</span><span class="sxs-lookup"><span data-stu-id="d1884-131">SC-7: Boundary protection</span></span> <br> <span data-ttu-id="d1884-132">SI-2：缺陷修正</span><span class="sxs-lookup"><span data-stu-id="d1884-132">SI-2: Flaw remediation</span></span> <br> <span data-ttu-id="d1884-133">SI-3：恶意代码保护</span><span class="sxs-lookup"><span data-stu-id="d1884-133">SI-3: Malicious code protection</span></span> <br> <span data-ttu-id="d1884-134">SI-8：垃圾邮件保护</span><span class="sxs-lookup"><span data-stu-id="d1884-134">SI-8: Spam protection</span></span> | <span data-ttu-id="d1884-135">2020年9月24日</span><span class="sxs-lookup"><span data-stu-id="d1884-135">September 24, 2020</span></span> |
+| [<span data-ttu-id="d1884-136">SOC 1 (Office 365)</span><span class="sxs-lookup"><span data-stu-id="d1884-136">SOC 1 (Office 365)</span></span>](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=b07c0f7b-6bd5-4544-8255-7a5f14bf914a&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_/_SSAE_16_Reports) | <span data-ttu-id="d1884-137">CA-27：漏洞扫描</span><span class="sxs-lookup"><span data-stu-id="d1884-137">CA-27: Vulnerability Scanning</span></span> | <span data-ttu-id="d1884-138">2019 年 9 月 30 日</span><span class="sxs-lookup"><span data-stu-id="d1884-138">September 30, 2019</span></span> |
+| [<span data-ttu-id="d1884-139">SOC 2 (Office 365) </span><span class="sxs-lookup"><span data-stu-id="d1884-139">SOC 2 (Office 365)</span></span>](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=fa062990-e758-4ddc-ace3-7fb21a301d09&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_/_SSAE_16_Rep-11e9-b9e1-290b1eb4cdeb_SOC_/_SSAE_16_Reports) | <span data-ttu-id="d1884-140">CA-27：漏洞扫描</span><span class="sxs-lookup"><span data-stu-id="d1884-140">CA-27: Vulnerability Scanning</span></span> <br> <span data-ttu-id="d1884-141">CA-45：反恶意软件</span><span class="sxs-lookup"><span data-stu-id="d1884-141">CA-45: Anti-malware</span></span> | <span data-ttu-id="d1884-142">2019 年 9 月 30 日</span><span class="sxs-lookup"><span data-stu-id="d1884-142">September 30, 2019</span></span> |
