@@ -16,12 +16,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/30/2020
   localization_priority: Normal
-  ms.openlocfilehash: 6dabbb8599288d0291934135ef208b52b9ec0003
-  ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+  ms.openlocfilehash: 95c5b020d516d5fc7ccce6978c6f4cf0ad590b5f
+  ms.sourcegitcommit: 98b2d08699e942b4d4f3d7960df6e8e85030f5ec
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 11/30/2020
-  ms.locfileid: "49506383"
+  ms.lasthandoff: 12/01/2020
+  ms.locfileid: "49527119"
 conceptualContent:
   title: 适用于 Microsoft 365、Azure 云服务和其他 Microsoft 服务的合规性服务
   summary: Microsoft 提供了合规性产品，帮助组织遵守管理数据收集和使用的国家、地区和特定于行业的要求。
@@ -305,6 +305,8 @@ additionalContent:
         url: offering-tisax-germany.md
     - title: 区域
       links:
+      - text: " (新加坡) 的 ABS OSPAR"
+        url: offering-abs-ospar.md
       - text: 加拿大隐私法
         url: offering-canadian-privacy-laws.md
       - text: Cyber Essentials Plus（英国）
