@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0e04239b8dcbe50d054ec02f2164a301c775aaac
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 4766d0152e2ee5b372157dd56f28690161f04045
+ms.sourcegitcommit: 5ebe2ba746bba2d5058dcc0469a67e81fa3a8dce
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506621"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49559848"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>健康保险便携性和责任 (HIPAA) & 高科技行为
 
 ## <a name="hipaa-and-the-hitech-act-overview"></a>HIPAA 和高科技法案概述
 
-健康保险便携性和责任法案 (HIPAA) 是美国医疗保健法律，它建立了对单独可识别的健康信息的使用、披露和保护的要求。 它适用于已覆盖的实体—医生的办公室、医院、健康保险公司和其他医疗保健公司—可访问患者的受保护健康状态信息 (PHI) 以及代表其处理 PHI 的商业联合会（如云服务和 IT 提供商）。  (大多数覆盖的实体不会自行执行诸如声明或数据处理之类的功能;他们依靠业务相关人员来执行此操作。 ) 
+健康保险便携性和责任法案 (HIPAA) 是美国医疗保健法律，它建立了对单独可识别的健康信息的使用、披露和保护的要求。 它适用于已覆盖的实体、医生的办公室、医院、健康保险公司和其他医疗保健公司，并可访问患者的受保护健康状态信息 (PHI) 以及代表其处理 PHI 的业务联合会（如云服务和 IT 提供商）。  (大多数覆盖的实体不会自行执行诸如声明或数据处理之类的功能;他们依靠业务相关人员来执行此操作。 ) 
 
 法律规定了在四个常规方面使用和分发 PHI：
 
@@ -45,7 +45,7 @@ HIPAA 的范围已通过 enactment 的运行状况信息技术（针对经济和
 
 ## <a name="microsoft-and-hipaa-and-the-hitech-act"></a>Microsoft 和 HIPAA 和高科技法案
 
-HIPAA 管理法规要求涵盖的实体及其业务关联—在这种情况下，Microsoft 在将服务（包括云服务）提供给涉及的实体时，请进入合同以确保这些商业协会能够充分保护 PHI。 这些合同或 Baa 可阐明和限制业务助理处理 PHI 的方式，并规定每个团体对 HIPAA 和高科技法案中规定的安全性和隐私设置的遵守情况。在 BAA 之后，Microsoft 客户（即 "已覆盖的实体"）可以使用其服务来处理和存储 PHI。
+HIPAA 法规要求涵盖的实体及其业务关联，在这种情况下，Microsoft 在将服务（包括云服务）提供给涵盖的实体时，请输入合同以确保这些商业协会能够充分保护 PHI。 这些合同或 Baa 可阐明和限制业务助理处理 PHI 的方式，并规定每个团体对 HIPAA 和高科技法案中规定的安全性和隐私设置的遵守情况。BAA 准备就绪后，Microsoft 客户 (覆盖的实体) 可以使用其服务处理和存储 PHI。
 
 目前，HIPAA 或高科技法案不符合官方认证。 但是，BAA 下所涵盖的这些 Microsoft 服务已完成由 Microsoft ISO/IEC 27001 认证的经过资格鉴定的独立审计员的审核。
 
@@ -57,8 +57,9 @@ Microsoft 企业云服务也受 FedRAMP 评估的覆盖。 Microsoft Azure 和 M
 
 - [Azure 与 Azure 政府](https://aka.ms/AzureCompliance)
 - Microsoft 云应用安全
-- [Microsoft Cloud for Healthcare](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
-- Microsoft Microsoft 医疗保健机器人服务
+- [适用于医疗保健的 Microsoft 云](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
+- Microsoft 医疗保健机器人服务
+- Microsoft 托管桌面
 - Microsoft Stream
 - Microsoft 专业服务：针对 Azure、Dynamics 365、Intune 及 Microsoft 365 商业版中型企业客户的高级和本地支持。
 - [Dynamics 365 和 Dynamics 365 美国政府](https://aka.ms/d365-compliance-list)
@@ -71,9 +72,7 @@ Microsoft 企业云服务也受 FedRAMP 评估的覆盖。 Microsoft Azure 和 M
 
 ## <a name="accelerate-your-deployment-of-hipaahitrust-solutions-on-azure"></a>在 Azure 上加快对 HIPAA/HITRUST 解决方案的部署
 
-首先利用云针对运行状况数据解决方案与 Azure 安全性和合规性蓝图（HIPAA/HITRUST 运行状况数据和 AI）的优势。 此蓝图提供的工具和指南可帮助您立即开始构建 HIPAA/HITRUST 解决方案。
-
-[开始使用 Azure HIPAA/HITRUST 蓝图](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
+通过 [Azure 安全性和合规性蓝图： HIPAA/HITRUST 运行状况数据和 AI](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)，充分利用云在运行状况数据解决方案方面的优势。 此蓝图提供的工具和指南可帮助您立即开始构建 HIPAA/HITRUST 解决方案。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -95,7 +94,7 @@ Microsoft 无法修改 HIPAA BAA，因为 Microsoft 服务对所有客户都是�
 
 **如何获取审计员的报告的副本？**
 
-该[服务信任门户](https://www.microsoft.com/trustcenter/STP/default.aspx)提供独立审核的合规性报告。 您可以使用门户请求审核报告，以便您的审计员能够将 Microsoft 的云服务结果与您自己的法律和法规要求进行比较。
+[服务信任门户](https://www.microsoft.com/trustcenter/STP/default.aspx)提供独立审核的合规性报告。 您可以使用门户请求审核报告，以便您的审计员能够将 Microsoft 的云服务结果与您自己的法律和法规要求进行比较。
 
 **如何了解有关遵守 HIPAA 和高科技法案的更多信息？**
 
