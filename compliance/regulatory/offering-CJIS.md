@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 46de9832d4ba155e0e500462b7c82fad16a3bda2
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 05458ef4c0ef85a00939f53698639ef1be9174ff
+ms.sourcegitcommit: 7651cdc4af88278aef02114b4331d8d379f10def
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506493"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568658"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>刑事审判信息服务 (CJIS) 安全策略
 
@@ -31,7 +31,7 @@ ms.locfileid: "49506493"
 
 CJIS 安全策略集成了总统和 FBI 指令、联邦法律和犯罪审判社区的咨询策略董事会决策，以及美国国家标准和技术协会 (NIST) 的指导。 定期更新策略以反映日益增长的安全要求。
 
-CJIS 安全策略定义了专用承包商（如云服务提供商）必须评估的13个方面，以确定其云服务的使用是否符合 CJIS 要求。 这些领域与 NIST 800-53 密切对应，这也是联邦风险和授权管理计划 ([FedRAMP (Office 365) ](offering-FedRAMP.md)) 的基础，Microsoft 已针对其政府云产品认证了一个计划。
+CJIS 安全策略定义了专用承包商（如云服务提供商）必须评估的13个方面，以确定其云服务的使用是否符合 CJIS 要求。 这些领域与 NIST 800-53 密切对应，这也是 [联邦风险和授权管理计划的基础 (FedRAMP) ](offering-FedRAMP.md)（Microsoft 已针对其政府云产品认证的程序）。
 
 此外，处理 CJI 的所有私有承包商必须签署 CJIS 安全附录，这是由美国律师通用批准的统一协议，可帮助确保安全策略所需的安全性和机密性。 它还承诺承包商遵守联邦和州法律、法规和标准，使安全计划保持一致，并将 CJI 的使用限制为政府机构向其提供的目的。
 
@@ -47,9 +47,9 @@ Microsoft 已评估 Microsoft Azure 政府、Microsoft Office 365 美国政府�
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
-- [Azure 政府](https://aka.ms/AzureCompliance)
-- [美国政府 Dynamics 365](https://aka.ms/d365-compliance-list)
-- [Office 365 美国政府版](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Azure 政府](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome)
+- [美国政府 Dynamics 365](https://docs.microsoft.com/power-platform/admin/microsoft-dynamics-365-government#certifications-and-accreditations)
+- [Office 365 美国政府版](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance)
 - Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
@@ -82,7 +82,7 @@ Microsoft 使用州 CJIS Systems 代理商 (CSA) 签署信息协议;你可以从
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)的一项功能，可帮助你了解组织的合规态势，并采取行动以帮助降低风险。合规性管理器提供了一个高级模板，用于构建该法规的评估。在合规性管理器的 **评估模板** 页面中找到该模板。了解如何 [在合规管理器中构建评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

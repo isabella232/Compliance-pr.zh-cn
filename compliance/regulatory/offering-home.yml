@@ -3,7 +3,7 @@ title: Microsoft 合规性产品/服务
 summary: 了解 Microsoft 产品和服务如何帮助您的组织满足法规遵从性标准。
 brand: m365
 metadata:
-  title: 适用于 Microsoft 365、Azure 云服务和其他 Microsoft 服务的合规性服务。
+  title: 适用于 Microsoft 365、Azure 和其他 Microsoft 服务的合规性服务。
   description: 了解 Microsoft 产品和服务如何帮助您的组织满足法规遵从性标准。
   services: service
   ms.service: O365-seccomp
@@ -16,14 +16,14 @@ metadata:
   ms.author: robmazz
   ms.date: 11/30/2020
   localization_priority: Normal
-  ms.openlocfilehash: 95c5b020d516d5fc7ccce6978c6f4cf0ad590b5f
-  ms.sourcegitcommit: 98b2d08699e942b4d4f3d7960df6e8e85030f5ec
+  ms.openlocfilehash: 46592794abb76821595c95cea2d66cd529d727c5
+  ms.sourcegitcommit: 7651cdc4af88278aef02114b4331d8d379f10def
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 12/01/2020
-  ms.locfileid: "49527119"
+  ms.lasthandoff: 12/03/2020
+  ms.locfileid: "49568648"
 conceptualContent:
-  title: 适用于 Microsoft 365、Azure 云服务和其他 Microsoft 服务的合规性服务
+  title: 适用于 Microsoft 365、Azure 和其他 Microsoft 服务的合规性产品
   summary: Microsoft 提供了合规性产品，帮助组织遵守管理数据收集和使用的国家、地区和特定于行业的要求。
   items:
   - title: 全球
@@ -260,8 +260,8 @@ conceptualContent:
       text: TRUCS（中国）
 additionalContent:
   sections:
-  - title: 专用于 Azure 云服务的合规性产品
-    summary: 专门针对 Azure 云服务的合规性产品，可帮助组织遵守管理数据收集和使用的国家、地区和特定于行业的要求。
+  - title: 专用于 Azure 的合规性产品
+    summary: 适用于 Azure 的符合性产品，可帮助您的组织遵守管理数据收集和使用的国家、地区和特定于行业的要求。
     items:
     - title: 全球
       links:
