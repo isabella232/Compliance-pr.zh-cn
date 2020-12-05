@@ -1,13 +1,12 @@
 ---
 title: Microsoft 365 中的内置服务弹性
 description: Microsoft 365 服务弹性的说明
-author: chrfox
-ms.author: chrfox
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.reviewer: sosstah
 f1.keywords:
 - NOCSH
-ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -17,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 3ef398ef41516d6598bdec9b6e537b37577ef864
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: ee9c7d898af13b9a1db95913a98be09eea8cd27f
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505919"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574754"
 ---
 # <a name="built-in-service-resiliency-in-microsoft-365"></a>Microsoft 365 中的内置服务弹性
 
@@ -36,17 +35,17 @@ ms.locfileid: "49505919"
 
 ## <a name="activeactive-design"></a>主动/主动设计
 
-在 Microsoft 365 中，我们正努力采用主动/主动设计来架构和操作所有服务，从而提高恢复能力。 这意味着始终有服务的多个实例在运行，它们可以响应用户请求，并且托管在地理位置分散的数据中心中。 所有用户流量都通过 Microsoft Front Door 服务进入，并自动路由到服务的最佳位置实例，并围绕任何服务故障来防止或减少对客户的影响。
+在 Microsoft 365 中，我们正在努力让所有服务在主动/主动设计中进行设计和操作，从而提高恢复能力。 这意味着始终有服务的多个实例在运行，它们可以响应用户请求，并且托管在地理位置分散的数据中心中。 所有用户流量都通过 Microsoft Front Door 服务进入，并自动路由到服务的最佳位置实例，并围绕任何服务故障来防止或减少对客户的影响。
 
 ## <a name="reduce-incident-scope"></a>缩小事件范围
 
 服务事件的范围由其严重程度、持续时间和受影响的客户数量来衡量。 我们努力通过以下方式限制所有事件的范围：
 
 - 将每个服务的多个实例彼此隔离
-- 使用验证通道以受控渐进的方式部署更新，以便在部署过程的早期检测并缓解更新中可能出现的任何问题。 这允许在需要时对更新进行回归，并且首先在 Microsoft 内的一个较小组（内部通道）中进行，再将其部署到更大的组（如所有 140,000 名 Microsoft 员工的组）（通道 2），然后再部署到早期采用者通道（通道 3），最后向所有客户全局部署（通道 4）。
-- 通过自动化推动监视方面的改进。 Microsoft 365 非常庞大，SLA 目标正常运行时间也很高。 在服务事件的最开始，如果必须让人参与检测和响应，那么我们的响应速度将无法满足 SLA。 自动化是快速高效地检测和响应服务事件的关键。 我们越早知道问题，就能越快地解决它。
+- 使用验证通道以受控渐进的方式部署更新，以便在部署过程的早期检测并缓解更新中可能出现的任何问题。 如果需要，这将允许对更新进行回归分析，并在将其部署到 Microsoft (内部环) 中的一小组中之前发生，如所有 140000 Microsoft 员工 (ring 2) ，然后针对 () 的早期采用者环，最终针对所有客户全局 (ring 4) 。
+- 通过自动化推动监视方面的改进。 Microsoft 365 是一种大型服务，SLA 目标运行时间较高。 在服务事件的最开始，如果必须让人参与检测和响应，那么我们的响应速度将无法满足 SLA。 自动化是快速高效地检测和响应服务事件的关键。 我们越早知道问题，就能越快地解决它。
 
-这些努力与内置在 Microsoft 365 服务体系结构中的主动/主动功能相结合，可减轻受影响客户在服务事件期间的严重性、持续时间和数量。  
+除了内置于 Microsoft 365 服务体系结构中的主动/主动功能之外，这些努力还减轻了服务事件中的严重性、持续时间和受影响客户的数量。  
 
 ## <a name="fault-isolation"></a>故障隔离
 

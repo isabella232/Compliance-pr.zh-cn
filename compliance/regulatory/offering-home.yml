@@ -16,12 +16,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/30/2020
   localization_priority: Normal
-  ms.openlocfilehash: 46592794abb76821595c95cea2d66cd529d727c5
-  ms.sourcegitcommit: 7651cdc4af88278aef02114b4331d8d379f10def
+  ms.openlocfilehash: c2b86ee57029c300a6179861b9aace64e3cf491f
+  ms.sourcegitcommit: ebf63302d9ffa6a93255c88f660ef27b0bc696d6
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 12/03/2020
-  ms.locfileid: "49568648"
+  ms.lasthandoff: 12/05/2020
+  ms.locfileid: "49581167"
 conceptualContent:
   title: 适用于 Microsoft 365、Azure 和其他 Microsoft 服务的合规性产品
   summary: Microsoft 提供了合规性产品，帮助组织遵守管理数据收集和使用的国家、地区和特定于行业的要求。
@@ -45,9 +45,6 @@ conceptualContent:
     - url: offering-ISO-27018.md
       itemType: reference
       text: ISO 27018
-    - url: offering-ISO-27701.md
-      itemType: reference
-      text: ISO 277011
     - url: offering-soc.md
       itemType: reference
       text: SOC

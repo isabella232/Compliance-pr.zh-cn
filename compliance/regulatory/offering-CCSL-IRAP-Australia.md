@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5f1eba5677869e337764b4b0864fac27222d4d77
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: b2b7374eff6bcce8f0c36f6bc40709123041a2a7
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506656"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574874"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>澳大利亚政府信息安全注册评估员计划 (IRAP) 
 
@@ -68,6 +68,7 @@ Microsoft 的服务的 IRAP 评估有助于向政府及其合作伙伴的公共�
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
 - [Azure 和 Dynamics](https://aka.ms/AzureCompliance)
+- Microsoft 托管桌面
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
@@ -90,7 +91,7 @@ IRAP 适用于所有使用云服务的澳大利亚联邦、州和本地政府机
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)的一项功能，可帮助你了解组织的合规态势，并采取行动以帮助降低风险。合规性管理器提供了一个高级模板，用于构建该法规的评估。在合规性管理器的 **评估模板** 页面中找到该模板。了解如何 [在合规管理器中构建评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 
