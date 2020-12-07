@@ -1,5 +1,7 @@
 - name: Microsoft 合规性产品/服务
   items:
+    - name: Microsoft 合规性产品/服务
+      href: offering-home.yml
     - name: 全球
       items:
         - name: CIS 基准
@@ -80,7 +82,7 @@
               href: offering-apra-australia.md
             - name: AMF 和 ACPR（法国）
               href: offering-amf-acpr-france.md
-            - name: 'CFTC 1.31 (美国) '
+            - name: CFTC 1.31（美国）
               href: offering-cftc-1-31-us.md
             - name: EBA（欧盟）
               href: offering-eba-eu.md
@@ -226,6 +228,8 @@
       items:
         - name: 亚洲
           items:
+            - name: ABS OSPAR （新加坡）
+              href: offering-abs-ospar.md
             - name: CS Mark (Gold)（日本）
               href: offering-cs-mark-gold-japan.md
             - name: DJCP（中国）
@@ -292,7 +296,7 @@
               href: offering-pdpa-argentina.md
 - name: 一般数据保护条例 (GDPR)
   items:
-    - name: GDPR 概述
+    - name: GDPR 概述。
       href: gdpr.md
     - name: 适用于 GDPR 的建议行动计划
       href: gdpr-action-plan.md
@@ -314,11 +318,11 @@
       items:
         - name: 数据主体请求
           href: gdpr-data-subject-requests.md
-        - name: 使用 DSR 事例工具管理数据主体请求
+        - name: 使用 DSR 案例工具管理数据主题请求
           href: gdpr-manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md
         - name: Azure
           href: gdpr-dsr-azure.md
-        - name: Azure DevOps 服务
+        - name: Azure DevOps Services
           href: gdpr-dsr-vsts.md
         - name: Dynamics 365
           href: gdpr-dsr-dynamics365.md
@@ -328,7 +332,7 @@
           href: gdpr-dsr-prof-services.md
         - name: Office 365
           href: gdpr-dsr-office365.md
-        - name: Visual Studio 系列
+        - name: Visual Studio 系列产品
           href: gdpr-dsr-visual-studio-family.md
         - name: Windows Enterprise
           href: gdpr-dsr-windows.md
@@ -344,7 +348,7 @@
           href: gdpr-breach-office365.md
         - name: Windows Enterprise
           href: gdpr-breach-windows.md
-    - name: 数据保护影响声明
+    - name: 数据保护影响评估
       items:
         - name: 数据保护影响评估
           href: gdpr-data-protection-impact-assessments.md
@@ -366,17 +370,17 @@
           href: gdpr-for-sharepoint-server.md
         - name: 用于 Exchange Server 的 GDPR
           href: gdpr-for-exchange-server.md
-        - name: 适用于 Skype for business Server & Lync Server 的 GDPR
+        - name: 用于 Skype for Business Server 和 Lync Server 的 GDPR
           href: gdpr-for-skype-for-business-server.md
         - name: 适用于 Project Server 的 GDPR
           href: gdpr-for-project-server.md
-        - name: 适用于 Office Web Apps Server & Office Online Server 的 GDPR
+        - name: 适用于 Office Web Apps Server 和 Office Online Server 的 GDPR
           href: gdpr-for-office-online-server.md
         - name: 用于本地 Windows Server 文件共享的 GDPR
           href: gdpr-for-on-premises-file-shares.md
-    - name: 导出数据的其他步骤
+    - name: 导出数据所需的其他步骤
       href: gdpr-system-generated-log-data.md
-    - name: 适用于 Office 365 开发/测试环境的 GDPR
+    - name: 有关 Office 365 开发/测试环境的 GDPR
       href: gdpr-discovery-protection-reporting-in-Office365-dev-test-environment.md
 - name: 加州消费者隐私法案 (CCPA)
   items:
