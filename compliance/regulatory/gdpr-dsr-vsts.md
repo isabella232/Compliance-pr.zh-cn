@@ -1,15 +1,15 @@
 ---
-title: 符合 GDPR 和 CCPA 的 Azure DevOps 数据主体请求
+title: 针对 GDPR 和 CCPA 的 Azure DevOps 数据主体请求
+description: 了解如何使用 Microsoft 工具在经过身份验证的 Azure DevOps Services 的会话过程中导出或删除所收集的个人数据。
 keywords: Visual Studio Team Services, VSTS, Azure DevOps 文档, 隐私, GDPR, CCPA
 localization_priority: Priority
 audience: itpro
 ms.prod: devops
 ms.topic: article
-ms.date: 06/11/2018
 author: robmazz
+ms.author: robmazz
 f1.keywords:
 - NOCSH
-ms.author: robmazz
 manager: laurawi
 ms.collection:
 - GDPR
@@ -18,14 +18,13 @@ ms.collection:
 ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
-description: 了解如何使用 Microsoft 工具在经过身份验证的 Azure DevOps Services 的会话过程中导出或删除所收集的个人数据。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2c8e0f91af1b2779ac8f5af08c555976a757a24
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 9918046fc0e76bdfbccd5e199f4e576c77f4ca67
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506528"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574824"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Azure DevOps Services 数据主体请求
 
