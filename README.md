@@ -1,16 +1,16 @@
 ---
-ms.openlocfilehash: 2ce4a47728eb3d89101c77a6cec200d7ea2a3ac8
-ms.sourcegitcommit: 18c7e403d6ffbc9afa323fadc04c673dbb7bd391
+ms.openlocfilehash: 61aafc556b30f5de9dabe5e67a5176b02b19ab28
+ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620767"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49669703"
 ---
 # <a name="overview"></a>概述
 
 ## <a name="learn-how-to-contribute"></a>了解如何参与
 
-任何感兴趣的人都可以为主题做贡献。 参与时，工作将在合并后直接进入内容集。 然后，它会显示在docs.microsoft.com，你将在： <https://github.com/MicrosoftDocs/microsoft-365-docs/graphs/contributors>
+任何感兴趣的人都可以为主题做贡献。 参与时，工作将在合并后直接进入内容集。 然后，它会显示在docs.microsoft.com，你将在： <https://github.com/MicrosoftDocs/compliance/graphs/contributors>
 
 ### <a name="quickly-update-an-article-using-githubcom"></a>使用工具快速更新GitHub.com
 
@@ -41,12 +41,12 @@ ms.locfileid: "49620767"
 
    !["比较更改"页](compliance/media/comparing-changes-page.png)
 
-8. 在出现的 **"打开拉取** 请求"页上，单击绿色的" **创建拉取请求"** 按钮。
+8. 在出现的 **"打开拉取** 请求"页上，单击绿色" **创建拉取请求"** 按钮。
 
    ![打开拉取请求页](compliance/media/open-a-pull-request-page.png)
 
 > [!NOTE]
-> 您的存储库权限决定了在上几个步骤中所看到的内容。 没有特殊权限的用户将看到"建议 **文件** 更改"部分和后续确认页面，如所述。 有权创建和批准自己的拉取请求的用户将看到类似的"提交更改"部分，该部分具有用于创建新分支的额外选项和更少的确认页面。<br/><br/>要点是：单击任何呈现给你绿色按钮，直到不再显示任何绿色按钮。
+> 您的存储库权限决定了在上几个步骤中所看到的内容。 没有特殊权限的用户将看到"建议 **文件** 更改"部分和后续确认页面，如所述。 具有创建和批准自己的拉取请求的权限的用户会看到类似的"提交更改"部分，该部分具有用于创建新分支的额外选项和更少的确认页面。<br/><br/>要点是：单击任何呈现给你绿色按钮，直到不再显示任何绿色按钮。
 
 将在主题元数据中标识的编写器收到通知，并最终审阅和批准更改，以便主题在docs.microsoft.com。 如果对更新有疑问或问题，编写器将联系你。
 
