@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 60e7f3540a3481111dceb496a37e76e68bd1b575
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f4e2061b38f9f3a57ea78222027a7fd6948b9feb
+ms.sourcegitcommit: c8731c8fa464a74be925b00d6dd3f7eb50594408
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506475"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49716868"
 ---
 # <a name="microsoft-support-and-professional-services-accountability-readiness-checklist-for-the-gdpr"></a>适用于 GDPR 的 Microsoft 支持和专业服务责任就绪清单
 
@@ -33,7 +33,7 @@ ms.locfileid: "49506475"
 - [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail?pid=000000000030351736) 隐私信息管理技术和要求。
 - [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) 安全技术要求。
 
-此控件结构还用于组织 Microsoft 专业服务为支持 GDPR 而实现的内部控件的演示文稿（可从[服务信任门户](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)下载）。
+此控件结构还用于组织 Microsoft 专业服务为支持 GDPR 而实现的内部控件的演示文稿（可从[服务信任门户](https://aka.ms/ctrgdprcontrols)下载）。
 
 ## <a name="2-conditions-for-collection-and-processing"></a>2. 收集和处理的条件
 
@@ -42,10 +42,10 @@ ms.locfileid: "49506475"
 |**_识别并记录目的 (7.2.1)_* _ |客户应记录个人数据的处理目的。|你的责任文档可以纳入 Microsoft 为你执行的数据处理和处理目的说明。<br>- Microsoft 专业服务数据保护附录 [[1](gdpr-arc-prof-services.md#1)]|(5)(1)(b)、(32)(4)|
 |_*_确定法律依据 (7.2.2)_*_|客户应了解与处理过程的法律依据相关的任何要求，例如是否必须首先给予同意。|Microsoft 服务如何处理个人数据的说明（将纳入你的责任文档）。<br>- Microsoft 专业服务适用的客户数据保护影响评估关键信息 [[9](gdpr-arc-prof-services.md#9)]|(5)(1)(a)、(6)(1)(a)、(6)(1)(b)、(6)(1)(c)、(6)(1)(d)、(6)(1)(e)、(6)(1)(f)、(6)(3)、(6)4)(a)、(6)(4)(b)、(6)(4)(c)、(6)(4)(d)、(6)(4)(e)、(8)(3)、(9)(1)、(9)(2)(b)、(9)(2)(c)、(9)(2)(d)、(9)(2)(e)、(9)(2)(f)、(9)(2)(g)、(9)(2)(h)、(9)(2)(i)、(9)(2)(j)、(9)(3)、(9)(4)、(10)、(17)(3)(a)、(17)(3)(b)、(17)(3)(c)、(17)(3)(d)、(17)(3)(e)、(18)(2)、(22)(2)(a)、(22)(2)(b)、(22)(2)(c)、(22)(4)|
 |_*_确定何时征得同意 (7.2.3)_*_ |在处理个人数据（有需要的情况、处理类型超出要求范围等）之前，客户应了解征得个人同意的法律或法规要求，包括如何收集同意。|Microsoft 专业服务不直接支持征得用户许可。|(6)(1)(a)、(8)(1)、(8)(2)|
-|_*_征得和记录许可 (7.2.4)_*_|如果确定必须这样做，客户应相应征得许可。此外，客户还应注意任何有关如何提出和收集许可请求的要求|Microsoft 专业服务不直接支持征得用户许可。|(7)(1)、(7)(2)、(9)(2)(a)|
+|_*_征得和记录同意 (7.2.4)_*_|当确定需要执行此操作时，客户应适当地征得同意。此外，客户还应该了解如何提出和收集征得同意的请求。|Microsoft 专业服务不直接支持征得用户许可。|(7)(1)、(7)(2)、(9)(2)(a)|
 |_*_隐私影响评估 (7.2.5)_*_|客户应了解完成隐私影响评估的要求（何时执行、需要哪些类别的数据以及完成评估的时间）。|Microsoft 专业服务在服务信任门户[数据保护影响评估 (DPIA) 页面](https://servicetrust.microsoft.com/ViewPage/GDPRDPIA)中提供了何时以及如何确定何时执行 DPIA 的说明，以及 Microsoft DPIA 计划（包括涉及的 DPO）的概述。<p>若要获取 DPIA 方面的支持，请访问：<br>- Microsoft 专业服务适用的客户数据保护影响评估关键信息 [[9](gdpr-arc-prof-services.md#9)]</p>|文章 (35)|
 |_*_与 PII 处理者签订合同 (7.2.6)_*_|客户应确保其与处理者的合同包括帮助处理与处理和保护个人数据相关的任何相关法律或法规义务的要求。|Microsoft 合同要求我们协助你履行 GDPR 规定的义务，包括支持数据主体权利。<br>- Microsoft 专业服务数据保护附录 [[1](gdpr-arc-prof-services.md#1)]|(5)(2)、(28)(3)(e)、(28)(9)|
-|_*_与处理 PII 有关的记录 (7.2.7)_*_|客户应保存与处理个人数据相关的所有必要和必需的记录（例如用途、安全措施等）。如果某些记录必须由次级处理者提供，则客户应该要确保他们可以获取这些记录。|Microsoft 专业服务维护必要记录来证明合规性以及支持履行 GDPR 规定的责任。请参阅 Microsoft 专业服务安全文档 [[2](gdpr-arc-prof-services.md#2)]|(5)(2)、(24)(1)、(30)(1)(a)、(30)(1)(b)、(30)(1)(c)、(30)(1)(d)、(30)(1)(g)、(30)(1)(f)、(30)(3)、(30)(4)、(30)(5)|
+|_*_与处理 PII 有关的记录 (7.2.7)_*_|客户应保存与处理个人数据相关的所有必要和必需的记录（例如用途、安全措施等）。 如果某些记录必须由次级处理者提供，则客户应确保他们可以获取这些记录。|Microsoft 专业服务维护必要记录以证明合规性以及支持履行 GDPR 规定的责任。 请参阅 Microsoft 专业服务安全文档[[2](gdpr-arc-prof-services.md#2)]|(5)(2)、(24)(1)、(30)(1)(a)、(30)(1)(b)、(30)(1)(c)、(30)(1)(d)、(30)(1)(g)、(30)(1)(f)、(30)(3)、(30)(4)、(30)(5)|
 
 ## <a name="3-rights-of-data-subjects"></a>3. 数据主体的权限
 
@@ -53,7 +53,7 @@ ms.locfileid: "49506475"
 |:-----|:-----|:-----|:-----|
 | **_确定 PII 主体的权限并启用练习 (7.3.1)_* _| 客户应了解与处理其个人数据相关的个人权限的要求。这些权限包括访问、更正和清除等。如果客户使用第三方系统，他们应该确定系统中的哪些部分（如果存在）提供与使个人能够行使其权限（例如访问其数据）相关的工具。系统提供这些功能时，客户应根据需要进行使用。 | Microsoft 提供的功能，有助于你支持数据主体权利。<br>符合 GDPR 和 CCPA 的 Microsoft 专业服务数据主体请求 [[7](gdpr-arc-prof-services.md#7)]<br>Microsoft 专业服务 ISO/IEC 27001:2013 ISMS 适用性声明 [[11](gdpr-arc-prof-services.md#11)] | (12)(2) |
 | _*_确定 PII 主体（数据主体）的信息 (7.3.2)_*_ | 客户应了解有关可提供给个人的个人数据的处理的信息类型的要求。这可能包括如下类似信息：<br>• 有关控制者及其代表的联系人详细信息；<br>• 有关处理的信息（目的、国际传输和相关安全措施、保留时间等）；<br>• 主体如何访问和/或修改其个人数据的信息；请求清除或限制处理；接收其个人数据的副本，及其个人数据的可移植性<br>• 获取个人数据的来源和方法（如果不是从主体直接获取）<br>• 有关提起诉讼的权限和向谁提起诉讼的信息；<br>• 有关更正个人数据的信息；<br>• 组织不再如往常一样识别数据主体（PII 主体）的通知（如果处理不再需要识别数据主体）；<br>• 个人数据的传输和/或泄露；<br>• 仅基于个人数据自动化处理的自动化决策的存在；<br>• 有关数据主体信息的更新和提供频率的信息（例如，“及时”通知、组织定义的频率等）<br>在客户使用第三方系统或处理器时，他们应确定其中的哪些信息（如果有）需要由他们提供，以确保他们可以从第三方获取所需的信息。 | 可以在向数据主体提供的数据中添加的 Microsoft 服务相关信息。<br>符合 GDPR 和 CCPA 的 Microsoft 专业服务数据主体请求 [[7](gdpr-arc-prof-services.md#7)]<br>- Microsoft 专业服务适用的客户数据保护影响评估关键信息 [[9](gdpr-arc-prof-services.md#9)] | (11)(2)、(13)(1)(a)、(13)(1)(b)、(13)(1)(c)、(13)(1)(d)、(13)(1)(e)、(13)(1)(f)、(13)(2)(c)、(13)(2)(d)、(13)(2)(e)、(13)(3)、(13)(4)、(14)(1)(a)、(14)(1)(b)、(14)(1)(c)、(14)(1)(d)、(14)(1)(e)、(14)(1)(f)、(14)(2)(b)、(14)(2)(e)、(14)(2)(f)、(14)(3)(a)、(14)(3)(b)、(14)(3)(c)、(14)(4)、(14)(5)(a)、(14)(5)(b)、(14)(5)(c)、(14)(5)(d)、(15)(1)(a)、(15)(1)(b)、(15)(1)(c)、(15)(1)(d)、(15)(1)(e)、(15)(1)(f)、(15)(1)(g)、(15)(1)(h)、(15)(2)、(18)(3)、(21)(4) |
-| _*_向 PII 主体提供信息 (7.3.3)_*_ | 客户应遵守有关所需信息如何/何时/以何种形式向与处理其个人数据相关的个人提供的所有要求。如果第三方提供所需信息，则客户应确保该信息符合 GDPR 要求的参数。 | 可以在向数据主体提供的数据中添加的、关于 Microsoft 专业服务的模板化信息。<br>- 符合 GDPR 的 Microsoft 专业服务数据主体请求 [[7](gdpr-arc-prof-services.md#7)]<br>- Microsoft 专业服务适用的客户数据保护影响评估关键信息 [[9](gdpr-arc-prof-services.md#9)]  | (11)(2)、(12)(1)、(12)(7)、(13)(3)、(21)(4) |
+| _*_向 PII 主体提供信息 (7.3.3)_*_ | 客户应遵守有关所需信息如何/何时/以何种形式向与处理其个人数据相关的个人提供的所有要求。如果第三方提供所需信息，则客户应确保该信息符合 GDPR 要求的参数。 | 可以在向数据主体提供的数据中添加的 Microsoft 专业服务的模板化信息。<br>符合 GDPR 和 CCPA 的 Microsoft 专业服务数据主体请求 [[7](gdpr-arc-prof-services.md#7)]<br>- Microsoft 专业服务适用的客户数据保护影响评估关键信息 [[9](gdpr-arc-prof-services.md#9)]  | (11)(2)、(12)(1)、(12)(7)、(13)(3)、(21)(4) |
 | _*_提供修改或撤销同意的机制 (7.3.4)_*_ | 客户应了解通知用户有权访问、更正和/或清除其个人数据以及提供使他们可以执行上述操作的机制的要求。如果使用第三方系统并将此机制作为其功能的一部分提供，则客户应根据需要使用该功能。 | 可用于定义在请求征得许可时向数据主体提供的信息的 Microsoft 服务功能相关信息。<br>符合 GDPR 和 CCPA 的 Microsoft 专业服务数据主体请求 [[7](gdpr-arc-prof-services.md#7)] | (7)(3)、(13)(2)(c)、(14)(2)(d)、(18)(1)(a)、(18)(1)(b)、(18)(1)(c)、(18)(1)(d) |
 | _*_提供反对处理机制 (7.3.5)_*_ | 客户应了解有关数据主体权限的要求。如果个人有权反对处，则客户应该通知他们，并且提供个人提出其异议的方式。 | 可以在向数据主体提供的数据中添加的、与要处理的对象相关的 Microsoft 服务相关信息。<br>符合 GDPR 和 CCPA 的 Microsoft 专业服务数据主体请求 [[7](gdpr-arc-prof-services.md#7)] | (13)(2)(b)、(14)(2)(c)、(21)(1)、(21)(2)、(21)(3)、(21)(5)、(21)(6) |
 | _*_PII 主体权利行使共享 (7.3.6)_*_ | 在行使个人权利（例如个人请求清除或修改等）的基础上，客户应了解在通知已与其共享个人数据的第三方数据修改实例方面存在的要求 | 便于你发现与第三方共享的个人数据的 Microsoft 服务功能相关信息。<br>符合 GDPR 和 CCPA 的 Microsoft 专业服务数据主体请求 [[7](gdpr-arc-prof-services.md#7)] | (19) |
@@ -133,7 +133,7 @@ ms.locfileid: "49506475"
 | 7 <a name="7"> </a> | [符合 GDPR 和 CCPA 的 Microsoft 专业服务数据主体请求](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-prof-services)| |
 | 8 <a name="8"> </a> | [Microsoft 专业服务和 GDPR 规定的泄露通知](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services) | |
 |  9 <a name="9"> </a> | [Microsoft 专业服务适用的客户数据保护影响评估关键信息](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services) | |
-| 10 <a name="10"> </a> | [ISO 27001 审核报告](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=7e71ff67-7609-43e6-9d68-4ceea0b41b50&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) | |
+| 10 <a name="10"> </a> | [ISO 27001 审核报告](https://aka.ms/CTRIsoassess) | |
 | 11 <a name="11"> </a> | Microsoft 专业服务 ISO/IEC 27001:2013 ISMS 适用性声明 | 可向客户的帐户管理团队请求获取的 SOA。|
 | 12 <a name="12"> </a> | [Microsoft 信任中心合规性产品/服务](offering-home.yml) | |
 | 13 <a name="13"> </a> | [Microsoft DPO 信息](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer) | |
