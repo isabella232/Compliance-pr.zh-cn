@@ -16,19 +16,19 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 66441638d7e9cb881422ba4243d936152bcd9eed
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 317a5bf64a5d10099b3fcf73190bb6e20ffc2999
+ms.sourcegitcommit: 7864222909b7d8d0b1dbdbbdee66f5697dac7940
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506430"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757837"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>GDPR 泄露通知
 
 作为数据处理者，Office 365 可确保我们的客户作为数据控制者能够符合 GDPR 的泄露通知要求。为此，我们致力于下列操作：
 
-- 让客户能够指定专门的隐私联系人，该联系人可在发生泄露时收到通知。客户可在 Azure Active Directory 中指定此联系人。
-- 在泄露声明后的 72 小时内通知客户发生个人数据泄露。通知将通过电子邮件发送给客户指定的联系人
+- 让客户能够指定专门的隐私联系人，该联系人可在发生泄露时收到通知。  客户可使用消息中心的隐私读取者角色设置来指定此联系人。
+- 在泄露声明后的 72 小时内通知客户发生个人数据泄露。 通知将发布在消息中心，可通过 Microsoft 365 管理中心访问消息中心。 其次，电子邮件通知将发送给指定联系人，说明新的消息中心公告已发布。
 - 初始通知至少包括泄露性质的说明、用户影响估计和缓解步骤（如果适用）。如果我们的调查在初始通知发出时尚未完成，我们将在初始通知中注明后续步骤和后续通信日程表。
 
 Microsoft 认为，数据控制者应负责进行风险评估并确定泄露是否需要通知客户的 DPA，我们发送给客户的通知将提供进行此类评估所需的信息。因此，Microsoft 会将任何个人数据泄露通知客户，除非确认个人数据无法理解（例如已确认密钥完整性情况下的加密数据）。

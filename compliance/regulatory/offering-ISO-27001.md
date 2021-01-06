@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f58caebee758c9e4d4d1159ebd701c09df81e018
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 94ce3e8dbbb210c645fb2f64ed29e441eb9956bf
+ms.sourcegitcommit: 58741a8e28c354bd806418b7263f0db98bf83eac
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506482"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759687"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 信息安全管理标准
 
@@ -35,7 +35,7 @@ ISO/IEC 27001 是一个正式规范信息安全管理体系 (ISMS) 的安全标�
 
 ## <a name="microsoft-and-isoiec-27001"></a>Microsoft 和 ISO/IEC 27001
 
-ISO/IEC 27001 的国际接受度和适用性是 Microsoft 在实施和管理信息安全方面走在此标准认证前列的关键原因。 Microsoft 在 ISO/IEC 27001 认证方面取得的成就表明，Microsoft 致力于从业务、安全合规角度兑现客户的承诺。 目前，Azure 公用和 Azure 德国由一个经认可的第三方认证机构对其是否符合 ISO/IEC 27001 进行一年一次的审核，以提供独立验证，证明安全控制措施已经就位且有效运行。
+ISO/IEC 27001 的国际接受度和适用性是此标准认证成为 Microsoft 实施和管理信息安全举措重心的关键原因。 Microsoft 在 ISO/IEC 27001 认证方面取得的成就表明，Microsoft 致力于从业务、安全合规角度兑现客户的承诺。 目前，Azure 公用和 Azure 德国由一个经认可的第三方认证机构对其是否符合 ISO/IEC 27001 进行一年一次的审核，以提供独立验证，证明安全控制措施已经就位且有效运行。
 
 了解有关 Microsoft 云的 ISO/IEC 27001 优势：[下载 ISO/IEC 27001:2013](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 
@@ -117,7 +117,7 @@ ISO/IEC 27001 的国际接受度和适用性是 Microsoft 在实施和管理信�
 
 是。 Microsoft 云基础结构和运营团队的年度 ISO/IEC 27001 认证过程包括对操作灵活性的审核。 如需预览最新证书，请单击下面的链接。
 
-- Microsoft Azure：[针对 Microsoft 云基础结构和运营的 ISO/IEC 27001:2013 证书](https://www.bsigroup.com/Our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=company%3dMicrosoft&licencenumber=IS%20533913)
+- Microsoft Azure：[针对 Microsoft 云基础结构和运营的 ISO/IEC 27001:2013 证书](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
 - Azure German
 
 **从何处着手开展我自己组织的 ISO/IEC 27001 合规性工作？**
@@ -130,7 +130,7 @@ ISO/IEC 27001 的国际接受度和适用性是 Microsoft 在实施和管理信�
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器为企业版 E5 客户提供了此规则的预建评估。 在合规性管理器的“**评估模板**”页面中找到用于建立评估的模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器为企业版 E5 客户提供了此规则的预建评估。 在合规性管理器的“**评估模板**”页面中找到用于建立评估的模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 
