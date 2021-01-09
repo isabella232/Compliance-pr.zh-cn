@@ -1,6 +1,6 @@
 ---
-title: 美国内部收入服务出版物1075
-description: Microsoft 拥有符合美国的内部收入服务出版物1075的要求的控制措施。
+title: 美国税务服务出版物 1075
+description: Microsoft 具有符合美国税务服务出版物 1075 的要求的控制措施。
 keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,76 +16,76 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2bc357a9fc9e3a2ee91b39686580dc820a7203c7
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: cd4082f2e38ee2c6a2f432ff5bef289ebe0fc69a
+ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506623"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49787511"
 ---
-# <a name="us-internal-revenue-service-publication-1075"></a>美国内部收入服务出版物1075
+# <a name="us-internal-revenue-service-publication-1075"></a>美国税务服务出版物 1075
 
-## <a name="us-internal-revenue-service-publication-1075-overview"></a>美国内部收入服务出版物1075概述
+## <a name="us-internal-revenue-service-publication-1075-overview"></a>美国税务服务出版物 1075 概述
 
-内部收入服务出版物 1075 (IRS 1075) 为美国政府机构及其代理提供了有关访问联邦税务信息 (FTI) 的指导，以确保他们使用策略、做法和控制措施来保护其机密性。 IRS 1075 旨在最大限度地减少由外部政府机构控制的 FTI 的丢失、泄露或误用风险。 例如，在税务中为其居民或运行状况服务机构（access FTI）处理 FTI 的一种州的收入部门，必须有适当的程序来保护该信息。  
+内部收入服务出版物 1075 (IRS 1075) 为访问联邦税务信息 (FTI) 的美国政府机构及其代理提供指导，以确保他们使用策略、实践和控制措施来保护其机密性。 IRS 1075 旨在最大限度地降低外部政府机构持有 FTI 的丢失、泄露或滥用风险。 例如，处理其居民的纳税申报表的 FTI 的州收入部门或访问 FTI 的医疗保健机构必须实施保护该信息的程序。  
   
-为保护 FTI，IRS 1075 规定了对应用程序、平台和数据中心服务的安全和隐私控制。 例如，它对数据中心活动的安全性（如 FTI 的正确处理）进行优先级划分，并对数据中心承包商进行监督以限制输入。 为确保接收 FTI 的政府机构应用这些控制，IRS 建立了安全措施计划，其中包括定期审查这些机构及其合同工。
+为了保护 FTI，IRS 1075 规定了应用程序、平台和数据中心服务的安全和隐私控制。 例如，它优先考虑数据中心活动的安全性，例如正确处理 FTI，并监督数据中心承包商限制输入。 为了确保接收 FTI 的政府机构应用这些控制措施，IRS 制定了安全措施计划，其中包括定期审查这些机构及其承包商。
 
-## <a name="microsoft-and-us-internal-revenue-service-publication-1075"></a>Microsoft 和美国内部收入服务出版物1075
+## <a name="microsoft-and-us-internal-revenue-service-publication-1075"></a>Microsoft 美国税务服务出版物 1075
 
-Microsoft Azure 政府和 [Microsoft Office 365 美国政府](https://products.office.com/government/office-365-web-services-for-government) 云服务为他们提供适当的控制措施以及 microsoft 代理商客户满足 1075 IRS 的实体要求时所需的安全功能，从而为他们提供合同承诺。  
+Microsoft Azure 政府版和 [Microsoft Office 365](https://products.office.com/government/office-365-web-services-for-government) 美国政府版云服务提供合同承诺，它们已实施适当的控制措施，以及 Microsoft 代理客户满足 IRS 1075 的实质性要求所需的安全性功能。  
   
-这些适用于政府的 Microsoft 云服务提供了一个平台，客户可以在其中构建和操作他们的解决方案，但客户必须自行确定是否根据 IRS 1075 运营这些特定解决方案，并因此而受到 IRS 审核。  
+这些政府版 Microsoft 云服务提供了一个平台，客户可以在该平台上构建和运行其解决方案，但客户必须自行确定这些特定解决方案是否根据 IRS 1075 运营，因此需接受 IRS 审核。  
   
-为了帮助政府机构遵守合规性，Microsoft：
+为了帮助政府机构进行合规性工作，Microsoft：
 
-- 提供详细的指导，以帮助代理了解其职责，以及如何将不同的 IRS 控制措施与 Azure 政府和 Office 365 美国政府版中的功能进行对应。 IRS 1075 Security Report (SSR) 全面说明 Microsoft 服务如何实现适用的 IRS 控制，并且基于 Azure 政府和 Office 365 美国政府的 FedRAMP 程序包。 由于 IRS 1075 和 FedRAMP 均以 NIST 800-53 为基础，因此 IRS 1075 的合规性边界与 FedRAMP 授权相同。
-- IRS 必须明确批准发布任何 IRS 防护文档，因此只有保密协议下的政府客户才能查看 SSR。
-- 使可用的审核报告和监控独立评估员为其云服务生成的信息。
-- 提供 IRS Azure 政府合规性注意事项和 Office 365 的美国政府合规性注意事项，这些注意事项概述了代理商如何以符合 IRS 1075 的方式使用 Microsoft 云的政府服务。 保密协议下的政府客户可以请求这些文档。
-- 为客户提供在其费用) 与 Microsoft 主题专家或外部审计员（如果需要）之间进行通信的机会 (。
+- 提供详细指导，帮助机构了解他们的责任，以及各种 IRS 控制措施如何映射到 Azure 政府版和 Office 365 美国政府版中的功能。 IRS 1075 安全保护报告 (SSR) 详细记录 Microsoft 服务如何实施适用的 IRS 控件，并基于 Azure 政府版和 Office 365 美国政府版 FedRAMP 程序包。 由于 IRS 1075 和 FedRAMP 都基于 NIST 800-53，因此 IRS 1075 的合规性边界与 FedRAMP 授权相同。
+- IRS 必须明确批准发布任何 IRS 安全措施文档，因此只有 NDA 下政府客户才能查看 SSR。
+- 提供独立评估员针对其云服务生成的审核报告和监控信息。
+- 向 IRS Azure 政府合规性注意事项和 Office 365 美国政府合规性注意事项提供，其中概述了机构如何按照符合 IRS 1075 要求的方式将 Microsoft 云用于政府版服务。 NDA 下政府客户可以请求这些文档。
+- 为客户提供了 (费用，) 与 Microsoft 行业专家或外部审核员进行通信（如果需要）。
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
-基于 NIST 指南（低、中和高）的三个影响级别授予 FedRAMP 授权。 这些等级对组织中可能存在的机密性、完整性或可用性造成的影响（低 (有限影响) 、中型 (严重影响) 以及高 (严重或灾难性影响) 。
+FedRAMP 授权基于 NIST 准则在三个影响级别授予— 低、中和高。 这些对丢失机密性、完整性或可用性对组织的影响进行排名 — 低 (有限) 、中等 (严重负面影响) 以及高 (严重或灾难性) 。
 
 - [Azure 与 Azure 政府](https://azure.microsoft.com/global-infrastructure/government/)
-- 美国政府 Dynamics 365
+- Dynamics 365 美国政府版
 - [Office 365 和 Office 365 US 政府计划](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Office 365 美国政府防御版
 - Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
-遵守 IRS 1075 的实体要求在每年的 FedRAMP 审核范围内。
+FedRAMP 审核每年都会涵盖对 IRS 1075 实质性要求的合规性。
 
 - [FedRAMP 授权](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)
-- [Azure IRS 1075 保护安全报告](https://aka.ms/AzureIRS1075SafeguardSecurityReport)
+- [Azure IRS 1075 安全保护报告](https://aka.ms/AzureIRS1075SafeguardSecurityReport)
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
 **Microsoft 如何满足 IRS 1075 的要求？**
 
-Microsoft 会定期监视其安全、隐私和操作控件，以及 NIST 800-53 rev。 FedRAMP 比较基准的4个控件要求中等影响信息系统。 它通过连续监控报告提供对此信息的季度访问。 Azure 政府和 Office 365 美国政府版客户可以通过 [服务信任门户](https://aka.ms/stphelp)访问此敏感合规性信息。
+Microsoft 定期监视其安全性、隐私和运营控制措施以及 NIST 800-53 修订版。FedRAMP 基线对中等影响信息系统要求进行 4 项控制。 它通过持续监控报告提供对此信息的季度访问。 Azure 政府版和 Office 365 美国政府版客户可以通过服务信任门户访问此 [敏感的合规性信息](https://aka.ms/stphelp)。
 
-此外，Microsoft 还承诺为 Azure 政府和 Office 365 美国政府在其主控制组中加入 IRS 1075 控件，并在每年对其进行审核。
+此外，Microsoft 致力于将 IRS 1075 控件包括在 Azure 政府版和 Office 365 美国政府版的主控件集内，并致力于每年进行一次审核。
 
-**我是否可以查看 FedRAMP 包或系统安全计划？**
+**我能否查看 FedRAMP 程序包或系统安全计划？**
 
-是的，如果贵组织满足 Azure 政府和 Office 365 美国政府的资格要求。 请直接联系你的 Microsoft 帐户代表以查看这些文档。 您还可以参考符合性云服务提供商的 FedRAMP 列表。
+是的，如果你的组织符合 Azure 政府版和 Office 365 美国政府版的资格要求。 直接与 Microsoft 客户代表联系，查看这些文档。 还可以参考符合要求的云服务提供商的 FedRAMP 列表。
 
-**我是否可以使用 Azure 或 Office 365 公共云环境，是否仍符合 IRS 1075？**
+**我能否使用 Azure 或 Office 365 公共云环境，但仍符合 IRS 1075？**
 
-否。 可以存储和处理 FTI 的唯一环境是 Azure 政府或 Office 365 美国政府版。 政府客户必须满足使用这些环境的资格要求。
+不正确。 可以存储和处理 FTI 的唯一环境是 Azure 政府版或 Office 365 美国政府版。 政府客户必须满足使用这些环境的资格要求。
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)的一项功能，可帮助你了解组织的合规态势，并采取行动以帮助降低风险。合规性管理器提供了一个高级模板，用于构建该法规的评估。在合规性管理器的 **评估模板** 页面中找到该模板。了解如何 [在合规管理器中构建评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 
-- [IRS 发布1075](https://www.irs.gov/pub/irs-pdf/p1075.pdf)
-- [IRS 安全计划](https://www.irs.gov/uac/Safeguards-Program)
+- [IRS 出版物 1075](https://www.irs.gov/pub/irs-pdf/p1075.pdf)
+- [IRS 安全措施](https://www.irs.gov/uac/Safeguards-Program)
 - [Microsoft 公共控制中心合规性框架](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-- [Microsoft 政府云](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
+- [Microsoft 政府云](https://azure.microsoft.com/global-infrastructure/government/)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
