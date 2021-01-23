@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 054d6a9f86e1d696472ee2091bc5b98c4312f5b5
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 3dfd4993428de2884c1d7ea4d149da28f833508d
+ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505951"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49936946"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>瑞士金融市场监督管理局 (FINMA)
 
@@ -35,7 +35,7 @@ FINMA 发布了 [Circular 2018/3 Outsourcing–banks and insurers](https://www.f
 
 为了给正在考虑将业务职能外包到云的瑞士金融机构提供指导，Microsoft 发布了[一份针对瑞士金融机构的合规性清单](https://aka.ms/FinServ-Guide-Switzerland)。 通过查看和完成这份清单，金融组织可放心地采用 Microsoft 商业云服务，确保自己遵守适用的法规要求。
 
-当瑞士金融机构外包业务活动时，他们必须遵守瑞士金融市场监管机构 (FINMA) 的要求，并知晓包括《瑞士银行法案》、《瑞士银行条例》和《瑞士保险业监管法案》在内的其他要求和指导方针。
+当瑞士金融机构外包商业活动时，他们必须遵守瑞士金融市场监管机构 (FINMA) 的要求，并知晓包含《瑞士银行法案》、《瑞士银行条例》和《瑞士保险业监管法案》在内的其他要求和指导方针。
 
 Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评估的瑞士金融公司提供帮助，包括：
 
@@ -69,5 +69,4 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 - [Microsoft 金融服务合规性计划](https://aka.ms/FSCP-Print)
 - [Microsoft 商业云服务和金融服务](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [Azure 中的金融服务合规性](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Azure 金融服务云风险评估工具](https://aka.ms/FFIEC-CSDT)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

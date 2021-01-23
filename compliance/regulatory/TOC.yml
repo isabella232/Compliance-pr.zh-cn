@@ -250,8 +250,8 @@
           items:
             - name: APRA（澳大利亚）
               href: offering-APRA-Australia.md
-            - name: IRAP/CCSL（澳大利亚）
-              href: offering-CCSL-IRAP-Australia.md
+            - name: IRAP（澳大利亚）
+              href: offering-IRAP-Australia.md
             - name: NZ CC Framework（新西兰）
               href: offering-nz-cc-framework-nz.md
         - name: 欧洲
