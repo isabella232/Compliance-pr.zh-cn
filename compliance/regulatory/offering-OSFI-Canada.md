@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c0f12f2363d333a5ce1d1e41aa8376fba4938631
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: da6f212ca993a9e5887f32fe2c0fcc77e425f2e8
+ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506340"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937007"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>加拿大金融机构监理总署 (OSFI)
 
@@ -71,12 +71,11 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)的一项功能，可帮助你了解组织的合规态势，并采取行动以帮助降低风险。合规性管理器提供了一个高级模板，用于构建该法规的评估。在合规性管理器的 **评估模板** 页面中找到该模板。了解如何 [在合规管理器中构建评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 
 - [Microsoft 金融服务合规性计划](https://aka.ms/FSCP-Print)
 - [Microsoft 商业云服务和金融服务](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Azure 中的金融服务合规性](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Azure 金融服务云风险评估工具](https://aka.ms/FFIEC-CSDT)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
