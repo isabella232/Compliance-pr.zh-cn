@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 774ab44b1683a0becd7fcf86b6ea90df83a4a1fe
-ms.sourcegitcommit: 5ebe2ba746bba2d5058dcc0469a67e81fa3a8dce
+ms.openlocfilehash: b22af83dbae8c251f6bba1928011fceaa4bba072
+ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49559868"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937047"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Office 365 数据主体请求
 
@@ -118,7 +118,10 @@ Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 
 - Word
 
 > [!NOTE]
-> 内容搜索电子数据展示工具在[由世纪互联运营的 Office 365（中国版）](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china)中不可用。这意味着你将无法使用此工具搜索和导出 Office 365 应用程序中的客户数据（如表 1 所示）。但是，可以使用 Exchange Online 中的就地电子数据展示工具来搜索用户邮箱中的内容。还可以使用 SharePoint Online 中的电子数据展示中心来搜索 SharePoint 网站和 OneDrive 帐户中的内容。或者，可以要求文档所有者帮助查找和更改或删除内容，如有必要亦可将其导出。有关详细信息，请参阅：</br><br> * [创建就地电子数据展示搜索](https://docs.microsoft.com/exchange/create-in-place-ediscovery-search-exchange-2013-help)<br> * [在 SharePoint Online 中设置电子数据展示中心](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
+> 内容搜索电子数据展示工具在[由世纪互联运营的 Office 365（中国版）](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china)中不可用。这意味着你将无法使用此工具搜索和导出 Office 365 应用程序中的客户数据（如表 1 所示）。但是，可以使用 Exchange Online 中的就地电子数据展示工具来搜索用户邮箱中的内容。还可以使用 SharePoint Online 中的电子数据展示中心来搜索 SharePoint 网站和 OneDrive 帐户中的内容。或者，可以要求文档所有者帮助查找和更改或删除内容，如有必要亦可将其导出。有关详细信息，请参阅：
+> 
+> * [创建就地电子数据展示搜索](https://docs.microsoft.com/exchange/create-in-place-ediscovery-search-exchange-2013-help)
+> * [在 SharePoint Online 中设置电子数据展示中心](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
 
 ### <a name="using-content-search-to-find-personal-data"></a>使用内容搜索查找个人数据
 
@@ -169,10 +172,10 @@ Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 
 
 ***表 2：使用条件缩小搜索范围** _
 
-| _ *Condition** | **说明** | **条件值示例** |
+| Condition | 说明 | 条件值示例 |
 | :--- | :--- |:--- |
 | 文件类型 | 文档或文件的扩展名。 使用此条件，可搜索通过 Office 365 应用程序创建的 Office 文档和文件。 在搜索位于 SharePoint Online 网站和 OneDrive for Business 帐户中的文档时，可使用此条件。<br/>相应的文档属性为 filetype。 <br/>有关可搜索的文件扩展名的完整列表，请参阅“SharePoint 中的默认爬网文件扩展名和解析文件类型”（https://technet.microsoft.com/library/jj219530.aspx)）。|&nbsp;&bull;&nbsp;&nbsp;csv — 搜索逗号分隔值 (CSV) 文件；Excel 可保存为 CSV 格式，CSV 文件可轻松导入 Excel 中<br><br>&bull;&nbsp;&nbsp;docx — 搜索 Word 文件 <br><br>&bull;&nbsp;&nbsp;mpp — 搜索 Project 文件<br/><br>&bull;&nbsp;&nbsp;one — 搜索 OneNote 文件 <br><br>&bull;&nbsp;&nbsp;pdf — 搜索保存为 PDF 格式的文件 <br><br>&bull;&nbsp;&nbsp;pptx — 搜索 PowerPoint 文件 <br><br>&bull;&nbsp;&nbsp;xlxs — 搜索 Excel 文件 <br><br>&bull;&nbsp;&nbsp;vsd — 搜索 Visio 文件 <br><br>&bull;&nbsp;&nbsp;wmv — 搜索 Windows Media 视频文件 <br>|
-| 邮件类型 | 要搜索的电子邮件类型。 使用此条件，可在邮箱中搜索联系人（人员）、会议（日历）任务或 Skype for Business 对话。 相应的电子邮件属性为 *kind*。|&bull;&nbsp;&nbsp;*联系人 — 搜索邮箱的“我的联系人”列表（人员）<br><br>&bull;&nbsp;&nbsp;* 电子邮件 — 搜索电子邮件 <br><br>&bull;&nbsp;&nbsp;*即时消息 — 搜索 Skype for Business 对话<br><br>&bull;&nbsp;&nbsp;* 会议 — 搜索约会和会议请求（日历） <br><br>&bull;&nbsp;&nbsp;*任务 — 搜索“我的任务”列表（任务）；使用此值将返回在微软待办中创建的任务。<br>|
+| 邮件类型 | 要搜索的电子邮件类型。 使用此条件，可在邮箱中搜索联系人（人员）、会议（日历）任务或 Skype for Business 对话。 相应的电子邮件属性为 _kind*。|&bull;&nbsp;&nbsp;*联系人 — 搜索邮箱的“我的联系人”列表（人员）<br><br>&bull;&nbsp;&nbsp;* 电子邮件 — 搜索电子邮件 <br><br>&bull;&nbsp;&nbsp;*即时消息 — 搜索 Skype for Business 对话<br><br>&bull;&nbsp;&nbsp;* 会议 — 搜索约会和会议请求（日历） <br><br>&bull;&nbsp;&nbsp;*任务 — 搜索“我的任务”列表（任务）；使用此值将返回在微软待办中创建的任务。<br>|
 | 合规性标记 |为电子邮件或文档分配的标签。标签用于对电子邮件和文档进行分类，以便进行数据治理，并基于标签定义的分类强制实施保留规则。使用此条件，可搜索自动或手动向其分配了标签的项目。<br/>此条件对于 DSR 调查非常有用，因为组织可能在使用标签来分类与数据隐私有关的内容或包含个人数据或敏感信息的内容。请参阅[了解保留策略和保留标签](https://docs.microsoft.com/microsoft-365/compliance/labels)中的“使用内容搜索来查找应用有特定标签的所有内容”部分。|合规性标记=“个人数据”|
 ||||
 
@@ -208,7 +211,9 @@ _*_GUI_*_
 
 此示例返回 SharePoint Online 网站和 OneDrive for Business 帐户中包含指定员工 ID 和出生日期的 Excel 或 Word 文件。
 
+```
 (98765 OR "01-20-1990") AND (filetype="xlxs" OR filetype="docx")
+```
 
 _*_GUI_*_
 
@@ -294,14 +299,14 @@ OneDrive for Business 帐户和 SharePoint Online 网站中不仅存储了用户
 
 用户还可通过导航到其 OneDrive for Business 帐户中的“**编辑个人资料**”页面来访问其 SharePoint 个人资料数据，要访问该页面，可转到 OneDrive for Business 帐户 URL 下的 **EditProfile.aspx** 路径。 例如，对于用户 <strong>user1@contoso.com</strong>，该用户的 OneDrive for Business 帐户位于：
 
-```URL
-`https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/OneDrive.aspx`
+```http
+https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/OneDrive.aspx
 ```
 
 “编辑个人资料”页面的 URL 将为：
 
-```URL
-`https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/EditProfile.aspx`
+```http
+https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/EditProfile.aspx
 ```
 
 无法在 SharePoint Online 中更改源于 Azure Active Directory 的属性。 但是，用户可通过选择 Office 365 标头中的“**照片**”，然后选择“**我的帐户**”转到其“**帐户**”页面。 要在其中更改数据，用户需要与管理员协作，发现、访问或纠正用户个人资料属性。
@@ -679,7 +684,6 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 - [Bookings](#bookings)
 - [企业一览表](#listings)
 - [Connections](#connections)
-- [Invoicing](#invoicing)
 
 #### <a name="bookings"></a>Bookings
 
@@ -1394,11 +1398,11 @@ Power BI 依赖在其仪表板和报表中使用的基础源数据来保持完�
 2. 在本地位置（如文件服务器或文件共享）或 Microsoft 云中除 Office 365 租户之外的位置存储文档。
 3. 从 Office 365 永久删除（清除）原始文档。此流程包含 3 个步骤：
 
-    a.  删除文档的原始副本。从网站删除文档时，该文档发送到网站回收站（也称为 *第一阶段回收站*）。
+   1.  删除文档的原始副本。 从网站删除文档时，该文档发送到网站回收站（也称为 *第一阶段回收站*）。
 
-    b.  转到网站回收站并删除文档副本。从网站回收站删除文档时，该文档发送到网站集回收站（也称为 *第二阶段回收站*）。请参阅 [从 SharePoint 文档库删除文件、文件夹或链接](https://support.microsoft.com/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52)。
+   1.  转到网站回收站并删除文档副本。 从网站回收站删除文档时，该文档发送到网站集回收站（也称为 *第二阶段回收站*）。 请参阅[从 SharePoint 文档库中删除文件、文件夹或链接](https://support.microsoft.com/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52)。
 
-    c.  转到网站集回收站并删除文档副本，此操作从 Office 365 中永久删除了该文档。请参阅[从网站集回收站中删除项目](https://support.microsoft.com/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653)。
+   1.  转到网站集回收站并删除文档副本，此操作从 Office 365 中永久删除了该文档。 请参阅[从网站集回收站中删除项目](https://support.microsoft.com/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653)。
 
 4. 限制不再适用时，可在 Office 365 中将存储在本地的文档副本重新上传到网站。
 
@@ -1470,7 +1474,7 @@ Microsoft Office 365 服务套件包括多种联机服务，可为选择使用�
 
 ### <a name="myanalytics"></a>MyAnalytics
 
-MyAnalytics 为用户提供统计信息，帮助他们了解如何安排工作时间。要帮助用户更好地了解通过其个人仪表板呈现的数据以及数据的计算方式，请指导用户转到 [MyAnalytics 个人仪表板](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)帮助主题。
+MyAnalytics 为用户提供统计信息，帮助他们了解如何安排工作时间。 要帮助用户更好地了解通过其个人仪表板呈现的数据以及数据的计算方式，请指导用户转到 [MyAnalytics 个人仪表板](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)。
 
 #### <a name="access-and-export"></a>访问和导出
 
