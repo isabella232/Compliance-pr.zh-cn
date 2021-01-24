@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c8b6b9a44137f024b9d4af35b62458d3e90e6db4
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f84f4a57afd968a428cd345dd521a3bd83cea238
+ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505962"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937027"
 ---
 # <a name="european-banking-authority-eba"></a>欧洲银行管理局 (EBA)
 
@@ -66,9 +66,9 @@ Microsoft 发布的[面向采用 Microsoft 云的金融机构的风险评估和�
 ## <a name="resources"></a>资源
 
 - [Microsoft 服务信任门户](https://aka.ms/STP)
+- [欧洲金融机构的 Microsoft 云清单](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4IPF3)
 - [Microsoft 金融服务合规性计划](https://aka.ms/FSCP-Print)
 - [Microsoft 商业云服务和金融服务](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Azure 中的金融服务合规性](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Azure 金融服务云风险评估工具](https://aka.ms/FFIEC-CSDT)
 - [Microsoft 金融服务博客](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
