@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5d73dfe71ea0872e02e516e0c952d017ded22150
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 172b031f4193a24a36126d3aabfadb02f3f20247
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506385"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50012998"
 ---
 # <a name="cloud-computing-compliance-controls-catalog-c5"></a>云计算合规性控制目录 (C5)
 
@@ -31,7 +31,7 @@ ms.locfileid: "49506385"
 
 C5 目录的要求旨在提供一致的安全框架，以便于验证云服务提供商，并使客户确信自己的数据受到安全管理。
 
-C5 基于国际认可的 IT 安全标准，如 ISO/IEC 27001:2013、云安全联盟云控制矩阵 3.0.1 和 BSI 自己的 IT-Grundschutz 目录。 目录包含跨 17 个领域（例如信息安全和物理安全组织）的 114 项要求，其中包含对所有云服务提供商的基本安全要求，以及对处理高度机密数据和需要高可用性的情况的额外要求。
+C5 基于国际认可的 IT 安全标准，如 ISO/IEC 27001:2013、云安全联盟云控制矩阵 3.0.1 和 BSI IT-Grundschutz 目录。 目录包含跨 17 个领域（例如信息安全和物理安全组织）的 114 项要求，其中包含对所有云服务提供商的基本安全要求，以及对处理高度机密数据和需要高可用性的情况的其他要求。
 
 BSI 还着重强调了透明化。 作为审核的一部分，云提供商必须包含详细的系统说明并披露环境参数，例如管辖权和数据处理位置、服务提供、向其他云服务颁发的其他认证以及关于云提供商对公共机关的披露义务的信息。 这有助于潜在云客户决定云服务是否满足基本要求，例如与数据保护和公司策略等法规要求的合规性或解决行业间谍威胁的能力。
 
@@ -64,7 +64,7 @@ Microsoft Cloud Germany 实际位于德国，并遵守德国隐私法的要求�
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)的一项功能，可帮助你了解组织的合规态势，并采取行动以帮助降低风险。合规性管理器提供了一个高级模板，用于构建该法规的评估。在合规性管理器的 **评估模板** 页面中找到该模板。了解如何 [在合规管理器中构建评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

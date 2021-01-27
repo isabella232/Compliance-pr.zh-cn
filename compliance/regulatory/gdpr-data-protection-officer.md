@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f41583c07ec5a8d1c711444b43daf0fd8de754ea
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 127528f40f5939b8fe0a5585cee7a212d35af82e
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506461"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50012928"
 ---
 # <a name="microsofts-data-protection-officer"></a>Microsoft 数据保护官员
 
@@ -38,7 +38,7 @@ DPO 以适当而及时的方式参与个人数据保护相关的所有关键问�
 
 ## <a name="position-of-the-data-protection-officer"></a>数据保护官员的职责
 
-欧盟 DPO 直接向 Microsoft 首席隐私官（Microsoft 企业和法律事务部的高级主管）汇报。DPO 角色具有以独立、无偏见的方式行使职能的自主性。在首席隐私官的组织中，DPO 有权视需要访问培训和客户响应资源以行使 DPO 职能。DPO 受保密协议使用期间其任务保密条款的约束。  
+欧盟 DPO 直接向 Microsoft 首席隐私官（Microsoft 企业和法律事务部的高级主管）汇报。DPO 角色具有以独立、无偏见的方式行使职能的自主性。在首席隐私官的组织中，DPO 有权视需要访问培训和客户响应资源以行使 DPO 职能。DPO 使用保密协议对其任务进行保密。  
 
 ## <a name="contact"></a>Contact
 

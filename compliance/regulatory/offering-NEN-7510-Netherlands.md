@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 68d9a7a3906ae848dacc515a00464f15ca9d09fb
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 3688ffe46405e6c8eea8f6896a94d8470151bb4d
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506596"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50012968"
 ---
 # <a name="nen-7510"></a>NEN 7510
 
@@ -31,7 +31,7 @@ ms.locfileid: "49506596"
 
 ## <a name="microsoft-and-nen-75102011"></a>Microsoft 和 NEN 7510:2011
 
-Microsoft 已分析我们当前的认证和保证声明，并且已创建 [NEN 7510 覆盖报告](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=3285c45c-921c-49ad-b881-be43e0b70490&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)（可在服务信任平台上获得），该报告将这些认证和保证声明与 NEN 7510 控制措施（微软作为云服务提供商对此负责）进行了对应。 本文档可帮助客户确定他们必须实施哪些附加控制措施，以确保用于存储或处理患者健康状况信息的 Microsoft 云服务符合 NEN 7510 标准。
+Microsoft 已分析我们当前的认证和保证声明，并且已创建 [NEN 7510 覆盖报告](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=3285c45c-921c-49ad-b881-be43e0b70490&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)（可在服务信任平台上获得），该报告将这些认证和保证声明与 NEN 7510 控制措施（微软作为云服务提供商对此负责）进行了对应。 本文档可帮助客户确定他们必须实施哪些其他控制措施，以确保用于存储或处理患者健康状况信息的 Microsoft 云服务符合 NEN 7510 标准。
 
 了解如何借助 Azure 安全性和合规性蓝图加快 NEN 7510 部署：[下载 Microsoft 云：Azure 和 Office 365 NEN7510-2011 标准覆盖用户指南](https://aka.ms/Azure-NEN7510-2011)
 
@@ -45,7 +45,7 @@ Microsoft 已分析我们当前的认证和保证声明，并且已创建 [NEN 7
 
 - [Azure 和 Office 365 NEN 7510:2011 标准覆盖](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=15d5a5fa-fbb6-4ea6-8126-2a2c684ae789&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_GRC_Assessment_Reports)
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+## <a name="frequently-asked-questions"></a>常见问题
 
 **使用 Microsoft 云服务的客户符合 NEN 7510 吗？**
 
@@ -53,7 +53,7 @@ Microsoft 已分析我们当前的认证和保证声明，并且已创建 [NEN 7
 
 **Microsoft 是否符合 NEN 7510？**
 
-NEN 7510 合规性的责任适用于荷兰医疗保健组织。 它要求组织实施信息安全管理系统，并借助适当的技术和组织措施来应对风险。 对于作为云服务提供商角色的 Microsoft，NEN 7510 合规性不是目标，在技术上也不可行。 客户实施或使用 Microsoft 云服务时，这些服务可能在 NEN 7510 评估范围内。 但是，组织必须添加自己的（附加）控制措施、选择和流程，它们是 NEN 7510 总体评估的一部分。 该报告的目的是证明医疗保健实体可以采用符合 NEN 7510 的 Microsoft 云服务。
+NEN 7510 合规性的责任适用于荷兰医疗保健组织。 它要求组织实施信息安全管理系统，并借助适当的技术和组织措施来应对风险。 对于作为云服务提供商角色的 Microsoft，NEN 7510 合规性不是目标，在技术上也不可行。 客户实施或使用 Microsoft 云服务时，这些服务可能在 NEN 7510 评估范围内。 但是，组织必须添加自己的（其他）控制措施、选择和流程，它们是 NEN 7510 总体评估的一部分。 该报告的目的是证明医疗保健实体可以采用符合 NEN 7510 的 Microsoft 云服务。
 
 **此报告不显示 100% 的覆盖。NEN 7510 合规性不可行？**
 
