@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7be8b0dce164dc14ff70ca3bc91b805e84eb0363
-ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
+ms.openlocfilehash: 6c1e6c0a3aa8362d2bdba68f9919e6edb9919277
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49669743"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50012977"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Microsoft 支持和专业服务与 GDPR 和 CCPA 数据主体请求
 
@@ -30,7 +30,7 @@ ms.locfileid: "49669743"
 
 Microsoft 专业服务包括一个由技术架构师、工程师、顾问和支持专业人员组成的多元化团队，专门负责履行 Microsoft 让客户实现更多收获更多的使命。我们的专业服务团队总共包括 21000 多名顾问、数字顾问、顶级支持、工程师和销售专业人员，他们在 191 个国家/地区工作，支持 46 种不同语言，每个月管理数百万个服务活动，并通过本地、电话、网络、社区和自动化工具与客户和合作伙伴交互。此组织利用将我们与企业客户连接在一起的由合作伙伴、技术社区、工具、诊断以及渠道所构成的广泛网络，汇聚了整个 Microsoft 产品组合的广泛专业知识。
 
-有关 Microsoft 专业服务的详细信息，请访问 [Microsoft 专业服务安全文档网页](https://www.microsoft.com/zh-CN/professionalservices/overview)。 Microsoft 专业服务非常重视《一般数据保护条例》(GDPR) 规定的义务。 本文档中的信息旨在回答客户有关 Microsoft 的支持和咨询服务如何响应和协助客户响应 GDPR 规定的数据主体请求 (DSR) 义务的问题。
+有关 Microsoft 专业服务的详细信息，请访问 [Microsoft 专业服务安全文档网页](https://www.microsoft.com/professionalservices/overview)。 Microsoft 专业服务非常重视《一般数据保护条例》(GDPR) 规定的义务。 本文档中的信息旨在回答客户有关 Microsoft 的支持和咨询服务如何响应和协助客户响应 GDPR 规定的数据主体请求 (DSR) 义务的问题。
 
 ### <a name="introduction-to-dsrs"></a>DSR 简介 
 
@@ -84,7 +84,7 @@ Microsoft 专业服务包括一个由技术架构师、工程师、顾问和支�
 
 客户联系人的个人数据是 Microsoft 与客户的业务关系的一部分，且 Microsoft 是数据控制者，除非在提供技术支持的过程中收集了这些数据。Microsoft 将响应来自客户联系人的有关其个人数据的 DSR，无论他们是否仍在组织内。
 
-在提供技术支持的过程中收集客户联系人的个人数据时，Microsoft 数据处理者。
+在提供技术支持的过程中收集客户联系人的个人数据时，Microsoft 是数据处理者。
 
 客户应了解 DSR 仅涵盖客户联系人的个人数据，而不会对服务过程中提交的任何客户数据（例如文字稿、案例描述、文件、工作成果）进行更改或删除，因为 Microsoft 是数据处理者。 此外，为了维护服务活动的历史记录，不会对已关闭的服务活动进行任何更改，包括是谁打开的服务活动的记录。
 
@@ -96,25 +96,25 @@ Microsoft 专业服务包括一个由技术架构师、工程师、顾问和支�
 
 客户可选择独立于此 DSR，对专业服务期间通过正常支持或咨询渠道收集的数据进行更改。例如，Microsoft 可以根据请求协助去除支持服务活动（请参考 *“客户提供数据的 DSR 指南”* 部分）。
 
-***仅用于说明目的的示例** _
+*仅用于说明目的的示例*
 
 John 是 O365 企业客户的项目经理，有一个未完成的咨询服务和两个关闭的服务。 现在，John 离开公司，希望删除他的数据。 John 联系了隐私响应中心，中心将他标识为项目经理。 John 被告知，不能从先前（关闭）服务中删除他的名字，也不能从未完成的服务的任何数据中删除他的名字。 但是，如果隐私识别中心将确定替换联系人，则他将替换 John 作为当前未完成服务活动的联系人。 John 让 Microsoft 知道 Jane 将是他的替代联系人，并且 Microsoft 在所有系统上进行更改。
 
 ## <a name="dsr-for-an-end-user-engaging-microsoft"></a>针对与 Microsoft 打交道的最终用户的 DSR
 
-_Microsoft 如何响应来自客户的员工或其他数据主体的行使其权利的请求。*
+*Microsoft 如何响应来自客户的员工或其他数据主体的行使其权利的请求。*
 
 如果客户的员工或其他数据主体联系 Microsoft，要对 Microsoft 作为数据处理者收集的数据行使其权利，则该数据主体将收到通知，他们需要联系作为数据控制者的 Microsoft 客户来行使这些权利。Microsoft 不会再执行进一步操作。
 
 如果数据主体还联系 Microsoft，要针对 Microsoft 作为数据控制者的情况下（例如消费者支持、商业客户联系人）收集的数据行使权利，则 Microsoft 将单独响应个人针对该个人数据的数据主体权利请求。
 
-***仅用于说明目的的示例** _
+*仅用于说明目的的示例*
 
 Jane 是企业客户 Contoso 的一名员工，公司为其提供了 Dynamics 365 帐户。 她联系 Microsoft 要求删除她的所有数据，并被转到了隐私响应中心。 Jane 填写了请求表单。 隐私响应中心将她识别为企业最终用户，告诉她需要通过 Contoso 删除其企业数据。 他们还将她标识为 Microsoft X-Box 用户，并将其数据从其 Microsoft 消费者帐户删除。
 
 ## <a name="dsr-for-customer-provided-data-commercial-support"></a>针对客户提供数据的 DSR：商业支持
 
-_当客户收到来自其员工或其他数据主体的行使其权利的请求时如何从 Microsoft 获得帮助，并且数据主体的个人数据是在支持服务期间由 Microsoft 支持部门收集的。*
+*当客户收到来自其员工或其他数据主体的行使其权限的请求时如何从 Microsoft 获得帮助，并且数据主体的个人数据是在支持服务期间由 Microsoft 支持收集的。*
 
 当客户与 Microsoft 支持打交道时，Microsoft 从客户那里收集支持数据，用于解决任何需要支持服务活动的问题。 此支持数据包括 Microsoft 与客户的互动（例如聊天、电话、电子邮件、网络提交），以及客户发送给 Microsoft 或 Microsoft 经客户许可后从客户的 IT 环境或 Online Services 租户提取的用于解决支持问题的任何内容文件。 如果是顶级支持，还包括我们为了主动防止将来的问题而从你那里收集的任何数据。 但是，不包括 Microsoft 与客户之间业务关系的其他信息（例如帐单记录）。
 
@@ -130,11 +130,11 @@ _当客户收到来自其员工或其他数据主体的行使其权利的请求�
 
 在发现相关数据和获取 Microsoft 协助的过程中，客户可使用若干选项来处理 DSR：
 
-*选项 A – 跨 Microsoft 支持的客户 DSR*。在整个 Microsoft 的支持环境中将 DSR 应用于客户的所有支持数据。为此，客户只需要求 Microsoft 将 DSR 应用于收集的所有支持数据。
+*选项 A：跨 Microsoft 支持的客户 DSR*。在整个 Microsoft 的支持环境中将 DSR 应用于客户的所有支持数据。为此，客户只需要求 Microsoft 将 DSR 应用于收集的所有支持数据。
 
-*选项 B - 特定客户服务活动。* 使用联机系统查看票证，然后识别包含相关个人数据的特定服务活动并报告给 Microsoft。 如果客户无法在所有服务活动（票证）之间进行搜索，Microsoft 会尝试提供协助以执行搜索。
+*选项 B：特定客户服务活动。* 使用联机系统查看票证，然后识别包含相关个人数据的特定服务活动并报告给 Microsoft。 如果客户无法在所有服务活动（票证）之间进行搜索，Microsoft 会尝试提供协助以执行搜索。
 
-***一旦识别到服务活动，可请求将 DSR 应用到记录的特定部分或 Microsoft 中与该服务活动相关的任何内容。** _
+*一旦识别到服务活动，可请求将 DSR 应用到记录的特定部分或 Microsoft 中与该服务活动相关的任何内容。*
 
 若要识别特定服务活动，客户需在其所有服务活动中进行搜索。对于顶级客户，客户的合同服务经理（简称“CSM”）能够查看在合同日程安排下创建的所有支持请求 (SR)。对于非顶级客户，也有同等的支持服务活动门户，如通过 Online Services 支持区域。
 
@@ -175,13 +175,13 @@ CSM 可以转到[服务中心](https://serviceshub.microsoft.com/support/contact
 
 在 Microsoft 的所有数据都必须应用保留和删除策略，因风险和其他因素不同而有所不同。
 
-如果客户请求在所有支持系统中普遍删除数据主体的个人数据，则可通过你的 TAM 或通过在服务中心或同等系统中填写支持申请 (SR) 来完成。 _必须*指出该请求是根据 GDPR 来协助处理 DSR。
+如果客户请求在所有支持系统中普遍删除数据主体的个人数据，则可通过你的 TAM 或通过在服务中心或同等系统中填写支持申请 (SR) 来完成。 *必须* 指出该请求是根据 GDPR 来协助处理 DSR。
 
-*选项 A - 跨 Microsoft 支持的客户 DSR*。 对于跨系统的 DSR，客户必须提供 Microsoft 识别所需数据需要的个人数据（例如电子邮件地址、电话号码）。 Microsoft 不会关联或研究记录，而是仅根据客户提供的标识符直接进行搜索。 找到数据后，Microsoft 将删除所有服务活动和所有关联数据。
+*选项 A：跨 Microsoft 支持的客户 DSR*。 对于跨系统的 DSR，客户必须提供 Microsoft 识别所需数据需要的个人数据（例如电子邮件地址、电话号码）。 Microsoft 不会关联或研究记录，而是仅根据客户提供的标识符直接进行搜索。 找到数据后，Microsoft 将删除所有服务活动和所有关联数据。
 
 > 重要说明：这可能会导致对客户组织非常重要的历史记录发生丢失。
 
-*选项 B - 特定客户服务活动*。 对于客户已识别并且想要删除的特定服务活动，不要从服务中心删除票证。 这会导致个人数据遗留在日志和下游系统中，从而可能无法在所需时间范围内删除。 转为识别票证或必须删除的票证中的个人资料，并联系 Microsoft 支持协助你删除该数据。
+*选项 B：特定客户服务活动*。 对于客户已识别并且想要删除的特定服务活动，不要从服务中心删除票证。 这会导致个人数据遗留在日志和下游系统中，从而可能无法在所需时间范围内删除。 转为识别票证或必须删除的票证中的个人资料，并联系 Microsoft 支持协助你删除该数据。
 
 ### <a name="microsoft-support-data-transfer-and-management-tool-dtm-instructions"></a>Microsoft 支持数据传输和管理工具 (DTM) 说明
 
@@ -198,7 +198,7 @@ CSM 可以转到[服务中心](https://serviceshub.microsoft.com/support/contact
 
 注意：导出的数据不能包括 Microsoft 的知识产权或任何可能会危及服务安全性或稳定性的数据。
 
-***仅用于说明目的的示例** _
+*仅用于说明目的的示例*
 
 John 是企业客户 Contoso 的一名顶级 CSM，该客户为其员工电子邮件使用 O365，并使用 Azure 托管 Contoso SQL 数据库。Contoso 有多个打开和已关闭的票证。最近，Microsoft 支持在 Contoso 的许可下将 SQL 数据库的副本移到了 DTM 中，以进行支持和疑难解答。
 
@@ -214,7 +214,7 @@ Microsoft 支持将执行所有这些删除操作，基于客户请求，TAM 还
 
 ## <a name="dsr-guide-for-customer-provided-data-in-consulting-services-including-migration-services"></a>咨询服务（包括迁移服务在内）中针对客户提供数据的 DSR 指南
 
-_当客户收到来自其员工或其他数据主体的行使其权利的请求时如何从 Microsoft 获得帮助，并且数据主体的个人数据是在咨询服务期间由 Microsoft 收集的。*
+*当客户收到来自其员工或其他数据主体的行使其权利的请求时如何从 Microsoft 获得帮助，并且数据主体的个人数据是在咨询服务期间由 Microsoft 收集的。*
 
 ## <a name="microsoft-consulting-services"></a>Microsoft 咨询服务
 
