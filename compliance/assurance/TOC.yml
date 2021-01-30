@@ -80,10 +80,10 @@
       href: assurance-security-incident-management.md
     - name: 安全事件管理准备
       href: assurance-sim-preparation.md
-    - name: 安全事件管理抑制、消除和恢复
-      href: assurance-sim-containment-eradication-recovery.md
     - name: 安全事件管理检测和分析
       href: assurance-sim-detection-analysis.md
+    - name: 安全事件管理抑制、消除和恢复
+      href: assurance-sim-containment-eradication-recovery.md
     - name: 安全事件管理事后活动
       href: assurance-sim-post-incident-activity.md
 - name: 网络安全性
@@ -132,6 +132,8 @@
       href: assurance-monitoring-and-self-healing.md
     - name: Exchange Online 数据弹性
       href: assurance-exchange-data-resiliency.md
+    - name: SharePoint 和 OneDrive 数据复原
+      href: assurance-sharepoint-onedrive-data-resiliency.md
     - name: 企业业务连续性管理 (EBCM) 和云服务
       href: assurance-understanding-ebcm-with-cloud-services.md
     - name: 客户和云合作伙伴 EBCM 职责
