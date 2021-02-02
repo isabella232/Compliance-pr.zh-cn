@@ -16,15 +16,15 @@ metadata:
   ms.author: robmazz
   ms.date: 11/30/2020
   localization_priority: Normal
-  ms.openlocfilehash: 55a5d3691e7b27f5823eb07662dc7b44f09e2870
-  ms.sourcegitcommit: 81bd5a6603e899ddbb7c580cf4f55a4636959bbd
+  ms.openlocfilehash: e3604114977188d8c74bd3c8a3d283e8e98aaf11
+  ms.sourcegitcommit: 81522892bcb66641eddb8cfa85c1160c689e2599
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 01/22/2021
-  ms.locfileid: "49924845"
+  ms.lasthandoff: 02/01/2021
+  ms.locfileid: "50068634"
 conceptualContent:
-  title: Microsoft 365、Azure 和其他 Microsoft 服务的合规性产品/服务
-  summary: Microsoft 提供合规性产品/服务，帮助组织遵守管理数据收集和使用的国家、区域和行业特定要求。
+  title: Microsoft 合规性产品/服务
+  summary: Microsoft 365、Azure、Dynamics 365、Power Platform 和其他服务的信息，可帮助制定有关数据收集和使用的国家、区域和行业特定法规。
   items:
   - title: 全球
     links:
@@ -196,7 +196,7 @@ conceptualContent:
       text: 'CCPA (美国加利福尼亚) '
     - url: offering-irap-australia.md
       itemType: reference
-      text: 'IRAP (澳大利亚) '
+      text: IRAP（澳大利亚）
     - url: offering-cs-mark-gold-japan.md
       itemType: reference
       text: 'CS Mark Gold (Japan) '
