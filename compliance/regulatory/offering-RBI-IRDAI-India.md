@@ -1,6 +1,6 @@
 ---
-title: '将印度银行 (RBI) 和保险业法规与印度 (IRDAI 的开发机构) '
-description: Microsoft 已发布指导来帮助印度的金融机构与云采用情况配合使用。
+title: '印度保留银行 (RBI) 和印度保险监管与开发管理局 (IRDAI) '
+description: Microsoft 发布了指南，帮助印度金融机构采用云。
 keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,37 +16,37 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 919961df3c19a414fe43af0a6d3ffc719b2efd09
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 6d94152e51345631b2fe1650f9324183d3fd300e
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506337"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50119981"
 ---
-# <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>将印度银行 (RBI) 和保险业法规与印度 (IRDAI 的开发机构) 
+# <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>印度保留银行 (RBI) 和印度保险监管与开发管理局 (IRDAI) 
 
 ## <a name="about-rbi-and-irdai"></a>关于 RBI 和 IRDAI
 
-印度的 [准备金银行](https://www.rbi.org.in/) (RBI) 、印度的中央银行机构、印度 (IRDAI) 的 [保险业和开发机构](https://www.irdai.gov.in/Defaulthome.aspx?page=H1) ，以及 [电子产品和信息技术](https://meity.gov.in/content/information-technology-act) (MeitY) 包括三个关键金融行业机构监督银行、保险费和市场基础结构机构。 其指令包括外包和风险管理准则和要求，以实现对敏感数据进行保护的隐私规则。
+印度保留银行 [ (](https://www.rbi.org.in/) RBI) 、印度中央银行机构、印度保险监管与开发管理局 [ (](https://www.irdai.gov.in/Defaulthome.aspx?page=H1) IRDAI) 以及电子和信息技术部 [ (](https://meity.gov.in/content/information-technology-act) MeitY) 由监管银行、保险组织和市场基础结构机构的三个关键金融行业监管机构组成。 它们的指令包括外包和风险管理准则以及遵守管理敏感数据的隐私规则的要求。
 
 外包和风险管理指南包括：
 
-- [有关管理有关银行 (RBI) 的财务服务外包的风险和行为准则的指南](https://rbidocs.rbi.org.in/rdocs/notification/PDFs/73713.pdf) 。解决在外包金融服务时受管控银行将面临的风险，并帮助确保外包不会妨碍 RBI 的监管角色。 对于寻求外包金融服务的银行来说，RBI 不需要预先批准;但是，不应将核心银行功能（如内部审核和合规性功能）外包。
-- [有关信息安全、电子银行、技术风险管理和网络 Frauds](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) (RBI) 的指南。 金融机构必须报告外包安排，其中活动的规模和性质是重大的，或者需要与印度外部的服务提供程序进行大量的数据共享。 本指南尤其适用于在印度外部存储或处理操作数据的情况。
-- [由印度保险公司法规 (IRDAI) 的活动外包](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) 。 在金融部门结束的45天内的核心活动的某些支持功能中，需要每年的 IRDAI 保险公司报告外包。 Microsoft [清单](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) 中的 (第7页介绍了构成核心活动支持功能的内容。
+- 《关于银行[ (](https://rbidocs.rbi.org.in/rdocs/notification/PDFs/73713.pdf) RBI) 外包金融服务中的管理风险和行为准则指南》解决了监管银行在外包金融服务时将面临的风险，并帮助确保外包不会妨碍 RBI 的监管角色。 对于寻求外包金融服务的银行，RBI 不需要事先批准;但是，核心银行功能（如内部审核和合规性功能）不应外包。
+- [RBI 商业](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) 版信息安全、电子银行、技术风险管理和网络欺诈 (指南) 。 如果活动的规模和性质十分重大或需要与印度以外的服务提供商进行广泛的数据共享，金融机构必须报告外包安排。 本指南尤其适用于在印度以外存储或处理操作数据的情况。
+- [根据《](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) 印度国家/地区 (外包活动) 。 每年，保险组织都需要在财务年度结束的 45 天内向 IRDAI 报告核心活动的某些支持职能外包。  (Microsoft 清单 [中的第](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) 7 页介绍了构成"核心活动的支持功能"的内容。
 
-使用云服务的金融公司还必须遵守隐私规则，包括 [信息技术 (合理的安全实践和过程以及敏感的个人数据或信息) 规则 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY) 。 为加强印度的数据保护法律而开发，这些规则可控制敏感个人数据的保护和处理。
+使用云服务的财务公司还必须遵守隐私规则，包括信息技术 (合理安全实践和过程以及敏感个人数据或信息) 规则 [，2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY) 。 这些规则是增强印度数据保护法律的制定，用于管理敏感个人数据的保护和处理。
 
 ## <a name="microsoft-rbi-and-irdai"></a>Microsoft、RBI 和 IRDAI
 
-为了帮助指导印度中的金融机构考虑将业务功能外包给云，Microsoft 已针对印度版的金融机构发布了合规性检查表。 通过查看和完成 [检查表](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)，金融组织可以采用 Microsoft 商业云服务，并确保他们遵守适用的法规要求。
+为了帮助指导正在考虑将业务职能外包到云的印度金融机构，Microsoft 发布了一份针对印度金融机构的合规性清单。 通过审阅和完成清单，金融[](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)组织可以放心地采用 Microsoft 商业云服务，并信任它们遵守适用的法规要求。
 
-当印度的金融机构将业务活动外包给云时，他们必须遵循用于管理风险的印度保留银行的准则，并解决使用信息技术引起的问题。 他们还必须遵守电子产品和信息技术 (MeitY) 所建立的数据安全和隐私要求。 此外，保险组织必须遵循由印度 (IRDAI) 的保险业法规和开发机构发布的外包指南。
+当印度金融机构将业务活动外包给云时，它们必须遵循印度保留银行的准则来管理风险并解决使用信息技术时出现的问题。 它们还必须遵守电子和信息技术部建立的数据安全和隐私 (MeitY) 。 此外，保险组织必须遵循印度保险监管和开发管理局发布的外包 (IRDAI) 。
 
-Microsoft 清单可帮助印度中的财务公司进行 Microsoft 商业云服务的截止时间评估，包括：
+Microsoft 清单为正在对 Microsoft 商业云服务进行尽职调查评估的印度金融公司提供帮助，其中包括：
 
 - 对应用情景法规环境的概述。
-- 一个检查表，它规定了要解决的问题并将 Microsoft Azure、Microsoft Dynamics 365 和 Microsoft Office 365 服务与这些法规义务对应起来。 该清单可以用作度量是否符合法规框架的工具，并提供用于记录合规性的内部结构，帮助客户自行对 Microsoft 业务云服务进行风险评估。
+- 一份清单，其中规定了要解决的问题，将 Microsoft Azure、Microsoft Dynamics 365 和 Microsoft Office 365 服务与这些监管义务进行映射。 该清单可以用作度量是否符合法规框架的工具，并提供用于记录合规性的内部结构，帮助客户自行对 Microsoft 业务云服务进行风险评估。
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
@@ -56,19 +56,19 @@ Microsoft 清单可帮助印度中的财务公司进行 Microsoft 商业云服�
 
 ## <a name="how-to-implement"></a>如何实现
 
-- [印度的合规性检查表](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)：金融公司可以帮助执行 Microsoft 商业云服务的风险评估。
+- [印度合规性清单](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)：金融公司可获取有关执行 Microsoft 商业云服务风险评估的帮助。
 - [风险评估和合规性指南](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
-- [Azure 的财务用例](https://docs.microsoft.com/azure/industry/financial/)：用例概述、教程和其他资源为金融服务构建 Azure 解决方案。
+- [Azure 的财务用例](/azure/industry/financial/)：用例概述、教程和其他资源，用于构建适用于金融服务的 Azure 解决方案。
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+## <a name="frequently-asked-questions"></a>常见问题
 
-**在与云服务提供商签订的合同中是否必须包含某些强制性条款？**
+**在与云服务提供商签订的合同中是否必须包含所有强制性条款？**
 
-是。 上面引用的准则自己金融机构必须纳入其云服务合同中的一些特定点。 本 [检查表](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) 的第2部分 (第70页) 将这些内容与 Microsoft 合同文档中这些内容的地址部分对应起来。
+是。 上述准则规定了金融机构必须纳入其云服务合同中的一些具体要点。 第 70[](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)页 (清单的第 2 部分) 这些清单与 Microsoft 合同文档中解决这些问题的部分进行映射。
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)的一项功能，可帮助你了解组织的合规态势，并采取行动以帮助降低风险。合规性管理器提供了一个高级模板，用于构建该法规的评估。在合规性管理器的 **评估模板** 页面中找到该模板。了解如何 [在合规管理器中构建评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

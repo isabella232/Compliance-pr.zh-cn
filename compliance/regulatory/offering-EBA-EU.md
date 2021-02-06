@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f84f4a57afd968a428cd345dd521a3bd83cea238
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: c753092f26df4a0d8ebcb5fc2a7921cee9e79f93
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937027"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120921"
 ---
 # <a name="european-banking-authority-eba"></a>欧洲银行管理局 (EBA)
 
@@ -54,7 +54,7 @@ Microsoft 指南逐条解释了每个 EBA 建议：
 ## <a name="how-to-implement"></a>如何实现
 
 - [对 EBA 指南的响应](https://aka.ms/FinServ-Guide-EuBankAuth)：Microsoft 指南有助于欧盟金融机构遵循 EBA 在采用云方面的建议。
-- [金融用例](https://docs.microsoft.com/azure/industry/financial/)：借助用例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
+- [金融用例](/azure/industry/financial/)：借助用例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
 - [金融合规性计划](https://aka.ms/FSCP-Print)：金融机构可在使用 Microsoft 云服务的风险评估方面获取帮助。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答

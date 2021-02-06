@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 972cd483c4976e683e359c52a78067e3d3faeb3a
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: abe7b849b8cb10ddbe11eb1a95a972d244ac43c3
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506341"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120081"
 ---
 # <a name="national-bank-of-belgium-nbb-and-the-financial-services-and-markets-authority-fsma"></a>比利时国家银行 (NBB) 及金融服务和市场管理局 (FSMA)
 
@@ -60,7 +60,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 - [合规性清单：比利时](https://aka.ms/FinServ-Guide-Belgium)：金融机构可在对 Microsoft 云服务进行风险评估方面获得帮助。
 - [风险评估和合规性指南](https://aka.ms/RiskGovernanceGuide)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
-- [金融用例](https://docs.microsoft.com/azure/industry/financial/)：在案例概述、教程和其他资源的帮助下构建适合金融服务的 Azure 解决方案。
+- [金融用例](/azure/industry/financial/)：在案例概述、教程和其他资源的帮助下构建适合金融服务的 Azure 解决方案。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -74,7 +74,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)的一项功能，可帮助你了解组织的合规态势，并采取行动以帮助降低风险。合规性管理器提供了一个高级模板，用于构建该法规的评估。在合规性管理器的 **评估模板** 页面中找到该模板。了解如何 [在合规管理器中构建评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

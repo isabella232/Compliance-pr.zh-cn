@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 28fec212d8ba00d2e319abf856db342c83408238
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: a0e643e768d8570f1c65f19e2eec1b84bce5701a
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505946"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120371"
 ---
 # <a name="financial-supervisory-authority-fsa-denmark"></a>丹麦金融监管局 (FSA)
 
@@ -39,7 +39,7 @@ FSA 与欧洲银行管理局 (EBA) 协同行动，“欧洲银行管理局是欧
 
 ## <a name="microsoft-and-the-fsa"></a>Microsoft 和 FSA
 
-为了给正在考虑将业务职能外包到云端的丹麦金融机构提供指导，Microsoft 发布了[一份针对丹麦金融机构的合规性清单](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=524cc66f-b292-49e9-aa14-04560401baa0&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)。 通过查看和完成清单，金融组织可放心地采用 Microsoft 商业云服务，保证自己遵守适用的法规要求。
+为了给正在考虑将业务职能外包到云端的丹麦金融机构提供指导，Microsoft 发布了[一份针对丹麦金融机构的合规性清单](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=524cc66f-b292-49e9-aa14-04560401baa0&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)。 通过查看和完成这份清单，金融组织可放心地采用 Microsoft 商业云服务，确保自己遵守适用的法规要求。
 
 当丹麦金融机构外包业务活动时，必须遵守金融监管局 (AMF) 在欧洲银行管理局 (EBA) 广泛政策框架内的要求。 具体来说，这些要求专注于金融服务与云提供商之间的协议，以确保充分控制外包活动。
 
@@ -58,7 +58,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 - [合规性清单：丹麦](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=524cc66f-b292-49e9-aa14-04560401baa0&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)：金融公司可在对 Microsoft 云服务进行风险评估方面获得帮助。
 - [风险评估和合规性指南](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
-- [金融用例](https://docs.microsoft.com/previous-versions/azure/industry-marketing/financial/index)：在案例概述、教程和其他资源的帮助下构建适合金融服务的 Azure 解决方案。
+- [金融用例](/previous-versions/azure/industry-marketing/financial/index)：在案例概述、教程和其他资源的帮助下构建适合金融服务的 Azure 解决方案。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4c14d32a172dc5d6ea934abb20c7df956d43d3bb
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 75ab80c2b017e7fe4576f145db50465ea71e2d41
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506570"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50119911"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>阿根廷个人数据保护法 (PDPA)
 
@@ -41,7 +41,7 @@ Microsoft 按合同承诺遵守 [Microsoft 在线服务条款](https://www.micro
 
 Microsoft 数据传输协议是在线服务条款中的数据处理条款的修正案（修正案 ID M314）。 其中新增了重要承诺，包括 Microsoft 将向客户发送任何具有法律约束力的泄露个人数据请求的通知；将按客户请求提交数据处理设施以由客户或独立第三方进行审核；或者将事先获得使用分包商的书面同意。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内的云服务
 
 - [Azure 和 Azure DevOps](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
@@ -50,7 +50,7 @@ Microsoft 数据传输协议是在线服务条款中的数据处理条款的修�
 ## <a name="how-to-implement"></a>如何实现
 
 - [Microsoft 云服务中的隐私](https://www.microsoft.com/download/details.aspx?id=55710)：获取有关 Microsoft 隐私原则和标准以及特定于阿根廷的隐私法律的详细信息。  
-- [Azure 数据保护](https://docs.microsoft.com/azure/security/azure-protection-of-customer-data)：Azure 为客户提供强大的数据安全性（默认提供和作为客户选项提供）。
+- [Azure 数据保护](/azure/security/azure-protection-of-customer-data)：Azure 为客户提供强大的数据安全性（默认提供和作为客户选项提供）。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -60,7 +60,7 @@ Microsoft 数据传输协议是在线服务条款中的数据处理条款的修�
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)的一项功能，可帮助你了解组织的合规态势，并采取行动以帮助降低风险。合规性管理器提供了一个高级模板，用于构建该法规的评估。在合规性管理器的 **评估模板** 页面中找到该模板。了解如何 [在合规管理器中构建评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

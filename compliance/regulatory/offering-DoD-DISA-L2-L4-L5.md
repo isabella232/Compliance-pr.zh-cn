@@ -1,7 +1,7 @@
 ---
 title: 美国国防部 (临时) 授权
 description: Microsoft 收到了美国国防部 (DoD) 5、4 和 2 级临时授权。
-keywords: Microsoft 365,合规性,产品/服务
+keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3bd95648e9ae36f5ccaab25bd504524e7d1e4afa
-ms.sourcegitcommit: 7864222909b7d8d0b1dbdbbdee66f5697dac7940
+ms.openlocfilehash: bd3434bc2cdb421ce7ab5b9d29e42e1c20aba577
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757817"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121261"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>美国国防部 (在) 级别 2、4 和 5 进行临时授权
 
@@ -37,7 +37,7 @@ DoD 云服务支持定义 SRG 中发布和维护的策略、安全控制和其�
 
 Microsoft 政府云服务符合美国国防部从影响级别 2 到 5 的严格要求，使美国国防机构能够受益于 Microsoft 云的成本节省和严格安全性。 通过部署 Azure 政府、Office 365 美国政府版和 Dynamics 365 政府版等受保护服务，防御机构可以使用大量合规服务。
 
-- 了解如何使用 Azure DoD 蓝图加速 DoD DISA L2 和 L4 [部署](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)
+- 了解如何使用 Azure DoD 蓝图加速 DoD DISA L2 和 L4 [部署](/azure/governance/blueprints/samples/dod-impact-level-4/)
 
 ## <a name="dod-impact-level-5-provisional-authorization"></a>DoD 影响级别 5 临时授权
 
@@ -85,9 +85,9 @@ DISA 云服务支持已授予 Microsoft Azure 政府 DoD 影响级别 4 PA。 �
 
 ## <a name="fast-track-your-deployment-of-dod-solutions-on-azure"></a>快速跟踪在 Azure 上部署 DoD 解决方案
 
-通过 Azure 安全与合规部防御蓝图，开始利用政府中的云优势。 此蓝图提供了一些工具和指南，可让你开始构建符合 DoD 的解决方案。 [开始使用 Azure DoD 蓝图](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)。
+通过 Azure 安全与合规部防御蓝图，开始利用政府中的云优势。 此蓝图提供了一些工具和指南，可让你开始构建符合 DoD 的解决方案。 [开始使用 Azure DoD 蓝图](/azure/governance/blueprints/samples/dod-impact-level-4/)。
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+## <a name="frequently-asked-questions"></a>常见问题
 
 **能否在我组织的认证过程中使用 Microsoft 的合规性认证？**
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3c167ac9a0b98157c51abaf284c2d6277c8150ef
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: ae241dcff38ac764c2b57f559e95c079d6e59cd7
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505957"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121231"
 ---
 # <a name="eu-us-and-swiss-us-privacy-shield-frameworks"></a>欧盟-美国及瑞士-美国隐私保护框架
 
@@ -61,7 +61,7 @@ Microsoft 云中的隐私 — 获取有关 Microsoft 隐私原则和标准的详
     - [了解更多](https://www.microsoft.com/download/details.aspx?id=55710)
 
 Azure 中的数据保护 — Azure 可为客户提供强大的数据安全性（默认提供和作为客户选项提供）。  
-    - [了解更多](https://docs.microsoft.com/azure/security/azure-protection-of-customer-data)
+    - [了解更多](/azure/security/azure-protection-of-customer-data)
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

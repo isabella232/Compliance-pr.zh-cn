@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3dfd4993428de2884c1d7ea4d149da28f833508d
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: 9aca1e5019967db6f73de245cd75ceba88e62e64
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49936946"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120871"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>瑞士金融市场监督管理局 (FINMA)
 
@@ -52,7 +52,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 - [合规性清单：瑞士](https://aka.ms/FinServ-Guide-Switzerland)：金融企业可在对 Microsoft 商业云服务进行风险评估方面获得帮助。
 - [风险评估和合规性指南](https://aka.ms/RiskGovernanceGuide)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
-- [金融用例](https://docs.microsoft.com/azure/industry/financial/)：在案例概述、教程和其他资源的帮助下构建适合金融服务的 Azure 解决方案。
+- [金融用例](/azure/industry/financial/)：在案例概述、教程和其他资源的帮助下构建适合金融服务的 Azure 解决方案。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

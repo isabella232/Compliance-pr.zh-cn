@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3bfbddcf9518e86c747315b4eac472ac42365ede
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 2ecf4d029b1c69e4ce7da1244d71d47433eb3873
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506615"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120141"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>ISO 9001:2015 质量管理体系标准
 
@@ -63,7 +63,7 @@ ISO 9001:2015 是建立质量管理体系标准的国际标准。 它是 ISO 900
 
 **可从哪里获得适用于 Microsoft 服务的 ISO 9001:2015 审核报告和范围说明书？**
 
-[服务信任门户](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)提供独立审核的合规性报告。 你可以使用此门户来请求报告，以便审核员可以将 Microsoft 的云服务结果与自己的法律和法规要求进行比较。 [FY17 Microsoft Azure ISO 9001 评估报告](https://www.microsoft.com/?ref=aka)和 [FY17 Microsoft Azure ISO 9001 证书](https://www.microsoft.com/?ref=aka)均已提供。
+[服务信任门户](/microsoft-365/compliance/get-started-with-service-trust-portal)提供独立审核的合规性报告。 你可以使用此门户来请求报告，以便审核员可以将 Microsoft 的云服务结果与自己的法律和法规要求进行比较。 [FY17 Microsoft Azure ISO 9001 评估报告](https://www.microsoft.com/?ref=aka)和 [FY17 Microsoft Azure ISO 9001 证书](https://www.microsoft.com/?ref=aka)均已提供。
 
 **Microsoft 是否进行年度测试以排查基础结构故障？**
 

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.collection: MS-Compliance
-ms.openlocfilehash: 7a3739afc42ba6397bb0b465b6f4a9c5806d2c16
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 15d59569102a5e39ac8641df6003b2999362e0bd
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506508"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121471"
 ---
 # <a name="gdpr-for-skype-for-business-server-and-lync-server"></a>用于 Skype for Business Server 和 Lync Server 的 GDPR
 
@@ -35,8 +35,8 @@ ms.locfileid: "49506508"
 
 -   最终用户自身可以通过右键单击组标题并选择“复制”来导出联系人。这会将该组中的所有联系人复制到剪贴板，然后将其粘贴到任何应用中。
 
--   可以使用 [Export-CsUserData](https://docs.microsoft.com/powershell/module/skype/export-csuserdata) cmdlet 导出此类数据。
+-   可以使用 [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet 导出此类数据。
 
 上传到会议的内容（例如 PowerPoint 文件或讲义）或在会议中生成的内容（例如白板、投票或 Q/A）存储在文件管理器中。如果最终用户重新登录到任何尚未过期的会议并下载任何上传的内容，或在生成内容的情况下创建屏幕截图，也可以导出此类信息。
 
-不在 Exchange 日历和联系人列表中的 MeetNow 会议以及联系人权限（家人、同事等）位于用户数据库中。在 Lync Server 2013 及更高版本中，可以使用 [Export-CsUserData](https://docs.microsoft.com/powershell/module/skype/export-csuserdata) cmdlet 导出此类数据。
+不在 Exchange 日历和联系人列表中的 MeetNow 会议以及联系人权限（家人、同事等）位于用户数据库中。在 Lync Server 2013 及更高版本中，可以使用 [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet 导出此类数据。

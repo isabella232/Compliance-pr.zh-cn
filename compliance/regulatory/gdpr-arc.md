@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 9be40afbe9df0a3744022366119aaa7d35da992c
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: e8426e0e988c2f29a5223abb7e10a205f3941cfd
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506403"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121501"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>通过责任就绪清单支持 GDPR 计划
 
@@ -40,7 +40,7 @@ ms.locfileid: "49506403"
 - [Azure](gdpr-arc-azure-dynamics.md)
 - [Microsoft 支持和专业服务](gdpr-arc-prof-services.md)
 
-可以使用[合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)来管理此清单中的项目，具体方法是引用 GDPR 磁贴中“客户托管控件”下的控件 ID 和控件标题。
+可以使用[合规性管理器](/microsoft-365/compliance/compliance-manager)来管理此清单中的项目，具体方法是引用 GDPR 磁贴中“客户托管控件”下的控件 ID 和控件标题。
 
 这些清单包括，下列支持 GDPR 的隐私计划的四类基本注意事项，以及示例要求。
 
@@ -75,7 +75,7 @@ ms.locfileid: "49506403"
 
 ## <a name="gdpr-compliance-controls"></a>GDPR 合规性控制
 
-- **使用合规性管理器**：使用 [合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)来审核并合并 Microsoft 为支持 GDPR 中规定的义务而采用的控制措施。
+- **使用合规性管理器**：使用 [合规性管理器](/microsoft-365/compliance/compliance-manager)来审核并合并 Microsoft 为支持 GDPR 中规定的义务而采用的控制措施。
 - **GDPR 控制映射**：访问 Microsoft 控制到 GDPR 义务的 [完整映射](https://go.microsoft.com/fwlink/p/?linkid=2052220)。
 
 ## <a name="records-of-processing-for-processors"></a>处理器处理的记录
@@ -86,31 +86,31 @@ ms.locfileid: "49506403"
 
 通常客户会关注活动日志和诊断日志：
 
-- **活动日志**： [活动日志](https://docs.microsoft.com/azure/azure-monitor/platform/platform-logs-overview)提供对订阅中的资源执行操作的见解。 活动日志可帮助确定操作的发起人、发生时间和状态。
-- **诊断日志**： [诊断日志](https://docs.microsoft.com/azure/azure-monitor/platform/platform-logs-overview) 所有的记录都由各个资源发出。 这些日志包括 Windows 事件系统日志、Azure 存储日志、密钥保管库审核日志，以及应用程序网关访问和防火墙日志。
+- **活动日志**： [活动日志](/azure/azure-monitor/platform/platform-logs-overview)提供对订阅中的资源执行操作的见解。 活动日志可帮助确定操作的发起人、发生时间和状态。
+- **诊断日志**： [诊断日志](/azure/azure-monitor/platform/platform-logs-overview) 所有的记录都由各个资源发出。 这些日志包括 Windows 事件系统日志、Azure 存储日志、密钥保管库审核日志，以及应用程序网关访问和防火墙日志。
 - **日志存档**：所有诊断日志均写入集中和已加密的 Azure 存储帐户进行存档。 可通过用户配置保留期（最长 730 天），满足组织特定的保留要求。 这些日志连接到 Azure Monitor 日志，用于处理、存储和仪表板报告。
 
 ### <a name="other-logs"></a>其他日志
 
 此外，还会在此体系结构中安装以下监视解决方案。 客户有责任配置这些解决方案，以便与 FedRAMP 安全控制保持一致：
 
-- [AD 评估](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment)： Active Directory 运行状况检查解决方案定期评估服务器环境的风险和运行状况，并提供针对已部署服务器基础结构的建议的优先级列表。
-- [反恶意软件评估](https://docs.microsoft.com/azure/security-center/security-center-services?tabs=features-windows#supported-endpoint-protection-solutions-)：反恶意软件解决方案报告了恶意软件、威胁和保护状态。
-- [Azure 自动化](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)： Azure 自动化解决方案存储、运行和管理运行手册。
-- [安全和审核](https://docs.microsoft.com/azure/security-center/security-center-introduction)：通过提供有关安全域、重要问题、检测、威胁智能和常见安全查询的指标，安全和审核仪表板提供有关资源安全状态的高级见解。
-- [SQL 评估](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment)： SQL 运行状况检查解决方案定期评估服务器环境的风险和运行状况，并向客户提供针对已部署服务器基础结构的建议的优先级列表。
-- [更新管理](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview)：更新管理解决方案允许客户管理操作系统安全更新，包括可用更新的状态和安装所需更新的过程。
-- [代理运行状况](https://docs.microsoft.com/azure/azure-monitor/insights/solution-agenthealth)：代理运行状况解决方案报告已部署的代理数及其地理分布，以及无响应代理数和正在提交操作数据的代理数。
-- [Azure 活动日志](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log)：活动日志分析解决方案可帮助分析客户所有的 Azure 订阅的 Azure 活动日志。
-- [更改跟踪](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log)：更改跟踪解决方案使客户能够轻松识别环境中的更改。
+- [AD 评估](/azure/azure-monitor/insights/ad-assessment)： Active Directory 运行状况检查解决方案定期评估服务器环境的风险和运行状况，并提供针对已部署服务器基础结构的建议的优先级列表。
+- [反恶意软件评估](/azure/security-center/security-center-services?tabs=features-windows#supported-endpoint-protection-solutions-)：反恶意软件解决方案报告了恶意软件、威胁和保护状态。
+- [Azure 自动化](/azure/automation/automation-hybrid-runbook-worker)： Azure 自动化解决方案存储、运行和管理运行手册。
+- [安全和审核](/azure/security-center/security-center-introduction)：通过提供有关安全域、重要问题、检测、威胁智能和常见安全查询的指标，安全和审核仪表板提供有关资源安全状态的高级见解。
+- [SQL 评估](/azure/azure-monitor/insights/sql-assessment)： SQL 运行状况检查解决方案定期评估服务器环境的风险和运行状况，并向客户提供针对已部署服务器基础结构的建议的优先级列表。
+- [更新管理](/azure/automation/update-management/update-mgmt-overview)：更新管理解决方案允许客户管理操作系统安全更新，包括可用更新的状态和安装所需更新的过程。
+- [代理运行状况](/azure/azure-monitor/insights/solution-agenthealth)：代理运行状况解决方案报告已部署的代理数及其地理分布，以及无响应代理数和正在提交操作数据的代理数。
+- [Azure 活动日志](/azure/azure-monitor/platform/activity-log)：活动日志分析解决方案可帮助分析客户所有的 Azure 订阅的 Azure 活动日志。
+- [更改跟踪](/azure/azure-monitor/platform/activity-log)：更改跟踪解决方案使客户能够轻松识别环境中的更改。
 
-有关 Azure 的技术和安全措施的信息，控制者客户请访问 [Azure 安全文档](https://docs.microsoft.com/azure/security/)。 由于 Microsoft 不知道客户数据是否是个人数据，Azure 会将所有客户数据当做个人数据一样处理，因此客户很可能会考虑到所有相关资料。
+有关 Azure 的技术和安全措施的信息，控制者客户请访问 [Azure 安全文档](/azure/security/)。 由于 Microsoft 不知道客户数据是否是个人数据，Azure 会将所有客户数据当做个人数据一样处理，因此客户很可能会考虑到所有相关资料。
 
 ### <a name="processor-information"></a>处理器信息
 
-客户可能需要处理器处理信息记录的另一个产品是 Office 365。 若要查看与 Office 365 相关的信息，请参阅[在安全与合规中心文章中搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+客户可能需要处理器处理信息记录的另一个产品是 Office 365。 若要查看与 Office 365 相关的信息，请参阅[在安全与合规中心文章中搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
-你还可以使用安全与合规中心查看有关 Dynamics 365 的信息。  若要查看安全与合规中心页面，请确保你持有正确的许可证。 了解有关许可证的详细信息，请参阅[安全与合规中心服务说明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)文章。 若要搜索 Dynamics 365 事件，请访问[安全与合规中心](https://protection.office.com/unifiedauditlog)中的统一审核日志。
+你还可以使用安全与合规中心查看有关 Dynamics 365 的信息。  若要查看安全与合规中心页面，请确保你持有正确的许可证。 了解有关许可证的详细信息，请参阅[安全与合规中心服务说明](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)文章。 若要搜索 Dynamics 365 事件，请访问[安全与合规中心](https://protection.office.com/unifiedauditlog)中的统一审核日志。
 
 ### <a name="professional-services-information"></a>专业服务信息
 

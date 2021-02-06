@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cd4082f2e38ee2c6a2f432ff5bef289ebe0fc69a
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+ms.openlocfilehash: c8d1247f915ee1c0c7714c0a5ef99553116cafd1
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787511"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120261"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>美国税务服务出版物 1075
 
 ## <a name="us-internal-revenue-service-publication-1075-overview"></a>美国税务服务出版物 1075 概述
 
-内部收入服务出版物 1075 (IRS 1075) 为访问联邦税务信息 (FTI) 的美国政府机构及其代理提供指导，以确保他们使用策略、实践和控制措施来保护其机密性。 IRS 1075 旨在最大限度地降低外部政府机构持有 FTI 的丢失、泄露或滥用风险。 例如，处理其居民的纳税申报表的 FTI 的州收入部门或访问 FTI 的医疗保健机构必须实施保护该信息的程序。  
+内部收入服务出版物 1075 (IRS 1075) 为访问联邦税务信息 (FTI) 的美国政府机构及其代理提供指导，以确保他们使用策略、实践和控制措施来保护其机密性。 IRS 1075 旨在最大限度地降低外部政府机构持有 FTI 的丢失、泄露或滥用风险。 例如，负责处理其居民的纳税申报表的 FTI 的州税务部门或访问 FTI 的医疗保健机构必须实施保护该信息的程序。  
   
 为了保护 FTI，IRS 1075 规定了应用程序、平台和数据中心服务的安全和隐私控制。 例如，它优先考虑数据中心活动的安全性，例如正确处理 FTI，并监督数据中心承包商限制输入。 为了确保接收 FTI 的政府机构应用这些控制措施，IRS 制定了安全措施计划，其中包括定期审查这些机构及其承包商。
 
@@ -42,12 +42,12 @@ Microsoft Azure 政府版和 [Microsoft Office 365](https://products.office.com/
 - 提供详细指导，帮助机构了解他们的责任，以及各种 IRS 控制措施如何映射到 Azure 政府版和 Office 365 美国政府版中的功能。 IRS 1075 安全保护报告 (SSR) 详细记录 Microsoft 服务如何实施适用的 IRS 控件，并基于 Azure 政府版和 Office 365 美国政府版 FedRAMP 程序包。 由于 IRS 1075 和 FedRAMP 都基于 NIST 800-53，因此 IRS 1075 的合规性边界与 FedRAMP 授权相同。
 - IRS 必须明确批准发布任何 IRS 安全措施文档，因此只有 NDA 下政府客户才能查看 SSR。
 - 提供独立评估员针对其云服务生成的审核报告和监控信息。
-- 向 IRS Azure 政府合规性注意事项和 Office 365 美国政府合规性注意事项提供，其中概述了机构如何按照符合 IRS 1075 要求的方式将 Microsoft 云用于政府版服务。 NDA 下政府客户可以请求这些文档。
+- 提供 IRS Azure 政府合规性注意事项和 Office 365 美国政府合规性注意事项，其中概述了机构如何使用 Microsoft Cloud for Government 服务，其方式符合 IRS 1075。 NDA 下政府客户可以请求这些文档。
 - 为客户提供了 (费用，) 与 Microsoft 行业专家或外部审核员进行通信（如果需要）。
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
-FedRAMP 授权基于 NIST 准则在三个影响级别授予— 低、中和高。 这些对丢失机密性、完整性或可用性对组织的影响进行排名 — 低 (有限) 、中等 (严重负面影响) 以及高 (严重或灾难性) 。
+FedRAMP 授权基于 NIST 准则在三个影响级别授予— 低、中和高。 这些对丢失机密性、完整性或可用性对组织的影响进行排名— 低 (有限) 、中等 (严重负面影响) 以及高 (严重或灾难性) 。
 
 - [Azure 与 Azure 政府](https://azure.microsoft.com/global-infrastructure/government/)
 - Dynamics 365 美国政府版
@@ -62,13 +62,13 @@ FedRAMP 审核每年都会涵盖对 IRS 1075 实质性要求的合规性。
 - [FedRAMP 授权](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)
 - [Azure IRS 1075 安全保护报告](https://aka.ms/AzureIRS1075SafeguardSecurityReport)
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+## <a name="frequently-asked-questions"></a>常见问题
 
 **Microsoft 如何满足 IRS 1075 的要求？**
 
 Microsoft 定期监视其安全性、隐私和运营控制措施以及 NIST 800-53 修订版。FedRAMP 基线对中等影响信息系统要求进行 4 项控制。 它通过持续监控报告提供对此信息的季度访问。 Azure 政府版和 Office 365 美国政府版客户可以通过服务信任门户访问此 [敏感的合规性信息](https://aka.ms/stphelp)。
 
-此外，Microsoft 致力于将 IRS 1075 控件包括在 Azure 政府版和 Office 365 美国政府版的主控件集内，并致力于每年进行一次审核。
+此外，Microsoft 致力于将 IRS 1075 控件包括在 Azure 政府版和 Office 365 美国政府版的主控件集内，并致力于每年对它们进行审核。
 
 **我能否查看 FedRAMP 程序包或系统安全计划？**
 
@@ -76,11 +76,11 @@ Microsoft 定期监视其安全性、隐私和运营控制措施以及 NIST 800-
 
 **我能否使用 Azure 或 Office 365 公共云环境，但仍符合 IRS 1075？**
 
-不正确。 可以存储和处理 FTI 的唯一环境是 Azure 政府版或 Office 365 美国政府版。 政府客户必须满足使用这些环境的资格要求。
+否。 可以存储和处理 FTI 的唯一环境是 Azure 政府版或 Office 365 美国政府版。 政府客户必须满足使用这些环境的资格要求。
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

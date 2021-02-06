@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8bde27222806ea5909c67bac8556ff682453809b
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f35e72bc81a93bcba3ecea5ca8a416553e6116a8
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506655"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121371"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Internet 安全中心 (CIS) 基准
 
@@ -70,8 +70,8 @@ CIS 基准是国际公认的保护 IT 系统和数据免受网络攻击的安全
 ## <a name="how-to-implement"></a>如何实现
 
 - [适用于 Azure 的 CIS 基准](https://azure.microsoft.com/mediahandler/files/resourcefiles/cis-microsoft-azure-foundations-security-benchmark/CIS_Microsoft_Azure_Foundations_Benchmark_v1.0.0.pdf)：获取为 Azure 建立安全基线配置的说明性指导。  
-- [Microsoft 365 安全路线图](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)：遵循此路线图，可将数据泄露或泄露帐户的可能性降至最低。
-- [Windows 安全基线](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)：遵循以下准则，可在组织中有效使用安全基线。
+- [Microsoft 365 安全路线图](/microsoft-365/security/office-365-security/security-roadmap)：遵循此路线图，可将数据泄露或泄露帐户的可能性降至最低。
+- [Windows 安全基线](/windows/security/threat-protection/windows-security-baselines)：遵循以下准则，可在组织中有效使用安全基线。
 - [CIS 控制措施云配套指南](https://www.cisecurity.org/white-papers/cis-controls-cloud-companion-guide/)：获取有关将 CIS 控制措施版本 7 中的安全最佳做法应用到云环境的指南。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
@@ -90,11 +90,11 @@ CIS 指出，“基准是通过行业专家、技术供应商、公共和专用 
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)的一项功能，可帮助你了解组织的合规态势，并采取行动以帮助降低风险。合规性管理器提供了一个高级模板，用于构建该法规的评估。在合规性管理器的 **评估模板** 页面中找到该模板。了解如何 [在合规管理器中构建评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 
 - [安全使用 Microsoft 365 的 CIS 最佳做法](https://www.microsoft.com/security/blog/2019/01/10/best-practices-for-securely-using-microsoft-365-the-cis-microsoft-365-foundations-benchmark-now-available/)
-- [Windows 10 安全策略设置](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/security-policy-settings)
-- [Windows 10 企业安全性](https://docs.microsoft.com/windows/security/index)
+- [Windows 10 安全策略设置](/windows/security/threat-protection/security-policy-settings/security-policy-settings)
+- [Windows 10 企业安全性](/windows/security/index)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

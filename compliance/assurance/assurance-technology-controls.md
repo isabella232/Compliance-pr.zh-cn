@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft 365 中的技术控制 '
-description: 本文概述了 microsoft 365 中 Microsoft 的技术控制使用的工具和技术。
+description: 本文概述了 Microsoft 在 Microsoft 365 中用于技术控制的工具和技术。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,59 +19,59 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 03bd74401c944f47e02fbfffc91387afd6e039fd
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 2c02e1739f6d3b5981e4327139477a12f987ed68
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506371"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120731"
 ---
 # <a name="technology-controls-in-microsoft-365"></a>Microsoft 365 中的技术控制 
 
-Microsoft 使用多种工具和技术来控制、管理和审核对其在线服务中的客户数据的访问。 这些应用于 Exchange Online、SharePoint Online、密码箱和客户密码箱、多重身份验证等。 Yammer 使用 [Yammer Enterprise Access 控件](assurance-yammer-enterprise-access-controls.md)中所述的类似控件。
+Microsoft 使用多种工具和技术来控制、管理和审核在其在线服务中访问客户数据。 这些适用于 Exchange Online、SharePoint Online、密码箱和客户密码箱、多重身份验证等。 Yammer 使用 Yammer 企业访问控制 [中描述的类似控件](assurance-yammer-enterprise-access-controls.md)。
 
-Microsoft 365 工程师对 Microsoft 365 客户数据具有零的访问权限。 在访问客户数据以进行服务操作之前，工程师必须先完成 Microsoft 审批流程。 如果客户对 Exchange Online 和 SharePoint Online 的客户密码箱功能进行了授权，则对客户数据的访问需要客户审批。 经过批准后，特定于服务的管理帐户将为服务请求所需的任务预配实时访问。
+Microsoft 365 工程师对 Microsoft 365 客户数据没有长期访问权限。 工程师必须先完成 Microsoft 审批流程，然后才能访问服务操作的客户数据。 如果客户对 Exchange Online 和 SharePoint Online 的客户密码箱功能进行许可，则访问客户数据需要客户批准。 批准后，将实时为服务请求所需的任务设置特定于服务的管理帐户的访问权限。
 
 ## <a name="lockbox-and-customer-lockbox"></a>密码箱和客户密码箱
 
-虽然极少数情况下，客户可以从 Microsoft 向 Microsoft 工程师公开客户内容的帮助。 为了控制对 Exchange Online 的访问，Microsoft 使用名为 "密码箱" 的访问控制系统。 在 Microsoft 工程师访问任何 Exchange Online 或 SharePoint Online 系统或数据之前，必须使用密码箱提交访问请求。 Exchange Online 和 SharePoint Online 的所有服务请求都由密码箱系统处理。 通过密码箱和客户密码箱，所有批准的访问都可对唯一用户进行跟踪，使工程师对客户数据的处理负责。
+虽然很少见，但客户可能会向 Microsoft 请求向 Microsoft 工程师公开客户内容的协助。 为了控制对 Exchange Online 的访问，Microsoft 使用名为 Lockbox 的访问控制系统。 在任何 Microsoft 工程师访问任何 Exchange Online 或 SharePoint Online 系统或数据之前，他们必须使用密码箱提交访问请求。 Exchange Online 和 SharePoint Online 的所有服务请求都由密码箱系统处理。 对于密码箱和客户密码箱，所有批准的访问均可跟踪到唯一用户，使工程师负责处理客户数据。
 
 > [!NOTE]
-> Exchange Online 包括存储在用户邮箱中的任何 Skype for Business 数据。 Skype for business 覆盖范围不包括 Skype 会议广播录制或用户上载到会议的内容。 SharePoint Online 包括 OneDrive for Business。
+> Exchange Online 包括用户邮箱中存储的任何 Skype for Business 数据。 Skype for Business 覆盖范围不包括 Skype 会议直播录像或用户上传到会议的内容。 SharePoint Online 包括 OneDrive for Business。
 
-密码箱处理授予工程师在服务中执行操作和管理功能的能力的权限请求。 工程师通过密码箱提交请求，Microsoft 管理员必须先批准请求，然后工程师才能访问客户数据。 在经理批准后，工程师对客户数据具有受时间限制和范围限制的访问权限，以处理客户问题。
+密码箱处理授予工程师在服务中执行操作和管理功能的权限请求。 工程师通过密码箱提交请求，Microsoft 经理必须批准请求，工程师才能访问客户数据。 经理批准后，工程师将具有对客户数据进行限时和范围受限的访问权限，以处理客户的问题。
 
-Microsoft 365 的客户密码箱可帮助您满足法规遵从性义务（如果您需要实现显式数据访问授权的过程）。 这是对某些合规性标准（如 FedRAMP 和 HIPAA）的要求。 客户密码箱将你插入密码箱审批过程，并为你提供控制 Microsoft access 对 Exchange Online 或 SharePoint Online 内容的授权，以进行服务操作。
+如果需要执行明确的数据访问授权过程，Microsoft 365 客户密码箱可帮助你履行合规性义务。 这是某些合规性标准（如 FedRAMP 和 HIPAA）的要求。 客户密码箱将您插入密码箱审批流程，并让你能够控制 Microsoft 对 Exchange Online 或 SharePoint Online 内容的授权，以用于服务操作。
 
-在 Microsoft 服务工程师需要访问您的数据时，在极少数的实例中，仅授予对解决问题所需的数据的访问权限以及有限的时间。 如果拒绝访问请求，Microsoft 工程师将无法访问你的内容，并且无法完成服务操作。 如果你批准请求，Microsoft 工程师通过受监控和约束的管理界面来限制你的内容的实时访问。
+在极少数情况下，当 Microsoft 服务工程师需要访问你的数据时，你仅授予对解决问题所需的数据和有限时间的访问权限。 如果拒绝访问请求，Microsoft 工程师将无法访问您的内容，并且无法完成服务操作。 如果批准该请求，Microsoft 工程师通过受监视和受限的管理界面对内容进行有限实时访问。
 
-支持工程师采取的操作是出于审核目的而记录的，可通过 [Office 365 管理活动 API](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis) 和 [安全与合规中心](https://protection.office.com/)进行访问。
+支持工程师采取的操作记录用于审核目的，可通过 [Office 365](/office/office-365-management-api/get-started-with-office-365-management-apis) 管理活动 API 和安全与合规中心 [访问](https://protection.office.com/)。
 
 >[!NOTE]
-> 客户密码箱在 [Microsoft 365 E5](https://products.office.com/business/office-365-enterprise-e5-business-software) 中作为附加购买版提供。 有关详细信息，请参阅 [Microsoft 365 客户密码箱请求](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2)。
+> 客户密码箱在 [Microsoft 365 E5](https://products.office.com/business/office-365-enterprise-e5-business-software) 中作为加载项购买提供。 有关详细信息，请参阅 [Microsoft 365 客户密码箱请求](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2)。
 
 ## <a name="just-in-time-access"></a>实时访问
 
-Microsoft 使用 Microsoft 365 的实时 (JIT) 访问原则来缓解凭据篡改风险和横向攻击。 JIT 可删除服务的持久管理访问权限，并将权限替换为根据需要提升为这些角色。 从管理员删除永久访问权限可确保凭据仅在需要时才可用，并可降低凭据窃取风险。
+Microsoft 使用 Microsoft 365 (JIT) 访问原则来缓解凭据篡改风险和横向攻击。 JIT 删除对服务的持久管理访问权限，并替换为按需提升为这些角色的能力。 从管理员删除永久访问权限可确保凭据仅在需要凭据时可用，并降低凭据盗窃风险。
 
-JIT 访问模型要求工程师在有限的时段内请求提升的权限，以执行管理任务。 此外，工程师使用使用计算机生成的复杂密码创建的临时帐户，并只授予那些允许他们执行必要任务的角色。 例如，由密码箱授予的管理访问权限是受时间限制的，并且访问权限的时间量取决于请求的角色。 工程师指定对密码箱系统的请求中所需的时间访问的持续时间。 当请求的时间超过提升的最长允许时间时，密码箱系统会拒绝请求。 过期后，将删除管理访问权限，并且临时帐户将过期。
+JIT 访问模型要求工程师在有限时段内请求提升的权限，以执行管理职责。 此外，工程师使用使用计算机生成的复杂密码创建的临时帐户，并仅授予允许其执行必要任务的角色。 例如，密码箱授予的管理访问权限具有时间限制，授予的访问时间取决于请求的角色。 工程师指定对密码箱系统的请求中所需的访问持续时间。 当请求的时间超过提升的最大允许时间时，密码箱系统将拒绝请求。 过期后，管理访问权限将被删除，临时帐户将过期。
 
-当授权和批准访问时，工程师将收到由授权系统生成的一次性管理密码。 每次批准请求提升访问权限时，都会生成新密码。 密码将被复制到密码安全，与工程师为 Microsoft 公司环境的凭据分开，且仅适用于已批准的提升的访问会话。
+授权和批准访问后，工程师将收到授权系统生成的一次使用管理密码。 每次批准提升的访问权限请求时，将生成新密码。 密码被复制到密码安全中，独立于 Microsoft 公司环境的工程师凭据，并且仅适用于批准的提升的访问会话。
 
 ## <a name="constrained-management-interfaces"></a>受约束的管理接口
 
-工程师使用两个管理界面执行管理任务：通过安全的终端服务网关 (TSGs) 和远程 PowerShell 执行的远程桌面。 在这些管理界面中，软件策略和访问控制对所执行的应用程序以及可用的命令和 cmdlet 施加了很大的限制。
+工程师使用两个管理界面来执行管理任务：通过安全终端服务网关和 TSG (远程桌面) PowerShell。 在这些管理界面中，软件策略和访问控制对执行哪些应用程序以及哪些命令和 cmdlet 可用施加了重大限制。
 
-Microsoft 365 服务器将并发会话限制为每个服务的团队管理员，每个服务器一个会话。 TSGs 仅允许用户单个并发会话，不允许多个会话。 通过对每个服务器使用一个会话，TSGs 允许 Microsoft 365 服务团队管理员同时连接到多台服务器，以便管理员能够有效地执行其职责。 服务团队管理员对 TSGs 本身没有任何权限。 TSG 仅用于强制执行多重身份验证 (MFA) 和加密要求。 一旦服务团队管理员通过 TSG 连接到特定服务器，则该特定服务器会强制每个管理员一个会话限制为一个。
+Microsoft 365 服务器将并发会话限制为每个服务器一个会话（每个服务团队管理员一个会话）。 TSG 仅允许用户使用单个并发会话，不允许多个会话。 通过每个服务器使用一个会话，TSG 允许 Microsoft 365 服务团队管理员同时连接到多个服务器，以便管理员能够有效地执行任务。 服务团队管理员对 TSG 本身没有任何权限。 TSG 仅用于强制执行 MFA (和加密) 多重身份验证。 服务团队管理员通过 TSG 连接到特定服务器后，特定服务器将强制实施每个管理员一个会话限制。
 
-Microsoft 365 人员的使用限制和连接和配置要求由 Active Directory 组策略建立。 这些策略包括以下特征：
+Microsoft 365 人员的使用限制、连接和配置要求由 Active Directory 组策略确定。 这些策略包括以下特征：
 
-- TSGs 仅使用 [FIPS](https://www.microsoft.com/TrustCenter/Compliance/FIPS) 140-2 验证的加密。
-- 在30分钟不活动后断开的 TSG 会话。
-- 在24小时后，TSG 会话将自动注销。
+- TSG 仅使用 [FIPS](https://www.microsoft.com/TrustCenter/Compliance/FIPS) 140-2 验证加密。
+- TSG 会话在处于非活动状态 30 分钟后断开连接。
+- TSG 会话会在 24 小时后自动注销。
 
-与 TSGs 的连接还需要使用单独的物理智能卡和帐户（与工程师的 Microsoft 公司凭据分开）进行 MFA。 为各种平台和机密管理平台颁发不同的智能卡的工程师可确保凭据的安全存储。 TSGs 使用 Active Directory 组策略来控制谁可以登录到远程服务器、允许的会话数和空闲超时设置。 其他策略将限制对允许的应用程序的访问，并限制 Internet 访问。
+与 TSG 的连接还需要使用单独的物理智能卡和独立于工程师的 Microsoft 公司凭据的帐户进行 MFA。 为工程师颁发了适用于各种平台的不同智能卡，密钥管理平台可确保凭据的安全存储。 TSG 使用 Active Directory 组策略来控制哪些人可以登录到远程服务器、允许的会话数和空闲超时设置。 其他策略限制对允许的应用程序的访问，并限制 Internet 访问。
 
-除了使用巧尽心思配置的 TSGs 的远程访问之外，Exchange Online 还允许具有服务工程师操作角色的用户使用远程 PowerShell 访问生产服务器上的特定管理功能。 若要执行此操作，必须向用户授予只读 (debug) 对 Microsoft 365 生产环境的访问权限。 启用权限提升的方式与使用密码箱进程为 TSGs 启用权限的方式相同。
+除了使用特殊配置的 TSG 进行远程访问之外，Exchange Online 还允许具有服务工程师操作角色的用户使用远程 PowerShell 访问生产服务器上特定的管理功能。 为此，用户必须有权使用只读 (调试) Microsoft 365 生产环境。 特权提升的启用方式与使用密码箱进程为 TSG 启用的方式相同。
 
-对于远程访问，每个数据中心都有一个负载平衡的虚拟 IP，用作单一访问点。 可用的远程 PowerShell cmdlet 基于身份验证期间获取的访问声明中标识的权限级别。 这些 cmdlet 仅提供使用此方法进行连接的用户可访问的唯一管理功能。 远程 PowerShell 限制可用于工程师的命令的范围，并基于通过密码箱进程授予的访问级别。 例如，在 Exchange Online 中，Get-Mailbox 可能可用，但 Set-Mailbox 不是。
+对于远程访问，每个数据中心都有一个充当单一访问点的负载平衡虚拟 IP。 可用的远程 PowerShell cmdlet 基于身份验证期间获取的访问声明中标识的权限级别。 这些 cmdlet 提供了用户使用此方法进行连接时唯一可访问的管理功能。 远程 PowerShell 限制可供工程师使用的命令范围，并且基于通过密码箱进程授予的访问级别。 例如，在 Exchange Online 中，Get-Mailbox可用，Set-Mailbox不可用。

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ac0915f6209a9024f8dcaae5ce2fed8ab8186b9a
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: e4907cabfc1dededfafd83ea4c2924c97651246f
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505942"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120211"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 业务连续性管理标准
 
@@ -75,14 +75,14 @@ ISO 22301 是企业和政府组织使用的一种认证，通过实现业务连�
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 
 - [ISO 22301:2012 标准](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=50038)（针对采购）
-- [Azure 复原技术指南](https://docs.microsoft.com/azure/architecture/framework/resiliency/overview)（说明用于业务连续性的 Azure 责任共担模型。）
+- [Azure 复原技术指南](/azure/architecture/framework/resiliency/overview)（说明用于业务连续性的 Azure 责任共担模型。）
 - [Microsoft 公共控制中心合规性框架](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
 - [Microsoft 企业版业务连续性管理计划描述](https://go.microsoft.com/fwlink/p/?linkid=2092212)
-- [合规性分数](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)
+- [合规性分数](/microsoft-365/compliance/compliance-manager)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

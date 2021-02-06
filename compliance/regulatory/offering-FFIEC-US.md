@@ -16,28 +16,28 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2425d81ae5f539e1942203abc3afcd58319fb1dd
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: 73a23d89876ee6c4c11a98a95d8f2bd491642b60
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49936937"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120881"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>联邦金融机构检查委员会 (FFIEC) 
 
 ## <a name="ffiec-overview"></a>FFIEC 概述
 
-联邦金融机构检查委员会 (FFIEC) 是一个正式的机构机构，由五个银行监管机构组成，负责美国联邦金融机构在美国的金融机构的审批。 FFIEC 教育版 Office 发布了面向 FFIEC 成员机构现场培训的 IT 考试手册。
+联邦金融机构检查委员会 (FFIEC) 是一个正式的机构机构，由五个银行监管机构组成，负责美国联邦金融机构在美国的金融机构的审批。 FFIEC 教育版办公室发布了面向 FFIEC 成员机构现场培训的 IT 考试手册。
 
 [FFIEC 审核 IT 检查手册](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)包含针对这些审计机构的指南，用于评估金融机构和 TSP 的 IT 审核计划的质量和有效性。 具体而言，它包括美国注册公共会计协会 (AICPA) SOC 1、SOC 2 和 SOC 3 证明报告作为独立审核报告的示例。 但是，FFIEC 建议金融机构不要仅依赖这些报告中包含的信息，而使用 [FFIEC](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)外包技术服务 IT 检查手册中详细讨论的验证和监视过程。
 
 ## <a name="microsoft-and-ffiec"></a>Microsoft 和 FFIEC
 
-Microsoft Azure、Microsoft Power BI 和 Microsoft Office 365 专为满足为金融服务机构提供云服务的严格要求而构建。 作为支持的一部分，我们提供指导，帮助你遵守 FFIEC 信息技术审核要求，以及履行 FFIEC 合规性义务时使用 Azure SOC 证明的能力。
+Microsoft Azure、Microsoft Power BI 和 Microsoft Office 365 专为满足为金融服务机构提供云服务的严格要求而构建。 作为支持的一部分，我们提供指南，帮助你遵守针对信息技术的 FFIEC 审核要求，以及履行 FFIEC 合规性义务时使用 Azure SOC 证明的能力。
 
-为了帮助金融机构客户满足其对 Azure 的 FFIEC 合规性要求，Microsoft 已针对 [FFIEC](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)监管服务工作负载开发了 Azure 安全性和合规性蓝图。 它提供 Azure 云服务使用指南，以及客户遵守 FFIEC 要求和风险评估准则的注意事项。
+为了帮助金融机构客户满足其对 Azure 的 FFIEC 合规性要求，Microsoft 已针对 [FFIEC](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)监管服务工作负载开发了 Azure 安全性和合规性蓝图。 它提供 Azure 云服务的使用指南，以及客户遵守 FFIEC 要求和风险评估准则的注意事项。
 
-为了进一步帮助您遵守 FFIEC 要求，Microsoft 云服务提供由独立 CPA 公司生成的 [SOC](offering-SOC.md) 证明报告。 例如，SOC 1 类型 2 证明基于 AICPA SSAE 18 标准 (请参阅替换 SAS 70 的 AT-C 第 105) 节，并适用于报告针对财务报告的某些控制措施。 SOC 报告包括审核员对 Microsoft 控制措施在指定的监视期间实现相关控制目标的有效性的意见。 金融机构在履行针对部署在 Azure、Power BI 和 Office 365 上的资产的 FFIEC 特定合规性义务时，可以使用此正式审核。
+为了进一步帮助您遵守 FFIEC 要求，Microsoft 云服务提供由独立 CPA 公司生成的 [SOC](offering-SOC.md) 证明报告。 例如，SOC 1 类型 2 证明基于 AICPA SSAE 18 标准 (请参阅替换 SAS 70 的 AT-C 第 105) 节，它适用于报告用于财务报告的某些控制措施。 SOC 报告包括审核员对 Microsoft 控制措施在指定的监视期间实现相关控制目标的有效性的意见。 当对 Azure、Power BI 和 Office 365 上部署的资产履行 FFIEC 特定的合规性义务时，金融机构可以使用此正式审核。
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
@@ -58,7 +58,7 @@ Azure 和 Office 365 SOC 证明报告。
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

@@ -13,12 +13,12 @@ localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 ms.collection: MS-Compliance
-ms.openlocfilehash: 89d708c0f934a95b0145bc1ff24709c531967bac
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: c2b8c28db6383cf35384103117ae3e5b18f4c280
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506395"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121861"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>适用于 SharePoint Server 的 GDPR
 
@@ -31,9 +31,9 @@ ms.locfileid: "49506395"
 
 -   使用 Azure 信息保护对数据进行分类。
 
--   在最低特权配置中运行 SharePoint Server。如需详细信息，请参阅[在 SharePoint Server 中规划最低权限管理](https://docs.microsoft.com/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration)和 [SharePoint Server 的安全性](https://docs.microsoft.com/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)。
+-   在最低特权配置中运行 SharePoint Server。如需详细信息，请参阅[在 SharePoint Server 中规划最低权限管理](/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration)和 [SharePoint Server 的安全性](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server)。
 
--   [在服务器上启用 BitLocker 加密](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-how-to-deploy-on-windows-server)。
+-   [在服务器上启用 BitLocker 加密](/windows/security/information-protection/bitlocker/bitlocker-how-to-deploy-on-windows-server)。
 
 ## <a name="user-generated-content"></a>用户生成的内容
 
@@ -41,11 +41,11 @@ ms.locfileid: "49506395"
 
 -   使用 Azure 信息保护来标记敏感数据。
 
--   使用 [SharePoint Server 搜索](https://docs.microsoft.com/SharePoint/search/search)和[电子数据展示](https://docs.microsoft.com/SharePoint/governance/ediscovery-and-in-place-holds-in-sharepoint-server)，检索敏感数据。
+-   使用 [SharePoint Server 搜索](/SharePoint/search/search)和[电子数据展示](/SharePoint/governance/ediscovery-and-in-place-holds-in-sharepoint-server)，检索敏感数据。
 
 对于文件共享和 SharePoint 站点和库，推荐的方法包括下列步骤：
 
-1.  **[安装并配置 Azure 信息保护扫描程序。](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
+1.  **[安装并配置 Azure 信息保护扫描程序。](/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   决定要使用的敏感数据类型。
 
@@ -77,7 +77,7 @@ ms.locfileid: "49506395"
 
 有关使用 Azure 信息保护扫描程序查找和标记个人数据的详细信息，请参阅 [Microsoft GDPR 数据发现工具包](https://aka.ms/gdprpartners) (https://aka.ms/gdprpartners))。
 
-有关配置条件扫描程序和使用 Office 365 数据丢失防护 (DLP) 敏感信息类型的信息，请参阅[如何为 Azure 信息保护的自动推荐分类配置条件](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-classification)。请注意，新的 Office 365 敏感信息类型不会立即可供扫描程序使用，并且自定义敏感信息类型不能与扫描程序一起使用。
+有关配置条件扫描程序和使用 Office 365 数据丢失防护 (DLP) 敏感信息类型的信息，请参阅[如何为 Azure 信息保护的自动推荐分类配置条件](/information-protection/deploy-use/configure-policy-classification)。请注意，新的 Office 365 敏感信息类型不会立即可供扫描程序使用，并且自定义敏感信息类型不能与扫描程序一起使用。
 
 ## <a name="removing-personal-information-from-office-files"></a>从 Office 文件中删除个人信息
 
@@ -95,15 +95,15 @@ ms.locfileid: "49506395"
 
 ### <a name="uls-logs"></a>ULS 日志
 
-SharePoint Server 中的统一日志记录服务 (ULS) 和使用情况日志记录可跟踪各种系统功能并包含用户信息。ULS 日志和使用情况日志为文本文件，可使用各种搜索工具进行搜索。[Merge-SPLogFile PowerShell cmdlet](https://docs.microsoft.com/powershell/module/sharepoint-server/merge-splogfile) 提供了一种从场中多台服务器上的 ULS 日志中返回记录的方式。
+SharePoint Server 中的统一日志记录服务 (ULS) 和使用情况日志记录可跟踪各种系统功能并包含用户信息。ULS 日志和使用情况日志为文本文件，可使用各种搜索工具进行搜索。[Merge-SPLogFile PowerShell cmdlet](/powershell/module/sharepoint-server/merge-splogfile) 提供了一种从场中多台服务器上的 ULS 日志中返回记录的方式。
 
-考虑将日志保留策略设置为业务目的所需的最小值。有关如何在 SharePoint Server 中配置日志记录的信息，请参阅[在 SharePoint Server 中配置诊断日志记录](https://docs.microsoft.com/SharePoint/administration/configure-diagnostic-logging)。
+考虑将日志保留策略设置为业务目的所需的最小值。有关如何在 SharePoint Server 中配置日志记录的信息，请参阅[在 SharePoint Server 中配置诊断日志记录](/SharePoint/administration/configure-diagnostic-logging)。
 
 请注意，部分系统事件也记录在 Windows 事件日志中。
 
 ### <a name="usage-database"></a>使用情况数据库
 
-SharePoint Server 使用情况数据库（默认名称为 WSS_Logging）包含 ULS 日志中所找到信息的子集。此数据库中的最大数据保留时间为 30 天。建议配置为业务需求允许的最短持续时间。有关详细信息，请参阅[在 SharePoint Server 中配置诊断日志记录](https://docs.microsoft.com/SharePoint/administration/configure-diagnostic-logging)。
+SharePoint Server 使用情况数据库（默认名称为 WSS_Logging）包含 ULS 日志中所找到信息的子集。此数据库中的最大数据保留时间为 30 天。建议配置为业务需求允许的最短持续时间。有关详细信息，请参阅[在 SharePoint Server 中配置诊断日志记录](/SharePoint/administration/configure-diagnostic-logging)。
 
 ## <a name="personal-information-and-search"></a>个人信息和搜索
 
@@ -290,9 +290,9 @@ SharePoint Server 自动在 3 年后删除使用情况记录。可使用以下�
 
 混合搜索解决方案的建议操作与 SharePoint Server 或 SharePoint Online 中的搜索相同。存在两种混合搜索解决方案：
 
-**云混合搜索解决方案 -** 借助 SharePoint 的云混合搜索解决方案，你可以将所有爬网内容（包括本地内容）索引到 Office 365 中的搜索索引中。当用户在 Office 365 中查询你的搜索索引时，他们可以同时获取本地和 Office 365 内容中的搜索结果。当从 SharePoint Server 环境中删除文档时，他们也会从 Office 365 的搜索索引中删除。请参阅 [深入了解云混合搜索解决方案](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)和 [搜索组件和数据库在云混合搜索中的交互方式](https://docs.microsoft.com/sharepoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)，更好地了解 GDPR 如何影响混合环境。
+**云混合搜索解决方案 -** 借助 SharePoint 的云混合搜索解决方案，你可以将所有爬网内容（包括本地内容）索引到 Office 365 中的搜索索引中。当用户在 Office 365 中查询你的搜索索引时，他们可以同时获取本地和 Office 365 内容中的搜索结果。当从 SharePoint Server 环境中删除文档时，他们也会从 Office 365 的搜索索引中删除。请参阅 [深入了解云混合搜索解决方案](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint)和 [搜索组件和数据库在云混合搜索中的交互方式](/sharepoint/hybrid/plan-cloud-hybrid-search-for-sharepoint)，更好地了解 GDPR 如何影响混合环境。
 
-**混合联合搜索解决方案 -** 借助混合联合搜索解决方案，你既可以在 SharePoint Server 中使用索引，也可以在 Office 365 中使用索引。SharePoint Server 和 SharePoint Online Search 服务都可以查询其他环境中的搜索索引并返回联合结果。当用户从搜索中心搜索时，搜索结果将来自 SharePoint Server 中的搜索索引和 Office 365 中的搜索索引。请参阅 [深入了解混合联合搜索解决方案](https://docs.microsoft.com/sharepoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint)，以更好地了解 GDPR 如何影响混合环境。
+**混合联合搜索解决方案 -** 借助混合联合搜索解决方案，你既可以在 SharePoint Server 中使用索引，也可以在 Office 365 中使用索引。SharePoint Server 和 SharePoint Online Search 服务都可以查询其他环境中的搜索索引并返回联合结果。当用户从搜索中心搜索时，搜索结果将来自 SharePoint Server 中的搜索索引和 Office 365 中的搜索索引。请参阅 [深入了解混合联合搜索解决方案](/sharepoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint)，以更好地了解 GDPR 如何影响混合环境。
 
 ## <a name="on-prem-to-cloud-migrations"></a>本地到云的迁移
 
@@ -306,7 +306,7 @@ User Profile Service 支持从各种外部源导入配置文件数据。应在�
 
 1.  从馈送到 SharePoint Server 用户配置文件的任何外部系统中删除用户信息。如果要使用目录同步，必须从本地 Active Directory 环境中删除用户。
 
-2.  在 SharePoint Server 上运行[配置文件同步](https://docs.microsoft.com/sharepoint/administration/start-profile-synchronization-manually)。
+2.  在 SharePoint Server 上运行[配置文件同步](/sharepoint/administration/start-profile-synchronization-manually)。
 
 3.  从 SharePoint Server 中删除配置文件。该操作完成后，SharePoint Server 将在 30 天内从用户配置文件数据库中彻底删除该配置文件。用户配置文件页和个人网站将被删除。
 

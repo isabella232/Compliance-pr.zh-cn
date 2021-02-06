@@ -1,5 +1,5 @@
 ---
-title: 用于企业业务连续性管理迁移的 Microsoft 365
+title: Microsoft 365 企业版业务连续性管理缓解
 description: Microsoft 365 服务事件情景的一些缓解措施示例。
 author: robmazz
 ms.author: robmazz
@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: b31ee58d4e9a60232d7d5df4ff1bf4f16b6266cf
-ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
+ms.openlocfilehash: b77af73db3a6b9d9fbaf3ae776a6c5077c6972d1
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49574744"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120471"
 ---
 # <a name="service-incident-mitigation-strategies"></a>服务事件缓解策略
 
@@ -37,7 +37,7 @@ ms.locfileid: "49574744"
 |VoIP 电话用作辅助通信方式。|实现支持 PSTN 通话的非 VoIP 电话，尤其对于事件期间的网络和服务运营中心。 将员工移动电话号码添加到公司目录，以便通过移动数据网络联系关键人员。|
 |文件存储和用户高效工作需要使用 OneDrive for Business。 配置[文件随选](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/OneDrive-Files-On-Demand-For-The-Enterprise/ba-p/117234)来释放本地用户驱动器上的空间。|OneDrive 同步功能提供了组策略，允许管理员要求在本地同步特定内容或在需要时释放空间。 若要缓解无法访问文档的风险，请配置此策略以便在本地同步重要文档。 告知用户对重要文档手动应用“始终在此设备上保留”设置。|
 |使用 Exchange Online 与客户和供应商沟通业务中断情况。|公用的第三方社交网络可用作大量通信的替代方法。
-|混合本地体系结构（如 ADFS 或直通身份验证）将失败，从而导致用户无法再对云服务进行身份验证。|将[密码哈希同步](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls#deploy-password-hash-sync-even-if-you-are-federated-or-use-pass-through-authentication)与混合身份验证服务一起配置为基于云的辅助身份验证服务，以避免在故障过程中出现登录中断。 有关构建弹性身份验证和访问控制体系结构的详细信息，请参阅[使用 Azure Active Directory 创建弹性访问控制管理策略](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls)。|  
+|混合本地体系结构（如 ADFS 或直通身份验证）将失败，从而导致用户无法再对云服务进行身份验证。|将[密码哈希同步](/azure/active-directory/authentication/concept-resilient-controls#deploy-password-hash-sync-even-if-you-are-federated-or-use-pass-through-authentication)与混合身份验证服务一起配置为基于云的辅助身份验证服务，以避免在故障过程中出现登录中断。 有关构建弹性身份验证和访问控制体系结构的详细信息，请参阅[使用 Azure Active Directory 创建弹性访问控制管理策略](/azure/active-directory/authentication/concept-resilient-controls)。|  
 
 ## <a name="leveraging-mobile-app-access"></a>利用移动应用访问方法
 

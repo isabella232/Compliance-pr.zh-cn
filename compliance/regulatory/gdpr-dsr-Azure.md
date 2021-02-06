@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cc71af74f88592e13f5dacf78d92193cea8ea356
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 638096e88e5931a7468fee9b33200d8fc17702ec
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506445"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121001"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>针对 GDPR 和 CCPA 的 Azure 数据主体请求
 
@@ -301,7 +301,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 - **用户。** 键入请求导出的 Azure Active Directory 用户的电子邮件地址。
 - **订阅。** 选择要用于报告资源使用情况和为服务开具帐单的帐户。这也是 Azure 存储帐户所在的位置。
-- **存储帐户。** 选择 Azure 存储的位置 (Blob)。 有关详细信息，请参阅 [Microsoft Azure 存储简介 — Blob 存储](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage)一文。
+- **存储帐户。** 选择 Azure 存储的位置 (Blob)。 有关详细信息，请参阅 [Microsoft Azure 存储简介 — Blob 存储](/azure/storage/common/storage-introduction#blob-storage)一文。
 - **容器。** 创建新的（或选择现有的）容器作为存放用户导出的隐私数据的存储位置。
 
 4. 选择“创建”。

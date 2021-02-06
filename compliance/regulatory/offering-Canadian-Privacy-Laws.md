@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 44308d7184f6633ab58a4971fe4e9c70717f8591
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: b5921a0535b9fe3dd84f4faf57dca4d7d117498e
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506644"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121301"
 ---
 # <a name="canadian-privacy-laws"></a>加拿大隐私法
 
@@ -31,13 +31,13 @@ ms.locfileid: "49506644"
 
 《[隐私法](https://privacy.microsoft.com/zh-CN/#heading-0-0-2-1)》规定了联邦政府机构如何收集、使用和披露包括联邦雇员在内的个人身份信息。 《[个人信息保护和电子文档法](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/)》(PIPEDA) 对商业营利性企业的商业活动，以及银行、航空公司和电信公司等受联邦监管企业的员工适用同样的规定。
 
-PIPEDA 建立在 10 项[公平信息原则](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/)之上，如果员工遵守，则企业必须遵守。 例如，同意的基本原则产生了 PIPEDA 要求，即组织必须获得个人的许可才能收集或使用其个人信息。 个人既有权访问该个人信息，也有权质疑其准确性（基于“个人访问”原则）。 由“确定目的”原则引出的一项规则是，个人信息只能用于商定的目的。
+PIPEDA 建立在 10 项[公平信息原则](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/)之上，如果员工遵守，则企业必须遵守。 例如，同意的基本原则导致 PIPEDA 要求组织必须获得个人的许可才能收集或使用其个人信息。 个人既有权访问该个人信息，也有权质疑其准确性（基于“个人访问”原则）。 由“确定目的”原则引出的一项规则是，个人信息只能用于商定的目的。
 
 一般而言，PIPEDA 适用于所有省份和地区的商业活动，但那些完全在各省内部运作的商业活动除外，因为这些省份的隐私法已被宣布与联邦法“实质上类似”。 例如，不列颠哥伦比亚省、阿尔伯塔省和魁北克省的私营部门隐私立法被视为与 PIPEDA 本质上相似，因此，在这些地方遵循省级法律而不是联邦法律。
 
 ## <a name="microsoft-and-canadian-privacy-laws"></a>Microsoft 和加拿大隐私法
 
-Microsoft Azure 和 Microsoft Intune 在构建时考虑了已制定的 ISO/IEC 安全标准，并且 Microsoft 维护技术和组织措施来保护客户数据。 这些措施符合现行安全标准 [ISO/IEC 27001](offering-iso-27001.md) 和 ISO/IEC 27002 等，以及云隐私行动守则 [ISO/IEC 27018](offering-ISO-27018.md) 中的要求。 Microsoft 已针对风险、安全和事件管理、访问控制、数据完整性保护，以及来自加拿大隐私署建议的其他相关领域评估了其做法，并确定在范围内 Azure 和 Intune 服务能够符合这些建议。 这意味着，Azure 和 Intune 可帮助客户满足加拿大隐私法的要求。
+Microsoft Azure 和 Microsoft Intune 在构建时考虑了已制定的 ISO/IEC 安全标准，并且 Microsoft 维护技术和组织措施来保护客户数据。 这些措施符合现行安全标准 [ISO/IEC 27001](offering-iso-27001.md) 和 ISO/IEC 27002 等，以及云隐私行动守则 [ISO/IEC 27018](offering-ISO-27018.md) 中的要求。 Microsoft 已针对风险、安全和事件管理、访问控制、数据完整性保护，以及来自加拿大隐私署建议的其他相关领域评估其做法，并确定范围内 Azure 和 Intune 服务能够符合这些建议。 这意味着，Azure 和 Intune 可帮助客户满足加拿大隐私法的要求。
 
 为了支持关注数据主权的公共和私营部门组织，Microsoft 已在加拿大多伦多和魁北克市建立了两个数据中心。 这些数据中心根据 [Microsoft 在线服务条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)中定义的静态核心客户数据添加了国家/地区内数据驻留、故障转移和灾难恢复。
 
@@ -52,7 +52,7 @@ Microsoft Azure 和 Microsoft Intune 在构建时考虑了已制定的 ISO/IEC �
 
 - [Microsoft 隐私](https://www.microsoft.com/download/details.aspx?id=55710)：获取有关 Microsoft 隐私原则和标准以及特定于加拿大的隐私法的详细信息。
 - [加拿大合规性清单](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=626fb641-9dca-45c0-abaf-0a7849c15f81&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)：了解有关可帮助满足加拿大隐私法的 Azure 和 Intune 功能的详细信息。
-- [Azure 数据保护](https://docs.microsoft.com/azure/security/fundamentals/protection-customer-data)：Azure 为客户提供强大的数据安全性（默认提供和作为客户选项提供）。
+- [Azure 数据保护](/azure/security/fundamentals/protection-customer-data)：Azure 为客户提供强大的数据安全性（默认提供和作为客户选项提供）。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

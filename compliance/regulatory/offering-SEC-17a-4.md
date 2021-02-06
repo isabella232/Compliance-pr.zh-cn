@@ -1,7 +1,7 @@
 ---
 title: 美国证券交易委员会 (美国) 第 17a-4 () 条
 description: 独立评估公司验证了 Azure 和 Office 365 可以帮助金融公司满足 SEC 规则 17a-4 (f) 记录保留和不可变存储要求。
-keywords: Microsoft 365,合规性,产品/服务
+keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8f47359d23aa9399f36053e1ea6b1df91e181d59
-ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
+ms.openlocfilehash: f877bbec76cc0d760f2f908975b3818b88551829
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49669763"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121201"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>美国证券交易委员会 (美国) 第 17a-4 () 条
 
@@ -29,7 +29,7 @@ ms.locfileid: "49669763"
 
 美国 [证券交易委员会 (SEC) ](https://www.sec.gov/) 是美国联邦政府机构的独立机构，也是美国证券交易的主要监管机构和监管机构。 它行使对联邦证券法的强制执行权限，提出新的证券规则，并监督证券行业的市场监管。
 
-SEC 为选择在电子存储媒体上保留书籍和记录的受管制实体定义了严格和明确的要求。 它建立了 [17 CFR 240.17a-3](https://www.govinfo.gov/app/details/CFR-2012-title17-vol3/CFR-2012-title17-vol3-sec240-17a-3) 和 [17 CFR 240.17a-4，](https://www.ecfr.gov/cgi-bin/text-idx?mc=true&node=pt17.4.240&rgn=div5#se17.4.240_117a_64) 以监管证券经纪人的记录保存（包括保留期）。 之后 [，SEC](https://www.sec.gov/rules/interp/34-47806.htm) 修正了 17 CFR 240.17a-4 第 (f) 段，明确发布两个解释性版本，以允许书籍和记录在电子存储介质上保留，只要满足某些条件。
+SEC 为选择在电子存储媒体上保留书籍和记录的受管制实体定义了严格和明确的要求。 它建立了 [17 CFR 240.17a-3](https://www.govinfo.gov/app/details/CFR-2012-title17-vol3/CFR-2012-title17-vol3-sec240-17a-3) 和 [17 CFR 240.17a-4，](https://www.ecfr.gov/cgi-bin/text-idx?mc=true&node=pt17.4.240&rgn=div5#se17.4.240_117a_64) 以监管证券经纪人的记录保存（包括保留期）。 之后 [，SEC](https://www.sec.gov/rules/interp/34-47806.htm) 修订了 17 CFR 240.17a-4 第 (f) 段，明确发布两个解释性版本，以允许书籍和记录在电子存储介质上保留，只要满足某些条件。
 
 如果电子存储系统阻止更改或擦除所需保留期的记录，它将满足这些条件。 根据记录类型，保留期从 3 到 6 年，前两年要求立即访问。 此外，其中一个解释性版本要求存储系统能够保留超过 SEC 建立的保留期的记录，以遵守子文件、法定保留或其他此类要求。
 
@@ -41,8 +41,8 @@ Microsoft Azure 不可变 Blob 存储（具有策略锁定）和 Microsoft Offic
 
 为了评估 Azure 和 Office 365 是否符合 SEC 规则 17a-4 (f) ，Microsoft 保留了一家专门负责记录管理和信息管理的独立评估公司 Cohasset Associates。 在生成的报告中，
 
-- **Azure** [：SEC 17a-4 (f) 合规性评估：Cohasset](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)验证了使用策略锁定选项的 Azure 不可变 [Blob](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) 存储（用于以不可擦除和不可重写的 (WORM) 格式保留基于时间的 Blob）是否满足 SEC 规则的不可变存储要求。 每个 Blob (记录) 在要求的保留期到期且任何关联的合法保留已解除之前，防止修改、覆盖或删除这些记录。 具有敏感工作负载的软件提供商和合作伙伴现在可依赖 Azure 不可变 Blob 存储作为一个不可变云解决方案，用于记录保留和不可变存储。 金融机构现在可以构建自己的应用程序，以利用这些功能，同时保持合规性。
-- **Microsoft 365：** 对于 [SEC 17a-4 (f)](https://docs.microsoft.com/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) 要求，Cohasset 验证了 Microsoft 365 包括存档功能，这些功能使受监管客户（包括经纪人）能够按照有助于他们遵守 SEC 记录保留要求的方式存储数据。 Microsoft 365 中的保留功能有助于保留各种数据，包括电子邮件、语音邮件、共享文档、即时消息和第三方数据。 特别是，Microsoft 365 中的存档使客户能够设置全局或粒度邮件保留策略，以不可重写、不可擦除的格式存储已定义时段及之后的数据。
+- **Azure** [：SEC 17a-4 (f) 合规性评估：Microsoft Azure 存储](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)，Cohasset 验证了使用策略锁定选项的 Azure 不可变 [Blob](/azure/storage/blobs/storage-blob-immutable-storage) 存储（用于以不可擦除和不可重写的 (WORM) 格式保留基于时间的 Blob）是否满足 SEC 规则的不可变存储要求。 每个 Blob (记录) 在要求的保留期到期且任何关联的合法保留已解除之前，都受到保护，防止其被修改、覆盖或删除。 具有敏感工作负载的软件提供商和合作伙伴现在可依赖 Azure 不可变 Blob 存储作为一个不可变云解决方案，用于记录保留和不可变存储。 金融机构现在可以构建自己的应用程序，以利用这些功能，同时保持合规性。
+- **Microsoft 365：** 对于 [SEC 17a-4 (f)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) 要求，Cohasset 验证了 Microsoft 365 包括存档功能，这些功能使受监管客户（包括经纪人）能够按照有助于他们遵守 SEC 记录保留要求的方式存储数据。 Microsoft 365 中的保留功能有助于保留各种数据，包括电子邮件、语音邮件、共享文档、即时消息和第三方数据。 特别是，Microsoft 365 中的存档使客户能够设置全局或精细的邮件保留策略，以不可重写、不可擦除的格式存储已定义时段及之后的数据。
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
@@ -71,11 +71,11 @@ Microsoft Azure 不可变 Blob 存储（具有策略锁定）和 Microsoft Offic
 
 ### <a name="financial-use-cases"></a>财务用例
 
-使用案例概述、教程和其他资源构建适用于金融服务的 Azure 解决方案。 [了解更多](https://docs.microsoft.com/azure/industry/financial/)
+使用案例概述、教程和其他资源构建适用于金融服务的 Azure 解决方案。 [了解更多](/azure/industry/financial/)
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 
@@ -84,6 +84,6 @@ Microsoft Azure 不可变 Blob 存储（具有策略锁定）和 Microsoft Offic
 - [合规性计划 Microsoft 商业云服务和金融服务](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [Azure 中的金融服务合规性](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure 金融服务云风险评估工具](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
-- [Microsoft Office 365 保留策略](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
+- [Microsoft Office 365 保留策略](/office365/securitycompliance/retention-policies)
 - [Microsoft 金融服务社区](https://techcommunity.microsoft.com/t5/financial-services/ct-p/FinancialServices)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

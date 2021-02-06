@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 246c39c3bfd8f59cd2dab9c3a1b942d36942370f
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 92c98d710c34f1304ddc0a2e8acfe09c4570e97c
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505906"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121631"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-devtest-environment"></a>开发/测试环境中的 GDPR 发现、保护和报告
 
@@ -35,7 +35,7 @@ ms.locfileid: "49505906"
 
 ## <a name="phase-1-create-and-configure-your-trial-microsoft-365-subscription"></a>第 1 阶段：创建和配置试用版 Microsoft 365 订阅
 
-首先，按照 [Microsoft 365 开发/测试环境的第 2 阶段](https://docs.microsoft.com/Office365/Enterprise/office-365-dev-test-environment#phase-2-create-an-office-365-trial-subscription)一文中的步骤操作。
+首先，按照 [Microsoft 365 开发/测试环境的第 2 阶段](/Office365/Enterprise/office-365-dev-test-environment#phase-2-create-an-office-365-trial-subscription)一文中的步骤操作。
 
 接下来，使用这些步骤来配置电子数据展示管理器：
 
@@ -99,7 +99,7 @@ ms.locfileid: "49505906"
 
 在内部通信、外部通信、文档和其他表单中，Contoso 通常使用 CCN 指代客户。Contoso 需要自定义敏感项类型来检测 Microsoft 365 内容中使用的 CCN，以便对这种个人身份信息形式的使用应用保护。
 
-1. 使用[连接到安全与合规中心 PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell) 中的多重身份验证 (MFA) 连接说明，并使用全局管理员帐户的 UPN 连接到安全与合规中心。
+1. 使用[连接到安全与合规中心 PowerShell](/powershell/exchange/connect-to-scc-powershell) 中的多重身份验证 (MFA) 连接说明，并使用全局管理员帐户的 UPN 连接到安全与合规中心。
 
 2. 运行以下 PowerShell 命令。
 

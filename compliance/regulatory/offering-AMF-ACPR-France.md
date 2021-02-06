@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1229dba8c5106c48e431c0bdf09e86e65bb402cc
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: cd26a6a8256d2efa85451e84f1caffc7e68c043b
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506496"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121401"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>法国金融机构 (AMF) 和审慎监管管理局 (ACPR)
 
@@ -59,7 +59,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 - [合规性清单 - 法国](https://aka.ms/FinServ-Guide-France)：金融企业可在对 Microsoft 商业云服务进行风险评估方面获得帮助。
 - [风险评估和合规性指南](https://aka.ms/RiskGovernanceGuide)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
-- [金融用例](https://docs.microsoft.com/azure/industry/financial/)：借助用例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
+- [金融用例](/azure/industry/financial/)：借助用例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

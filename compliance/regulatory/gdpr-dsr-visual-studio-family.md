@@ -19,12 +19,12 @@ ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1b5df025c8c55790181e1f737388b1c15f475d72
-ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
+ms.openlocfilehash: 29d845c1b9e1c60169db56ba76d731892302bff0
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49574784"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121921"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Visual Studio 系列数据主体请求
 
@@ -40,7 +40,7 @@ ms.locfileid: "49574784"
 
 ## <a name="additional-privacy-information"></a>其他隐私信息
 
-产品附带的 Microsoft 软件许可条款，[Microsoft 隐私声明](https://go.microsoft.com/fwlink/?LinkId=660726)和 [Microsoft 有关 GDPR 的义务](https://docs.microsoft.com/legal/gdpr)介绍了我们的数据处理做法。
+产品附带的 Microsoft 软件许可条款，[Microsoft 隐私声明](https://go.microsoft.com/fwlink/?LinkId=660726)和 [Microsoft 有关 GDPR 的义务](/legal/gdpr)介绍了我们的数据处理做法。
 
 ## <a name="visual-studio-visual-studio-for-mac-and-visual-studio-code"></a>Visual Studio, Visual Studio for Mac 和 Visual Studio Code
 
@@ -62,7 +62,7 @@ ms.locfileid: "49574784"
 "SearchTerm":null,"SearchResult":null}
 ```
 
-有关详细信息，请参阅[由 Visual Studio 收集的系统生成的日志](https://docs.microsoft.com/visualstudio/ide/diagnostic-data-collection)。
+有关详细信息，请参阅[由 Visual Studio 收集的系统生成的日志](/visualstudio/ide/diagnostic-data-collection)。
 
 DSR 只能对附加到经过身份验证的标识的个人数据提供服务。例如，由于 Visual Studio Code 不支持登录，因此，来自 Visual Studio Code 的系统生成的日志无法被附加到经过身份验证的标识，所以无法对其提供服务。但是，针对 Visual Studio Code 的某些 Microsoft 扩展可提供经过身份验证的数据，DSR 可对此数据提供服务。有关详细信息，请参阅 [GPDR 和 Visual Studio Code](https://code.visualstudio.com/docs/supporting/faq#_gdpr-and-vs-code)。一般情况下，我们不存储 Visual Studio 2013 和更早版本的数据；但是，某些扩展和组件可能提供附加到经过身份验证的标识的数据，DSR 可对其提供服务，如下所述。
 
@@ -74,8 +74,8 @@ Visual Studio 2015 及更高版本、Visual Studio for Mac 和 Visual Studio Cod
 
 用户可以控制这些产品的隐私设置。有关详细信息，请参阅以下内容
 
-- [如何在 Visual Studio 中管理隐私设置](https://docs.microsoft.com/visualstudio/ide/visual-studio-experience-improvement-program)。
-- [如何在 Visual Studio for Mac 中管理隐私设置](https://docs.microsoft.com/visualstudio/mac/visual-studio-experience-improvement-program)。
+- [如何在 Visual Studio 中管理隐私设置](/visualstudio/ide/visual-studio-experience-improvement-program)。
+- [如何在 Visual Studio for Mac 中管理隐私设置](/visualstudio/mac/visual-studio-experience-improvement-program)。
 - [如何在 Visual Studio Code 中禁用遥测报告](https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting)。
 
 #### <a name="exporting-or-deleting-data"></a>导出或删除数据
@@ -100,7 +100,7 @@ Microsoft 收集数据，帮助我们重现和排查你报告的 Visual Studio �
 
 - 你的[开发人员社区](https://developercommunity.visualstudio.com)个人资料信息；
 - 首选项和通知；
-- 通过[报告 Visual Studio 中的问题](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)或通过[开发人员社区](https://developercommunity.visualstudio.com)提供的附件和系统生成的日志；
+- 通过[报告 Visual Studio 中的问题](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)或通过[开发人员社区](https://developercommunity.visualstudio.com)提供的附件和系统生成的日志；
 - 你的投票。
 
 公共反馈包括：报告的问题、评论和解决方案。
@@ -124,7 +124,7 @@ Microsoft 收集数据，帮助我们重现和排查你报告的 Visual Studio �
 
 - 你的[开发人员社区](https://developercommunity.visualstudio.com)个人资料信息；
 - 首选项和通知设置；
-- 通过[报告 Visual Studio 中的问题](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)或通过[开发人员社区](https://developercommunity.visualstudio.com)提供的附件。
+- 通过[报告 Visual Studio 中的问题](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)或通过[开发人员社区](https://developercommunity.visualstudio.com)提供的附件。
 
 > [!NOTE]
 > 我们将从你的存档中排除你提供的以下公共反馈：评论、解决方案、报告的问题。
@@ -147,7 +147,7 @@ Microsoft 收集数据，帮助我们重现和排查你报告的 Visual Studio �
 
 - 个人资料信息；
 - 首选项和通知设置；
-- 通过[报告 Visual Studio 中的问题](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)或通过[开发人员社区](https://developercommunity.visualstudio.com)提供的附件。
+- 通过[报告 Visual Studio 中的问题](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)或通过[开发人员社区](https://developercommunity.visualstudio.com)提供的附件。
 - 你的投票
 
 > [!NOTE]
@@ -199,7 +199,7 @@ Xamarin 论坛由第三方 Vanilla 论坛托管。若要请求删除你的个人
 
 ## <a name="nuget"></a>NuGet
 
-有关针对 NuGet.org 的 DSR 的详细信息，请参阅 [NuGet 用户数据请求](https://docs.microsoft.com/nuget/policies/data-requests)。
+有关针对 NuGet.org 的 DSR 的详细信息，请参阅 [NuGet 用户数据请求](/nuget/policies/data-requests)。
 
 ## <a name="aspnet"></a>ASP.NET
 
@@ -217,7 +217,7 @@ Xamarin 论坛由第三方 Vanilla 论坛托管。若要请求删除你的个人
 
 ## <a name="learn-more"></a>了解更多
 
-- [Microsoft 对我们公开发布的企业软件产品的客户的 GDPR 义务](https://docs.microsoft.com/legal/gdpr)
+- [Microsoft 对我们公开发布的企业软件产品的客户的 GDPR 义务](/legal/gdpr)
 - [Microsoft 信任中心](https://www.microsoft.com/trust-center/privacy/gdpr-overview)
 - [服务信任门户](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)
 - [Microsoft 隐私仪表板](https://account.microsoft.com/privacy)

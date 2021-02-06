@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f0ca41f3b69d595dcdb3f3d2049fe2a0f7a95e1
-ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
+ms.openlocfilehash: df5131af45a938199df1a52bbf3e437f34ed3f9a
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49574864"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121851"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>使用 Microsoft 365 功能履行 GDPR 信息保护
 
@@ -31,9 +31,9 @@ Microsoft 365 提供了一组丰富功能，有助于遵守一般数据保护条
 
 ## <a name="information-protection"></a>信息保护
 
-Office 365 提供了一组丰富的数据治理功能。若要获取查找、分类、保护和监视个人数据方面的帮助，请参阅 [Office 365 信息保护与 GDPR](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr)。
+Office 365 提供了一组丰富的数据治理功能。若要获取查找、分类、保护和监视个人数据方面的帮助，请参阅 [Office 365 信息保护与 GDPR](/microsoft-365/compliance/office-365-information-protection-for-gdpr)。
 
-若要获取本地服务器（包括文件共享、SharePoint Server、Exchange Server、Skype for Business Server、Project Server 和 Office Online Server）方面的帮助，请参阅[本地 Office 服务器 GDPR](https://docs.microsoft.com/microsoft-365/compliance/gdpr-for-office-servers)。 
+若要获取本地服务器（包括文件共享、SharePoint Server、Exchange Server、Skype for Business Server、Project Server 和 Office Online Server）方面的帮助，请参阅[本地 Office 服务器 GDPR](/microsoft-365/compliance/gdpr-for-office-servers)。 
 
 ## <a name="identity-and-access-management"></a>标识和访问管理
 
@@ -48,16 +48,16 @@ Office 365 提供了一组丰富的数据治理功能。若要获取查找、分
 
 Microsoft 提供了可入手的推荐配置：
 
-- [标识和设备访问配置](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-365-policies-configurations)：实现三层保护（基线、敏感和高度受管制）的推荐策略配置。本指南介绍了适用于 Exchange Online 和 SharePoint Online（包括 OneDrive for Business）的推荐策略。
-- [适用于政治活动、非营利组织和其他敏捷组织的安全指南](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o)：除了包括一组相同的策略外，还提供了适用于 BYOD 环境和 B2B 帐户的更多指南。
+- [标识和设备访问配置](/microsoft-365/security/office-365-security/microsoft-365-policies-configurations)：实现三层保护（基线、敏感和高度受管制）的推荐策略配置。本指南介绍了适用于 Exchange Online 和 SharePoint Online（包括 OneDrive for Business）的推荐策略。
+- [适用于政治活动、非营利组织和其他敏捷组织的安全指南](/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o)：除了包括一组相同的策略外，还提供了适用于 BYOD 环境和 B2B 帐户的更多指南。
 
 ## <a name="threat-protection"></a>威胁防护
 
 各个 Microsoft 365 服务中都有威胁防护。首先，请参阅以下几个资源：
 
-- [Office 365 安全路线图：前 30 天、前 90 天以及更长时间范围的首要任务](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)。此路线图提供了有关如何实现各项功能的建议。 
-- [Office 365 中的威胁防护](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)。 了解可以在 Microsoft 365 安全中心采取的保护行动。
-- [Windows 威胁防护](https://docs.microsoft.com/windows/security/threat-protection/)。详细了解 Windows 10 中的 Windows Defender 高级威胁防护及其他功能。
+- [Office 365 安全路线图：前 30 天、前 90 天以及更长时间范围的首要任务](/microsoft-365/security/office-365-security/security-roadmap)。此路线图提供了有关如何实现各项功能的建议。 
+- [Office 365 中的威胁防护](/microsoft-365/security/office-365-security/protect-against-threats)。 了解可以在 Microsoft 365 安全中心采取的保护行动。
+- [Windows 威胁防护](/windows/security/threat-protection/)。详细了解 Windows 10 中的 Windows Defender 高级威胁防护及其他功能。
 
 ## <a name="learn-more"></a>了解更多
 

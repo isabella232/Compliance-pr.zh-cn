@@ -1,6 +1,6 @@
 ---
-title: 数字生产合作伙伴 (DPP) 英国
-description: Microsoft Azure 已授予 DPP 提交到广播的安全标记。
+title: 英国 DPP (数字) 合作关系
+description: Microsoft Azure 已被授予 DPP Committed to Security Mark for Broadcast。
 keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,26 +16,26 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 57f64e38947874385d514e1e2f8be296237d8f6c
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 5ff8d881602014821149ee1263ab7b88e796919a
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505964"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121671"
 ---
-# <a name="digital-production-partnership-dpp-united-kingdom"></a>数字生产合作伙伴 (DPP) 英国
+# <a name="digital-production-partnership-dpp-united-kingdom"></a>英国 DPP (数字) 合作关系
 
 ## <a name="about-the-dpp"></a>关于 DPP
 
-Confronting 对其网站、IT 基础结构和系统的网络攻击日益频繁地进行了广播。 为应对这些威胁， [数字生产合作伙伴](https://www.thedpp.com/) (DPP) 与 [**北美广播公司协会**](https://nabanet.com/) (NABA) 合作，以开发 [针对供应商的广播公司网络安全要求](https://nabanet.com/wp-content/uploads/2017/08/NABA_DPP_CyberSecurity_Requirements_3.pdf)。 来自英国广播公司的首席信息安全专员已将这些官员认可为最低 cybersecurity 要求。  
+广播者正在应对针对其网站、IT 基础结构和系统的越来越频繁的网络攻击。 为应对这些威胁，数字生产合作关系 [ (](https://www.thedpp.com/) DPP) 与北美广播协会 [**(**](https://nabanet.com/) NABA) 合作，共同制定供应商网络安全 [要求。](https://nabanet.com/wp-content/uploads/2017/08/NABA_DPP_CyberSecurity_Requirements_3.pdf) 英国警察局首席信息安全官将这些要求视为最低网络安全要求。  
   
-然后，DPP 与广播公司和供应商安全专家合作，以创建一个自我评估清单，即 " [提交到安全计划" "广播清单](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklist.xlsx)"，使供应商能够向其部署 cybersecurity 最佳做法的广播公司。 此工作将导致正式 [DPP 提交到](https://www.thedpp.com/tech/security/committed-to-security/) 在10月2017的安全程序中启动，有两个不同的标记：一个用于广播，一个用于生产。
+然后，DPP 与承包商和供应商安全专家合作，共同创建自我评估清单，即"[](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklist.xlsx)承诺安全计划广播清单"，使供应商能够演示其网络安全最佳做法的部署。 这一工作导致建立了 2017 年 10 月启动的正式 [DPP](https://www.thedpp.com/tech/security/committed-to-security/) 承诺安全计划，具有两个不同标记：一个适用于广播，一个适用于生产。
 
 ## <a name="microsoft-and-the-dpp"></a>Microsoft 和 DPP
 
-Microsoft Azure 已获授权 DPP 在完成数字生产合作伙伴 (DPP) 自评估问卷 *清单（提交到安全计划广播清单*）后，提交到安全标记进行广播。 它需要记录一组用于文档和测试、身份验证和安全控制的最佳做法。 [Eurofins 数字测试](https://www.eurofins-digitaltesting.com/)、质量保证专家和 DPP 成员，在 Microsoft 响应中查看和签名，并将其提交到 DPP 以进行最终验证。  
+在完成数字生产合作关系 (DPP) 自我评估调查表（即"承诺安全计划广播清单"）后，Microsoft Azure 被授予 DPP 承诺用于广播的安全 *标记。* 它要求记录一组有关文档和测试、身份验证和安全控件的最佳实践。 [Eurofins Digital Testing](https://www.eurofins-digitaltesting.com/)是质量保证专家和 DPP 成员，已审阅并签署 Microsoft 响应，并提交到 DPP 进行最终验证。  
   
-此支持意味着，使用 Azure 的广播公司和其他媒体客户可以放心，其强大的安全性和弹性服务能够帮助满足广播行业的独特需求，从程序开发到传输。
+此支持意味着使用 Azure 的广播和其他媒体客户可以放心，其强大的安全性和弹性服务可帮助满足广播行业的独特需求，从程序开发到传输。
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
@@ -43,18 +43,18 @@ Microsoft Azure 已获授权 DPP 在完成数字生产合作伙伴 (DPP) 自评�
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
-Azure 广播标志的有效期为一年，每年更新一次。
+Azure 广播标记的有效期为一年，每年续订一次。
 
-- [Azure NABA DPP 电视台安全要求检查表](https://aka.ms/Azure-CTS-Broadcast-Checklist)
-- [DPP 承诺向安全公司授予这些标记](https://aka.ms/Azure-Asset-Mgmt)
+- [Azure NABA DPP 安全要求清单](https://aka.ms/Azure-CTS-Broadcast-Checklist)
+- [DPP 向获得标记的安全公司承诺](https://aka.ms/Azure-Asset-Mgmt)
 
 ## <a name="how-to-implement"></a>如何实现
 
-- [资产管理强化指南](https://aka.ms/Azure-Asset-Mgmt)： Azure 中的最佳实践保护预发布的内容，以防未经授权的泄露、更改或删除。
-- [Azure 媒体服务](https://docs.microsoft.com/azure/media-services/)：生成可实现高清晰度视频编码和广播质量视频流的解决方案。
+- [资产管理强化指南](https://aka.ms/Azure-Asset-Mgmt)：Azure 中的最佳实践可保护预发布内容免受未经授权的披露、更改或删除。
+- [Azure 媒体服务](/azure/media-services/)：生成实现高清视频编码和广播质量视频流的解决方案。
 
 ## <a name="resources"></a>资源
 
-- [DPP 提交到安全计划广播清单用户指南](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
-- [NABA 和 DPP 广播公司联合以促进供应商的网络安全要求](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
+- [DPP 致力于安全计划广播清单用户指南](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
+- [NABA 和 DPP 一起为供应商提升网络安全要求](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

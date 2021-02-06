@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f6c03f1c9cddbdf1cd62be075f471a3a52e19a19
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 4fe0196ae019dbf35902c2fd0589db96ed1f1086
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506544"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50119881"
 ---
 # <a name="trusight"></a>TruSight
 
@@ -54,7 +54,7 @@ TruSight 方法体系的基础是由 TruSight 的创办银行创建的可靠且�
 ## <a name="how-to-implement"></a>如何实现
 
 - [风险评估和合规性指南](https://aka.ms/RiskGovernanceGuide)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
-- [金融用例](https://docs.microsoft.com/azure/industry/financial/)：在案例概述、教程和其他资源的帮助下构建适合金融服务的 Azure 解决方案。
+- [金融用例](/azure/industry/financial/)：在案例概述、教程和其他资源的帮助下构建适合金融服务的 Azure 解决方案。
 - [美国金融服务业法规](https://aka.ms/FinServ-Guide-US)：Microsoft 在线服务如何与美国金融机构的主要监管要求保持一致。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答

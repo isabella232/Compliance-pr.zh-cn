@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 40946c3ea8d7c11a5cfddd8da737e037edd0526b
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: ce69444233c28683bf0e7d4056e98336445fc8b4
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506467"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121041"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>GDPR 规定的数据保护影响评估
 
@@ -73,10 +73,10 @@ DPIA 应提供预期处理的具体信息，详见指南的第 2 部分。 此�
 
 下面介绍了可能与 Microsoft 实现相关的具体详情。
 
-- [Office 365](gdpr-dpia-office365.md)：本文档适用于 Office 365 应用程序和服务，包括但不限于 Exchange Online、SharePoint Online、Yammer、Skype for Business 和 Power BI。 有关详细信息，请参阅表 [1](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-1--determining-whether-a-dpia-is-needed) 和表 [2](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia)。  
+- [Office 365](gdpr-dpia-office365.md)：本文档适用于 Office 365 应用程序和服务，包括但不限于 Exchange Online、SharePoint Online、Yammer、Skype for Business 和 Power BI。 有关详细信息，请参阅表 [1](/microsoft-365/compliance/gdpr-dpia-office365#part-1--determining-whether-a-dpia-is-needed) 和表 [2](/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia)。  
 - [Azure](gdpr-dpia-azure.md)：我们鼓励客户与其隐私官和法律顾问合作，共同确定与使用 Microsoft Azure 相关的任何 DPIA 的必要性和内容。  
-- [Dynamics 365](gdpr-dpia-dynamics.md)：DPIA 的内容可能因你使用的 Dynamics 365 工具而异。 有关具体详细信息，请参阅[第 2 部分 - DPIA 内容](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-dynamics#part-2--contents-of-a-dpia)。
-- [Microsoft 支持和专业服务](gdpr-dpia-prof-services.md)：专业服务不会执行特定例程或自动数据处理，也不会处理特殊类别或执行便于或需要监视可公开访问数据的任务。 有关详细信息，请参阅[第 1 部分 - 确定是否需要 DPIA](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services#part-1--determining-whether-a-dpia-is-needed)。 控制者必须在专业服务的特定实现和使用上下文中，考虑上面概述的 DPIA 元素以及其他任何相关因素。 有关专业服务信息，请参阅[第 2 部分 - DPIA 内容](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services#part-2--contents-of-a-dpia)。
+- [Dynamics 365](gdpr-dpia-dynamics.md)：DPIA 的内容可能因你使用的 Dynamics 365 工具而异。 有关具体详细信息，请参阅[第 2 部分 - DPIA 内容](/microsoft-365/compliance/gdpr-dpia-dynamics#part-2--contents-of-a-dpia)。
+- [Microsoft 支持和专业服务](gdpr-dpia-prof-services.md)：专业服务不会执行特定例程或自动数据处理，也不会处理特殊类别或执行便于或需要监视可公开访问数据的任务。 有关详细信息，请参阅[第 1 部分 - 确定是否需要 DPIA](/microsoft-365/compliance/gdpr-dpia-prof-services#part-1--determining-whether-a-dpia-is-needed)。 控制者必须在专业服务的特定实现和使用上下文中，考虑上面概述的 DPIA 元素以及其他任何相关因素。 有关专业服务信息，请参阅[第 2 部分 - DPIA 内容](/microsoft-365/compliance/gdpr-dpia-prof-services#part-2--contents-of-a-dpia)。
 
 ## <a name="learn-more"></a>了解详细信息
 

@@ -1,6 +1,6 @@
 ---
-title: " (EAR) 的美国出口管理条例"
-description: Microsoft 云服务可帮助客户遵守美国出口管理法规 (EAR) 满足其合规性要求并管理出口控制风险。
+title: '美国出口管理条例 (EAR) '
+description: Microsoft 云服务帮助客户遵守美国出口管理条例 (EAR) 满足其合规性要求和管理出口控制风险。
 keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,81 +16,81 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ec70c3cd09302445d3e7b4e2ac394837cdabe557
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: fbc8166770a3ad2539264bbf76319116a2c306a9
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506316"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120001"
 ---
-# <a name="us-export-administration-regulations-ear"></a> (EAR) 的美国出口管理条例
+# <a name="us-export-administration-regulations-ear"></a>美国出口管理条例 (EAR) 
 
 ## <a name="about-the-ear"></a>关于 EAR
 
-美国商业部门通过 [行业和安全 (BIS) 的局 ](https://www.bis.doc.gov/)，在 (EAR) 实施出口管理条例。 该 EAR 广泛控制并实施对大部分商业商品、软件和技术的导出和重新导出的控制，包括可用于商业和军事目的以及某些防御项目的 "双重使用" 项目。
+美国商务部通过美国工业 (局) BIS ([EAR ](https://www.bis.doc.gov/)) 。 EAR 对大多数商业商品、软件和技术（包括"双重用途"项目）的导出和重新导出进行广泛监管和施加控制，这些商品可用于商业和国防目的以及某些防御项目。
 
-BIS 指南包含：在将数据或软件上载到云或在用户节点之间传输时，客户（而不是云提供商）是一种 "导出程序"，负责确保对该数据或软件的传输、存储和访问权限符合 EAR。
+BIS 指南认为，当数据或软件上传到云或在用户节点之间传输时，客户（而非云提供商）是"导出者"，他们负责确保传输、存储和访问该数据或软件符合 EAR。
 
-[根据 BIS](https://www.bis.doc.gov/index.php/documents/regulation-docs/412-part-734-scope-of-the-export-administration-regulations/file)， *出口* 指的是将受保护的技术或技术数据传输到外部目标或其在美国的外部用户的发布 (也称为 " *导出*) "。 广泛的 EAR 控制：
+根据[BIS，](https://www.bis.doc.gov/index.php/documents/regulation-docs/412-part-734-scope-of-the-export-administration-regulations/file)导出是指将受保护的技术或技术数据转移到一个出口目标，或将该数据释放给美国 (也称为被视为出口) 。  EAR 大致控制：
 
-- 从美国出口。
-- 重新导出或 retransfers 美国原始项目和某些外接一些项目，这些项目的 *minimis* 部分是我们的原始内容。
-- 对其他国家/地区的人员进行转让或披露。
+- 从美国导出。
+- 重新导出或重新传输美国源项目和某些具有美国原点内容部分以上部分的外源项。 
+- 转移或披露给其他国家/地区的人员。
 
-受 EAR 制约的项目可在商业控制列表 (CCL) ，其中每个项目都分配有一个唯一的 [出口控制分类号 (ECCN) ](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn)。 未在 CCL 中列出的项目被指定为 EAR99，并且大多数 EAR99 商业产品将不需要导出许可证。 但是，根据目标、最终用户或项目的最终用途，即使 EAR99 项目也可能需要 BIS 导出许可证。
+受 EAR 限制的项目可以在商业控制列表 (CCL) 其中每个项目分配一个唯一的出口控制分类编号 ([ECCN) 。 ](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn) CCL 上未列出的项目被指定为 EAR99，大多数 EAR99 商业产品不需要导出许可证。 但是，根据项目的目标、最终用户或最终使用，甚至一个 EAR99 项目也可能需要 BIS 导出许可证。
 
-2016年6月发布的 [最终规则](https://www.federalregister.gov/documents/2016/06/03/2016-12734/revisions-to-definitions-in-the-export-administration-regulations)阐明了，如果使用 FIPS 140-2 验证的加密模块对未分类的技术数据和软件进行端到端加密，并且未在军事版禁运国家/地区或在俄罗斯联合中有意存储它们，则该规则也不会应用于这些未分类技术数据和软件的传输和存储。
+2016 年 6 月发布的最终规则阐明了，如果未分类技术数据和软件是使用 FIPS 140-2 验证的加密模块进行端到端加密的，并且未有意存储在受武器攻击的国家/地区或俄语联盟中，则 EAR 许可要求同样不适用于传输和存储。 [](https://www.federalregister.gov/documents/2016/06/03/2016-12734/revisions-to-definitions-in-the-export-administration-regulations)
 
 ## <a name="microsoft-and-the-ear"></a>Microsoft 和 EAR
 
-Microsoft 技术、产品和服务受美国出口管理法规 (EAR) 的约束。 虽然没有适用于 EAR、Microsoft Azure、Microsoft Azure 政府和 Microsoft Office 365 政府版的合规性认证 (GCCHigh 和 DoD 环境) 提供了重要特性和工具，可帮助符合 EAR 管理出口控制风险并满足其合规性要求的客户。
+Microsoft 技术、产品和服务受美国《美国出口管理条例》 (EAR) 。 尽管对 EAR、Microsoft Azure、Microsoft Azure 政府以及 Microsoft Office 365 政府版 (GCCHigh 和 DoD 环境) 没有合规性认证，但提供重要功能和工具，以帮助受 EAR 限制的合格客户管理出口控制风险并满足其合规性要求。
 
-强制实施 EAR 的美国商业部门将客户，而不是云服务提供商（如 Microsoft）视为 exporters 其自己的客户数据。 尽管大多数客户数据不会被视为 EAR 出口控制的 "技术" 或 "技术数据"，但 Microsoft 范围内云服务的结构可帮助客户管理和显著降低他们所面临的潜在出口控制风险。 Microsoft 通常（但不专门）建议将其政府云服务用于符合条件的客户。 通过适当的规划，客户可以使用以下工具和他们自己的内部过程来帮助确保完全遵守美国出口控制。
+强制执行 EAR 的美国商业部门已采取行动，将客户（而非 Microsoft 等云服务提供商）视为其自己的客户数据的导出者。 虽然大多数客户数据不被视为受 EAR 导出控制限制的"技术"或"技术数据"，但 Microsoft 范围内云服务的结构有助于客户管理和显著缓解他们面临的潜在出口控制风险。 Microsoft 通常（但不专门）建议为符合条件的客户使用其政府云服务。 通过适当的规划，客户可以使用以下工具和自己的内部过程来帮助确保完全遵守美国出口控制。
 
-- **数据位置上的控件**。 客户可以查看其数据的存储位置，并可访问强健的工具来限制其存储。 因此，他们可能会确保其数据存储在美国，并最大限度地减少美国境外的受控制技术或技术数据的转移。 此外，客户数据不存储在不相容的位置，与 EAR prohibitions 在数据 "特意存储" 的位置保持一致：没有任何25组 D:5 国家/地区或俄语联合中的任何一个。
-- **端到端加密**。 通过对 EAR 中指定的物理存储位置利用端到端加密安全港，Microsoft in 范围内的云服务提供了可帮助防止出口控制风险的加密功能。 它们还为客户提供了多种用于在传输和 rest 中 [加密数据的选项](https://aka.ms/Azure-Encryption-Overview) ，以及在加密选项之间进行选择的灵活性。
-- **用于防止未经授权的导出的工具和协议**。 使用加密还有助于防止可能被认为的导出 (或在 EAR 下被认为是重新导出) ，因为即使非美国人员有权访问加密数据，也不会显示在加密时数据不能读取或理解的情况。因此，不存在受控制数据的 "释放"。
+- **数据位置上的控件**。 客户可以了解数据存储的位置，并访问强大的工具来限制其存储。 因此，他们可以确保其数据存储在美国，并尽量减少在美国以外传输受控技术或技术数据。 此外，客户数据存储在不符合要求的位置，与 EAR 禁止"有意存储"数据的位置一致：没有 Azure 数据中心位于任何 25 个 D：5 组国家/地区或俄语联盟。
+- **端到端加密**。 通过利用在 EAR 中指定的物理存储位置的端到端加密安全港，Microsoft 范围内云服务提供了可帮助防止出口控制风险的加密功能。 它们还为客户提供 [了多种](https://aka.ms/Azure-Encryption-Overview) 选项，用于加密传输中和静态的数据，以及选择加密选项的灵活性。
+- **工具和协议，以防止未经授权的视为导出**。 使用加密还有助于防止潜在的被视为导出 (或被视为在 EAR 下重新导出) ，因为即使非美国用户有权访问加密数据，如果在加密数据时无法读取或理解数据，则不公开任何内容;因此，不会"释放"受控数据。
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
 - [Azure 与 Azure 政府](https://aka.ms/AzureCompliance)
-- [Office 365 政府 (GCC-高和 DoD) ](https://aka.ms/Office-365-Export-Controls)
+- [Office 365 政府 (GCC-High 和 DoD) ](https://aka.ms/Office-365-Export-Controls)
 - Intune
 
 ## <a name="how-to-implement"></a>如何实现
 
-我们对美国出口控制和指南的概述，这些客户在 EAR 下评估其义务。
+美国出口控制概述，以及客户评估《EAR》规定的义务的指南。
 
 - [Azure](https://aka.ms/Azure-Export-Controls)
 - [Office 365](https://aka.ms/Office-365-Export-Controls)
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
-**在使用 Microsoft 云服务时，应如何遵守导出控制？**
+**使用 Microsoft 云服务时，我应执行哪些操作来遵守导出控制？**
 
-在 EAR 中，当数据上传到云服务器（如 Microsoft 云）时，拥有数据的客户（而不是云服务提供商）被视为是导出者。 出于此原因，数据所有者必须仔细评估其对 Microsoft 云的使用可能 implicate 我们如何导出控件，并确定是否需要使用或存储任何要使用的数据，以供 EAR 控制，如果是，可以应用哪些控件。 了解有关 [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) 和 [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) 云服务如何帮助客户确保其完全符合美国出口控件的详细信息。
+在 EAR 下，当数据上传到云服务器（如 Microsoft 云）时，拥有数据的客户（而非云服务提供商）将被视为导出者。 因此，数据的所有者（即 Microsoft 客户）必须仔细评估其使用 Microsoft 云可能如何使美国出口控件成为一员，并确定他们想要使用或存储的任何数据是否可能受 EAR 控件影响，如果是，则适用哪些控制措施。 详细了解 [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) 和 [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) 云服务如何帮助客户确保完全遵守美国出口控制。
 
-**Microsoft 技术、产品和服务是否受 EAR 的制约？**
+**Microsoft 技术、产品和服务是否受 EAR 限制？**
 
-大多数 Microsoft 技术、产品和服务都可以：
+大多数 Microsoft 技术、产品和服务：
 
-- 不受 EAR 的制约，因此不在商业控制列表中，也没有 ECCN;
-- 或者，它们是 EAR99 或5D992 大众市场，可供 Microsoft 进行自我分类，并且可以将其导出到非禁运国家/地区，而无需许可证 (NLR) 。
+- 不受 EAR 影响，因此不在商业控制列表中，并且没有 ECCN;
+- 或者，它们符合由 Microsoft 自行分类的 EAR99 或 5D992 批量市场资格，并可以导出到没有许可证的非授权国家/地区，作为无许可证必需 (NLR) 。
 
-也就是说，已为几个 Microsoft 产品分配了可能需要也可能不需要许可证的 ECCN。 咨询 EAR 或法律顾问，以确定适用于出口目的的相应许可证类型和符合条件的国家/地区。
+也就是说，为一些 Microsoft 产品分配了 ECCN，这些产品可能需要或不需要许可证。 请咨询 EAR 或法律顾问，以确定适当的许可证类型和符合条件的国家/地区进行导出。
 
-**(ITAR) 中的耳和国际流量之间有何区别？**
+**《美国武器贸易条例》和国际武器贸易条例与 ITAR (之间) ？**
 
-包含最广泛应用程序的主要美国出口控制是由美国商业部门管理的 EAR。 该 EAR 适用于同时具有商业和军事应用程序的双重使用项目，以及与纯商业应用程序相关的项。
+应用最广泛的美国主要出口控制是 EAR，它由美国商业部管理。 EAR 适用于具有商业和商用两种用途的两用项目，以及具有纯商业应用程序的项目。
 
-美国还具有独立且更多的专用出口控制法规（如 ITAR），可控制最敏感的项目和技术。 由美国国家/州部门进行管理，它们将控制在导出、临时导入、重新导出以及转移许多军事、国防和情报项目时 (也称为 "防御文章" ) ，包括相关技术数据。
+美国还有单独且更专门的出口控制法规，如 ITAR，用于管理最敏感的项目和技术。 它们由美国国防部管理，对许多国防、国防和情报项目的导出、临时导入、重新导出和传输施加控制 (也称为"防御文章") ，包括相关的技术数据。
 
 ## <a name="resources"></a>资源
 
 - [导出 Microsoft 产品：概述](https://www.microsoft.com/exporting/overview.aspx)
-- [导出 Microsoft 产品： FAQ](https://www.microsoft.com/exporting/faq.aspx)
+- [导出 Microsoft 产品：常见问题解答](https://www.microsoft.com/exporting/faq.aspx)
 - [导出 Microsoft 产品：产品查找](https://www.microsoft.com/exporting/exporting-information.aspx)
-- [对加密的导出限制](https://docs.microsoft.com/windows/uwp/security/export-restrictions-on-cryptography)
+- [加密的导出限制](/windows/uwp/security/export-restrictions-on-cryptography)
 - [Microsoft 和 FIPS 140-2](offering-fips-140-2.md)
 - [Microsoft 和 ITAR](offering-itar.md)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

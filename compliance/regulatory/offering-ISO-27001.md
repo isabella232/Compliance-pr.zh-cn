@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 94ce3e8dbbb210c645fb2f64ed29e441eb9956bf
-ms.sourcegitcommit: 58741a8e28c354bd806418b7263f0db98bf83eac
+ms.openlocfilehash: 16c388f3618fe7b62b596dd158dee05a55608234
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49759687"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120221"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 信息安全管理标准
 
@@ -111,7 +111,7 @@ ISO/IEC 27001 的国际接受度和适用性是此标准认证成为 Microsoft �
 
 **可从哪里获得 Microsoft 服务的 ISO/IEC 27001 审核报告和范围说明书？**
 
-该[服务信任门户](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal)提供独立审核的合规性报告。 你可以使用此门户来请求报告，以便审核员可将 Microsoft 的云服务结果与你自己的法律和法规要求进行比较。
+该[服务信任门户](/microsoft-365/compliance/get-started-with-service-trust-portal)提供独立审核的合规性报告。 你可以使用此门户来请求报告，以便审核员可将 Microsoft 的云服务结果与你自己的法律和法规要求进行比较。
 
 **Microsoft 是否进行年度测试以排查基础结构故障？**
 
@@ -130,7 +130,7 @@ ISO/IEC 27001 的国际接受度和适用性是此标准认证成为 Microsoft �
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器为企业版 E5 客户提供了此规则的预建评估。 在合规性管理器的“**评估模板**”页面中找到用于建立评估的模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器为企业版 E5 客户提供了此规则的预建评估。 在合规性管理器的“**评估模板**”页面中找到用于建立评估的模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

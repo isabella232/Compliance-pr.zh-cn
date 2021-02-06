@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: da6f212ca993a9e5887f32fe2c0fcc77e425f2e8
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: 804d785cc8dfd3d693e34f17b48e2f8b0a94de17
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937007"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120011"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>加拿大金融机构监理总署 (OSFI)
 
@@ -55,7 +55,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 - [合规性清单：加拿大](https://aka.ms/Azure-Canada-Compliance)：金融企业可在对 Microsoft 云服务进行风险评估方面获得帮助。
 - [Microsoft 云中的隐私](https://aka.ms/MCSPrivacy)：获取有关 Microsoft 隐私原则和标准以及特定于加拿大的隐私法律的详细信息。
 - [风险评估和合规性指南](https://aka.ms/RiskGovernanceGuide)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
-- [Azure 行业用例](https://docs.microsoft.com/azure/industry/financial/)：借助案例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
+- [Azure 行业用例](/azure/industry/financial/)：借助案例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -71,7 +71,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

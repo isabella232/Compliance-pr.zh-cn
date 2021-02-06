@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a9bf00ea9fe791f72f73df1d1ccb16d6bd256ed
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 7cb696db772f0bffda701c7ecadbb768c2575343
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506605"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120151"
 ---
 # <a name="financial-supervision-authority-knf-poland"></a>波兰金融监管局 (KNF)
 
@@ -60,7 +60,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 - [合规性清单：波兰](https://aka.ms/FinServ-Guide-Poland)：金融公司可在对 Microsoft 云服务进行风险评估方面获得帮助。
 - [风险评估和合规性指南](https://aka.ms/RiskGovernanceGuide)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
-- [金融用例](https://docs.microsoft.com/azure/industry/financial/)：借助案例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
+- [金融用例](/azure/industry/financial/)：借助案例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
 - [Microsoft 云中的隐私](https://aka.ms/MCSPrivacy)：获取有关 Microsoft 隐私原则和标准以及特定于波兰的隐私法律的详细信息。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b4a006fbbcd4a1af3a8ff118ea7cacaecb2ceadc
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f9c3ebd4c4988366d429f7b6cfc377f4f9c8a611
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506598"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120071"
 ---
 # <a name="my-number-act-japan"></a>个人编号法案（日本）
 
@@ -35,7 +35,7 @@ ms.locfileid: "49506598"
 
 为帮助我们的日本客户保护个人数据的隐私，Microsoft 通过 [Microsoft 联机服务条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)以合同的形式承诺，我们范围内的商业云服务已实施技术和组织安全保障来帮助我们的客户遵守个人编号法案。此支持意味着日本客户可在保证自己可遵守日本法律要求的情况下，放心地部署 Microsoft 商业云服务。
 
-个人信息保障委员会 (PPC) 发布的[问答\&文件](https://www.ppc.go.jp/legal/policy/faq/)（日语版）规定了适当处理和保护个人信息的指导方针。 它规定，如果第三方在自身协议内保证 (a) 其不处理个人数据且 (b) 其建立了适当的访问控制系统，则该第三方不被视为处理个人数据。 个人编号法案规定了当数据传输给第三方时需履行的义务，但 PPC 问\&答文件[第 3-12 问](https://www.ppc.go.jp/legal/policy/faq/)（日语版）部分解释了如果第三方并未“处理”（即无权访问）个人数据，则这些要求不适用。
+个人信息保障委员会 (PPC) 发布的[问答文件](https://www.ppc.go.jp/legal/policy/faq/)（日语版）规定了适当处理和保护个人信息的指导方针。 它规定，如果第三方在自身协议内保证 (a) 其不处理个人数据且 (b) 其建立了适当的访问控制系统，则该第三方不被视为处理个人数据。 个人编号法案规定了当数据传输给第三方时需履行的义务，但 PPC 问\&答文件[第 3-12 问](https://www.ppc.go.jp/legal/policy/faq/)（日语版）部分解释了如果第三方并未“处理”（即无权访问）个人数据，则这些要求不适用。
 
 Microsoft 商业云服务在 [Microsoft 联机服务条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)中解答了这些要求，该条款中规定包含个人编号数据的客户数据的所有权和责任属于客户，而非属于 Microsoft。 因此，客户必须实施适当的控制措施来保护客户数据中包含的个人编号数据。
 
@@ -60,11 +60,11 @@ Microsoft 无权访问其云服务中存储的个人编号数据，因此无需�
 
 - [Office 365 中隐私](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=a1b48a5b-bcb1-4c19-9277-952c0df87113&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)：Microsoft 如何将强有力的隐私保护构建到 Office 365 中。
 
-- [Office 365 中的管理访问权限](https://docs.microsoft.com/office365/SecurityCompliance/office-365-administrative-access-controls-overview)：Microsoft 如何管理对客户数据的管理访问权限。
+- [Office 365 中的管理访问权限](/office365/SecurityCompliance/office-365-administrative-access-controls-overview)：Microsoft 如何管理对客户数据的管理访问权限。
 
-- [Office 365 中的审计和报告](https://docs.microsoft.com/office365/SecurityCompliance/office-365-auditing-and-reporting-overview)：了解客户可用来跟踪其租户中的用户和管理活动的功能。
+- [Office 365 中的审计和报告](/office365/SecurityCompliance/office-365-auditing-and-reporting-overview)：了解客户可用来跟踪其租户中的用户和管理活动的功能。
 
-- [Office 365 中的数据保留](https://docs.microsoft.com/office365/SecurityCompliance/office-365-data-retention-deletion-and-destruction-overview)：了解有关客户数据在被删除后将保留多长时间的数据处理策略。
+- [Office 365 中的数据保留](/office365/SecurityCompliance/office-365-data-retention-deletion-and-destruction-overview)：了解有关客户数据在被删除后将保留多长时间的数据处理策略。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

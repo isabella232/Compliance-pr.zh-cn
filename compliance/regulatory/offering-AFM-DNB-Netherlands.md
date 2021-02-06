@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a952d33a440681acc3dd5057c8a7e175e57bfa9
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: a7f6f07a2dd58d4a99559488c3f9d3b92d4fe195
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937017"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121801"
 ---
 # <a name="dutch-authority-for-the-financial-markets-and-the-central-bank-of-the-netherlands"></a>荷兰金融市场管理局和荷兰央行
 
@@ -64,7 +64,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 - [合规性清单 - 荷兰](https://aka.ms/FinServ-Guide-Netherlands)：金融公司可在对 Microsoft 商业云服务进行风险评估时获得帮助。
 - [风险评估和合规性指南](https://aka.ms/RiskGovernanceGuide)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
-- [金融用例](https://docs.microsoft.com/azure/industry/financial/)：借助案例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
+- [金融用例](/azure/industry/financial/)：借助案例概述、教程和其他资源，构建适合金融服务的 Azure 解决方案。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

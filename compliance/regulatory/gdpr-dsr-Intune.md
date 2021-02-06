@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d6b0a96cfa82f9e0d841703d2124c0e9dda7fe1f
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: fabaa7487da2dae72cc2aa8aa050b43713154fbe
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506441"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120931"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr-and-ccpa"></a>针对 GDPR 和 CCPA 的 Intune 数据主体请求
 
@@ -86,9 +86,9 @@ Microsoft 让你能够通过 Azure 门户访问、删除和导出某些客户数
 
 找到数据后，可执行特定操作以满足数据主体的请求。有关详细信息，请参阅以下资源：
 
-- [数据收集](https://docs.microsoft.com/intune/privacy-data-collect)
-- [数据存储和处理](https://docs.microsoft.com/intune/privacy-data-store-process)
-- [查找个人数据](https://docs.microsoft.com/intune/privacy-data-view-correct#view-personal-data)
+- [数据收集](/intune/privacy-data-collect)
+- [数据存储和处理](/intune/privacy-data-store-process)
+- [查找个人数据](/intune/privacy-data-view-correct#view-personal-data)
 
 ### <a name="step-2-access"></a>步骤 2：访问
 
@@ -114,15 +114,15 @@ Microsoft 作为数据处理者不提供纠正系统生成的日志的功能，�
 
 ### <a name="step-4-restrict"></a>步骤 4：限制
 
-数据主体可能要求限制对其个人数据的处理。 我们同时提供了 Azure 门户和预先存在的应用程序编程接口 (API) 或用户界面 (UI)。 这些体验为企业客户的租户管理员提供了一种通过数据导出与数据删除相结合来管理此类 DSR 的能力。 有关详细信息，请参阅[处理个人数据](https://docs.microsoft.com/intune/privacy-data-store-process#processing-personal-data)。
+数据主体可能要求限制对其个人数据的处理。 我们同时提供了 Azure 门户和预先存在的应用程序编程接口 (API) 或用户界面 (UI)。 这些体验为企业客户的租户管理员提供了一种通过数据导出与数据删除相结合来管理此类 DSR 的能力。 有关详细信息，请参阅[处理个人数据](/intune/privacy-data-store-process#processing-personal-data)。
 
 ### <a name="step-5-delete"></a>步骤 5：删除
 
-从组织的客户数据中删除个人数据的“清除权限”是 GDPR 中提供的重要保护。删除个人数据包括删除所有个人数据和系统生成的日志（审核日志信息除外）。有关详细信息，请参阅[删除最终用户个人数据](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#delete-end-user-personal-data)。
+从组织的客户数据中删除个人数据的“清除权限”是 GDPR 中提供的重要保护。删除个人数据包括删除所有个人数据和系统生成的日志（审核日志信息除外）。有关详细信息，请参阅[删除最终用户个人数据](/intune/privacy-data-audit-export-delete#delete-end-user-personal-data)。
 
 ## <a name="part-2-system-generated-logs"></a>第 2 部分：系统生成的日志
 
-审核日志向租户管理员提供在 Microsoft Intune 中生成的更改的活动记录。审核日志适用于许多管理活动，通常包括创建、更新（编辑）、删除和分配操作。也可以查看生成审核事件的远程任务。这些审核日志可能包含在 Intune 中注册了设备的用户的个人数据。管理员无法删除审核日志。有关详细信息，请参阅[审核个人数据](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#audit-personal-data)。
+审核日志向租户管理员提供在 Microsoft Intune 中生成的更改的活动记录。审核日志适用于许多管理活动，通常包括创建、更新（编辑）、删除和分配操作。也可以查看生成审核事件的远程任务。这些审核日志可能包含在 Intune 中注册了设备的用户的个人数据。管理员无法删除审核日志。有关详细信息，请参阅[审核个人数据](/intune/privacy-data-audit-export-delete#audit-personal-data)。
 
 ## <a name="notify-about-exporting-or-deleting-issues"></a>通知导出或删除问题
 
