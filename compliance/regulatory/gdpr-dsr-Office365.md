@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b22af83dbae8c251f6bba1928011fceaa4bba072
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: fb982899fb5159abecc07b90700134b6247b6fee
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937047"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121941"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Office 365 数据主体请求
 
@@ -65,7 +65,7 @@ ms.locfileid: "49937047"
 
 ### <a name="office-365-national-clouds"></a>Office 365 区域云
 
-Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 365 Germany](https://docs.microsoft.com/microsoft-365/admin/admin-overview/learn-about-office-365-germany)、[由世纪互联运营的 Office 365（中国版）](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china) 和 [Office 365 美国政府版](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)。本文档所述的用于管理数据主体请求的大部分指导适用于这些区域云环境。但是，由于这些环境的独立性质，存在一些例外情况。其中给定小节较为显著，这些例外情况在相应注释中被调用。
+Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 365 Germany](/microsoft-365/admin/admin-overview/learn-about-office-365-germany)、[由世纪互联运营的 Office 365（中国版）](/microsoft-365/admin/services-in-china/services-in-china) 和 [Office 365 美国政府版](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)。本文档所述的用于管理数据主体请求的大部分指导适用于这些区域云环境。但是，由于这些环境的独立性质，存在一些例外情况。其中给定小节较为显著，这些例外情况在相应注释中被调用。
 
 ### <a name="hybrid-deployments"></a>混合部署
 
@@ -75,7 +75,7 @@ Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 
 - SharePoint 混合部署，其中站点和文件服务器均位于本地，而 OneDrive for Business 帐户在 Office 365 中。
 - 与 Azure Activity Directory 同步的本地身份管理系统 (Active Directory)，它是 Office 365 的基础目录服务。
 
-答复 DSR 请求时，可能需要确定对 DSR 请求作出响应的数据是在 Microsoft 云还是本地组织中，然后采取相应步骤来响应该请求。Office 365 数据主体请求指南（本指南）提供指导以响应基于云的数据。有关本地组织数据指南，请参阅 [Office 本地服务器的 GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-office-servers)。
+答复 DSR 请求时，可能需要确定对 DSR 请求作出响应的数据是在 Microsoft 云还是本地组织中，然后采取相应步骤来响应该请求。Office 365 数据主体请求指南（本指南）提供指导以响应基于云的数据。有关本地组织数据指南，请参阅 [Office 本地服务器的 GDPR](/Office365/Enterprise/gdpr-for-office-servers)。
 
 ## <a name="part-1-responding-to-dsrs-for-customer-data"></a>第 1 部分：响应针对客户数据的 DSR
 
@@ -90,7 +90,7 @@ Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 
 
 帮助确定搜索个人数据的位置或要搜索的内容，这有助于确定组织中的用户可用于在 Office 365 中创建和存储数据的 Office 365 应用程序。 了解此信息可缩小属于 DSR 范围内的 Office 365 应用程序的范围，帮助确定如何搜索和访问与 DSR 相关的个人数据。 具体而言，这意味着是否可以使用内容搜索工具，或者是否必须使用在其中创建了数据的应用程序的应用内功能。
 
-通过确定组织的 Microsoft 365 商业版订阅中包含的应用程序，可快速确定组织中的用户用于创建客户数据的 Office 365 应用程序。为此，可在 Office 365 管理门户中访问用户帐户并查看产品许可信息。请参阅[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+通过确定组织的 Microsoft 365 商业版订阅中包含的应用程序，可快速确定组织中的用户用于创建客户数据的 Office 365 应用程序。为此，可在 Office 365 管理门户中访问用户帐户并查看产品许可信息。请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 ## <a name="using-the-content-search-ediscovery-tool-to-respond-to-dsrs"></a>使用内容搜索电子数据展示工具响应 DSR
 
@@ -118,9 +118,9 @@ Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 
 - Word
 
 > [!NOTE]
-> 内容搜索电子数据展示工具在[由世纪互联运营的 Office 365（中国版）](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china)中不可用。这意味着你将无法使用此工具搜索和导出 Office 365 应用程序中的客户数据（如表 1 所示）。但是，可以使用 Exchange Online 中的就地电子数据展示工具来搜索用户邮箱中的内容。还可以使用 SharePoint Online 中的电子数据展示中心来搜索 SharePoint 网站和 OneDrive 帐户中的内容。或者，可以要求文档所有者帮助查找和更改或删除内容，如有必要亦可将其导出。有关详细信息，请参阅：
+> 内容搜索电子数据展示工具在[由世纪互联运营的 Office 365（中国版）](/microsoft-365/admin/services-in-china/services-in-china)中不可用。这意味着你将无法使用此工具搜索和导出 Office 365 应用程序中的客户数据（如表 1 所示）。但是，可以使用 Exchange Online 中的就地电子数据展示工具来搜索用户邮箱中的内容。还可以使用 SharePoint Online 中的电子数据展示中心来搜索 SharePoint 网站和 OneDrive 帐户中的内容。或者，可以要求文档所有者帮助查找和更改或删除内容，如有必要亦可将其导出。有关详细信息，请参阅：
 > 
-> * [创建就地电子数据展示搜索](https://docs.microsoft.com/exchange/create-in-place-ediscovery-search-exchange-2013-help)
+> * [创建就地电子数据展示搜索](/exchange/create-in-place-ediscovery-search-exchange-2013-help)
 > * [在 SharePoint Online 中设置电子数据展示中心](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
 
 ### <a name="using-content-search-to-find-personal-data"></a>使用内容搜索查找个人数据
@@ -129,7 +129,7 @@ Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 
 
 如前文所述，Microsoft 估计超过 90% 的组织数据都是使用 Office 应用程序创建的，如 Word 和 Excel。这意味着可以使用安全与合规中心的内容搜索工具搜索与 DSR 相关度最高的数据。
 
-本指南假定你或搜索可响应 DSR 请求的个人数据的用户熟悉安全与合规中心的内容搜索工具或有使用该工具的经验。有关使用内容搜索的常规指导，请参阅 [Office 365 中的内容搜索](https://docs.microsoft.com/microsoft-365/compliance/content-search)。请确保已向运行搜索的用户分配针对安全与合规中心的必要权限。应将相关用户添加为安全与合规中心电子数据展示管理者角色组的成员；请参阅[分配安全与合规中心的电子数据展示权限](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)。考虑将组织中涉及调查 DSR 的其他用户添加到电子数据展示管理者角色组，使其能够使用内容搜索工具执行必要的操作，例如预览和导出搜索结果。但请注意，电子数据展示管理者可以搜索组织中的所有内容位置（包括可能与 DSR 调查无关的位置），除非设置合规性边界（如[此处](#set-up-compliance-boundaries-to-limit-the-scope-of-content-searches)所述）。
+本指南假定你或搜索可响应 DSR 请求的个人数据的用户熟悉安全与合规中心的内容搜索工具或有使用该工具的经验。有关使用内容搜索的常规指导，请参阅 [Office 365 中的内容搜索](/microsoft-365/compliance/content-search)。请确保已向运行搜索的用户分配针对安全与合规中心的必要权限。应将相关用户添加为安全与合规中心电子数据展示管理者角色组的成员；请参阅[分配安全与合规中心的电子数据展示权限](/microsoft-365/compliance/assign-ediscovery-permissions)。考虑将组织中涉及调查 DSR 的其他用户添加到电子数据展示管理者角色组，使其能够使用内容搜索工具执行必要的操作，例如预览和导出搜索结果。但请注意，电子数据展示管理者可以搜索组织中的所有内容位置（包括可能与 DSR 调查无关的位置），除非设置合规性边界（如[此处](#set-up-compliance-boundaries-to-limit-the-scope-of-content-searches)所述）。
 
 找到数据后，可执行特定操作以满足数据主体的请求。
 
@@ -146,13 +146,13 @@ Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 
 - OneDrive for Business 帐户
 
 > [!NOTE]
-> 本指南假定可能与 DSR 调查相关的所有数据都存储在 Office 365 中；换言之，存储在 Microsoft 云中。存储在用户本地计算机上或组织文件服务器本地的数据不在 Office 365 中所存储数据的 DSR 调查范围内。如需了解如何响应针对本地组织内的数据的 DSR 请求，请参阅 [Office 本地服务器的 GDPR](https://docs.microsoft.com/Office365/Enterprise/gdpr-for-office-servers)。
+> 本指南假定可能与 DSR 调查相关的所有数据都存储在 Office 365 中；换言之，存储在 Microsoft 云中。存储在用户本地计算机上或组织文件服务器本地的数据不在 Office 365 中所存储数据的 DSR 调查范围内。如需了解如何响应针对本地组织内的数据的 DSR 请求，请参阅 [Office 本地服务器的 GDPR](/Office365/Enterprise/gdpr-for-office-servers)。
 
 #### <a name="tips-for-searching-content-locations"></a>搜索内容位置相关提示
 
 - 首先搜索组织中的所有内容位置（可通过单次搜索完成），快速确定哪些内容位置包含与搜索查询匹配的项目。 然后可以重新运行搜索，并将搜索范围缩小为包含相关项目的特定位置。
-- 使用搜索统计信息确定包含与搜索查询匹配的项目数最多的位置。请参阅[查看内容搜索结果的关键字统计信息](https://docs.microsoft.com/microsoft-365/compliance/view-keyword-statistics-for-content-search)。
-- 在审核日志中搜索作为 DSR 主体的用户最近执行的文件和文件夹活动。 搜索审核日志将返回审核记录列表，这些记录包含用户最近与其进行了交互的资源的名称和位置。 可以使用此信息生成内容搜索查询。 请参阅[在安全与合规中心搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+- 使用搜索统计信息确定包含与搜索查询匹配的项目数最多的位置。请参阅[查看内容搜索结果的关键字统计信息](/microsoft-365/compliance/view-keyword-statistics-for-content-search)。
+- 在审核日志中搜索作为 DSR 主体的用户最近执行的文件和文件夹活动。 搜索审核日志将返回审核记录列表，这些记录包含用户最近与其进行了交互的资源的名称和位置。 可以使用此信息生成内容搜索查询。 请参阅[在安全与合规中心搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 #### <a name="building-search-queries-to-find-personal-data"></a>生成查找个人数据的搜索查询
 
@@ -170,20 +170,20 @@ Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 
 
 下表列出了可用于缩小搜索范围的一些条件。该表还列出了可用于每个条件，以便搜索特定文档类型和邮箱项目的值。
 
-***表 2：使用条件缩小搜索范围** _
+***表 2：使用条件缩小搜索范围***
 
 | Condition | 说明 | 条件值示例 |
 | :--- | :--- |:--- |
 | 文件类型 | 文档或文件的扩展名。 使用此条件，可搜索通过 Office 365 应用程序创建的 Office 文档和文件。 在搜索位于 SharePoint Online 网站和 OneDrive for Business 帐户中的文档时，可使用此条件。<br/>相应的文档属性为 filetype。 <br/>有关可搜索的文件扩展名的完整列表，请参阅“SharePoint 中的默认爬网文件扩展名和解析文件类型”（https://technet.microsoft.com/library/jj219530.aspx)）。|&nbsp;&bull;&nbsp;&nbsp;csv — 搜索逗号分隔值 (CSV) 文件；Excel 可保存为 CSV 格式，CSV 文件可轻松导入 Excel 中<br><br>&bull;&nbsp;&nbsp;docx — 搜索 Word 文件 <br><br>&bull;&nbsp;&nbsp;mpp — 搜索 Project 文件<br/><br>&bull;&nbsp;&nbsp;one — 搜索 OneNote 文件 <br><br>&bull;&nbsp;&nbsp;pdf — 搜索保存为 PDF 格式的文件 <br><br>&bull;&nbsp;&nbsp;pptx — 搜索 PowerPoint 文件 <br><br>&bull;&nbsp;&nbsp;xlxs — 搜索 Excel 文件 <br><br>&bull;&nbsp;&nbsp;vsd — 搜索 Visio 文件 <br><br>&bull;&nbsp;&nbsp;wmv — 搜索 Windows Media 视频文件 <br>|
-| 邮件类型 | 要搜索的电子邮件类型。 使用此条件，可在邮箱中搜索联系人（人员）、会议（日历）任务或 Skype for Business 对话。 相应的电子邮件属性为 _kind*。|&bull;&nbsp;&nbsp;*联系人 — 搜索邮箱的“我的联系人”列表（人员）<br><br>&bull;&nbsp;&nbsp;* 电子邮件 — 搜索电子邮件 <br><br>&bull;&nbsp;&nbsp;*即时消息 — 搜索 Skype for Business 对话<br><br>&bull;&nbsp;&nbsp;* 会议 — 搜索约会和会议请求（日历） <br><br>&bull;&nbsp;&nbsp;*任务 — 搜索“我的任务”列表（任务）；使用此值将返回在微软待办中创建的任务。<br>|
-| 合规性标记 |为电子邮件或文档分配的标签。标签用于对电子邮件和文档进行分类，以便进行数据治理，并基于标签定义的分类强制实施保留规则。使用此条件，可搜索自动或手动向其分配了标签的项目。<br/>此条件对于 DSR 调查非常有用，因为组织可能在使用标签来分类与数据隐私有关的内容或包含个人数据或敏感信息的内容。请参阅[了解保留策略和保留标签](https://docs.microsoft.com/microsoft-365/compliance/labels)中的“使用内容搜索来查找应用有特定标签的所有内容”部分。|合规性标记=“个人数据”|
+| 邮件类型 | 要搜索的电子邮件类型。 使用此条件，可在邮箱中搜索联系人（人员）、会议（日历）任务或 Skype for Business 对话。 相应的电子邮件属性为 *kind*。|&bull;&nbsp;&nbsp;*联系人 — 搜索邮箱的“我的联系人”列表（人员）<br><br>&bull;&nbsp;&nbsp;* 电子邮件 — 搜索电子邮件 <br><br>&bull;&nbsp;&nbsp;*即时消息 — 搜索 Skype for Business 对话<br><br>&bull;&nbsp;&nbsp;* 会议 — 搜索约会和会议请求（日历） <br><br>&bull;&nbsp;&nbsp;*任务 — 搜索“我的任务”列表（任务）；使用此值将返回在微软待办中创建的任务。<br>|
+| 合规性标记 |为电子邮件或文档分配的标签。标签用于对电子邮件和文档进行分类，以便进行数据治理，并基于标签定义的分类强制实施保留规则。使用此条件，可搜索自动或手动向其分配了标签的项目。<br/>此条件对于 DSR 调查非常有用，因为组织可能在使用标签来分类与数据隐私有关的内容或包含个人数据或敏感信息的内容。请参阅[了解保留策略和保留标签](/microsoft-365/compliance/labels)中的“使用内容搜索来查找应用有特定标签的所有内容”部分。|合规性标记=“个人数据”|
 ||||
 
-还可使用许多其他电子邮件和文档属性以及搜索条件来生成更复杂的搜索查询。请参阅[内容搜索的关键字查询和搜索条件](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions)帮助主题中的以下各节了解详细信息。
+还可使用许多其他电子邮件和文档属性以及搜索条件来生成更复杂的搜索查询。请参阅[内容搜索的关键字查询和搜索条件](/microsoft-365/compliance/keyword-queries-and-search-conditions)帮助主题中的以下各节了解详细信息。
 
-- [可搜索的电子邮件属性](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions)
-- [可搜索的网站（文档）属性](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions)
-- [搜索条件](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions)
+- [可搜索的电子邮件属性](/microsoft-365/compliance/keyword-queries-and-search-conditions)
+- [可搜索的网站（文档）属性](/microsoft-365/compliance/keyword-queries-and-search-conditions)
+- [搜索条件](/microsoft-365/compliance/keyword-queries-and-search-conditions)
 
 #### <a name="searching-for-personal-data-in-sharepoint-lists-discussions-and-forms"></a>搜索 SharePoint 列表、讨论和表单中的个人数据
 
@@ -197,13 +197,13 @@ Microsoft Office 365 服务也可以在以下区域云环境中适用：[Office 
 
 此示例返回 SharePoint Online 网站和 OneDrive for Business 帐户中包含指定电子邮件地址的 Excel 文件。 如果电子邮件地址出现在文件元数据中，则可能会返回文件。
 
-***关键字语法** _
+***关键字语法***
 
 ```Query
 pilar@contoso.com AND filetype="xlxs"
 ```
 
-_*_GUI_*_
+***GUI***
 
 ![关键字对话框示例 1](../media/O365-DSR-Doc_image18.png)
 
@@ -215,7 +215,7 @@ _*_GUI_*_
 (98765 OR "01-20-1990") AND (filetype="xlxs" OR filetype="docx")
 ```
 
-_*_GUI_*_
+***GUI***
 
 ![关键字对话框示例 2](../media/O365-DSR-Doc_image19.png)
 
@@ -227,29 +227,29 @@ _*_GUI_*_
 "1600330345678 97" AND kind="email"
 ```
 
-_*_GUI_*_
+***GUI***
 
 ![关键字对话框示例 3](../media/O365-DSR-Doc_image20.png)
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>处理内容搜索中的部分索引项
 
-部分索引项（也称为 _未编制索引的项*）是出于某些原因未针对搜索完全编制索引的 Exchange Online 邮箱项目以及 SharePoint Online 和 OneDrive for Business 文档，无法使用内容搜索对其进行搜索。 大多数电子邮件和网站都可成功编制索引，因为它们在 [Office 365 索引限制](https://docs.microsoft.com/microsoft-365/compliance/limits-for-content-search)的范围内。 未针对搜索对电子邮件或文件编制索引的原因包括：
+部分索引项（也称为 *未编制索引的项*）是出于某些原因未针对搜索完全编制索引的 Exchange Online 邮箱项目以及 SharePoint Online 和 OneDrive for Business 文档，无法使用内容搜索对其进行搜索。 大多数电子邮件和网站都可成功编制索引，因为它们在 [Office 365 索引限制](/microsoft-365/compliance/limits-for-content-search)的范围内。 未针对搜索对电子邮件或文件编制索引的原因包括：
 
-- 文件类型是[索引无法识别或不支持](https://docs.microsoft.com/microsoft-365/compliance/partially-indexed-items-in-content-search)的文件类型。 虽然该文件类型有时支持索引，但是特定文件出现索引错误
+- 文件类型是[索引无法识别或不支持](/microsoft-365/compliance/partially-indexed-items-in-content-search)的文件类型。 虽然该文件类型有时支持索引，但是特定文件出现索引错误
 - 电子邮件的附件文件中未包含有效的图柄，如图像文件（这是部分索引电子邮件项最常见的原因）
 - 附加到电子邮件的文件太大，或附加的文件过多
 
 建议详细了解部分索引项，以便在响应 DSR 请求时进行处理。有关详细信息，请参阅：
 
-- [处理 Office 365 内容搜索中的部分索引项](https://docs.microsoft.com/microsoft-365/compliance/partially-indexed-items-in-content-search)
-- [使用 Office 365 电子数据展示调查部分索引项](https://docs.microsoft.com/microsoft-365/compliance/investigating-partially-indexed-items-in-ediscovery)
-- [导出未编制索引的项](https://docs.microsoft.com/microsoft-365/compliance/export-search-results)
+- [处理 Office 365 内容搜索中的部分索引项](/microsoft-365/compliance/partially-indexed-items-in-content-search)
+- [使用 Office 365 电子数据展示调查部分索引项](/microsoft-365/compliance/investigating-partially-indexed-items-in-ediscovery)
+- [导出未编制索引的项](/microsoft-365/compliance/export-search-results)
 
 #### <a name="tips-for-working-with-partially-indexed-items"></a>处理部分索引项的相关提示
 
 用于响应 DSR 调查的数据可能包含在部分索引项中。下面提供了有关处理部分索引项的一些建议：
 
-- 运行搜索后，估计的部分索引项数目显示在搜索统计信息中。 此估计不包括 SharePoint Online 和 OneDrive for Business 中的部分索引项。 导出内容搜索报告，了解有关部分索引项的信息。 **Unindexed Items.csv** 报告包含未编制索引的项的相关信息，包括项目的位置、URL（如果项目位于 SharePoint Online 或 OneDrive for Business 中）以及主题行（对于邮件）或文档名称。 有关详细信息，请参阅[导出内容搜索报告](https://docs.microsoft.com/microsoft-365/compliance/export-a-content-search-report)。
+- 运行搜索后，估计的部分索引项数目显示在搜索统计信息中。 此估计不包括 SharePoint Online 和 OneDrive for Business 中的部分索引项。 导出内容搜索报告，了解有关部分索引项的信息。 **Unindexed Items.csv** 报告包含未编制索引的项的相关信息，包括项目的位置、URL（如果项目位于 SharePoint Online 或 OneDrive for Business 中）以及主题行（对于邮件）或文档名称。 有关详细信息，请参阅[导出内容搜索报告](/microsoft-365/compliance/export-a-content-search-report)。
 
 - 随内容搜索结果一起返回的部分索引项统计信息和列表包含位于所搜索内容位置的所有部分索引项。
 
@@ -257,11 +257,11 @@ _*_GUI_*_
 
 ##### <a name="export-all-partially-indexed-items"></a>导出所有部分索引项
 
-可同时导出内容搜索的结果和位于所搜索内容位置的部分索引项。 还可以只导出部分索引项。 然后可在本机应用程序中打开它们并查看内容。 必须使用此选项才可导出 SharePoint Online 和 OneDrive for Business 中的项目。 请参阅[从安全与合规中心导出内容搜索结果](https://docs.microsoft.com/microsoft-365/compliance/export-search-results)。
+可同时导出内容搜索的结果和位于所搜索内容位置的部分索引项。 还可以只导出部分索引项。 然后可在本机应用程序中打开它们并查看内容。 必须使用此选项才可导出 SharePoint Online 和 OneDrive for Business 中的项目。 请参阅[从安全与合规中心导出内容搜索结果](/microsoft-365/compliance/export-search-results)。
 
 ##### <a name="export-a-specific-set-of-partially-indexed-items-from-mailboxes"></a>从邮箱导出一组特定的部分索引项
 
-可以重新运行内容搜索，以搜索特定的部分索引项列表，然后将其导出，而无需导出搜索的所有部分索引邮箱项目。 仅可针对邮箱项目执行此操作。 请参阅[为 Office 365 中的定向内容搜索准备 CSV 文件](https://docs.microsoft.com/microsoft-365/compliance/csv-file-for-an-id-list-content-search)。
+可以重新运行内容搜索，以搜索特定的部分索引项列表，然后将其导出，而无需导出搜索的所有部分索引邮箱项目。 仅可针对邮箱项目执行此操作。 请参阅[为 Office 365 中的定向内容搜索准备 CSV 文件](/microsoft-365/compliance/csv-file-for-an-id-list-content-search)。
 
 ### <a name="next-steps"></a>后续步骤
 
@@ -315,9 +315,9 @@ https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/Edit
 
 管理员可以在 SharePoint 管理中心访问和纠正个人资料属性。 在“**SharePoint 管理中心**”中，选择“**用户个人资料**”选项卡。选择“**管理用户个人资料**”，输入用户的姓名，然后选择“**查找**”。 管理员可以右键选择任意用户，然后选择“**编辑我的个人资料**”。 无法在 SharePoint Online 中更改源于 Azure Active Directory 的属性。
 
-管理员可以在 SharePoint Online PowerShell 中使用 **Export-SPOUserProfile** cmdlet 导出用户的所有用户个人资料属性。请参阅 [Export-SPOUserProfile](https://docs.microsoft.com/powershell/module/sharepoint-online/export-spouserprofile)。
+管理员可以在 SharePoint Online PowerShell 中使用 **Export-SPOUserProfile** cmdlet 导出用户的所有用户个人资料属性。请参阅 [Export-SPOUserProfile](/powershell/module/sharepoint-online/export-spouserprofile)。
 
-有关用户个人资料的详细信息，请参阅[在 SharePoint 管理中心管理用户个人资料](https://docs.microsoft.com/sharepoint/manage-user-profiles)。
+有关用户个人资料的详细信息，请参阅[在 SharePoint 管理中心管理用户个人资料](/sharepoint/manage-user-profiles)。
 
 ##### <a name="user-information-list-on-sharepoint-online-sites"></a>SharePoint Online 网站上的用户信息列表
 
@@ -330,17 +330,17 @@ https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/Edit
 3. 右键选择任意属性，然后选择“**编辑**”并调整各种设置。
 4. 可通过“**策略设置**”下的“可复制”属性来控制是否在用户信息列表中显示某个属性。 并非所有属性都支持此调整。
 
-管理员可以在 SharePoint Online PowerShell 中使用 **Export-SPOUserInfo** cmdlet 导出用户或给定网站的所有用户信息属性。请参阅 [Export-SPOUserInfo](https://docs.microsoft.com/powershell/module/sharepoint-online/export-spouserinfo)。
+管理员可以在 SharePoint Online PowerShell 中使用 **Export-SPOUserInfo** cmdlet 导出用户或给定网站的所有用户信息属性。请参阅 [Export-SPOUserInfo](/powershell/module/sharepoint-online/export-spouserinfo)。
 
 ##### <a name="onedrive-for-business-experience-settings"></a>OneDrive for Business 体验设置
 
-用户的 OneDrive for Business 体验中存储的信息有助于用户查找和导航相关内容。最终用户可使用产品内功能访问大部分此类信息。管理员可以使用 [PowerShell 脚本](https://docs.microsoft.com/powershell/scripting/overview)和 [SharePoint 客户端对象模型 (CSOM)](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) 命令来导出信息。
+用户的 OneDrive for Business 体验中存储的信息有助于用户查找和导航相关内容。最终用户可使用产品内功能访问大部分此类信息。管理员可以使用 [PowerShell 脚本](/powershell/scripting/overview)和 [SharePoint 客户端对象模型 (CSOM)](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) 命令来导出信息。
 
-有关设置、存储方式和如何将其导出的详细信息，请参阅[导出 OneDrive for Business 体验设置](https://docs.microsoft.com/sharepoint/export-odfb-lists)。
+有关设置、存储方式和如何将其导出的详细信息，请参阅[导出 OneDrive for Business 体验设置](/sharepoint/export-odfb-lists)。
 
 ##### <a name="onedrive-for-business-and-sharepoint-online-search"></a>OneDrive for Business 和 SharePoint Online 搜索
 
-OneDrive for Business 和 SharePoint Online 中的应用内搜索体验存储用户的搜索查询（为期 30 天）以增加搜索结果的相关性。管理员可以使用 SharePoint Online PowerShell 中的 **Export-SPOQueryLogs** cmdlet 来导出用户的搜索查询。请参阅 [Export-SPOQueryLogs](https://docs.microsoft.com/powershell/module/sharepoint-online/export-spoquerylogs)。
+OneDrive for Business 和 SharePoint Online 中的应用内搜索体验存储用户的搜索查询（为期 30 天）以增加搜索结果的相关性。管理员可以使用 SharePoint Online PowerShell 中的 **Export-SPOQueryLogs** cmdlet 来导出用户的搜索查询。请参阅 [Export-SPOQueryLogs](/powershell/module/sharepoint-online/export-spoquerylogs)。
 
 #### <a name="microsoft-teams-for-education"></a>Microsoft Teams 教育版
 
@@ -392,7 +392,7 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 - 附加到会议的文件在实际会议中保留 180 天，之后将无法访问。要访问这些文件，会议参与者可从会议请求加入会议，然后查看或下载附件。请参阅[为 Skype for Business 会议预加载附件](https://support.microsoft.com/office/preload-attachments-for-a-skype-for-business-meeting-fd3d9f9d-b448-4754-b813-02e49393f251)中的“使用会议中的附件”部分。
 - Skype for Business 中的对话保留在用户邮箱的对话历史记录文件夹中。可使用内容搜索在邮箱中搜索 Skype 对话中的数据。
 - 数据主体可在 Skype for Business 中导出其联系人。 若要执行此操作，可在 Skype for Business 中右键选择一个联系人组，然后选择“**复制**”。 然后，可将电子邮件地址列表粘贴到文本或 Word 文档中。
-- 如果会议参与者的 Exchange Online 邮箱处于诉讼保留状态或已分配给 Office 365 保留策略，则附加到会议的文件保留在参与者邮箱中。如果文件的保留期尚未到期，可使用内容搜索在参与者邮箱中搜索这些文件。有关保留文件的详细信息，请参阅[保留附加到 Skype for Business 会议的大型文件](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting)。
+- 如果会议参与者的 Exchange Online 邮箱处于诉讼保留状态或已分配给 Office 365 保留策略，则附加到会议的文件保留在参与者邮箱中。如果文件的保留期尚未到期，可使用内容搜索在参与者邮箱中搜索这些文件。有关保留文件的详细信息，请参阅[保留附加到 Skype for Business 会议的大型文件](/skypeforbusiness/set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting)。
 
 ## <a name="providing-a-copy-of-personal-data"></a>提供个人数据副本
 
@@ -405,13 +405,13 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 可通过两种方法使用内容搜索工具获取运行搜索后找到的文档或邮箱项目副本。
 
 - 预览搜索结果，然后下载文档或项目副本。这是下载几个项目或文件的好方法。
-- 导出搜索结果，然后下载搜索返回的所有项目副本。 此方法更为复杂，但却是下载大量响应 DSR 的项目的好方法。 导出搜索结果中还包括一些实用的报告。 可使用这些报告来获取有关每个项目的其他信息。 **Results.csv** 报告尤其有用，因为它包含大量有关导出项目的信息，如项目的提取位置（例如电子邮件的邮箱，或者位于 SharePoint Online 和 OneDrive for Business 网站上的文档或列表的 URL）。 如果你需要在 DSR 调查过程中与项目所有者联系，此信息可帮助你识别该所有者的身份。 有关导出搜索结果时包含的报告的详细信息，请参阅[导出内容搜索报告](https://docs.microsoft.com/microsoft-365/compliance/export-a-content-search-report)。
+- 导出搜索结果，然后下载搜索返回的所有项目副本。 此方法更为复杂，但却是下载大量响应 DSR 的项目的好方法。 导出搜索结果中还包括一些实用的报告。 可使用这些报告来获取有关每个项目的其他信息。 **Results.csv** 报告尤其有用，因为它包含大量有关导出项目的信息，如项目的提取位置（例如电子邮件的邮箱，或者位于 SharePoint Online 和 OneDrive for Business 网站上的文档或列表的 URL）。 如果你需要在 DSR 调查过程中与项目所有者联系，此信息可帮助你识别该所有者的身份。 有关导出搜索结果时包含的报告的详细信息，请参阅[导出内容搜索报告](/microsoft-365/compliance/export-a-content-search-report)。
 
 #### <a name="preview-and-download-items"></a>预览和下载项目
 
 运行新搜索或打开现有搜索后，可审阅与搜索查询匹配的每个项目，验证其是否与正在调查的 DSR 相关。 这还包括在搜索结果中返回的 SharePoint 列表和网页。 你还可下载原始文件（如果必须向数据所有者提供该原始文件）。 在两种情况下，都可进行屏幕截图，满足数据主体获取信息的请求。
 
-某些类型的项目无法预览。 如果一个项目或文件类型不支持预览，可选择将各项目下载到本地计算机、映射的网络驱动器或其他网络位置。 仅可预览[受支持的文件类型](https://docs.microsoft.com/microsoft-365/compliance/content-search)。
+某些类型的项目无法预览。 如果一个项目或文件类型不支持预览，可选择将各项目下载到本地计算机、映射的网络驱动器或其他网络位置。 仅可预览[受支持的文件类型](/microsoft-365/compliance/content-search)。
 
 预览和下载项目：
 
@@ -420,7 +420,7 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 3. 选择一个项目进行查看。
 4. 选择“**下载原始文件**”，将该项目下载到本地计算机。 此外，还必须下载无法预览的项目。
 
-有关预览搜索结果的详细信息，请参阅[预览搜索结果](https://docs.microsoft.com/microsoft-365/compliance/content-search)。
+有关预览搜索结果的详细信息，请参阅[预览搜索结果](/microsoft-365/compliance/content-search)。
 
 #### <a name="export-and-download-items"></a>导出和下载项目
 
@@ -459,7 +459,7 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 
 导出过程完成后，可以在本地计算机上下载文件的位置访问这些文件。内容搜索结果下载到随内容搜索命名的文件夹。来自网站的文档复制到一个名为 **SharePoint** 的子文件夹。邮箱项目复制到名为 **Exchange** 的子文件夹。
 
-有关详细的分步说明，请参阅[从安全与合规中心导出内容搜索结果](https://docs.microsoft.com/microsoft-365/compliance/export-search-results)。
+有关详细的分步说明，请参阅[从安全与合规中心导出内容搜索结果](/microsoft-365/compliance/export-search-results)。
 
 ### <a name="downloading-documents-and-lists-from-sharepoint-online-and-onedrive-for-business"></a>从 SharePoint Online 和 OneDrive for Business 下载文档和列表
 
@@ -470,7 +470,7 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 
 对于某些 DSR 导出请求，你可能希望允许数据主体自行下载内容。 这使数据主体可以转到 SharePoint Online 网站或共享文件夹，然后选择“**同步**”以同步文档库或选定文件夹中的所有内容。 请参阅：
 
-- [使用户能够通过新的 OneDrive 同步客户端同步 SharePoint 文件](https://docs.microsoft.com/sharepoint/let-users-use-new-onedrive-sync-client)
+- [使用户能够通过新的 OneDrive 同步客户端同步 SharePoint 文件](/sharepoint/let-users-use-new-onedrive-sync-client)
 - [通过新的 OneDrive 同步客户端同步 SharePoint 文件](https://support.office.com/article/sync-sharepoint-files-with-the-new-onedrive-sync-client-6de9ede8-5b6e-4503-80b2-6190f3354a88)
 
 ## <a name="deleting-personal-data"></a>删除个人数据
@@ -509,7 +509,7 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 - [从 SharePoint 文档库删除文件、文件夹或链接](https://support.microsoft.com/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52)
 - [删除 SharePoint 网站回收站中的项目或将其清空](https://support.microsoft.com/office/delete-items-or-empty-the-recycle-bin-of-a-sharepoint-site-2e713599-d13e-40d6-96dc-66f0a366f74e)
 - [从网站集回收站中删除项目](https://support.microsoft.com/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653)
-- [获取对前员工用户数据的访问权限并备份该数据](https://docs.microsoft.com/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)中的“获取对前员工 OneDrive for Business 文档的访问权限”部分
+- [获取对前员工用户数据的访问权限并备份该数据](/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)中的“获取对前员工 OneDrive for Business 文档的访问权限”部分
 - [删除 OneDrive for Business 中的文件或文件夹](https://support.office.com/article/Delete-files-or-folders-in-OneDrive-21fe345a-e488-4fa7-932b-f053c1bebe8a)
 - [删除 SharePoint 中的列表](https://support.microsoft.com/office/delete-a-list-in-sharepoint-2a7bca5b-b8fd-4e5b-8f4b-2ac034f3070d)
 - [删除 SharePoint Online 中的列表项](https://support.office.com/article/delete-list-items-in-sharepoint-online-db722233-4a38-4889-a6cf-4b33fe5c60c0)
@@ -518,14 +518,14 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 
 你可能会确定响应 DSR 删除请求的最佳方法是删除整个 SharePoint 网站，从而删除位于该网站中的所有数据。可以通过在 SharePoint Online PowerShell 中运行 cmdlet 来执行此操作。
 
-- 使用 [Remove-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/remove-sposite) cmdlet 删除网站，并将其移动到 SharePoint Online 回收站（软删除）。
-- 使用 [Remove-SPODeletedSite](https://docs.microsoft.com/powershell/module/sharepoint-online/remove-spodeletedsite) cmdlet 永久删除网站（硬删除）。
+- 使用 [Remove-SPOSite](/powershell/module/sharepoint-online/remove-sposite) cmdlet 删除网站，并将其移动到 SharePoint Online 回收站（软删除）。
+- 使用 [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite) cmdlet 永久删除网站（硬删除）。
 
 无法删除实施了电子数据展示保留或分配到保留策略的网站。 必须先从电子数据展示保留或保留策略删除网站，然后才能删除网站。
 
 ### <a name="deleting-a-onedrive-for-business-site"></a>删除 OneDrive for Business 网站
 
-同样，你可能会确定删除用户的 OneDrive for Business 网站以响应 DSR 删除请求。如果删除了用户的 Office 365 帐户，其 OneDrive for Business 网站保留 30 天（可恢复）。30 天后，该网站移动到 SharePoint Online 回收站（软删除），然后在 93 天后永久删除（硬删除）。要加快此过程，可使用 [Remove-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/remove-sposite) cmdlet 将 OneDrive for Business 网站移动到回收站，然后使用 [Remove-SPODeletedSite](https://docs.microsoft.com/powershell/module/sharepoint-online/remove-spodeletedsite) cmdlet 将其永久删除。与 SharePoint Online 中的网站一样，如果用户的 OneDrive for Business 网站在删除用户帐户前分配到电子数据展示保留或保留策略，则无法将其删除。
+同样，你可能会确定删除用户的 OneDrive for Business 网站以响应 DSR 删除请求。如果删除了用户的 Office 365 帐户，其 OneDrive for Business 网站保留 30 天（可恢复）。30 天后，该网站移动到 SharePoint Online 回收站（软删除），然后在 93 天后永久删除（硬删除）。要加快此过程，可使用 [Remove-SPOSite](/powershell/module/sharepoint-online/remove-sposite) cmdlet 将 OneDrive for Business 网站移动到回收站，然后使用 [Remove-SPODeletedSite](/powershell/module/sharepoint-online/remove-spodeletedsite) cmdlet 将其永久删除。与 SharePoint Online 中的网站一样，如果用户的 OneDrive for Business 网站在删除用户帐户前分配到电子数据展示保留或保留策略，则无法将其删除。
 
 ### <a name="deleting-onedrive-for-business-and-sharepoint-online-experience-settings"></a>删除 OneDrive for Business 和 SharePoint Online 体验设置
 
@@ -535,11 +535,11 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 
 在 Azure Active Directory 中删除用户帐户 30 天后，将永久删除 SharePoint 用户个人资料。但也可通过硬删除用户帐户来删除 SharePoint 用户个人资料。有关详细信息，请参阅[本指南中的删除用户部分](#deleting-a-user)。
 
-管理员可以通过使用 SharePoint Online PowerShell 中的 **Remove-SPOUserProfile** cmdlet 来加速用户个人资料的删除过程。请参阅 [Remove-SPOUserProfile](https://docs.microsoft.com/powershell/module/sharepoint-online/remove-spouserprofile)。这要求用户至少在 Azure Active Directory 中被软删除。
+管理员可以通过使用 SharePoint Online PowerShell 中的 **Remove-SPOUserProfile** cmdlet 来加速用户个人资料的删除过程。请参阅 [Remove-SPOUserProfile](/powershell/module/sharepoint-online/remove-spouserprofile)。这要求用户至少在 Azure Active Directory 中被软删除。
 
 #### <a name="deleting-user-information-lists-on-sharepoint-online-sites"></a>删除 SharePoint Online 网站上的用户信息列表
 
-对于已离开组织的用户，此数据仍保留在他们与之进行交互的网站中，以实现 SharePoint 列字段的引用完整性。管理员可以通过使用 SharePoint Online PowerShell 中的 **Remove-SPOUserInfo** 命令删除给定站点上用户的所有用户信息属性。有关运行此 PowerShell cmdlet 的信息，请参阅 [Remove-SPOUserInfo](https://docs.microsoft.com/powershell/module/sharepoint-online/remove-spouserinfo)。
+对于已离开组织的用户，此数据仍保留在他们与之进行交互的网站中，以实现 SharePoint 列字段的引用完整性。管理员可以通过使用 SharePoint Online PowerShell 中的 **Remove-SPOUserInfo** 命令删除给定站点上用户的所有用户信息属性。有关运行此 PowerShell cmdlet 的信息，请参阅 [Remove-SPOUserInfo](/powershell/module/sharepoint-online/remove-spouserinfo)。
 
 默认情况下，此命令会保留用户的显示名称，并删除属性，如电话号码、电子邮件地址、技能和专业知识或者从 SharePoint Online 用户个人资料复制的其他属性。 管理员可以使用 **RedactUser** 参数来指定用户信息列表中用户的备用显示名称。 这会影响用户体验的多个部分，并在查看网站中的文件历史记录时，将导致信息丢失。
 
@@ -547,7 +547,7 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 
 #### <a name="deleting-onedrive-for-business-experience-settings"></a>删除 OneDrive for Business 体验设置
 
-删除所有 OneDrive for Business 体验设置和信息的建议方法是，向其他用户重新分配任何保留的文件后，删除相应用户的 OneDrive for Business 网站。管理员可以使用 [PowerShell 脚本](https://docs.microsoft.com/powershell/scripting/overview)和 [SharePoint 客户端对象模型 (CSOM)](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) 命令来删除这些列表。有关设置、存储方式和如何将其删除的详细信息，请参阅[删除 OneDrive for Business 体验设置](https://docs.microsoft.com/sharepoint/delete-odfb-lists)。
+删除所有 OneDrive for Business 体验设置和信息的建议方法是，向其他用户重新分配任何保留的文件后，删除相应用户的 OneDrive for Business 网站。管理员可以使用 [PowerShell 脚本](/powershell/scripting/overview)和 [SharePoint 客户端对象模型 (CSOM)](/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-client-library-code) 命令来删除这些列表。有关设置、存储方式和如何将其删除的详细信息，请参阅[删除 OneDrive for Business 体验设置](/sharepoint/delete-odfb-lists)。
 
 #### <a name="onedrive-for-business-and-sharepoint-online-search-queries"></a>OneDrive for Business 和 SharePoint Online 搜索查询
 
@@ -566,13 +566,13 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 1. 创建并运行内容搜索，查找要从用户邮箱中删除的项目。 可能需要重新运行搜索以缩小搜索结果的范围，以便搜索结果中只返回要删除的项目。
 2. 在 Office 365 PowerShell 中使用 **New-ComplianceSearchAction** **-Purge** **PurgeType** **SoftDelete** 或 **New-ComplianceSearchAction** **-Purge** **PurgeType** **HardDelete** 命令，删除由在上一步中创建的内容搜索返回的项目。
 
-有关详细说明，请参阅[在组织中搜索并删除电子邮件](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization)。
+有关详细说明，请参阅[在组织中搜索并删除电子邮件](/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization)。
 
 #### <a name="hard-delete-items-in-a-mailbox-on-hold"></a>硬删除处于保留状态的邮箱中的项目
 
 如前文所述，如果硬删除处于保留状态的邮箱中的项目，不会从邮箱中删除该项目。这些项目移动到“可恢复邮件”文件夹中的一个隐藏文件夹（**清除** 文件夹）并保留在其中，直到项目的保留持续时间到期或从邮箱删除了保留。如果发生上述任一事件，则这些项目在下一次处理邮箱时从 Office 365 中清除。
 
-组织可能确定在保留持续时间到期时永久删除项目，以满足 DSR 删除请求的要求。但是，如果你确定必须立即从 Office 365 中清除邮箱项目，则必须从邮箱删除保留，然后从邮箱硬删除项目。有关详细说明，请参阅[删除基于云且处于保留状态的邮箱中可恢复邮件文件夹中的项目](https://docs.microsoft.com/microsoft-365/compliance/delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold)。
+组织可能确定在保留持续时间到期时永久删除项目，以满足 DSR 删除请求的要求。但是，如果你确定必须立即从 Office 365 中清除邮箱项目，则必须从邮箱删除保留，然后从邮箱硬删除项目。有关详细说明，请参阅[删除基于云且处于保留状态的邮箱中可恢复邮件文件夹中的项目](/microsoft-365/compliance/delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold)。
 
 > [!NOTE]
 > 要按照上一主题中所述的过程硬删除邮箱项目以满足 DSR 删除请求，可能需要在邮箱仍处于保留状态时软删除这些项目，以便它们移动到“可恢复的项目”文件夹。
@@ -607,9 +607,9 @@ OneNote 课堂笔记本存储在课堂团队 SharePoint Online 网站中。课�
 
 1. 转到管理中心或 Azure 门户，并找到用户。
 
-2. 删除用户。最初删除用户时，用户帐户发送到回收站。此时，用户被软删除。该帐户保持软删除状态 30 天，在此期间可还原该帐户。30 天后，该帐户自动硬删除。有关具体说明，请参阅[从 Azure AD 删除用户](https://docs.microsoft.com/azure/active-directory/add-users-azure-active-directory)。<br><br> 还可在管理中心软删除用户帐户。 请参阅[从组织中删除用户](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)。
+2. 删除用户。最初删除用户时，用户帐户发送到回收站。此时，用户被软删除。该帐户保持软删除状态 30 天，在此期间可还原该帐户。30 天后，该帐户自动硬删除。有关具体说明，请参阅[从 Azure AD 删除用户](/azure/active-directory/add-users-azure-active-directory)。<br><br> 还可在管理中心软删除用户帐户。 请参阅[从组织中删除用户](/microsoft-365/admin/add-users/delete-a-user)。
 
-3. 如果不想等到 30 天后才硬删除用户帐户，可以手动进行硬删除。 要在 Azure 门户中执行此操作，请转到最近删除的用户列表并永久删除用户。 此时，用户被硬删除。 有关说明，请参阅[如何永久删除最近删除的用户](https://docs.microsoft.com/azure/active-directory/active-directory-users-restore)。
+3. 如果不想等到 30 天后才硬删除用户帐户，可以手动进行硬删除。 要在 Azure 门户中执行此操作，请转到最近删除的用户列表并永久删除用户。 此时，用户被硬删除。 有关说明，请参阅[如何永久删除最近删除的用户](/azure/active-directory/active-directory-users-restore)。
 
 无法在 Office 365 管理门户中硬删除用户。
 
@@ -815,7 +815,7 @@ Connections 所有者发送电子邮件营销活动后，他们不能删除活�
 
 有关详细信息，请参阅：
 
-- [作业管理员文档](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-admin-documentation)
+- [作业管理员文档](/microsoft-365/education/deploy/assignments-admin-documentation)
 - [使用内容搜索电子数据展示工具响应 DSR](#using-the-content-search-ediscovery-tool-to-respond-to-dsrs)（在本指南中）
 
 ##### <a name="finding-assignments-data-not-stored-in-sharepoint"></a>查找未存储在 SharePoint 中的作业数据
@@ -834,9 +834,9 @@ Connections 所有者发送电子邮件营销活动后，他们不能删除活�
 
 对于特定学生注册参加的所有课程，可使用 PowerShell 脚本获取该学生的课程列表，然后使用 PowerShell 脚本导出其作业数据。 请参阅：
 
-- [配置 Teams 的作业](https://docs.microsoft.com/microsoft-365/education/deploy/configure-assignments-for-teams)
-- [获取特定学生的课程列表](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-get)
-- [从作业中导出学生和教师数据](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-export)。
+- [配置 Teams 的作业](/microsoft-365/education/deploy/configure-assignments-for-teams)
+- [获取特定学生的课程列表](/microsoft-365/education/deploy/assignments-script-get)
+- [从作业中导出学生和教师数据](/microsoft-365/education/deploy/assignments-script-export)。
 
 如果已从团队课堂网站删除学生，管理员可以在运行导出脚本之前将学生添加回网站。或者管理员可以使用脚本的输入文件来标识学生以往选修的每个课程。作业导出脚本还可用于导出教师有权访问的所有作业的提交数据。
 
@@ -844,9 +844,9 @@ Connections 所有者发送电子邮件营销活动后，他们不能删除活�
 
 对于特定学生注册参加的所有课程，可使用 PowerShell 脚本获取该学生的课程列表，然后使用 PowerShell 脚本删除其作业数据。 应在从课程中删除学生之前执行此操作。 请参阅：
 
-- [配置 Teams 的作业](https://docs.microsoft.com/microsoft-365/education/deploy/configure-assignments-for-teams)
-- [获取特定学生的课程列表](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-get)
-- [从作业中删除学生数据](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-delete)。
+- [配置 Teams 的作业](/microsoft-365/education/deploy/configure-assignments-for-teams)
+- [获取特定学生的课程列表](/microsoft-365/education/deploy/assignments-script-get)
+- [从作业中删除学生数据](/microsoft-365/education/deploy/assignments-script-delete)。
 
 如果已从团队课堂网站删除学生，管理员可以在运行导出脚本之前将学生添加回网站。或者管理员可以使用脚本的输入文件来标识学生以往选修的每个课程。不能使用作业删除脚本删除教师数据，因为所有作业在课堂团队网站之间共享。作为替代方法，管理员必须将自己添加到课堂团队网站，然后删除特定作业。
 
@@ -870,11 +870,11 @@ Connections 所有者发送电子邮件营销活动后，他们不能删除活�
 
 - Flow/PowerApps 计划 2 许可证（付费或试用版）
 
-- [全局管理员\ ](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)
+- [全局管理员\ ](/microsoft-365/admin/add-users/assign-admin-roles)
 
     或
 
-- [Azure Active Directory 全局管理员](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
+- [Azure Active Directory 全局管理员](/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
 
 具有这些特权的管理员可使用 Flow 管理中心访问组织中的所有流。
 
@@ -916,9 +916,9 @@ Connections 所有者发送电子邮件营销活动后，他们不能删除活�
 
 #### <a name="connections-and-custom-connectors-in-flow"></a>Flow 中的连接和自定义连接器
 
-连接需要用户提供凭据才可连接到 API、SaaS 应用程序和自定义开发系统。 这些连接归建立该连接的用户所有，并且可在产品内[管理](https://docs.microsoft.com/flow/add-manage-connections)。 重新分配流后，管理员可使用 PowerShell cmdlet 列出这些连接，并在删除用户数据时删除这些连接。
+连接需要用户提供凭据才可连接到 API、SaaS 应用程序和自定义开发系统。 这些连接归建立该连接的用户所有，并且可在产品内[管理](/flow/add-manage-connections)。 重新分配流后，管理员可使用 PowerShell cmdlet 列出这些连接，并在删除用户数据时删除这些连接。
 
-使用自定义连接器，组织可通过连接到未提供现成连接器的系统来扩展流的功能。 自定义连接器作者可与组中的其他人[共享](https://docs.microsoft.com/flow/register-custom-api)其连接器。 收到 DSR 删除请求后，管理员应考虑重新分配这些连接器的所有权，以避免业务中断。 要加快此流程，管理员可使用 PowerShell cmdlet 来列出、重新分配或删除自定义连接器。
+使用自定义连接器，组织可通过连接到未提供现成连接器的系统来扩展流的功能。 自定义连接器作者可与组中的其他人[共享](/flow/register-custom-api)其连接器。 收到 DSR 删除请求后，管理员应考虑重新分配这些连接器的所有权，以避免业务中断。 要加快此流程，管理员可使用 PowerShell cmdlet 来列出、重新分配或删除自定义连接器。
 
 ### <a name="forms"></a>Forms
 
@@ -973,8 +973,8 @@ Kaizala 用户可以转到其移动设备，查看在设备上创建的 Kaizala 
 
 当组织中的用户使用 Kaizala ，将生成消费者数据，如果用户参与组织组，还可能生成组织数据。管理员可以从 Kaizala 管理门户导出用户的组织数据。Kaizala 消费者用户可以将其私有数据从 Kaizala 移动应用中导出。在这两种情况下，请注意，当管理员或用户导出 Kaizala 数据时，还将导出产品和服务使用情况数据。有关详细信息，请参阅：
 
-- [导出或删除 Kaizala 中的用户组织数据](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
-- [导出或删除 Kaizala 移动应用中的数据](https://docs.microsoft.com/office365/kaizala/export-or-delete-your-data)
+- [导出或删除 Kaizala 中的用户组织数据](/office365/kaizala/export-or-delete-a-user-s-data)
+- [导出或删除 Kaizala 移动应用中的数据](/office365/kaizala/export-or-delete-your-data)
 
 #### <a name="delete"></a>删除
 
@@ -984,8 +984,8 @@ Kaizala 管理员可以在 Kaizala 管理门户中删除 Kaizala 用户的帐户
 
 有关详细信息，请参阅：
 
-- [导出或删除 Kaizala 中的用户组织数据](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
-- [导出或删除 Kaizala 移动应用中的数据](https://docs.microsoft.com/office365/kaizala/export-or-delete-your-data)
+- [导出或删除 Kaizala 中的用户组织数据](/office365/kaizala/export-or-delete-a-user-s-data)
+- [导出或删除 Kaizala 移动应用中的数据](/office365/kaizala/export-or-delete-your-data)
 
 ### <a name="planner"></a>规划器
 
@@ -993,7 +993,7 @@ Kaizala 管理员可以在 Kaizala 管理门户中删除 Kaizala 用户的帐户
 
 #### <a name="discover"></a>发现
 
-Planner 计划与 Microsoft 365 组关联，而 Microsoft 365 组的文件存储在组的关联 SharePoint Online 网站中。 这意味可以使用内容搜索，通过搜索网站中的 Microsoft 365 组来查找 Planner 文件。 要执行此操作，需要有 Microsoft 365 组的 URL。 请参阅“Office 365 中的内容搜索”帮助主体中的[搜索 Microsoft Teams 和 Microsoft 365 组](https://docs.microsoft.com/microsoft-365/compliance/content-search)，了解有关获取 Microsoft 365 组相关信息的提示，了解如何在对应的 SharePoint Online 网站中搜索 Planner 文件。
+Planner 计划与 Microsoft 365 组关联，而 Microsoft 365 组的文件存储在组的关联 SharePoint Online 网站中。 这意味可以使用内容搜索，通过搜索网站中的 Microsoft 365 组来查找 Planner 文件。 要执行此操作，需要有 Microsoft 365 组的 URL。 请参阅“Office 365 中的内容搜索”帮助主体中的[搜索 Microsoft Teams 和 Microsoft 365 组](/microsoft-365/compliance/content-search)，了解有关获取 Microsoft 365 组相关信息的提示，了解如何在对应的 SharePoint Online 网站中搜索 Planner 文件。
 
 #### <a name="access"></a>Access
 
@@ -1012,26 +1012,26 @@ Planner 计划与 Microsoft 365 组关联，而 Microsoft 365 组的文件存储
 以下各节介绍如何在 Microsoft Power BI 中使用应用内功能查找、访问、导出和删除个人数据。
 
 #### <a name="discover"></a>发现
-可以在 Power BI 的不同工作区中搜索内容，包括仪表板、报表、工作簿和数据集。每种类型的工作区都包含一个搜索字段，可以使用它来搜索该工作区。请参阅[在 Power BI 服务中搜索、查找和排序内容](https://docs.microsoft.com/power-bi/service-navigation-search-filter-sort)。
+可以在 Power BI 的不同工作区中搜索内容，包括仪表板、报表、工作簿和数据集。每种类型的工作区都包含一个搜索字段，可以使用它来搜索该工作区。请参阅[在 Power BI 服务中搜索、查找和排序内容](/power-bi/service-navigation-search-filter-sort)。
 
 #### <a name="access"></a>Access
 
-可在 Power BI 中打印仪表板、报表以及报表中的视觉对象。 无法打印整个报表；一次只能打印一页。 为此，请转到报表，使用搜索字段查找特定数据，然后打印该页面。 请参阅[从 Power BI 服务打印](https://docs.microsoft.com/power-bi/service-print)。
+可在 Power BI 中打印仪表板、报表以及报表中的视觉对象。 无法打印整个报表；一次只能打印一页。 为此，请转到报表，使用搜索字段查找特定数据，然后打印该页面。 请参阅[从 Power BI 服务打印](/power-bi/service-print)。
 
 #### <a name="delete"></a>删除
 
-要删除仪表板、报表和工作簿，请参阅[删除 Power BI 服务中的几乎任何内容](https://docs.microsoft.com/power-bi/service-delete)。
+要删除仪表板、报表和工作簿，请参阅[删除 Power BI 服务中的几乎任何内容](/power-bi/service-delete)。
 
 删除仪表板、报表或工作簿不会删除基础数据集。由于 Power BI 依赖与基础源数据的实时连接来保持完整性和准确性，因此删除个人数据必须在基础源数据中进行。（例如，如果创建的 Power BI 报表连接到实时数据源 Dynamics 365 for Sales，则任何数据更正都必须针对 Dynamics 365 for Sales 中的数据进行。）
 
-删除数据之后，可以使用 Power BI 中的[计划的数据刷新](https://docs.microsoft.com/power-bi/refresh-scheduled-refresh)功能来更新存储在 Power BI 中的数据集，之后，已删除的数据不会再反映在任何之前利用了该数据的 Power BI 报表或仪表板中。 为帮助符合 GDPR 要求，应该制定相应的策略，确保按照适当的节奏刷新数据。
+删除数据之后，可以使用 Power BI 中的[计划的数据刷新](/power-bi/refresh-scheduled-refresh)功能来更新存储在 Power BI 中的数据集，之后，已删除的数据不会再反映在任何之前利用了该数据的 Power BI 报表或仪表板中。 为帮助符合 GDPR 要求，应该制定相应的策略，确保按照适当的节奏刷新数据。
 
 #### <a name="export"></a>导出
 
 为了推进数据移植请求，可导出 Power BI 中的仪表板和报表：
 
-- 可将仪表板和报表的基础数据导出到静态 Excel 文件。请参阅[从 Power BI 服务打印](https://docs.microsoft.com/power-bi/service-print)中的视频。然后，可使用 Excel 编辑要包括在移植请求中的个人数据，并将其另存为常用的计算机可读格式，如 .csv 或 .xml。
-- 如果 Power BI 服务中的报表最初是使用 Power BI Desktop 发布的，那么可在 Office 365 中将该报表导出（下载）到 .pbix 文件。然后，可将此文件导入 Power BI Desktop，并发布（导出）到另一组织的 Power BI 服务。请参阅[将 Power BI 服务中的报表导出到桌面](https://docs.microsoft.com/power-bi/service-export-to-pbix)。
+- 可将仪表板和报表的基础数据导出到静态 Excel 文件。请参阅[从 Power BI 服务打印](/power-bi/service-print)中的视频。然后，可使用 Excel 编辑要包括在移植请求中的个人数据，并将其另存为常用的计算机可读格式，如 .csv 或 .xml。
+- 如果 Power BI 服务中的报表最初是使用 Power BI Desktop 发布的，那么可在 Office 365 中将该报表导出（下载）到 .pbix 文件。然后，可将此文件导入 Power BI Desktop，并发布（导出）到另一组织的 Power BI 服务。请参阅[将 Power BI 服务中的报表导出到桌面](/power-bi/service-export-to-pbix)。
 
 ### <a name="powerapps"></a>PowerApps
 
@@ -1044,18 +1044,18 @@ PowerApps 是一项服务，可用于生成可在组织内共享和使用的应�
 为了帮助推进与 PowerApps 相关的 DSR 请求，可利用在 [PowerApps 管理中心](https://admin.powerapps.com/)和 [PowerApps 管理员 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804) 中公开的管理操作。 访问这些工具需要具有以下权限的帐户：
 
 - PowerApps 计划 2 付费证或 PowerApps 计划 2 试用版许可证。 可在[此处](https://web.powerapps.com/trial)注册 30 天的试用版许可证。
-- [全局管理员](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles)或
-- [Azure Active Directory 全局管理员](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
+- [全局管理员](/microsoft-365/admin/add-users/assign-admin-roles)或
+- [Azure Active Directory 全局管理员](/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
 
 有关查找个人数据的详细信息，请参阅[发现 PowerApps 个人数据](https://go.microsoft.com/fwlink/?linkid=871880)。
 
-PowerApps 服务还包括 Common Data Service For Apps，可让用户在 Common Data Service 数据库的标准和自定义实体中存储数据。 可从 [PowerApps 生成器门户](https://web.powerapps.com)查看存储在这些实体中的数据，并使用[高级查找](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)的产品内搜索功能搜索实体中的特定数据。 有关发现 Common Data Service 中的个人数据的详细信息，请参阅[发现 Common Data Service 个人数据](https://go.microsoft.com/fwlink/?linkid=871881)。
+PowerApps 服务还包括 Common Data Service For Apps，可让用户在 Common Data Service 数据库的标准和自定义实体中存储数据。 可从 [PowerApps 生成器门户](https://web.powerapps.com)查看存储在这些实体中的数据，并使用[高级查找](/dynamics365/customer-engagement/basics/save-advanced-find-search)的产品内搜索功能搜索实体中的特定数据。 有关发现 Common Data Service 中的个人数据的详细信息，请参阅[发现 Common Data Service 个人数据](https://go.microsoft.com/fwlink/?linkid=871881)。
 
 #### <a name="access"></a>Access
 
 管理员能够使用 [PowerApps 管理中心](https://admin.powerapps.com/)或 [PowerApps 管理员 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804) 为自己分配访问和运行应用以及关联资源（包括流、连接和自定义连接器）的特权。
 
-具有访问用户应用的权限后，可以使用 Web 浏览器打开该应用。打开应用后，可对数据进行屏幕截图。请参阅[在 Web 浏览器中使用 PowerApps](https://docs.microsoft.com/powerapps/run-app-browser)。
+具有访问用户应用的权限后，可以使用 Web 浏览器打开该应用。打开应用后，可对数据进行屏幕截图。请参阅[在 Web 浏览器中使用 PowerApps](/powerapps/run-app-browser)。
 
 #### <a name="delete"></a>删除
 
@@ -1069,13 +1069,13 @@ PowerApps 服务还包括 Common Data Service For Apps，可让用户在 Common 
 
 管理员能够使用 [PowerApps 管理中心](https://admin.powerapps.com/)和 [PowerApps 管理员 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804) 导出 PowerApps 服务中存储的用户个人数据。请参阅[导出 PowerApps 个人数据](https://go.microsoft.com/fwlink/?linkid=871883)。
 
-此外，还可以使用[高级查找](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)的产品内搜索功能搜索任何实体中的用户个人数据。有关导出 Common Data Service 中的个人数据的详细信息，请参阅[导出 Common Data Service 个人数据](https://go.microsoft.com/fwlink/?linkid=871889)。
+此外，还可以使用[高级查找](/dynamics365/customer-engagement/basics/save-advanced-find-search)的产品内搜索功能搜索任何实体中的用户个人数据。有关导出 Common Data Service 中的个人数据的详细信息，请参阅[导出 Common Data Service 个人数据](https://go.microsoft.com/fwlink/?linkid=871889)。
 
 #### <a name="connections-and-custom-connectors-in-powerapps"></a>PowerApps 中的连接和自定义连接器
 
-连接需要用户提供凭据才可连接到 API、SaaS 应用程序和自定义开发系统。 这些连接归建立该连接的用户所有，并且可在产品内[管理](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-data-connection)。 重新分配 PowerApps 后，管理员可使用 PowerShell cmdlet 列些连出这接，并在删除用户数据时删除这些连接。
+连接需要用户提供凭据才可连接到 API、SaaS 应用程序和自定义开发系统。 这些连接归建立该连接的用户所有，并且可在产品内[管理](/powerapps/maker/canvas-apps/add-data-connection)。 重新分配 PowerApps 后，管理员可使用 PowerShell cmdlet 列些连出这接，并在删除用户数据时删除这些连接。
 
-使用自定义连接器，组织可通过连接到未提供现成连接器的系统来扩展 PowerApps 的功能。 自定义连接器作者可与组中的其他人[共享](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-powerapps)其连接器。 收到 DSR 删除请求后，管理员应考虑重新分配这些连接器的所有权，以避免业务中断。 要加快此流程，管理员可使用 PowerShell cmdlet 来列出、重新分配或删除自定义连接器。
+使用自定义连接器，组织可通过连接到未提供现成连接器的系统来扩展 PowerApps 的功能。 自定义连接器作者可与组中的其他人[共享](/connectors/custom-connectors/use-custom-connector-powerapps)其连接器。 收到 DSR 删除请求后，管理员应考虑重新分配这些连接器的所有权，以避免业务中断。 要加快此流程，管理员可使用 PowerShell cmdlet 来列出、重新分配或删除自定义连接器。
 
 ### <a name="project-online"></a>Project Online
 
@@ -1128,7 +1128,7 @@ PowerApps 服务还包括 Common Data Service For Apps，可让用户在 Common 
 
 #### <a name="discover"></a>发现
 
-若要发现可能与数据主体请求相关的生成或上传到 Stream 的内容，Stream 管理员可以运行用户报表，以确定 Stream 用户可能上传、创建或由用户发布的视频、视频说明、组、频道或评论。 有关如何生成报表的说明，请参阅[管理 Microsoft Stream 中的用户数据](https://docs.microsoft.com/stream/managing-user-data)。 报表输出采用 HTML 格式，并且包含可用于导航到可能感兴趣的视频的超链接。 如果想要查看已设置自定义权限的视频而你不是视频原始用户的成员，可在管理员模式下查看，请参阅 [Microsoft Stream 中的管理员功能](https://docs.microsoft.com/stream/manage-content-permissions)。  
+若要发现可能与数据主体请求相关的生成或上传到 Stream 的内容，Stream 管理员可以运行用户报表，以确定 Stream 用户可能上传、创建或由用户发布的视频、视频说明、组、频道或评论。 有关如何生成报表的说明，请参阅[管理 Microsoft Stream 中的用户数据](/stream/managing-user-data)。 报表输出采用 HTML 格式，并且包含可用于导航到可能感兴趣的视频的超链接。 如果想要查看已设置自定义权限的视频而你不是视频原始用户的成员，可在管理员模式下查看，请参阅 [Microsoft Stream 中的管理员功能](/stream/manage-content-permissions)。  
 
 #### <a name="access"></a>Access
 
@@ -1140,7 +1140,7 @@ PowerApps 服务还包括 Common Data Service For Apps，可让用户在 Common 
 
 #### <a name="delete"></a>删除
 
-若要删除或编辑视频或任何其他 Stream 内容，Stream 管理员可以在管理员模式下选择视图来执行必要的功能。请参阅 [Microsoft Stream 中的管理员功能](https://docs.microsoft.com/stream/manage-content-permissions)。如果某个用户离开了组织并且希望删除其名称使其不再在他们上传的视频旁边出现，可以删除其名称或将其替换为另一个名称。请参阅[管理 Microsoft Stream 中已删除的用户](https://docs.microsoft.com/stream/managing-deleted-users)。
+若要删除或编辑视频或任何其他 Stream 内容，Stream 管理员可以在管理员模式下选择视图来执行必要的功能。请参阅 [Microsoft Stream 中的管理员功能](/stream/manage-content-permissions)。如果某个用户离开了组织并且希望删除其名称使其不再在他们上传的视频旁边出现，可以删除其名称或将其替换为另一个名称。请参阅[管理 Microsoft Stream 中已删除的用户](/stream/managing-deleted-users)。
 
 ### <a name="sway"></a>Sway
 
@@ -1179,7 +1179,7 @@ Whiteboard 文件（.wbx 文件）存储在用户的 OneDrive for Business 帐�
 
 若要访问和转移白板： 
 
-1. 自行访问用户的 OneDrive for Business 帐户。请参阅[获取对前用户数据的访问权限并备份该数据](https://docs.microsoft.com/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)中的“获取对前员工 OneDrive for Business 文档的访问权限”部分。
+1. 自行访问用户的 OneDrive for Business 帐户。请参阅[获取对前用户数据的访问权限并备份该数据](/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)中的“获取对前员工 OneDrive for Business 文档的访问权限”部分。
 2. 转到用户 OneDrive for Business 帐户中的“Whiteboard 应用数据”文件夹，并复制想要转移的白板的 .wbx 文件。
 3. 自行访问数据主体的 OneDrive for Business 帐户，然后转至“Whiteboard 应用数据”文件夹。
 4. 粘贴上一步中复制的 .wbx 文件。
@@ -1203,12 +1203,12 @@ Whiteboard 文件（.wbx 文件）存储在用户的 OneDrive for Business 帐�
 
 可以自行访问用户的 OneDrive for Business 帐户，然后删除白板。
 
-1. 自行访问数据主体的 OneDrive for Business 帐户。请参阅[获取对前用户数据的访问权限并备份该数据](https://docs.microsoft.com/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)中的“获取对前员工 OneDrive for Business 文档的访问权限”部分
+1. 自行访问数据主体的 OneDrive for Business 帐户。请参阅[获取对前用户数据的访问权限并备份该数据](/microsoft-365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data)中的“获取对前员工 OneDrive for Business 文档的访问权限”部分
 2. 请转到“Whiteboard 应用数据”文件夹，然后删除此文件夹的内容。
 
 #### <a name="whiteboard-for-pc-surface-hub-and-other-platforms"></a>适用于电脑、Surface Hub 和其他平台的 Whiteboard
 
-如果管理员收到对新 Whiteboard 应用中的数据的 DSR 请求，他们可以使用 Whiteboard PowerShell 将自己（或其他用户）添加为用户白板的所有者。这样可以使管理员执行访问、导出和删除白板等操作。使用 **Set-WhiteboardOwner** cmdlet 将自己或其他用户添加为白板所有者，或使用 **Invoke-TransferAllWhiteboards** cmdlet 将特定用户所有白板的所有权转移给一个新所有者。有关使用这些 cmdlet 和安装 Whiteboard PowerShell 模块的信息，请参阅“Microsoft Whiteboard cmdlet 参考”。在你或其他人获得某个白板的所有权后，请参阅 [Microsoft Whiteboard cmdlet 参考](https://docs.microsoft.com/powershell/module/whiteboard/)。
+如果管理员收到对新 Whiteboard 应用中的数据的 DSR 请求，他们可以使用 Whiteboard PowerShell 将自己（或其他用户）添加为用户白板的所有者。这样可以使管理员执行访问、导出和删除白板等操作。使用 **Set-WhiteboardOwner** cmdlet 将自己或其他用户添加为白板所有者，或使用 **Invoke-TransferAllWhiteboards** cmdlet 将特定用户所有白板的所有权转移给一个新所有者。有关使用这些 cmdlet 和安装 Whiteboard PowerShell 模块的信息，请参阅“Microsoft Whiteboard cmdlet 参考”。在你或其他人获得某个白板的所有权后，请参阅 [Microsoft Whiteboard cmdlet 参考](/powershell/module/whiteboard/)。
 
 在你或其他人获得某个白板的所有权后，请参阅 [Whiteboard 支持文章](https://go.microsoft.com/fwlink/?linkid=872780)，以获得有关访问、导出和删除白板的详细指导。
 
@@ -1218,11 +1218,11 @@ Whiteboard 文件（.wbx 文件）存储在用户的 OneDrive for Business 帐�
 
 #### <a name="discover"></a>发现
 
-从 Yammer 管理中心，Yammer 验证管理员（全局管理员或在 Yammer 中设置的验证管理员）可导出给定用户的相关数据。 导出的内容包括用户发布和修改的消息和文件，以及用户所创建主题和组的相关信息。 导出用户特定的数据时，管理员还可在收件箱中收到包含用户帐户活动数据的邮件，可将这些数据提供给用户（如果这样选择）。 有关详细说明，请参阅 [Yammer Enterprise：隐私](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)。
+从 Yammer 管理中心，Yammer 验证管理员（全局管理员或在 Yammer 中设置的验证管理员）可导出给定用户的相关数据。 导出的内容包括用户发布和修改的消息和文件，以及用户所创建主题和组的相关信息。 导出用户特定的数据时，管理员还可在收件箱中收到包含用户帐户活动数据的邮件，可将这些数据提供给用户（如果这样选择）。 有关详细说明，请参阅 [Yammer Enterprise：隐私](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)。
 
 用户特定的导出适用于单个网络，因此，如果用户位于外部 Yammer 网络中，管理员必须针对外部网络和主网络导出数据。
 
-要访问未包含在数据导出中的数据，可对用户的个人资料、设置、组成员身份、添加为书签的消息、关注的用户以及关注的主题进行屏幕截图。 用户或管理员可以收集此信息。 有关详细信息，请参阅 [Yammer Enterprise：隐私](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)。
+要访问未包含在数据导出中的数据，可对用户的个人资料、设置、组成员身份、添加为书签的消息、关注的用户以及关注的主题进行屏幕截图。 用户或管理员可以收集此信息。 有关详细信息，请参阅 [Yammer Enterprise：隐私](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)。
 
 #### <a name="access"></a>Access
 
@@ -1233,7 +1233,7 @@ Whiteboard 文件（.wbx 文件）存储在用户的 OneDrive for Business 帐�
 - 用户的个人资料：
     - 如果用户拥有 Yammer 标识，则该用户的个人资料由自己完全掌控。有关如何查看和修改个人资料的信息，请参阅[更改我的 Yammer 个人资料和设置](https://support.office.com/article/change-my-yammer-profile-and-settings-a3aeca0e-de34-4897-9b59-de6516542851)。
     
-    - 如果用户拥有 Office 365 标识，则会自动从 Office 365 中拉取 Yammer 用户个人资料，获取 Azure Active Directory (AAD) 中的个人资料信息。Yammer 用户可在 Yammer 中临时更改其个人资料，但在 AAD 中进行的更改会覆盖这些更改，因此，必须在 AAD 中查看和更改目录数据。请参阅[从 Office 365 管理 Yammer 用户的整个生命周期](https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle)和[在 Azure Active Directory 中添加或更改用户的个人资料信息](https://docs.microsoft.com/azure/active-directory/active-directory-users-profile-azure-portal)。
+    - 如果用户拥有 Office 365 标识，则会自动从 Office 365 中拉取 Yammer 用户个人资料，获取 Azure Active Directory (AAD) 中的个人资料信息。Yammer 用户可在 Yammer 中临时更改其个人资料，但在 AAD 中进行的更改会覆盖这些更改，因此，必须在 AAD 中查看和更改目录数据。请参阅[从 Office 365 管理 Yammer 用户的整个生命周期](/yammer/manage-yammer-users/manage-users-across-their-lifecycle)和[在 Azure Active Directory 中添加或更改用户的个人资料信息](/azure/active-directory/active-directory-users-profile-azure-portal)。
 
 -   用户的设置：
 
@@ -1244,7 +1244,7 @@ Whiteboard 文件（.wbx 文件）存储在用户的 OneDrive for Business 帐�
 
 #### <a name="export"></a>导出
 
-有关如何导出数据的说明，请参阅[在 Yammer Enterprise 中管理 GDPR 数据主体请求](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)。必须针对用户所属的每个 Yammer 网络运行每用户导出。
+有关如何导出数据的说明，请参阅[在 Yammer Enterprise 中管理 GDPR 数据主体请求](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)。必须针对用户所属的每个 Yammer 网络运行每用户导出。
 
 用户删除消息或文件时，Yammer 可设置数据保留设置（软删除或硬删除数据）。 如果设置为软删除，则用户删除的数据将包含在导出中。 如果 Yammer 数据保留设置设为硬删除，则 Yammer 中不再存储已删除的信息，因此该信息不会包含在导出中。
 
@@ -1257,7 +1257,7 @@ Yammer 允许经过验证的管理员在收到 DSR 后通过 Yammer 管理中心
 
 在使用“擦除用户”选项删除某个用户时，系统会向所有网络管理员和已验证管理员的 Yammer 收件箱发送通知。“擦除用户”选项会删除用户的 Yammer 个人资料，但不会删除他们的 Office 365 或 Azure Active Directory 个人资料。
 
-有关删除用户的详细步骤，请参阅[在 Yammer Enterprise 中管理 GDPR 数据主体请求](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)。
+有关删除用户的详细步骤，请参阅[在 Yammer Enterprise 中管理 GDPR 数据主体请求](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)。
 
 ## <a name="responding-to-dsr-rectification-requests"></a>响应 DSR 纠正请求
 
@@ -1280,7 +1280,7 @@ Yammer 允许经过验证的管理员在收到 DSR 后通过 Yammer 管理中心
 
 要分配针对 SharePoint Online 网站的管理员或所有者权限以便你或其他人可以访问和编辑该文档，请参阅
 
-- [管理网站集的管理员](https://docs.microsoft.com/sharepoint/manage-site-collection-administrators)
+- [管理网站集的管理员](/sharepoint/manage-site-collection-administrators)
 
 - [编辑和管理 SharePoint 列表和库的权限](https://support.office.com/article/Edit-and-manage-permissions-for-a-SharePoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)
 
@@ -1298,7 +1298,7 @@ Yammer 允许经过验证的管理员在收到 DSR 后通过 Yammer 管理中心
 
 全局管理员可为自己分配必要的权限，以便打开和编辑（或删除）其他用户邮箱中的项目，就好像他们是邮箱所有者一样。全局管理员还可为另一用户分配这些权限。具体而言，全局管理员需要添加“**读取和管理**”权限，这是 Exchange Online 中的完全访问权限。有关详细信息，请参阅：
 
-- [向 Office 365 中的其他用户授予邮箱权限](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
+- [向 Office 365 中的其他用户授予邮箱权限](/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
 - [访问其他人的邮箱](https://support.office.com/article/Access-another-person-s-mailbox-A909AD30-E413-40B5-A487-0EA70B763081)
 
 如果对用户邮箱实施了法定保留，或用户邮箱已分配到保留策略，则所有版本的邮箱都会保留，直到保留期限到期或从邮箱删除了保留。 这意味着如果更改了邮箱项目以响应 DSR 纠正请求，会在用户邮箱“可恢复邮件”文件夹中的一个隐藏文件夹中保留一份原始项目（进行更改前的项目）副本。
@@ -1332,7 +1332,7 @@ SharePoint 用户个人资料或 Office 365 中的用户信息通常与 OneDrive
 
 Power BI 依赖在其仪表板和报表中使用的基础源数据来保持完整性和准确性，因此必须在基础源数据中更正不正确或不完整的数据源。例如，如果创建的 Power BI 报表连接到实时数据源 Dynamics 365 for Sales，则任何数据更正都必须针对 Dynamics 365 for Sales 中的数据进行。
 
-进行更改后，可以利用[计划的数据刷新](https://docs.microsoft.com/power-bi/refresh-scheduled-refresh)功能来更新存储在 Power BI 中的数据集，以便在相关 Power BI 资产中反映修订后的数据。为帮助符合 GDPR 要求，应该制定相应的策略，确保按照适当的节奏刷新数据。
+进行更改后，可以利用[计划的数据刷新](/power-bi/refresh-scheduled-refresh)功能来更新存储在 Power BI 中的数据集，以便在相关 Power BI 资产中反映修订后的数据。为帮助符合 GDPR 要求，应该制定相应的策略，确保按照适当的节奏刷新数据。
 
 ### <a name="making-changes-to-content-in-yammer"></a>更改 Yammer 中的内容
 
@@ -1345,7 +1345,7 @@ Power BI 依赖在其仪表板和报表中使用的基础源数据来保持完�
 - 用户的个人资料：
 
     - 如果用户拥有 Yammer 标识，则该用户的个人资料由自己完全掌控。有关如何查看和修改个人资料的信息，请参阅[更改我的 Yammer 个人资料和设置](https://support.office.com/article/change-my-yammer-profile-and-settings-a3aeca0e-de34-4897-9b59-de6516542851)。
-    - 如果用户拥有 Office 365 标识，则会自动从 Office 365 中拉取 Yammer 用户个人资料，获取 Azure Active Directory (AAD) 中的个人资料信息。 Yammer 用户可在 Yammer 中临时更改其个人资料，但在 AAD 中进行的更改会覆盖这些更改，因此，最好在 AAD 中查看和更改目录数据。 用户需要请求更新 AAD。 请参阅[从 Office 365 管理 Yammer 用户的整个生命周期](https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle)和[在 Azure Active Directory 中添加或更改用户的个人资料信息](https://docs.microsoft.com/azure/active-directory/active-directory-users-profile-azure-portal)。
+    - 如果用户拥有 Office 365 标识，则会自动从 Office 365 中拉取 Yammer 用户个人资料，获取 Azure Active Directory (AAD) 中的个人资料信息。 Yammer 用户可在 Yammer 中临时更改其个人资料，但在 AAD 中进行的更改会覆盖这些更改，因此，最好在 AAD 中查看和更改目录数据。 用户需要请求更新 AAD。 请参阅[从 Office 365 管理 Yammer 用户的整个生命周期](/yammer/manage-yammer-users/manage-users-across-their-lifecycle)和[在 Azure Active Directory 中添加或更改用户的个人资料信息](/azure/active-directory/active-directory-users-profile-azure-portal)。
 
 - 用户的设置：
 
@@ -1367,23 +1367,23 @@ Power BI 依赖在其仪表板和报表中使用的基础源数据来保持完�
 
 ### <a name="removing-the-license-for-an-office-365-application"></a>删除 Office 365 应用程序的许可证
 
-如上文所述，默认情况下，组织的 Microsoft 365 商业版订阅中包含的所有 Office 365 应用程序的许可证都分配给所有用户。 如果需要限制对作为 DSR 主体的数据的访问，IT 管理员可以使用 Office 365 管理门户暂时关闭应用程序的用户许可证。 如果用户之后尝试使用该应用程序，他们将收到未经授权的产品通知或一条显示他们不再有权访问的消息。 有关详细信息，请参阅[在 Office 365 商业版中删除用户许可证](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)。
+如上文所述，默认情况下，组织的 Microsoft 365 商业版订阅中包含的所有 Office 365 应用程序的许可证都分配给所有用户。 如果需要限制对作为 DSR 主体的数据的访问，IT 管理员可以使用 Office 365 管理门户暂时关闭应用程序的用户许可证。 如果用户之后尝试使用该应用程序，他们将收到未经授权的产品通知或一条显示他们不再有权访问的消息。 有关详细信息，请参阅[在 Office 365 商业版中删除用户许可证](/microsoft-365/admin/add-users/delete-a-user)。
 
 **注意：**
 
-- 要限制用户访问 Yammer，必须先[强制 Yammer 用户使用 Office 365 标识](https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity)，然后删除用户的 Yammer 许可证。
+- 要限制用户访问 Yammer，必须先[强制 Yammer 用户使用 Office 365 标识](/yammer/configure-your-yammer-network/enforce-office-365-identity)，然后删除用户的 Yammer 许可证。
 
 - 对于利用 Power BI Embedded 的方案，可以限制访问嵌入了内容的独立软件供应商 (ISV) 应用程序。
 
 ### <a name="preventing-users-from-accessing-their-onedrive-for-business-account"></a>阻止用户访问其 OneDrive for Business 帐户
 
-删除用户的 SharePoint Online 许可证不会阻止用户访问其 OneDrive for Business 帐户（如果该帐户已存在）。 必须删除用户针对其 OneDrive for Business 帐户的权限才可实现该目的。 为此，可以删除用户的 OneDrive for Business 帐户网站集所有者身份。 具体而言，必须在用户个人资料中将用户从网站集主管理员和网站集管理员组中删除。 请参阅的[在 SharePoint 管理中心管理用户个人资料](https://docs.microsoft.com/sharepoint/manage-user-profiles)的“添加和删除 OneDrive for Business 帐户的管理员”部分。
+删除用户的 SharePoint Online 许可证不会阻止用户访问其 OneDrive for Business 帐户（如果该帐户已存在）。 必须删除用户针对其 OneDrive for Business 帐户的权限才可实现该目的。 为此，可以删除用户的 OneDrive for Business 帐户网站集所有者身份。 具体而言，必须在用户个人资料中将用户从网站集主管理员和网站集管理员组中删除。 请参阅的[在 SharePoint 管理中心管理用户个人资料](/sharepoint/manage-user-profiles)的“添加和删除 OneDrive for Business 帐户的管理员”部分。
 
 ### <a name="turning-off-an-office-365-service"></a>关闭 Office 365 服务
 
 也可通过关闭 Office 365 服务来应对限制数据处理的 DSR 请求。 这将影响整个组织中的所有用户，并阻止每位用户使用服务或访问服务中的数据。
 
-关闭服务的最佳方法是使用 Office 365 PowerShell 并删除组织中所有用户对应的用户许可证。这实际上将限制任何人访问该服务中的数据。有关详细说明，请参阅[使用 Office 365 PowerShell 禁止访问服务](https://docs.microsoft.com/microsoft-365/enterprise/disable-access-to-services-with-microsoft-365-powershell)，并按照相关过程对用户禁用单个许可计划中的 Office 365 服务。
+关闭服务的最佳方法是使用 Office 365 PowerShell 并删除组织中所有用户对应的用户许可证。这实际上将限制任何人访问该服务中的数据。有关详细说明，请参阅[使用 Office 365 PowerShell 禁止访问服务](/microsoft-365/enterprise/disable-access-to-services-with-microsoft-365-powershell)，并按照相关过程对用户禁用单个许可计划中的 Office 365 服务。
 
 > [!NOTE]
 > 对于 Yammer，除了从用户帐户删除 Yammer 许可证外，还必须禁止用户使用 Yammer 凭据登录 Yammer（强制用户在登录时使用 Office 365 凭据）。有关详细说明，请参阅[关闭 Microsoft 365 用户的 Yammer 访问权限](https://support.office.com/article/Turn-off-Yammer-access-for-Office-365-users-1f79bfad-f713-4143-aa5d-5584985ce53a)。
@@ -1411,11 +1411,11 @@ Power BI 依赖在其仪表板和报表中使用的基础源数据来保持完�
 
 ### <a name="temporarily-restricting-access-to-sharepoint-online-sites"></a>暂时限制对 SharePoint Online 网站的访问
 
-SharePoint Online 管理员可通过锁定网站集（通过在 SharePoint Online PowerShell 中使用 **Set-SPOSite -LockState** 命令）暂时阻止所有用户访问 SharePoint Online 网站集。 这可阻止用户访问网站集或网站中包含的任何内容或数据。 如果稍后确定用户可访问网站，管理员可解锁网站。 请参阅 [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite)，了解有关运行此 PowerShell cmdlet 的信息。
+SharePoint Online 管理员可通过锁定网站集（通过在 SharePoint Online PowerShell 中使用 **Set-SPOSite -LockState** 命令）暂时阻止所有用户访问 SharePoint Online 网站集。 这可阻止用户访问网站集或网站中包含的任何内容或数据。 如果稍后确定用户可访问网站，管理员可解锁网站。 请参阅 [Set-SPOSite](/powershell/module/sharepoint-online/set-sposite)，了解有关运行此 PowerShell cmdlet 的信息。
 
 ### <a name="preventing-a-user-from-signing-in-to-office-365"></a>阻止用户登录 Office 365
 
-IT 管理员还可阻止用户登录 Office 365，从而阻止用户访问任何 Office 365 联机服务或处理存储在 Office 365 中的任何数据。请参阅[阻止以前的员工访问 Office 365 数据](https://docs.microsoft.com/microsoft-365/admin/add-users/remove-former-employee)。
+IT 管理员还可阻止用户登录 Office 365，从而阻止用户访问任何 Office 365 联机服务或处理存储在 Office 365 中的任何数据。请参阅[阻止以前的员工访问 Office 365 数据](/microsoft-365/admin/add-users/remove-former-employee)。
 
 ## <a name="part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365"></a>第 2 部分：响应与 Office 365 生成的见解相关的 DSR
 
@@ -1463,7 +1463,7 @@ Microsoft Office 365 服务套件包括多种联机服务，可为选择使用�
 
 #### <a name="restrict"></a>限制
 
-要针对组织限制在 Delve 中进行处理，可关闭 Office Graph。在[此处](https://docs.microsoft.com/sharepoint/delve-for-office-365-admins)了解详细信息。
+要针对组织限制在 Delve 中进行处理，可关闭 Office Graph。在[此处](/sharepoint/delve-for-office-365-admins)了解详细信息。
 
 #### <a name="delete"></a>删除
 
@@ -1474,7 +1474,7 @@ Microsoft Office 365 服务套件包括多种联机服务，可为选择使用�
 
 ### <a name="myanalytics"></a>MyAnalytics
 
-MyAnalytics 为用户提供统计信息，帮助他们了解如何安排工作时间。 要帮助用户更好地了解通过其个人仪表板呈现的数据以及数据的计算方式，请指导用户转到 [MyAnalytics 个人仪表板](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)。
+MyAnalytics 为用户提供统计信息，帮助他们了解如何安排工作时间。 要帮助用户更好地了解通过其个人仪表板呈现的数据以及数据的计算方式，请指导用户转到 [MyAnalytics 个人仪表板](/workplace-analytics/myanalytics/use/dashboard-2)。
 
 #### <a name="access-and-export"></a>访问和导出
 
@@ -1486,7 +1486,7 @@ MyAnalytics 生成的所有见解都派生自用户的邮件和日历项目。�
 
 #### <a name="restrict"></a>限制
 
-要针对特定用户限制处理，可让这些用户选择退出 MyAnalytics。请参阅[配置 MyAnalytics 用户设置](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics)了解相关方法。
+要针对特定用户限制处理，可让这些用户选择退出 MyAnalytics。请参阅[配置 MyAnalytics 用户设置](/workplace-analytics/myanalytics/setup/configure-myanalytics)了解相关方法。
 
 #### <a name="delete"></a>删除
 
@@ -1494,11 +1494,11 @@ MyAnalytics 生成的所有见解都派生自用户的邮件和日历项目。�
 
 ### <a name="workplace-analytics"></a>工作区分析
 
-使用 Workplace Analytics，组织可使用自己的业务数据扩充 Office 365 数据，以获取有关组织生产效率、协作模式和员工参与的见解。[本文](https://docs.microsoft.com/workplace-analytics/index-orig)介绍了组织对 Workplace Analytics 所处理数据的掌控以及有权访问该数据的人员。
+使用 Workplace Analytics，组织可使用自己的业务数据扩充 Office 365 数据，以获取有关组织生产效率、协作模式和员工参与的见解。[本文](/workplace-analytics/index-orig)介绍了组织对 Workplace Analytics 所处理数据的掌控以及有权访问该数据的人员。
 
 在工作区分析中提供 DSR 方面的协助： 
 
-1. 确定你的组织是否使用工作区分析。有关详细信息，请参阅[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。如果组织没有使用工作区分析，则没有进一步操作。
+1. 确定你的组织是否使用工作区分析。有关详细信息，请参阅[向用户分配许可证](/microsoft-365/admin/manage/assign-licenses-to-users)。如果组织没有使用工作区分析，则没有进一步操作。
 
 2. 如果组织在使用 Workplace Analytics，则查看组织中具有 Workplace Analytics 管理员角色的人员。 此外，还应确定数据主体的邮箱是否已获得 Workplace Analytics 许可。 如有必要，请求 Workplace Analytics 管理员联系 Microsoft 支持部门处理以下 DSR 请求： 
 
@@ -1521,9 +1521,9 @@ MyAnalytics 生成的所有见解都派生自用户的邮件和日历项目。�
 全局管理员可以采取以下步骤来删除数据主体的个人数据： 
 
 1. 删除数据主体的工作区分析许可证。
-2. 删除数据主体的 Azure Active Directory (AAD) 项。（有关详细信息，请参阅[删除用户](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory#delete-a-user)。）
+2. 删除数据主体的 Azure Active Directory (AAD) 项。（有关详细信息，请参阅[删除用户](/azure/active-directory/fundamentals/add-users-azure-active-directory#delete-a-user)。）
 3. 联系支持人员，让支持人员提交数据主体权限 (DSR) 用户删除请求的票证。在此票证中使用用户主体名称 (UPN) 标识数据主体。
-4. 从公司的 HR 系统导出 HR 数据副本（请参阅[导出数据](https://docs.microsoft.com/workplace-analytics/setup/prepare-organizational-data)），从该 HR 数据文件删除数据主体的信息，然后将编辑后的 HR 数据文件以 .csv 格式上传到工作区分析（请参阅[上传组织数据](https://docs.microsoft.com/workplace-analytics/setup/upload-organizational-data)）。
+4. 从公司的 HR 系统导出 HR 数据副本（请参阅[导出数据](/workplace-analytics/setup/prepare-organizational-data)），从该 HR 数据文件删除数据主体的信息，然后将编辑后的 HR 数据文件以 .csv 格式上传到工作区分析（请参阅[上传组织数据](/workplace-analytics/setup/upload-organizational-data)）。
 
 ## <a name="part-3-responding-to-dsrs-for-system-generated-logs"></a>第 3 部分：响应对系统生成日志的 DSR
 
@@ -1563,7 +1563,7 @@ Microsoft 还为你提供了访问、导出和删除根据 GDPR 中“个人数�
 如果在从 Azure 门户导出或删除数据时遇到问题，请转到 Azure 门户“**帮助 + 支持**”边栏选项卡，并在“**订阅管理**” > “**其他安全与合规请求**” > “**隐私边栏选项卡和 GDPR 请求**”下提交新票证。
 
 > [!NOTE]
-> 从 Azure 门户导出数据时，将不会导出某些应用程序的系统生成的数据。 若要导出这些应用程序的数据，请参阅[导出系统生成的日志数据所需的其他步骤](https://docs.microsoft.com/microsoft-365/compliance/gdpr-system-generated-log-data)。
+> 从 Azure 门户导出数据时，将不会导出某些应用程序的系统生成的数据。 若要导出这些应用程序的数据，请参阅[导出系统生成的日志数据所需的其他步骤](/microsoft-365/compliance/gdpr-system-generated-log-data)。
 
 下面概述了如何访问和导出系统生成日志：
 
@@ -1596,8 +1596,8 @@ Microsoft 还为你提供了访问、导出和删除根据 GDPR 中“个人数�
 
 删除用户帐户将删除 Yammer 和 Kaizala 的系统生成日志。若要从这些应用程序中删除数据，请参阅以下文章之一：
 
-- Yammer - [在 Yammer Enterprise 中管理 GDPR 数据主体请求](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
-- Kaizala - [导出或删除 Kaizala 中的用户组织数据](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
+- Yammer - [在 Yammer Enterprise 中管理 GDPR 数据主体请求](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
+- Kaizala - [导出或删除 Kaizala 中的用户组织数据](/office365/kaizala/export-or-delete-a-user-s-data)
 
 #### <a name="national-clouds"></a>国家云
 
@@ -1615,13 +1615,13 @@ Microsoft 还为你提供了访问、导出和删除根据 GDPR 中“个人数�
 
 ### <a name="microsoft-support"></a>Microsoft 支持
 
-“支持数据”是指你和你的用户与 Microsoft 合作，接受与 Office 365 或其他 Microsoft 产品和服务相关的产品支持（例如，意外产品行为疑难解答）时向 Microsoft 提供的数据。其中部分数据可能包含个人数据。有关详细信息，请参阅[符合 GDPR 的 Microsoft 支持部门和专业服务数据主体请求](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-prof-services)。
+“支持数据”是指你和你的用户与 Microsoft 合作，接受与 Office 365 或其他 Microsoft 产品和服务相关的产品支持（例如，意外产品行为疑难解答）时向 Microsoft 提供的数据。其中部分数据可能包含个人数据。有关详细信息，请参阅[符合 GDPR 的 Microsoft 支持部门和专业服务数据主体请求](/microsoft-365/compliance/gdpr-dsr-prof-services)。
 
 ### <a name="product-and-services-authenticated-with-an-org-id-for-which-microsoft-is-a-data-controller"></a>通过组织 ID 进行身份验证且由 Microsoft 作为数据控制者的产品和服务
 
 本指南的第 1 部分至第 3 部分介绍了由 Microsoft 充当组织的数据处理者，因而租户管理员可使用 DSR 功能的产品和服务。 在许多情况下，组织中的用户可能会使用其工作或学校帐户（也称为“Azure Active Directory ID”或“AAD”）登录由 Microsoft 充当数据控制者的 Microsoft 产品和服务。 对于所有此类产品和服务，用户需要直接向 Microsoft 发出自己的数据主体请求，而 Microsoft 将直接针对该用户满足请求。 涉及存储用户创作内容的产品和服务经过精心设计，使用户能够使用产品的固有功能访问、导出、纠正和删除其用户创作内容。 相关情景包括：
 
-- **可选的已连接联机服务：** Microsoft 365 企业应用版为用户提供了一些可选的已连接联机服务。 [此处](https://support.office.com/article/microsoft-s-other-connected-services-92c234f1-dc91-4dc1-925d-6c90fc3816d8)列出了服务和相关用户控件。 是否允许最终用户使用这些服务取决于你自己。 有关详细信息，请参阅[管理员如何管理 Microsoft 365 企业应用版中的控制者服务](https://docs.microsoft.com/DeployOffice/manage-controller-services-office-365-proplus)。 如果这些可选服务处理个人数据，Microsoft 是这些服务的数据控制者。
+- **可选的已连接联机服务：** Microsoft 365 企业应用版为用户提供了一些可选的已连接联机服务。 [此处](https://support.office.com/article/microsoft-s-other-connected-services-92c234f1-dc91-4dc1-925d-6c90fc3816d8)列出了服务和相关用户控件。 是否允许最终用户使用这些服务取决于你自己。 有关详细信息，请参阅[管理员如何管理 Microsoft 365 企业应用版中的控制者服务](/DeployOffice/manage-controller-services-office-365-proplus)。 如果这些可选服务处理个人数据，Microsoft 是这些服务的数据控制者。
 - **用户反馈：** 如果用户选择提供有关 Microsoft 产品和服务的反馈，且此类反馈包含个人数据，则由 Microsoft 作为该反馈的数据控制者。 Microsoft 针对 Microsoft 收集的反馈（包括由 Microsoft 子处理商管理的反馈）实现任何数据主体请求，Microsoft 已指示用户不要在反馈收集过程中包括个人数据时例外。 例外：如果 Microsoft 已指示用户不要在反馈收集过程中包括个人数据，Microsoft 将依赖该指示并假定未提供任何个人数据。 已创建第三方反馈服务提供程序独立帐户的用户需要直接通过这些服务程序实现其 DSR。
 - **经过工作或学校帐户身份验证的 Windows：** 如果组织已购买 Windows 许可证，而组织中的用户已使用其工作或学校帐户针对组织提供的 Windows 进行了身份验证，则由 Microsoft 作为数据控制者。
 - **用户获取的产品或服务：** 如果你允许以个人身份行事的用户获取使用 AAD 进行身份验证的 Microsoft 产品或服务（例如，Microsoft Store 中提供的 Office 加载项或应用程序），Microsoft 可能是数据控制者。 对于任何此类 Microsoft 产品或服务，用户必须直接联系 Microsoft，才能发出 DSR。
@@ -1668,10 +1668,10 @@ Microsoft 还为你提供了访问、导出和删除根据 GDPR 中“个人数�
 
 - 在 DSR 调查过程完成时删除案件集。 这会删除所有内容搜索，并导出与案件集关联的作业。
 
-若要开始使用 DSR 案件集，请参阅[在安全与合规中心内使用 DSR 案件集工具管理 GDPR 数据主体请求](https://docs.microsoft.com/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool)。
+若要开始使用 DSR 案件集，请参阅[在安全与合规中心内使用 DSR 案件集工具管理 GDPR 数据主体请求](/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool)。
 
 > [!IMPORTANT]
-> 电子数据展示管理员可查看和管理组织中的所有 DSR 案例。若要详细了解与电子数据展示相关的不同角色，请参阅[向潜在案例成员分配电子数据展示权限](https://docs.microsoft.com/Office365/SecurityCompliance/assign-ediscovery-permissions)。
+> 电子数据展示管理员可查看和管理组织中的所有 DSR 案例。若要详细了解与电子数据展示相关的不同角色，请参阅[向潜在案例成员分配电子数据展示权限](/Office365/SecurityCompliance/assign-ediscovery-permissions)。
 
 ### <a name="set-up-compliance-boundaries-to-limit-the-scope-of-content-searches"></a>设置合规性边界，以限制内容搜索范围
 
@@ -1694,7 +1694,7 @@ Microsoft 还为你提供了访问、导出和删除根据 GDPR 中“个人数�
 
 5. 为每个合规性边界创建搜索权限筛选器，以便对应管理员角色组中的成员可仅搜索机构/合规性边界内的用户的邮箱和网站。 使用搜索权限筛选器，对应角色组的成员可仅搜索对应于机构/合规性边界的具有用户对象属性值的内容位置。
 
-有关分步说明，请参阅[在 Office 365 中为电子数据展示调查设置合规性边界](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries)。
+有关分步说明，请参阅[在 Office 365 中为电子数据展示调查设置合规性边界](/microsoft-365/compliance/set-up-compliance-boundaries)。
 
 ### <a name="use-the-audit-log-search-tool-in-dsr-investigations"></a>在 DSR 调查中使用审核日志搜索工具
 
@@ -1705,7 +1705,7 @@ IT 管理员可使用安全与合规中心的审核日志搜索工具识别用�
 - 移动文件
 - 上传或下载文件
 
-可以针对特定活动、活动类型、特定用户执行的活动和其他搜索条件搜索审核日志。 除了 SharePoint Online 和 OneDrive for Business 活动外，还可搜索 Flow、Power BI 和 Microsoft Teams 中的活动。 审核记录可保留 90 天。 因此，无法立即搜索超过 90 天前发生的用户活动。 有关审核活动的完整列表以及搜索审核日志的方法，请参阅[在安全与合规中心搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+可以针对特定活动、活动类型、特定用户执行的活动和其他搜索条件搜索审核日志。 除了 SharePoint Online 和 OneDrive for Business 活动外，还可搜索 Flow、Power BI 和 Microsoft Teams 中的活动。 审核记录可保留 90 天。 因此，无法立即搜索超过 90 天前发生的用户活动。 有关审核活动的完整列表以及搜索审核日志的方法，请参阅[在安全与合规中心搜索审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 > [!TIP]
 > 要避开上文讨论的 90 天的限制，并保留组织审核记录的运行历史记录，可以定期（例如每 30 天）导出所有活动，从而获得组织审核记录的连续记录。
