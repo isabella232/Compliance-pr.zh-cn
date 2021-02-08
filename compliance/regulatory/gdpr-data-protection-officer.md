@@ -34,11 +34,11 @@ DPO 角色要求候选人至少具有七年的专业数据保护经验，或 10 
 
 ## <a name="nature-of-the-role"></a>角色性质
 
-DPO 以适当而及时的方式参与个人数据保护相关的所有关键问题。此举在一定程度上是由 DPO 在对由 Microsoft 生成的所有数据保护影响评估 (DPIA) 进行审阅和建议时所充当的角色来实现的。DPIA 计划旨在捕获 Microsoft 处理的所有个人数据，因此，DPO 在公司全局层面深入洞察，并有机会就 Microsoft 在个人数据处理方面对 GDPR 履行的义务知会 Microsoft 并提出建议。同一机制还允许 DPO 监视 Microsoft 对适用的数据保护法规（其中包括 GDPR 以及 Microsoft 内部策略和控制）的遵循情况。 
+DPO 可以适当并及时地参与个人数据保护相关的所有关键问题。该行为的实施，部分是由于 DPO 在审阅和建议 Microsoft 生成的所有数据保护影响评估 (DPIA) 时所充当的角色。DPIA 计划旨在捕获 Microsoft 处理的所有个人数据，因此，DPO 获得了跨公司全局的洞察力，并有机会根据 Microsoft 处理个人数据过程对 Microsoft 履行 GDPR 义务给予通知和提出建议。同一机制还允许 DPO 监视 Microsoft 对适用的数据保护法规（包括 GDPR 以及 Microsoft 内部策略和控制）的遵循情况。 
 
 ## <a name="position-of-the-data-protection-officer"></a>数据保护官员的职责
 
-欧盟 DPO 直接向 Microsoft 首席隐私官（Microsoft 企业和法律事务部的高级主管）汇报。DPO 角色具有以独立、无偏见的方式行使职能的自主性。在首席隐私官的组织中，DPO 有权视需要访问培训和客户响应资源以行使 DPO 职能。DPO 使用保密协议对其任务进行保密。  
+欧盟 DPO 直接向 Microsoft 首席隐私官（Microsoft 企业和法律事务部的高级主管）报告。DPO 角色具有自主权，可以独立、无偏见的方式行使职能。在首席隐私官的组织中，DPO 可根据需要访问培训和客户响应资源以行使 DPO 职能。DPO 通过使用保密协议对其任务保密。  
 
 ## <a name="contact"></a>Contact
 
