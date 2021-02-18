@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 44df81658719397271020f38088d3287e67774a1
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 16135ae18d0b0a2a91a61652fed3d1b34d5db124
+ms.sourcegitcommit: 38741d8dc272bc2199d9f27db0335973e6be9735
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121431"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290925"
 ---
 # <a name="general-data-protection-regulation-summary"></a>一般数据保护条例摘要
 
@@ -141,7 +141,6 @@ GDPR 还规定，如果无法确定充足的流程来最大限度地降低数据
 
 此类隐私审查往往很细化 — 一项特定服务可能会接受数十次或数百次审查。 Microsoft 将这些细化的隐私审查汇总为，涵盖主要数据处理分组的数据保护影响评估 (DPIA)，以供 Microsoft 欧盟数据保护监察专员 (DPO) 稍后审查。 DPO 评估数据处理存在的相关风险，以确保有充足的缓解措施。 如果 DPO 发现无法缓解的风险，就会将建议的更改反馈给工程组。 随着数据保护风险发生变化，也会相应地审查和更新 DPIA。
 
-
 作为处理者，Microsoft 有责任协助控制者确保符合 GDPR 中规定的 DPIA 要求。 为了向客户提供支持，我们生成了 Microsoft DPIA 相关部分的摘要，并将在日后更新中通过这一部分提供此类摘要，以便控制者能够依赖 Microsoft 服务来利用摘要创建自己的 DPIA。
 
 ## <a name="breach-notification"></a>泄露通知
@@ -210,7 +209,7 @@ Microsoft 的 GDPR 条款反映了第 28 条要求处理者作出的承诺。 �
 
 **Microsoft 在什么基础上促进欧盟以外的个人数据传输？**
 
-Microsoft 长期以来一直使用标准合同条款（也称为“模式条款”）作为其企业联机服务数据传输的基础。 标准合同条款是欧盟委员会提供的标准条款，可用于以合规的方式在欧洲经济区之外传输数据。 Microsoft 已通过[联机服务条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)将标准合同条款包含在我们的所有批量许可协议中。 第 29 条工作组证明 Microsoft 实施的标准合同条款符合法规要求。 当欧盟-美国隐私盾出台后，Microsoft 是首家通过认证的公司。 请参阅 [Microsoft 欧盟-美国隐私盾认证](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active)，并阅读[联机服务条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)。 欧盟-美国隐私盾旨在帮助客户按照与其数据保护义务一致的方式将数据传输到美国。
+Microsoft 长期以来一直使用标准合同条款（也称为“模式条款”）作为其企业联机服务数据传输的基础。 标准合同条款是欧盟委员会提供的标准条款，可用于以合规的方式在欧洲经济区之外传输数据。 Microsoft 已通过[联机服务条款](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)将标准合同条款包含在我们的所有批量许可协议中。 对于来自欧洲经济区，瑞士和英国的个人数据，Microsoft 将确保在向第三方国家/地区或国际组织传输的个人数据时实施 GDPR 第 46 条中规定的相应安全措施。 在遵守针对数据处理者的标准合同条款以及其他模范合同以外，Microsoft 还将继续遵守[隐私保护协议框架](https://www.privacyshield.gov/)的条款，但不再将其作为从欧盟/欧洲经济区向美国传输数据的基础。
 
 **Microsoft 还提供哪些其他合规性产品/服务？**
 
@@ -269,7 +268,7 @@ GDPR 通过一组“数据主体权利”为欧盟居民提供了对其个人数
 
 GDPR 规范了“个人数据”的收集、存储、使用和共享。 根据 GDPR，个人数据的定义很宽泛，即指与已识别或可识别的自然人相关的任何数据。
 
-个人数据包括但不限于联机标识符（例如，IP 地址）、员工信息、销售数据库、客户服务数据、客户反馈表、位置数据、生物识别数据、闭路电视录像、忠诚计划记录、健康和财务信息等。 它甚至包括看似不属于个人信息的信息（例如没有人物的风景照），其中该信息可通过帐号或唯一代码关联至可识别的个人。 如果可将假名链接到特定个人，则经过假名处理的个人数据甚至也可以是个人数据。 
+个人数据包括但不限于联机标识符（例如，IP 地址）、员工信息、销售数据库、客户服务数据、客户反馈表、位置数据、生物识别数据、闭路电视录像、忠诚计划记录、健康和财务信息等。 它甚至包括看似不属于个人信息的信息（例如没有人物的风景照），其中该信息可通过帐号或唯一代码关联至可识别的个人。 如果可将假名链接到特定个人，则经过假名处理的个人数据甚至也可以是个人数据。
 
 与处理“普通”个人数据相比，处理某些“特殊”类别的个人数据（例如，透露某人的种族或族裔或与其健康或性取向有关的个人数据）将受到更为严格的监管。 评估个人数据非常特殊，因此我们建议聘请专家来评估你的具体情况。
 
@@ -325,6 +324,5 @@ Microsoft 产品和服务（例如 Azure、Dynamics 365、企业移动性 + 安�
 
 - [通过提供基于 Microsoft 的解决方案的全球合作伙伴解决 GDPR 相关需求](https://aka.ms/findgdprpartner)
 - [了解 Microsoft 如何管理你的数据、数据的位置、谁可以访问它以及条款等等。](https://www.microsoft.com/trust-center/privacy)
-- [了解 Microsoft 如何遵守欧盟-美国隐私盾框架的原则](https://blogs.microsoft.com/eupolicy/2016/07/11/eu-u-s-privacy-shield-progress-for-privacy-rights/)
 - [Microsoft 如何根据 GDPR 要求来检测和响应个人数据泄露并向你发送通知](https://www.microsoft.com/trust-center/privacy/gdpr-data-breach)
 - [立即评估 GDPR 准备情况](https://discover.microsoft.com/gdpr-readiness-assessment/)

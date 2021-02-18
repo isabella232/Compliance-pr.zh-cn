@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2fec2c20a4d2d2ddbf5a39b7cda1ff67a19e5830
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 9a75bf130ff6a34ffc44df2f60c682c0d5e77d4b
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50119931"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276140"
 ---
 # <a name="service-organization-controls-soc"></a>Service Organization Controls (SOC)
 
@@ -54,7 +54,7 @@ Microsoft 已获得 SOC 1 Type 2、SOC 2 Type 2 和 SOC 3 报告。 通常，SOC
 - [Dynamics 365 和 Dynamics 365 美国政府](https://aka.ms/d365-compliance-list)
 - Microsoft Graph
 - Intune
-- Microsoft 托管桌面
+- [Microsoft 托管桌面](/microsoft-365/managed-desktop/intro/compliance)
 - Power Automate (以前称为 Microsoft Flow) 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - [Office 365、Office 365 U.S. Government 和 Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - PowerApps 云服务，作为独立服务提供，后者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
@@ -68,7 +68,7 @@ Microsoft 已获得 SOC 1 Type 2、SOC 2 Type 2 和 SOC 3 报告。 通常，SOC
 - Microsoft Cloud App Security
 - Microsoft Graph
 - Intune
-- Microsoft 托管桌面
+- [Microsoft 托管桌面](/microsoft-365/managed-desktop/intro/compliance)
 - Power Automate (以前称为 Microsoft Flow) 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - PowerApps 云服务，作为独立服务提供，后者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - [Office 365、Office 365 U.S. Government 和 Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
@@ -117,7 +117,7 @@ Azure、Microsoft Cloud App Security、Flow、Microsoft Graph、Intune、Power B
 
 **能否在我组织的认证过程中使用 Microsoft 的合规性认证？**
 
-正确。 当您将应用程序和数据迁移到所覆盖的 Microsoft 云服务时，您可以把 Microsoft 所持有的审核与认证作为构建基础。 独立报告可证实 Microsoft 已实施用于维护您数据的安全性和隐私的控制措施的有效性。
+是。 当您将应用程序和数据迁移到所覆盖的 Microsoft 云服务时，您可以把 Microsoft 所持有的审核与认证作为构建基础。 独立报告可证实 Microsoft 已实施用于维护您数据的安全性和隐私的控制措施的有效性。
 
 **从何处着手开展我自己组织的合规工作？**
 
