@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ffe05b9857d7b04004838c17d19073eb208a99f5
-ms.sourcegitcommit: efe49fd31eb8166e3e72ad1cc65b332c6f3b1327
+ms.openlocfilehash: 8a92f4e29656293b4732d64840cd3e082be89cf2
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260364"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276060"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>运行状况信息信任联盟 (HITRUST) Common Security Framework (CSF) 
 
@@ -45,7 +45,7 @@ HITRUST 提供三种保证或评估级别：自我评估、CSF 验证和 CSF 认
 
 - [Azure 与 Azure 政府](https://aka.ms/AzureCompliance)
 - Intune
-- Microsoft 托管桌面
+- [Microsoft 托管桌面](/microsoft-365/managed-desktop/intro/compliance)
 - [Office 365 和 Office 365 US 政府计划](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
