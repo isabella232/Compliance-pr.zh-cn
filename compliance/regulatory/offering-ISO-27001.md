@@ -118,7 +118,7 @@ ISO/IEC 27001 的国际接受度和适用性是此标准认证成为 Microsoft �
 是。 Microsoft 云基础结构和运营团队的年度 ISO/IEC 27001 认证过程包括对操作灵活性的审核。 如需预览最新证书，请单击下面的链接。
 
 - Microsoft Azure：[针对 Microsoft 云基础结构和运营的 ISO/IEC 27001:2013 证书](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
-- Azure 德语：microsoft [基础结构和运营获得 ISO/IEC 27001：2013 认证](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
+- Azure 德国：[适用于 icrosoft 云基础结构和运营的 ISO/IEC 27001:2013 认证](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
 
 **从何处着手开展我自己组织的 ISO/IEC 27001 合规性工作？**
 
