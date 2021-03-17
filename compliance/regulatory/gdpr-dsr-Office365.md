@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb982899fb5159abecc07b90700134b6247b6fee
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 3ffda250e017bd97cbfd9d1cf60c8251699e9740
+ms.sourcegitcommit: 3761eaf22bb2c7ed09ed24b9a526404ac7283ab8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121941"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50822515"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Office 365 数据主体请求
 
@@ -727,7 +727,7 @@ Bookings 收集并将存储以下类型数据：
 
 ##### <a name="export"></a>导出
 
-若要导出与业务所有者、员工和客户对应的数据，可使用业务中心隐私门户。请参阅[使用业务中心隐私门户导出或删除用户数据](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8)。
+要导出对应于业务所有者、员工和客户的数据，可以使用 [业务中心隐私门户](https://businessaccount.microsoft.com/)。
 
 ##### <a name="delete"></a>删除
 
@@ -738,7 +738,7 @@ Bookings 收集并将存储以下类型数据：
 - **预订事件：** 你可以从 Bookings 日历中删除预订事件，这将移除客户的信息。
 - **会议请求、电子邮件确认/取消/更新和电子邮件提醒：** 你可以从 Bookings 日历中删除这些内容，这将移除客户的信息。
 
-业务所有者和管理员还可以使用业务中心隐私门户来删除其客户数据。请参阅[使用业务中心隐私门户导出或删除用户数据](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8)。
+要导出对应于业务所有者、员工和客户的数据，可以使用 [业务中心隐私门户](https://businessaccount.microsoft.com/)。
 
 此外，可以删除业务所有者和员工数据，可删除相应的用户帐户。请参阅[删除用户](#deleting-a-user)部分。
 
@@ -760,7 +760,7 @@ Bookings 收集并将存储以下类型数据：
 
 ##### <a name="export"></a>导出
 
-若要导出业务所有者、员工和客户数据，可使用业务中心隐私门户。请参阅[使用业务中心隐私门户导出或删除用户数据](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8)。
+要导出对应于业务所有者、员工和客户的数据，可以使用 [业务中心隐私门户](https://businessaccount.microsoft.com/)。
 
 ##### <a name="delete"></a>删除
 
@@ -784,7 +784,7 @@ Connections 所有者可以登录到 Connections 仪表板并查看他们发送�
 
 ##### <a name="export"></a>导出
 
-若要导出业务所有者、员工和客户数据，可使用业务中心隐私门户。请参阅[使用业务中心隐私门户导出或删除用户数据](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8)。
+要导出对应于业务所有者、员工和客户的数据，可以使用 [业务中心隐私门户](https://businessaccount.microsoft.com/)。
 
 ##### <a name="delete"></a>删除
 
