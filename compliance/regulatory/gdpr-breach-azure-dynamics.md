@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 39e5d666519bac120169f79824173cd0ee63f437
-ms.sourcegitcommit: f37d6ac660910f1cc2204f5ceebd390f7abbdfbf
+ms.openlocfilehash: 1ed40e2a6cd960c4538439f5f34897037e0881cd
+ms.sourcegitcommit: 55a156a6b74ed8c438ae51cdae0654db2806e008
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175425"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "50831067"
 ---
 # <a name="azure-and-dynamics-365-breach-notification-under-the-gdpr"></a>GDPR 下的 Azure 和 Dynamics 365 泄露通知
 
@@ -47,7 +47,7 @@ Azure 根据安全事件响应流程响应潜在数据泄露，该流程属于 M
 | ***4：稳定和恢复*** | 事件响应团队创建恢复计划以缓解问题。将立即执行危机遏制步骤。例如隔离受影响的系统，同时进行诊断。在即时风险过去之后，还会规划更长期的缓解措施。 |
 | ***5：关闭和事后分析*** | 事件响应团队创建事后分析，其中会列出事件详情，目的是修改策略、过程和流程，以防事件再次发生。 |
 
-[《云中的 Microsoft Azure 安全响应》](https://gallery.technet.microsoft.com/Azure-Security-Response-in-dd18c678)白皮书进一步详细介绍了 Microsoft 如何在 Azure 内调查、管理和响应安全事件。
+[用于保护全球公共部门云采用的 Azure](/azure/azure-government/documentation-government-overview-wwps#breach-notification-process) 主题详细介绍了 Microsoft 如何调查、管理和响应 Azure 内的安全事件。
 
 Microsoft Azure 使用的检测流程旨在发现威胁 Azure 服务机密性、完整性和可用性的事件。多个事件可能会触发调查：
 
