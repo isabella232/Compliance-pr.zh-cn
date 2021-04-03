@@ -12,31 +12,32 @@ ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.collection: MS-Compliance
-ms.openlocfilehash: 15d59569102a5e39ac8641df6003b2999362e0bd
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: f0c59e0b4fb6fd80fd13521a3ed4996e787474bc
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121471"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496014"
 ---
-# <a name="gdpr-for-skype-for-business-server-and-lync-server"></a><span data-ttu-id="a2c6b-103">用于 Skype for Business Server 和 Lync Server 的 GDPR</span><span class="sxs-lookup"><span data-stu-id="a2c6b-103">GDPR for Skype for Business Server and Lync Server</span></span>
+# <a name="gdpr-for-skype-for-business-server-and-lync-server"></a><span data-ttu-id="e0607-103">用于 Skype for Business Server 和 Lync Server 的 GDPR</span><span class="sxs-lookup"><span data-stu-id="e0607-103">GDPR for Skype for Business Server and Lync Server</span></span>
 
-<span data-ttu-id="a2c6b-p101">大多数 Skype for Business Server 和 Lync Server 数据存储在 Exchange Server 中。这包括：</span><span class="sxs-lookup"><span data-stu-id="a2c6b-p101">Most Skype for Business Server and Lync Server data is stored in Exchange Server. This includes:</span></span>
+<span data-ttu-id="e0607-p101">大多数 Skype for Business Server 和 Lync Server 数据存储在 Exchange Server 中。这包括：</span><span class="sxs-lookup"><span data-stu-id="e0607-p101">Most Skype for Business Server and Lync Server data is stored in Exchange Server. This includes:</span></span>
 
--   <span data-ttu-id="a2c6b-106">对话历史记录</span><span class="sxs-lookup"><span data-stu-id="a2c6b-106">Conversation history</span></span>
+-   <span data-ttu-id="e0607-106">对话历史记录</span><span class="sxs-lookup"><span data-stu-id="e0607-106">Conversation history</span></span>
 
--   <span data-ttu-id="a2c6b-107">语音邮件通知和听录</span><span class="sxs-lookup"><span data-stu-id="a2c6b-107">Voicemail notifications and transcriptions</span></span>
+-   <span data-ttu-id="e0607-107">语音邮件通知和听录</span><span class="sxs-lookup"><span data-stu-id="e0607-107">Voicemail notifications and transcriptions</span></span>
 
--   <span data-ttu-id="a2c6b-108">会议邀请</span><span class="sxs-lookup"><span data-stu-id="a2c6b-108">Meeting invites</span></span>
+-   <span data-ttu-id="e0607-108">会议邀请</span><span class="sxs-lookup"><span data-stu-id="e0607-108">Meeting invites</span></span>
 
-<span data-ttu-id="a2c6b-109">使用[用于 Exchange Server 的 GDPR](gdpr-for-exchange-server.md) 概述的过程来查找、导出或删除这些类型的 GDPR 请求数据。</span><span class="sxs-lookup"><span data-stu-id="a2c6b-109">Use the procedures outlined for [GDPR for Exchange Server](gdpr-for-exchange-server.md) to find, export, or delete these types of data for GDPR requests.</span></span>
+<span data-ttu-id="e0607-109">使用[用于 Exchange Server 的 GDPR](gdpr-for-exchange-server.md) 概述的过程来查找、导出或删除这些类型的 GDPR 请求数据。</span><span class="sxs-lookup"><span data-stu-id="e0607-109">Use the procedures outlined for [GDPR for Exchange Server](gdpr-for-exchange-server.md) to find, export, or delete these types of data for GDPR requests.</span></span>
 
-<span data-ttu-id="a2c6b-p102">联系人列表存储在 SQL Server 数据库中。它们可以通过以下方式导出：</span><span class="sxs-lookup"><span data-stu-id="a2c6b-p102">Contact lists are stored in the SQL Server database. They can be exported in the following ways:</span></span>
+<span data-ttu-id="e0607-p102">联系人列表存储在 SQL Server 数据库中。它们可以通过以下方式导出：</span><span class="sxs-lookup"><span data-stu-id="e0607-p102">Contact lists are stored in the SQL Server database. They can be exported in the following ways:</span></span>
 
--   <span data-ttu-id="a2c6b-p103">最终用户自身可以通过右键单击组标题并选择“复制”来导出联系人。这会将该组中的所有联系人复制到剪贴板，然后将其粘贴到任何应用中。</span><span class="sxs-lookup"><span data-stu-id="a2c6b-p103">End users themselves can export the contacts by right clicking the group header and selecting Copy. This will copy all the contacts in that group into the clipboard, which can then be pasted into any app.</span></span>
+-   <span data-ttu-id="e0607-p103">最终用户自身可以通过右键单击组标题并选择“复制”来导出联系人。这会将该组中的所有联系人复制到剪贴板，然后将其粘贴到任何应用中。</span><span class="sxs-lookup"><span data-stu-id="e0607-p103">End users themselves can export the contacts by right clicking the group header and selecting Copy. This will copy all the contacts in that group into the clipboard, which can then be pasted into any app.</span></span>
 
--   <span data-ttu-id="a2c6b-114">可以使用 [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet 导出此类数据。</span><span class="sxs-lookup"><span data-stu-id="a2c6b-114">You can use the [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet to export this data.</span></span>
+-   <span data-ttu-id="e0607-114">可以使用 [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet 导出此类数据。</span><span class="sxs-lookup"><span data-stu-id="e0607-114">You can use the [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet to export this data.</span></span>
 
-<span data-ttu-id="a2c6b-p104">上传到会议的内容（例如 PowerPoint 文件或讲义）或在会议中生成的内容（例如白板、投票或 Q/A）存储在文件管理器中。如果最终用户重新登录到任何尚未过期的会议并下载任何上传的内容，或在生成内容的情况下创建屏幕截图，也可以导出此类信息。</span><span class="sxs-lookup"><span data-stu-id="a2c6b-p104">Content uploaded into meetings (such as PowerPoint files or handouts) or content generated in a meeting (such as whiteboard, polls, or Q/A) is stored in the filer. This can also be exported if end users log back into any meeting that has not expired and download any uploaded content or take screenshots in the case of generated content.</span></span>
+<span data-ttu-id="e0607-p104">上传到会议的内容（例如 PowerPoint 文件或讲义）或在会议中生成的内容（例如白板、投票或 Q/A）存储在文件管理器中。如果最终用户重新登录到任何尚未过期的会议并下载任何上传的内容，或在生成内容的情况下创建屏幕截图，也可以导出此类信息。</span><span class="sxs-lookup"><span data-stu-id="e0607-p104">Content uploaded into meetings (such as PowerPoint files or handouts) or content generated in a meeting (such as whiteboard, polls, or Q/A) is stored in the filer. This can also be exported if end users log back into any meeting that has not expired and download any uploaded content or take screenshots in the case of generated content.</span></span>
 
-<span data-ttu-id="a2c6b-p105">不在 Exchange 日历和联系人列表中的 MeetNow 会议以及联系人权限（家人、同事等）位于用户数据库中。在 Lync Server 2013 及更高版本中，可以使用 [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet 导出此类数据。</span><span class="sxs-lookup"><span data-stu-id="a2c6b-p105">MeetNow meetings that are not in the Exchange Calendar and Contact List and contact rights (family, co-worker, etc.) are in the User Database. In Lync Server 2013 and later, you can use the [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet to export this data.</span></span>
+<span data-ttu-id="e0607-p105">不在 Exchange 日历和联系人列表中的 MeetNow 会议以及联系人权限（家人、同事等）位于用户数据库中。在 Lync Server 2013 及更高版本中，可以使用 [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet 导出此类数据。</span><span class="sxs-lookup"><span data-stu-id="e0607-p105">MeetNow meetings that are not in the Exchange Calendar and Contact List and contact rights (family, co-worker, etc.) are in the User Database. In Lync Server 2013 and later, you can use the [Export-CsUserData](/powershell/module/skype/export-csuserdata) cmdlet to export this data.</span></span>

@@ -92,12 +92,8 @@
   items:
     - name: 网络安全性概述
       href: assurance-network-security.md
-    - name: 拒绝服务防御
-      href: assurance-defending-cloud-services-against-dos-attacks.md
     - name: 拒绝服务防御策略
       href: assurance-microsoft-dos-defense-strategy.md
-    - name: 核心拒绝服务防御原则
-      href: assurance-core-principles-of-defense-against-dos-attacks.md
     - name: Microsoft 365 服务中的病毒检测
       href: /microsoft-365/security/office-365-security/virus-detection-in-spo?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: 隐私
@@ -116,6 +112,10 @@
       href: assurance-sharepoint-online-data-deletion.md
     - name: Microsoft 365 数据不变性
       href: assurance-data-immutability.md
+    - name: 数据分类和敏感度标签
+      href: assurance-data-classification-and-labels.md
+    - name: 创建数据分类框架
+      href: assurance-create-data-classification-framework.md
 - name: 弹性和连续性
   items:
     - name: 弹性和连续性概述
