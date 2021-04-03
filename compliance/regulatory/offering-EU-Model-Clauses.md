@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bb86eb3d5e1ce8b8580a35b78718df303bd6770f
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: e50e5a8e0dd8ec400b4ca5ae053f3898e4cb0abc
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506639"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496536"
 ---
 # <a name="european-union-model-clauses"></a>欧盟模式条款
 
@@ -53,7 +53,7 @@ Microsoft 向欧盟的数据保护工作组 (Article 29 Working Party) 提供了
 - PowerApps 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 - Azure DevOps Services
-- 针对以下云服务部分的 Windows Defender 高级威胁防护：终结点检测和响应、自动调查和修正、安全分数。
+- Microsoft Defender for Endpoint 针对以下云服务部分：端点检测和响应、自动调查和修正、安全分数。
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

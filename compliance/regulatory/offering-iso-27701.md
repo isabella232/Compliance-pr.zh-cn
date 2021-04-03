@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 244ccb820f8d0715e7e063c1918747598f609efc
-ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
+ms.openlocfilehash: 45cfa42a82e6fc4d7c1e9c26e59a23a944c4fd9c
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50276070"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496644"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>ISO/IEC 27701 隐私信息管理系统 (PIMS)
 
@@ -86,7 +86,7 @@ ISO/IEC 27001 和 PIMS 的要点：
 - Power Virtual Agents
 - Microsoft Stream
 - Microsoft 威胁专家
-- Windows Defender 高级威胁防护
+- Microsoft Defender for Endpoint
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e947350388126c74dfce10babcb232a395b1a7f6
-ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
+ms.openlocfilehash: 09473dc7b27b34bd4b0394739cd303fa613780bf
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50276040"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497744"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 信息安全控制措施行为守则
 
@@ -48,7 +48,7 @@ ISO/IEC 27017 在为云服务提供商和云服务客户提供指南方面是独
 - [Azure、Azure 政府和 Azure 德国](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
 - [Dynamics 365、Dynamics 365 和 Dynamics 365 德国](https://aka.ms/d365-compliance-list)
-- Microsoft Defender 高级威胁防护
+- Microsoft Defender for Endpoint
 - Microsoft Graph
 - Microsoft 医疗保健机器人
 - Intune

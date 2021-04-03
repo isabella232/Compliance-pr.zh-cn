@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e0ee7f01e3c62c7f2cfac3867435221723fd7e93
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: feba7b943f04dc0a9470cef23465f1f63fc55ef7
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121221"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497721"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>支付卡行业 (PCI) 数据安全标准 (DSS)
 
@@ -46,7 +46,7 @@ Microsoft 由经认可的合格安全性评估师 (QSA) 完成 PCI DSS 年度评
 - Flow 云服务，作为独立服务提供，后者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - Microsoft Graph
 - Intune
-- [Microsoft Defender 高级威胁防护](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - PowerApps 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - Power BI 云服务，无论是独立服务还是随 Office 365 品牌计划或套件提供的服务
 - OneDrive for Business 和 SharePoint Online（仅限美国）

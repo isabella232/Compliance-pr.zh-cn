@@ -16,12 +16,13 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 70cf9514306bc119c1f09a159222dbea6765e61f
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 74bdf63fcf704aa285a2803e5b7af7455a0291c6
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120681"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497655"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>客户和云合作伙伴在企业业务连续性方面的责任
 
@@ -79,6 +80,6 @@ Microsoft 发布了[网络连接原则](/microsoft-365/enterprise/microsoft-365-
 很多协作解决方案都依赖于系统，例如公司广域网 (WAN)。 当这些系统不可用时，你的组织会如何应对？
 下图展示了可能影响多个方面的问题。 随附的表格提供了要考虑的示例
 
-![系统的维恩图](../media/venn-diagram.png)
+![维恩系统图](../media/venn-diagram.png)
 
 你的连续性计划应将上述每个方面都考虑在内。 例如，如果你需要用户访问公司网络，但当地下暴风雪了，那么这些用户如果能够访问关键资源呢？ 如果大雪让用户没法抵达办公室，而服务工程师必须连接到公司网络，有没有策略批准他们在家中持有公司笔记本电脑呢？

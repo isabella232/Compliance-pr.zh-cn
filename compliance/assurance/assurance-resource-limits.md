@@ -18,12 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 632a0b78c5c5ba02a59f8863c2e751f009cc968e
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 54ea001e542cdd1ab078546cf96bd011e27ab1dc
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120751"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497502"
 ---
 # <a name="service-resource-limits"></a>服务资源限制
 
@@ -36,8 +37,8 @@ ms.locfileid: "50120751"
 - [Yammer REST API 和速率限制](https://developer.yammer.com/docs/rest-api-rate-limits)
 - [Sway 中的文件大小限制](https://support.office.com/article/File-size-limits-in-Sway-4db21bc6-b42b-499f-9272-66e089db109f)
 
-除了这些限制之外，Azure AD 和 Microsoft 365 中还使用了多个限制机制。 鉴于 Microsoft 数据中心中的网络资源已针对使用服务的广泛客户进行了优化，服务中的限制尤其重要。 限制机制包括：
+除了这些限制之外，Azure AD 和 Microsoft 365 中还使用了多种限制机制。 服务中的限制尤为重要，因为 Microsoft 数据中心的网络资源已针对使用服务的广泛客户进行了优化。 限制机制包括：
 
-- Azure AD 和 Microsoft 365 功能用户级限制，通过脚本或代码限制 (可以由单个用户执行的) 或并发呼叫数。
-- 创建租户时，会为每个租户分配一个默认的 PowerShell 限制策略。 这些设置会影响其他项目，例如单个管理员可同时打开的最大 PowerShell 会话数。
-- 每个 Exchange Online 客户都有一个默认的 Exchange Web Services (EWS) 策略，该策略针对 EWS 客户端操作进行了调整，并且限制适用于所有 Outlook 客户端。
+- Azure AD 和 Microsoft 365 具有用户级别限制功能，它按脚本或代码限制 (可以由单个用户执行的) 或并发呼叫数。
+- 默认 PowerShell 限制策略在租户创建时分配给每个租户。 这些设置会影响其他项目，例如单个管理员可同时打开的最大 PowerShell 会话数。
+- 每个 Exchange Online 客户都有一个默认的 Exchange Web 服务 (EWS) 策略，该策略针对 EWS 客户端操作进行调整，并限制适用于所有 Outlook 客户端。

@@ -17,12 +17,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 - MS-Compliance
-ms.openlocfilehash: 220084ee9cd808d896a475a324c4bd55e58414e1
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 41e903a478559d942de2202ab89e05c8c46a8460
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121061"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496343"
 ---
 # <a name="data-processor-service-for-windows-enterprise-breach-notification-under-the-gdpr"></a>符合 GDPR 的 Windows 企业版泄露通知数据处理者服务
 

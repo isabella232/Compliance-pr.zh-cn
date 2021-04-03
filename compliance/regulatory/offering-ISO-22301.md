@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 652665db2fffecd6826695619b89e0b833637279
-ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
+ms.openlocfilehash: afe6f7f5d5758442b6a016834456459ff9d40e7c
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50276100"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497762"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 业务连续性管理标准
 
@@ -40,7 +40,7 @@ Microsoft 是首个获得业务连续性管理 ISO 22301 认证的超大型云�
 - [Azure、Azure 政府和 Azure 德国](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
 - Dynamics 365、Dynamics 365 政府和 Dynamics 365 德国
-- Microsoft Defender 高级威胁防护
+- Microsoft Defender for Endpoint
 - Microsoft Graph
 - Microsoft 医疗保健机器人
 - Intune

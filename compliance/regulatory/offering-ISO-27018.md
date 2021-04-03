@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 951b35d755091555450b7bcd4361d56c5159591e
-ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
+ms.openlocfilehash: 319f51416b0bcafb17d8ac343093789146d13742
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50276090"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497733"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>保护云中个人数据的 ISO/IEC 27018 行为守则
 
@@ -63,7 +63,7 @@ Microsoft 和 ISO/IEC 27018
 - Power Virtual Agents
 - Microsoft 威胁专家
 - Microsoft Stream
-- Windows Defender ATP： 终结点检测和响应、自动调查和修正、安全分数
+- Microsoft Defender for Endpoint：终结点检测和响应、自动调查与修正、安全分数
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

@@ -15,12 +15,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1923de493cb1f7ae03125386cc02e445a9cb17d5
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: da429e78cf0acec906a6067ff3df89d85ae2262a
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121601"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497282"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 NIST 800-53 行动计划 - 前 30 天、前 90 天以及之后的首要行动
 
@@ -59,9 +60,9 @@ Microsoft 被认为是云安全领域的行业领袖。通过多年构建企业�
 |**区域**|**任务**|
 |:-----|:-----|
 |增强反恶意软件、修补程序和配置管理程序。|•   通过向组织部署和启用 [Windows Defender 防病毒](/windows/security/threat-protection/windows-defender-antivirus/deploy-windows-defender-antivirus)和利用与 Windows 10 的紧密集成来保护企业资产和桌面设备。<br>• 跟踪隔离受感染的系统并防止进一步损坏，直到执行修正步骤。<br>•   无忧依赖于 Microsoft 365 严格标准更改管理流程以获取受信任的更新、修补程序和补丁。|
-|使用 Microsoft 365 安全功能来控制对环境的访问，并保护组织信息和资产。|•   实施[推荐的标识和设备访问策略](/microsoft-365/security/office-365-security/microsoft-365-policies-configurations)来保护用户和管理帐户。 <br>• 实施 [Office 365 邮件加密 (OME)](/microsoft-365/compliance/ome) 功能，以帮助用户在通过电子邮件发送敏感数据时遵守组织策略。<br>•   将 [Windows Defender 高级威胁防护 (ATP)](/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 部署到所有桌面，以防范恶意代码，并实施数据泄露防护和响应措施。<br>•    配置、测试和部署策略以标识、监视和[自动保护](/microsoft-365/compliance/apply-protection-to-personal-data-in-office-365)文档和电子邮件中的超过 80 种常见敏感数据类型，包括财务、医疗和个人身份信息。<br>•    通过配置[策略提示](/exchange/security-and-compliance/data-loss-prevention/policy-tips)，在电子邮件发件人发送违规邮件之前，自动通知他们可能违反了策略之一。可将策略提示配置为显示简要说明（在 Outlook、Outlook 网页版和适用于设备的 OWA 中），以提供邮件创建期间可能的策略违反信息。<br>•   通过实施对 [SharePoint Online 和 OneDrive for Business 的外部共享](/onedrive/manage-sharing)的控制，保护敏感企业数据并满足组织的信息共享策略。确保仅经过身份验证的外部用户可以访问企业数据。|
+|使用 Microsoft 365 安全功能来控制对环境的访问，并保护组织信息和资产。|•   实施[推荐的标识和设备访问策略](/microsoft-365/security/office-365-security/microsoft-365-policies-configurations)来保护用户和管理帐户。 <br>• 实施 [Office 365 邮件加密 (OME)](/microsoft-365/compliance/ome) 功能，以帮助用户在通过电子邮件发送敏感数据时遵守组织策略。<br>• 将 [Microsoft Defender for Endpoint](/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 部署到所有桌面，以防御恶意代码，并部署数据破坏防护和响应。<br>•  配置、测试和部署策略以标识、监视和[自动保护](/microsoft-365/compliance/apply-protection-to-personal-data-in-office-365)文档和电子邮件中的超过 80 种常见敏感数据类型，包括财务、医疗和个人身份信息。<br>•    通过配置[策略提示](/exchange/security-and-compliance/data-loss-prevention/policy-tips)，在电子邮件发件人发送违规邮件之前，自动通知他们可能违反了策略之一。可将策略提示配置为显示简要说明（在 Outlook、Outlook 网页版和适用于设备的 OWA 中），以提供邮件创建期间可能的策略违反信息。<br>•   通过实施对 [SharePoint Online 和 OneDrive for Business 的外部共享](/onedrive/manage-sharing)的控制，保护敏感企业数据并满足组织的信息共享策略。确保仅经过身份验证的外部用户可以访问企业数据。|
 |利用内置审核功能，监视 Office 365 中的敏感或风险活动。|•   启用 Microsoft 365 安全或合规中心的[警报策略](/microsoft-365/compliance/alert-policies)，以在出现敏感活动时（例如用户的帐户权限提升或访问敏感数据）引发自动通知。 应对所有特权功能进行审核和监控。<br>• 在安全或合规中心中定期[搜索的审核日志](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)，以检查租户配置设置的更改。<br>•   对于长期存储的审核日志数据，使用 Office 365 管理活动 API 参考，与安全信息和事件管理 (SIEM) 工具集成。|
-|为电子邮件和 Office 文档中的链接和附件部署高级威胁防护。|实施 [Office 365 高级威胁防护 (ATP)](/security/office-365-security/office-365-atp)，以帮助防范最常见的攻击媒介，包括钓鱼电子邮件和包含恶意链接和附件的 Office 文档。|
+|为电子邮件和 Office 文档中的链接和附件部署高级威胁防护。|实施 [Office 365 高级威胁防护](/security/office-365-security/office-365-atp) ，帮助防止最常见的攻击向量，包括钓鱼电子邮件和包含恶意链接和附件的 Office 文档。|
 |||
 
 ## <a name="beyond-90-days-ongoing-security-data-governance-and-reporting"></a>90 天后：持续安全、数据管理和报告
@@ -72,7 +73,7 @@ Microsoft 被认为是云安全领域的行业领袖。通过多年构建企业�
 |:-----|:-----|
 |使用 Microsoft 365 高级工具和信息保护，对设备实施持续控制并实现对企业数据的保护。|*    使用 [Microsoft Intune](/intune/) 保护移动设备上存储和访问的敏感数据，并确保使用合规的公司设备访问云服务。|
 |监视 Microsoft 365 和其他云应用程序的持续合规性。|*    若要根据组织定义的策略和过程评估性能，请持续使用[合规性管理器](/microsoft-365/compliance/compliance-manager)，以定期对组织强制实现的信息安全策略进行评估。<br>*    使用 [Azure AD Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-configure) 控制拥有高级权限的所有用户和组（即特权用户或管理用户），并对其执行定期评审。<br>*    部署和配置[特权访问管理](/microsoft-365/compliance/privileged-access-management-overview)，以细化对 Office 365 中特权管理任务的访问控制。  启用后，用户需要通过范围和时间高度受限的审核工作流，请求获取实时访问权限来完成特权提升任务。<br>*    审核[非所有者邮箱访问权限](/Exchange/policy-and-compliance/non-owner-mailbox-access-reports)，以标识潜在信息泄漏，并主动检查所有 Exchange Online 邮箱上的非所有者访问权限。<br>*    使用 [Office 365 警报策略、数据丢失防护报告和 Microsoft Cloud App Security](/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data)，监视组织的云应用程序使用情况，并实现基于启发和用户活动的高级警报策略。<br>*    使用 [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) 自动跟踪有风险的活动，以标识潜在恶意管理员、调查数据泄露或验证是否符合合规性要求。|
-|利用增强的威胁检测和防护功能以及高级威胁分析，为组织提供可靠的分层安全策略。制定事件响应计划以减轻组织中遭破坏的系统的影响。|*    部署和配置 [Windows 高级威胁分析](/advanced-threat-analytics/)以利用丰富的分析和报告，从而获得关键见解，了解组织中遭攻击的用户，以及被利用的网络攻击方法。<br>*    利用 [Office 365 高级威胁防护报告和分析](/security/office-365-security/view-reports-for-atp.md)，透过对组织中自动检测到的恶意内容和恶意电子邮件的见解来分析威胁。利用内置报告和邮件跟踪功能，可调查因未知病毒或恶意软件而被阻止的电子邮件。<br>*    使用 [Office 365 威胁智能](/security/office-365-security/office-365-ti.md)从各类源中聚合见解和信息，以获取云安全环境的整体视图。<br>*    [将 Office 365 威胁智能和 Windows Defender 高级威胁防护集成](/security/office-365-security/integrate-office-365-ti-with-wdatp.md)，以便在调查 Office 365 中的威胁时快速了解用户设备是否处于危险中。<br>*    使用 [Office 365 攻击模拟器](/security/office-365-security/attack-simulator.md)模拟 Office 365 环境中常见的攻击手段。  查看攻击模拟器中的结果以识别用户的培训机会并验证组织的事件响应过程。<br>*    配置[安全或合规中心的权限](/security/office-365-security/permissions-in-the-security-and-compliance-center.md)以确保对监视和审核数据的访问仅限批准的用户，并与组织的事件响应措施相集成。|
+|利用增强的威胁检测和防护功能以及高级威胁分析，为组织提供可靠的分层安全策略。制定事件响应计划以减轻组织中遭破坏的系统的影响。|*    部署和配置 [Windows 高级威胁分析](/advanced-threat-analytics/)以利用丰富的分析和报告，从而获得关键见解，了解组织中遭攻击的用户，以及被利用的网络攻击方法。<br>*    利用 [Office 365 高级威胁防护报告和分析](/security/office-365-security/view-reports-for-atp.md)，透过对组织中自动检测到的恶意内容和恶意电子邮件的见解来分析威胁。利用内置报告和邮件跟踪功能，可调查因未知病毒或恶意软件而被阻止的电子邮件。<br>*    使用 [Office 365 威胁智能](/security/office-365-security/office-365-ti.md)从各类源中聚合见解和信息，以获取云安全环境的整体视图。<br>*    [将 Office 365 威胁智能和 Microsoft Defender for Endpoint](/security/office-365-security/integrate-office-365-ti-with-wdatp.md)，以便在调查 Office 365 中的威胁时快速了解用户设备是否存在风险。<br>*    使用 [Office 365 攻击模拟器](/security/office-365-security/attack-simulator.md)模拟 Office 365 环境中常见的攻击手段。  查看攻击模拟器中的结果以识别用户的培训机会并验证组织的事件响应过程。<br>*    配置[安全或合规中心的权限](/security/office-365-security/permissions-in-the-security-and-compliance-center.md)以确保对监视和审核数据的访问仅限批准的用户，并与组织的事件响应措施相集成。|
 |||
 
 ## <a name="learn-more"></a>了解更多

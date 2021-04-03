@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 安全事件管理：事后活动
-description: 本文概述了 Microsoft 365 中的安全事件管理后期活动过程。
+title: Microsoft 365 安全事件管理：事件后活动
+description: 本文概述了 Microsoft 365 中的安全事件管理后期事件活动过程。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -18,36 +18,37 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 66c25503ac574de512f5201981112a0e54714968
-ms.sourcegitcommit: 2973d25e9e0185b84d281f963553a332eac1c1a3
+hideEdit: true
+ms.openlocfilehash: 4ebd31c16f8abb3eddd6ed924a045d88597aba40
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040345"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496715"
 ---
-# <a name="microsoft-365-security-incident-management-post-incident-activity"></a>Microsoft 365 安全事件管理：事后活动
+# <a name="microsoft-365-security-incident-management-post-incident-activity"></a>Microsoft 365 安全事件管理：事件后活动
 
 ## <a name="postmortem"></a>Postmortem
 
-某些安全事件，尤其是影响客户或导致数据泄露的事件，需在事后执行完整事件。 Microsoft 365 安全响应团队与参与安全事件响应的各方进行详细的事后分析，以：
+某些安全事件（尤其是影响客户或导致数据泄露的事件）会接受完整的事件事后分析。 Microsoft 365 安全响应团队与参与安全事件响应的各方一起执行详细的事后调查，以：
 
 - 记录导致事件的事件序列
-- 创建事件的技术摘要，受证据支持，其中包括泄露事件所涉及的 (如果已知) 。 此摘要将包括响应的执行方式和其他关键要点。
-- 识别安全事件响应过程中标识的技术缺陷、过程失败、手动错误、过程缺陷和通信故障以及/或任何以前未知的攻击途径。
+- 创建事件的技术摘要，该证据支持该证据包括泄露事件所涉及的 (如果已知) 。 此摘要将包括响应的执行方式和其他关键要点。
+- 确定安全事件响应过程中发现的技术缺陷、过程失败、手动错误、流程缺陷和通信故障和/或任何以前未知的攻击途径。
 
-事后分析将在 Microsoft 365 工程开发周期中设置新优先级，直接影响 Microsoft 365 服务改进、操作流程和文档。
+事后分析将在 Microsoft 365 工程开发周期中设置新的优先级，直接影响 Microsoft 365 服务改进、运营流程和文档。
 
 ## <a name="documentation"></a>文档
 
-事后分析过程中的所有关键技术发现均以 Bug 或开发更改请求的形式捕获在报告和服务投资或修复中。 这些发现将跟进相应的工程团队。 对于进程失败和跨组织问题，问题记录在 Microsoft 365 安全响应团队的数据库中，并跟进相应的组以解决这些问题。
+事后分析过程中的所有关键技术成果均以 Bug 或开发更改请求的形式捕获在报告和服务投资或修复中。 这些发现将跟进相应的工程团队。 对于进程失败和跨组织问题，Microsoft 365 安全响应团队的数据库中记录了问题，并跟进相应的组来解决这些问题。
 
 ## <a name="process-improvement"></a>流程改进
 
-在 Microsoft 365 中响应安全事件涉及与分布在 Microsoft 内不同组织的多个组，甚至是可能适当的外部组织（如强制执行组织）进行协调。 我们知道，评估每个安全事件后的响应至关重要，确保安全性和完全性。 对于任何已确定的改进或更改，Microsoft 365 安全响应团队会与相应的团队和利益干系人一起评估建议，并在适当的时候将它们纳入标准操作过程。 在安全事件响应或事后活动期间发现的所有必需更改、Bug 或服务改进都记录并跟踪在内部 Microsoft 365 工程数据库中。 所有潜在的 Bug 或功能都分配给相应的所有者。 Microsoft 365 安全响应团队会检查所有条目，直到问题得到解决。
+在 Microsoft 365 中响应安全事件涉及与分布在 Microsoft 内不同组织，甚至是可能适当的外部组织（如执法机构）的多个组进行协调。 我们知道，评估每个安全事件后的响应至关重要，既满足又完整。 对于任何已确定的改进或更改，Microsoft 365 安全响应团队会与相应的团队和利益干系人共同评估建议，并在适当的时候将它们纳入标准操作过程。 在安全事件响应或事后活动期间发现的所有必需更改、Bug 或服务改进都记录并跟踪在内部 Microsoft 365 工程数据库中。 所有潜在的 Bug 或功能都分配给相应的所有者。 Microsoft 365 安全响应团队会检查所有条目，直到问题得到解决。
 
 ## <a name="related-articles"></a>相关文章
 
 - [Microsoft 365 安全事件管理](assurance-security-incident-management.md)
 - [Microsoft 365 安全事件管理准备](assurance-sim-preparation.md)
 - [Microsoft 365 安全事件管理检测和分析](assurance-sim-detection-analysis.md)
-- [Microsoft 365 安全事件管理包含、限制和恢复](assurance-sim-containment-eradication-recovery.md)
+- [Microsoft 365 安全事件管理抑制、消除和恢复](assurance-sim-containment-eradication-recovery.md)

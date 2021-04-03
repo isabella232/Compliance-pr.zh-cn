@@ -17,12 +17,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: b4c46e63ecbde1d160b0e0224a77ead751c37557
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+hideEdit: true
+ms.openlocfilehash: 134bf099671830856f97bf4dd770123d7efaf41a
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506527"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496114"
 ---
 # <a name="fasttrack-migration-toolset-for-submitting-delete-request"></a>用于提交删除请求的 FastTrack 迁移工具集
 
@@ -34,9 +35,9 @@ ms.locfileid: "49506527"
 
 Microsoft 支持 Windows 平台和 PowerShell 控制台中此工具集的初始版本。此工具集支持以下已知平台：
 
-***表 1 - 此工具集支持的平台** _
+***表 1 - 此工具集支持的平台***
 
-_***
+****
 
 |PowerShell 版本|Windows 7|Windows 8|Windows 10|Windows Server 2012|Windows Server 2016|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -60,7 +61,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 系统将提示你确认此操作，因为管理员可以自行决定更改范围。
 
-**_设置执行策略_* _
+***设置执行策略***
 
 ![在 PowerShell 中设置执行策略更改](../media/powershell-set-execution-policy_image.png)
 
@@ -82,7 +83,7 @@ Login-FastTrackAccount -ApiKey <API Key provided by FastTrack MVM>
 
 成功登录后，将存储凭据和密钥，以供 FastTrack 模块在当前 PowerShell 会话的其余部分使用。
 
-如果需要连接到云环境（而非商业环境），在以下其中一个有效环境中，需要向 *Login* 命令添加 _-Environment*：
+如果需要连接到云环境（而非商业环境），在以下其中一个有效环境中，需要向 *Login* 命令添加 *-Environment*：
 
 - AzureCloud
 - AzureChinaCloud

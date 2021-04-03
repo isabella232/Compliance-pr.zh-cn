@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9c808a80aa2d2ab358378cfb0e50ef28f023bbf7
-ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
+ms.openlocfilehash: a33f9e6d19caa5a3b26f011b985481224123ea38
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50276180"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496563"
 ---
 # <a name="cloud-security-alliance-csa-star-certification"></a>云安全联盟 (CSA) STAR 认证
 
@@ -49,7 +49,7 @@ Microsoft Azure、Microsoft Intune 和 Microsoft Power BI 已获得 STAR 认证�
 - Microsoft 医疗保健机器人
 - Intune
 - [Microsoft 托管桌面](/microsoft-365/managed-desktop/intro/compliance)
-- Microsoft Defender 高级威胁防护
+- Microsoft Defender for Endpoint
 - OMS Service Map
 - Power Automate (以前称为 Microsoft Flow)： 云服务作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - PowerApps 云服务：作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供

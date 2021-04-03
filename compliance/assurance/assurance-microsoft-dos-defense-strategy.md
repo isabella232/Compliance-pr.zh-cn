@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 拒绝服务防护策略
-description: 在本文中，您可以找到针对拒绝服务 (DoS) 攻击的 Microsoft 防护策略的概述。
+title: Microsoft 365 拒绝服务防御策略
+description: 本文将概述拒绝服务攻击和 DoS 攻击的 Microsoft (策略) 策略。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,21 +19,51 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: c812a1bacb8e128998ae30a026e231cf8677de87
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+hideEdit: true
+ms.openlocfilehash: 5776b3eb6c0b79b5f272d6e24dd8680967ca2eb4
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505913"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496955"
 ---
-# <a name="microsoft-365-denial-of-service-defense-strategy"></a>Microsoft 365 拒绝服务防护策略
+# <a name="microsoft-365-denial-of-service-defense-strategy"></a>Microsoft 365 拒绝服务防御策略
 
-Microsoft 针对基于网络的拒绝服务的策略防御 (DoS) 攻击因规模和全球占用量而独特。 此扩展使 Microsoft 能够利用策略和技术（组织、提供商或客户组织）可以与之相匹配。 DoS 策略的基础是我们的全球状态。 Microsoft 与 Internet 提供商（对等提供商） (公共和私有) ，以及世界各地的专用公司。 这为 Microsoft 提供了很大的 Internet 状态，使 Microsoft 能够吸收跨大型 surface 区域的攻击。
+## <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>防御拒绝服务攻击的核心原则
 
-由于这种独特的特点，Microsoft 使用不同于大型企业使用的检测和缓解过程。 该策略基于多个网络边缘的检测和全局分布式缓解的分离。 许多企业使用第三方解决方案来检测和缓解边缘的攻击。 随着 Microsoft 的边缘容量增长，它会清楚对单个或特定边缘的任何攻击的重要性。 由于这种独特的配置，Microsoft 将检测和缓解组件分开。 Microsoft 部署多层检测系统，以检测更接近其饱和点的攻击，同时在边缘维护全局缓解。 此策略可确保我们可以同时处理多个并发攻击。
+防御基于网络的拒绝服务攻击和 DoS (攻击时，) 三个核心原则：预防、检测和缓解。 抑制在检测之前发生，并且必须先进行检测，然后才能开始缓解。 如果即使是一个小的 DoS 攻击也无法得到解决，那么服务将无法在足够长的长时间内生存，无法检测到该攻击。 通过检测系统无法承受的攻击，防御者可以实施响应计划。
 
-Microsoft 对 DoS 攻击所采用的最有效和低成本的防护之一是减少服务攻击面。 不需要的流量会在网络边缘断开，而无需对数据进行直接分析、处理和清理。
+以下公式可帮助估计受 DoS 攻击影响的时间：
 
-在与公用网络的接口上，Microsoft 使用专用安全设备进行防火墙、网络地址转换和 IP 筛选功能。 Microsoft 还使用全局同等成本多路径 (ECMP) 路由。 全局 ECMP 路由是一个网络框架，可确保有多个用于访问服务的全局路径。 使用这些多路径，针对服务的攻击仅限于攻击源自的地区。 其他区域应受到此攻击的影响，因为最终用户将使用其他路径到达这些区域中的服务。 Microsoft 还开发了内部 DoS 关联和检测系统，它们使用流数据、性能指标和其他信息。 这是 Microsoft Azure 中的超大型云服务，它将分析从 Microsoft 网络和服务上的各个点收集的数据。 跨工作负载 DoS 事件响应团队确定团队中的角色和职责、升级条件以及用于参与各种团队和事件处理的协议。 这些解决方案针对 DoS 攻击提供了基于网络的保护。
+  **Maximum Capacity (in bytes/sec) / Growth Rate (in bytes/sec) = 影响 (的时间（以秒为单位)**
 
-最后，基于云的工作负载根据其协议和带宽使用情况配置优化的阈值，以唯一保护该工作负载。
+如果检测时间长于影响时间，则 DoS 攻击可能会成功。 如果检测时间短于影响时间，如果缓解策略成功，受攻击服务应保持联机和可访问。
+
+因此，有两种主要的防御 DoS 攻击的策略：
+
+- 增加容量以提高最大容量限制 (这反过来会有更多的时间来检测攻击) ;或
+- 减少检测攻击的时间。
+
+使用 Microsoft 云服务的一个安全优势是大型 Microsoft 服务如何以经济高效的方式为云客户提供强大的网络保护。 即使在大规模上，还必须在吸收、检测和缓解之间保持平衡。 为了找到此平衡，Microsoft 研究攻击速率以估计需要吸收的 Microsoft 服务量。
+
+## <a name="denial-of-service-defense-strategy"></a>拒绝服务防御策略
+
+Microsoft 防御基于网络的 DoS 攻击的策略是唯一的，因为我们的规模和全局占用空间。 此规模允许 Microsoft 利用对大多数其他组织不可用的策略和技术。 DoS 策略的基础是全局状态。 Microsoft 与 Internet 提供商、对等 (以及) 和私有公司合作。 此参与为 Microsoft 提供了重要的 Internet 状态，使 Microsoft 能够在较大的图面区域中吸收攻击。
+
+随着 Microsoft 的边缘容量逐渐增加，对各个边缘的攻击的重要性已大大降低。 由于这一减少，Microsoft 已分离 DoS 防护系统的检测和缓解组件。 Microsoft 在区域数据中心部署多层检测系统，以检测接近其饱和点的攻击，同时在边缘节点维持全局缓解。 此策略可确保 Microsoft 服务可以处理多个同时攻击。
+
+Microsoft 针对 DoS 攻击采用的最有效且成本较低的防御措施之一是减少服务攻击面。 不需要的流量会丢弃在网络边缘，而不是分析、处理和内联擦除数据。
+
+在公用网络的接口上，Microsoft 将专用安全设备用于防火墙、网络地址转换和 IP 筛选功能。 Microsoft 还使用全局等价多路径 (ECMP) 路由。 全局 ECMP 路由是一个网络框架，可确保有多个全局路径可到达一个服务。 通过每个服务的多个路径，DoS 攻击仅限于发起攻击的区域。 其他区域应不受攻击的影响，因为最终用户将使用其他路径到达这些地区的服务。 Microsoft 还开发了内部 DoS 关联和检测系统，使用流数据、性能指标和其他信息快速检测 DoS 攻击。
+
+为了进一步保护云服务，Microsoft 365 使用内置于 Microsoft Azure 持续监视和渗透测试流程的分布式拒绝服务 (DDoS) 防御系统。 Azure DDoS 防御系统不仅设计用于抵御外部攻击，还旨在抵御来自其他 Azure 租户的攻击。 Azure 使用标准检测和缓解技术（如 SYN Cookie、速率限制和连接限制）防止 DDoS 攻击。 为了支持我们的自动保护，跨工作负载 DoS 事件响应团队标识了各个团队的角色和职责、升级标准以及受影响团队的事件处理协议。
+
+针对目标发起的大多数 DoS 攻击都位于开放系统互连 (OSI) 模型的 Network (L3) 和传输[](/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model) (L4) 层。 针对 L3 和 L4 层的攻击旨在用攻击流量来淹没网络接口或服务，使资源消耗过重，并拒绝响应合法流量的能力。 为了防范 L3 和 L4 攻击，Microsoft DoS 解决方案使用来自数据中心路由器的流量采样数据来保护基础结构和客户目标。 流量采样数据由网络监控服务进行分析以检测攻击。 检测到攻击时，自动防御机制将启动以缓解攻击，并确保针对一个客户的攻击流量不会为其他客户造成附属损坏或网络服务质量降低。
+
+## <a name="application-level-defenses"></a>应用程序级防御
+
+Microsoft 工程团队遵循 Microsoft 运营安全保证 [所](https://www.microsoft.com/SDL/OperationalSecurityAssurance) 设置的严格标准，以帮助保护客户数据。 Microsoft 的云服务专为支持高负载而特意构建，可帮助抵御应用程序级 DoS 攻击。 Microsoft 365 的扩展体系结构跨多个全球数据中心分布服务，具有区域隔离和工作负荷特定的相关工作负载限制功能。
+
+客户管理员在服务的初始设置过程中标识的每个客户的一个或多个国家/地区决定了该客户数据的主存储位置。 客户数据根据主/备份策略在冗余数据中心之间复制。 主数据中心承载应用程序软件以及软件上运行的所有主客户数据。 备份数据中心提供自动故障转移。 如果主数据中心因任何原因停止运行，请求将重定向到备份数据中心中的软件和客户数据的副本。 在任何给定时间，客户数据可以在主数据中心或备份数据中心进行处理。 跨多个数据中心分布数据可减少受影响的表面区域，以防一个数据中心受到攻击。 此外，受影响数据中心中的服务可以快速重定向到辅助数据中心，以在攻击期间保持可用性，在缓解攻击后重定向回主数据中心。
+
+作为针对 DoS 攻击的另一种缓解措施，个别工作负载包括用于管理资源利用率的内置功能。 例如，Exchange Online 和 SharePoint Online 中的限制机制是抵御 DoS 攻击的多层方法的一部分。
