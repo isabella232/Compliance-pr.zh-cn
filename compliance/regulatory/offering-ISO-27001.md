@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 31b5b6ee2b08ab9f45e3ea85c4548ceeaec04681
-ms.sourcegitcommit: 7eee3a4dfda4c09be9afd2e4ea2830a28e46b2c1
+ms.openlocfilehash: a6c2a5c32e06b16f733ce00da4400d22e4da4eff
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50826056"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497754"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 信息安全管理标准
 
@@ -44,7 +44,7 @@ ISO/IEC 27001 的国际接受度和适用性是此标准认证成为 Microsoft �
 - [Azure、Azure 政府和 Azure 德国](https://aka.ms/AzureCompliance)
 - Azure DevOps Services
 - Microsoft Cloud App Security
-- Microsoft Defender 高级威胁防护
+- Microsoft Defender for Endpoint
 - [Dynamics 365、Dynamics 365 政府和 Dynamics 365 德国](https://aka.ms/d365-compliance-list)
 - Microsoft Graph
 - Microsoft 医疗保健机器人
