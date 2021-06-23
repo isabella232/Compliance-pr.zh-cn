@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 74bdf63fcf704aa285a2803e5b7af7455a0291c6
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 1133c5467553eb5d158230c2d6e599187e507822
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497655"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088661"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>客户和云合作伙伴在企业业务连续性方面的责任
 
@@ -73,7 +73,7 @@ Microsoft 维持了多个渠道可供客户用来获取服务状态通知。
 ### <a name="location"></a>位置
 
 很多组织都要求员工在特定的物理位置或网络位置工作，以便连接到企业系统和云服务。  
-Microsoft 发布了[网络连接原则](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)，它可引导企业找到最佳做法来设置到云资源的网络连接。 优化示例包括实施拆分的隧道 VPN，以便直接从用户的网络而不是通过 VPN 隧道进行连接。  虽然这些连接原则对维持低延迟连接很重要，但要保证服务弹性，需要用替代方法连接到公司资源来进行常规协作。
+Microsoft 发布了[网络连接原则](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)，它可引导企业找到最佳做法来设置到云资源的网络连接。 优化示例包括拆分隧道 VPN 的实现，以允许直接从用户的网络而不是通过 VPN 隧道进行连接。  虽然这些连接原则对维持低延迟连接很重要，但要保证服务弹性，需要用替代方法连接到公司资源来进行常规协作。
 
 ### <a name="systems"></a>系统
 

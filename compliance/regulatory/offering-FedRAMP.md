@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b8835b605ef41336828acbf2f60da71b9f8ac641
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: ef6b2fd3c7254251831b84fbfd3c4d5e1648f9c7
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496501"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089716"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>联邦风险和授权管理项目 (FedRAMP)
 
@@ -29,7 +29,7 @@ ms.locfileid: "51496501"
 
 建立美国联邦风险和授权管理计划 (FedRAMP) 以提供一种标准化方法，用于根据联邦信息安全管理法案 (FISMA) 评估、监视和授权云计算产品和服务，并加速联邦机构采用安全的云解决方案。
 
-现在，管理和预算办公室要求所有联邦行政机构使用 FedRAMP 来验证云服务的安全性。  (由于其他机构也采用了该标准，因此它还在公共部门的其他领域很有用。) 美国国家标准和技术协会 (NIST) SP 800-53 设置了强制性标准，建立了信息系统的安全类别（机密性、完整性和可用性）来评估在信息和信息系统受到威胁时对组织的潜在影响。 FedRAMP 是一个计划，它证明云服务提供商 (CSP) 符合这些标准。
+管理和Office现在要求所有联邦行政机构使用 FedRAMP 验证云服务的安全性。  (由于其他机构也采用了该标准，因此它还在公共部门的其他领域很有用。) 美国国家标准和技术协会 (NIST) SP 800-53 设置了强制性标准，建立了信息系统的安全类别（机密性、完整性和可用性）来评估在信息和信息系统受到威胁时对组织的潜在影响。 FedRAMP 是一个计划，它证明云服务提供商 (CSP) 符合这些标准。
 
 准备向联邦机构销售服务的 CSP 可以通过三种途径来演示 FedRAMP 合规性：
 
@@ -37,7 +37,7 @@ ms.locfileid: "51496501"
 - 从联邦机构接收 (ATO) 运营授权。
 - 或者，独立开发满足计划要求的云解决方案提供商提供包。
 
-上述每个途径都需要 FedRAMP 计划管理办公室 (PMO) 由经该计划认证的独立第三方组织进行评估。
+上述每个途径都需要 FedRAMP 计划管理 Office (PMO) 由经该计划认证的独立第三方组织进行评估。
 
 FedRAMP 授权基于 NIST 准则在三个影响级别授予：低、中和高。 这些级别对丢失机密性、完整性或可用性对组织的影响进行排名：低 (有限影响) 、中等 (严重负面影响) 以及高 (严重或灾难性) 。
 
@@ -47,7 +47,7 @@ Microsoft 政府云服务（包括 Azure 政府、Dynamics 365 政府版和 Offi
 
 Microsoft 政府云服务为公共部门客户提供一系列与 FedRAMP 兼容的丰富服务，以及强大的指南和实施工具，包括 [FedRAMP 高](https://aka.ms/fedrampblueprint)蓝图，它帮助客户为必须实施 FedRAMP 高控制措施的任何 Azure 部署体系结构部署一组核心策略。
 
-## <a name="microsoft-azure-p-atos"></a>Microsoft Azure P-ATOs
+## <a name="microsoft-azure-p-atos"></a>Microsoft AzureP-ATOS
 
 Azure 和 Azure 政府从联合授权委员会获得了高影响级别的 P-ATO，联合授权委员会是 FedRAMP 资格鉴定的最高标准，授权使用 Azure 和 Azure 政府处理高度敏感数据。
 
@@ -57,26 +57,26 @@ Azure 和 Azure 政府 FedRAMP 审核包括信息安全管理系统，该系统�
 
 ## <a name="microsoft-dynamics-365-us-government-ato"></a>Microsoft Dynamics 365 美国政府版 ATO
 
-Dynamics 365 U.S. Government 被美国房地产和城市开发部门授予了高影响级别的 FedRAMP 机构 ATO (HUD) 。 尽管认证范围仅限于政府社区云，但 Dynamics 365 美国政府版业务和企业计划遵循同一组严格的 FedRAMP 控制措施。
+Dynamics 365 U.S. Government 被美国房地产和城市开发部门授予了高影响级别的 FedRAMP 机构 ATO (HUD) 。 尽管认证范围仅限于 政府社区云，但 Dynamics 365 美国政府商业版和企业版计划遵循同一组严格的 FedRAMP 控制措施。
 
-## <a name="microsoft-office-365-and-office-365-us-government-atos"></a>Microsoft Office 365 和 Office 365 美国政府版 ATOS
+## <a name="microsoft-office-365-and-office-365-us-government-atos"></a>Microsoft Office 365和Office 365美国政府 ATOS
 
-- Office 365 和 Office 365 美国政府版具有来自美国健康与公共服务部门的 ATO， (DHH) 。
-- Office 365 美国政府防御版具有来自美国国防信息系统局的 P-ATO， (DISA) 。 任何希望部署 Office 365 美国政府防御版的客户都可使用 DISA P-ATO 生成代理 ATO 来记录其接受。
-- Office 365 (企业版和商业计划) 和 Office 365 美国政府版具有来自检查员常规的 DHDH 办公室的中等影响级别的 FedRAMP 机构 ATO。 Office 365 美国政府版是首个获得此授权的基于云的电子邮件和协作服务。
+- Office 365美国政府Office 365美国健康与公共服务部拥有一个 ATO， (DH DH DH) 。
+- Office 365美国政府国防队具有来自美国国防信息系统局的 P-ATO， (DISA) 。 任何希望Office 365美国政府国防队的客户都可使用 DISA P-ATO 生成代理 ATO 来记录其接受。
+- Office 365 (美国政府和美国政府) Office 365计划的 FEDRAMP 机构 ATO 具有来自检查员常规的 DHSP Office中等影响级别的 FedRAMP 机构 ATO。 Office 365美国政府是首个获得此授权的基于云的电子邮件和协作服务。
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
 - [Azure 与 Azure 政府](https://go.microsoft.com/fwlink/p/?linkid=2095323)
 - [Dynamics 365 美国政府版](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365 和 Office 365 美国监管人员](https://go.microsoft.com/fwlink/p/?linkid=2077751)
+- [Office 365 Office 365美国政府](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 美国政府防御版
 - Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 - Microsoft Defender for Endpoint
 
 > [!NOTE]
-> 在 Azure 政府内使用 Azure Active Directory 需要使用在 Azure 公共云上的 Azure 政府外部部署的组件。
+> 在 Azure 政府Azure Active Directory使用 Azure 政府内部部署的组件需要使用在 Azure 公共云上部署在 Azure 政府外部的组件。
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

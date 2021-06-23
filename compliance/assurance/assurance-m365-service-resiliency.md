@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 中的内置服务恢复能力
-description: Microsoft 365 服务恢复的说明
+title: 内置服务恢复能力Microsoft 365
+description: 服务Microsoft 365的说明
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -17,14 +17,14 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: b97e8876f0ef69faefbeb5cf50a1891d36bf8795
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: fc8964f453c5a2924fc9a4b43a2c89aa1dec4271
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497034"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088571"
 ---
-# <a name="built-in-service-resiliency-in-microsoft-365"></a>Microsoft 365 中的内置服务恢复能力
+# <a name="built-in-service-resiliency-in-microsoft-365"></a>内置服务恢复能力Microsoft 365
 
 作为云协作提供商，Microsoft 认识到需要通过提供功能一致且深受用户喜爱的解决方案来不断赢得用户的信任。 当任何给定服务不可用时，它称为停机时间。 对于每个 Microsoft 365 服务，停机时间的定义各不相同，但是它们通常集中在用户无法使用服务基本功能的任何时间段。 例如，下面是 Microsoft 365 服务级别协议中规定的 SharePoint Online 的停机时间定义：
 
@@ -36,7 +36,7 @@ ms.locfileid: "51497034"
 
 ## <a name="activeactive-design"></a>主动/主动设计
 
-在 Microsoft 365 中，我们正致力于在主动/主动设计中构建和运行所有服务，从而增强复原能力。 此设计意味着始终存在一个服务的多个实例，这些实例可以响应用户请求，并且它们托管在地理位置分散的数据中心中。 所有用户流量都通过 Microsoft Front Door 服务进入，并自动路由到服务的最佳位置实例，并围绕任何服务故障来防止或减少对客户的影响。
+在Microsoft 365，我们推动在主动/主动设计中构建和运行所有服务，从而增强复原能力。 此设计意味着始终存在一个服务的多个实例，这些实例可以响应用户请求，并且它们托管在地理位置分散的数据中心中。 所有用户流量都通过 Microsoft Front Door 服务进入，并自动路由到服务的最佳位置实例，并围绕任何服务故障来防止或减少对客户的影响。
 
 ## <a name="reduce-incident-scope"></a>缩小事件范围
 
@@ -44,9 +44,9 @@ ms.locfileid: "51497034"
 
 - 将每个服务的多个实例彼此隔离
 - 使用验证通道以受控渐进的方式部署更新，以便在部署过程的早期检测并缓解更新中可能出现的任何问题。 此设计允许根据需要对更新进行回归，并且首先在 Microsoft (内部环) 内的一个小型组中进行，然后再为较大组（如所有 140，000 名 Microsoft 员工）部署更新，如所有 140，000 名 Microsoft 员工 (ring 2) ，然后针对早期采用者圈 (ring 3) 并最终针对全局 (圈 4) 的所有客户。
-- 通过自动化推动监视方面的改进。 Microsoft 365 是一项大型服务，SLA 目标运行时间较高。 在服务事件的最开始，如果必须让人参与检测和响应，那么我们的响应速度将无法满足 SLA。 自动化是快速高效地检测和响应服务事件的关键。 我们越早知道问题，就能越快地解决它。
+- 通过自动化推动监视方面的改进。 Microsoft 365是一项大型服务，SLA 目标运行时间较高。 在服务事件的最开始，如果必须让人参与检测和响应，那么我们的响应速度将无法满足 SLA。 自动化是快速高效地检测和响应服务事件的关键。 我们越早知道问题，就能越快地解决它。
 
-除了 Microsoft 365 服务体系结构中内置的主动/主动功能外，这些工作还降低了服务事件期间受影响客户的严重性、持续时间和数量。  
+除了内置在服务体系结构中的主动/Microsoft 365功能外，这些工作还降低了服务事件期间受影响客户的严重性、持续时间和数量。  
 
 ## <a name="fault-isolation"></a>故障隔离
 
@@ -55,7 +55,7 @@ ms.locfileid: "51497034"
 
 Microsoft 安全开发生命周期 (SDL) 进一步提高了恢复能力，由一系列支持安全性和合规性要求的实践组成。 SDL 指导我们的开发人员生成可复原、安全且合规的服务。 SDL 的关键元素包括整个 Microsoft 云中的代码审核、威胁建模、渗透测试和标准化的事件响应流程。
 
-Microsoft 365 服务是高度互连的，但它们后面的系统和技术的设计方式可以限制一个服务事件的影响，防止其溢出到其他服务。 例如，影响 Exchange Online 的问题不会影响 Teams 的核心功能，或者 SharePoint Online 中的搜索功能问题不会影响用户上传或下载文件的功能。
+Microsoft 365服务是高度互连的，但是其背后的系统和技术的设计方式可以限制一个服务事件的影响，防止其溢出到其他服务。 例如，影响 Exchange Online 的问题不会影响 Teams 中的核心功能，或者 SharePoint Online 中的搜索功能问题不会影响用户上载或下载文件的能力。
 
 ## <a name="continuous-service-improvement"></a>持续服务改进
 

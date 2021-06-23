@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e93f71a023fe79e768e96b3c8894bf09d0655b6e
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: d8ffd78c4d762d72310e3ac5b200d422b0af26cf
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506309"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089756"
 ---
 # <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>良好的临床、实验室和生产实践 (GxP)
 
@@ -55,7 +55,7 @@ Microsoft 聘请 [Montrium](https://www.montrium.com/) 为其执行 GxP 资格�
 ## <a name="how-to-implement"></a>如何实现
 
 - [Microsoft 365 GxP 准则](../downloads/microsoft-365-gxp-guidelines-july-2020.pdf)：使用 Microsoft 365 且同时遵守 GxP 最佳做法和法规的白皮书。
-- [Microsoft Dynamics 365 GxP 准则](../downloads/microsoft-dynamics-365-gxp-guidelines-july-2020.pdf)：使用 Microsoft Dynamics 365 且同时遵守 GxP 最佳做法和法规的白皮书。
+- [Microsoft Dynamics 365 GxP 准则](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=fb579b09-0874-4197-a97e-a25992383482&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_Compliance_Guides)：使用 Microsoft Dynamics 365 且同时遵守 GxP 最佳做法和法规的白皮书。
 - [Azure GxP 准则](https://aka.ms/gxpcompliance)：使用 Azure 且同时遵守 GxP 最佳做法和法规的综合性工具集。
 - [将 Azure 与 GxP 系统配合使用](https://aka.ms/GXP-Azure-Strategies)：帮助生命科学组织制定关于构建 GxP 应用的策略。
 - FDA CFR 标题 21 第 11 部分指南：获得有关建立符合 FDA 电子记录准则的 [Azure](https://aka.ms/Azure-FDA-Guidelines) 和 [Office 365](https://aka.ms/o365-qualification-guideline) 资格认证策略的帮助。

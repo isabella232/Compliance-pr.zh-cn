@@ -1,6 +1,6 @@
 ---
-title: 针对版权窃取 (事实) 的联盟
-description: Microsoft Azure 在英国对联合身份验证进行了认证，以防止版权盗用。
+title: '联合防止版权盗窃 (FACT) '
+description: Microsoft Azure英国防止版权盗窃联盟获得认证。
 keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,24 +16,24 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 82d3672bd8d07f99bfd741d7a8bac74b24300e21
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 10e96993f6e063ccdf0a7f23fc188a37f422adca
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506638"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089061"
 ---
-# <a name="federation-against-copyright-theft-fact"></a>针对版权窃取 (事实) 的联盟
+# <a name="federation-against-copyright-theft-fact"></a>联合防止版权盗窃 (FACT) 
 
-## <a name="fact-overview"></a>事实概述
+## <a name="fact-overview"></a>FACT 概述
 
-受版权保护的内容有多种表单、图片、视频、音乐、合同、脚本、工作流、艺术、体系结构等，并表示许多企业的核心资产。 盗版会威胁到在非法收益或市场中断的知识产权的非法分布中削弱这些公司的本质。 随着生产和生产后工作流越来越多地迁移到云，知识资产的黑色市场将从物理媒体转向在线机制。
+受版权保护的内容具有多种形式、图片、视频、音乐、合同、脚本、工作流、艺术、体系结构等，并且代表许多企业的核心资产。 非法利用非法分发知识产权来非法获取或破坏市场，从而危害这些企业的存在。 随着生产和后期生产工作流逐渐迁移到云中，知识产权的黑色市场同样正在从物理媒体转向联机机制。
 
-## <a name="microsoft-and-federation-against-copyright-theft-fact"></a>针对版权窃取 (事实) 的 Microsoft 和联盟
+## <a name="microsoft-and-federation-against-copyright-theft-fact"></a>Microsoft 和联合防止版权盗窃 (FACT) 
 
-若要在 Microsoft 将此类资产 entrust 到公共云时对其进行保护的 Microsoft 承诺，microsoft Azure 在英国的联合身份验证与版权窃取 (事实) 进行了认证。 事实证明基于 ISO 27001，重点关注物理和数字安全、员工屏蔽和培训以及访问控制。 事实内容保护和安全计划包含跨法律实施、技术合作伙伴和行业关联的专业技能，以抵御版权侵权和内容盗窃，如对等共享、非法光盘复制和信号失窃。
+为了强调 Microsoft 在将此类资产委托给公共云时保护客户的承诺，Microsoft Azure 已通过英国防止版权盗窃联盟 (FACT) 认证。 FACT 认证基于 ISO 27001，侧重于物理和数字安全、员工筛选和培训以及访问控制。 FACT 内容保护和安全计划包含各个执法机构、技术合作伙伴和行业协会的专业知识，以防止版权侵犯和内容盗窃，例如对等共享、非法光盘复制和信号盗窃。
 
-根据 Microsoft 对事实审核的自愿提交，事实审核了已认证的 Azure。 Azure 是第一个实现事实证明的多租户公共云服务，它将添加到 Azure 的与媒体相关的认证组合中，包括 CDSA 认证和 MPAA 的正式评估。
+根据 Microsoft 向 FACT 审核的自愿提交，FACT 审核员对 Azure 进行认证。 Azure 是首个实现 FACT 认证的多租户公共云服务，添加到 Azure 的媒体相关认证组合中，包括 CDSA 认证和 MPAA 的正式评估。
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
 
@@ -41,24 +41,24 @@ ms.locfileid: "49506638"
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
-每年续订 Azure 认证： [AZURE 事实证书](https://aka.ms/azurefactcert)
+Azure 认证每年续订一次 [：Azure FACT 证书](https://aka.ms/azurefactcert)
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
-**为什么这一点很重要？**
+**为什么 FACT 很重要？**
 
-内容安全对于功能胶片和电视开发至关重要，因为工作流中有多个点可泄露或被盗。 Dailies、粗略剪切和视觉效果只是在正常的胶片生产周期中公开的部分材料，而对 blockbuster 项目的安全漏洞影响可能会达到数十百万美元。 通过传递事实审核，Azure 可帮助防止对运动图片和电视资产进行非法分发和销售，从而为客户提供了另一层保障。
+内容安全对于功能电影和电视开发至关重要，因为工作流中有多个点可能会泄露或被盗数字资产。 在普通的电影制作周期中，光栅、粗略剪切和视觉效果只是一些公开的材料，而安全漏洞对电影电影项目的方框影响可能达到数千万美元。 通过 FACT 审核，Azure 通过有助于防止非法分发和出售电影和电视资产，为客户提供另一层保证。
 
-**我的组织是否仍需要进行事实审核，或者我们是否可以使用 Azure 审核？**
+**我的组织是否仍然需要接受 FACT 审核，或者我们能否使用 Azure 审核？**
 
-符合事实是自愿的，但 Microsoft 选择了执行独立的评估，以便媒体客户可以放心地了解 Azure 的内容安全和保护功能。 但是，客户的各个云环境不受 Azure 管理，因此可能会受到单个审核的最佳解决的其他法规的制约。
+遵守 FACT 是自愿的，但 Microsoft 选择执行独立评估，以便媒体客户可以确信 Azure 的内容安全和保护功能。 但是，客户的个别云环境不受 Azure 管理，因此可能需要遵守其他法规，最好通过个人审核解决。
 
 ## <a name="resources"></a>资源
 
-- 针对版权窃取的联盟
+- 联合防止版权盗窃
 - [事实安全认证计划](https://go.microsoft.com/fwlink/?linkid=2099508)
-- [Azure 媒体服务的 CDSA 认证](https://aka.ms/cdsa-cert)
-- [Azure ISO 27001 证书](https://aka.ms/Azure-BSI-Cert)
+- [CDSA 认证Azure 媒体服务](https://aka.ms/cdsa-cert)
+- [Azure ISO 27001 认证](https://aka.ms/Azure-BSI-Cert)
 - [MPAA 评估](offering-mpaa.md)
 - [Azure 对 CSA CAIQ 的响应 3.0.1 版](https://aka.ms/csacaiqresponses)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

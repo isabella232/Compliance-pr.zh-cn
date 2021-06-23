@@ -1,6 +1,6 @@
 ---
 title: 人力资源概述
-description: 了解 Microsoft 365 中的人力资源
+description: 了解企业中的Microsoft 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 69f23af93f6b41563fb3694436bf7272ac2d5b75
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 1dc9e54b7ebbf27dc77a1814a5411002ca75ad4c
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497181"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088611"
 ---
 # <a name="human-resources-overview"></a>人力资源概述
 
@@ -44,7 +44,7 @@ Microsoft 对所有员工、员工和临时员工都遵循严格的人员筛选�
 
 ## <a name="what-additional-checks-are-performed-for-those-who-manage-cloud-services"></a>对管理云服务的人执行了哪些额外的检查？
 
-除了雇佣前筛选之外，在美国提供与 Microsoft 365 相关的服务的 Microsoft 员工还必须接受 Microsoft 云背景调查，这是访问 Microsoft 365 系统的先决条件。 背景检查的要求各不相同，以遵守适用的法律和服务交付模型。 Microsoft 云背景检查的结果存储在员工数据库中，并且至少每两年续订一次。 如果 Microsoft 云背景检查过期且员工没有续订它，则 Microsoft 365 服务的访问权限将被吊销，在 Microsoft 云背景检查完成之前不再可用。 同样，当与 Microsoft 的雇佣关系终止时，将立即撤消所有访问权限。
+除了雇佣前筛选之外，在美国提供Microsoft 365相关服务的 Microsoft 员工还必须接受 Microsoft 云背景调查，这是访问 Microsoft 365 系统的先决条件。 背景检查的要求各不相同，以遵守适用的法律和服务交付模型。 Microsoft 云背景检查的结果存储在员工数据库中，并且至少每两年续订一次。 如果 Microsoft 云后台检查过期且员工未续订它，则 Microsoft 365 服务的访问权限将被吊销，并且直到完成 Microsoft 云后台检查后才能使用。 同样，当与 Microsoft 的雇佣关系终止时，将立即撤消所有访问权限。
 
 ## <a name="how-does-microsoft-ensure-employees-maintain-sufficient-skillset-and-knowledge-to-perform-their-responsibilities-and-follow-microsoft-policies"></a>Microsoft 如何确保员工保持足够的技能集和知识来履行他们的责任并遵循 Microsoft 政策？
 
@@ -60,7 +60,7 @@ Microsoft 对所有员工、员工和临时员工都遵循严格的人员筛选�
 
 ## <a name="how-does-microsoft-ensure-third-party-suppliers-meet-the-same-personnel-requirements-as-microsoft-employees"></a>Microsoft 如何确保第三方供应商满足与 Microsoft 员工相同的人员要求？
 
-Microsoft 365 要求第三方供应商在 MSSA (主供应商服务) 。 本协议要求供应商遵守 Microsoft 策略和程序，包括人员安全策略和过程。 Microsoft 365 通过直接跟踪筛选结果来监视第三方人员的屏蔽要求的合规性。 Microsoft 要求供应商直接向 Microsoft 提交第三方人员的筛选结果。
+Microsoft 365 MSSA 要求第三方供应商与 MSSA (签订主供应商服务) 。 本协议要求供应商遵守 Microsoft 策略和程序，包括人员安全策略和过程。 Microsoft 365直接跟踪筛选结果，监视第三方人员是否符合屏蔽要求。 Microsoft 要求供应商直接向 Microsoft 提交第三方人员的筛选结果。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 
@@ -69,7 +69,7 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|  
 | [FedRAMP (Office 365) ](https://compliance.microsoft.com/compliancemanager) | AT-2：安全意识 <br> AT-3：基于角色的安全培训 <br> AT-4：安全培训记录 <br> PS-3：人员屏蔽 <br> PS-4：人员终止 <br> PS-5：人员转移 <br> PS-7：第三方人员安全 | 2020 年 9 月 24 日 |
-| [OFFICE 365 (ISO 27001/27002) ](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=d7864d4f-e053-4cc4-a964-fa526d07c3be&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=8ee1e46b-2ada-4e7b-bb7d-4c55a8cb6fcd&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.7：人力资源安全 | 2020 年 2 月 22 日 |
-| [OFFICE 365 (ISO 27017) ](https://aka.ms/o365iso) <br><br> [适用性声明](https://aka.ms/o365isosoa) <br> [认证](https://aka.ms/Office365ISO27017Cert) | A.7：人力资源安全 | 2020 年 2 月 22 日 |
+| [ISO 27001/27002 (Office 365) ](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.7：人力资源安全 | 2021 年 4 月 20 日 |
+| [ISO 27017 (Office 365) ](https://aka.ms/o365iso) <br><br> [适用性声明](https://aka.ms/o365isosoa) <br> [认证](https://aka.ms/Office365ISO27017Cert) | A.7：人力资源安全 | 2021 年 4 月 20 日 |
 | [SOC 1 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-08：后台检查 <br> CA-43：帐户吊销 | 2020 年 12 月 24 日 |
 | [SOC 2 (Office 365) ](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-07：SBC 业务 (标准)  <br> CA-08：后台检查 <br> CA-43：帐户吊销 | 2020 年 12 月 24 日 |
