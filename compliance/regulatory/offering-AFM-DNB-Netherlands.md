@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a7f6f07a2dd58d4a99559488c3f9d3b92d4fe195
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 13a628ee832079bd0402e5aec9969ec6e1f14cb4
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121801"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089836"
 ---
 # <a name="dutch-authority-for-the-financial-markets-and-the-central-bank-of-the-netherlands"></a>荷兰金融市场管理局和荷兰央行
 
@@ -29,9 +29,9 @@ ms.locfileid: "50121801"
 
 荷兰的主要金融监管部门是[荷兰金融市场管理局](https://afm.nl/en)（[Autoriteit Financiële Markten，简称 AFM](https://afm.nl/)）和[荷兰央行](https://www.dnb.nl/en/home/index.jsp)（[De Nederlandsche Bank，简称 DNB](https://www.dnb.nl/home/)）。 AFM 与美国的 SEC 相当，是储蓄、贷款、投资和保险市场的独立监管机构。 荷兰央行属于欧洲央行系统，决定并实施货币政策，并对荷兰金融组织进行审慎监管。  
   
-这两家机构与欧洲银行管理局 (EBA) 协同行动，“欧洲银行管理局是欧盟一家独立机构，致力于确保在整个欧洲银行业进行高效且一致的审慎监管。” 为实现这一目的，EBA 就欧盟境内金融机构使用云计算提出了一个综合方法：[Recommendations on outsourcing to cloud services providers](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf )（对外包给云服务提供商的建议）。  
+这两家机构与欧洲银行管理局 (EBA) 协同行动，“欧洲银行管理局是欧盟一家独立机构，致力于确保在整个欧洲银行业进行高效且一致的审慎监管。” 为实现这一目的，EBA 就欧盟境内金融机构使用云计算大致提出了一个全面方法：[Recommendations on outsourcing to cloud services providers](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf )（对外包给云服务提供商的建议）。  
   
-通常，法律和准则支持以下观点：涉及第三方服务的云计算可以视为一种外包形式，荷兰金融机构在将业务活动迁移到云之前必须解决相关风险。 具体包括：
+通常，法律和准则支持以下观点：涉及第三方服务的云计算可以视为一种外包形式，荷兰金融机构在将业务活动迁移到云之前必须解决相关风险。这些包括：
 
 - 荷兰立法机构 2018 年颁布的《金融管理法》(FSA)（[荷兰语](https://wetten.overheid.nl/BWBR0020368/2018-02-09)和[英语](https://www.toezicht.dnb.nl/en/binaries/51-217291.pdf)），其中规定了金融机构控制与外包相关风险的条件，并确保其外包不会妨碍法规监管。
 - DNB 发布《循环云计算》（[荷兰语](https://www.toezicht.dnb.nl/binaries/50-224828.pdf)和[英语](https://www.toezicht.dnb.nl/en/binaries/51-224828.pdf)）中，要求受监管的荷兰机构在参与云计算之前，必须告知 DNB 其预期的外包安排，以确保运营过程和风险得到控制。
@@ -70,9 +70,9 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 **是否需获得监管批准？**
 
-否。 但是，《循环云计算》指出，DNB 需要受监管的荷兰机构在参与云计算之前，提交一份关于潜在外包安排的风险分析报告。
+不，《循环云计算》指出，DNB 需要受监管的荷兰机构在参与云计算之前，提交一份关于潜在外包安排的风险分析报告。
 
-**在与云服务提供商签订的合同中是否必须包含某些强制性条款？**
+**在与云服务提供商签订的合同中是否必须包含所有强制性条款？**
 
 是。 云合同中包含的条款和外包任务取决于金融机构的类型。 清单第 2 部分列出了 《欧盟委员会委托监管条例 2017/565》第 31 款所述的要求。
 

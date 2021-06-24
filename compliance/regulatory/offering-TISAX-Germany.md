@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 420f95b0a7f7625ff10d76baf5f1c9d9efb69c6a
-ms.sourcegitcommit: 2b347c9b778ac9b6450daf20fdf8eb74ed14cbbd
+ms.openlocfilehash: 9d228a02e9c2eaa268d36a8948dbcbb417580f0c
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51002192"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089776"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>德国可信信息安全评估交换机制 (TISAX)
 
@@ -64,7 +64,7 @@ Microsoft 提供对云服务的自我评估，审核员在此基础上执行了�
 
 **为什么看不到 Microsoft TISAX 认证副本？**
 
-ENX 仅向已通过 ENX 门户注册的行业代表提供认证确认。 有关如何进行的详细信息，请参阅上面的“审核、报告和认证”部分。
+ENX 仅向已通过 ENX 门户注册的行业代表提供认证确认。 有关如何进行的详细信息，请参阅上面的“审核、报告、认证”部分。
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

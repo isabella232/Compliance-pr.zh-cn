@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 638096e88e5931a7468fee9b33200d8fc17702ec
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 8d4dc89e8733db718491fcaa7c69b51e7b6d74f2
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121001"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089846"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>针对 GDPR 和 CCPA 的 Azure 数据主体请求
 
@@ -33,7 +33,7 @@ ms.locfileid: "50121001"
 
 同样，加州消费者隐私法案 (CCPA) 规定了加州消费者的隐私权和义务，包括与 GDPR 的数据主体权利类似的权利，例如删除、访问和接收（可移植性）其个人信息的权利。 CCPA 还就某些披露规定了在选择行使权限时防止歧视的保障措施，并就分类为“销售”的特定数据传输提出了“选择退出/选择加入”要求。 “出售”广义定义为包含共享数据来换取有值对价的行为。 有关 CCPA 的详细信息，请参阅[加州消费者隐私法案](offering-ccpa.md)和[加州消费者隐私法案常见问题解答](ccpa-faq.md)。
 
-本指南介绍了如何使用 Microsoft 产品、服务和管理工具来帮助我们的控制者客户查找和处理个人数据以响应 DSR。 具体而言，这包括如何查找、访问和处理驻留在 Microsoft 云中的个人数据。 以下是本指南中所述的过程的快速概览：
+本指南讨论了如何使用 Microsoft 产品、服务和管理工具帮助我们的控制者客户查找和操作个人数据以响应 DSR。具体而言，这包括如何查找、访问和操作驻留在 Microsoft 云中的个人数据。下面是本指南中所列流程的快速概述：
 
 - **发现：** 使用搜索和发现工具更轻松地查找可能是 DSR 主体的客户的数据。 收集了潜在的响应性文档后，你便可以执行下列步骤中所述的一项或多项 DSR 操作来响应请求。 或者，你也可以确定请求是否不符合组织的 DSR 响应指南。
 - **访问：** 检索驻留在 Microsoft 云中的个人数据，如果提出请求，还制作可供数据主体使用的个人数据副本。
@@ -83,13 +83,13 @@ Microsoft 让你能够通过 Azure 门户访问、删除和导出某些客户数
 
 ### <a name="step-1-discover"></a>步骤 1：发现
 
-在对 DSR 做出响应时，第一步是查找作为请求主体的个人数据。 此第一步 — 查找并审查所涉及的个人数据 — 将帮助你确定 DSR 是否符合组织有关接受或拒绝 DSR 的要求。 例如，查找并审查所涉及的个人数据之后，你可能会确定该请求不符合组织的要求，因为这样做可能会对他人的权利和自由产生不利影响。
+响应 DSR 的第一步是查找作为请求主体的个人数据。这第一步（查找和审查所涉及的个人数据）将帮助你确定 DSR 是否符合组织有关接受或拒绝 DSR 的要求。例如，在查找并审查所涉及的个人数据后，你可以确定请求不符合组织的要求，因为这样做可能会对他人的权利和自由产生负面影响。
 
 找到数据后，可执行特定操作以满足数据主体的请求。
 
-[Azure Active Directory](https://azure.microsoft.com/services/active-directory/) 是 Microsoft 基于云的多租户目录和标识管理服务。 你可以使用 [Azure 门户](https://portal.azure.com/)找到最终用户的身份信息，例如在 [Azure Active Directory](https://azure.microsoft.com/services/active-directory/) (AAD) 环境中包含个人数据的客户和员工的用户配置文件和用户工作信息。
+[Azure Active Directory](https://azure.microsoft.com/services/active-directory/) 是 Microsoft 的基于云的、多租户目录和标识管理服务。你可以使用 [Azure 门户](https://portal.azure.com/)找到最终用户的身份信息，例如在 [Azure Active Directory](https://azure.microsoft.com/services/active-directory/) (AAD) 环境中包含个人数据的客户和员工的用户配置文件和用户工作信息。
 
-这在你想要查找或更改特定用户的个人数据时尤其有用。 你还可以添加或更改用户配置文件和工作信息。 必须使用作为该目录的全局管理员的帐户进行登录。
+这在你想要查找或更改特定用户的个人数据时尤其有用。还可以添加或更改用户配置文件和工作信息。必须使用作为该目录的全局管理员的帐户进行登录。
 
 #### <a name="how-do-i-locate-or-view-user-profile-and-work-information"></a>如何查找或查看用户配置文件和工作信息？
 
@@ -121,7 +121,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 #### <a name="azure-active-directory"></a>Azure Active Directory
 
-Microsoft 提供了门户和产品内体验，让企业客户的租户管理员能够管理 DSR 访问请求。 DSR 访问请求允许访问用户的个人数据，包括：(a) 最终用户的身份信息以及 (b) 系统生成的日志。
+Microsoft 提供了门户和产品内体验，让企业客户的租户管理员能够管理 DSR 访问请求。DSR 访问请求允许访问用户的个人数据，包括：(a) 最终用户的身份信息，以及 (b) 系统生成日志。
 
 #### <a name="service-specific-interfaces"></a>特定于服务的界面
 
@@ -129,7 +129,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 ### <a name="step-3-rectify"></a>步骤 3：纠正
 
-如果数据主体要求你纠正驻留在你的组织数据中的个人数据，你和你的组织需要确定是否可以接受该请求。 纠正数据可能需要进行多种操作，如编辑、修订个人数据，或将个人数据从文档或其他类型或项目中删除。 下面提供了对 Microsoft 支持和 FastTrack 数据执行此操作的最便利的方法。
+如果数据主体要求你纠正驻留在你组织的数据中的个人数据，你和你的组织需要确定是否接受请求。纠正数据可能包括以下操作：编辑、修订个人数据或从文档或其他项目类型中移除个人数据。下面提供了对 Microsoft 支持和 FastTrack 数据执行此操作的最便利的方法。
 
 #### <a name="azure-active-directory"></a>Azure Active Directory
 
@@ -137,7 +137,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 ##### <a name="azure-active-directory-rectifycorrect-inaccurate-or-incomplete-personal-data"></a>Azure Active Directory：纠正/更正不准确或不完整的个人数据
 
-你可以使用 [Azure 门户](https://portal.azure.com/)在 [Azure Active Directory](https://azure.microsoft.com/services/active-directory/) (AAD) 环境中更正、更新或删除有关最终用户的身份信息，例如包含个人数据的客户和员工用户配置文件，如用户的姓名、工作职务、地址或电话号码。 必须使用作为该目录的全局管理员的帐户进行登录。
+你可以使用 [Azure 门户](https://portal.azure.com/)在 [Azure Active Directory](https://azure.microsoft.com/services/active-directory/) (AAD) 环境中更正、更新或删除有关最终用户的身份信息，例如包含个人数据的客户和员工用户配置文件，如用户的姓名、工作职务、地址或电话号码。必须使用作为该目录的全局管理员的帐户进行登录。
 
 ###### <a name="how-do-i-correct-or-update-user-profile-and-work-information-in-azure-active-directory"></a>如何在 Azure Active Directory 中更正或更新用户配置文件和工作信息？
 
@@ -165,7 +165,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 ### <a name="step-4-restrict"></a>步骤 4：限制
 
-数据主体可能要求限制对其个人数据的处理。 我们同时提供了 Azure 门户和预先存在的应用程序编程接口 (API) 或用户界面 (UI)。 这些体验为企业客户的租户管理员提供了一种通过数据导出与数据删除相结合来管理此类 DSR 的能力。 客户可以 (1) 导出用户的个人数据的电子副本，其中包括 (a) 帐户、(b) 系统生成的日志和 (c) 关联的日志，然后 (2) 删除帐户和位于 Microsoft 系统中的关联数据。
+数据主体可能会请求限制其个人数据的处理。我们提供 Azure 门户和预先存在的应用程序编程接口 (API) 或用户界面 (UI)。这些体验让企业客户的租户管理员能够通过数据导出和数据删除组合来管理此类 DSR。客户可 (1) 导出用户个人数据的电子副本，包括 (a) 帐户，(b) 系统生成日志，和 (c) 关联日志，然后 (2) 删除帐户以及驻留在 Microsoft 系统中的关联数据。
 
 ### <a name="step-5-delete"></a>步骤 5：删除
 
@@ -184,7 +184,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 1. 转到 Azure 门户并找到用户。
 
-2. 删除用户。 最初删除用户时，用户的帐户将发送到回收站。 **此时，用户已软删除，这表示帐户已禁用，但并未从 Azure Active Directory 中擦除。**
+2. 删除用户。你最初删除用户时，用户的帐户将发送到回收站。**此时，用户已软删除，这表示帐户已禁用，但并未从 Azure Active Directory 擦除。**
 
 3. 转到“最近已删除的用户”列表并永久删除用户。**此时，该用户将永久删除（也称为硬删除），这表示帐户已从 Azure Active Directory 擦除。**
 
@@ -211,7 +211,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 4. 再次选择同一用户，在命令栏中选择“ **永久删除**”，然后在询问你是否确定时在框中选择“ **是**” 。
 
 >[!IMPORTANT]  
->请注意，通过单击“**是**”，将永久且不可挽回地删除用户和所有关联的数据及系统生成日志。 如果错误地执行了该操作，必须手动将用户添加回租户。 关联的数据和系统生成日志是不可恢复的。
+>请注意，单击 **“是”** 将永久且不可挽回地删除用户和所有关联的数据及系统生成日志。如果错误地执行了该操作，必须手动将用户添加回租户。关联的数据和系统生成日志是不可恢复的。
 
    ![查看用户工作信息](../media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
 
@@ -221,7 +221,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 ## <a name="step-6-export"></a>步骤 6：导出
 
-“数据可携带性权限”允许数据主体可请求为个人数据保存电子格式的副本（这是一种“结构化、常用、机器可读、可互操作的格式"），该副本可传输给另一个数据控制者。 Azure 通过让组织以本机 JSON 格式将数据导出到指定 Azure 存储容器来支持此操作。
+“数据移植权限”允许数据主体以电子格式请求个人数据副本（这是一种“结构化、常用、机器可读、可互操作的格式”），该副本可传输到另一个数据控制者。Azure 支持此操作，让你的组织可通过本机 JSON 格式将数据导出到指定 Azure 存储容器。
 
 >[!IMPORTANT]
 >你必须是租户管理员才能从租户中导出用户数据。
@@ -243,18 +243,18 @@ Microsoft 还让你能够访问、删除和导出有关 Azure 用户使用情况
 
 ### <a name="executing-dsrs-against-system-generated-logs"></a>针对系统生成日志执行 DSR
 
-Microsoft 让你能够通过 Azure 门户访问、删除和导出某些系统生成日志，也可以直接通过特定服务的编程接口或用户界面进行。 详细信息在各个服务的参考文档中进行了介绍。
+Microsoft 让你能够通过 Azure 门户访问、删除和导出某些系统生成日志，也可以直接通过特定服务的编程接口或用户界面进行。详细信息在各个服务的参考文档中进行了介绍。
 
 >[!IMPORTANT]  
-> 支持产品内 DSR 的服务要求直接使用服务的应用程序编程接口 (API) 或用户界面 (UI)。 因此，**除了在 Azure 门户内执行 DSR 之外，还必须执行产品内 DSR，以便完成针对给定数据主体的完整请求。请参考特定服务的参考文档以了解更多详细信息。**
+> 支持产品内 DSR 的服务要求直接使用服务的应用程序编程接口 (API) 或用户界面 (UI)。因此，**除了在 Azure 门户内执行 DSR 之外，还必须执行产品内 DSR，以便完成针对给定数据主体的完整请求。请参考特定服务的参考文档以了解更多详细信息。**
 
 ### <a name="step-1-access"></a>步骤 1：访问
 
-租户管理员是组织内唯一可以访问与特定用户的 Azure 使用情况相关联的系统生成日志的人员。 为访问请求检索到的数据将以机器可读格式提供，并在允许用户知道数据与哪些服务关联的文件中提供。 如上所述，检索到的数据不包括可能会危及服务安全性的数据。
+租户管理员是组织内唯一可以访问与 Azure 的特定用户使用情况相关联的系统生成日志的人员。为访问请求检索到的数据将以机器可读格式提供，并在允许用户知道数据与哪些服务关联的文件中提供。如上所述，检索到的数据不包括可能会危及服务安全性的数据。
 
 #### <a name="azure-active-directory"></a>Azure Active Directory
 
-Microsoft 提供了门户和产品内体验，让企业客户的租户管理员能够管理访问请求。 访问请求将允许访问用户的个人数据，包括：(a) 最终用户的身份信息以及 (b) 服务生成的日志。 该过程与第 1 部分步骤 2“访问”中的“Azure Active Directory”部分描述的流程相同。
+Microsoft 提供了门户和产品内体验，让企业客户的租户管理员能够管理访问请求。访问请求允许访问用户的个人数据，包括：(a) 最终用户的身份信息，以及 (b) 系统生成日志。该流程与第 1 部分“步骤 2：访问”的“Azure Active Directory”部分中所述的流程相同。
 
 #### <a name="service-specific-interfaces"></a>特定于服务的界面
 
@@ -266,7 +266,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 #### <a name="azure-active-directory"></a>Azure Active Directory
 
-Microsoft 提供了门户和产品内体验，让企业客户的租户管理员能够管理 DSR 删除请求。 DSR 删除请求遵循第 1 部分“步骤 5：删除”中的“通过 Azure 门户删除用户和关联数据”部分所述的流程。
+Microsoft 提供了门户和产品内体验，让企业客户的租户管理员能够管理 DSR 删除请求。DSR 删除请求遵循第 1 部分“步骤 5：删除”中的“Azure 门户”部分中所述的流程。
 
 #### <a name="service-specific-interfaces"></a>特定于服务的界面
 
@@ -274,7 +274,7 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 ### <a name="step-3-export"></a>步骤 3：导出
 
-租户管理员是组织内唯一可以访问与特定用户的 Azure 使用情况相关联的系统生成日志的人员。 为导出请求检索到的数据将以机器可读格式提供，并在允许用户知道数据与哪些服务关联的文件中提供。 如上所述，检索到的数据不包括可能会危及服务安全性或稳定性的数据。
+租户管理员是组织内唯一可以访问与 Azure 的特定用户使用情况相关联的系统生成日志的人员。为导出请求检索到的数据将以机器可读格式提供，并在允许用户知道数据与哪些服务关联的文件中提供。如上所述，检索到的数据不包括可能会危及服务安全性或稳定性的数据。
 
 #### <a name="export-system-generated-logs-using-the-azure-portal"></a>使用 Azure 门户导出系统生成日志
 
@@ -301,12 +301,12 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 - **用户。** 键入请求导出的 Azure Active Directory 用户的电子邮件地址。
 - **订阅。** 选择要用于报告资源使用情况和为服务开具帐单的帐户。这也是 Azure 存储帐户所在的位置。
-- **存储帐户。** 选择 Azure 存储的位置 (Blob)。 有关详细信息，请参阅 [Microsoft Azure 存储简介 — Blob 存储](/azure/storage/common/storage-introduction#blob-storage)一文。
+- **存储帐户。** 选择 Azure 存储 (Blob) 的位置。有关详细信息，请参阅 [《Microsoft Azure 存储简介 — Blob 存储》](/azure/storage/common/storage-introduction#blob-storage)一文。
 - **容器。** 创建新的（或选择现有的）容器作为存放用户导出的隐私数据的存储位置。
 
-4. 选择“创建”。
+4. 选择 **创建**。
 
-导出请求进入 **挂起** 状态。 你可以在 **“用户隐私”—“概述”** 边栏选项卡上查看报告状态。
+导出请求将进入“**待定**”状态。可在“**用户隐私 — 概述**”边栏选项卡上查看报告状态。
 
 >[!IMPORTANT]  
 >由于个人数据可能来自多个系统，因此导出过程可能需要一个月才能完成。
@@ -317,8 +317,8 @@ Microsoft 让你能够直接通过特定服务的预先存在的应用程序编�
 
 ### <a name="notify-about-exporting-or-deleting-issues"></a>通知导出或删除问题
 
-如果在从 Azure 门户导出或删除数据时遇到问题，请转到 Azure 门户“帮助 + 支持”边栏选项卡，并在“订阅管理 > 其他安全与合规请求 > 隐私”边栏选项卡和“GDPR 请求”下提交新票证。
+如果在从 Azure 门户导出或删除数据时遇到问题，请转到 Azure 门户“**帮助 + 支持**”边栏选项卡，并在“**订阅管理”>“订阅的隐私与合规请求”>“隐私边栏选项卡和 GDPR 请求**”下提交新票证。
 
-## <a name="learn-more"></a>了解更多
+## <a name="learn-more"></a>了解详细信息
 
 - [Microsoft 信任中心](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

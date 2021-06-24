@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a04e5b7b0a292cfe419118085d387051e0c56e48
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 9995a237a82d41bfbb6740dbbe448f1ef3ae750a
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497776"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088991"
 ---
 # <a name="isoiec-20000-12011-information-technology-service-management"></a>ISO/IEC 20000-1:2011 信息技术服务管理
 
 ## <a name="isoiec-20000-12011-overview"></a>ISO/IEC 20000-1:2011 概述
 
-国际标准化组织 (ISO) 是一个独立的非政府组织，也是全球最大的自愿性国际标准开发者联盟。 国际电工委员会 (IEC) 是世界领导组织，负责准备与发布有关电气、电子和相关技术领域中的国际标准。  
+国际标准化组织 (ISO) 是一个独立的非政府组织，是全球最大的自愿性国际标准开发者联盟。 国际电工委员会 (IEC) 是世界领导组织，负责制定和发布有关电气、电子和相关技术领域的国际标准。  
   
 ISO 20000-1:2011 于 2005 年由 ISO/IEC 联合小组委员会发布，并于 2011 年修订，是制定、实施、运行、监测和审查信息技术服务管理系统 (SMS) 的国际标准。 它是 ISO 20000 系列中唯一形成正式认证的标准。 该标准基于设计、转换、交付和改进服务的要求，以满足商定的服务要求，并为客户和服务提供商提供价值。 ISO 20000-1 可帮助组织向客户保证他们的服务要求将得到满足。
 

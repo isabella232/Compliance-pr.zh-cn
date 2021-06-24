@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d542698eff82fa8f24a32d9f831553a9807609ce
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 43d95a4bedeca768dd6e9bf8bb4e38655382bd05
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505944"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089696"
 ---
 # <a name="korea-information-security-management-system-k-isms"></a>韩国信息安全管理系统 (K-ISMS)
 

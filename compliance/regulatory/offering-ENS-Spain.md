@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bf4ea5afbcc44a7e59e66d5d74c9b87123b6ded8
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 7079147a9ee952f97a4ad5b9d8df0cfcf9d494a2
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49505959"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089816"
 ---
 # <a name="spain-esquema-nacional-de-seguridad-ens-high-level-security-measures"></a>西班牙 Esquema Nacional de Seguridad (ENS) 高级别安全措施
 
@@ -53,7 +53,7 @@ Microsoft Azure 和 Microsoft Office 365 已通过独立审计机构 BDO 的严�
 ### <a name="azure"></a>Azure
 
 - [Azure 国家/地区安全框架 ENS 认证](https://aka.ms/AzureNationalSecurityFrameworkENSCertificate)
-- [Azure 西班牙语国家/地区安全框架 (ENS) 审核报告](https://aka.ms/AzureNationalSecurityFrameworkAuditReport)
+- [Azure 西班牙国家/地区安全框架 (ENS) 审核报告](https://aka.ms/AzureNationalSecurityFrameworkAuditReport)
 - [Azure 审核报告 ENS（西班牙语）](https://aka.ms/AzureInformeAuditoriaENS)
 - [Azure 国家/地区安全框架证书 ENS（西班牙语）](https://aka.ms/AzureNationalSecurityFrameworkCertificadoENS)
 
