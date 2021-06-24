@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 27f0072091520317a6780e00331e0997022941a0
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 88e85b1060374932320a4191c4eb4b2b665fe986
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506628"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088941"
 ---
 # <a name="center-for-financial-industry-information-systems-fisc"></a>金融行业信息系统中心 (FISC)
 
@@ -37,7 +37,7 @@ ms.locfileid: "49506628"
 
 ## <a name="microsoft-and-fisc"></a>Microsoft 和 FISC
 
-Microsoft 聘请了外部评估人员来验证 Microsoft Azure、Dynamics 365 和 Microsoft Office 365 是否满足 FISC 金融机构计算机系统安全指南第 9 版修订版的要求。 Microsoft 在以下每个方面均提供了合规性证据：
+Microsoft 聘请了外部评估人员来验证 Microsoft Azure、Dynamics 365 和 Microsoft Office 365 是否满足 FISC 金融机构计算机系统安全指南第 9 版修订版的要求。Microsoft 在以下每个方面均提供了合规性证据：
 
 - 有关建筑物和计算机机房、电力、空调、数据中心及设施监视的数据中心指南。
 - 有关组织、培训、访问控制、系统开发和审核的操作指南。
