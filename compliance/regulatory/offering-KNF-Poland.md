@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7cb696db772f0bffda701c7ecadbb768c2575343
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 68d5fc100ac504eaed07f45dabbfe37c82e1c66a
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120151"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089585"
 ---
 # <a name="financial-supervision-authority-knf-poland"></a>波兰金融监管局 (KNF)
 
@@ -29,7 +29,7 @@ ms.locfileid: "50120151"
 
 [波兰金融监管局](https://www.knf.gov.pl/en/)（[Komisja Nadzoru Finansowego](https://www.knf.gov.pl/)，KNF）是波兰的金融监管机构，负责监管金融市场，包括银行业、资本市场、保险、养老金计划和电子货币机构。
 
-KNF与 [欧洲银行管理局](https://eba.europa.eu/about-us) (EBA) 协同行动，“欧洲银行管理局是欧盟的一家独立机构，致力于确保对整个欧洲银行业进行有效且一致的审慎监管。” 为实现这一目的，EBA 就欧盟境内金融机构使用云计算提出了一个综合方法：[Recommendations on outsourcing to cloud services providers](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362)（对外包给云服务提供商的建议）。
+KNF 与[欧洲银行管理局](https://eba.europa.eu/about-us) (EBA) 协同行动，“欧洲银行管理局是欧盟的一家独立机构，致力于确保对整个欧洲银行业进行有效且一致的审慎监管。” 为实现这一目的，EBA 就欧盟境内金融机构使用云计算提出了一个综合方法：[Recommendations on outsourcing to cloud services providers](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362)（对外包给云服务提供商的建议）。
 
 在将业务职能和数据移到云端时，波兰的金融机构应注意几项要求和指导方针：
 
@@ -37,7 +37,7 @@ KNF与 [欧洲银行管理局](https://eba.europa.eu/about-us) (EBA) 协同行�
 - KNF 办公室于 2017 年发布的这份公告，为打算将业务职能迁移到云的受监管机构提供了一份详细的清单和行动计划。
 - [建议 D](https://www.knf.gov.pl/knf/en/komponenty/img/Recommendation_D_44255.pdf)：银行对信息技术和 ICT 环境安全的管理定义了 KNF 对银行谨慎管理 IT 安全的预期，尤其是在管理风险方面。 KNF 针对最佳安全做法提供了 22 条建议，并为[保险公司](https://www.knf.gov.pl/knf/en/komponenty/img/knf_136041_KNF_IT_Guidelines_for_Insurance_41850.pdf)、[投资公司](https://www.knf.gov.pl/knf/en/komponenty/img/knf_158416_Wytyczne_IT_firmy_inwestycyjne_eng_47464.pdf)和[常规养老金公司](https://www.knf.gov.pl/knf/en/komponenty/img/knf_136042_KNF_IT_Guidelines_for_Pensions_41851.pdf)发布了类似指导。
 
-此外，金融机构使用云服务必须遵守波兰于 1997 年颁发的《个人数据保护法》，这是处理个人数据的基础。 为了与 GDPR 保持一致，该法案已于 2018 年底修订为《Act on Facilitation of Performance of Business Activity》（《企业活动绩效促进法》）（[波兰语](https://orka.sejm.gov.pl/proc7.nsf/ustawy/2606_u.htm)），并于 2019 月 1 月 1 日生效。
+此外，金融机构使用云服务必须遵守波兰于 1997 年颁布的《个人数据保护法》，这是处理个人数据的基础。 为了与 GDPR 保持一致，该法案已于 2018 年底修订为《Act on Facilitation of Performance of Business Activity》（《企业活动绩效促进法》）（[波兰语](https://orka.sejm.gov.pl/proc7.nsf/ustawy/2606_u.htm)），并于 2019 月 1 月 1 日生效。
 
 ## <a name="microsoft-and-the-knf"></a>Microsoft 和 KNF
 
@@ -67,7 +67,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 **是否需获得监管批准？**
 
-否。 但是，依据 1997 年《银行法》，如果服务提供商在欧洲经济区 (EEA) 境外，或者如果要在 EEA 境外实现外包操作，则在签订合同前，银行必须获得 KNF 批准。
+否。但是，依据 1997 年《银行法》，如果服务提供商在欧洲经济区 (EEA) 之外，或者如果要在 EEA 之外执行外包操作，则在签订合同前，银行必须获得 KNF 批准。
 
 **在与云服务提供商签订的合同中是否必须包含所有强制性条款？**
 

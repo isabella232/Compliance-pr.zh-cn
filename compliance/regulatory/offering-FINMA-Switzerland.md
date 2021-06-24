@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9aca1e5019967db6f73de245cd75ceba88e62e64
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 1b391d3f3cd748047e24bf9e82d3c267ca7425a7
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120871"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089545"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>瑞士金融市场监督管理局 (FINMA)
 
@@ -58,7 +58,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 **是否需获得监管批准？**
 
-否。 无需 FINMA 审批即可使用公共云计算，但始终必须遵循上述法规和准则中规定的要求。
+否。无需 FINMA 批准即可使用公共云计算，但必须始终遵守上述法规和准则中规定的要求。
 
 **在与云服务提供商签订的合同中是否必须包含所有强制性条款？**
 
