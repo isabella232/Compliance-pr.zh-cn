@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8ae3f837336b0eb79ded802d17df37fefe8d5245
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 978979483be55852b34a4ab65e6949a7f234c82d
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506225"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088491"
 ---
 # <a name="cloud-security-mark-gold-cs-gold-mark"></a>Cloud Security Mark Gold (CS Gold Mark)
 
@@ -29,7 +29,7 @@ ms.locfileid: "49506225"
 
 Cloud Security Mark (CS Mark) 是日本制定的第一个面向云服务提供商 (CSP) 的安全标准，它基于 ISO/IEC 27017，后者是信息安全控制方面的国际行为守则。 它基于有关云服务的 ISO/IEC 27002，阐述云计算中的信息安全性以及与云相关的信息安全控制措施的实施。
 
-CS Mark 经过日本信息安全审计协会 (JASA) 的认可，后者是一家由内务省和经济产业省建立的非盈利组织，用于加强日本的信息安全保护。 CS Mark 可推动云服务的使用并提供：
+CS Mark 由日本信息安全审计协会 (JASA) 认可，该协会一家由内务省和经济产业省建立的非盈利组织，旨在加强日本的信息安全保护。CS Mark 可推动云服务的使用并提供：
 
 - 常用标准，CSP 可根据这些标准消除有关云中数据的安全性和机密性以及使用云服务对业务的影响的常见客户顾虑。
 - 可验证的操作透明度以及客户在使用云服务时所面临的风险的可见性。
