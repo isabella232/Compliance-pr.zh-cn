@@ -20,12 +20,12 @@ ms.workload:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
 hideEdit: true
-ms.openlocfilehash: c27890900be85d951fb3a9dbfd11e4140ef955ff
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 5511888b34cd9e3eb7f4e76d86c91cea4f4924c6
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496214"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088521"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Azure DevOps Services 数据主体请求
 
@@ -43,11 +43,11 @@ ms.locfileid: "51496214"
 
 ## <a name="personal-data-we-collect"></a>我们收集的个人数据
 
-Microsoft 会从用户那里收集数据以操作和改进 Azure DevOps Services。 Azure DevOps Services 会收集两个类别的数据：客户数据和系统生成的日志。 客户数据包括 Azure DevOps Services 运行服务所需的可识别用户身份的事务和交互数据。 系统生成的日志包括针对每个产品领域和功能聚合的服务用法数据。
+Microsoft 收集来自用户的数据，以运行和改进 Azure DevOps Services。Azure DevOps Services 收集两类数据 — 客户数据和系统生成的日志。客户数据包括 Azure DevOps Services 运行服务所需的用户身份事务和交互式数据。系统生成的日志包括针对每个产品区域和功能所聚合的服务使用数据。
 
 ## <a name="delete-azure-devops-data"></a>删除 Azure DevOps 数据
 
-要删除关联的 Azure DevOps Services 客户数据并将在系统生成的日志中找到的个人身份数据匿名化处理，首先是关闭 Azure Active Directory (AAD) 标识帐户或 Microsoft 帐户 (MSA)。 Azure DevOps Services 用作记录系统，具有严格的完整性、可追溯性和审核规则。 这些现有义务将影响我们在 GDPR 中遵守的删除和保留义务。 关闭标识帐户不会修改、删除或更改与 Azure DevOps 组织中单个标识关联的项目和记录。 我们已确保在删除整个 Azure DevOps 组织时，在该组织中找到的所有相关个人身份数据和系统生成的日志都将从我们的系统中删除（在必要的 Azure DevOps 组织 30 天软删除时段之后删除）。
+删除关联的 Azure DevOps Services 客户数据并匿名化系统生成日志中发现的个人身份数据的第一步是关闭你的 Azure Active Directory (AAD) 身份帐户或 Microsoft 帐户 (MSA)。Azure DevOps Services 依赖于严格完整性、可追溯性和审核规则的记录系统。这些现有责任影响我们针对 GDPR 的删除和保留责任。关闭身份帐户不会修改、删除或更改 Azure DevOps 组织中与个人身份关联的项目和记录。我们确保当整个 Azure DevOps 组织被删除时，在该组织中发现的所有关联的个人身份数据和系统生成日志都将从我们的系统中删除（在必要的 Azure DevOps 组织 30 天软删除期后）。
 
 ## <a name="export-azure-devops-data"></a>导出 Azure DevOps 数据
 
@@ -59,7 +59,7 @@ Microsoft 会从用户那里收集数据以操作和改进 Azure DevOps Services
 
 ## <a name="export-or-delete-issues"></a>导出或删除问题
 
-对于 AAD 身份，如果在从 Azure 门户导出或删除数据时遇到问题，请转到 Azure 门户“帮助 + 支持”边栏选项卡，并在“订阅管理” > “其他安全与合规请求” > “隐私边栏选项卡和 GDPR 请求”下提交新票证。
+对于 AAD 身份，如果在从 Azure 门户导出或删除数据时遇到问题，请转到 Azure 门户“**帮助 + 支持**”边栏选项卡，并在“**订阅管理**” > “**订阅的隐私与合规请求**” > “**隐私边栏选项卡和 GDPR 请求**”下提交新票证。
 
 对于 MSA 身份，如果在从隐私请求网站导出数据时遇到问题，请登录到[隐私请求网站](https://www.microsoft.com/concern/privacyrequest-msa)，并通过请求 Web 窗体提交请求，以获取来自 Microsoft 隐私团队的帮助。
 
