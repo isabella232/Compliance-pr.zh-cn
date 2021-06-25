@@ -29,7 +29,7 @@ ms.locfileid: "53089585"
 
 [波兰金融监管局](https://www.knf.gov.pl/en/)（[Komisja Nadzoru Finansowego](https://www.knf.gov.pl/)，KNF）是波兰的金融监管机构，负责监管金融市场，包括银行业、资本市场、保险、养老金计划和电子货币机构。
 
-KNF 与[欧洲银行管理局](https://eba.europa.eu/about-us) (EBA) 协同行动，“欧洲银行管理局是欧盟的一家独立机构，致力于确保对整个欧洲银行业进行有效且一致的审慎监管。” 为实现这一目的，EBA 就欧盟境内金融机构使用云计算提出了一个综合方法：[Recommendations on outsourcing to cloud services providers](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362)（对外包给云服务提供商的建议）。
+KNF 与[欧洲银行管理局](https://eba.europa.eu/about-us)(EBA) 协同行动，“欧洲银行管理局是欧盟的一家独立机构，致力于确保对整个欧洲银行业进行有效且一致的审慎监管。” 为实现这一目的，EBA 就欧盟境内金融机构使用云计算提出了一个综合方法：[Recommendations on outsourcing to cloud services providers](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362)（对外包给云服务提供商的建议）。
 
 在将业务职能和数据移到云端时，波兰的金融机构应注意几项要求和指导方针：
 
@@ -67,7 +67,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 **是否需获得监管批准？**
 
-否。但是，依据 1997 年《银行法》，如果服务提供商在欧洲经济区 (EEA) 之外，或者如果要在 EEA 之外执行外包操作，则在签订合同前，银行必须获得 KNF 批准。
+否。但是，依据 1997 年《银行法》，如果服务提供商在欧洲经济区 (EEA) 之外，或者如果外包业务执行范围在 EEA 之外，则在签订合同前，银行必须获得 KNF 批准。
 
 **在与云服务提供商签订的合同中是否必须包含所有强制性条款？**
 
