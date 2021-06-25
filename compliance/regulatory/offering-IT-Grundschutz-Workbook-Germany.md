@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c079230e1fca6ea19248218a6ecd01eeb896fd87
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 36347cd4df74a87db2dba5977b5ed1270c29086e
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506613"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089806"
 ---
 # <a name="it-grundschutz-compliance-workbook"></a>IT-Grundschutz 合规性工作簿
 
 ## <a name="it-grundschutz-compliance-workbook-overview"></a>IT-Grundschutz 合规性工作簿概述
 
-为了帮助组织确定和实施有助于保护 IT 系统安全的措施，德国联邦信息安全局（Bundesamt für Sicherheit in der Informationstechnik，简称 BSI）创建了一套保护信息技术的基准标准（德语版 IT-Grundschutz）。 这些 BSI 标准包括：
+为了帮助组织确定和实施有助于保护 IT 系统安全的措施，德国联邦信息安全局（Bundesamt für Sicherheit in der Informationstechnik，简称 BSI）创建了一套保护信息技术的基准标准（德语版 IT-Grundschutz）。这些 BSI 标准包括：
 
 - 基于 ISO/IEC 27001 标准（BSI 标准 100-1）的信息安全管理系统 (ISMS)
 - IT-Grundschutz 方法，说明如何设置和运行 ISMS（BSI 标准 100-2）
@@ -53,7 +53,7 @@ ms.locfileid: "49506613"
 
 **我是否可以使用 Microsoft IT-Grundschutz 合规性工作簿来帮助组织遵守 IT-Grundschutz？**
 
-可以。 该工作簿旨在帮助 Microsoft 云德国客户使用 Microsoft 云德国服务基于 IT-Grundschutz 在其现有或计划的 ISO 27001 认证范围内实施 IT-Grundschutz 方法。
+是的。该工作簿旨在帮助 Microsoft 云德国客户使用 Microsoft 云德国服务基于 IT-Grundschutz 在其现有或计划的 ISO 27001 认证范围内实施 IT-Grundschutz 方法。
 
 **IT-Grundschutz Catalogues 和 C5 有何区别？**
 
@@ -61,7 +61,7 @@ ms.locfileid: "49506613"
 
 **什么是 Microsoft 云德国？**
 
-Microsoft 云德国实际位于德国，并遵守德国隐私法的要求，严格限制将个人数据传输到其他国家/地区，包括防止其他司法管辖区的机构访问可能违反国内法律的数据。 它提供 Azure 德国、公共云计算平台及其所有服务。
+Microsoft 云德国实际位于德国，并遵守德国隐私法的要求，严格限制将个人数据传输到其他国家/地区，包括防止其他司法管辖区的机构访问可能违反国内法律的数据。它提供 Azure 德国、公共云计算平台及其所有服务。
 
 ## <a name="resources"></a>资源
 

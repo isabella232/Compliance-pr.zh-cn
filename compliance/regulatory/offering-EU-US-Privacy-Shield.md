@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ae241dcff38ac764c2b57f559e95c079d6e59cd7
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: afe763500a4c8f3af261870af53216c6f6f95d39
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121231"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088951"
 ---
 # <a name="eu-us-and-swiss-us-privacy-shield-frameworks"></a>欧盟-美国及瑞士-美国隐私保护框架
 
 ## <a name="about-the-eu-us-and-swiss-us-privacy-shield-frameworks"></a>关于欧盟-美国及瑞士-美国隐私保护框架
 
-根据隐私保护计划，“[欧盟-美国及瑞士-美国隐私保护框架](https://www.privacyshield.gov/welcome)分别由美国商务部、欧盟委员会和瑞士政府设计，用于向大西洋两岸的公司提供一种机制，以在将个人数据从欧盟和瑞士传输到美国时遵守数据保护要求。” 美国商务部下属的国际贸易管理局负责管理美国隐私保护计划。
+根据隐私保护计划，[欧盟-美国及瑞士-美国隐私保护框架](https://www.privacyshield.gov/welcome)分别由美国商务部、欧盟委员会和瑞士政府设计，用于向大西洋两岸的公司提供一种机制，以在将个人数据从欧盟和瑞士传输到美国时遵守数据保护要求。” 美国商务部下属的国际贸易管理局负责管理美国隐私保护计划。
 
 欧盟和瑞士境外的个人数据传输受欧盟和瑞士法律管理，除非确保“充分”的保护水平，否则该法律通常会禁止将个人数据传输到 EEA 之外的国家/地区。 该隐私保护框架及标准合同条款（或[欧盟模式条款](offering-EU-Model-Clauses.md)）是两种旨在提供这种级别数据保护的机制。
 
@@ -35,7 +35,7 @@ ms.locfileid: "50121231"
 
 ## <a name="microsoft-and-the-eu-us-and-swiss-us-privacy-shield-frameworks"></a>Microsoft 与欧盟-美国和瑞士-美国隐私保护框架
 
-若要加入欧盟-美国和瑞士-美国隐私保护框架（这是一项自愿行动），总部设于美国境内的公司必须公开承诺遵守此框架要求，并向美国商务部提供自己的合规性证明。 一旦他们公开承诺并自行证明，该承诺就会按照美国法律强制执行。
+若要加入欧盟-美国和瑞士-美国隐私保护框架（这是一项自愿行动），总部设于美国境内的公司必须公开承诺遵守此框架要求，并向美国商务部提供自己的合规性证明。一旦他们公开承诺并自行证明，该承诺就会按照美国法律强制执行。一旦他们公开承诺并自行证明，该承诺就会按照美国法律强制执行。
 
 Microsoft 已公开承诺遵守[隐私保护原则](https://www.privacyshield.gov/article?id=Requirements-of-Participation)，并已自行证明符合其要求。 我们的参与适用于从欧盟、欧洲经济区 (EEA) 和瑞士传输到美国的由 Microsoft 处理的所有个人数据。 此外，除非客户选择不遵守 [Microsoft 在线服务条款](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)中的标准合同条款（也称为[欧盟模式条款](offering-eu-model-clauses.md)），否则 Microsoft 企业云服务的客户都可从这些条款中收益。
 
@@ -67,7 +67,7 @@ Azure 中的数据保护 — Azure 可为客户提供强大的数据安全性（
 
 **根据 Microsoft 隐私保护协议，哪些数据可从欧盟或瑞士传输到美国？**
 
-根据我们在线服务条款的规定，Microsoft 代表客户处理的个人数据可以在美国或 Microsoft 或其附属公司或分包商维护设施的任何其他国家/地区进行传输、存储和处理。 但是，来自欧盟的任何此类传输必须满足欧盟法律的要求。
+根据我们在线服务条款的规定，Microsoft 代表客户处理的个人数据可以在美国或 Microsoft 或其附属公司或分包商维护设施的任何其他国家/地区进行传输、存储和处理。但是，来自欧盟的任何此类传输必须满足欧盟法律的要求。
 
 将个人数据从欧盟传输到美国时：
 

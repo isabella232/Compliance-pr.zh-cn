@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: fabaa7487da2dae72cc2aa8aa050b43713154fbe
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 36e91e0f4e1f802da84c0b4a6ff5d82ced8ab029
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120931"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088851"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr-and-ccpa"></a>针对 GDPR 和 CCPA 的 Intune 数据主体请求
 
@@ -32,7 +32,7 @@ ms.locfileid: "50120931"
 
 同样，加州消费者隐私法案 (CCPA) 规定了加州消费者的隐私权和义务，包括与 GDPR 的数据主体权利类似的权利，例如删除、访问和接收（可移植性）其个人信息的权利。  CCPA 还就某些披露规定了在选择行使权限时防止歧视的保障措施，并就分类为“销售”的特定数据传输提出了“选择退出/选择加入”要求。 “出售”广义定义为包含共享数据来换取有值对价的行为。 有关 CCPA 的详细信息，请参阅[加州消费者隐私法案](offering-ccpa.md)和[加州消费者隐私法案常见问题解答](ccpa-faq.md)。
 
-本指南介绍了如何使用 Microsoft 产品、服务和管理工具来帮助我们的控制者客户查找和处理个人数据以响应 DSR。 具体而言，本指南包括如何查找、访问和处理驻留在 Microsoft 云中的个人数据或个人信息。 以下是本指南中所述的过程的快速概览：
+本指南介绍了如何使用 Microsoft 产品、服务和管理工具来帮助我们的控制者客户查找和处理个人数据以响应 DSR。具体而言，本指南包括如何查找、访问和处理驻留在 Microsoft 云中的个人数据或个人信息。以下是本指南中所述的过程的快速概览：
 
 - **发现：** 使用搜索和发现工具更轻松地查找可能是 DSR 主体的客户的数据。 收集了潜在的响应性文档后，你便可以执行下列步骤中所述的一项或多项 DSR 操作来响应请求。 或者，你也可以确定请求是否不符合组织的 DSR 响应指南。
 - **访问：** 检索驻留在 Microsoft 云中的个人数据，如果提出请求，还制作可供数据主体使用的个人数据副本。
@@ -100,7 +100,7 @@ Microsoft 让你能够通过 Azure 门户访问、删除和导出某些客户数
 
 #### <a name="azure-active-directory"></a>Azure Active Directory
 
-Microsoft 提供了门户和产品内体验，让企业客户的租户管理员能够管理 DSR 访问请求。 响应 DSR 访问请求时可以访问用户的个人数据，包括：(a) 最终用户的个人身份信息，以及 (b) 系统生成日志。
+Microsoft 提供了门户和产品内体验，让企业客户的租户管理员能够管理 DSR 访问请求。DSR 访问请求允许访问用户的个人数据，包括：(a) 最终用户的身份信息，以及 (b) 系统生成日志。
 
 #### <a name="service-specific-interfaces"></a>特定于服务的界面
 
@@ -114,7 +114,7 @@ Microsoft 作为数据处理者不提供纠正系统生成的日志的功能，�
 
 ### <a name="step-4-restrict"></a>步骤 4：限制
 
-数据主体可能要求限制对其个人数据的处理。 我们同时提供了 Azure 门户和预先存在的应用程序编程接口 (API) 或用户界面 (UI)。 这些体验为企业客户的租户管理员提供了一种通过数据导出与数据删除相结合来管理此类 DSR 的能力。 有关详细信息，请参阅[处理个人数据](/intune/privacy-data-store-process#processing-personal-data)。
+数据主体可能会请求限制其个人数据的处理。我们提供 Azure 门户和预先存在的应用程序编程接口 (API) 或用户界面 (UI)。这些体验让企业客户的租户管理员能够通过数据导出和数据删除组合功能来管理此类 DSR。有关详细信息，请参阅[处理个人数据](/intune/privacy-data-store-process#processing-personal-data)。
 
 ### <a name="step-5-delete"></a>步骤 5：删除
 
@@ -126,8 +126,8 @@ Microsoft 作为数据处理者不提供纠正系统生成的日志的功能，�
 
 ## <a name="notify-about-exporting-or-deleting-issues"></a>通知导出或删除问题
 
-如果在从 Azure 门户导出或删除数据时遇到问题，请转到 Azure 门户“帮助 + 支持”边栏选项卡，并在“订阅管理 > 其他安全与合规请求 > 隐私”边栏选项卡和“GDPR 请求”下提交新票证。
+如果在从 Azure 门户导出或删除数据时遇到问题，请转到 Azure 门户“**帮助 + 支持**”边栏选项卡，并在“**订阅管理”>“订阅的隐私与合规请求”>“隐私边栏选项卡和 GDPR 请求**”下提交新票证。
 
-## <a name="learn-more"></a>了解更多
+## <a name="learn-more"></a>了解详细信息
 
 - [Microsoft 信任中心](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

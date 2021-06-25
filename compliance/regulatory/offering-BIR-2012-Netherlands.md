@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cf7d749df05d4be1396fa988615daa5c195c51cf
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 285b2d041b5ca1d7c3366cb98274a5aa8a812638
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506228"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089826"
 ---
 # <a name="baseline-informatiebeveiliging-rijksdienst-standard-bir-2012"></a>基线 Informatiebeveiliging Rijksdienst 标准 (BIR 2012)
 
@@ -33,7 +33,7 @@ BIR 覆盖率报告提供了指南，其中 BIR 标准由 Microsoft 云服务可
 
 ## <a name="microsoft-and-bir-2012"></a>Microsoft 和 BIR 2012
 
-尽管 Microsoft 不受 BIR 2012 的约束，但希望使用云服务的政府部门客户可以使用 Microsoft 的现有认证来确定其是否符合此标准。 Azure 和 Office 365 经过各种定期的独立认证和证明，其中一些与 BIR 2012 密切相关。
+虽然 Microsoft 不受 BIR 2012 合规性的约束，但寻求使用云服务的政府部门客户可以使用 Microsoft 的现有认证来确定其是否符合此标准。 Azure 和 Office 365 接受各种定期独立认证和证明，其中一些与 BIR 2012 密切相关。
 
 [下载 Microsoft Cloud：Azure 和 Office 365 BIR-2012 基线覆盖率用户指南](https://go.microsoft.com/fwlink/p/?linkid=2099461)
 
@@ -45,8 +45,7 @@ BIR 覆盖率报告提供了指南，其中 BIR 标准由 Microsoft 云服务可
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
-- [Azure 和 Office 365 BIR-2012 基线覆盖率](https://protection.office.com/DownloadFile/ServiceAssurance/Document/compliance/Azure%20and%20Office%20365%20BIR-2012%20Baseline%20Coverage/pdf)
-- [Azure 和 Office 365 BIR-2012 基线覆盖率用户指南（荷兰语）](https://protection.office.com/DownloadFile/ServiceAssurance/Document/compliance/Azure%20and%20Office%20365%20BIR-2012%20Baseline%20Coverage%20User%20Guide_Dutch/docx)
+Microsoft 聘请了一家独立的第三方审计公司来分析当前的 Azure 和 Office 365 认证和证明（如 ISO/IEC 27001 和 SOC 2 Type 2）在多大程度上涵盖 Microsoft 负责的 Bir 2012 部分。 生成的报告会提供这些现有认证和证明与 BIR 2012 标准中列出的控制措施的对应关系。 客户可以使用该报告作为工具，帮助以符合 BIR 2012 的方式采用 Azure。 该报告清楚地展示了 Microsoft 涵盖了哪些 BIR 2012 控制措施，以及哪些控制措施仍有待客户实施。 “Microsoft 云：Azure 和 Office 365 Bir 2012 基准覆盖范围”报告可从“[服务信任门户审计报告 - GRC 评估报告](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3)”部分下载。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -68,7 +67,7 @@ Microsoft 云服务提供很多控件，可帮助荷兰内的组织满足其 BIR
 
 **我们是否可以共享此报告？**
 
-该报告是根据保密协议提供给客户的，基础是该报告仅供客户参考，并且不会通过 Microsoft [服务信任平台](https://www.microsoft.com/TrustCenter/STP/default.aspx)以外的其他渠道进行复制或披露。 客户可以与其内部或外部审核员分享该报告，作为其合规性或保证过程的一部分。
+该报告是根据保密协议提供给客户的，基础是该报告仅供客户参考，并且不会通过 Microsoft [服务信任平台](https://www.microsoft.com/TrustCenter/STP/default.aspx)以外的其他渠道进行复制或披露。 客户可以在其合规性或保证流程中与自己的内部或外部审核员共享该报告。
 
 ## <a name="resources"></a>资源
 
