@@ -20,24 +20,24 @@ ms.workload:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: eccc07b5f40182c3dad8652f0e4c1671b5eb9843
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 46b59094b188e6ceac58c4aa1fac6dedf8c55671
+ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496224"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53141463"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Visual Studio 系列数据主体请求
 
 根据欧盟 [一般数据保护条例 (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm)，用户（在条例中称为 _数据主体_）有权管理其个人数据。根据 GDPR，个人数据的定义非常广泛，包括与身份已识别或可识别的自然人相关的任何数据。根据 GDPR，数据主体有权对自己的个人数据执行以下操作：获取个人数据副本、请求更正个人数据、限制个人数据处理、删除个人数据或接受电子格式的个人数据。数据主体为了对自己的个人数据执行操作而向数据控制者（雇主或有权控制个人数据的其他类型的机构或组织）发出的正式请求称为 _数据主体请求_ 或 DSR。
 
-同样，加州消费者隐私法案 (CCPA) 规定了加州消费者的隐私权和义务，包括与 GDPR 的数据主体权利类似的权利，例如删除、访问和接收（可移植性）其个人信息的权利。  CCPA 还就某些披露规定了在选择行使权限时防止歧视的保障措施，并就分类为“销售”的特定数据传输提出了“选择退出/选择加入”要求。 “出售”广义定义为包含共享数据来换取有值对价的行为。 有关 CCPA 的详细信息，请参阅[加州消费者隐私法案](offering-ccpa.md)和[加州消费者隐私法案常见问题解答](ccpa-faq.md)。
+同样，加州消费者隐私法案 (CCPA) 规定了加州消费者的隐私权和义务，包括与 GDPR 的数据主体权利类似的权利，例如删除、访问和接收（可移植性）其个人信息的权利。  CCPA 还就某些披露规定了在选择行使权限时防止歧视的保障措施，并就分类为“销售”的特定数据传输提出了“选择退出/选择加入”要求。 “出售”广义定义为包含共享数据来换取有值对价的行为。 有关 CCPA 的详细信息，请参阅[加州消费者隐私法案](offering-ccpa.md)和[加州消费者隐私法案常见问题解答](ccpa-faq.yml)。
 
 有关 GDPR 的一般信息，请参阅[服务信任门户的 GDPR 部分](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)。
 
 ## <a name="products-covered-by-this-guide"></a>本指南涵盖的产品
 
-本指南介绍了如何使用 Microsoft 工具导出或删除在经过身份验证（已登录）的会话使用过程中收集到的个人数据，其中会话涉及到 Visual Studio、Visual Studio for Mac 以及到这两者和 Visual Studio Code 的 Microsoft 扩展。 本指南还介绍了如何对在使用 Visual Studio 开发者社区、NuGet.org 和 ASP.NET 网站时收集到的个人数据发出数据主体请求。 这些产品可能支持使用非 Microsoft 工具和扩展，而且 Microsoft 不是这些工具和扩展的数据处理者或控制者。 用户需联系工具或扩展提供商来了解有关这些工具和扩展的个人数据及收集策略。
+本指南介绍如何使用 Microsoft 工具来导出或删除在经过身份验证的（已登录）会话中使用 Visual Studio 和 Visual Studio for Mac 以及针对它们和 Visual Studio Code 的 Microsoft 扩展过程中所收集的个人数据。本指南还介绍如何对使用 Visual Studio 开发者社区、NuGet.org 和 ASP.NET 网站时所收集的个人数据提出数据主体请求。这些产品可能允许使用非 Microsoft 工具和扩展，Microsoft 不是这些工具和扩展的数据处理者或控制者。用户应联系工具或扩展提供商，以了解针对这些工具和扩展的个人数据和收集策略。
 
 ## <a name="additional-privacy-information"></a>其他隐私信息
 
