@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fe96da8b7a8ef89f9dd8ce14573e3489c75f93e7
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 896202ea1f51d88d1871a2c7ff81f4ee1e620d17
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53087611"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385362"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>犯罪犯罪信息服务 (CJIS) 安全策略
 
@@ -43,20 +43,38 @@ Microsoft 已评估 Microsoft Azure Government、Microsoft Office 365 U.S. Gover
 
 了解 Microsoft 云上 CJIS 安全策略的好处：[阅读使用 Clearedtec](https://customers.microsoft.com/story/genetec)清除犯罪调查
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
-- [Azure 政府](/azure/azure-government/documentation-government-welcome)
-- [Dynamics 365 美国政府版](/power-platform/admin/microsoft-dynamics-365-government#certifications-and-accreditations)
-- [Office 365美国政府](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance)
-- Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
+- Azure 政府
+- Dynamics 365 美国政府版
+- Office 365美国政府
+- Power BI 云服务，作为独立服务提供，后者随 Office 365 品牌计划或套件一并提供
 
-## <a name="audits-reports-and-certificates"></a>审核、报告和证书
+## <a name="azure-dynamics-365-and-cjis"></a>Azure、Dynamics 365 和 CJIS
+
+有关 Azure、Dynamics 365 和其他联机服务合规性的信息，请参阅 [Azure CJIS 产品](/azure/compliance/offerings/offering-cjis)。
+
+## <a name="office-365-and-cjis"></a>Office 365 和 CJIS
+
+### <a name="office-365-cloud-environments"></a>Office 365云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规性中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365审核、报告和证书
 
 MICROSOFT 不提供 Microsoft 遵守 CJIS 要求的认证。 相反，Microsoft 证明包含在 Microsoft 与州 CJIS 颁发机构之间以及 Microsoft 与其客户之间的协议中。
 
 [Microsoft CJIS 云要求](https://aka.ms/MicrosoftCJISCloudRequirements)
 
-## <a name="cjis-status-in-the-united-states-current-as-of-1152020"></a>自 2020 年 11 月 5 (起，美国 CJIS 状态) 
+### <a name="cjis-status-in-the-united-states-current-as-of-1152020"></a>自 2020 年 11 月 5 (起，美国 CJIS 状态) 
 
 45 个州以及具有管理协议（在地图上以绿色突出显示）的学区包括：
 
@@ -64,7 +82,7 @@ MICROSOFT 不提供 Microsoft 遵守 CJIS 要求的认证。 相反，Microsoft 
 
 Microsoft 承诺遵守适用的 CJIS 法规控制，允许犯罪犯罪组织实施基于云的解决方案，并符合 CJIS 安全策略 V5.9。
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+### <a name="frequently-asked-questions"></a>常见问题解答
 
 **在哪里可以请求合规性信息？**
 
@@ -78,15 +96,14 @@ Microsoft 与州 CJIS Systems Agency 与 CSA (签署信息) ;你可以从你州 
 
 [CJIS 安全策略](https://aka.ms/cjis-security-policy) 涵盖机构保护 CJI 必须采取的预防措施。 此外，你的 Microsoft 客户代表可以联系熟悉你的管辖地要求的人
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
 [Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
-## <a name="resources"></a>资源
+### <a name="resources"></a>资源
 
 - [犯罪犯罪信息服务](https://aka.ms/cjis)
 - [CJIS 安全策略](https://aka.ms/cjis-security-policy)
-- [Azure 政府 CJIS 实施指南](https://aka.ms/cjisimplementationguidelines)
 - [Microsoft 公共控制中心合规性框架](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft 政府云](https://go.microsoft.com/fwlink/?linkid=2087246)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

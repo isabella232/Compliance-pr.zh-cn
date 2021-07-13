@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ef6b2fd3c7254251831b84fbfd3c4d5e1648f9c7
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: d9b7988b2ab236a26aad0981879f9b49c9ed028a
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089716"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384942"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>联邦风险和授权管理项目 (FedRAMP)
 
@@ -47,53 +47,45 @@ Microsoft 政府云服务（包括 Azure 政府、Dynamics 365 政府版和 Offi
 
 Microsoft 政府云服务为公共部门客户提供一系列与 FedRAMP 兼容的丰富服务，以及强大的指南和实施工具，包括 [FedRAMP 高](https://aka.ms/fedrampblueprint)蓝图，它帮助客户为必须实施 FedRAMP 高控制措施的任何 Azure 部署体系结构部署一组核心策略。
 
-## <a name="microsoft-azure-p-atos"></a>Microsoft AzureP-ATOS
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
-Azure 和 Azure 政府从联合授权委员会获得了高影响级别的 P-ATO，联合授权委员会是 FedRAMP 资格鉴定的最高标准，授权使用 Azure 和 Azure 政府处理高度敏感数据。
+- Azure 与 Azure 政府
+- [Dynamics 365 美国政府版](https://aka.ms/d365-compliance-list)
+- Intune
+- Office 365美国政府，Office 365美国政府 - 高级Office 365美国政府防御
+- Power BI 云服务，作为独立服务提供，后者随 Office 365 品牌计划或套件一并提供
 
-Azure 和 Azure 政府 FedRAMP 审核包括信息安全管理系统，该系统包括基础结构、开发、操作、管理和范围内服务支持。 授予 P-ATO 后，云解决方案提供商仍然需要向 ATO (授权) 来自其合作的任何政府机构。 对于 Azure，政府机构可以在自己的安全授权过程中使用 Azure P-ATO，并依靠它作为颁发同样满足 FedRAMP 要求机构 ATO 的基础。
+## <a name="azure-dynamics-365-and-fedramp"></a>Azure、Dynamics 365 和 FedRAMP
 
-与任何其他云提供商一样，Azure 在 FedRAMP 高影响级别继续支持更多服务。 虽然 Azure 公共云中的 FedRAMP High 将满足许多美国政府客户的需求，但要求更严格的机构将继续依赖 Azure 政府，它提供额外的安全措施，例如对人员进行严格的筛选。 Microsoft 将 [Azure 政府中](/azure/azure-government/compliance/azure-services-in-fedramp-auditscope#azure-public-services-by-audit-scope) 当前提供的所有 Azure 公共服务都列出到 FedRAMP High 边界，以及今年计划的服务。
+有关 Azure、Dynamics 365 和其他在线服务合规性的信息，请参阅 Azure [FedRAMP 产品](/azure/compliance/offerings/offering-fedramp)/
 
-## <a name="microsoft-dynamics-365-us-government-ato"></a>Microsoft Dynamics 365 美国政府版 ATO
-
-Dynamics 365 U.S. Government 被美国房地产和城市开发部门授予了高影响级别的 FedRAMP 机构 ATO (HUD) 。 尽管认证范围仅限于 政府社区云，但 Dynamics 365 美国政府商业版和企业版计划遵循同一组严格的 FedRAMP 控制措施。
-
-## <a name="microsoft-office-365-and-office-365-us-government-atos"></a>Microsoft Office 365和Office 365美国政府 ATOS
+## <a name="office-365-and-fedramp"></a>Office 365 和 FedRAMP
 
 - Office 365美国政府Office 365美国健康与公共服务部拥有一个 ATO， (DH DH DH) 。
 - Office 365美国政府国防队具有来自美国国防信息系统局的 P-ATO， (DISA) 。 任何希望Office 365美国政府国防队的客户都可使用 DISA P-ATO 生成代理 ATO 来记录其接受。
 - Office 365 (美国政府和美国政府) Office 365计划的 FEDRAMP 机构 ATO 具有来自检查员常规的 DHSP Office中等影响级别的 FedRAMP 机构 ATO。 Office 365美国政府是首个获得此授权的基于云的电子邮件和协作服务。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+### <a name="office-365-cloud-environments"></a>Office 365云环境
 
-- [Azure 与 Azure 政府](https://go.microsoft.com/fwlink/p/?linkid=2095323)
-- [Dynamics 365 美国政府版](https://aka.ms/d365-compliance-list)
-- Intune
-- [Office 365 Office 365美国政府](https://go.microsoft.com/fwlink/p/?linkid=2077751)
-- Office 365 美国政府防御版
-- Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
-- Microsoft Defender for Endpoint
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-> [!NOTE]
-> 在 Azure 政府Azure Active Directory使用 Azure 政府内部部署的组件需要使用在 Azure 公共云上部署在 Azure 政府外部的组件。
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
 
-## <a name="audits-reports-and-certificates"></a>审核、报告和证书
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **GCC** | 活动源服务、必应 服务、Delve、Exchange Online、Exchange Online Protection、基础结构、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **GCC 高** | 活动源服务、必应 服务、Exchange Online、Exchange Online Protection、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **DoD** | 活动源服务、必应 服务、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365审核、报告和证书
 
 Microsoft 每年都必须重新证明其云服务，以维持其 P-ATO 和 ATO 认证。 为此，Microsoft 必须持续监视和评估其安全控制，并证明其服务的安全性保持合规性。
 
-- [Microsoft 云服务 FedRAMP 授权</span>](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)
-- [Microsoft FedRAMP 审计报告</span>](https://aka.ms/MicrosoftFedRAMPAuditDocuments)  
+- [Microsoft FedRAMP 审计报告](https://aka.ms/MicrosoftFedRAMPAuditDocuments)  
 
-若要接收其他 FedRAMP 报告，请发送电子邮件到 [Azure 联邦文档](mailto:AzFedDoc@microsoft.com)。
-
-## <a name="quickly-deploy-your-fedramp-solutions-on-azure-government"></a>在 Azure 政府上快速部署 FedRAMP 解决方案
-
-让 Microsoft 指导你完成 ATO 过程，使用 FedRAMP 高蓝图快速部署 FedRAMP 解决方案，这将帮助客户为必须实施 FedRAMP 高控件的任何 Azure 部署体系结构实施一组核心策略。
-
-[开始使用 Azure FedRAMP 高蓝图](https://aka.ms/fedrampblueprint)
-
-## <a name="frequently-asked-questions"></a>常见问题解答
+### <a name="frequently-asked-questions"></a>常见问题解答
 
 **Microsoft 云服务是否遵守 FISMA (联邦信息安全) ？**
 
@@ -111,14 +103,13 @@ FISMA 是联邦法律，要求美国联邦机构及其合作伙伴仅从遵守 F
 
 是。 你可以将 Microsoft 云服务认证用作任何需要来自联邦政府机构 ATO 的计划或计划的基础。 但是，你需要为这些服务之外的组件获得自己的授权。
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
 [Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
-## <a name="resources"></a>资源
+### <a name="resources"></a>资源
 
 - [联邦风险和授权管理计划](https://www.fedramp.gov/)
 - [FedRAMP 安全评估框架](https://www.fedramp.gov/assets/resources/documents/FedRAMP_Security_Assessment_Framework.pdf)
 - [在 Microsoft 管理云中的合规性](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft 政府云](https://go.microsoft.com/fwlink/p/?linkid=2087246)
-- [Azure 合规性产品/服务](https://aka.ms/azurecompliance)

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 84af03217d697f6f54db1a7d87230ae08c2b02b4
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 65739fcf3b787ea50523c3195ffaf7e31d315d3f
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506489"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384902"
 ---
 # <a name="health-data-hosting-hds-france"></a>法国健康数据托管 (HDS)
 
@@ -46,7 +46,7 @@ HDS 认证使法国医疗保健提供商能够使用 Microsoft 云服务通过�
 - Microsoft 云服务的 [ISO/IEC 27001:2013 信息安全管理](offering-iso-27001.md)认证，每年对这些服务的合规性审核一次。
 - 遵守 GDPR 和 [ISO/IEC 27018《保护云中个人数据的工作守则》，](offering-iso-27018.md)保障高水平的个人隐私。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure](https://aka.ms/AzureCompliance)。 HDS 证书适用于在 Azure 合规性产品/服务中列出的符合 ISO/IEC 27001 标准的 Azure 服务，并且由法国中部、法国南部、欧洲西部和欧洲北部的 Azure 区域提供。
 - Dynamics 365。 HDS 证书适用于从法国和欧盟地区提供的 Dynamics 365 [核心在线服务](https://aka.ms/Online-Services-Terms)。

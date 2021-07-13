@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4ec39ccbeb9780c51ef813c1520675abb1d19cc9
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 2d02e7643ca554e55f4d901a95a39d1a8e5285f9
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089565"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385202"
 ---
 # <a name="european-standards-en-301-549"></a>欧洲标准 EN 301 549
 
@@ -35,13 +35,13 @@ Microsoft 是欧洲国家/地区的主要软件和云服务提供商。 为了�
 
 Microsoft 在产品和服务开发中对 EN 301 549 的考虑表明了其致力于使所有客户都能轻松使用其产品和服务。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure 与 Azure 政府](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Azure DevOps Services
 - Dynamics 365 和 Dynamics 365 美国政府
 - Intune
-- [Office 365 和 Office 365 US 政府计划](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365 和 Office 365 US 政府计划
 - Office 365 美国政府防御版
 - Windows Server 2016
 

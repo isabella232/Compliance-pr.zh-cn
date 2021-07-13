@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 887d6a2be0ef4b1d9f1d22eefc53e3fc23e75e22
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: b39c658a768dc106008dcd73a064b05706f734c6
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088811"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384962"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>英国Government-Cloud (G-Cloud) 
 
@@ -41,16 +41,30 @@ Microsoft 每年都会准备文档并提交证据，以证明其范围内企业�
 
  [14 使用](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/)Microsoft Azure 英国云的云安全控制提供客户策略，以将其服务移动到 Azure，并帮助满足 CESG/NCSC 强制的英国义务。 该白皮书介绍了如何使用 Azure 帮助解决云安全主体中概述的 14 个控制措施，并概述了客户在采用 Microsoft Azure 服务时如何加快移动速度并实现更多目标，同时节省资金。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
-- [Azure](https://aka.ms/AzureCompliance)
-- Microsoft 云应用安全
+- Azure
+- Microsoft Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Power Automate (以前称为 Microsoft Flow) 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
-- Office 365：Exchange Online、SharePoint Online 和 Skype for Business Online
-- PowerApps 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
-- Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
+- Office 365
+- Power Automate (，Microsoft Flow) 云服务 (独立服务，或包含在 Office 365 或 Dynamics 365 品牌计划或套件) 
+- PowerApps 云服务 (独立服务或包含在 Office 365 或 Dynamics 365 品牌计划或套件) 
+- Power BI云服务 (独立服务，也可以作为品牌计划或套件Office 365中包含的云服务) 
+
+## <a name="office-365-and-uk-g-cloud"></a>Office 365英国 G-Cloud
+
+### <a name="office-365-cloud-environments"></a>Office 365云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online、SharePoint Online、Skype for Business |
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
@@ -105,7 +119,7 @@ Microsoft 每年都会准备文档并提交证据，以证明其范围内企业�
 
 **如何获取审核员报告的副本？**
 
-该[服务信任门户](/microsoft-365/compliance/get-started-with-service-trust-portal)提供独立审核的合规性报告。 可以使用门户请求审核报告，以便审核员可以将 Microsoft 结果与你自己的法律和法规要求进行比较。
+[服务信任门户](/microsoft-365/compliance/get-started-with-service-trust-portal)提供独立审核的合规性报告。 可以使用门户请求审核报告，以便审核员可以将 Microsoft 结果与你自己的法律和法规要求进行比较。
 
 ## <a name="resources"></a>资源
 

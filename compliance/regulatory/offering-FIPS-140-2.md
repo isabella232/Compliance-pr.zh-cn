@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0838ce11e732f5c6e8c79c40af0e85bff9d22caf
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 2c51979122aaedda90bac74740e95c9d1265de74
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089726"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385002"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>联邦信息处理标准 (140-2) FIPS
 
@@ -37,19 +37,37 @@ ms.locfileid: "53089726"
 
 有关 Microsoft Windows 加密模块、每个模块的安全策略以及 CMVP 证书详细信息目录的技术信息，请参阅 Windows 和[Windows Server FIPS 140-2 内容](https://aka.ms/AA6ehud)。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
 虽然当前的 CMVP FIPS 140-2 实施指南会排除对云服务本身的 FIPS 140-2 验证;云服务提供商可以选择为构成其云服务的计算元素获取和运行 FIPS 140 验证的加密模块。 包括经过 FIPS 140-2 验证的组件的 Microsoft 联机服务包括：
 
-- [Azure 与 Azure 政府](/azure/azure-government/documentation-government-plan-security)
-- [Dynamics 365 和 Dynamics 365 政府版](/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365)
-- [Office 365、Office 365 U.S. Government 和 Office 365 U.S. Government Defense](/microsoft-365/compliance/office-365-encryption-risks-and-protections)
+- Azure 与 Azure 政府
+- Dynamics 365 和 Dynamics 365 政府版
+- Office 365、Office 365 U.S. Government 和 Office 365 U.S. Government Defense
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+## <a name="azure-dynamics-365-and-fips-140-2"></a>Azure、Dynamics 365 和 FIPS 140-2
 
-**"FIPS 140 Validated"和"FIPS 140 compliand"之间有什么区别？**
+有关 Azure、Dynamics 365 和其他在线服务合规性的信息，请参阅 Azure [FIPS 140-2 产品](/azure/compliance/offerings/offering-fips-140-2)/
 
-"FIPS 140 Validated"表示加密模块或嵌入模块的产品已通过 CMVP 验证 (") 满足 FIPS 140-2 要求。 "FIPS 140 兼容"是一个行业术语，适用于依赖 FIPS 140 验证产品实现加密功能的 IT 产品。
+## <a name="office-365-and-fips-140-2"></a>Office 365和 FIPS 140-2
+
+### <a name="office-365-cloud-environments"></a>Office 365云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| Office 365、GCC、GCC High、DoD | 请参阅 [FIPS 140-2 验证](/windows/security/threat-protection/fips-140-validation) |
+
+### <a name="frequently-asked-questions"></a>常见问题解答
+
+**"FIPS 140 Validated"和"FIPS 140 compliant"之间有什么区别？**
+
+"FIPS 140 已验证"意味着 CMVP 已验证加密模块或嵌入模块的产品 () 验证为符合 FIPS 140-2 要求。 "FIPS 140 兼容"是依赖 FIPS 140 验证产品实现加密功能的 IT 产品的行业术语。
 
 **Microsoft 何时执行 FIPS 140 验证？**
 
@@ -71,10 +89,6 @@ Microsoft 在运行 Windows 10 和 Windows Server 的具有代表性的硬件配
 
 是的，联邦风险和授权管理计划 (FedRAMP) 依赖于 [NIST SP 800-53 修订版 4](https://nvd.nist.gov/800-53/Rev4/)定义的控制基线，包括 [SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13) 加密保护，管理 FIPS 验证加密或 NSA 批准的加密的使用。
 
-**如何Microsoft Azure FIPS 140-2？**
-
-Azure 由硬件、商用操作系统、Linux 和 (Windows) 以及 Azure 特定版本的 Windows 组合构建。 通过 [Microsoft](https://www.microsoft.com/securityengineering/sdl/) 安全开发生命周期 (SDL) ，所有 Azure 服务都使用 FIPS 140-2 批准的算法实现数据安全，因为操作系统在超大规模云中运行时使用 FIPS 140-2 批准的算法。
-
 **能否在我的机构认证过程中使用 Microsoft 遵守 FIPS 140-2？**
 
 为了符合 FIPS 140-2，系统必须配置为在 FIPS 批准的操作模式下运行，这包括确保加密模块仅使用 FIPS 批准的算法。 有关配置符合标准的系统的信息，请参阅 Windows 和 Windows [Server FIPS 140-2 内容](https://aka.ms/AA6ehud)。
@@ -83,7 +97,7 @@ Azure 由硬件、商用操作系统、Linux 和 (Windows) 以及 Azure 特定�
 
 这是两个不同的安全标准，用途不同但相互补充。 FIPS 140-2 专用于验证软件和硬件加密模块，而通用条件旨在评估 IT 软件和硬件产品中的安全功能。 通用条件评估通常依赖 FIPS 140-2 验证，以提供基本加密功能正确实现的保证。
 
-## <a name="resources"></a>资源
+### <a name="resources"></a>资源
 
 - [FIPS Pub 140-2 加密模块的安全要求](https://csrc.nist.gov/publications/fips/fips140-2/fips1402.pdf)
 - [NIST 加密模块验证程序](https://csrc.nist.gov/groups/STM/cmvp/index.html)

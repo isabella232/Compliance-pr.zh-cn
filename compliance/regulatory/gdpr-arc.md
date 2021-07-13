@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: f6b0582215242dd1de187b4cd0386e44b144dba8
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: b0b16b88ede35ed71cdc90b27a7e3076e51ae56b
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496482"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377809"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>通过责任就绪清单支持 GDPR 计划
 
@@ -37,8 +37,9 @@ ms.locfileid: "51496482"
 有针对以下四个 Microsoft 产品和服务系列的具体指南：
 
 - [Office 365](gdpr-arc-Office365.md)
-- [Dynamics 365](gdpr-arc-azure-dynamics.md)
-- [Azure](gdpr-arc-azure-dynamics.md)
+- [Dynamics 365](gdpr-arc-azure-dynamics-windows.md)
+- [Azure](gdpr-arc-azure-dynamics-windows.md)
+- [Windows](gdpr-arc-azure-dynamics-windows.md)
 - [Microsoft 支持和专业服务](gdpr-arc-prof-services.md)
 
 可以使用[合规性管理器](/microsoft-365/compliance/compliance-manager)来管理此清单中的项目，具体方法是引用 GDPR 磁贴中“客户托管控件”下的控件 ID 和控件标题。

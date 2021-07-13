@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f35e72bc81a93bcba3ecea5ca8a416553e6116a8
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 7cc2131bf35f4f230ed3d18a22d7da0533dd3be5
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121371"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385392"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Internet 安全中心 (CIS) 基准
 
@@ -50,7 +50,7 @@ CIS 基准是国际公认的保护 IT 系统和数据免受网络攻击的安全
   
 除了 Microsoft 产品和服务的基准之外，CIS 还发布了 [CIS 强化映像](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/)，用于配置满足 CIS 基准 Azure 虚拟机。 其中包括经过认证可在 Azure 上运行的适用于 Microsoft Windows Server 2016 的 CIS 强化映像。 CIS 声明：“所有在 [Azure 市场](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security)提供的 CIS 强化映像都经过认证，可以在 Azure 上运行。 已预测试了它们的就绪性，以及与 Azure 公有云、由服务提供商通过云 OS 网络托管的 Microsoft 云平台和由客户管理的本地私有云 Windows Server Hyper-V 部署的兼容性。”
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure 与 Azure 政府](https://aka.ms/AzureCompliance)
 - [Office 和 Microsoft 365](https://aka.ms/o365-compliance-framework)

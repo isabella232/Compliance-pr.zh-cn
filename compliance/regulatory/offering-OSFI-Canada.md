@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 804d785cc8dfd3d693e34f17b48e2f8b0a94de17
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 2b98a7ab816f526a5371788df14755b998e14099
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120011"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384362"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>加拿大金融机构监理总署 (OSFI)
 
@@ -44,7 +44,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 - 对应用情景法规环境的概述。
 - 一份清单，其中列出了要解决的问题，并将 Microsoft Azure、Microsoft Dynamics 365 和 Microsoft 365 服务与这些法规义务进行对应。 该清单可以用作度量是否符合法规框架的工具，并提供用于记录合规性的内部结构，帮助客户自行对 Microsoft 业务云服务进行风险评估。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -71,7 +71,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
-[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
+[Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
 ## <a name="resources"></a>资源
 

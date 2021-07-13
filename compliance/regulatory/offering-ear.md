@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0c05010d43ea345024b63e2653e37eb0f42443f4
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: b3867c9d8c165c451813929d49dc5936e643e95c
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089766"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384222"
 ---
 # <a name="us-export-administration-regulations-ear"></a>美国出口管理条例 (EAR) 
 
@@ -51,7 +51,7 @@ Microsoft 技术、产品和服务受美国出口管理条例和 EAR () 。 尽�
 - **端到端加密**。 通过利用在 EAR 中指定的物理存储位置的端到端加密安全港，Microsoft 范围内云服务提供了可帮助防止出口控制风险的加密功能。 它们还为客户提供 [多种用于](https://aka.ms/Azure-Encryption-Overview) 加密传输中和静态数据的选项，以及选择加密选项的灵活性。
 - **防止未经授权的视为导出的工具和协议**。 加密的使用还有助于防止在 EAR 下潜在的被视为导出 (或被视为重新导出) ，因为即使非美国用户有权访问加密数据，如果在加密时无法读取或了解数据，则不会显示任何内容;因此，没有受控数据的"释放"。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
 - [Azure 与 Azure 政府](https://aka.ms/AzureCompliance)
 - [Office 365 政府版 (GCC-High 和 DoD) ](https://aka.ms/Office-365-Export-Controls)

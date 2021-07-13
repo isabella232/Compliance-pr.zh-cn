@@ -1,5 +1,5 @@
 ---
-title: Microsoft 员工转接和离职
+title: Microsoft 员工转移和离职
 description: 了解 Microsoft 员工离职和离职Microsoft 365
 ms.author: robmazz
 author: robmazz
@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: b31dd13f4a6209712a9cc212ab3bcd9c5addf6b7
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 862bd05a84e5144602a24ac2aca1780cffaff3fe
+ms.sourcegitcommit: 48b8ec2dd00e957508e5af82458bf697e1a97ebb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089601"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53395612"
 ---
-# <a name="microsoft-employee-transfer-and-termination"></a>Microsoft 员工转接和离职
+# <a name="microsoft-employee-transfer-and-termination"></a>Microsoft 员工转移和离职
 
-员工转移和离职是每个组织正常业务运营的一部分。 当员工更改职位或离开公司时，必须及时撤销不适当的访问权限。 为了推动高效的访问更改和访问吊销，Microsoft 365 使用标准化过程和自动化过程来协调人力资源信息系统 (HRIS) 与身份管理 (IDM) 系统。 这两个系统之间的自动化协调对于维护运营一致性、Microsoft 365服务和数据、防止特权危害并降低与内部威胁相关的风险至关重要。
+与其他每个组织一样，Microsoft 会处理员工离职和离职问题，这是其正常业务运营的一部分。 当员工更改职位或离开公司时，必须及时撤销不适当的访问权限。 为了推动高效的访问更改和访问吊销，Microsoft 使用标准化过程和自动化流程来协调人力资源信息系统 (HRIS) 与标识管理 (IDM) 系统。 这两个系统之间的自动协调对于维护运营一致性、保护 Microsoft 的联机服务和数据、防止特权妨碍以及降低与内部威胁相关的风险至关重要。
 
-Microsoft 365系统旨在运行，无需对工程师长期管理对生产环境的管理访问权限。 Microsoft 使用实时 (JIT) Just-Enough-Access (JEA) 模型为工程师提供所需的临时访问权限，以便根据需要支持他们的服务。 若要请求并使用服务团队帐户进行 JIT 访问，工程师必须通过 IDM 工具请求和维护资格。 当员工被转移或离职时，将自动修改其服务团队帐户和相关资格，以防止不当访问。
+Microsoft 在线服务旨在运行，无需为工程师提供对生产环境的管理访问权限。 Microsoft 使用实时 (JIT) Just-Enough-Access (JEA) 模型为工程师提供所需的临时访问权限，以便根据需要支持他们的服务。 若要请求并使用服务团队帐户进行 JIT 访问，工程师必须通过 IDM 工具请求和维护资格。 当员工被转移或离职时，将自动修改其服务团队帐户和相关资格，以防止不当访问。
 
 ## <a name="transfer-and-reassignment"></a>转移和重新分配
 

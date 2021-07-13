@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6415b50a38d72ba66ede7e58e1b00aad2485ed42
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: d92fc7b56d2c240588b90afad6a82264fde911c5
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089041"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384322"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>美国证券交易Exchange委员会 (美国) 规则 17a-4 (4) 美国
 
@@ -44,7 +44,7 @@ Microsoft Azure使用策略锁定存储保留锁定的不可变 Blob Microsoft O
 - **Azure：SEC** [17a-4 (f) 合规性评估：Microsoft Azure 存储](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)，Cohasset 验证了使用策略锁定选项的 Azure 不可变 [Blob 存储（](/azure/storage/blobs/storage-blob-immutable-storage)用于以不可擦除和不可重写的 (WORM) 格式保留基于时间的 Blob）符合 SEC 规则的不可变存储要求。 每个 Blob (记录) 在要求的保留期到期且任何关联的合法保留解除之前，防止其被修改、覆盖或删除。 具有敏感工作负载的软件提供商和合作伙伴现在可依赖 Azure 不可变 blob 存储作为一种主要云解决方案，用于记录保留和不可变存储。 金融机构现在可以构建自己的应用程序，以利用这些功能，同时保持合规性。
 - **Microsoft 365：** 对于 SEC [17a-4 (f)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d)要求，Cohasset 验证了 Microsoft 365 包括存档功能，这些功能允许受管制客户（包括代理经销商）以可帮助其遵守 SEC 记录保留要求的方式存储数据。 电子邮件中的Microsoft 365功能有助于保留各种数据，包括电子邮件、语音邮件、共享文档、即时消息和第三方数据。 特别是，Microsoft 365中的存档功能使客户能够设置全局或细化邮件保留策略，以存储已定义时间段及以后不可重写、不可擦除格式的数据。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)

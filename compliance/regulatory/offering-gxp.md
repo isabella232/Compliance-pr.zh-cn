@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d8ffd78c4d762d72310e3ac5b200d422b0af26cf
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: a3801d434cb86f4157b70d1afcb0479365af3e9c
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089756"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384192"
 ---
 # <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>良好的临床、实验室和生产实践 (GxP)
 
@@ -46,7 +46,7 @@ Microsoft 聘请 [Montrium](https://www.montrium.com/) 为其执行 GxP 资格�
 
 在 Azure 和 Office 365 上构建 GxP 解决方案的生命科学组织可以充分利用云的效率，同时还可保护患者数据的安全、产品质量和数据完整性。 此外，客户还可从多层安全和管理技术、运营实践以及合规性策略中受益，这些策略可在特定级别实施数据隐私和完整性。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Microsoft 365

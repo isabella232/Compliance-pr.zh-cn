@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7154e239956c624d621977b8c9167ec5e58c5001
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 7a530d78107af4f37607f90c6a93008ec695f765
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121771"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385462"
 ---
 # <a name="cloud-computing-compliance-controls-catalog-c5"></a>云计算合规性控制目录 (C5)
 
@@ -39,7 +39,7 @@ BSI 还着重强调了透明化。 作为审核的一部分，云提供商必须
 
 Microsoft 云服务会根据 SOC 2（AT 条例 101）标准每年至少进行一次审核。 根据 BSI，可将 C5 审核与 SOC 2 审核结合使用，对重叠控制重用部分系统描述和审核结果。 Microsoft Azure、Azure Government 和 Azure Germany 根据独立审核员进行的审核评估制定综合报告（C5、SOC 2 类型 2、CSA STAR 证明），这可证明与 C5 的合规性。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内的云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure、Azure Government 和 Azure Germany](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Office 365 Germany

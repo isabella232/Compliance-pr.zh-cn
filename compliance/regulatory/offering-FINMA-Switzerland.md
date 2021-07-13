@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1b391d3f3cd748047e24bf9e82d3c267ca7425a7
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 1fe73fa10549c0126dc0b38b93cf1edd5b132855
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089545"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385042"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>瑞士金融市场监督管理局 (FINMA)
 
@@ -42,7 +42,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 - 对应用情景法规环境的概述。
 - 一份清单，其中列出了要解决的问题，并将 Microsoft Azure、Microsoft Dynamics 365 和 Microsoft 365 服务与这些法规义务进行对应。 该清单可以用作度量是否符合法规框架的工具，并提供用于记录合规性的内部结构，帮助客户自行对 Microsoft 业务云服务进行风险评估。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

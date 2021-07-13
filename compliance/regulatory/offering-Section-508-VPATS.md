@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b6c48ebc9461010db1e129e88e53b4ada5c32683
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: b761a9848e29b09fa46fdac822a545dc67be61f1
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088801"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384332"
 ---
 # <a name="us-section-508"></a>美国第 508 节
 
@@ -35,21 +35,37 @@ Microsoft 是美国联邦和州政府的主要软件和云服务提供商。  �
 
 Microsoft 在产品和服务开发中考虑美国第 508 节，它致力于使所有客户都可以访问技术和数据。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
-- [Azure 与 Azure 政府](https://go.microsoft.com/fwlink/p/?linkid=2051569)
+- Azure 与 Azure 政府
 - Azure DevOps Services
 - Dynamics 365 和 Dynamics 365 美国政府
 - Intune
-- [Office 365 和 Office 365 US 政府计划](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- [Office 365 美国政府防御版](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365、Office 365美国政府Office 365美国国防队
 - Windows Server 2016
 
-## <a name="microsoft-accessibility-conformance-reports"></a>Microsoft 辅助功能一致性报告
+## <a name="office-365-and-us-section-508"></a>Office 365美国第 508 节
+
+### <a name="office-365-cloud-environments"></a>Office 365云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Access、Azure Active Directory、 Bookings、合规性管理器、Delve、Excel、Exchange Online、Forms、Kaizala、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 管理门户（适用于 Android 的 Office 365 管理门户、Office 365 管理门户、Office 365 高级合规版 加载项、Office 365 和 Azure AD 登录、Office 365 商业版 中心、Office 365 安全&合规中心，Office 365视频， Office 365 Web 套件、Office 配置工具、Office Lens、Office Online、Office Pro Plus、OneDrive for Business、OneDrive、OneNote、Outlook 组、Outlook、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、SharePoint、Skype for Business、StaffHub、Stream、微软待办、Visio、Word、Yammer  |
+| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规性中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+| **GCC 高** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
+| **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online Skype for Business |
+
+### <a name="microsoft-accessibility-conformance-reports"></a>Microsoft 辅助功能一致性报告
 
 查找我们各项产品和服务的[一致性报告](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/)。
 
-## <a name="resources"></a>资源
+### <a name="resources"></a>资源
 
 - [Microsoft 辅助功能页面](https://go.microsoft.com/fwlink/p/?linkid=2051579)：探索 Microsoft 创新的方法，使每个人都能够实现更多目标。
 - [Office 365 辅助功能中心](https://go.microsoft.com/fwlink/p/?linkid=2051801)：适用于残疾人士的 Office 365 资源。

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ab0e70a9dab9b1f98351556dcdf4ae597e362b64
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 9080474699eae7e65d8df86638a9250ec7127585
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088911"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385672"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>国家标准和技术协会 (NIST) 网络安全框架 (CSF) 
 
@@ -42,35 +42,41 @@ NIST 网络安全框架 (CSF) 是一个自愿性框架，包含用于管理网�
 - [NIST SP 800-53 R4 蓝图示例概述](/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
 - [合规性分数中的"合规性分数"中Office 365 NIST CSF 评估。](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
-- [Azure 政府](https://aka.ms/AzureCompliance)
-- [Dynamics 365 for Government](https://aka.ms/d365-compliance-list)
-- [Office 365 和 Office 365 US 政府计划](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Azure 政府
+- Dynamics 365 for Government
+- Office 365
 
-## <a name="audit-cycle-and-certification"></a>审核周期和认证
+## <a name="azure-dynamics-365-and-nist-csf"></a>Azure、Dynamics 365 和 NIST CSF
+
+有关 Azure、Dynamics 365 和其他联机服务合规性的信息，请参阅 [Azure NIST CSF 产品](/azure/compliance/offerings/offering-nist-csf)/
+
+## <a name="office-365-and-nist-csf"></a>Office 365 和 NIST CSF
+
+### <a name="office-365-cloud-environments"></a>Office 365云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | 活动源服务、必应 服务、Delve、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+
+### <a name="office-365-audit-cycle-and-certification"></a>Office 365审核周期和认证
 
 证书的 NIST CSF Office 365有效期为两年。
 
 - [Office 365NIST CSF 认证书](https://aka.ms/O365NISTCSFcertification)
 
-## <a name="quickly-build-nist-csf-solutions-on-azure"></a>在 Azure 上快速生成 NIST CSF 解决方案
+### <a name="frequently-asked-questions"></a>常见问题解答
 
-NIST 网络安全框架 (CSF) 标准在云中可能充满挑战。 幸运的是，使用 Azure，你可以开始 Azure 安全与合规 NIST CSF 蓝图。 本蓝图提供了一些工具和指南，可让你开始构建与 NIST CSF 兼容的解决方案。
+**独立评估员是否验证Office 365 NIST CSF 要求？**
 
-- [开始使用 Azure NIST CSF 蓝图](https://aka.ms/Azure-Blueprint-DoD-NIST)
-
-## <a name="perform-risk-assessment-on-office-365-using-nist-csf-in-compliance-score"></a>使用合规性分数中的 NIST CSF 对Office 365执行风险评估
-
-网络安全仍然是数字化转型的一个关键管理问题。 为了帮助你为租户实施和验证安全Office 365，Microsoft 在合规性分数的 NIST CSF 评估中提供了建议的客户操作。
-
-- [开始使用合规性分数](/microsoft-365/compliance/compliance-manager)
-
-## <a name="frequently-asked-questions"></a>常见问题解答
-
-**独立评估员是否验证了 Azure 政府、Dynamics 365 和 Office 365支持 NIST CSF 要求？**
-
-是的，第三方评估组织已证明 Azure 政府云服务产品符合 NIST 网络安全框架 (CSF) 风险管理实践，如 2014 年 2 月 12 日"改善关键基础结构网络安全框架 1.0 版"中的定义。 NIST CSF 映射到 FedRAMP 中等控制措施框架，独立评估员已针对 FedRAMP 中等基线评估 Dynamics 365。 此外，Office 365 2019 年 7 月从 HITRUST 获取[NIST CSF](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=2a472d92-7c3b-47e0-9ae7-0f539da31f42&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)认证信函。
+是的，Office 365 2019 年 7 月从 HITRUST 获得[NIST CSF](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=2a472d92-7c3b-47e0-9ae7-0f539da31f42&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)认证信函。
 
 **Microsoft 云服务如何证明与框架的合规性？**
 
@@ -78,7 +84,7 @@ NIST 网络安全框架 (CSF) 标准在云中可能充满挑战。 幸运的是�
 
 **Microsoft 在保持遵守此计划方面承担什么责任？**
 
-自愿参与 FICIC。 但是，Microsoft 确保 Azure、Office 365 和 Dynamics 365 符合管理联机服务条款和适用的服务级别协议中定义的条款。 这些定义 Microsoft 负责实施和维护足以保护 Azure 平台和监视系统的控制措施。
+自愿参与 FICIC。 但是，Microsoft Office 365管理联机服务条款和适用的服务级别协议中定义的条款。
 
 **能否将 Microsoft 的合规性用于我的组织？**
 
@@ -88,22 +94,15 @@ NIST 网络安全框架 (CSF) 标准在云中可能充满挑战。 幸运的是�
 
 根据安全部[](https://www.dhs.gov/critical-infrastructure-sectors)，这些部门包括以下部门的组织：建筑、商业设施、通信、关键制造、三十座、国防工业基础、紧急服务、能源、金融服务、政府设施、医疗保健和公共安全、信息技术、 (垃圾和垃圾) 、交通系统、水 (和) 。
 
-**What are the scope services for Office 365？**
-
-NIST CSF 认证范围内服务包括 Exchange Online Archiving、Exchange Online Protection、Exchange Online、Skype for Business、管理中心、SharePoint Online、Project Online、OneDrive for Business、Office Online、MyAnalytics、Microsoft Teams、Microsoft 365 企业应用版（位于 Office 365 多租户云和 Office 365 GCC 中）。
-
-> [!NOTE]
-> Microsoft 365 企业应用版支持访问各种云服务，如漫游 设置、许可和 OneDrive 消费者云存储，并且将来可能允许访问其他云服务。 漫游设置许可支持 HITRUST 标准。 OneDrive云存储不支持，其他可通过 Microsoft 365 企业应用版 且 Microsoft 将来可能提供的云服务也可能不支持这些标准。*
-
 **为什么某些Office 365服务不在认证范围内？**
 
 与其他云服务提供商相比，Microsoft 提供了最全面的产品/服务。 为了与跨地区和行业的广泛合规性产品/服务保持一致性，我们根据市场需求、客户反馈和产品生命周期，在保证工作范围内包括服务。 如果服务未包含在特定合规性产品的当前范围内，则你的组织有责任根据合规性义务评估风险并确定你处理该服务中数据的方式。 我们会持续收集客户的反馈，并与监管机构和审核员合作，扩大合规性范围以满足您的安全性和合规性需求。
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
 [Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
-## <a name="resources"></a>资源
+### <a name="resources"></a>资源
 
 - [Microsoft 云服务授权](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
 - [将 Microsoft 网络产品映射到：NIST 网络安全框架 (CSF) 、CIS 控制措施、ISO27001：2013 和 HITRUST CSF](https://go.microsoft.com/fwlink/p/?linkid=2074025)

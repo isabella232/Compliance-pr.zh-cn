@@ -16,16 +16,16 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: da53b5e2cdac7095e2fc3ff9b243d2863b85fdbf
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 4c27c84d2abc2de4866471d652d8b11351bc3168
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088781"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385652"
 ---
-# <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>新西兰政府云计算安全和隐私注意事项
+# <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>新西兰政府信息安全和隐私注意事项 (ISPC) 
 
-## <a name="new-zealand-government-cloud-computing-security-and-privacy-overview"></a>新西兰政府云计算安全和隐私概述
+## <a name="new-zealand-government-information-security-and-privacy-considerations-overview"></a>新西兰政府信息安全和隐私注意事项概述
 
 2015 年 10 月，新西兰政府修订了一项政府性 ICT 策略，其"云第一"策略将在整个公共部门使用信息技术。 修订后的策略保留了在 NZ 政府首席信息官和 GCIO (下制定和实施的"云计算风险和保障) 。
 
@@ -37,14 +37,30 @@ ms.locfileid: "53088781"
 
 为了帮助机构对 Microsoft 企业云服务进行分析和评估，Microsoft 新西兰已经制作了一些文档，这些文档显示其企业云服务如何解决"云计算 ISPC"中的问题，将它们链接到 Microsoft 云服务的认证标准。 这些认证对于 Microsoft 如何向公共和私有行业客户保证其云服务已经设计、构建和运行，以有效缓解隐私和安全风险以及解决数据危害问题，这一点十分中心。 客户 [可下载对云计算 ISPC](https://azure.microsoft.com/resources/microsoft-azure-response-to-nz-gcio-cloud-computing-information-security-privacy-considerations/) 的 Azure 响应。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
-- [Azure 与 Azure 政府](https://aka.ms/AzureCompliance)
+- Azure 与 Azure 政府
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
+- Office 365
 - Power BI 云服务，作为独立服务提供，后者随 Office 365 品牌计划或套件一并提供
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Exchange Online、SharePoint Online 和 Microsoft Teams。 Microsoft NZ 与 GCIO 团队合作，共同开发用于集成 Exchange Online 和 SEEMail 的参考体系结构。
+
+## <a name="office-365-and-ispc"></a>Office 365 和 ISPC
+
+### <a name="office-365-cloud-environments"></a>Office 365云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online、SharePoint Online、Skype for Business |
+
+>[!Note]
+>Microsoft NZ 与 GCIO 团队合作，共同开发集成 Exchange Online 和 SEEMail（如 Office 365：SEEMail 集成和参考体系结构中所述）的参考体系结构。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -61,10 +77,10 @@ ms.locfileid: "53088781"
 - [托管的主机Office生产力服务的安全要求：托管服务的安全Office 365](https://aka.ms/o365-gcio-conformance-guidance)
 - [NZ Government ICT Strategy 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [云计算：ISPC (信息安全和隐私) ](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
-- [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
+- [Microsoft 联机服务条款](https://aka.ms/Online-Services-Terms)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Microsoft 对"云计算 IPSC"的响应
+## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Microsoft 对云计算 IPSC 的响应
 
 - [Azure](https://aka.ms/Azure-NZ-response)
 - [Intune](https://aka.ms/Intune-NZ-response)

@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: 298f0efe74539c8a8bd10330cfeb80894ef9edb1
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 6e088f64d6b0113640100269b29ef31737befe92
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089011"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377949"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>适用于 Office Web Apps Server 和 Office Online Server 的 GDPR
 
@@ -80,7 +80,7 @@ Office 日志包含各种不同类型的数据。以下是 ULS 日志可能包�
 
 - 有关应用和/或应用内特定功能的性能数据
 
-- 有关用户计算机所在位置的常规位置信息（例如，派生自 IP 地址的国家/地区、省/市/自治区和城市），但不是精确的地理位置。
+- 有关用户计算机所在位置的常规位置信息（例如，派生自 IP 地址的国家/地区、省/市/自治区和市/县），但不是精确的地理位置。
 
 - 有关浏览器（例如浏览器名称和版本）和计算机（例如操作系统类型和版本）的基本元数据
 

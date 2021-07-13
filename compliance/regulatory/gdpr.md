@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 69c81b78e5107055c7760a99842468210eec70da
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 5543a8077ae0f5ff344a3f8f7cafbb2c778e7a5d
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51495799"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377929"
 ---
 # <a name="general-data-protection-regulation-summary"></a>一般数据保护条例摘要
 
@@ -267,7 +267,7 @@ GDPR 通过一组“数据主体权利”为欧盟居民提供了对其个人数
 
 **我如何知道 GDPR 是否涵盖组织正在处理的数据？**
 
-GDPR 规范了“个人数据”的收集、存储、使用和共享。 根据 GDPR，个人数据的定义很宽泛，即指与已识别或可识别的自然人相关的任何数据。
+GDPR 规范了“个人数据”的收集、存储、使用和共享。根据 GDPR，个人数据的定义很宽泛，即指与已识别或可识别的自然人相关的任何数据。
 
 个人数据包括但不限于联机标识符（例如，IP 地址）、员工信息、销售数据库、客户服务数据、客户反馈表、位置数据、生物识别数据、闭路电视录像、忠诚计划记录、健康和财务信息等。 它甚至包括看似不属于个人信息的信息（例如没有人物的风景照），其中该信息可通过帐号或唯一代码关联至可识别的个人。 如果可将假名链接到特定个人，则经过假名处理的个人数据甚至也可以是个人数据。
 

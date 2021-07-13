@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3720eb98ee6f903d59316500ffe008398f388bf0
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 3621d34a87402722e18d50a298dff4d5a10ac3a9
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089786"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384342"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>2002 年萨班尼斯-奥克斯莱法案 (Sarbanes-Oxley Act of 2002, SOX)
 
@@ -39,21 +39,35 @@ SEC 不定义或实施 SOX 认证过程。 相反，它为它所监管的公司�
 
 由第三方审核公司生成的审核报告证实 Microsoft 控制措施设计正确，在指定的日期运行，且在指定的时段内有效运行。 客户可以审阅报告，了解 Microsoft 控制措施目标及其控制措施的有效性，并访问补充控制措施。
 
-为了进一步帮助 Azure 客户履行 SOX 义务，Microsoft 发布了 [《萨班斯-奥克斯利](https://aka.ms/Azure-SOX-Guide)Azure 指南》。 本白皮书提供了迁移最佳做法，包括遵守 SOX 的含义，并介绍了将 SOX 相关应用程序（Microsoft 国库和 Microsoft Finance）迁移到 Azure 的内部体验。
-
 在 Microsoft，我们与客户共同承担合规性责任。 我们提供有关合规性计划的详细信息，您可以通过向认证第三方请求详细的审核结果来验证这些细节。 但是，最终由你决定我们的服务是否符合适用于你的业务的特定法律和法规。 例如，有一些与 SOX 相关的安全控件（如用户访问云资源）属于你的责任：你的组织必须开发这些控件的适当审核，作为 SOX 合规性的一部分。
 
-详细了解如何在履行 SOX 合规性Microsoft Azure使用合规性报告：[下载萨班斯-奥克斯利](https://aka.ms/Azure-SOX-Guide)的 Azure 指南
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
-
-- [Azure](https://aka.ms/AzureCompliance)
+- Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
+- Office 365
+- Power BI云服务 (独立服务，也可以作为品牌计划或套件Office 365中包含的云服务) 
 
-## <a name="audits-reports-and-certificates"></a>审核、报告和证书
+## <a name="azure-dynamics-365-and-sox"></a>Azure、Dynamics 365 和 SOX
+
+有关 Azure、Dynamics 365 和其他联机服务合规性的信息，请参阅 [Azure SOX 产品/服务](/azure/compliance/offerings/offering-sox-us)。
+
+## <a name="office-365-and-sox"></a>Office 365 和 SOX
+
+### <a name="office-365-cloud-environments"></a>Office 365云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | 扩充循环、自动替换文字、 Azure 信息保护、二进制转换服务、Bookings、Delve、文档项、编辑器、Exchange Online、表单、插入联机媒体、Insights、Kaizala、Microsoft Analytics、Microsoft Booking、Microsoft Graph、Microsoft Teams、MyAnalytics、Office 365 云应用安全、Office 365 组、Office 365 视频、OneDrive for Business、Planner、Power Apps、PowerApps、Power Automate、Power BI、PowerPointDesigner、PowerPoint Online Document Service、SharePoint Online、Skype for Business、StaffHub、Stream、Sway、微软待办、Web 呈现服务Yammer Enterprise  |
+
+### <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
 [SOC 1 针对：](offering-SOC.md)
 
@@ -61,17 +75,15 @@ SEC 不定义或实施 SOX 认证过程。 相反，它为它所监管的公司�
 - Dynamics 365
 - Office 365
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+### <a name="frequently-asked-questions"></a>常见问题解答
 
 **如何使用 Microsoft SOX 合规性促进我的组织的合规性流程？**
 
 当你将应用程序和数据迁移到涵盖的 Microsoft 云服务时，你可以基于 Microsoft 保留的证明和认证来构建。 独立审核员报告证明 Microsoft 实施的控制措施的有效性，有助于维护数据的安全性和隐私性。 但是，你完全负责确保组织遵守所有适用的法律和法规。
 
-## <a name="resources"></a>资源
+### <a name="resources"></a>资源
 
-- [萨班斯-奥克斯利的 Azure 指南](https://aka.ms/Azure-SOX-Guide)
 - [Microsoft 金融服务合规性计划](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Azure 中的金融服务合规性](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Microsoft 商业云服务和金融服务](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Shared responsibilities for cloud computing](https://aka.ms/sharedresponsibility)（关于云计算的共同责任）
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

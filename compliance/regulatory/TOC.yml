@@ -248,8 +248,8 @@
       items:
         - name: 责任就绪清单
           href: gdpr-arc.md
-        - name: Azure 和 Dynamics 365
-          href: gdpr-arc-azure-dynamics.md
+        - name: Azure、Dynamics 365 和 Windows
+          href: gdpr-arc-azure-dynamics-windows.md
         - name: Microsoft 支持和专业服务
           href: gdpr-arc-prof-services.md
         - name: Office 365
@@ -274,20 +274,18 @@
           href: gdpr-dsr-office365.md
         - name: Visual Studio 系列产品
           href: gdpr-dsr-visual-studio-family.md
-        - name: Windows Enterprise
+        - name: Windows
           href: gdpr-dsr-windows.md
     - name: 泄露通知
       items:
         - name: 泄露通知
           href: gdpr-breach-notification.md
-        - name: Azure 和 Dynamics 365
-          href: gdpr-breach-azure-dynamics.md
+        - name: 'Azure, Dynamics 365 和 Windows'
+          href: gdpr-breach-azure-dynamics-windows.md
         - name: Microsoft 支持和专业服务
           href: gdpr-breach-microsoft-support-professional-services.md
         - name: Office 365
           href: gdpr-breach-office365.md
-        - name: Windows Enterprise
-          href: gdpr-breach-windows.md
     - name: 数据保护影响评估
       items:
         - name: 数据保护影响评估
@@ -300,7 +298,7 @@
           href: gdpr-dpia-prof-services.md
         - name: Office 365
           href: gdpr-dpia-office365.md
-        - name: Windows Enterprise
+        - name: Windows
           href: gdpr-dpia-windows.md
     - name: 适用于本地 Office 服务器的 GDPR
       items:

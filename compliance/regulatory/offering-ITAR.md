@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5ee31d5d61048593eec53a6bb72f8af538d2c3b3
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 0797161b0c7bfca8d4fda37cbf05a037d29322de
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088921"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384632"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>国际武器贸易条例 (ITAR) 
 
 ## <a name="itar-overview"></a>ITAR 概述
 
-美国国防部负责管理导出和临时导入的防御 (美国商品列表下指定的任何项目或技术数据。 如 Title 22 CFR 121.1) that are described in the Title 22 CFR 121.1) that are governed by the Arms Export Control Act (Title 22 USC 2778) and the International Traffic in Arms Regulations (ITAR)  (Title 22 CFR 120–130) . 美国国防贸易管理局 (DDTC) 负责管理这些计划下管理的实体。
+美国国防部负责管理美国国防条款的导出和临时导入 (美国商品列表下指定的任何项目或技术数据。 如 Title 22 CFR 121.1) that are described by the Title 22 USC 2778) by the (Title 22 CFR 120-130) and the International Traffic in Arms Regulations (ITAR)  (Title 22 CFR 120-130) . 美国国防贸易管理局 (DDTC) 负责管理这些计划下管理的实体。
 
 ## <a name="microsoft-and-itar"></a>Microsoft 和 ITAR
 
@@ -41,22 +41,39 @@ ITAR 有报告违反行为的特定义务，这可以提供一些风险缓解优
   
 希望托管 ITAR 监管数据的客户应该与 Microsoft 帐户和许可团队协作，以了解更多信息、获得适当的协议以及访问相关的系统体系结构信息。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
-- [Azure 政府](https://aka.ms/AzureCompliance)
-- [Office 365 美国政府防御版](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Azure 政府
+- Office 365美国政府 - 高、Office 365防御
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+## <a name="azure-dynamics-365-and-itar"></a>Azure、Dynamics 365 和 ITAR
 
-**在哪里可以请求合规性信息？**
+有关 Azure、Dynamics 365 和其他在线服务合规性的信息，请参阅 Azure [ITAR 产品](/azure/compliance/offerings/offering-itar)/
 
-请与 Microsoft 帐户代表联系。
+## <a name="office-365-and-itar"></a>Office 365 和 ITAR
 
-## <a name="resources"></a>资源
+### <a name="office-365-cloud-environments"></a>Office 365云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **GCC 高** | 活动源服务、必应 服务、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **DoD** | 活动源服务、必应 服务、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+
+### <a name="frequently-asked-questions"></a>常见问题解答
+
+**在哪里可以请求Office 365 ITAR 的合规性信息？**
+
+请联系你的Microsoft Office 365客户代表。
+
+### <a name="resources"></a>资源
 
 - [DDTC ITAR](https://www.pmddtc.state.gov/?id=ddtc_kb_article_page&sys_id=24d528fddbfc930044f9ff621f961987)
 - [ITAR 标题 22 CFR 120–130](https://aka.ms/itar)
-- [将 Azure 政府与 ITAR 控制的数据一同使用](https://aka.ms/azure-itar-guide)
-- [Azure 政府](https://azure.microsoft.com/features/gov/)
 - [Office 365美国政府](https://products.office.com/government/office-365-web-services-for-government)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

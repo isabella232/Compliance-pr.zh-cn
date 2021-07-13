@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e57959e6463704b1a6821ace10b9eadad1b570c1
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: de14ca813334e575709b0c4546de95dcf3ef21be
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088841"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385492"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>澳大利亚审慎监管局 (A在) 
 
@@ -72,11 +72,25 @@ Microsoft 云服务：遵守[A且谨慎标准 CPS 234 信息安全](https://quer
 
 根据 A CHECKLIST 法规，获取对将数据和工作负载移动到 Azure 的实际 [支持：下载 Microsoft 云服务：澳大利亚金融机构的合规性清单](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
 
-- [Azure](https://aka.ms/AzureCompliance)
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Dynamics 365
+- Azure
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- Office 365
+
+## <a name="office-365-and-apra"></a>Office 365 和 A且
+
+### <a name="office-365-cloud-environments"></a>Office 365云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+
+使用下表确定您的 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online Protection、Exchange Online、Office 365 客户门户、Office Online、Office 服务基础结构、OneDrive for Business、SharePoint Online Skype for Business |
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

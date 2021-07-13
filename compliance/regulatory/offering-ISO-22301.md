@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d87d143479cab3dffb881c58dc19d11a81b1c7a9
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 1c4cf624eb6f658bcdddde1acbef7bc43323f257
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088931"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384712"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 业务连续性管理标准
 
@@ -35,7 +35,7 @@ ISO 22301:2012 由技术委员会于 2012 年发布，是首个帮助确保业�
 
 Microsoft 是首个获得业务连续性管理 ISO 22301 认证的超大型云服务提供商。 一家独立认证机构，在对业务连续性过程的所有方面进行严格审核后，向 Microsoft Azure、Microsoft Azure 政府、Microsoft Office 365（包括商业版、政府版和教育版产品/服务）、Microsoft Cloud App Security、Microsoft Intune 和 Microsoft Power BI 授予此认证。 此审核涵盖下面列出的范围内服务和 Azure 管理功能、Azure 门户以及用于监视、运行和更新范围内服务的系统。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure、Azure 政府和 Azure 德国](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
@@ -46,7 +46,7 @@ Microsoft 是首个获得业务连续性管理 ISO 22301 认证的超大型云�
 - Intune
 - [Microsoft 托管桌面](/microsoft-365/managed-desktop/intro/compliance)
 - Power Automate (以前称为 Microsoft Flow) 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
-- [Office 365 商业版、政府版和教育版](https://go.microsoft.com/fwlink/p/?linkid=2077751)
+- Office 365 商业版、政府版和教育版
 - PowerApps 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 - Power BI Embedded
