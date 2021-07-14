@@ -16,14 +16,14 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 75ab80c2b017e7fe4576f145db50465ea71e2d41
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: e5b04f64d2dc0b31c8357a02930fa582b2fbae07
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50119911"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385642"
 ---
-# <a name="personal-data-protection-act-pdpa-argentina"></a>阿根廷个人数据保护法 (PDPA)
+# <a name="argentina-personal-data-protection-act-pdpa"></a>阿根廷个人数据保护法 (PDPA)
 
 ## <a name="about-the-pdpa"></a>关于 PDPA
 
@@ -39,13 +39,27 @@ Microsoft 按合同承诺遵守 [Microsoft 在线服务条款](https://www.micro
 
 商业云服务中实施的技术和组织安全措施也支持 PDPA 中的其他规则，例如禁止重复使用数据主体的个人数据，以及禁止将个人数据传输到未提供足够保护级别的国家/地区。
 
-Microsoft 数据传输协议是在线服务条款中的数据处理条款的修正案（修正案 ID M314）。 其中新增了重要承诺，包括 Microsoft 将向客户发送任何具有法律约束力的泄露个人数据请求的通知；将按客户请求提交数据处理设施以由客户或独立第三方进行审核；或者将事先获得使用分包商的书面同意。
+Microsoft 数据传输协议是在线服务条款中的数据处理条款的修正案（修正案 ID M314）。其中新增了重要承诺，包括 Microsoft 将向客户发送任何具有法律约束力的泄露个人数据请求的通知；将按客户请求提交数据处理设施以由客户或独立第三方进行审核；或者将事先获得使用分包商的书面同意。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内的云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure 和 Azure DevOps](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
-- [Microsoft 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- Office 365
+
+## <a name="office-365-and-the-pdpa"></a>Office 365 和 PDPA
+
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
+
+使用下表确定 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Azure 信息保护， Bookings， Exchange Online， Exchange Online Protection， Kaizala， Microsoft Analytics， Microsoft Booking， Microsoft Graph， Microsoft Teams， Microsoft 待办事项网页版， MyAnalytics， Office 365 云应用安全， Office 365 组， Office 365 视频， Office Delve， OneDrive for Business， Planner， Power Apps， Power BI for Office 365， PowerApps， Power Automate， SharePoint Online， Skype for Business， StaffHub，Stream，Sway，Yammer Enterprise |
 
 ## <a name="how-to-implement"></a>如何实现
 
@@ -56,7 +70,7 @@ Microsoft 数据传输协议是在线服务条款中的数据处理条款的修�
 
 **GDPR 对个人数据保护法做了哪些变更？**
 
-2018 年下旬，阿根廷尚未颁布与 GDPR 相关的法规，但已起草新的数据保护法案（已由行政机关提交到国会并由众议院进行修订），将数据保护法律引入到 GDPR 中。 区别在于数据主体的定义以及个人信息的跨境传输方面的顾虑。
+2018 年下旬，阿根廷尚未颁布与 GDPR 相关的法规，但已起草新的数据保护法案（已由行政机关提交到国会并由众议院进行修订），将数据保护法律引入到 GDPR 中。区别在于数据主体的定义以及个人信息的跨境传输方面的顾虑。
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

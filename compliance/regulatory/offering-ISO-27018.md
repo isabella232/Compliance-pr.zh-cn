@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 319f51416b0bcafb17d8ac343093789146d13742
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 579e300213f15d6416b7c0c8f9d37668c9934faa
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497733"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384732"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>保护云中个人数据的 ISO/IEC 27018 行为守则
 
@@ -42,51 +42,58 @@ Microsoft 和 ISO/IEC 27018
 - **Microsoft 客户了解其 PII 的使用情况。** ISO/IEC 27018 要求制定相应策略，以允许在合理期限内返回、传输和安全处置个人信息。 如果 Microsoft 与需要访问客户数据的其他公司合作，Microsoft 将主动公开这些附属处理者的身份。
 - **在客户数据披露方面，Microsoft 仅遵守具有法律约束力的请求。** 如果 Microsoft 必须遵守如刑事侦察这样的请求，Microsoft 将始终通知客户，除非法律禁止这样做。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
-- [Azure、Azure 政府和 Azure 德国](https://aka.ms/AzureCompliance)
+- Azure、Azure 政府和 Azure 德国
 - Azure DevOps Services
-- Microsoft Cloud App Security
-- Dynamics 365、Dynamics 365 和 Dynamics 365 德国
+- [Dynamics 365、Dynamics 365 和 Dynamics 365 德国](https://aka.ms/d365-compliance-list)
+- Intune
+- Microsoft 云应用安全
 - Microsoft 专业服务：针对 Azure、Dynamics 365、Intune 及 Microsoft 365 商业版中型企业客户的高级和本地支持。
 - Microsoft Graph
 - Microsoft 医疗保健机器人
-- Intune
 - [Microsoft 托管桌面](/microsoft-365/managed-desktop/intro/compliance)
-- Power Automate (以前称为 Microsoft Flow)： 云服务作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
-- [Office 365、Office 365 U.S. Government 和 Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
+- Microsoft 威胁专家
+- Microsoft Stream
+- Office 365、Office 365 U.S. Government 和 Office 365 U.S. Government Defense
 - Office 365 德国
 - OMS Service Map
+- Power Automate (以前称为 Microsoft Flow)： 云服务作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - PowerApps 云服务：作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - Power BI 云服务：作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 - Power BI Embedded
 - Power Virtual Agents
-- Microsoft 威胁专家
-- Microsoft Stream
 - Microsoft Defender for Endpoint：终结点检测和响应、自动调查与修正、安全分数
 
-## <a name="audits-reports-and-certificates"></a>审核、报告和证书
+## <a name="azure-dynamics-365-and-iso-isoiec-27018"></a>Azure、Dynamics 365 和 ISO ISO/IEC 27018
 
-### <a name="audit-cycle"></a>审核周期
+有关 Azure、Dynamics 365 和其他联机服务合规性的详细信息，请参阅 [Azure ISO/IEC 27018 产品/服务](/azure/compliance/offerings/offering-iso-27018)。
+
+## <a name="office-365-and-iso-isoiec-27018"></a>Office 365 和 ISO ISO/IEC 27018
+
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
+
+使用下表确定 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Access Online, Azure Active Directory, Azure 通信服务, 合规性管理器, 客户密码箱, Delve, Exchange Online Protection, Exchange Online, Forms, Griffin, 身份管理器, 密码箱 (Torus), Microsoft Defender for Office 365, Microsoft Teams, MyAnalytics, Office 365 高级合规版加载项, Office 365 客户门户, Office 365 微服务（包括但不限于 Kaizala、ObjectStore、Sway、PowerPoint Online Document Service、查询批注服务、学校数据同步、Siphon、语音、StaffHub、可扩展应用程序计划）, Office 365 安全与合规中心, Office Online, Office Pro Plus, Office 服务基础结构, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, Project Online, 使用客户密钥执行服务加密, SharePoint Online, Skype for Business, Stream |
+| **GCC** | Azure Active Directory, Azure 通信服务, 合规性管理器, Delve, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, MyAnalytics, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
+| **GCC 高级** | Azure Active Directory, Azure 通信服务, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **DoD** | Azure Active Directory, Azure 通信服务, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
+
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告和证书
 
 作为 ISO/IEC 27001 认证过程的一部分，每年会对 Microsoft 云服务和商业技术支持服务进行一次 ISO/IEC 27018 行为守则审核。
-
-### <a name="audits-and-reports"></a>审核和报告
-
-- [Azure、Dynamics 365 和联机服务：ISO27018 证书](https://aka.ms/azureiso27018cert)
-- [AAzure、Dynamics 365 和联机服务： ISO27018 评估报告](https://aka.ms/azureiso27001report)
-- [Azure 德国：ISO 27018 保护云中个人数据的行为守则证书](https://servicetrust.microsoft.com/Documents/ComplianceReports?downloadDocument=1&documentId=6a0dab80-8382-4af6-980c-ed2ed9a341c6)
-
-### <a name="office-365"></a>Office 365
 
 - [Office 365: ISO 27001、27018 和 27017 审核评估报告](https://aka.ms/o365isoreport)
 - [Yammer ISO 27018 审核评估报告](https://aka.ms/YammerISO27018Auditreport)
 
-### <a name="azure-devops-services"></a>Azure DevOps Services
-
-- [Azure DevOps Services：ISO27018 证书 PII 665918](https://go.microsoft.com/fwlink/p/?linkid=2062252)
-
-## <a name="frequently-asked-questions"></a>常见问题解答
+### <a name="frequently-asked-questions"></a>常见问题解答
 
 **ISO/IEC 27018 适用于哪些对象？**
 
@@ -99,23 +106,21 @@ Microsoft 和 ISO/IEC 27018
 - “控制者”控制个人信息的收集、保留、处理或使用；其中包括代表其他公司控制信息的人员。
 - “处理者”代表控制者处理信息；他们不决定如何使用信息或处理的目的。 在提供企业云服务时，Microsoft（作为你的供应商）是信息处理者。
 
-**可在何处查看针对 ISO/IEC 27018 的 Microsoft 合规性信息？**
+**可在何处查看针对 ISO/IEC 27018 的 Office 365 合规性信息？**
 
-- 你可以查看针对 [Azure](https://go.microsoft.com/fwlink/p/?linkid=2078016)、[Microsoft 专业服务](https://www.bsigroup.com/Our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=company%3dMicrosoft%2bCorporation&licencenumber=PII%20642270)和 [Power BI](https://go.microsoft.com/fwlink/p/?linkid=2078016) 的 BSI 中的 ISO/IEC 27018 证书。
-- 此外，你还可以查看针对 [Dynamics 365](https://aka.ms/Dynamics-CRM-Online-Cert)、[Office 365](https://aka.ms/Office365-Cert) 和 [Azure DevOps Services](https://go.microsoft.com/fwlink/p/?linkid=2062159) 的 BSI 中的 ISO/IEC 27001 证书（ISO/IEC 27018 认证基于这些证书）。
-- 若要查看 BSI 报告，了解独立审核员是否已验证 Microsoft 符合 ISO/IEC 27018，请访问[服务信任门户](https://aka.ms/stphelp)。
+- 你可以查看来自 BSI（验证 Microsoft 符合 ISO/IEC 27018 的独立审计师）的 [Office 365](https://aka.ms/Office365-Cert) 的 ISO/IEC 27018 证书。
 
 **能否在我组织的认证过程中使用 Microsoft 的合规性认证？**
 
-可以。 如果符合 ISO/IEC 27018 对你的业务及在任何 Microsoft 范围内企业云服务上部署的实施非常重要，则可在合规性评估中使用 Microsoft 的 ISO/IEC 27018 合规性证明和 Microsoft 的 ISO/IEC 27001 合规性证书。
+可以。如果符合 ISO/IEC 27018 对你的业务及在任何 Microsoft 范围内企业云服务上部署的实施非常重要，则可在合规性评估中使用 Microsoft 的 ISO/IEC 27018 合规性证明和 Microsoft 的 ISO/IEC 27001 合规性证书。
 
 但是，你需要负责聘请评估方来评估合规性政策的实施情况，以及所在组织中的控制措施和流程。
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
 [Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
-## <a name="resources"></a>资源
+### <a name="resources"></a>资源
 
 - [ISO/IEC 27018:2014 行为守则](https://aka.ms/ISO.IEC_27018.2014)
 - [Microsoft 公共控制中心合规性框架](https://www.microsoft.com/trustcenter/common-controls-hub)

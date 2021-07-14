@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6330ee298949353c24a4b95ff65696807b78b09b
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: baea6a472b247d3f86019792a56fb28a6a256b77
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088791"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384312"
 ---
 # <a name="web-content-accessibility-guidelines"></a>Web 内容辅助功能准则
 
@@ -41,15 +41,31 @@ Microsoft 发布的 WCAG 报告反映了完整的产品或服务。 该公司通
 
 [下载 WCAG (ISO/IEC 40500) 辅助功能标准](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure 与 Azure 政府](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Azure DevOps Services
 - Dynamics 365 和 Dynamics 365 美国政府
 - Intune
-- Office 365 和 Office 365 US 政府计划
-- Office 365 美国政府防御版
+- Office 365、Office 365 U.S. Government、Office 365 U.S. Government Defense
 - Windows Server 2016
+
+## <a name="office-365-and-wcag"></a>Office 365 和 WCAG
+
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
+
+使用下表确定 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Excel, Exchange 管理中心, Office 365 管理中心（门户）, Office 365 和 Azure AD 登录体验, Office 365 客户门户, Office 365 安全与合规中心, Office 365 视频, Office Lens, Office.com, OneDrive 管理中心, OneDrive for Business, OneDrive 同步客户端, OneNote, Orcas, Outlook Groups, Outlook, PowerPoint, Project, Word  |
+| **GCC** | Azure Active Directory, 合规性管理器, Delve, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, MyAnalytics, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
+| **GCC 高级** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams、Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **DoD** | Azure Active Directory, Exchange Online, Microsoft Defender for Office 365, Microsoft Teams, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, Forms, Power BI, SharePoint Online, Skype for Business |
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Microsoft 辅助功能一致性报告
 
