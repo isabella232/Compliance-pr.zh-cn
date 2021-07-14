@@ -16,24 +16,22 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f48ba2f7bd10167d5e4cb384a7740df5e48b7617
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 93a45f3da668ef9f6115fe352b5bbbce49e15d7f
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088711"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385522"
 ---
 # <a name="title-23-nycrr-part-500"></a>Title 23 NYCRR 500 部分
 
 ## <a name="title-23-nycrr-part-500-overview"></a>Title 23 NYCRR 500 部分概述
 
-为了响应 2017 年对信息和财务系统的网络安全造成的大量不断增加的威胁，纽约州金融服务局对许可或授权在纽约州开展业务的金融机构施加一组新的网络安全要求。 此法规（Title 23 纽约法典、规则和法规 500 部分：金融服务公司的网络安全要求）旨在保护金融机构的客户数据和信息技术系统（如州立、私营和国际银行、抵押经纪人和保险公司）。
+为了响应 2017 年对信息和财务系统的网络安全造成的大量不断增加的威胁，纽约州金融服务局对许可或授权在纽约州开展业务的金融机构施加一组新的网络安全要求。 Title 23 纽约法典、规则和法规 500 部分：金融服务公司的网络安全要求旨在保护金融机构的客户数据和信息技术系统（如州立、私营和国际银行、抵押经纪人和保险公司）。
 
 ## <a name="microsoft-and-title-23-nycrr-part-500"></a>Microsoft 和 Title 23 NYCRR 500 部分
 
 Microsoft 为受到 Title 23 NYCRR 500 部分监管的金融服务提供了综合指南，[Microsoft 云服务：支持通过 NYDFS 网络安全要求实现合规性](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=f7e56dc6-4e52-4e9a-af06-aa41d5851d36&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)。 该指南详细介绍了 Azure、Office 365 和 Power BI 云服务如何支持通过要求实现合规性。 试图在纽约的全球金融中心经营业务的金融机构必须满足这些要求，因此合规性对于许多机构非常重要。
-
-遵循此指南以通过 Title 23 NYCRR 500 部分： Microsoft 云服务：[支持通过 NYDFS 网络安全要求实现合规性](https://go.microsoft.com/fwlink/p/?linkid=2098969)来加快实现合规性
 
 纽约法规要求每个金融机构：
 
@@ -51,18 +49,31 @@ Microsoft 为受到 Title 23 NYCRR 500 部分监管的金融服务提供了综�
 - **监视授权用户的活动，检测未经授权的访问，并向员工提供定期的网络安全意识培训**：Azure、Office 365 和 Power BI 包含由外向内监视，以引发有关事件的警报以及日志记录和审核的大量诊断。 [Microsoft Virtual Academy](https://mva.microsoft.com/) 提供了包含 Microsoft 云服务的网络安全的在线培训。
 - **制定计划来响应网络安全事件并从中恢复**：Microsoft 可帮助你使用防御策略准备网络安全事件，以在出现安全漏洞之前对其进行检测、预测和防范。 开发自己的计划时，可以制定事件管理计划以响应网络安全漏洞。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
-- [Azure](https://aka.ms/AzureCompliance)
+- Azure
 - Intune
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI 云服务，无论是独立服务还是随 Office 365 品牌计划或套件提供的服务
+- Office 365
+
+## <a name="office-365-and-title-23-nycrr-part-500"></a>Office 365 和 Title 23 NYCRR 500 部分
+
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
+
+使用下表确定 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online Protection， Exchange Online， Office 365 客户门户， Office Online， Office 服务基础结构， OneDrive for Business， SharePoint Online， Skype for Business |
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
 **此法规中包含哪些机构？**
 
-请参阅“纽约州金融服务管理局”[要监督的机构](https://go.microsoft.com/fwlink/p/?linkid=2099374)来确定你的机构是否受到此法规的制约。
+请参阅[“纽约州金融服务管理局”要监督的机构](https://go.microsoft.com/fwlink/p/?linkid=2099374)的网站来确定你的机构是否受到此法规的制约。
 
 ## <a name="resources"></a>资源
 
@@ -76,5 +87,4 @@ Microsoft 为受到 Title 23 NYCRR 500 部分监管的金融服务提供了综�
 
 - [Microsoft 商业云服务和金融服务](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Microsoft 云金融服务合规性计划](https://www.microsoft.com/download/confirmation.aspx?id=55332)
-- [Azure 中的金融服务合规性](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [关于云计算的责任共担](https://aka.ms/sharedresponsibility)- 

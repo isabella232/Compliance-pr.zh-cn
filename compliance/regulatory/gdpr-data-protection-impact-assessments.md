@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: eb609f081f3f2aeb182bfe7a24327ebc89513a9c
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 711cbafddaa6fbdff4050b138edacbd399666ef3
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496314"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377779"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>GDPR 规定的数据保护影响评估
 
@@ -43,7 +43,7 @@ GDPR 要求，数据控制者必须准备对“可能会对自然人的权利和
 
 ## <a name="dpia-in-action"></a>DPIA 演示
 
-DPIA 指南适用于 Office 365、Azure、Dynamics 365 以及 Microsoft 支持和专业服务。 相应指南包括以下注意事项：
+DPIA 指南适用于 Office 365、Azure、Dynamics 365 以及 Microsoft 支持部门和专业服务。该指南包括以下几方面的考虑：
 
 **何时需要 DPIA？**
 
@@ -57,7 +57,7 @@ GDPR 澄清：“如果处理所涉及的个人数据来自个体医生、其他
 
 **完成 DPIA 需要什么？**
 
-DPIA 应提供预期处理的具体信息，详见指南的第 2 部分。 此类信息包括：
+DPIA 应提供预期处理的具体信息，详见指南的第 2 部分。该信息包括：
 
 - 评估与 DPIA 目的相关的数据处理必要性和合理性。  
 - 评估对自然人的权利和自由造成的风险。
@@ -77,6 +77,7 @@ DPIA 应提供预期处理的具体信息，详见指南的第 2 部分。 此�
 - [Office 365](gdpr-dpia-office365.md)：本文档适用于 Office 365 应用程序和服务，包括但不限于 Exchange Online、SharePoint Online、Yammer、Skype for Business 和 Power BI。 有关详细信息，请参阅表 [1](/microsoft-365/compliance/gdpr-dpia-office365#part-1--determining-whether-a-dpia-is-needed) 和表 [2](/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia)。  
 - [Azure](gdpr-dpia-azure.md)：我们鼓励客户与其隐私官和法律顾问合作，共同确定与使用 Microsoft Azure 相关的任何 DPIA 的必要性和内容。  
 - [Dynamics 365](gdpr-dpia-dynamics.md)：DPIA 的内容可能因你使用的 Dynamics 365 工具而异。 有关具体详细信息，请参阅[第 2 部分 - DPIA 内容](/microsoft-365/compliance/gdpr-dpia-dynamics#part-2--contents-of-a-dpia)。
+- [Windows](/compliance/regulatory/gdpr-dpia-windows)：本文档适用于[Windows 诊断数据处理器配置](/windows/privacy/configure-windows-diagnostic-data-in-your-organization)。 我们鼓励客户与其隐私官和法律顾问合作，共同确定与使用 Windows 诊断数据处理器配置相关的任何 DPIA 的必要性和内容。
 - [Microsoft 支持和专业服务](gdpr-dpia-prof-services.md)：专业服务不会执行特定例程或自动数据处理，也不会处理特殊类别或执行便于或需要监视可公开访问数据的任务。 有关详细信息，请参阅[第 1 部分 - 确定是否需要 DPIA](/microsoft-365/compliance/gdpr-dpia-prof-services#part-1--determining-whether-a-dpia-is-needed)。 控制者必须在专业服务的特定实现和使用上下文中，考虑上面概述的 DPIA 元素以及其他任何相关因素。 有关专业服务信息，请参阅[第 2 部分 - DPIA 内容](/microsoft-365/compliance/gdpr-dpia-prof-services#part-2--contents-of-a-dpia)。
 
 ## <a name="learn-more"></a>了解详细信息

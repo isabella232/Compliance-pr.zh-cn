@@ -20,16 +20,16 @@ ms.workload:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 46b59094b188e6ceac58c4aa1fac6dedf8c55671
-ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+ms.openlocfilehash: 4a4ec723a046b65ade51b2e7aaa08fcda3a1908d
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53141463"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377939"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Visual Studio 系列数据主体请求
 
-根据欧盟 [一般数据保护条例 (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm)，用户（在条例中称为 _数据主体_）有权管理其个人数据。根据 GDPR，个人数据的定义非常广泛，包括与身份已识别或可识别的自然人相关的任何数据。根据 GDPR，数据主体有权对自己的个人数据执行以下操作：获取个人数据副本、请求更正个人数据、限制个人数据处理、删除个人数据或接受电子格式的个人数据。数据主体为了对自己的个人数据执行操作而向数据控制者（雇主或有权控制个人数据的其他类型的机构或组织）发出的正式请求称为 _数据主体请求_ 或 DSR。
+欧盟 [一般数据保护条例 （GDPR）](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) 授予人员（在法规中称为 _数据主体_）管理其个人数据的权利。 根据 GDPR，个人数据的定义很宽泛，即指与已识别或可识别的自然人相关的任何数据。 GDPR 赋予数据主体对其个人数据的特定权利；这些权利包括，获取个人数据副本、请求更正个人数据、限制个人数据处理、删除个人数据，或接收电子格式的个人数据。 数据主体向数据控制者（对个人数据具有控制权的雇主或其他类型的机构或组织）对该数据主体的个人数据执行操作的正式请求称为 _数据主体请求_ 或 DSR。
 
 同样，加州消费者隐私法案 (CCPA) 规定了加州消费者的隐私权和义务，包括与 GDPR 的数据主体权利类似的权利，例如删除、访问和接收（可移植性）其个人信息的权利。  CCPA 还就某些披露规定了在选择行使权限时防止歧视的保障措施，并就分类为“销售”的特定数据传输提出了“选择退出/选择加入”要求。 “出售”广义定义为包含共享数据来换取有值对价的行为。 有关 CCPA 的详细信息，请参阅[加州消费者隐私法案](offering-ccpa.md)和[加州消费者隐私法案常见问题解答](ccpa-faq.yml)。
 
@@ -212,9 +212,9 @@ Xamarin 论坛由第三方 Vanilla 论坛托管。若要请求删除你的个人
 
 ## <a name="other-visual-studio-family-services"></a>其他 Visual Studio 系列服务
 
-### <a name="surveymonkey"></a>SurveyMonkey
+### <a name="survey-monkey"></a>Survey Monkey
 
-有时，我们会邀请客户通过 SurveyMonkey 提供有关这些产品的反馈。此数据将在 28 天内删除。为这些产品提供数据主体请求服务时，如果我们已验证了调查响应，会将其添加到导出和删除数据主体请求中。
+我们不时邀请客户通过 Survey Monkey 提供有关这些产品的反馈。 此数据将在 28 天内从 Survey Monkey 中删除。 Microsoft 可能会在内部保留此数据长达 18 个月。 如果调查答复经过身份验证，则在为这些产品的数据主体请求提供服务时，我们会将它们包含在导出和删除数据主体请求中。
 
 ## <a name="learn-more"></a>了解更多
 

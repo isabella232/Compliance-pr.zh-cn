@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c753092f26df4a0d8ebcb5fc2a7921cee9e79f93
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 18abcba03796d7f6563c65cebcbbafd63759dc7c
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120921"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385222"
 ---
 # <a name="european-banking-authority-eba"></a>欧洲银行管理局 (EBA)
 
@@ -37,16 +37,16 @@ EBA 建议于 2018 年7 月生效，并以欧洲银行监察委员会 2006 年�
 
 Microsoft 指南逐条解释了每个 EBA 建议：
 
-- 审核权限。 Microsoft 在其行业领先的“金融服务修正案”中为客户提供合同审核权，为监管机构提供检查权。
-- 有关外包的通知。 Microsoft 可帮助客户将要外包的重要活动通知给监管机构。
+- 审核权。Microsoft 在其行业领先的“金融服务修正案”中为客户提供合同审核权，为监管机构提供检查权。
+- 有关外包的通知。Microsoft 可帮助客户将要外包的重要活动通知给监管机构。
 - 数据驻留。 Microsoft 拥有 36 个区域（其中欧洲 6 个），在全球云服务提供商中数据中心数量最多。 组织无需在欧洲托管数据即可在一个区域部署工作负载。
-- 有关分包商的通知。 Microsoft 在行业中率先采用合同承诺，提前 180 天向客户通知新分包商，如果客户不认可指定的新分包商，其有权终止。
-- 业务连续性。 Microsoft 在“金融服务修正案”中提供了业务连续性和解决方案规定，包括希望通过 Microsoft 咨询服务提供过渡帮助的意愿。
-- 风险评估和安全监控。 Microsoft 允许客户自行进行风险评估，并提供工具和仪表板，以便他们可以监督和监控我们的云服务。
+- 有关分包商的通知。Microsoft 在行业中率先采用合同承诺，提前 180 天向客户通知新分包商，如果客户不认可指定的新分包商，其有权终止。
+- 业务连续性。Microsoft 在“金融服务修正案”中提供了业务连续性和解决方案规定，包括希望通过 Microsoft 咨询服务提供过渡帮助的意愿。
+- 风险评估和安全监控。Microsoft 允许客户自行进行风险评估，并提供工具和仪表板，以便他们可以监督和监控我们的云服务。
 
 针对欧盟的金融机构，Microsoft 还发布了根据 EBA 指南建立的清单：[面向采用 Microsoft 云的金融机构的风险评估和合规性指南](https://aka.ms/RiskGovernanceGuide)。 它解释了如何建立经优化以符合法规要求的管理模型，并高效评估使用 Microsoft 云服务的风险，然后提交供监管审批。 我们的指南包括一个需要在法规申报中回答的问题列表，借鉴并响应了 EBA 关于外包给云服务提供商的指南。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Microsoft 365](https://aka.ms/o365-compliance-framework)

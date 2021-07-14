@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e50e5a8e0dd8ec400b4ca5ae053f3898e4cb0abc
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 456ce920d3327926541c78b1153577dcc6bb8e42
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496536"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385152"
 ---
 # <a name="european-union-model-clauses"></a>欧盟模式条款
 
@@ -41,19 +41,33 @@ Microsoft 向欧盟的数据保护工作组 (Article 29 Working Party) 提供了
 
 该工作组确定 Microsoft 协议中条款的实施符合其严格要求。 （Microsoft 是首个从该工作组获得认可和批准函的云服务提供商。）“批准”涵盖了模式条款 2010/87/EU 中反映的约定，但不包括附录中描述的数据导入方实施的数据传输及安全措施。 附录可能由 DPA 单独分析。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
-- [Azure 与 Azure 政府](https://aka.ms/AzureCompliance)
-- Microsoft 云应用安全
-- Microsoft 专业服务：针对 Azure、Dynamics 365、Intune 及 Microsoft 365 商业版中型企业客户的高级和本地支持。
+- Azure 与 Azure 政府
+- Azure DevOps Services
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune：Office 365 的 Intune 附加产品和移动设备管理的云服务部分
+- Microsoft Cloud App Security
+- Microsoft Defender for Endpoint 针对以下云服务部分：终结点检测和响应、自动调查和修正、安全分数。
+- Microsoft 专业服务：针对 Azure、Dynamics 365、Intune 及 Microsoft 365 商业版中型企业客户的高级和本地支持。
+- Office 365
 - Power Automate (以前称为 Microsoft Flow) 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- PowerApps 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
+- PowerApps 云服务，作为独立服务提供，后者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
-- Azure DevOps Services
-- Microsoft Defender for Endpoint 针对以下云服务部分：端点检测和响应、自动调查和修正、安全分数。
+
+## <a name="office-365-and-european-union-model-clauses"></a>Office 365 和欧盟模式条款
+
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
+
+使用下表确定 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | 高级威胁防护， Azure Active Directory， Azure 信息保护， Bookings， 合规性管理器， Delve， Exchange Online， Exchange Online Protection， Forms， Kaizala， Microsoft Analytics， Microsoft Booking， Microsoft Graph， Microsoft Teams， Microsoft 待办事项网页版， MyAnalytics， Office 365 高级合规性加载项， Office 365 Cloud App Security， Office 365 组， Office 365 安全与合规中心， Office 365 视频， Office Online， Office Pro Plus， OneDrive for Business， Planner， PowerApps， Power Automate， Power BI， SharePoint Online， Skype for Business， StaffHub， Stream， Sway， Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
@@ -88,7 +102,6 @@ Microsoft 会持续评估欧盟标准，并根据需要更新其服务。
 - [欧盟数据保护指令](https://aka.ms/EU-DPD)
 - [欧洲数据保护委员会](https://edpb.europa.eu/)
 - [Dynamics 365 和 Office 365 欧盟模式条款常见问题解答](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
-- [Microsoft 和欧盟-美国隐私盾](offering-eu-us-privacy-shield.md)
 - [Microsoft 公共控制中心合规性框架](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
+- [Microsoft 联机服务条款](https://aka.ms/Online-Services-Terms)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

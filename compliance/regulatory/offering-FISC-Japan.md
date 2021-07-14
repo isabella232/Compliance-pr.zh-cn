@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 88e85b1060374932320a4191c4eb4b2b665fe986
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 977c4805617e71d065b5f8c7a97b91d277a2ef34
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088941"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384952"
 ---
 # <a name="center-for-financial-industry-information-systems-fisc"></a>金融行业信息系统中心 (FISC)
 
@@ -45,15 +45,29 @@ Microsoft 聘请了外部评估人员来验证 Microsoft Azure、Dynamics 365 �
 
 金融机构可以依赖对 Azure、Dynamics 365、Office 365 和 Microsoft 云应用安全的范围内基础结构和平台服务进行的这三方面的合规性评估。
 
-[详细了解外部评估人员的验证及评估人员网站链接（仅日语版）](https://cloudblogs.microsoft.com/industry-blog/ja-jp/financial-services/2018/05/11/fisc_v9/)。
+[详细了解外部评估人员的验证及评估人员网站链接（仅日语版](https://cloudblogs.microsoft.com/industry-blog/ja-jp/financial-services/2018/05/11/fisc_v9/)）。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
-- [Azure](https://aka.ms/AzureCompliance)
-- Microsoft 云应用安全
+- Azure
 - Intune
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI 云服务，无论是独立服务还是随 Office 365 品牌计划或套件提供的服务
+- Microsoft 云应用安全
+- Office 365
+- Power BI 云服务（作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供）
+
+## <a name="office-365-and-fisc"></a>Office 365 和 FISC
+
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
+
+使用下表确定 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Access Online， Azure Active Directory， Delve， Exchange Online， Exchange Online Protection， Microsoft Teams， Office 365 专业增强版， Office Online， OneDrive for Business， Power BI for Office 365， Project Online， SharePoint Online， Skype for Business |
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -74,7 +88,7 @@ FISC 发布了其专家委员会出具的两份报告：
 
 **能否在我所在组织的资格认定过程中利用 Microsoft 针对此框架的响应举措？**
 
-是。 不过，虽然第三方确认 Microsoft 对此框架的响应符合法规要求，但由客户负责验证他们在 Azure 或 Office 365 上实施的解决方案的合规性。
+是的。不过，虽然是由第三方确认 Microsoft 对此框架的响应符合法规要求，但客户应负责验证他们在 Azure 或 Office 365 上实施的解决方案的合规性。
 
 ## <a name="resources"></a>资源
 
