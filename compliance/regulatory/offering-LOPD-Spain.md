@@ -1,5 +1,5 @@
 ---
-title: 西班牙皇家法令 1720/2007，西班牙有机法 15/1999
+title: 西班牙皇家法令 1720/2007，西班牙有机法 15/1999 (LOPD)
 description: Microsoft 云客户获得西班牙数据保护机构 (AEPD) 授权，可跨境传输数据。
 keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: Priority
@@ -16,14 +16,14 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a665e6be33d42901597de23f39b6e71ae9c2fe70
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 29b4c3bf83d2fea147e2e7ce5294136040fa58ba
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089796"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384562"
 ---
-# <a name="spanish-royal-decree-17202007-spanish-organic-law-151999"></a>西班牙皇家法令 1720/2007，西班牙有机法 15/1999
+# <a name="spanish-royal-decree-17202007-spanish-organic-law-151999-lopd"></a>西班牙皇家法令 1720/2007，西班牙有机法 15/1999 (LOPD)
 
 ## <a name="spanish-royal-decree-17202007-spanish-organic-law-151999-overview"></a>西班牙皇家法令 1720/2007，西班牙有机法 15/1999 概述
 
@@ -35,12 +35,26 @@ AEPD 是监督遵守西班牙有机法 15/1999 以保护个人数据的公共机
 
 Microsoft 是第一个为客户利益而获得西班牙数据保护局（AgenciaEspañoladeProtecciónde Datos，简称 AEPD）授权的超大规模云服务提供商，遵守《西班牙有机法》15/1999（LeyOrgánica15/1999 deProtecciónde Datos，简称LOPD）中有关国际数据传输的高标准。 此外，Microsoft 还是第一个获得第三方审核认证的超大规模云服务提供商，其在线服务遵守《皇家法令 1720/2007》第 VIII 条规定的安全措施。 通过此授权，客户可以将个人数据传输到受欧盟模式条款监管的 Microsoft Azure、Dynamics 365 和 Office 365 服务。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
-- [Microsoft Azure](https://aka.ms/AzureCompliance)
-- [Microsoft Dynamics 365](https://aka.ms/d365-compliance-list)
+- Azure
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Microsoft Office 365](https://aka.ms/o365-compliance-framework)
+- Office 365
+
+## <a name="office-365-and-lopd"></a>Office 365 和 LOPD
+
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
+
+使用下表确定 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Active Directory, Azure 信息保护, Bookings, 合规性管理器, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender for Office 365, Microsoft Graph, Microsoft Teams, Microsoft 待办事项网页版, MyAnalytics, Office 365 高级合规版加载项, Office 365 Cloud App Security, Office 365 组, Office 365 安全与合规中心, Office 365 视频, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

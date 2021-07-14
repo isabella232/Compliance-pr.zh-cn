@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: abe7b849b8cb10ddbe11eb1a95a972d244ac43c3
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 3e0cedef50d4ac52547c785e5a5395b8b67ca1d6
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120081"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384442"
 ---
 # <a name="national-bank-of-belgium-nbb-and-the-financial-services-and-markets-authority-fsma"></a>比利时国家银行 (NBB) 及金融服务和市场管理局 (FSMA)
 
@@ -45,12 +45,12 @@ NBB 和 FSMA 与欧洲银行管理局 (EBA) 联手配合，该管理局是一家
 
 比利时的金融组织在将业务职能外包到云端时，必须在欧洲银行管理局 (EBA) 的广泛政策框架内遵守比利时国家银行 (NBB) 以及金融服务和市场管理局 (FSMA) 的规则和指导方针。
 
-Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评估的比利时金融公司提供帮助。 其中包括：
+Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评估的比利时金融公司提供帮助。其中包括：
 
 - 对应用情景法规环境的概述。
 - 一份清单，其中列出了要解决的问题，并将 Microsoft Azure、Microsoft Dynamics 365 和 Microsoft 365 服务与这些法规义务进行对应。 该清单可以用作度量是否符合法规框架的工具，并提供用于记录合规性的内部结构，帮助客户自行对 Microsoft 业务云服务进行风险评估。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -66,9 +66,9 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 **是否需获得监管批准？**
 
-否。 但是，如果外包安排出现中断，而这可能会严重影响机构的业务运营、信誉或盈利能力，或者其管理风险和遵守适用法规法规的能力，则金融机构必须通知 NBB 和 FSMA。
+否。但是，如果外包安排出现中断，而这可能会严重影响机构的业务运营、信誉或盈利能力，或者其管理风险和遵守适用法规法规的能力，则金融机构必须通知 NBB 和 FSMA。
 
-**在与云服务提供商签订的合同中是否必须包含某些强制性条款？**
+**在与云服务提供商签订的合同中是否必须包含所有强制性条款？**
 
 是。 金融机构必须确保在其云服务合同中包含特定要点。 [Microsoft 清单](https://aka.ms/FinServ-Guide-Belgium)的第 2 部分（第 49 页）将这些要点与 Microsoft 合同文档中应对这些要点的部分进行了对应。
 

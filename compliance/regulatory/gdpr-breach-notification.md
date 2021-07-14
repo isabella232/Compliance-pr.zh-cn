@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: 83d07d056656e76c49af015bcd3e7f0a3fe57e1f
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: f75a8e0f87a5a3e893a296bf487668078b5aef94
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496416"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377789"
 ---
 # <a name="gdpr-breach-notification"></a>GDPR 泄露通知
 
@@ -60,12 +60,11 @@ Microsoft 严格履行一般数据保护条例 (GDPR) 规定的义务。 安全�
 
     客户可能知道了泄露并希望联系 Microsoft。 在此情况下，请通知 Microsoft 支持团队，该团队随后将与工程团队对接以了解更多信息。
 
-2. **[Azure 和 Dynamics 365](gdpr-breach-azure-dynamics.md)**  
-    Microsoft 拥有全球性的全天候事件响应服务，可用于减轻针对 Microsoft Azure 和 Dynamics 365 的攻击所造成的影响。
+2. **[Azure、Dynamics 365 和 Windows](gdpr-breach-azure-dynamics-windows.md)** Microsoft 拥有全球性的全天候事件响应服务，可用于减轻针对 Microsoft Azure、Dynamics 365 和 Windows 诊断数据处理器配置的攻击所造成的影响。
 
     - *检测泄露*：由于 Microsoft 和客户都负有安全义务，因此 Azure 服务采用共同责任模型来定义安全和运营责任。 Microsoft 不会监控或响应客户责任范围内的安全事件。 如果存在相应服务合同，客户事件响应可能涉及与 Azure [客户支持人员](https://azure.microsoft.com/support/options/)进行协作。 Microsoft Azure 还提供各种服务（例如，[ Azure 安全中心](https://azure.microsoft.com/services/security-center/)），客户可以利用这些服务来开发和管理安全事件响应。
 
-        有关在 Microsoft Azure 中触发泄露调查的事件列表，请参阅[检测潜在泄露](/microsoft-365/compliance/gdpr-breach-azure-dynamics#detection-of-potential-breaches)。 [Azure 与 GDPR 泄露通知](gdpr-breach-azure-dynamics.md)进一步详细介绍了 Microsoft 如何在 Azure 内调查、管理和响应安全事件。
+        有关在 Microsoft Azure 中触发泄露调查的事件列表，请参阅[检测潜在泄露](/microsoft-365/compliance/gdpr-breach-azure-dynamics#detection-of-potential-breaches)。 [Azure 与 GDPR 泄露通知](gdpr-breach-azure-dynamics-windows.md)进一步详细介绍了 Microsoft 如何在 Azure 内调查、管理和响应安全事件。
 
     - *数据泄露响应*：Microsoft 通过调查事件的功能影响、可恢复性和信息影响来确定泄露的相应优先级和严重性级别。 随着调查的进行，优先级和严重性可能会基于新发现和结论而发生改变。
     Microsoft 安全响应团队与全球法律顾问密切合作，帮助确保根据法律义务和对客户的承诺进行取证。 这些流程在 [Azure 的数据泄露响应](/microsoft-365/compliance/gdpr-breach-azure-dynamics#azures-data-breach-response)中有详细说明。
