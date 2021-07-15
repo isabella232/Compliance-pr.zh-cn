@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7079147a9ee952f97a4ad5b9d8df0cfcf9d494a2
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 55f576c4fdfd22b487a948c16eca4327f45494c6
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089816"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385162"
 ---
 # <a name="spain-esquema-nacional-de-seguridad-ens-high-level-security-measures"></a>西班牙 Esquema Nacional de Seguridad (ENS) 高级别安全措施
 
@@ -41,10 +41,24 @@ ms.locfileid: "53089816"
 
 Microsoft Azure 和 Microsoft Office 365 已通过独立审计机构 BDO 的严格评估，并出具了有关其合规性的正式声明。 BDO 报告这两种服务的安全措施及其信息系统和数据处理设施高度符合 RD 3/2010 的要求，无需采取任何纠正措施。 Microsoft 是在西班牙首个获得此认证的超大型云服务提供商。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
-- [Azure 与 Azure 政府](https://aka.ms/AzureCompliance)
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Azure 与 Azure 政府
+- Office 365
+
+## <a name="office-365-and-ens-high"></a>Office 365 和 ENS 高级
+
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
+
+使用下表确定 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online、Exchange Online Protection、Microsoft Teams、MyAnalytics、Office 365 客户门户、Office Online、Office 服务基础结构、Outlook Mobile、SharePoint Online、Skype for Business |
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

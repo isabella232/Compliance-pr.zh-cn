@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 09473dc7b27b34bd4b0394739cd303fa613780bf
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 6c431d856fc03f328148722c14dfc558082aacb5
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497744"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384722"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 信息安全控制措施行为守则
 
@@ -43,35 +43,52 @@ ISO/IEC 27017:2015 行为守则专为组织设计，用作在根据 ISO/IEC 2700
 
 ISO/IEC 27017 在为云服务提供商和云服务客户提供指南方面是独一无二的。 此外，它还为云服务客户提供有关预期从云服务提供商获得内容的实用信息。 通过确保客户了解云中的共同职责，他们可以直接从 ISO/IEC 27017 中受益。
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 范围内云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure、Azure 政府和 Azure 德国](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
 - [Dynamics 365、Dynamics 365 和 Dynamics 365 德国](https://aka.ms/d365-compliance-list)
+- Intune
 - Microsoft Defender for Endpoint
 - Microsoft Graph
 - Microsoft 医疗保健机器人
-- Intune
 - [Microsoft 托管桌面](/microsoft-365/managed-desktop/intro/compliance)
+- Office 365、Office 365 美国政府版、Office 365 美国政府国防部版和 Office 365 德国版
 - Power Automate (以前称为 Microsoft Flow) 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
-- Office 365、Office 365 美国政府版、Office 365 美国政府版防御和 Office 365 德国
-- PowerApps 云服务，作为独立服务提供，或者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
+- PowerApps 云服务，作为独立服务提供，后者随 Office 365 或 Dynamics 365 品牌计划或套件一并提供
 - Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 - Power BI Embedded
-- Microsoft Stream
-- 请参阅 Office 365 中涵盖的服务的[详细列表](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 
-## <a name="audits-reports-and-certificates"></a>审核、报告和证书
+## <a name="azure-dynamics-365-and-iso-270172015"></a>Azure、Dynamics 365 和 ISO 27017:2015
+
+有关 Azure、Dynamics 365 和其他联机服务合规性的详细信息，请参阅 [Azure ISO 27017 产品/服务](/azure/compliance/offerings/offering-iso-27017)。
+
+## <a name="office-365-and-iso-270172015"></a>Office 365 和 ISO 27017:2015
+
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
+
+使用下表确定 Office 365 服务和订阅的适用性：
+
+| **适用性** | **范围内服务** |
+|:------------------|:----------------------|
+| **Office 365** | Access Online、Azure Active Directory、Azure 通信服务、合规性管理器、客户密码箱、Delve、Exchange Online、Exchange Online Protection、Forms、Griffin、身份管理器、密码箱 (Torus)、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 客户门户、Office 365 微服务（包括但不限于 Kaizala、ObjectStore、Sway、PowerPoint Online 文档服务、查询批注服务、学校数据同步、Siphon、语音、StaffHub、可扩展应用程序计划）、Office 365 安全与合规中心、Office Online、Office Pro Plus、Office 服务基础结构、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、Project Online、使用客户密钥进行服务加密、SharePoint Online、Skype for Business、Stream |
+| **GCC** | Azure Active Directory、Azure 通信服务、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+| **GCC 高级** | Azure Active Directory、Azure 通信服务、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
+| **DoD** | Azure Active Directory、Azure 通信服务、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online、Skype for Business |
+
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告和证书
 
 作为 ISO/IEC 27001:2013 认证过程的一部分，每年都会对 Microsoft 云服务进行 ISO/IEC 27017:2015 行为守则审核。
 
-- [Azure ISO 27017 证书](https://aka.ms/azureiso27017cert)
-- [Azure ISO 27017 评估报告](https://aka.ms/azureiso27017report)
 - [Office 365: ISO 27001、27018 和 27017 审核评估报告](https://aka.ms/o365isoreport)
 
-## <a name="frequently-asked-questions"></a>常见问题解答
+### <a name="frequently-asked-questions"></a>常见问题解答
 
-此标准适用于哪些人员？
+**此标准适用于哪些人员？**
 
 此行为守则为云服务提供商和云服务客户提供控制措施和实施指南。 其格式结构类似于 ISO/IEC 27002:2013。
 
@@ -87,11 +104,11 @@ ISO/IEC 27017 在为云服务提供商和云服务客户提供指南方面是独
 
 [服务信任门户](https://aka.ms/stphelp)提供独立第三方审核报告和其他相关文档。 你可以使用门户下载和查看本文档以就自己的法规要求获得帮助。
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
 [Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
-## <a name="resources"></a>资源
+### <a name="resources"></a>资源
 
 - [ISO/IEC 27017:2015 行为守则](https://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=43757)
 - [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
