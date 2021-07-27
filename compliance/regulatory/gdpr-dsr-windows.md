@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 hideEdit: true
-ms.openlocfilehash: b79d856591566aa1e13633377600c605429ee68e
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 8715ef1ee8133fe950e3ff42b0c53b49f916a018
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377959"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573840"
 ---
 # <a name="windows-diagnostic-data-processor-configuration-data-subject-requests-for-the-gdpr-and-ccpa"></a>Windows 诊断数据处理器配置 GDPR 和 CCPA 的数据主体请求
 
@@ -104,3 +104,6 @@ Microsoft 还提供通过预先存在的应用程序编程接口 (API) 直接导
 ## <a name="notify-us-about-exporting-or-deleting-issues"></a>通知我们有关导出或删除问题
 
 如果在从 Azure 门户导出或删除 Windows 诊断数据时遇到问题，请转到 Azure 门户“**帮助 + 支持**”边栏选项卡，并在“**订阅管理”>“订阅的隐私与合规请求”>“隐私边栏选项卡和 GDPR 请求**”下提交新票证。
+
+>[!NOTE]
+>最多可能需要 5 天才能完成 Windows 诊断数据导出请求。 如果您遇到问题，请在开具支持票证前至少等待 7 天。

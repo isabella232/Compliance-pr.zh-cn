@@ -14,15 +14,16 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
+- MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 59f32d9ae9afc5e3682c032168d296dc0eec95f4
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: abdda00cf161c880400babef54989dd8d6935d46
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496045"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573850"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>使用 Microsoft 365 功能履行 GDPR 信息保护
 
@@ -57,9 +58,9 @@ Microsoft 提供了可入手的推荐配置：
 各个 Microsoft 365 服务中都有威胁防护。首先，请参阅以下几个资源：
 
 - [Office 365 安全路线图：前 30 天、前 90 天以及更长时间范围的首要任务](/microsoft-365/security/office-365-security/security-roadmap)。此路线图提供了有关如何实现各项功能的建议。 
-- [Office 365 中的威胁防护](/microsoft-365/security/office-365-security/protect-against-threats)。 了解可以在 Microsoft 365 安全中心采取的保护行动。
-- [Windows Threat Protection](/windows/security/threat-protection/)。 深入了解 Windows 10 中有关 Microsoft Defender for Endpoint 和其他 Windows 10 的功能的详细信息。
+- [ Office 365 中的威胁防护](/microsoft-365/security/office-365-security/protect-against-threats)。了解 Microsoft 365 安全中心内采取的防护措施。
+- [Windows 威胁防护](/windows/security/threat-protection/)。深入了解 Windows 10 中有关 Microsoft Defender for Endpoint 和其他 Windows 10 的功能的详细信息。
 
-## <a name="learn-more"></a>了解更多
+## <a name="learn-more"></a>了解详细信息
 
 [Microsoft 信任中心](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

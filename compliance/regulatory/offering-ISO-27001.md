@@ -39,7 +39,7 @@ ISO/IEC 27001 的国际接受度和适用性是此标准认证成为 Microsoft �
 
 了解有关 Microsoft 云的 ISO/IEC 27001 优势：[下载 ISO/IEC 27001:2013](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
 
 - Azure、Azure 政府和 Azure 德国
 - Azure DevOps Services
@@ -79,14 +79,14 @@ ISO/IEC 27001 的国际接受度和适用性是此标准认证成为 Microsoft �
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | Access Online、Azure Active Directory、Azure 通信服务、合规性管理器、客户密码箱、Delve、Exchange Online、Exchange Online Protection、Forms、Griffin、身份管理器、密码箱 (Torus)、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 客户门户、Office 365 微服务（包括但不限于 Kaizala、ObjectStore、Sway、Power Automate、PowerPoint Online 文档服务、查询批注服务、学校数据同步、Siphon、语音、StaffHub、可扩展应用程序计划）、Office 365 安全与合规中心、Office Online、Office Pro Plus、Office 服务基础结构、OneDrive for Business、Planner、PowerApps、Power BI、Project Online、使用客户密钥进行服务加密、SharePoint Online、Skype for Business、Stream |
+| **Office 365** | Access Online、Azure Active Directory、Azure 通信服务、合规性管理器、客户密码箱、Delve、Exchange Online、Exchange Online Protection、Forms、Griffin、身份管理器、密码箱 (Torus)、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 客户门户、Office 365 微服务（包括但不限于 Kaizala、ObjectStore、Sway、Power Automate、PowerPoint Online 文档服务、查询批注服务、学校数据同步、Siphon、语音、StaffHub（可扩展应用程序计划）、Office 365 安全与合规中心、Office Online、Office Pro Plus、Office 服务基础结构、OneDrive for Business、Planner、PowerApps、Power BI、Project Online、使用客户密钥进行服务加密、SharePoint Online、Skype for Business、Stream |
 | **GCC** | Azure Active Directory、Azure 通信服务、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
 | **GCC 高级** | Azure Active Directory、Azure 通信服务、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
 | **DoD** | Azure Active Directory、Azure 通信服务、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online、Skype for Business |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告和证书
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
 
-Office 365 云服务每年至少针对 ISO 27001:2013 标准进行一次审核。
+Office 365 云服务至少每年依据 ISO 27001:2013 标准进行一次审核。
 
 - [Office 365 — 全球和德国 ISO 27001：信息安全管理标准证书](https://aka.ms/o365iso27001cert)
 
@@ -100,25 +100,25 @@ Office 365 云服务每年至少针对 ISO 27001:2013 标准进行一次审核�
 
 ### <a name="frequently-asked-questions"></a>常见问题解答
 
-**为什么 Office 365 必须遵守 ISO/IEC 27001？**
+**为什么 Office 365 符合 ISO/IEC 27001 很重要？**
 
 通过公认审核员确认符合这些标准，即表明 Microsoft 使用国际认可的流程及最佳实践来管理支持和提供其服务的基础结构和组织。 该认证可证实 Microsoft 已实施关于建立、实施、维护和改进信息安全管理的一系列指导方针及一般原则。
 
-**可从哪里获得 Office 365 服务的 ISO/IEC 27001 审核报告和范围声明？**
+**可从哪里获得 ISO/IEC 27001 审核报告和 Office 365 服务的范围声明？**
 
 [服务信任门户](/microsoft-365/compliance/get-started-with-service-trust-portal)提供独立审核的合规性报告。 你可以使用此门户来请求报告，以便审核员可以将 Microsoft 的云服务结果与自己的法律和法规要求进行比较。
 
-**是否针对 Office 365 基础结构故障运行年度测试？**
+**是否每年运行测试查找 Office 365 基础结构故障？**
 
 是。 Microsoft 云基础结构和运营团队的年度 ISO/IEC 27001 认证过程包括对操作灵活性的审核。 若要查看最新证书，请选择下面的链接。
 
-- Microsoft 365 和 Office 365 证书：[针对 Microsoft 云基础结构和运营的 ISO/IEC 27001:2013 证书](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
+- Microsoft 365 和 Office 365 证书：[适用于 Microsoft 云基础结构和运营的 ISO/IEC 27001:2013 证书](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
 
 **从何处着手开展我自己组织的 ISO/IEC 27001 合规性工作？**
 
 采用 ISO/IEC 27001 是一项战略承诺。 可以先从查阅 [ISO/IEC 27000 目录](https://www.27000.org/index.htm)入手。
 
-**能否在我所在组织的认证中使用 Office 365 服务的 ISO/IEC 27001 合规性认证？**
+**可否在我所在组织的认证中使用符合 ISO/IEC 27001 的 Office 365 服务？**
 
 能。 如果你的企业需要对 Microsoft 服务中部署的实施流程进行 ISO/IEC 27001 认证，则可以在你的合规性评估中利用适用的认证。 但是，你需要负责聘请评估方来评估自己组织中的控制措施和流程，以及 ISO/IEC 27001 合规性的实施情况。
 

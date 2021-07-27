@@ -14,17 +14,18 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- MS-Compliance
 search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: d1cc1473a0478cd516ddfebf37d881174219e0c2
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 7a706cda887c0c2675841648ef8541ffbb872884
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53087601"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573690"
 ---
 # <a name="security-development-and-operations-overview"></a>安全开发和操作概述
 
@@ -42,7 +43,7 @@ Microsoft 的 SDL 流程可考虑以下五个开发阶段：要求、设计、�
 
 为了支持我们的开发人员在代码开发期间和发布后实现安全要求，Microsoft 提供了一套安全开发工具，可自动检查源代码中是否存在安全缺陷和漏洞。 Microsoft 定义并发布供开发人员使用的已批准工具列表，如编译器和开发环境，以及 Microsoft 生成管道中自动执行的内置安全检查。 我们的开发人员使用最新版本的已批准工具来利用新的安全功能。
 
-在将代码签入发布分支之前，SDL 需要由单独的审阅者手动检查代码。 代码审阅者检查编码错误，并验证代码更改是否满足 SDL 和设计要求，通过功能和安全测试，并可靠执行。 他们还会查看相关的文档、配置和依赖项，以确保正确记录代码更改，并且不会导致意外的负面影响。 如果审阅者在代码审阅过程中发现问题，他们可要求提交者重新提交包含建议更改和其他测试的代码。 代码审阅者还可以决定完全阻止不符合要求的代码签入。 在审阅者认为代码满意后，审阅者会提供审批，在代码可以继续执行下一个部署阶段之前需要此审批。
+在将代码签入发布分支之前，SDL 需要由单独的审阅者手动检查代码。 代码审查员会检查编码错误并验证代码更改是否满足 SDL 和设计要求、通过功能和安全测试并可靠地执行。 他们还会审查相关的文档、配置和依赖项，以确保正确记录代码更改并且不会导致意外的副作用。 如果审查者在代码审查期间发现问题，他们可以要求提交者在进行建议更改和额外测试后重新提交代码。 代码审查者也可能决定完全阻止不符合要求的代码签入。 在审阅者认为代码满意后，审阅者会提供审批，在代码可以继续执行下一个部署阶段之前需要此审批。
 
 除了安全开发工具和手动代码检查之外，Microsoft 还使用自动化安全工具强制执行 SDL 要求。 其中许多工具内置在提交管道中，在签入和编译新的内部版本时自动分析代码的安全缺陷。 示例包括常见安全缺陷的静态代码分析和用于分析嵌入密码的代码的凭据扫描程序。 必须修复由自动安全工具发现的问题，然后新的内部版本才能通过安全审查并批准发布。
 

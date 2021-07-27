@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 5c94dcab6ac61daa2d1723d84b47a6f360d55b59
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 5708ab20d78d1862af5613c64ea492c40bea9da1
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53087701"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573830"
 ---
 # <a name="attack-simulation-in-microsoft-365"></a>Microsoft 365 中的攻击模拟
 
@@ -35,7 +35,7 @@ Microsoft 365具有内部监控系统，这些系统持续监视任何故障，�
 
 尽管 Microsoft 365 可自动执行恢复操作，但 Microsoft 呼叫工程师可以 24x7 调查所有严重级别 1 安全升级，并且每个服务事件的事后评审有助于持续学习和改进。 此团队包括支持工程师、产品开发人员、项目经理、产品经理和高级领导。 我们的呼叫专家提供及时的备份，并且通常可以自动执行恢复操作，以便下次事件发生时可以自行恢复。
 
-每次发生安全事件时，Microsoft 都会Microsoft 365后检查，而不管影响的规模如何。 事后评审包括分析发生了什么、我们如何响应以及将来如何防止发生类似的事件。 为了透明性和责任制，我们将与受影响的客户共享任何重大服务事件的事后评审。 有关特定的详细信息，请参阅Office 365[安全事件管理。](https://aka.ms/Office365SIM)
+每次发生安全事件时，Microsoft 都会Microsoft 365后检查，而不管影响的规模如何。 事后评审包括分析发生了什么、我们如何响应以及将来如何防止发生类似的事件。 为了透明性和责任制，我们将与受影响的客户共享任何重大服务事件的事后评审。 有关特定的详细信息，请参阅 [Microsoft 安全事件管理](assurance-security-incident-management.md)。
 
 ## <a name="assume-breach-methodology"></a>假设泄露方法
 
