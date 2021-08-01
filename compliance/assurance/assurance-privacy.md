@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 0af79e7834006940f46643dae678c1a8ca77fad2
-ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
+ms.openlocfilehash: ee0645b13594585df5d940732fa420f2ccd4473b
+ms.sourcegitcommit: 0ffa79db0bbb35258496c7702285ed9d473b4ad9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53573780"
+ms.lasthandoff: 07/31/2021
+ms.locfileid: "53678237"
 ---
 # <a name="privacy-overview"></a>隐私概述
 
@@ -45,22 +45,32 @@ Microsoft 将客户数据收集范围限定为四个特定[数据](https://www.m
 
 ## <a name="how-does-microsoft-handle-third-party-sharing"></a>Microsoft 如何处理第三方共享？
 
-第三方共享是向第三方共享或前向披露数据。 只有在客户授权或适用法律要求时，Microsoft 才能共享数据。 Microsoft 不会向任何政府 (包括执法机构或其他政府实体) 或不受约束地访问客户数据。 Microsoft [遵守有关跨](https://www.microsoft.com/trust-center/privacy/data-location) 边界传输客户数据的国际数据保护法律。
+第三方共享是指与第三方共享或向其公开数据。 只有在客户授权或适用法律要求时，Microsoft 才能共享数据。 Microsoft 不会授予任何政府（包括执法部门或其他政府实体）直接或不受限制访问客户数据的权限。 Microsoft [遵守有关跨](https://www.microsoft.com/trust-center/privacy/data-location) 边界传输客户数据的国际数据保护法律。
 
 ## <a name="how-does-microsoft-delete-customer-data-when-a-customer-leaves-the-service"></a>客户离开服务后，Microsoft 如何删除客户数据？
 
-Microsoft 数据处理标准指定删除后客户数据的保留时间。 客户结束订阅后，Microsoft 在有限功能帐户中保留客户数据 90 天，以便客户能够提取数据。 90 天保留期结束后，Microsoft 将删除客户数据，除非授权保留客户数据或法律要求保留客户数据。 在订阅过期或终止后 180 天内Microsoft 365，Microsoft 将禁用该帐户，并删除该帐户的所有客户数据。 超过任何数据的最大保留期后，数据将商业上呈现为不可恢复。
+Microsoft 数据处理标准指定删除后客户数据的保留时间。 当客户终止其订阅时，Microsoft 会将有限功能帐户中的客户数据保留 90 天，以便客户能够提取数据。 在 90 天保留期结束后，除非授权保留客户数据，否则 Microsoft 将删除客户数据，或根据法律要求保留该数据。 在 Microsoft 在线服务订阅到期或终止后的 180 天内，Microsoft 将禁用该帐户，并删除该帐户的所有客户数据。 任何数据超过最大保留期后，将在商业上不可恢复。
 
-Microsoft 还会在标准 Microsoft 数据生命周期中删除所有服务生成的数据和诊断数据，除非需要该数据才能维护服务的安全性和稳定性。 对于任何订阅，订阅者可以联系 Microsoft 支持并请求快速取消预配订阅。 当客户利用此过程时，在管理员输入 Microsoft 提供的锁定代码三天后，将删除所有用户数据。 此删除包括 SharePoint Online Exchange Online处于保留状态或存储在非活动邮箱中的数据。
+Microsoft 还会在标准 Microsoft 数据生命周期中删除所有服务生成的数据和诊断数据，除非需要该数据才能维护服务的安全性和稳定性。 对于任何订阅，订阅者可以联系 Microsoft 支持并请求加速订阅预配取消。 当客户使用此过程时，在管理员输入 Microsoft 提供的锁定代码三天后，将删除所有用户数据。 此删除包括 SharePoint Online Exchange Online处于保留状态或存储在非活动邮箱中的数据。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与隐私相关的控件的验证，请参阅下表。
 
+### <a name="azure-and-dynamics-365"></a>Azure 和 Dynamics 365
+
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|  
-| [ISO 27018 (Office 365) ](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=43e89534-f48d-42ea-a7a7-3523ff516036&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A-2.1：公共云 PII 处理器的用途 | 2021 年 4 月 20 日 |
-| [SOC 2 (Office 365) ](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-12：SLA (服务级别)  <br> CA-17：Microsoft 安全策略 <br> CA-25：控制框架更新 | 2020 年 12 月 24 日 |
+| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=e9116047-f327-430c-a83f-166b7e561ad6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=00af6c3e-7f3e-4e0d-8b0e-79f45ef2cef1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=56904fc3-0942-4ff5-9eef-7cabc751a25c&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A-2.1：公共云 PII 处理器的用途 | 2020 年 12 月 2 日 |
+| [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=b8721ebd-af20-42fe-b22f-8332b0a19517&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | DS-15：客户订阅终止/到期 <br> SDL-1：SDL (安全) 生命周期 <br> LA-4：保护机密客户数据 | 2021 年 3 月 21 日 |
+| [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=234a0f57-83c1-4afc-a586-a0e7a59592f7&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) <br> [SOC 3](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=75c8cbf6-e456-473c-a05e-34fea888ec2a&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | DS-15：客户订阅终止/到期 <br> SDL-1：SDL (安全) 生命周期 <br> LA-4：保护机密客户数据 <br> SOC2-1：资产分类 <br> SOC2-7：已发布的保密性和安全义务 | 2021 年 3 月 31 日 |
+
+### <a name="office-365"></a>Office 365
+
+| **外部审核** | **Section** | **最新报告日期** |
+|:--------------------|:------------|:-----------------------|  
+| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A-2.1：公共云 PII 处理器的用途 | 2021 年 4 月 20 日 |
+| [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-12：SLA (服务级别)  <br> CA-17：Microsoft 安全策略 <br> CA-25：控制框架更新 | 2020 年 12 月 24 日 |
 
 ## <a name="resources"></a>资源
 
