@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 92e67729125916b1ec34f7e305468f7e07489d12
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 37b5fbaa0ba98bcf79be65a3eeebb0926339164c08bc720daff714476d0f1e2b
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384462"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293919"
 ---
 # <a name="my-number-act-japan"></a>个人编号法案（日本）
 
@@ -85,7 +85,7 @@ PPC 问答文件的[第 3-13 问部分](https://www.ppc.go.jp/legal/policy/faq/)
 ## <a name="resources"></a>资源
 
 - [Azure Compliance and the Japan Security and Privacy Requirements](https://gallery.technet.microsoft.com/Azure-Compliance-and-the-53409748)（Azure 合规性和日本安全及隐私要求）
-- [Microsoft 隐私](https://privacy.microsoft.com/zh-CN/)
+- [Microsoft 隐私](https://privacy.microsoft.com/en-US/)
 - [Microsoft 隐私声明](https://privacy.microsoft.com/privacystatement)
 - [云端隐私保护的注意事项](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

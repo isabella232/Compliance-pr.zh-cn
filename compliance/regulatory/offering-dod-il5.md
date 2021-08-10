@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9f92ed19a22b7eff8a7e9988e66c51aea90d42ab
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 539a53888ec859bb3b6942b48288659f73fa4b69807ce19e063cbfe104b7072d
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385699"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294229"
 ---
 # <a name="department-of-defense-dod-impact-level-5-il5"></a>美国国防部 (DOD) 影响级别 5 (IL5) 
 
@@ -51,11 +51,11 @@ DISA 指导 DoD 机构和部门规划和授权 CSP 的使用。 它还评估 CSP
 - 需要与非 DoD/非联邦 (（即公共、本地/州/州政府租户）) 分离。
 - CSP 将潜在 DoD 和社区信息的访问权限限制为美国公民的云解决方案提供商员工。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure
 - Dynamics 365 客户服务
-- Microsoft Defender for Endpoint (以前是 Microsoft Defender 高级威胁防护) 
+- Microsoft Defender for Endpoint（曾用名：Microsoft Defender 高级威胁防护）
 - Microsoft Graph
 - Microsoft Stream
 - Office 365 美国政府防御版
@@ -68,13 +68,13 @@ DISA 指导 DoD 机构和部门规划和授权 CSP 的使用。 它还评估 CSP
 
 ## <a name="office-365-and-dod-il5"></a>Office 365 和 DoD IL5
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|

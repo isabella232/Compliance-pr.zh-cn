@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a3431b93e1c8f4b2705a0362114412aa4381143b
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: abe4804585269110d07e00b2e6f7cda75bd88106effd21f4d8060fedc03bbce8
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294349"
 ---
 # <a name="system-and-organization-controls-soc-1-type-2"></a>系统和组织控制 （SOC） 1 类型 2
 
@@ -54,11 +54,11 @@ Azure SOC 1 类型 2 证明报告中显示了范围内的 Microsoft 联机服务
 - Microsoft Stream
 - Microsoft 威胁专家（不在 Azure 政府范围内）
 - 提名门户
-- Office 365，Office 365 美国政府版，Office 365 美国政府版 - 高级，Office 365 美国政府国防部版
+- Office 365、Office 365 美国政府版、Office 365 美国政府版 - 高级、Office 365 美国政府国防部版
 - Power Apps
 - Power Automate
 - Power BI
-- Power Virtual Agents（不在 Microsoft Azure 政府范围内）
+- Power Virtual Agents（不在 Azure 政府范围内）
 - 更新合规性（不在 Microsoft Azure 政府范围内）
 
 ## <a name="azure-dynamics-365-and-soc-1"></a>Azure, Dynamics 365, 和 SOC 1
@@ -78,9 +78,9 @@ Azure SOC 1 类型 2 证明报告中显示了范围内的 Microsoft 联机服务
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **Office 365** | 合规性管理器，客户密码箱，Delve，Exchange Online Protection， Exchange Online、Forms、Griffin、身份管理器、密码箱 （Torus）、Microsoft Teams、MyAnalytics、Office 365 客户门户、Office 365 微服务（包括但不限于 Kaizala、ObjectStore、Sway、PowerPoint Online 文档服务、查询批注服务、学校数据同步、Siphon、语音、StaffHub、可扩展应用程序计划）、Office Online、Office 服务基础结构、OneDrive for Business， Planner， PowerApps， Power BI， Project Online， Service Encryption with Customer Key， SharePoint Online， Skype for Business |
-| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版加载项、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
 | **GCC 高级** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版加载项、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
-| **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版加载项、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online、Skype for Business |
+| **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online、Skype for Business |
 
 ### <a name="office-365-audit-reports"></a>Office 365 审核日志
 
@@ -93,7 +93,7 @@ Azure SOC 1 类型 2 证明报告中显示了范围内的 Microsoft 联机服务
 
 **Office 365 SOC 报告多久发布一次？**
 
-Office 365 和其他联机服务的 SOC 报告基于 12 个月的滚动时段（审核期），新报告每半年发布一次（期限为 3 月 31 日和 9 月 30 日）。 *Bridge letter* 每季度发布一次，涵盖前面 3 个月。 例如，1 月的 bridge letter 涵盖 10 月 1 日到 12 月 31 日，4 月的 bridge letter 涵盖 1 月 1 日到 3 月 31 日，7 月的 bridge letter 涵盖 4 月 1 日到 6 月 30 日，10 月的 bridge letter 涵盖 7 月 1 日到 9 月 30 日。
+Office 365 和其他联机服务的 SOC 报告基于 12 个月的滚动时段（审核期），新报告每半年发布一次（期限为 3 月 31 日和 9 月 30 日）。 *过渡函* 每季度发布一次，以涵盖前面的 3 个月。 例如，1 月的 bridge letter 涵盖 10 月 1 日到 12 月 31 日，4 月的 bridge letter 涵盖 1 月 1 日到 3 月 31 日，7 月的 bridge letter 涵盖 4 月 1 日到 6 月 30 日，10 月的 bridge letter 涵盖 7 月 1 日到 9 月 30 日。
 
 **客户如何从 Office 365 SOC 1 类型 2 证明中受益？**
 
@@ -105,11 +105,11 @@ Office 365 和其他联机服务的 SOC 报告基于 12 个月的滚动时段（
 
 **在哪里可以查看针对已记录的异常的管理响应？**
 
-管理响应位于 SOC 证明报告的末尾。 在文档中搜索"管理响应"。
+管理响应位于 SOC 证明报告的末尾。 请在文档中搜索“管理响应”。
 
 **在哪里可以查看用户实体责任？**
 
-用户实体责任位于 SOC 证明报告的末尾。 在文档中搜索"用户实体责任"。
+用户实体责任位于 SOC 证明报告的末尾。 请在文档中搜索“用户实体责任”。
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

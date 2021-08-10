@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8fb98bfab57008cdee3c2fbb049c7f34af361c37
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: a9f621e31b2ea7c0becd528915e1377fcaa33c68940235a6b195139a61c824c0
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293859"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>澳大利亚政府信息安全注册评估员计划 (IRAP) 
 
@@ -58,7 +58,7 @@ ISM 使用的风险管理框架来自美国国家标准和技术协会 [ (NIST) 
 
 对 Microsoft 服务和云运营的 IRAP 评估帮助向政府中的公共部门客户及其合作伙伴提供保证，Microsoft 已实施适当有效的安全控制，用于处理、存储和传输分类到受保护级别及包括受保护级别的数据。 此评估包括澳大利亚大部分政府、医疗保健和教育数据。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -71,13 +71,13 @@ ISM 使用的风险管理框架来自美国国家标准和技术协会 [ (NIST) 
 
 ## <a name="office-365-and-irap"></a>Office 365 和 IRAP
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
@@ -91,7 +91,7 @@ IRAP 适用于所有使用云服务的澳大利亚联邦、州以及当地政府
 
 **能否在组织的风险评估和审批过程中使用 Microsoft 的合规性？**
 
-是。 如果你的组织需要或正在寻求审批以与 ISM 一起运行，可以在风险评估中使用 Azure、Dynamics 365、Microsoft 托管桌面 和 Office 365 的 IRAP 安全评估。 但是，你负责聘请评估员来评估在 Microsoft 平台上部署的实施情况，以及你自己组织内部的控制措施和流程。
+能。 如果你的组织需要或正在寻求审批以与 ISM 一起运行，可以在风险评估中使用 Azure、Dynamics 365、Microsoft 托管桌面 和 Office 365 的 IRAP 安全评估。 但是，你负责聘请评估员来评估在 Microsoft 平台上部署的实施情况，以及你自己组织内部的控制措施和流程。
 
 **从何处着手执行我的组织自己的风险评估和审批？**
 

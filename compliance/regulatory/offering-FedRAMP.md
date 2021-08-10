@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d9b7988b2ab236a26aad0981879f9b49c9ed028a
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: f613e35cfcfa6f15946572901cb0c9f3c7a5fa0407a970ccd3b4e19d8efc138a
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292769"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>联邦风险和授权管理项目 (FedRAMP)
 
@@ -47,13 +47,13 @@ Microsoft 政府云服务（包括 Azure 政府、Dynamics 365 政府版和 Offi
 
 Microsoft 政府云服务为公共部门客户提供一系列与 FedRAMP 兼容的丰富服务，以及强大的指南和实施工具，包括 [FedRAMP 高](https://aka.ms/fedrampblueprint)蓝图，它帮助客户为必须实施 FedRAMP 高控制措施的任何 Azure 部署体系结构部署一组核心策略。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure 与 Azure 政府
 - [Dynamics 365 美国政府版](https://aka.ms/d365-compliance-list)
 - Intune
 - Office 365美国政府，Office 365美国政府 - 高级Office 365美国政府防御
-- Power BI 云服务，作为独立服务提供，后者随 Office 365 品牌计划或套件一并提供
+- Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 
 ## <a name="azure-dynamics-365-and-fedramp"></a>Azure、Dynamics 365 和 FedRAMP
 
@@ -65,21 +65,21 @@ Microsoft 政府云服务为公共部门客户提供一系列与 FedRAMP 兼容�
 - Office 365美国政府国防队具有来自美国国防信息系统局的 P-ATO， (DISA) 。 任何希望Office 365美国政府国防队的客户都可使用 DISA P-ATO 生成代理 ATO 来记录其接受。
 - Office 365 (美国政府和美国政府) Office 365计划的 FEDRAMP 机构 ATO 具有来自检查员常规的 DHSP Office中等影响级别的 FedRAMP 机构 ATO。 Office 365美国政府是首个获得此授权的基于云的电子邮件和协作服务。
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **GCC** | 活动源服务、必应 服务、Delve、Exchange Online、Exchange Online Protection、基础结构、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
-| **GCC 高** | 活动源服务、必应 服务、Exchange Online、Exchange Online Protection、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **GCC 高级** | 活动源服务、必应 服务、Exchange Online、Exchange Online Protection、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
 | **DoD** | 活动源服务、必应 服务、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365审核、报告和证书
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
 
 Microsoft 每年都必须重新证明其云服务，以维持其 P-ATO 和 ATO 认证。 为此，Microsoft 必须持续监视和评估其安全控制，并证明其服务的安全性保持合规性。
 
@@ -101,7 +101,7 @@ FISMA 是联邦法律，要求美国联邦机构及其合作伙伴仅从遵守 F
 
 **能否在我的代理的授权过程中使用 Microsoft 合规性？**
 
-是。 你可以将 Microsoft 云服务认证用作任何需要来自联邦政府机构 ATO 的计划或计划的基础。 但是，你需要为这些服务之外的组件获得自己的授权。
+能。 你可以将 Microsoft 云服务认证用作任何需要来自联邦政府机构 ATO 的计划或计划的基础。 但是，你需要为这些服务之外的组件获得自己的授权。
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

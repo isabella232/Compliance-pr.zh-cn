@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d8eebfff19667ee96298179843b7b39f071b9f0a
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 6406c63d73e30a62d3cbe54bf8cef632cc5564b2cae3d1a9588652644b8f8c96
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293899"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>美国国税局出版物 1075
 
@@ -45,14 +45,14 @@ Microsoft Azure美国政府[Microsoft Office 365](https://products.office.com/go
 - 向 IRS Azure 政府合规性注意事项和 Office 365 美国政府合规性注意事项提供，其中概述了机构如何按照符合 IRS 1075 要求的方式使用 Microsoft 政府云政府版服务。 NDA 下政府客户可以请求这些文档。
 - 为客户提供免费 (与 Microsoft 行业) 或外部审核员进行沟通的机会（如果需要）。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
 
 FedRAMP 授权基于 NIST 准则在三个影响级别授予 — 低、中和高。 这些对丢失机密性、完整性或可用性对组织的影响进行排名 - 低 (有限影响) 、中 (严重负面影响) 以及高 (严重或灾难性) 。
 
 - Azure 与 Azure 政府
 - Dynamics 365 美国政府版
 - Office 365、Office 365美国政府
-- Power BI 云服务，作为独立服务提供，后者随 Office 365 品牌计划或套件一并提供
+- Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 
 ## <a name="azure-dynamics-365-and-irs-1075"></a>Azure、Dynamics 365 和 IRS 1075
 
@@ -60,20 +60,20 @@ FedRAMP 授权基于 NIST 准则在三个影响级别授予 — 低、中和高�
 
 ## <a name="office-365-and-irs-1075"></a>Office 365和 IRS 1075
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **Office 365** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 使用情况报告、OneDrive for Business、人员卡片、服务基础结构、SharePoint Online、Skype for Business、Windows Ink |
 | **GCC** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365审核、报告和证书
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
 
 FedRAMP 审核每年都会涵盖符合 IRS 1075 这一重大要求的情况。
 
@@ -93,7 +93,7 @@ Microsoft 定期监视其安全性、隐私和运营控制措施和 NIST 800-53 
 
 **我能否使用 Azure 或 Office 365公共云环境，但仍符合 IRS 1075？**
 
-不正确。 可以存储和处理 FTI 的唯一环境是 Azure 政府Office 365美国政府。 政府客户必须满足使用这些环境的资格要求。
+不是。 可以存储和处理 FTI 的唯一环境是 Azure 政府Office 365美国政府。 政府客户必须满足使用这些环境的资格要求。
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

@@ -1,6 +1,6 @@
 ---
 title: 数据分类&敏感度标签分类
-description: 本文概述了如何对 Microsoft 365 &数据分类和敏感度标签分类。
+description: 本文概述了如何对敏感度标签分类&数据分类和Microsoft 365。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: fcfe98116f4d0629f322383f2992605d2dcf19de
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 0a178b23182427c0d202be38a9986c9e9069e1af2b71290a248c33aae19e0eaa
+ms.sourcegitcommit: 07b748b28a7815fb5824be0dea3edba29353361d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497789"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57833879"
 ---
 # <a name="data-classification--sensitivity-label-taxonomy"></a>数据分类&敏感度标签分类
 
 如果敏感数据被盗、无意共享或因泄露而泄露，则给公司带来重大风险。 风险因素包括信誉受损、财务影响和失去竞争优势。 保护企业管理的数据和信息是组织的一项首要任务，但您可能会发现，鉴于企业包含的内容量，您可能很难知道您的工作是否真正有效。
 
-除了音量之外，内容的重要性可能从高度敏感和影响范围到简单和短暂。 它还可能符合各种法规合规性要求。 了解要设置优先级和在何处应用控件可能是一个挑战。 继续阅读， *了解数据分类*（一种用于防止内容被盗、破坏或无意破坏的重要工具）以及 Microsoft 365 如何帮助你实现信息安全目标。
+除了音量之外，内容的重要性可能从高度敏感和影响范围到简单和短暂。 它还可能符合各种法规合规性要求。 了解要设置优先级和在何处应用控件可能是一个挑战。 继续阅读，*了解数据分类*（一种用于保护内容免受盗窃、破坏或无意破坏的重要工具）以及如何Microsoft 365实现信息安全目标。
 
 ## <a name="what-is-data-classification"></a>什么是数据分类？
 
@@ -40,7 +40,9 @@ ms.locfileid: "51497789"
 ## <a name="what-is-a-data-classification-framework"></a>什么是数据分类框架？
 
 数据分类框架（有时称为 ("数据分类策略") 通常由 3-5 个分类级别组成，通常编成企业范围的正式策略。 这些元素通常包括三个元素：名称、说明和实际示例。 Microsoft 建议不要超过五个顶级父标签，每个标签具有五个子标签 (25) ，以保持用户界面 (UI) 可管理。 级别通常从最低到最敏感（如 *公共*、内部、*机密* 和 *高度* 
- *机密）排列*。 你可能会遇到的其他级别名称变体包括 *Restricted、Unrestricted* 和 *Consumer Protected*。 Microsoft 建议使用自我描述性标签名称，并明确突出显示其相对敏感度。 例如 *，"机密*"和"受限"可能会让用户猜出哪个标签合适，而"机密"和"高度机密"更清楚地解释哪个标签更敏感。  下表显示了数据分类框架级别的示例。
+ *机密）排列*。 你可能会遇到的其他级别名称变体包括 *Restricted、Unrestricted* 和 *Consumer Protected*。 Microsoft 建议使用自我描述性标签名称，并明确突出显示其相对敏感度。 例如 *，"机密*"和"受限"可能会让用户猜出哪个标签合适，而"机密"和"高度机密"更清楚地解释哪个标签更敏感。  
+
+下表显示了高度 *机密数据分类* 框架级别的示例：
 
 |**分类级别**|**说明**|**示例**|
 |:-----------------------|:--------------|:-----------|

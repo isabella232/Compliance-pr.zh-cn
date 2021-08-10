@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8145c8e4fc1617371acdfa10cd20daa4f3ba3bf3
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: df9b502dcad818199de63de3585c902b0c60d2c0a13c0b582e64aa4fa93ced7b
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384862"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293829"
 ---
 # <a name="health-insurance-portability-and-accountability-act-hipaa--health-information-technology-for-economic-and-clinical-health-hitech-act"></a>Health Insurance Portability and Accountability Act (HIPAA) & Health Information Technology for Economic and Clinical Health (HITECH) Act
 
@@ -47,7 +47,7 @@ FedRAMP 评估还涵盖 Microsoft 企业云服务。 Microsoft Azure政府Micros
 
 若要了解 Microsoft 云如何帮助客户支持 HIPAA 和 HITECH 要求，请访问 [Microsoft 客户案例](https://customers.microsoft.com/)。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure 与 Azure 政府
 - Azure DevOps Services
@@ -69,24 +69,24 @@ FedRAMP 评估还涵盖 Microsoft 企业云服务。 Microsoft Azure政府Micros
 
 ## <a name="office-365-and-hipaa"></a>Office 365和 HIPAA
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **Office 365** | Access Online、Azure Active Directory、Azure Communications Service、 合规性管理器、客户密码箱、Delve、Exchange Online、Forms、一致性、Identity Manager、密码箱 (Torus) 、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 客户门户、Office 365 微服务 (包括但不限于 Kaizala、ObjectStore、Sway、Power Automate， PowerPoint Online 文档服务、查询批注服务、学校数据同步、Siphon、语音、StaffHub、Staff) Hub、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、Office 服务基础结构、OneDrive for Business、Planner、PowerApps、Power BI、Project Online、Service Encryption with Customer Key、SharePoint Online、Skype for Business、Stream |
-| **GCC** | Azure Active Directory、Azure 通信服务、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online，Skype for Business、Stream |
+| **GCC** | Azure Active Directory、Azure 通信服务、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
 
 ### <a name="frequently-asked-questions"></a>常见问题解答
 
 **我的组织能否与 Microsoft 进入 BAA？**
 
-是。 Microsoft 提供其涵盖的实体和业务关联客户业务关联协议，该协议涵盖范围内Microsoft 服务。
+能。 Microsoft 提供其涵盖的实体和业务关联客户业务关联协议，该协议涵盖范围内Microsoft 服务。
 
 默认情况下 [，Microsoft HIPAA](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3) 业务关联协议通过 Microsoft Online Services数据保护附录提供给 HIPAA 下涵盖的实体或业务关联的所有客户。 有关此 BAA 涵盖的云服务列表，请参阅此网页上的"Microsoft 范围内云服务"。
 
@@ -94,7 +94,7 @@ HIPAA 业务关联协议还可用于范围内 Microsoft Professional 服务。 �
 
 **与 Microsoft 签订业务关联协议可确保我的组织遵守 HIPAA 和 HITECH 法案吗？**
 
-不正确。 通过提供业务关联协议，Microsoft 可帮助支持 HIPAA 合规性。 但是，Microsoft 服务本身无法实现 HIPAA 合规性。 你的组织负责确保你具有足够的合规性计划及内部流程，并确保你特定使用 Microsoft 服务 符合你根据 HIPAA 和 HITECH 法案所履行的义务。
+不是。 通过提供业务关联协议，Microsoft 可帮助支持 HIPAA 合规性。 但是，Microsoft 服务本身无法实现 HIPAA 合规性。 你的组织负责确保你具有足够的合规性计划及内部流程，并确保你特定使用 Microsoft 服务 符合你根据 HIPAA 和 HITECH 法案所履行的义务。
 
 **Microsoft 可以使用我的组织的业务关联协议吗？**
 

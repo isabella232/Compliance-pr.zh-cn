@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 456ce920d3327926541c78b1153577dcc6bb8e42
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 20dccebdb31eff3e502efe8fe6eba6fbdd4881c4ac864927566fc786dff09a15
+ms.sourcegitcommit: 07b748b28a7815fb5824be0dea3edba29353361d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385152"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57833889"
 ---
 # <a name="european-union-model-clauses"></a>欧盟模式条款
 
@@ -33,13 +33,9 @@ ms.locfileid: "53385152"
 
 ## <a name="microsoft-and-european-union-model-clauses"></a>Microsoft 和欧盟模式条款
 
-Microsoft 对相关操作流程进行了投资，以确保符合模式条款中对将个人数据传输给处理者的具体要求。 Microsoft 向客户提供了模式条款（称为标准合同条款），其中对传输范围内 Microsoft 服务的相关个人数据进行了明确保证。 这将确保 Microsoft 客户能够通过 Microsoft 云轻松将数据从 EEA 传输到全球其他地方。
+欧盟 (EU) [一般数据保护条例](/compliance/regulatory/gdpr) (GDPR) 规范了向欧洲经济区 (EEA) 以外的国家/地区（包括所有欧盟国家/地区及冰岛、列支敦士登和挪威）转移客户个人数据的行为。 Microsoft 向客户提供了欧盟[标准合同条款](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) (SCC)（也称为欧盟示范条款），其中对范围内服务的个人数据传输进行了明确保证。 欧盟示范条款在服务提供商（如 Microsoft）与其客户之间达成的协议中使用，旨在确保在传输离开 EEA 的任何个人数据时始终遵循 GDPR 的要求。
 
-但是，Microsoft 企业客户（个人数据的控制者）需要为保护这些数据承担主要义务。 这意味着，EEA 企业客户非常关注如何确保他们的服务提供商遵守欧盟数据保护法，否则客户可能会承担责任，甚至无法使用该服务。
-
-Microsoft 向欧盟的数据保护工作组 (Article 29 Working Party) 提供了其标准合同条款以供审批。 该数据保护工作组成员包括欧洲数据保护监督员、欧盟委员会，以及欧盟所有 28 个数据保护机构 (DPA)。
-
-该工作组确定 Microsoft 协议中条款的实施符合其严格要求。 （Microsoft 是首个从该工作组获得认可和批准函的云服务提供商。）“批准”涵盖了模式条款 2010/87/EU 中反映的约定，但不包括附录中描述的数据导入方实施的数据传输及安全措施。 附录可能由 DPA 单独分析。
+2020 年 7 月，欧盟法院 (CJEU) 宣布欧盟-美国隐私保护框架无效，该框架用于将个人数据从欧盟传输到美国。 但是，欧盟示范条款继续为从欧盟和 EEA 以及瑞士和英国传输个人数据提供有效机制。 Microsoft 向客户提供欧盟示范条款，如 Microsoft 在线服务条款 (OST) [数据保护附录](https://aka.ms/DPA) (DPA) 中所述。
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
@@ -67,7 +63,7 @@ Microsoft 向欧盟的数据保护工作组 (Article 29 Working Party) 提供了
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | 高级威胁防护， Azure Active Directory， Azure 信息保护， Bookings， 合规性管理器， Delve， Exchange Online， Exchange Online Protection， Forms， Kaizala， Microsoft Analytics， Microsoft Booking， Microsoft Graph， Microsoft Teams， Microsoft 待办事项网页版， MyAnalytics， Office 365 高级合规性加载项， Office 365 Cloud App Security， Office 365 组， Office 365 安全与合规中心， Office 365 视频， Office Online， Office Pro Plus， OneDrive for Business， Planner， PowerApps， Power Automate， Power BI， SharePoint Online， Skype for Business， StaffHub， Stream， Sway， Yammer Enterprise |
+| **商业** | 高级威胁防护， Azure Active Directory， Azure 信息保护， Bookings， 合规性管理器， Delve， Exchange Online， Exchange Online Protection， Forms， Kaizala， Microsoft Analytics， Microsoft Booking， Microsoft Graph， Microsoft Teams， Microsoft 待办事项网页版， MyAnalytics， Office 365 高级合规性加载项， Office 365 Cloud App Security， Office 365 组， Office 365 安全与合规中心， Office 365 视频， Office Online， Office Pro Plus， OneDrive for Business， Planner， PowerApps， Power Automate， Power BI， SharePoint Online， Skype for Business， StaffHub， Stream， Sway， Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
@@ -103,5 +99,5 @@ Microsoft 会持续评估欧盟标准，并根据需要更新其服务。
 - [欧洲数据保护委员会](https://edpb.europa.eu/)
 - [Dynamics 365 和 Office 365 欧盟模式条款常见问题解答](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
 - [Microsoft 公共控制中心合规性框架](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Microsoft 联机服务条款](https://aka.ms/Online-Services-Terms)
+- [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

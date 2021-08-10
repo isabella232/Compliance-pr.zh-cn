@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 896202ea1f51d88d1871a2c7ff81f4ee1e620d17
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: cdcf6bb91e7bd6b01a7a4372f33e2f52089d1f0c4fed3c327b85a3a13eafeac2
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292529"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>犯罪犯罪信息服务 (CJIS) 安全策略
 
@@ -43,12 +43,12 @@ Microsoft 已评估 Microsoft Azure Government、Microsoft Office 365 U.S. Gover
 
 了解 Microsoft 云上 CJIS 安全策略的好处：[阅读使用 Clearedtec](https://customers.microsoft.com/story/genetec)清除犯罪调查
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
 
 - Azure 政府
 - Dynamics 365 美国政府版
 - Office 365美国政府
-- Power BI 云服务，作为独立服务提供，后者随 Office 365 品牌计划或套件一并提供
+- Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 
 ## <a name="azure-dynamics-365-and-cjis"></a>Azure、Dynamics 365 和 CJIS
 
@@ -56,19 +56,19 @@ Microsoft 已评估 Microsoft Azure Government、Microsoft Office 365 U.S. Gover
 
 ## <a name="office-365-and-cjis"></a>Office 365 和 CJIS
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规性中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365审核、报告和证书
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
 
 MICROSOFT 不提供 Microsoft 遵守 CJIS 要求的认证。 相反，Microsoft 证明包含在 Microsoft 与州 CJIS 颁发机构之间以及 Microsoft 与其客户之间的协议中。
 

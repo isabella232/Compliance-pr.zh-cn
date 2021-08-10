@@ -19,24 +19,24 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 95e52107df2f3e745d393c62929f7c169bcf9a33
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 6614f3997310a227320865aa0f0da99b64420084534e47afd25bb15441ddb451
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377549"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292050"
 ---
 # <a name="microsoft-security-incident-management-containment-eradication-and-recovery"></a>Microsoft 安全事件管理：包含、隔离和恢复
 
 根据安全响应团队、服务团队和其他人员执行的分析，制定了适当的抑制和恢复计划，以最大限度地减少安全事件的影响。 然后，适当的服务团队在生产中应用该计划，并获得安全响应团队的支持。
 
-## <a name="containment"></a>包含
+## <a name="containment"></a>遏制
 
 在检测到安全事件后，必须包含入侵，然后攻击者才能访问更多资源或造成更多损害。 我们的安全事件响应过程的主要目标是限制客户或他们的数据，或 Microsoft 系统、服务和应用程序的影响。
 
-## <a name="eradication"></a>百年
+## <a name="eradication"></a>消除
 
-"安全"是一个以高可信度消除安全事件的根本原因的过程。 目标是双重的：
+消除是根除安全事件的过程，具有较高的置信度。 目标是双重的：
 
 - 从环境中完全收回攻击者
 - 缓解漏洞攻击 (如果已知) 启用或可能允许攻击者重新访问环境。

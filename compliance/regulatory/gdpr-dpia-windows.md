@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 hideEdit: true
-ms.openlocfilehash: 2dcfb419af60ae4d555ffb3686d107c3cd80808f
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 912bd80aea4e02eaa7e4d18f2f019eb3a6909e5d011204a1bb2cc299015f78fe
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377689"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289870"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-controllers-using-windows-diagnostic-data-processor-configuration"></a>数据保护影响评估：控制者使用 Windows 诊断数据处理者配置的指南
 
@@ -62,7 +62,7 @@ GDPR 第 35 条规定要求由控制者来创建数据保护影响评估（DPIA�
 
 | DPIA 的元素 | Windows 诊断数据处理者配置的相关信息 |
 |:---|:---|
-| 处理目的 | 处理按照 Windows 诊断数据处理者配置收集的诊断数据的目的是由实现、配置和使用其的控制者决定。 <br><br> 作为数据处理者，Microsoft 会根据 Microsoft 产品条款中的条款处理Windows 诊断数据。 <br><br> Microsoft 还使用个人数据来支持有限的合法业务运营，包括：(1) 账单和帐户管理；(2) 薪酬（例如，计算员工佣金和合作伙伴奖励）；(3) 内部报告和建模（例如，预测、收入、产能计划、产品策略）；(4) 打击可能影响 Microsoft 或 Microsoft 产品的欺诈、网络犯罪或网络攻击；(5) 改善可访问性、隐私或能效的核心功能；(6) 财务报告和履行法律义务（受 Windows 诊断数据披露的限制）。 <br><br> 对于这些特定的合法业务运营，Microsoft 是处理 Windows 诊断数据的控制者。 通常，Microsoft 在将 Windows 诊断数据用于我们的合法业务运营之前会对其进行汇总处理，从而消除 Microsoft 识别特定个人身份的能力，并以最不易识别的形式使用个人数据，以支持合法业务运营所需的处理。 <br><br> 启用 Windows 诊断数据处理者配置时，Microsoft 不会使用收集的Windows 诊断数据，也不会将其衍生出的信息用于任何广告或类似的商业目的。|
+| 处理目的 | 处理按照 Windows 诊断数据处理者配置收集的诊断数据的目的是由实现、配置和使用其的控制者决定。 <br><br> 作为数据处理者，Microsoft 会根据 Microsoft 产品条款中的条款处理Windows 诊断数据。 <br><br> Microsoft 还使用个人数据来支持有限的合法业务运营，包括：(1) 账单和帐户管理；(2) 薪酬（例如，计算员工佣金和合作伙伴奖励）；(3) 内部报告和建模（例如，预测、收入、产能计划、产品策略）；(4) 打击可能影响 Microsoft 或 Microsoft 产品的欺诈、网络犯罪或网络攻击；(5) 改善可访问性、隐私或能效的核心功能；(6) 财务报告和履行法律义务（受 Windows 诊断数据披露的限制）。 <br><br> Microsoft 是用于这些特定合法业务运营的 Windows 诊断数据处理的控制者。通常，Microsoft 在将 Windows 诊断数据用于我们的合法业务运营之前会对其进行汇总处理，从而消除 Microsoft 识别特定个人身份的能力，并以最不易识别的形式使用 Windows 诊断数据，以支持合法业务运营所需的处理。 <br><br> 启用 Windows 诊断数据处理者配置时，Microsoft 不会使用收集的Windows 诊断数据，也不会将其衍生出的信息用于任何广告或类似的商业目的。|
 | 处理的个人数据类别 | **Windows 诊断数据** — Windows 设备中有关设备以及 Windows 和相关软件性能的技术数据。 用它可以使 Windows 保持最新、安全、可靠、高性能，并改进产品。 Windows 诊断数据的一些示例包括正在使用的硬件类型、安装的应用程序及其用途，以及设备驱动程序的可靠性信息。 某些 Windows 组件和应用会直接连接到 Microsoft 服务，但它们交换的数据不是 Windows 诊断数据。 例如，交换用户的位置以获取当地天气或新闻不是 Windows 诊断数据的示例。 <br><br> 有关使用 Windows 诊断数据处理者配置时的数据处理的详细信息，请参阅[在组织中配置 Windows 诊断数据](/windows/privacy/configure-windows-diagnostic-data-in-your-organization)，以及[Microsoft 信任中心](https://www.microsoft.com/trust-center)。|
 | 数据保留 | 根据 Microsoft 产品条款启用 Windows 诊断数据处理者配置时，Microsoft 将保留并处理收集的 Windows 诊断数据。 客户可以使用[适用于 GDPR 和 CCPA 的 Windows 诊断数据处理者配置数据主体请求](gdpr-dsr-windows.md)中所述的功能 ，根据数据主体请求删除和导出Windows 诊断数据。|
 | 个人数据的位置和传输 | 启用 Windows 诊断数据处理者配置时收集的 Windows 诊断数据保留在美国的 Microsoft 数据中心。 |

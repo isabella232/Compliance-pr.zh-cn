@@ -1,5 +1,5 @@
 ---
-title: 保护Microsoft 365基础结构
+title: 保护 Microsoft 365 基础结构
 description: 了解 Microsoft 如何保护Microsoft 365基础结构。
 ms.author: robmazz
 author: robmazz
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 224900bd60f2fd5637e7264f1aed98d5ff878b20
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: d0ef6dc92820089259cd315713c0e7e4a9e11aaec50d731b15cd6e826a721107
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292749"
 ---
-# <a name="securing-the-microsoft-365-infrastructure"></a>保护Microsoft 365基础结构
+# <a name="securing-the-microsoft-365-infrastructure"></a>保护 Microsoft 365 基础结构
 
 Microsoft 365是世界各地最大的企业和客户云服务之一，在客户群、产品和功能方面继续快速增长。 客户不仅Microsoft 365世界一流的生产力解决方案，还帮助保护他们的最敏感信息免受不断演变的网络威胁形势的影响。 确保客户数据安全并保持客户信任是 Microsoft 的首要任务。
 
@@ -101,4 +101,4 @@ Microsoft 365头等要的是防止攻击。 Microsoft 365一个专门的安全�
 
 ## <a name="resources"></a>资源
 
-[后台：保护为 Microsoft 365 服务提供电源的基础结构](https://download.microsoft.com/download/c/4/5/c45b197e-f0d9-4f40-bd5f-ed8fc7d0cd8c/M365DCSecurityIntro_Whitepaper.pdf)
+[幕后：保护支持 Microsoft 365 服务的基础结构](https://download.microsoft.com/download/c/4/5/c45b197e-f0d9-4f40-bd5f-ed8fc7d0cd8c/M365DCSecurityIntro_Whitepaper.pdf)

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4c27c84d2abc2de4866471d652d8b11351bc3168
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: c333fc2d6bdb9889dafefd2571b8381edd15e5158a4783aa7a17cec7ce1bcc7c
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385652"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293379"
 ---
 # <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>新西兰政府信息安全和隐私注意事项 (ISPC) 
 
@@ -37,23 +37,23 @@ ms.locfileid: "53385652"
 
 为了帮助机构对 Microsoft 企业云服务进行分析和评估，Microsoft 新西兰已经制作了一些文档，这些文档显示其企业云服务如何解决"云计算 ISPC"中的问题，将它们链接到 Microsoft 云服务的认证标准。 这些认证对于 Microsoft 如何向公共和私有行业客户保证其云服务已经设计、构建和运行，以有效缓解隐私和安全风险以及解决数据危害问题，这一点十分中心。 客户 [可下载对云计算 ISPC](https://azure.microsoft.com/resources/microsoft-azure-response-to-nz-gcio-cloud-computing-information-security-privacy-considerations/) 的 Azure 响应。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure 与 Azure 政府
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - Office 365
-- Power BI 云服务，作为独立服务提供，后者随 Office 365 品牌计划或套件一并提供
+- Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 
 ## <a name="office-365-and-ispc"></a>Office 365 和 ISPC
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
@@ -77,7 +77,7 @@ ms.locfileid: "53385652"
 - [托管的主机Office生产力服务的安全要求：托管服务的安全Office 365](https://aka.ms/o365-gcio-conformance-guidance)
 - [NZ Government ICT Strategy 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [云计算：ISPC (信息安全和隐私) ](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
-- [Microsoft 联机服务条款](https://aka.ms/Online-Services-Terms)
+- [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Microsoft 对云计算 IPSC 的响应

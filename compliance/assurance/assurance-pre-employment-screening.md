@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: f9189b763824a144a72259643c252563bc6a349b
-ms.sourcegitcommit: 48b8ec2dd00e957508e5af82458bf697e1a97ebb
+ms.openlocfilehash: 764b56a0f950d0b933bb86bb86ad505481bce482cbed4d2a0b06a4969b1c6661
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292299"
 ---
 # <a name="microsoft-pre-employment-screening"></a>Microsoft 聘用前筛选
 
@@ -54,7 +54,7 @@ Microsoft 的全球安全部门负责确保在向 Microsoft 雇用候选人之�
 
 - 美国的 SSN 跟踪或来自欧洲、中东和亚洲政府颁发的文档的标识确认。
 - 在州、县、地方一级以及联邦一级（如果在美国适用）犯罪历史记录最多会检查七年的犯罪和违法行为。 根据当地法律 (国际犯罪) 适用于美国以外的地区。
-- 确认最高级别的学术成就
+- 确认最高教育程度
 - 五年雇佣历史记录
 - 全局处罚和执行检查，包括Office资产控制 (OFAC) 列表、工业与安全局 (BIS) 列表以及 Office of Defense Trade Controls Debarred Persons (DDTC) list checks。
 
@@ -66,8 +66,8 @@ Microsoft 要求供应商 (临时员工) 对将执行需要访问 Microsoft 拥�
 
 - 美国的 SSN 跟踪或来自欧洲、中东和亚洲政府颁发的文档的标识确认。
 - 在州、县、地方一级以及联邦一级（如果在美国适用）犯罪历史记录最多会检查七年的犯罪和违法行为。 根据当地法律 (国际犯罪) 适用于美国以外的地区。
-- 确认最高级别的学术成就
-- 全局处罚和强制执行检查
+- 确认最高教育程度
+- 全球制裁和强制检查
 
 在美国，在每个供应商员工为 Microsoft 执行的每个放置之前，在本地法律允许的范围内，供应商将执行预放置，并针对某些位置，使用 Microsoft 首选的背景检查屏蔽服务提供商定期进行背景调查，他们将向 Microsoft 确认该屏蔽符合 Microsoft 标准。 
 

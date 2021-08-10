@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9080474699eae7e65d8df86638a9250ec7127585
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 49b18d0e758f0c83b2f56be2cd9bb1447c63349165e9cef868adbcf17adeb7f0
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385672"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294289"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>国家标准和技术协会 (NIST) 网络安全框架 (CSF) 
 
@@ -42,7 +42,7 @@ NIST 网络安全框架 (CSF) 是一个自愿性框架，包含用于管理网�
 - [NIST SP 800-53 R4 蓝图示例概述](/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
 - [合规性分数中的"合规性分数"中Office 365 NIST CSF 评估。](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
 
 - Azure 政府
 - Dynamics 365 for Government
@@ -54,13 +54,13 @@ NIST 网络安全框架 (CSF) 是一个自愿性框架，包含用于管理网�
 
 ## <a name="office-365-and-nist-csf"></a>Office 365 和 NIST CSF
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
@@ -88,7 +88,7 @@ NIST 网络安全框架 (CSF) 是一个自愿性框架，包含用于管理网�
 
 **能否将 Microsoft 的合规性用于我的组织？**
 
-是。 FedRAMP 标准的独立第三方合规性报告证实 Microsoft 为维护 Microsoft 云服务的安全性和隐私而实施的控制措施的有效性。 Microsoft 客户可能会将这些相关报告中所述的审核控制措施用作其自己的 FedRAMP 和 NIST FICICIC 的风险分析和资格鉴定工作的一部分。
+能。 FedRAMP 标准的独立第三方合规性报告证实 Microsoft 为维护 Microsoft 云服务的安全性和隐私而实施的控制措施的有效性。 Microsoft 客户可能会将这些相关报告中所述的审核控制措施用作其自己的 FedRAMP 和 NIST FICICIC 的风险分析和资格鉴定工作的一部分。
 
 **哪些组织被美国政府视为关键基础结构？**
 

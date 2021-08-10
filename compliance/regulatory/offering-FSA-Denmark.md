@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2896f3dea06181ef11393a40a4822b3b6fd345a5
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 4ba6e4160b14ff89f4e8afd57036c7817f2ad4a4bb262c6a032e4bdb3983723e
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384932"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292469"
 ---
 # <a name="financial-supervisory-authority-fsa-denmark"></a>丹麦金融监管局 (FSA)
 
@@ -39,7 +39,7 @@ FSA 与欧洲银行管理局 (EBA) 协同行动，“欧洲银行管理局是欧
 
 ## <a name="microsoft-and-the-fsa"></a>Microsoft 和 FSA
 
-为了给正在考虑将业务职能外包到云端的丹麦金融机构提供指导，Microsoft 发布了[一份针对丹麦金融机构的合规性清单](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=524cc66f-b292-49e9-aa14-04560401baa0&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)。 通过查看和完成这份清单，金融组织可放心地采用 Microsoft 商业云服务，确保自己遵守适用的法规要求。
+为了给正在考虑将业务职能外包到云端的丹麦金融机构提供指导，Microsoft 发布了[一份针对丹麦金融机构的合规性清单](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=524cc66f-b292-49e9-aa14-04560401baa0&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)。 通过查看和完成清单，金融组织可放心地采用 Microsoft 商业云服务，保证自己遵守适用的法规要求。
 
 当丹麦金融机构外包业务活动时，必须遵守金融监管局 (AMF) 在欧洲银行管理局 (EBA) 广泛政策框架内的要求。 具体来说，这些要求专注于金融服务与云提供商之间的协议，以确保充分控制外包活动。
 

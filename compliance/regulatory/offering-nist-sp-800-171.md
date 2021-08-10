@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 19b312d1b9f31683d775049010d390710554df01
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 4b5f8bfd19193b3a05b5ffa6476271bc6da05c7ec1c669a2f1614535a54942e1
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385662"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294299"
 ---
 # <a name="nist-sp-800-171"></a>NIST SP 800-171
 
@@ -44,7 +44,7 @@ NIST SP 800-171 要求是 NIST SP 800-53（FedRAMP 使用的标准）的子集�
 
 处理或存储美国政府 CUI 的任何实体（ 教育机构、咨询公司、制造承包商）都必须符合 NIST SP 800-171 的严格要求。 此证明意味着 Microsoft 范围内云服务可以容纳希望部署 CUI 工作负载的客户，同时保证 Microsoft 完全合规。 例如，在信息系统内使用范围内 Microsoft 云服务处理、存储或传输"覆盖的防御信息"的所有 DoD 承包商都符合美国国防部 DFARS 条款，这些条款要求遵守 NIST SP 800-171 的安全要求。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
 
 - Azure Commercial， Azure Government
 - Dynamics 365 美国政府版
@@ -57,18 +57,18 @@ NIST SP 800-171 要求是 NIST SP 800-53（FedRAMP 使用的标准）的子集�
 
 ## <a name="office-365-and-nist-sp-800-171"></a>Office 365 和 NIST SP 800-171
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **GCC** | 活动源服务、必应 服务、Delve、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
-| **GCC 高** | 活动源服务、必应 服务、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片 
+| **GCC 高级** | 活动源服务、必应 服务、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片 
 SharePoint联机、Skype for Business、Windows Ink |
 | **DoD** | 活动源服务、必应 服务、Exchange Online、智能服务、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、Microsoft Teams、SharePoint Online、Skype for Business、Windows Ink |
 
@@ -76,7 +76,7 @@ SharePoint联机、Skype for Business、Windows Ink |
 
 **能否将 Microsoft 与 NIST SP 800-171 一同用于我的组织？**
 
-是。 Microsoft 客户可以使用独立第三方评估组织 (3PAO) 报告中描述的有关 FedRAMP 标准的审核控制措施，作为其自己的 FedRAMP 和 NIST 风险分析和资格限定工作的一部分。 这些报告证实 Microsoft 在其范围内云服务中实施的控制措施的有效性。 客户有责任确保其 CUI 工作负载符合 NIST SP 800-171 准则。
+能。 Microsoft 客户可以使用独立第三方评估组织 (3PAO) 报告中描述的有关 FedRAMP 标准的审核控制措施，作为其自己的 FedRAMP 和 NIST 风险分析和资格限定工作的一部分。 这些报告证实 Microsoft 在其范围内云服务中实施的控制措施的有效性。 客户有责任确保其 CUI 工作负载符合 NIST SP 800-171 准则。
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

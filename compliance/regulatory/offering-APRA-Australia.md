@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: de14ca813334e575709b0c4546de95dcf3ef21be
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 9bbec472f2f7f37e3e2f231343a6b59994e7e00e8f3f14c2e8d8de4e3e20931a
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292619"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>澳大利亚审慎监管局 (A在) 
 
@@ -72,7 +72,7 @@ Microsoft 云服务：遵守[A且谨慎标准 CPS 234 信息安全](https://quer
 
 根据 A CHECKLIST 法规，获取对将数据和工作负载移动到 Azure 的实际 [支持：下载 Microsoft 云服务：澳大利亚金融机构的合规性清单](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -80,29 +80,29 @@ Microsoft 云服务：遵守[A且谨慎标准 CPS 234 信息安全](https://quer
 
 ## <a name="office-365-and-apra"></a>Office 365 和 A且
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | Exchange Online Protection、Exchange Online、Office 365 客户门户、Office Online、Office 服务基础结构、OneDrive for Business、SharePoint Online Skype for Business |
+| **Office 365** | Exchange Online Protection， Exchange Online， Office 365 客户门户， Office Online， Office 服务基础结构， OneDrive for Business， SharePoint Online， Skype for Business |
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
 **在外包材料业务活动之前，金融机构是否需要 A唯一审批？**
 
-不正确。 但是，大多数受监管金融组织在签订协议以外包澳大利亚范围内的材料业务活动之后，必须通知 A分钟内，或咨询 A分钟内将这些活动外包到澳大利亚以外的地区。
+不是。 但是，大多数受监管金融组织在签订协议以外包澳大利亚范围内的材料业务活动之后，必须通知 A分钟内，或咨询 A分钟内将这些活动外包到澳大利亚以外的地区。
 
 此外，如果认为云服务具有云上的 [A更新信息](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)白皮书中所述的"高风险或极端固有风险"，则建议金融机构 (但不要求) 咨询 A分钟内的服务，无论该服务是在澳大利亚内部还是外部提供。
 
 **是否允许在澳大利亚以外传输数据？**
 
-是。 一般隐私 (适用于所有部门，而不仅是金融机构，) 在某些条件下允许在澳大利亚以外传输。 Microsoft 同意根据澳大利亚隐私原则的合同条款，以便使用 Microsoft 云服务时允许传输澳大利亚以外的数据。 但是，我们的许多澳大利亚金融服务客户利用澳大利亚数据中心提供的云服务，我们为此做出特定的合同承诺，将其余的数据类别存储在澳大利亚地理位置。 这些承诺在合规性清单中进 [一步概述了](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)。
+能。 一般隐私 (适用于所有部门，而不仅是金融机构，) 在某些条件下允许在澳大利亚以外传输。 Microsoft 同意根据澳大利亚隐私原则的合同条款，以便使用 Microsoft 云服务时允许传输澳大利亚以外的数据。 但是，我们的许多澳大利亚金融服务客户利用澳大利亚数据中心提供的云服务，我们为此做出特定的合同承诺，将其余的数据类别存储在澳大利亚地理位置。 这些承诺在合规性清单中进 [一步概述了](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)。
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

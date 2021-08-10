@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f9b5924ce8f8424479bd4320f6e33e6fec7e636d
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: ca3ecd5dc99f71c76c2b8e724a1b6ace3350d947a3bbb278a5ec6ab00c13fe7d
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292449"
 ---
 # <a name="ministry-of-electronics-and-information-technology-meity"></a>电子和信息技术 (部门) 
 
@@ -43,7 +43,7 @@ MeitY 提供由 MeitY (称为云服务提供商的"empanelment") 的认证服务
 
 Microsoft 的 MeitY 资格鉴定是由标准化测试和质量认证 (STQC) （一家提供质量保证服务的政府机构）执行严格审核的结果，它使用基于 MeghRaj 云计划工作的评估框架。 通过 Microsoft Azure，公共部门组织现在可以绘制各种部署模型和服务产品，包括基础结构即服务 (IaaS) 、平台即服务 (PaaS) 、灾难恢复、DevOps 和托管备份。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

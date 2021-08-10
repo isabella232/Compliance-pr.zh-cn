@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2c51979122aaedda90bac74740e95c9d1265de74
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: dc0ab3e03128e0c9f7feddd36305805c7d8108e4ea12fa5feb5095bdc183e7f1
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385002"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292509"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>联邦信息处理标准 (140-2) FIPS
 
@@ -37,13 +37,13 @@ ms.locfileid: "53385002"
 
 有关 Microsoft Windows 加密模块、每个模块的安全策略以及 CMVP 证书详细信息目录的技术信息，请参阅 Windows 和[Windows Server FIPS 140-2 内容](https://aka.ms/AA6ehud)。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
 
 虽然当前的 CMVP FIPS 140-2 实施指南会排除对云服务本身的 FIPS 140-2 验证;云服务提供商可以选择为构成其云服务的计算元素获取和运行 FIPS 140 验证的加密模块。 包括经过 FIPS 140-2 验证的组件的 Microsoft 联机服务包括：
 
 - Azure 与 Azure 政府
 - Dynamics 365 和 Dynamics 365 政府版
-- Office 365、Office 365 U.S. Government 和 Office 365 U.S. Government Defense
+- Office 365、Office 365 美国政府版和 Office 365 美国政府国防部版
 
 ## <a name="azure-dynamics-365-and-fips-140-2"></a>Azure、Dynamics 365 和 FIPS 140-2
 
@@ -51,13 +51,13 @@ ms.locfileid: "53385002"
 
 ## <a name="office-365-and-fips-140-2"></a>Office 365和 FIPS 140-2
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|

@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 445d812b33214a3d2287268b587607004ef96ab7
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 9ec3e0456934c178b32a6f5fac987d70c267ef8046ff5c361abce914a2cea90a
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377349"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291861"
 ---
 # <a name="microsoft-security-incident-management-detection-and-analysis"></a>Microsoft 安全事件管理：检测和分析
 
@@ -60,7 +60,7 @@ Azure、Dynamics 365 和 Microsoft 365 服务团队还使用通过安全监视�
 - 影响
 - 范围
 - 受影响的租户数
-- 区域
+- 地区
 - 服务
 - 事件的详细信息
 - 特定客户行业或市场法规。
@@ -79,7 +79,7 @@ Azure、Dynamics 365 和 Microsoft 365 服务团队还使用通过安全监视�
 - 任何相关事件的列表
 - v-team 执行的所有操作的列表
 - 收集的任何证据，也将保留用于事后分析和未来取证调查
-- 推荐的下一步步骤和操作
+- 建议的后续步骤和操作
 
 在安全事件确认后，安全响应团队和相应服务团队的主要目标是控制攻击、保护服务 () 攻击，并避免更大的全球影响。 同时，相应的工程团队努力确定根本原因并准备第一个恢复计划。
 

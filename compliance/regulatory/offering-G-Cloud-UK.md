@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b39c658a768dc106008dcd73a064b05706f734c6
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 9e441e8e1c5419eab741ceec370afe61815332e51115509dd5974e9ea2984c22
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292489"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>英国Government-Cloud (G-Cloud) 
 
@@ -41,7 +41,7 @@ Microsoft 每年都会准备文档并提交证据，以证明其范围内企业�
 
  [14 使用](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/)Microsoft Azure 英国云的云安全控制提供客户策略，以将其服务移动到 Azure，并帮助满足 CESG/NCSC 强制的英国义务。 该白皮书介绍了如何使用 Azure 帮助解决云安全主体中概述的 14 个控制措施，并概述了客户在采用 Microsoft Azure 服务时如何加快移动速度并实现更多目标，同时节省资金。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure
 - Microsoft Cloud App Security
@@ -50,17 +50,17 @@ Microsoft 每年都会准备文档并提交证据，以证明其范围内企业�
 - Office 365
 - Power Automate (，Microsoft Flow) 云服务 (独立服务，或包含在 Office 365 或 Dynamics 365 品牌计划或套件) 
 - PowerApps 云服务 (独立服务或包含在 Office 365 或 Dynamics 365 品牌计划或套件) 
-- Power BI云服务 (独立服务，也可以作为品牌计划或套件Office 365中包含的云服务) 
+- Power BI 云服务（作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供）
 
 ## <a name="office-365-and-uk-g-cloud"></a>Office 365英国 G-Cloud
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
