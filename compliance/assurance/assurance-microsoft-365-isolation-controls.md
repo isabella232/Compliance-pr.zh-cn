@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 1876ee933b0f94057abb2a6edd8fae9ca66111a4
-ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
+ms.openlocfilehash: 2278a2475887e93733ce32b82a1d7d0b15cce91a1f1e70dbe72a6469bdd3e0b7
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53573441"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290597"
 ---
 # <a name="microsoft-365-isolation-controls"></a>Microsoft 365 隔离控制
 
@@ -40,7 +40,7 @@ Microsoft 365服务相互交互，但设计和实现，以便它们可以作为�
 
 ## <a name="tenant-isolation"></a>租户隔离
 
-云计算的主要好处之一是同时跨多个客户共享、通用的基础结构的概念，这导致规模下降。 Microsoft 持续致力于确保云服务的多租户体系结构支持企业级安全性、机密性、隐私性、完整性和可用性标准。
+云计算的主要好处之一是同时跨多个客户共享、通用的基础结构的概念，这导致规模下降。 Microsoft 不断努力确保我们云服务的多租户体系结构支持企业级的安全性、机密性、隐私性、完整性和可用性标准。
 
 Microsoft 云服务的设计假定所有租户都可能对所有其他租户造成危害，并且我们实施了安全措施，以防止一个租户的操作影响另一个租户的安全或服务或访问另一个租户的内容。
 

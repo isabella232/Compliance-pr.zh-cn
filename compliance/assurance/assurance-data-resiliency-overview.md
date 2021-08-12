@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 中的数据复原能力
-description: 本文介绍 Microsoft 365 中数据复原和恢复的设计和原则。
+title: Microsoft 365 中的数据韧性
+description: 本文将了解数据恢复能力的设计以及数据恢复在 Microsoft 365。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -20,14 +20,14 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 6e990facde47b07d50f594afb55353a5ef81dd78
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: a0745cda440b2262f4b09764e71514aeab946a6e8e0adcd4cdbccaffd14c5fe3
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291330"
 ---
-# <a name="data-resiliency-in-microsoft-365"></a>Microsoft 365 中的数据恢复能力
+# <a name="data-resiliency-in-microsoft-365"></a>数据恢复能力Microsoft 365
 
 鉴于云计算的复杂性质，Microsoft 请注意，问题不是何时会出错。 我们设计的云服务可最大限度地提高可靠性，并最大限度地减少出现问题时对客户的负面影响。 我们已超越依赖复杂物理基础结构的传统策略，并且已经将冗余直接内置到云服务中。 我们结合使用不太复杂的物理基础结构和更具智能性的软件，将数据复原构建到我们的服务中，并为客户提供高可用性。
 
@@ -42,9 +42,9 @@ ms.locfileid: "51497617"
 
 如今，客户期望 Microsoft 持续创新而不会损害质量，这是 Microsoft 服务和软件构建时牢记复原性和可恢复性的原因之一。
 
-## <a name="microsoft-365-data-resiliency-principles"></a>Microsoft 365 数据复原原则
+## <a name="microsoft-365-data-resiliency-principles"></a>Microsoft 365数据复原原则
 
-复原是指基于云的服务能够抵御某些类型的故障，但从客户的角度来看，该服务仍可以完全正常运行。 数据复原意味着无论 Microsoft 365 中发生什么故障，关键客户数据都保持不变且不受影响。 为此，Microsoft 365 服务围绕五个特定复原原则进行设计：
+复原是指基于云的服务能够抵御某些类型的故障，但从客户的角度来看，该服务仍可以完全正常运行。 数据恢复能力意味着无论内部发生什么Microsoft 365，关键客户数据将保持不变且不受影响。 为此，Microsoft 365服务围绕五个特定复原原则进行设计：
 
 - 存在关键和非关键数据。 非关键 (例如，是否读取消息) 在极少数失败情况下可以丢弃。 关键 (例如，应以极端成本) 电子邮件等客户数据。 作为设计目标，传递的邮件始终至关重要，并且邮件是否已阅读等内容都非关键。
 - 客户数据的副本必须分隔到不同的故障区域或尽可能多的故障域 (例如数据中心，由单个凭据（ (进程、服务器或操作员) ) ）访问以提供故障隔离。 
@@ -52,11 +52,11 @@ ms.locfileid: "51497617"
 - 必须防止客户数据损坏。 必须主动扫描或监视它、可修复和可恢复。
 - 大多数数据丢失都由客户操作导致，因此允许客户使用 GUI 自行恢复，以便客户能够还原意外删除的项目。
 
-通过构建遵守这些原则的云服务，再加上强大的测试和验证，Microsoft 365 能够满足并超过客户的要求，同时确保获得持续创新和改进的平台。
+通过针对这些原则构建云服务，再加上强大的测试和验证，Microsoft 365 能够满足并超过客户的要求，同时确保获得持续创新和改进的平台。
 
 ## <a name="related-articles"></a>相关文章
 
 - [处理数据损坏](assurance-dealing-with-data-corruption.md)
 - [恶意软件和勒索软件防护](assurance-malware-and-ransomware-protection.md)
 - [监视和自愈](assurance-monitoring-and-self-healing.md)
-- [Exchange 数据恢复能力](assurance-exchange-data-resiliency.md)
+- [Exchange数据恢复能力](assurance-exchange-data-resiliency.md)

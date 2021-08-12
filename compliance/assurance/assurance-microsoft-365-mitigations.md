@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 企业版业务连续性管理缓解
+title: Microsoft 365业务连续性管理缓解措施
 description: Microsoft 365 服务事件情景的一些缓解措施示例。
 author: robmazz
 ms.author: robmazz
@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 34f6bc7e597d4dfc279e55b9b8a1434e3ada45fb
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 5f88f9b5b3dee2279e37bee5137819802f68502d163e4eaa1f75c3abf57a4c53
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290630"
 ---
 # <a name="service-incident-mitigation-strategies"></a>服务事件缓解策略
 

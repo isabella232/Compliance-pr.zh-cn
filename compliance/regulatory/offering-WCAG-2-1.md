@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: baea6a472b247d3f86019792a56fb28a6a256b77
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: de5d4d46e49b5ceaba453e4bcfdef1891d15e080e881f9c450585bca1a1af88b
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384312"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289350"
 ---
 # <a name="web-content-accessibility-guidelines"></a>Web 内容辅助功能准则
 
@@ -63,8 +63,8 @@ Microsoft 发布的 WCAG 报告反映了完整的产品或服务。 该公司通
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **Office 365** | Excel, Exchange 管理中心, Office 365 管理中心（门户）, Office 365 和 Azure AD 登录体验, Office 365 客户门户, Office 365 安全与合规中心, Office 365 视频, Office Lens, Office.com, OneDrive 管理中心, OneDrive for Business, OneDrive 同步客户端, OneNote, Orcas, Outlook Groups, Outlook, PowerPoint, Project, Word  |
-| **GCC** | Azure Active Directory, 合规性管理器, Delve, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, MyAnalytics, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
-| **GCC 高级** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams、Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+| **GCC 高级** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
 | **DoD** | Azure Active Directory, Exchange Online, Microsoft Defender for Office 365, Microsoft Teams, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, Forms, Power BI, SharePoint Online, Skype for Business |
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Microsoft 辅助功能一致性报告

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f5710d392e1d2293bfee976873e5d7c603918e67
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 39c7e69ab980a7d75fced1d59474478df6f05c9ec9549db6e7fa72ba7f9278a8
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385122"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287561"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>食物和食物管理 CFR 标题 21 第 11 部分
 
@@ -47,7 +47,7 @@ Microsoft 企业云服务接受常规独立第三方 SOC 1 类型 2 和 SOC 2 �
 
 了解如何加快你的 FDA CFR 标题 21 部署： [下载 Azure FDA 21 资格指南](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
 
 尽管没有认证符合 CFR 标题 21 第 11 部分，但以下 Microsoft 企业云服务已经过独立的第三方审核，这可能帮助客户进行合规性工作。 这些服务包括：
 
@@ -79,7 +79,7 @@ Microsoft 实施的已审核控制措施有助于确保数据的机密性、完�
 
 **能否在组织的认证过程中使用 Microsoft 的合规性？**
 
-是。 IEC/ISO 27001、ISO/IEC 27018、SOC 1 和 SOC 2 标准的独立第三方合规性报告证实 Microsoft 控制措施的有效性。 Microsoft 企业云客户可能会将这些相关报告中所述的审核控制措施用作其自己的 CFR 标题 21 第 11 部分风险分析和资格认证工作的一部分。 构建和部署受 FDA 法规保护的应用程序的客户负责确保他们的应用程序满足 FDA 要求。
+能。 IEC/ISO 27001、ISO/IEC 27018、SOC 1 和 SOC 2 标准的独立第三方合规性报告证实 Microsoft 控制措施的有效性。 Microsoft 企业云客户可能会将这些相关报告中所述的审核控制措施用作其自己的 CFR 标题 21 第 11 部分风险分析和资格认证工作的一部分。 构建和部署受 FDA 法规保护的应用程序的客户负责确保他们的应用程序满足 FDA 要求。
 
 **Microsoft 对确保符合这一标准负有哪些责任？**
 

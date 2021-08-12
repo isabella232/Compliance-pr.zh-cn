@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3621d34a87402722e18d50a298dff4d5a10ac3a9
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: ef436314bc6b9d49bea046b66cbfa44905943001e5c91dff2441dcd9fab55768
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384342"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290050"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>2002 年萨班尼斯-奥克斯莱法案 (Sarbanes-Oxley Act of 2002, SOX)
 
@@ -35,19 +35,19 @@ SEC 不定义或实施 SOX 认证过程。 相反，它为它所监管的公司�
 
 遵守 Sarbanes-Oxley 法案 (SOX) 的 Microsoft 云服务客户可以使用 MICROSOFT 在履行自己的 SOX 合规义务时从独立审计公司收到的 SOC 1 类型 2 证明。 此证明适用于报告对财务信息进行的内部控制。
 
-即使没有针对云服务提供商的 SOX 认证或验证，Microsoft 也可以帮助客户履行 SOX 义务。 例如，SOX 要求对准备和审阅财务报表进行内部控制，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。 为了帮助公司，Microsoft 维护了适用于跨各种服务组合报告此类控件的 SOC 1 类型 2 证明，这些服务组合可用于构建各种应用程序。 它基于美国注册公共会计协会 (AICPA) 18 (SSAE 18) 认证标准声明和保证服务国际准则。 3402 (ISAE 3402) 。  (此证明取代了 SAS 70.) 
+即使没有针对云服务提供商的 SOX 认证或验证，Microsoft 也可以帮助客户履行 SOX 义务。 例如，SOX 要求对准备和审阅财务报表进行内部控制，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。 为了帮助公司，Microsoft 维护了适用于跨各种服务组合报告此类控件的 SOC 1 类型 2 证明，这些服务组合可用于构建各种应用程序。 它基于美国注册公共会计协会 (AICPA) 18 (SSAE 18) 认证标准声明和保证服务国际准则。 3402（ISAE 3402）。  (此证明取代了 SAS 70.) 
 
 由第三方审核公司生成的审核报告证实 Microsoft 控制措施设计正确，在指定的日期运行，且在指定的时段内有效运行。 客户可以审阅报告，了解 Microsoft 控制措施目标及其控制措施的有效性，并访问补充控制措施。
 
 在 Microsoft，我们与客户共同承担合规性责任。 我们提供有关合规性计划的详细信息，您可以通过向认证第三方请求详细的审核结果来验证这些细节。 但是，最终由你决定我们的服务是否符合适用于你的业务的特定法律和法规。 例如，有一些与 SOX 相关的安全控件（如用户访问云资源）属于你的责任：你的组织必须开发这些控件的适当审核，作为 SOX 合规性的一部分。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - Office 365
-- Power BI云服务 (独立服务，也可以作为品牌计划或套件Office 365中包含的云服务) 
+- Power BI 云服务（作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供）
 
 ## <a name="azure-dynamics-365-and-sox"></a>Azure、Dynamics 365 和 SOX
 
@@ -55,13 +55,13 @@ SEC 不定义或实施 SOX 认证过程。 相反，它为它所监管的公司�
 
 ## <a name="office-365-and-sox"></a>Office 365 和 SOX
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|

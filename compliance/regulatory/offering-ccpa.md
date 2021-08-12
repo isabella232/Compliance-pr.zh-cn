@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2d06aefc89312dece2ecbe81aa6c0a9f10500369
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 75f814c49395e5b945d0b9092b1158fad3376ce684ea3a8fb43115d51fe6bba5
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288251"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>加州消费者隐私法案 (CCPA)
 
@@ -41,7 +41,7 @@ CCPA 将于 2020 年 1 月 1 日生效。 但是，由加州律师总 (AG) 将�
 
 如 OST 中所列，Microsoft 遵守适用于在线服务的所有法律和法规，其中包括 CCPA。  
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Azure Dev Ops

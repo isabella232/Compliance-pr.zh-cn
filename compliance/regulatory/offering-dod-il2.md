@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 77e8cb50f815c167e50293d495b4a548a73d022e
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 0c44d77772eef6321d716aa87f34d0472401fb30092dde324120e2d9d82a1a3d
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385698"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288221"
 ---
 # <a name="department-of-defense-dod-impact-level-2-il2"></a>美国国防部 (DOD) 影响级别 2 (IL2) 
 
@@ -35,7 +35,7 @@ DISA 指导 DoD 机构和部门规划和授权 CSP 的使用。 它还评估 CSP
 
 [SRG Section 5.1.1](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#5SECURITYREQUIREMENTS) *DoD use of FedRAMP Security Controls* 指出，IL2 信息可能托管在一个 CSP 中，其中最少具有 FedRAMP 中等 PA 和 DoD 级别 2 PA，但需遵守第 5.6.2 节中列出的人员安全要求。 但是，此方法不会减少云解决方案提供商满足任务所有者要求的其他安全和集成要求。 根据 [SRG 5.2.2.1](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#5.2LegalConsiderations) *IL2* 位置和分离要求，FedRAMP 中等 PA 充分涵盖了 DoD IL2 PA，因此不会为 IL2 PA 额外评估这些要求。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure
 - Dynamics 365
@@ -55,18 +55,18 @@ DISA 指导 DoD 机构和部门规划和授权 CSP 的使用。 它还评估 CSP
 
 ## <a name="office-365-and-dod-il2"></a>Office 365 和 DoD IL2
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **GCC** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
-| **GCC 高** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **GCC 高级** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
 
 ### <a name="resources"></a>资源
 

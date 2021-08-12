@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 4a71ab3ddf6688df5480a8f260e004778aa6212b
-ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
+ms.openlocfilehash: 8ff06dab5367ee8cf734384efd1e2f57b2d6499c4151b75bd335693852dead47
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53573357"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287211"
 ---
 # <a name="microsoft-employee-transfer-and-termination"></a>Microsoft 员工转移和离职
 
@@ -37,8 +37,8 @@ Microsoft 在线服务旨在运行，无需为工程师提供对生产环境的�
 
 员工转移是通过员工经理的转移交易请求启动的。 经理创建了一个工厂，并参与全球人才招聘流程。 员工接受新角色的优惠后，HR 服务将完成 HR 核心工具中的转移，从而触发 IDM 设置所有员工资格的到期日期。 员工必须提交请求并收到新经理的批准，以保留其资格。 提交请求或接收经理批准失败会导致被转移的员工资格吊销。 对于包含特定安全隐患的传输，将立即重新评估系统访问和安全组成员身份以反映其新角色。
 
-## <a name="termination"></a>终止
+## <a name="termination"></a>离职
 
-当员工离职时，Microsoft 使用明确定义的策略和过程来立即撤消对 Microsoft 系统和资源的物理和逻辑访问。 当员工发出通知时，员工的经理会向 HRIS 输入终止日期。 在员工最后一个工作日之后，HRIS 将员工标记为已终止，并共享信息给 IDM，这将自动删除所有服务团队帐户和资格。
+当员工离职时，Microsoft 使用明确定义的策略和过程来立即撤销其对 Microsoft 系统和资源的物理和逻辑访问权限。 当员工发出通知时，员工的经理会向 HRIS 输入终止日期。 在员工最后一个工作日之后，HRIS 将员工标记为已终止，并共享信息给 IDM，这将自动删除所有服务团队帐户和资格。
 
-对于雇佣终止，HR 与员工的经理合作，以按照相应步骤终止和离职员工。 与自愿终止类似，终止信息连同任何必要步骤（如有效日期协调、删除访问）一起输入到 HRIS 中。 和与转换角色相关的任何其他步骤。
+对于雇佣终止，HR 与员工的经理合作，以按照相应步骤终止和离职员工。 与自愿终止类似，终止信息连同任何必要步骤（如有效日期协调、访问删除和与转换离开角色相关的任何其他步骤）输入到 HRIS 中。

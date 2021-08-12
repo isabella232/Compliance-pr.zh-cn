@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 28ffe8113d76d74b9cb5e81034535930f158d4ef
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: d4bee24b66b565e1068d5aacd6c6c7833e230fd703186884bc53d5e378ecf44d
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287171"
 ---
 # <a name="enterprise-business-continuity-management-legal-disclaimer"></a>企业业务连续性管理法律免责声明
 

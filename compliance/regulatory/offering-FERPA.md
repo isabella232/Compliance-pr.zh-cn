@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: abded0cc92e49ed1c12eb44a3200ffdebed18b4f
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 10300b66564465e8362ca72c8cbb1604d590a45f91608b7b5dbcb0a55054d4b5
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287581"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA 家庭教育 (隐私) 
 
@@ -43,7 +43,7 @@ FERPA 不要求或识别审核或其他认证，因此任何受 FERPA 限制的�
 
 由于这些合同承诺，受 FERPA 限制的客户（即教育机构及其授予敏感学生数据访问权限的第三方）可以放心地使用范围内 Microsoft 商业云服务处理、存储和传输该数据。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
 
 Microsoft 同意在客户数据中指定为具有"合法教育兴趣"的"学校官员"的服务包括：
 
@@ -59,22 +59,22 @@ Microsoft 同意在客户数据中指定为具有"合法教育兴趣"的"学校�
 
 ## <a name="office-365-and-ferpa"></a>Office 365 和 FERPA
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | Azure Active Directory、Azure 信息保护、预订、合规性管理器、Delve、Exchange Online、Exchange Online Protection、Forms、Kaizala、Microsoft Analytics、Microsoft Booking、Microsoft Defender for Office 365、Microsoft Graph、Microsoft Teams、Microsoft To-Do for Web、MyAnalytics、Office 365 高级合规版 加载项、Office 365 云应用安全、Office 365 组、Office 365 安全 & 合规性中心，Office 365视频、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、StaffHub、Stream、Sway、Yammer Enterprise |
+| **Office 365** | Azure Active Directory, Azure 信息保护, Bookings, 合规性管理器, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender for Office 365, Microsoft Graph, Microsoft Teams, Microsoft 待办事项网页版, MyAnalytics, Office 365 高级合规版加载项, Office 365 Cloud App Security, Office 365 组, Office 365 安全与合规中心, Office 365 视频, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 | **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、harePoint Online、Skype for Business、Stream |
-| **GCC 高** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
-| **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online Skype for Business |
+| **GCC 高级** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
+| **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online、Skype for Business |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365审核、报告和证书
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
 
 FERPA 不要求或识别审核或认证。
 
@@ -98,5 +98,5 @@ FERPA 不要求或识别审核或认证。
 - [家庭教育权和隐私法案](https://www.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
 - [联邦法规电子代码：FERPA](https://aka.ms/FERPA-GPO)
 - [联邦注册：FERPA 最终规则](https://aka.ms/ferpa-reg)
-- [Microsoft 联机服务条款](https://aka.ms/Online-Services-Terms)
+- [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

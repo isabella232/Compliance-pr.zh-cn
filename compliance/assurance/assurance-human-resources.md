@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 42f5677b923edc225833882bc3916e698fde369e
-ms.sourcegitcommit: 48b8ec2dd00e957508e5af82458bf697e1a97ebb
+ms.openlocfilehash: f732ccf412272ec7138ac24fcc1f89dcf9bacacf1e64865ebfb9ba4e9dc6daf8
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395642"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291000"
 ---
 # <a name="human-resources-overview"></a>人力资源概述
 
@@ -48,9 +48,9 @@ Microsoft 对所有员工、员工和临时员工都遵循严格的人员筛选�
 
 ## <a name="how-does-microsoft-ensure-employees-maintain-sufficient-skills-and-knowledge-to-perform-their-responsibilities-and-follow-microsoft-policies"></a>Microsoft 如何确保员工保持足够的技能和知识来履行他们的责任并遵循 Microsoft 政策？
 
-所有 Microsoft 员工都需要完成基本安全意识培训。 当新员工开始在 Microsoft 工作时，将进行初始培训，此后每年进行一次年度刷新培训。 此培训旨在让员工了解 Microsoft 的基本安全方法。 在授予个人的工作职责所需的任何特定访问权限之前，还需要基于角色的适用安全培训。 Microsoft 员工的安全培训每年刷新一次，当系统或策略更改需要新培训时。
+所有 Microsoft 员工都需要完成基本安全意识培训。 新员工开始在 Microsoft 工作时进行初始培训，此后每年都会进行年度复习培训。 培训旨在让员工了解 Microsoft 的基本安全方法。 在授予个人的工作职责所需的任何特定访问权限之前，还需要基于角色的适用安全培训。 Microsoft 员工的安全培训每年刷新一次，当系统或策略更改需要新培训时。
 
-除了安全意识培训之外，Microsoft 员工还必须完成商业标准行为准则培训。 此培训包括业务准则、员工安全、隐私、反骚扰和零容忍度（针对无信息行为）。 在课程结束时，员工必须证明他们将遵守 Microsoft 业务行为准则，该行为准则在组织一级进行跟踪。 业务行为标准培训每年更新一次。
+除了安全意识培训之外，Microsoft 员工还必须完成商业标准行为准则培训。 此培训包括业务准则、员工安全、隐私、反骚扰和零容忍度（针对无信息行为）。 课程结束时，员工必须证明他们将遵守在组织级别跟踪的 Microsoft 业务行为准则。 业务行为标准培训每年更新一次。
 
 ## <a name="how-does-microsoft-revoke-access-for-employees-who-leave-microsoft"></a>Microsoft 如何撤销对离开 Microsoft 的员工的访问权限？
 

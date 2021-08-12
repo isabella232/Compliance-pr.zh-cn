@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 579e300213f15d6416b7c0c8f9d37668c9934faa
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 6683d038027ac940ec480af6baca58c7f6bae0d682b023e1bee4259344862019
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384732"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289360"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>保护云中个人数据的 ISO/IEC 27018 行为守则
 
@@ -82,8 +82,8 @@ Microsoft 和 ISO/IEC 27018
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **Office 365** | Access Online, Azure Active Directory, Azure 通信服务, 合规性管理器, 客户密码箱, Delve, Exchange Online Protection, Exchange Online, Forms, Griffin, 身份管理器, 密码箱 (Torus), Microsoft Defender for Office 365, Microsoft Teams, MyAnalytics, Office 365 高级合规版加载项, Office 365 客户门户, Office 365 微服务（包括但不限于 Kaizala、ObjectStore、Sway、PowerPoint Online Document Service、查询批注服务、学校数据同步、Siphon、语音、StaffHub、可扩展应用程序计划）, Office 365 安全与合规中心, Office Online, Office Pro Plus, Office 服务基础结构, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, Project Online, 使用客户密钥执行服务加密, SharePoint Online, Skype for Business, Stream |
-| **GCC** | Azure Active Directory, Azure 通信服务, 合规性管理器, Delve, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, MyAnalytics, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
-| **GCC 高级** | Azure Active Directory, Azure 通信服务, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **GCC** | Azure Active Directory、Azure 通信服务、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+| **GCC 高级** | Azure Active Directory、Azure 通信服务、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
 | **DoD** | Azure Active Directory, Azure 通信服务, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
 
 ### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告和证书

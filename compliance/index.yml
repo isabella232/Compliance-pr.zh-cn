@@ -42,8 +42,8 @@ highlightedContent:
       itemType: learn
       url: /learn/paths/compliance-discover/
 productDirectory:
-  title: 法规&行业合规性
-  summary: Microsoft 有关遵守行业领域和国际&标准和法规的指南。
+  title: 法规合规性
+  summary: 有关遵守国际和国内标准和法规的 Microsoft 指南。
   items:
     - title: 一般数据保护条例 (GDPR)
       imageSrc: /office/media/icons/compliance-blue.svg
@@ -53,10 +53,10 @@ productDirectory:
       imageSrc: /office/media/icons/globe-internet.svg
       summary: Microsoft 提供了一套全面的合规性产品/服务，可帮助你的组织遵守管理数据的收集和使用的国家、区域和行业特定要求。
       url: /compliance/regulatory/offering-home
-    - title: 适用于行业的 Microsoft 云
-      imageSrc: /office/media/icons/on-premises-blue.png
-      summary: 了解 Microsoft Azure、Dynamics 365、Microsoft 365 和 Microsoft Power Platform 如何支持行业合规性需求。
-      url: /industry/
+    - title: 法规合规性和Microsoft Azure
+      imageSrc: /media/logos/logo_azure.svg
+      summary: 了解法规合规性和Microsoft Azure。
+      url: /azure/compliance/
 conceptualContent:
   title: 服务保证
   summary: 首先了解 Microsoft 如何保护客户数据，开始进行安全和风险评估。
@@ -93,7 +93,7 @@ conceptualContent:
         - url: /compliance/assurance/assurance-encryption
           itemType: concept
           text: 加密和密钥管理概述
-    - title: 管控
+    - title: 治理
       links:
         - url: /learn/modules/audit-governance/
           itemType: learn
@@ -188,15 +188,24 @@ conceptualContent:
           text: 漏洞管理概述
 additionalContent:
   sections:
-    - title: Microsoft 联机服务中的合规性入门
-      summary: 如果你对合规性没有了解，并且想知道从何处开始使用 Microsoft 联机服务，本部分提供了指向每项服务的关键合规性区域的链接。
+    - title: 开始使用 Microsoft 365
+      summary: 如果你对合规性Microsoft 365，并且想知道从何处开始，本部分将提供指向关键解决方案的链接，并区分重要合规性领域的优先级。
       items:
-        - title: Microsoft Azure
-          summary: Azure 合规性提供了合规性产品/服务、蓝图、合规性指南和资源，可帮助你履行合规性义务。
-          url: /azure/compliance/
-        - title: Dynamics 365
-          summary: Business Central 包含功能，构建于一个平台中，便于客户遵守合规性和法规法规。
-          url: /dynamics365/business-central/compliance/compliance-overview
-        - title: Microsoft 365
-          summary: 如果你的组织需要遵守法律或法规标准，请从此处开始了解 Microsoft 365 中的合规性。
-          url: /microsoft-365/compliance/
+        - title: 了解合规性管理器
+          summary: 了解什么是合规性管理器，它如何有助于简化合规性和降低风险及其关键组件。
+          url: /microsoft-365/compliance/compliance-manager
+        - title: 管理预览体验计划风险
+          summary: 通过检测、调查和处理组织中恶意和无意的活动，最大程度地降低内部风险。
+          url: /microsoft-365/compliance/insider-risk-solution-overview
+        - title: 管理信息保护
+          summary: 使用 Microsoft 信息保护 (MIP) 可帮助你发现、分类和保护敏感信息（无论它身在何处或出差）。
+          url: /microsoft-365/compliance/protect-information
+        - title: 管理信息治理
+          summary: 使用 Microsoft 信息 (MIG) 管理数据，满足合规性或法规要求。
+          url: /microsoft-365/compliance/manage-information-governance
+        - title: 管理电子数据展示
+          summary: 使用电子数据展示在法律案件识别和分析内容作为证据。
+          url: /microsoft-365/compliance/ediscovery
+        - title: 为数据隐私法规部署信息保护
+          summary: 识别、查找、保护、治理和响应受数据隐私法规约束的 Microsoft 365 服务中存储的个人数据的数据隐私事件。
+          url: /microsoft-365/solutions/information-protection-deploy

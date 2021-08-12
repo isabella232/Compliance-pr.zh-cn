@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b761a9848e29b09fa46fdac822a545dc67be61f1
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 9df3b3f2d39ba28eb3d6b8ca9cdc293594dcc10f13aa17e7c08c85d41ab6ba0c
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384332"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288580"
 ---
 # <a name="us-section-508"></a>美国第 508 节
 
@@ -35,31 +35,31 @@ Microsoft 是美国联邦和州政府的主要软件和云服务提供商。  �
 
 Microsoft 在产品和服务开发中考虑美国第 508 节，它致力于使所有客户都可以访问技术和数据。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure 与 Azure 政府
 - Azure DevOps Services
 - Dynamics 365 和 Dynamics 365 美国政府
 - Intune
-- Office 365、Office 365美国政府Office 365美国国防队
+- Office 365、Office 365 U.S. Government、Office 365 U.S. Government Defense
 - Windows Server 2016
 
 ## <a name="office-365-and-us-section-508"></a>Office 365美国第 508 节
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **Office 365** | Access、Azure Active Directory、 Bookings、合规性管理器、Delve、Excel、Exchange Online、Forms、Kaizala、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 管理门户（适用于 Android 的 Office 365 管理门户、Office 365 管理门户、Office 365 高级合规版 加载项、Office 365 和 Azure AD 登录、Office 365 商业版 中心、Office 365 安全&合规中心，Office 365视频， Office 365 Web 套件、Office 配置工具、Office Lens、Office Online、Office Pro Plus、OneDrive for Business、OneDrive、OneNote、Outlook 组、Outlook、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、SharePoint、Skype for Business、StaffHub、Stream、微软待办、Visio、Word、Yammer  |
-| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规性中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
-| **GCC 高** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
-| **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online Skype for Business |
+| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+| **GCC 高级** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
+| **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online、Skype for Business |
 
 ### <a name="microsoft-accessibility-conformance-reports"></a>Microsoft 辅助功能一致性报告
 

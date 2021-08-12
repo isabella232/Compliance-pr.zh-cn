@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 0a178b23182427c0d202be38a9986c9e9069e1af2b71290a248c33aae19e0eaa
-ms.sourcegitcommit: 07b748b28a7815fb5824be0dea3edba29353361d
+ms.openlocfilehash: dc2a1a27994c1f3fc69f35b4b764ae80d3df7defd3b4d0dec97520de7760f815
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "57833879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288710"
 ---
 # <a name="data-classification--sensitivity-label-taxonomy"></a>数据分类&敏感度标签分类
 
@@ -40,9 +40,7 @@ ms.locfileid: "57833879"
 ## <a name="what-is-a-data-classification-framework"></a>什么是数据分类框架？
 
 数据分类框架（有时称为 ("数据分类策略") 通常由 3-5 个分类级别组成，通常编成企业范围的正式策略。 这些元素通常包括三个元素：名称、说明和实际示例。 Microsoft 建议不要超过五个顶级父标签，每个标签具有五个子标签 (25) ，以保持用户界面 (UI) 可管理。 级别通常从最低到最敏感（如 *公共*、内部、*机密* 和 *高度* 
- *机密）排列*。 你可能会遇到的其他级别名称变体包括 *Restricted、Unrestricted* 和 *Consumer Protected*。 Microsoft 建议使用自我描述性标签名称，并明确突出显示其相对敏感度。 例如 *，"机密*"和"受限"可能会让用户猜出哪个标签合适，而"机密"和"高度机密"更清楚地解释哪个标签更敏感。  
-
-下表显示了高度 *机密数据分类* 框架级别的示例：
+ *机密）排列*。 你可能会遇到的其他级别名称变体包括 *Restricted、Unrestricted* 和 *Consumer Protected*。 Microsoft 建议使用自我描述性标签名称，并明确突出显示其相对敏感度。 例如 *，"机密*"和"受限"可能会让用户猜出哪个标签合适，而"机密"和"高度机密"更清楚地解释哪个标签更敏感。  下表显示了数据分类框架级别的示例。
 
 |**分类级别**|**说明**|**示例**|
 |:-----------------------|:--------------|:-----------|

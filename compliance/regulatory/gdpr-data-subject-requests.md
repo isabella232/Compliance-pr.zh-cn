@@ -18,12 +18,12 @@ titleSuffix: Microsoft GDPR
 description: 了解如何使用 Microsoft 产品和服务，在一般数据保护条例 (GPDR) 和加州消费者隐私法案 (CCPA) 下完成 DSR。
 ms.custom: seo-marvel-mar2020
 hideEdit: true
-ms.openlocfilehash: 8e6b862de3e52b171d886613af8529c082bad56d
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 58bea55beae9d5d8d4b018812f68b07b2d356d3db9cdf49d04ef8523e4db0b5b
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289950"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>针对 GDPR 和 CCPA 的数据主体请求
 
@@ -50,7 +50,7 @@ ms.locfileid: "51496264"
 
 ## <a name="what-is-a-dsr"></a>什么是 DSR？
 
-一般数据保护条例 (GDPR) 赋予民众（在条例中称为“数据主体”）权利，即管理已由雇主或其他类型机构或组织（称为“数据控制者”或简称为“控制者”）收集的个人数据。 GDPR 赋予数据主体对其个人数据的特定权利；这些权利包括，获取个人数据副本、请求更改个人数据、限制个人数据处理、删除个人数据，或接收能转移给另一个控制者的电子格式个人数据。
+根据一般数据保护条例 (GDPR)，用户（在条例中称为“数据主体”）有权管理由雇主或其他类型机构或组织（称为“数据控制者”或简称为“控制者”）收集的个人数据。根据 GDPR，数据主体有权对自己的个人数据执行以下操作：获取个人数据副本、请求更改个人数据、限制个人数据处理、删除个人数据或接收电子格式的个人数据，以便于转移给其他控制者。
 
 加州消费者隐私法案 (CCPA) 规定了加州消费者的隐私权和义务，包括与 GDPR 的数据主体权利类似的权利，例如删除、访问和接收（可移植性）其个人信息的权利。  
 
@@ -81,7 +81,7 @@ Microsoft 生成的日志和相关数据可能包含，根据 GDPR 的“个人�
 
 ### <a name="yammer-and-kaizala"></a>Yammer 和 Kaizala
 
-删除用户的帐户不会删除 Yammer 和 Kaizala 的系统生成日志。 若要从这些应用程序中删除数据，请参阅以下资源之一：
+删除用户帐户将删除 Yammer 和 Kaizala 的系统生成日志。若要从这些应用程序中删除数据，请参阅以下资源之一：
 
 - [管理 Yammer Enterprise 中的 GDPR 数据主体请求](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
 - [导出或删除用户在 Kaizala 中的组织数据](/office365/kaizala/export-or-delete-a-user-s-data)

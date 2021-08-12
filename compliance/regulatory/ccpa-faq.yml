@@ -15,12 +15,12 @@ metadata:
   ms.collection:
   - M365-security-compliance
   - MS-Compliance
-  ms.openlocfilehash: 2c0cbda2280ee8fad77dd5d879341b291bbe3aa2
-  ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+  ms.openlocfilehash: 9ed5d5c7062dcdbd2b572b32b4a9ef082d46bc764dc9e46a195a6677d4623a0d
+  ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 06/25/2021
-  ms.locfileid: "53142275"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54290250"
 title: 加州消费者隐私法案 (CCPA) 常见问题解答
 summary: >
   > [!Note]
@@ -226,4 +226,4 @@ sections:
       2019 年 10 月，多项修正条款已通过并纳入到 CCPA 中。 一项修正条款明确指出，CCPA 义务不适用于公司员工的个人信息。 但是，立法者就该项例外设定了一年的自动废止期。 我们期待加利福尼亚州在 2020 年针对员工订立新的数据保护法案。  
   - question: >
       身为 Microsoft 客户，我是否需要对传输信息给 Microsoft 的行为实施“选择退出”控制措施？
-    answer: 否。 作为联机服务提供商，我们正在采取措施来确保我们符合 CCPA 下"服务提供商"的资格。 如上所述，准许将个人信息传输给服务提供商，即使在消费者已选择不传输的情况下也是如此。
+    answer: 不是。 作为联机服务提供商，我们正在采取措施来确保我们符合 CCPA 下"服务提供商"的资格。 如上所述，准许将个人信息传输给服务提供商，即使在消费者已选择不传输的情况下也是如此。

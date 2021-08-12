@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ef8f44309a8560341f456b3b2cace3b8038ae993
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 763f2f9d342692ea3cbed237b76fea841bd686487b61b22aad43ade42fec765f
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384852"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288680"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>健康信息信任联盟 (HITRUST) CSF (Common Security Framework) 
 
@@ -41,7 +41,7 @@ HITRUST 提供三种保证或评估级别：自我评估、CSF 验证和 CSF 认
 
 [下载 MICROSOFT AZURE HITRUST 客户责任矩阵 (CRM) 蓝图 v9.0d](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=3ccde498-4761-4be0-be8b-cd8d379a3a4f&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_Healthcare_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure 与 Azure 政府
 - Intune
@@ -54,19 +54,19 @@ HITRUST 提供三种保证或评估级别：自我评估、CSF 验证和 CSF 认
 
 ## <a name="office-365-and-hitrust"></a>Office 365 和 HITRUST
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **Office 365** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365审核、报告和证书
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
 
 该证书的 HITRUST CSF Office 365有效期为两年。
 

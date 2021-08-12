@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dc7fa7f7762d503097ef4bd6fd9ec948993ab10b
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 4da808976b7c9afd040417a0fe4025888f07a34bc43c03cb151410244bb437df
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287571"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>联邦金融机构检查委员会 (FFIEC) 
 
@@ -39,12 +39,12 @@ Microsoft Azure、Microsoft Power BI 和 Microsoft Office 365 专为满足为金
 
 为了进一步帮助您遵守 FFIEC 要求，Microsoft 云服务提供由独立 CPA 公司生成的 [SOC](offering-SOC.md) 证明报告。 例如，SOC 1 类型 2 证明基于 AICPA SSAE 18 标准 (请参阅取代 SAS 70 的 AT-C 第 105) 节，它适用于报告针对金融服务的某些控制措施。 SOC 报告包括审核员对 Microsoft 控制措施在指定的监视期间实现相关控制措施目标的有效性的意见。 金融机构在向部署在 Azure、Power BI 和 Office 365 上的资产履行 FFIEC 特定的合规性义务时，可以使用此正式Office 365。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure
 - Intune
 - Office 365、Office 365美国政府
-- Power BI云服务 (独立服务，也可以作为品牌计划或套件Office 365中包含的云服务) 
+- Power BI 云服务（作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供）
 
 ## <a name="azure-dynamics-365-and-ffiec"></a>Azure、Dynamics 365 和 FFIEC
 
@@ -52,20 +52,20 @@ Microsoft Azure、Microsoft Power BI 和 Microsoft Office 365 专为满足为金
 
 ## <a name="office-365-and-ffiec"></a>Office 365 和 FFIEC
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | Azure Active Directory、Azure 信息保护、预订、合规性管理器、Delve、Exchange Online、Exchange Online Protection、Forms、Kaizala、Microsoft Analytics、Microsoft Booking、Microsoft Defender for Office 365、Microsoft Graph、Microsoft Teams、Microsoft To-Do for Web、MyAnalytics、Office 365 高级合规版 加载项、Office 365 云应用安全、Office 365 组、Office 365 安全 & 合规性中心，Office 365视频、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、StaffHub、Stream、Sway、Yammer Enterprise |
-| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规性中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+| **Office 365** | Azure Active Directory, Azure 信息保护, Bookings, 合规性管理器, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender for Office 365, Microsoft Graph, Microsoft Teams, Microsoft 待办事项网页版, MyAnalytics, Office 365 高级合规版加载项, Office 365 Cloud App Security, Office 365 组, Office 365 安全与合规中心, Office 365 视频, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365审核、报告和证书
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
 
 请参阅Office 365 SOC 证明报告。
 

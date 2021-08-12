@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 中的数据销毁
-description: 有关回收、处置或销毁 Microsoft 365 数据中心磁盘驱动器和服务器的 Microsoft 策略概述。
+title: 数据销毁Microsoft 365
+description: 有关回收、处置或销毁数据中心磁盘驱动器和服务器的 microsoft Microsoft 365概述。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,22 +19,22 @@ f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 1b9d410422e22fe67cb27617ba16e2ddbbaec0fd
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: bf7769852a41e8f78724c64e9a189ba7652c8f95a4cb71db1d5a7c3d286892e5
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288700"
 ---
-# <a name="data-destruction-in-microsoft-365"></a>Microsoft 365 中的数据销毁
+# <a name="data-destruction-in-microsoft-365"></a>数据销毁Microsoft 365
 
 ## <a name="physical-data-destruction"></a>物理数据销毁
 
-Microsoft 具有处理磁盘驱动器和出现故障或停用服务器的回收和处置的标准策略。 在重新使用任何 Microsoft 365 磁盘驱动器之前，Microsoft 将执行符合美国国家标准和技术协会 800-88 专业出版物 800-88 ([NIST SP 800-88](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf) 媒体安全指南) 的物理) 。 由于 Microsoft 365 中所有磁盘驱动器都使用 BitLocker 卷级加密进行加密，因此从技术上说，不需要 NIST SP 800-88 兼容擦除。 尽管如此，Microsoft 仍执行此过程。
+Microsoft 具有处理磁盘驱动器和出现故障或停用服务器的回收和处置的标准策略。 在重新使用任何 Microsoft 365 磁盘驱动器之前，Microsoft 将执行与美国国家标准和技术协会 800-88 ([NIST SP 800-88 媒体安全指南 800-88](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)准则一致的物理) 。 由于所有磁盘驱动器Microsoft 365使用 BitLocker 卷级加密进行加密，因此从技术上说，不需要 NIST SP 800-88 兼容擦除。 尽管如此，Microsoft 仍执行此过程。
 
-Microsoft 365 数据中心内使用的故障磁盘通过 ISO 过程以物理方式销毁和审核。 资产类型确定适当的处置方式。 对于无法擦除的硬盘驱动器，Microsoft 使用销毁过程销毁媒体，使信息恢复不可能。 例如，磁盘被物理销毁、破坏或被放大。 Microsoft 保留所有销毁记录，并在 Microsoft 365 中重复使用的服务器上执行类似的删除过程。 这些指南涵盖电子和物理化。
+数据中心内使用的Microsoft 365磁盘通过 ISO 进程以物理方式销毁和审核。 资产类型确定适当的处置方式。 对于无法擦除的硬盘驱动器，Microsoft 使用销毁过程销毁媒体，使信息恢复不可能。 例如，磁盘被物理销毁、破坏或被放大。 Microsoft 保留销毁的所有记录，并在服务器内重复使用的服务器上执行类似的Microsoft 365。 这些指南涵盖电子和物理化。
 
-每个数据中心使用现场物理销毁过程处理其磁盘。 指定用于磁盘处置的存储媒体的安全箱位于数据中心的每个区域中。 每个安全回收站都有视频监控监控。 处置站达到大约 50% 的容量后，网站服务团队会联系物理安全团队以协调删除。 网站服务人员和安全办公室删除安全处置箱，将其放在指定的安全存储区域中。 在处置过程中管理数据承载设备的处理的策略和程序会定期进行测试，包括确保批准销毁的检测条件的过程。
+每个数据中心使用现场物理销毁过程处理其磁盘。 指定用于磁盘处置的存储媒体的安全箱位于数据中心的每个区域中。 每个安全回收站都有视频监控监控。 处置站达到大约 50% 的容量后，网站服务团队会联系物理安全团队以协调删除。 网站服务人员和安全Office安全处置站，将其放在指定的安全存储区域中。 在处置过程中管理数据承载设备的处理的策略和程序会定期进行测试，包括确保批准销毁的检测条件的过程。
 
 在数据销毁过程中，磁盘会以与 NIST 800-88 (兼容的方式擦除) 然后放入工业服务器，并实际擦除磁盘。 Microsoft 对使用 NIST SP 800-88 一致清理/清除、资产销毁、加密、准确的清单、跟踪和保护传输期间锁链的资产负责。 此过程通过封闭电路电视进行监视，并且完成时将颁发销毁证书。
 

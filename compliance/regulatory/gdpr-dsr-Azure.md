@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 48c8df230e3497c6176898226bb5b76de5d3b1e0
-ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+ms.openlocfilehash: 5540a941a9d246eabf37abcf0dd9fa12fd5e0df1b2d2ad70c058e341c14bb2b8
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53141533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289560"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>针对 GDPR 和 CCPA 的 Azure 数据主体请求
 

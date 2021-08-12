@@ -20,26 +20,26 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: bf17ec68648efbc5f149bad0671a4e035d27a307
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 953255f96acbc22349d9f00a83edff7d65106ec6360b42930fe5985fcb4df3f5
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291060"
 ---
 # <a name="governance-overview"></a>治理概述
 
 ## <a name="how-does-microsoft-provide-effective-security-governance-across-the-enterprise"></a>Microsoft 如何在整个企业内提供有效的安全治理？
 
-Microsoft 知道必须在企业内持续实施有效的安全策略，以保护 Microsoft 信息系统和客户。 安全策略还必须考虑业务功能和信息系统中的变体，以普遍适用。 为满足这些要求，Microsoft 实施了全面的安全治理计划，作为 Microsoft 策略框架的一部分。 安全治理属于 Microsoft 安全策略 (MSP) 。
+Microsoft 知道必须在企业内持续实施有效的安全策略，以保护 Microsoft 信息系统和客户。 安全策略还必须考虑到业务功能和信息系统中的变化才能做到普遍适用。 为满足这些要求，Microsoft 实施了全面的安全治理计划，作为 Microsoft 策略框架的一部分。 安全治理属于 Microsoft 安全策略 (MSP) 的一部分。
 
-MSP 组织 Microsoft 的安全策略、标准和要求，以便可以在所有 Microsoft 工程组和业务部门中实施它们。 各个业务部门负责特定实施 Microsoft 安全策略。 例如，Microsoft 365将安全实现记录在 Microsoft 365 安全策略和相关 Microsoft 365 框架中。 Azure 和 Dynamics 365 在标准操作程序 (SOP) Azure 控制框架中记录了其安全实现。 这些安全实现与 MSP 的目标一致。
+MSP 组织 Microsoft 的安全策略、标准和要求，以便可以在所有 Microsoft 工程组和业务部门中实现这些策略、标准和要求。 单个业务部门负责 Microsoft 安全策略的具体实现。 例如，Microsoft 365将安全实现记录在 Microsoft 365 安全策略和相关 Microsoft 365 框架中。 Azure 和 Dynamics 365 在标准操作程序 (SOP) Azure 控制框架中记录了其安全实现。 这些安全实现与 MSP 的目标一致。
 
 Microsoft 的安全治理计划由各种法规和合规性框架告知，并与这些框架保持一致。 安全要求在不断演变，以考虑新技术、法规和合规性要求以及安全威胁。 由于这些更改，Microsoft 会定期更新我们的安全策略和支持文档，以保护 Microsoft 系统和客户、履行我们的承诺并保持客户的信任。
 
 ## <a name="how-do-microsoft-online-services-implement-the-microsoft-security-policy-msp"></a>Microsoft 在线服务如何实施 Microsoft 安全策略 (MSP) ？
 
-Microsoft 365将安全实现记录在Microsoft 365安全策略中。 此策略与 Microsoft 安全策略一致，并管理 Microsoft 365 信息系统，包括所有 Microsoft 365 环境以及收集、处理、维护、使用、共享、传播和处置数据涉及的所有资源。 同样，Azure 和 Dynamics 365 使用 Microsoft 安全策略来管理其信息系统。
+Microsoft 365将安全实现记录在Microsoft 365安全策略中。 此策略遵循 Microsoft 安全策略并治理 Microsoft 365 信息系统，包括收集、处理、维护、使用、共享、传播和处置数据过程中涉及的所有 Microsoft 365 环境和所有资源。 同样，Azure 和 Dynamics 365 使用 Microsoft 安全策略来管理其信息系统。
 
 信息系统包括受 Microsoft 365 信息安全策略 (for Microsoft 365) 以及适用于 Azure 和 Dynamics 365 (的 Microsoft 安全策略) ：
 
@@ -49,11 +49,11 @@ Microsoft 365将安全实现记录在Microsoft 365安全策略中。 此策略�
 - 过程：Azure、Dynamics 365 和 Microsoft 365系统的操作所涉及的编程和手动过程
 - 数据：Azure、Dynamics 365 和 Microsoft 365 系统生成、收集和处理的信息 (流、文件、数据库和表) 
 
-Microsoft 365控制框架补充了Microsoft 365策略。 该Microsoft 365控制框架详细介绍了所有 Microsoft 365 服务和信息系统组件的最低安全要求。 它还引用每个控件背后的法律和公司要求。 该框架包括控件活动名称、说明和指南，以确保服务团队实施有效的控制。 Microsoft 365控件框架跟踪内部和外部报告的控件实现。 同样，Azure 控件框架中的 Azure 和 Dynamics 365 记录控制实现。
+Microsoft 365 信息安全策略由 Microsoft 365 控制框架补充。 该Microsoft 365控制框架详细介绍了所有 Microsoft 365 服务和信息系统组件的最低安全要求。 它还引用每个控件背后的法律和公司要求。 该框架包含控制活动名称、说明以及指南，以确保服务团队高效实施控制。 Microsoft 365控件框架跟踪内部和外部报告的控件实现。 同样，Azure 控件框架中的 Azure 和 Dynamics 365 记录控制实现。
 
 ## <a name="how-do-online-services-limit-and-track-exceptions-to-established-policies-and-procedures"></a>联机服务如何限制和跟踪已制定的策略和程序的例外？
 
-控制框架的所有例外情况都必须具有合法的业务理由，并经每个联机服务团队中的相应治理实体批准。 根据例外范围和它所代表的潜在风险，可能需要从公司副总裁或更高级别获得例外批准。 在跟踪工具中管理例外，在跟踪工具中审阅和批准它们，以继续相关性。
+控制框架的所有例外情况都必须具有合法的业务理由，并经每个联机服务团队中的相应治理实体批准。 根据异常的范围及其代表的潜在风险，可能需要获得公司副总裁或更高层对异常的批准。 在跟踪工具中管理例外，在跟踪工具中审阅和批准它们，以继续相关性。
 
 ## <a name="how-do-online-services-keep-security-and-compliance-requirements-updated"></a>联机服务如何保持安全性和合规性要求更新？
 

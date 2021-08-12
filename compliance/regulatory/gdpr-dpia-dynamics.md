@@ -18,12 +18,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 40e756f8f359189825a1474a9d8531a9a3d5891e
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 2fbe694f2dc16560a04ea2ffb96253024ebdce1835cd05d4586bec016522e96f
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288261"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-dynamics-365"></a>数据保护影响评估：使用 Dynamics 365 的数据控制者指南
 
@@ -32,7 +32,7 @@ ms.locfileid: "53377759"
 此文档的目的是为数据控制者提供 Dynamics 365 的相关信息，帮助他们确定是否需要 DPIA 以及要包含的详细信息。
 
 >[!Note]
->Microsoft 未在本文中提供任何法律建议。 本文仅供参考。 我们鼓励客户与其隐私官（和/或指定的数据保护官 (DPO)）以及/或法律顾问合作，以确定与使用 Microsoft Azure 或任何其他 Microsoft 联机服务相关的任何 DPIA 的必要性和内容。
+>Microsoft 未在本文中提供任何法律建议。本文仅供参考。建议客户与其隐私官（和/或指定的数据保护官 (DPO)）和/或法律顾问和/或顾问合作，以确定与使用 Microsoft Azure 或任何其他 Microsoft 联机服务相关的任何 DIA 的必要性和内容。Microsoft 在本文中不提供任何法律建议。
 
 ## <a name="part-1-determining-whether-a-dpia-is-needed"></a>第 1 部分：确定是否需要 DPIA
 

@@ -18,12 +18,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 838f6bfbae65770071cfa1e07e668bb6641e89a8
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: d30214f68911553b0e835e072e02233428bf296bc4927c7c0e49fb04718a9282
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088961"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289880"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-professional-services"></a>数据保护影响评估：使用 Microsoft 专业服务的数据控制者指南
 

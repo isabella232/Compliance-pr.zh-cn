@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 494acc364123c32d409a64324715bcc27e81e7a8
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 11af1e745978358d401502da853640e8bd707249aa827fe30b62813ef44b99d2
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385272"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287691"
 ---
 # <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>国防联邦购置条例补充 (DFARS) 
 
@@ -35,7 +35,7 @@ ms.locfileid: "53385272"
 
 Microsoft 政府云服务可帮助美国国防工业基础和国防承包商客户满足 DFARS 要求，如适用于云服务提供商的 252.204-7012 的 DFARS 条款所枚举。 当国防承包商必须遵守合同中的 DFARS 条款 252.204-7012 时，Microsoft 可以支持适用于 Azure 政府版和 Office 365 美国政府国防版服务的云服务提供商的要求。 这两项服务均证明支持客户通过向美国国防部安全要求指南的 L5 资格鉴定来遵守 DFARS 7012 条款所需的功能。  
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台&服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
 
 DoD 影响级别 5 的涵盖服务
 
@@ -48,21 +48,21 @@ DoD 影响级别 5 的涵盖服务
 
 ## <a name="office-365-and-dfars"></a>Office 365 和 DFARS
 
-### <a name="office-365-cloud-environments"></a>Office 365云环境
+### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365适用性和范围内服务
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 适用性和范围内的服务
 
-使用下表确定您的 Office 365 服务和订阅的适用性：
+使用下表确定 Office 365 服务和订阅的适用性：
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规性中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
-| **GCC 高** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
-| **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online Skype for Business |
+| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
+| **GCC 高级** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
+| **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online、Skype for Business |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365审核、报告和证书
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告和证书
 
 - [Microsoft 云服务授权](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
 - [查看其他审核报告](https://aka.ms/auditreports)

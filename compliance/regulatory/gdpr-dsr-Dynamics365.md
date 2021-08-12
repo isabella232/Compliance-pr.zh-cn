@@ -19,12 +19,12 @@ hideEdit: true
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 2fff7a2ffb6dc48e43c8a514609f0f584cb60db1
-ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+ms.openlocfilehash: 5eab26177887632291a24bf7b6195b68b339bb103b785aae68f3b7fc659eb373
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53141473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289390"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Dynamics 365 数据主体请求
 
@@ -34,10 +34,10 @@ ms.locfileid: "53141473"
 
 本指南讨论了如何使用 Microsoft 的产品、服务和管理工具帮助我们的控制者客户查找和操作个人数据以响应 DSR 请求。具体而言，这包括如何查找、访问和操作驻留在 Microsoft 云中的个人数据。下面是本指南中所列流程的快速概述：
 
-- **发现：** 使用搜索和发现工具更轻松地查找可能是 DSR 请求主体的客户数据。 收集了潜在的响应性文档后，你便可以执行下列步骤中所述的一项或多项 DSR 操作来响应请求。 或者，可以确定请求不符合组织用于响应 DSR 请求的指导原则。
+- **发现：** 使用搜索和发现工具更轻松地查找可能是 DSR 请求主体的客户数据。一旦收集了潜在响应文档，则可以执行一个或多个下列步骤中所述的 DSR 操作来响应请求。或者，你可能会确定请求不符合组织有关响应 DSR 请求的指导原则。
 - **访问：** 检索驻留在 Microsoft 云中的个人数据，如果提出请求，还制作可供数据主体使用的个人数据副本。
 - **纠正：** 进行更改或者对个人数据实施其他请求的操作（如果适用）。
-- **限制：** 通过移除各种在线服务的许可证，或者在可能的情况下关闭所需的服务，限制对个人数据的处理。 你可以
+- **限制：** 通过移除各种在线服务的许可证，或者在可能的情况下关闭所需的服务，限制对个人数据的处理。
 - **删除：** 永久移除驻留在 Microsoft 云中的个人数据。
 - **导出/接收（可移植性）：** 向数据主体提供个人数据或个人信息的电子副本（采用机器可读格式）。 根据 CCPA 的定义，个人信息是指与已识别或可识别人员相关的任何信息。 个人的私人、公共或工作角色之间没有任何区别。 所定义的“个人信息”术语与 GDPR 下的“个人信息”一致。 但是，CCPA 还包括家人和家庭数据。 有关 CCPA 的详细信息，请参阅[加州消费者隐私法案](offering-ccpa.md)和[加州消费者隐私法案常见问题解答](ccpa-faq.yml)。
 
@@ -50,8 +50,8 @@ ms.locfileid: "53141473"
 - **控制者：** 单独或与其他人一起确定个人数据处理的用途和途径的自然人或法人、公共机构、机关或其他实体；如果欧盟或成员国法律确定了此类处理的用途和途径，欧盟或成员国法律可能会规定控制者或具体提名条件。
 - **个人数据和数据主体：** 身份已识别或可识别的自然人（“数据主体”）的任何相关信息；身份可识别的自然人是指可被直接或间接识别的自然人，尤其是通过参考姓名、证件号码、位置数据、联机标识符等标识，或通过参考特定于该自然人的身体、生理、基因、精神、经济、文化或社会标识的一个或多个因素进行识别。
 - **处理者：** 代表控制者处理个人数据的自然人或法人、公共机构、机关或其他主体。
-- **客户数据：** 客户或代表客户通过使用企业服务提供给 Microsoft 的所有数据，包括所有文字、声音、视频或图像文件以及软件。 客户数据包括 (1) 最终用户的身份信息（例如，Azure Active Directory 中的用户名和联系人信息）和客户上传到特定服务或者在特定服务中创建的客户内容（例如，Azure 存储帐户中的客户内容，Azure SQL 数据库的客户内容，或 Azure 虚拟机中的客户虚拟机映像）。
-- **系统生成日志：** Microsoft 生成的日志和相关数据，可帮助 Microsoft 向用户提供企业服务。 系统生成日志主要包括化名数据，例如唯一标识符 — 这通常是系统生成的无法单独识别个人但用于向用户提供企业服务的一个数字。 系统生成日志还可能包含最终用户的身份信息，例如用户名。
+- **客户数据：** 客户或代表客户通过使用企业服务提供给 Microsoft 的所有数据，包括所有文本、声音、视频或图像文件以及软件。客户数据包括（1）最终用户的身份信息（例如，Azure Active Directory 中的用户名和联系信息）和客户上传到特定服务或者在特定服务中创建的客户内容（例如，Azure 存储帐户中的客户内容，Azure SQL 数据库的客户内容，或 Azure 虚拟机中的客户虚拟机映像）。
+- **系统生成日志：** Microsoft 生成的日志和相关数据，可帮助 Microsoft 向用户提供企业服务。系统生成日志主要包括化名数据，例如唯一标识符，这通常是系统生成的无法单独识别个人但用于向用户提供企业服务的一个数字。系统生成日志还可能包含有关最终用户的身份信息，例如用户名。
 
 ## <a name="how-this-guide-can-help-you-meet-your-controller-responsibilities"></a>本指南将如何帮助你履行控制者职责
 
@@ -85,7 +85,7 @@ Dynamics 365 是一个提供多项数据处理功能的联机服务，采用软�
 
 Microsoft 提供了一些功能，可帮助你响应数据主体权利请求，从而访问客户数据。但是，你需要负责确保找到个人数据并适当分类。
 
-***Dynamics 365 for Customer Engagement*** 提供了多种方法在记录中搜索个人数据：高级查找搜索、搜索记录。 所有这些功能都可以用来识别（查找）个人数据。
+***Dynamics 365 for Customer Engagement*** 提供了多种方法供你在记录中搜索个人数据，例如：高级查找搜索和搜索记录。这些函数都使你能够识别（查找）个人数据。
 
 - [高级查找搜索](/dynamics365/customer-engagement/basics/save-advanced-find-search)
 - [搜索记录](/dynamics365/customer-engagement/basics/search-records)，跨多个记录类型
@@ -97,7 +97,7 @@ Microsoft 提供了一些功能，可帮助你响应数据主体权利请求，�
 
 ***Dynamics 365 Customer Service Insights*** 提供了一系列资源，可帮助你 [查找客户数据](/dynamics365/ai/customer-service-insights/gdpr-discovery)，以响应客户的 GDPR 请求。
 
-***Dynamics 365 for Finance and Operations*** 提供了几种搜索客户数据的方法。 你作为租户管理员，可以执行以下操作来搜索客户数据：
+***Dynamics 365 for Finance and Operations*** 提供了多种方法来搜索客户数据。你作为租户管理员可以执行以下操作来搜索客户数据：
 
 - 按照用于快速发现个人数据的方式整理客户数据，请参阅[如何分类数据库存](/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#detailed-inventory)完成此操作。
 - 使用[人员搜索报告](/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#the-person-search-report)查找并收集个人数据。
@@ -106,7 +106,7 @@ Microsoft 提供了一些功能，可帮助你响应数据主体权利请求，�
 - 创建用于定位和导出个人数据的自定义表单。
 - 创建允许经过身份验证的客户查看其个人数据的外部门户或网站。
 
-***Dynamics 365 Business Central*** 提供了几种搜索客户数据的方法。 有关详细信息，请参阅[对数据进行搜索、筛选和排序](/dynamics365/business-central/ui-enter-criteria-filters)。
+***Dynamics 365 Business Central*** 提供了多种方法来搜索客户数据。有关详细信息，请参阅 [搜索、筛选和排序数据](/dynamics365/business-central/ui-enter-criteria-filters)。
 
 ***Dynamics 365 for Talent*** 提供了高级搜索和筛选功能来查找特定个人数据，并提供了 Microsoft Office 导出功能导出该信息或使用浏览器扩展将该信息打印到 .pdf。
 
@@ -115,13 +115,13 @@ Microsoft 提供了一些功能，可帮助你响应数据主体权利请求，�
 
 ### <a name="providing-a-copy-of-customer-data"></a>提供客户数据副本
 
-可使用全面的实体导出功能导出 ***Dynamics 365 for Customer Engagement*** 中的客户数据。 客户数据可以导出到静态的 Excel 文件以促进数据移植请求。 然后，使用 Excel，可以编辑要包含在移植请求中的个人数据，然后另存为常用的机器可读格式，例如 .csv 或 .xml。 可通过[公共数据服务 Web API](/powerapps/developer/common-data-service/webapi/overview) 导出 Dynamics 365 for Customer Engagement 记录。
+可以使用综合实体导出功能导出 ***Dynamics 365 for Customer Engagement*** 中的客户数据。客户数据可以导出到静态 Excel 文件，以便于进行数据可移植性请求。然后，可以使用 Excel 编辑要包含在可移植性请求中的个人数据，然后另存为常用的计算机可读格式，如 .csv 或 .xml。Dynamics 365 for Customer Engagement 记录也可以通过 [Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview)导出。
 
 此外，在 Dynamics 365 for Marketing 中，提供了一个[专用 API](/dynamics365/customer-engagement/marketing/developer/retrieve-interactions-contact)，让客户能够建立扩展以检索所捕获的可能包含个人数据的客户交互的其他记录。该 API 从后端系统加载所有相关信息并将其汇总到单个可移植文档中。
 
 ***Dynamics 365 Customer Service Insights*** 允许你使用数据导出功能 [提供客户数据的副本](/dynamics365/ai/customer-service-insights/gdpr-export)。
 
-可使用全面的实体导出功能导出 ***Dynamics 365 for Finance and Operations** _ 中的客户数据。 通过使用 [数据管理和集成实体*](/dynamics365/unified-operations/dev-itpro/data-entities/data-management-integration-data-entity)，租户管理员可利用提供的实体、创建新实体或扩展现有实体，以使用 [*数据导入和导出作业*](/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job)将个人数据重复导出到 Excel 或各种其他常用格式。  或者，可以将许多列表导出到静态 Excel 文件以促进数据移植请求。 将客户数据导出到 Excel 后，可以编辑要包含在移植请求中的个人数据，然后将该文件另存为常用的机器可读格式，例如 .csv 或 .xml。 你还可以考虑使用 *人员搜索报告* 为数据主体提供已分类为个人数据的数据。
+***Dynamics 365 for Finance and Operations** _ 中的客户数据可以使用综合实体导出功能导出。使用 [_Data管理和集成实体*](/dynamics365/unified-operations/dev-itpro/data-entities/data-management-integration-data-entity)，租户管理员可以利用提供的实体，创建新的或扩展现有实体，以便将可重复的个人数据导出到 Excel 或使用 [*数据导入和导出作业*](/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job)的许多其他通用格式。 或者，许多列表可以导出到静态 Excel 文件，以方便数据可移植性请求。将客户数据导出到 Excel 后，可以编辑要包含在可移植性请求中的个人数据，然后将文件另存为常用的计算机可读格式，如 .csv 或 .xml。还可以考虑使用 *人员搜索报告* 向数据主体提供归类为个人数据的数据。
 
 在 ***Dynamics 365 Business Central*** 中，可使用两种功能向数据主体提供客户数据副本：
 
@@ -170,7 +170,7 @@ Microsoft 提供了一些功能，可帮助你响应数据主体权利请求，�
 - 批量编辑多个 Dynamics 365 记录，你可以利用 Microsoft Office 加载项将数据导出到 Microsoft Excel，进行更改，然后将修改过的数据从 Excel 导入回联机服务。
 - 你可以通过查找想要删除的数据然后手动删除包含目标客户数据的数据元素，删除存储在任何字段中的客户数据，例如对表示数据主体的联系人记录和包含个人数据的其他记录使用硬性删除。
 
-此外，在 Dynamics 365 for Marketing 中，删除联系人将确保也移除包含个人信息的交互数据。对于任何自定义字段或实体，必须自定义你的系统，以确保将所有客户数据从相关记录删除和/或取消与联系人数据的链接，以便移除所有个人信息。详细信息：[《开发人员指南（市场营销）》](/dynamics365/customer-engagement/marketing/developer/marketing-developer-guide)。
+此外，对于 Dynamics 365 Marketing，删除联系人可确保删除具有个人信息的出站营销交互数据。 对于任何自定义字段或实体，必须自定义你的系统，以确保将所有客户数据从相关记录删除和/或取消与联系人数据的链接，以便移除所有个人信息。 使用实时营销模块的客户还应提交支持票证，并询问其删除请求，以便删除所有实时交互数据。 有关详细信息，请参阅 [开发人员指南（市场营销）](/dynamics365/customer-engagement/marketing/developer/marketing-developer-guide)。
 
 ***Dynamics 365 Customer Service Insights*** 还为组织提供了用于 [删除客户数据](/dynamics365/ai/customer-service-insights/gdpr-delete)的功能。
 
@@ -193,7 +193,7 @@ Microsoft 提供了一些功能，可帮助你响应数据主体权利请求，�
 
 对于 ***Dynamics 365 Customer Service Insights***，你可以通过 Azure 管理门户来 [导出客户数据](/dynamics365/ai/customer-service-insights/gdpr-export)。
 
-***Dynamics 365 for Finance and Operations*** 提供了数据管理和集成实体，可用于启用提供的实体、新创建的实体或扩展的实体，以使用 [数据导入和导出作业](/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job)将个人数据重复导出到 Excel 或各种其他常用格式。  或者，可以将许多列表导出到静态 Excel 文件以促进数据移植请求。 将客户数据以这种方式导出到 Excel 后，你可以编辑要包括在移植请求中的个人数据，然后将该文件另存为常用的机器可读格式，例如 .csv 或 .xml。
+***Dynamics 365 for Finance and Operations*** 提供 [数据管理和集成实体，这些实体允许为可重复的个人数据导出到 Excel 的实体、新创建的实体或扩展实体，或使用 [数据导入和导出作业](/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job)的其他一些常用格式。 或者，许多列表可以导出到静态 Excel 文件，以方便数据可移植性请求。以这种方式将客户数据导出到 Excel 时，可以编辑要包含在可移植性请求中的个人数据，然后将文件另存为常用的计算机可读格式，如 .csv 或 .xml。
 
 Dynamics 365 for Finance and Operations 和 ***Dynamics 365 for Talent*** 都提供了人员搜索报告，可为数据主体提供已分类为个人数据的数据。
 

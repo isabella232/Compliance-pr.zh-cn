@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 21408643bcdb3effc0a8630d3f4da54a42281f44
-ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
+ms.openlocfilehash: 8909d2c3029050a18f3f37862f7dd342696b1fc0f92c5e8bb03aa190f03f2c25
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53573750"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290551"
 ---
 # <a name="microsoft-365-risk-management-program"></a>Microsoft 365风险管理计划
 
@@ -61,15 +61,15 @@ Microsoft 365信任团队负责管理 Microsoft 365 风险管理计划，以及�
 
 通过使用已验证的风险列表Microsoft 365，信任团队将风险分配给受影响的服务，以响应风险。 定义的准则有助于根据风险评分和控制有效性确定适当的风险响应策略。 风险响应策略分为四类：
 
-- 允许：具有较低控制级别的低风险暴露区域。
-- 操作：控制措施被认为是足够的低风险暴露区域。
-- 监视：控制措施被认为是足够的高风险暴露区域，应监控这些区域的有效性。
+- 容许： 低风险暴露领域，具有较低的控制级别。
+- 操作：低风险暴露领域，应采取适当控制。
+- 监测：高风险暴露领域，应采取适当控制，并监测其有效性。
 - 改进：具有较低控制级别的高风险暴露领域是解决首要问题。
 
 信任团队与服务团队进行协调，以制定解决每个风险的计划。 严重性级别确定每个计划的适当审阅和审批级别。 对于需要操作的风险，现有工程 Bug 流程用于跟踪、管理和做出异常决策。 使用工程团队和运营团队熟悉的流程可以使风险响应更加高效和有效。
 
 ## <a name="monitoring-and-reporting"></a>监视和报告
 
-识别为风险评估一部分的风险将受监控并报告给相关利益干系人。 监视策略包括安全监视、定期风险评审、渗透测试和漏洞扫描。 这些监视工作充当报告关键绩效指标、创建仪表板和开发正式报告的数据源，所有这些报告都为将来的风险决策提供信息。
+对风险评估中确定的风险进行监控，并向相关利益干系人报告。 监视策略包括安全监视、定期风险评审、渗透测试和漏洞扫描。 这些监视工作充当报告关键绩效指标、创建仪表板和开发正式报告的数据源，所有这些报告都为将来的风险决策提供信息。
 
 信任团队每年与每项服务的风险所有者会面，以审核风险评分、评估其行动计划的有效性，并根据需要进行更新。 此外，Microsoft 365的风险评估活动对 ERM 计划的 Enterprise 风险评估做出贡献，从而向 Microsoft 高层管理人员和 ERM 计划提供 Microsoft 风险状况的高级概述。
