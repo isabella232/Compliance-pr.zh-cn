@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 04fcc05bcde30bb3ecd6e33336789839cb5a6e404e650d16875692cea38bb7b5
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 36d8bd6a0fa27056188b48fef4e1cc8d6e123372
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287921"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58261109"
 ---
 # <a name="title-23-nycrr-part-500"></a>Title 23 NYCRR 500 部分
 
@@ -67,7 +67,7 @@ Microsoft 为受到 Title 23 NYCRR 500 部分监管的金融服务提供了综�
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | Exchange Online Protection， Exchange Online， Office 365 客户门户， Office Online， Office 服务基础结构， OneDrive for Business， SharePoint Online， Skype for Business |
+| **商业** | Exchange Online Protection， Exchange Online， Office 365 客户门户， Office Online， Office 服务基础结构， OneDrive for Business， SharePoint Online， Skype for Business |
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

@@ -17,8 +17,8 @@ metadata:
   ms.date: 11/30/2020
   localization_priority: Normal
 conceptualContent:
-  title: Microsoft 合规性产品/服务
-  summary: 有关 Microsoft 365、Azure、Dynamics 365、Power Platform 和其他服务的信息，以帮助制定有关数据收集和使用的国家、区域和行业特定法规。
+  title: Azure、Dynamics 365 和 Microsoft 365合规性产品/服务
+  summary: Azure、Dynamics 365、Microsoft 365 和 Power Platform 以及其他服务的信息，可帮助制定有关数据收集和使用的国家、区域和行业特定法规。
   items:
     - title: 全球
       links:
@@ -46,7 +46,7 @@ conceptualContent:
         - url: offering-ISO-27017.md
           itemType: reference
           text: ISO 27017
-    - title: 全球
+    - title: 全局
       links:
         - url: offering-ISO-27018.md
           itemType: reference
@@ -163,7 +163,7 @@ conceptualContent:
           text: FINMA（瑞士）
         - url: offering-finra-4511.md
           itemType: reference
-          text: FINRA 4511
+          text: 'FINRA 4511 (美国) '
         - url: offering-fisc-japan.md
           itemType: reference
           text: FISC（日本）
@@ -172,7 +172,7 @@ conceptualContent:
           text: FSA（丹麦）
         - url: offering-glba.md
           itemType: reference
-          text: GLBA
+          text: 'GLBA (US) '
         - url: /azure/compliance/offerings/offering-gsma
           itemType: reference
           text: GSMA
@@ -185,11 +185,11 @@ conceptualContent:
         - url: offering-hipaa-hitech.md
           itemType: reference
           text: HIPAA/HITECH
+    - title: 行业
+      links:
         - url: offering-hitrust.md
           itemType: reference
           text: HITRUST
-    - title: 行业
-      links:
         - url: offering-knf-poland.md
           itemType: reference
           text: KNF（波兰）
@@ -220,11 +220,11 @@ conceptualContent:
         - url: offering-PCI-DSS.md
           itemType: reference
           text: PCI-DSS
+    - title: 行业
+      links:
         - url: offering-rbi-irdai-india.md
           itemType: reference
           text: RBI + IRDAI（印度）
-    - title: 行业
-      links:
         - url: offering-sec-17a-4.md
           itemType: reference
           text: SEC 17a-4
@@ -239,7 +239,7 @@ conceptualContent:
           text: SOX
         - url: /azure/compliance/offerings/offering-tisax
           itemType: reference
-          text: TISAX（德国）
+          text: TISAX
         - url: offering-trusight.md
           itemType: reference
           text: TruSight

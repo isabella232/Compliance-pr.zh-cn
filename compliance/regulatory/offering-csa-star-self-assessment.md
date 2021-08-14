@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7550d81794162ace15441360a3175c0efcf03ddaf1fb94ccc27e683b8077a110
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 2e3864912d214e6649425c9434e346a01d20c87e
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288211"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260508"
 ---
 # <a name="cloud-security-alliance-csa-star-self-assessment"></a>云安全联盟 (CSA) STAR 自我评估
 
@@ -66,7 +66,7 @@ STAR 提供三种级别的保障；CSA-STAR 自我评估是第 1 级别的入门
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** |Exchange Online, Exchange Online Protection, Office 365 客户门户, Office Online, Office 服务基础结构, OneDrive for Business, SharePoint Online, Skype for Business |
+| **商业** |Exchange Online, Exchange Online Protection, Office 365 客户门户, Office Online, Office 服务基础结构, OneDrive for Business, SharePoint Online, Skype for Business |
 
 ### <a name="frequently-asked-questions"></a>常见问题解答
 

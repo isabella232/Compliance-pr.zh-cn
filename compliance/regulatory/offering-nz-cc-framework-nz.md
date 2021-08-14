@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c333fc2d6bdb9889dafefd2571b8381edd15e5158a4783aa7a17cec7ce1bcc7c
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: f135cf64356a55ba3ed6c0010e8273d2854c005e
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293379"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58259811"
 ---
 # <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>新西兰政府信息安全和隐私注意事项 (ISPC) 
 
 ## <a name="new-zealand-government-information-security-and-privacy-considerations-overview"></a>新西兰政府信息安全和隐私注意事项概述
 
-2015 年 10 月，新西兰政府修订了一项政府性 ICT 策略，其"云第一"策略将在整个公共部门使用信息技术。 修订后的策略保留了在 NZ 政府首席信息官和 GCIO (下制定和实施的"云计算风险和保障) 。
+2015 年 10 月，新西兰政府修订了一项政府性 ICT 策略，其"云第一"策略将在整个公共部门使用信息技术。 修订后的策略保留了在 NZ 政府首席信息官 (GCIO) 下制定和实施的"云计算风险和保障框架"。
 
 政府希望所有新西兰 State Service 机构在评估和采用云服务时都在此框架内工作。 "云计算要求"概述了采用云服务时机构必须执行哪些工作，并概述了政府云策略的历史记录。
 
@@ -35,7 +35,7 @@ ms.locfileid: "54293379"
 
 ## <a name="microsoft-and-new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Microsoft 和新西兰政府云计算安全和隐私注意事项
 
-为了帮助机构对 Microsoft 企业云服务进行分析和评估，Microsoft 新西兰已经制作了一些文档，这些文档显示其企业云服务如何解决"云计算 ISPC"中的问题，将它们链接到 Microsoft 云服务的认证标准。 这些认证对于 Microsoft 如何向公共和私有行业客户保证其云服务已经设计、构建和运行，以有效缓解隐私和安全风险以及解决数据危害问题，这一点十分中心。 客户 [可下载对云计算 ISPC](https://azure.microsoft.com/resources/microsoft-azure-response-to-nz-gcio-cloud-computing-information-security-privacy-considerations/) 的 Azure 响应。
+为了帮助机构对 Microsoft 企业云服务进行分析和评估，Microsoft 新西兰已经制作了一些文档，通过将其链接到 Microsoft 云服务的认证标准，展示其企业云服务如何处理"云计算 ISPC"中的问题。 这些认证对于 Microsoft 如何向公共和私有行业客户保证其云服务已经设计、构建和运行，以有效缓解隐私和安全风险以及解决数据危害问题，这一点十分中心。 客户 [可下载对云计算 ISPC](https://azure.microsoft.com/resources/microsoft-azure-response-to-nz-gcio-cloud-computing-information-security-privacy-considerations/) 的 Azure 响应。
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
@@ -57,10 +57,10 @@ ms.locfileid: "54293379"
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | Exchange Online、SharePoint Online、Skype for Business |
+| **商业** | Exchange Online、SharePoint Online、Skype for Business |
 
 >[!Note]
->Microsoft NZ 与 GCIO 团队合作，共同开发集成 Exchange Online 和 SEEMail（如 Office 365：SEEMail 集成和参考体系结构中所述）的参考体系结构。
+>Microsoft NZ 与 GCIO 团队合作，共同开发集成 Exchange Online 和 SEEMail 的参考体系结构Office 365：SEEMail 集成和参考体系结构。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

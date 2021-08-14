@@ -1,6 +1,6 @@
 ---
 title: 格雷姆-里奇-比利雷法案 (GLBA)
-description: Microsoft 帮助金融服务客户遵守 GLBA 法规的格雷姆-格雷姆-格雷姆 (安全) 。
+description: Microsoft 帮助金融服务客户遵守 GLBA 法规中《格雷姆-格雷姆 (隐私和安全) 。
 keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,24 +16,24 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3765100048d7f17afc27781775487574c6f5219d72e246c4670ccbe91f91f307
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 7d4e4066704e15354113709e480455db2c1c48a1
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293489"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58259801"
 ---
 # <a name="gramm-leach-bliley-act-glba"></a>格雷姆-里奇-比利雷法案 (GLBA)
 
 ## <a name="glba-overview"></a>GLBA 概述
 
-GlBA (-Bliley Act (GLBA) 是一项美国法律，对金融服务行业进行变革，允许商业和金融机构、证券交易商和保险公司整合并解决有关保护消费者隐私的问题。 它要求联邦 (FTC) 和其他金融服务监管机构实施法规，以解决金融隐私条例和保护措施规则等隐私条款。 保护敏感消费者数据的 GLBA 要求适用于向消费者提供财务产品和服务的金融机构，如贷款、投资建议和保险。 FTC 负责强制执行合规性。
+GlBA) 是一项美国法律 (，对金融服务行业进行监管，允许商业和金融机构、证券交易商和保险公司进行整合，并解决有关保护消费者隐私的问题。 它要求联邦 (FTC) 和其他金融服务监管机构实施法规，以解决金融隐私条例和保护措施规则等隐私条款。 保护敏感消费者数据的 GLBA 要求适用于向消费者提供财务产品和服务的金融机构，如贷款、投资建议和保险。 FTC 负责强制执行合规性。
 
 ## <a name="microsoft-and-glba"></a>Microsoft 和 GLBA
 
-Microsoft Azure、Microsoft Office 365、Dynamics 365 和 Microsoft Power BI 可以帮助满足为金融服务机构提供云服务的严格要求。 作为支持的一部分，我们通过提供技术和组织安全措施来帮助维护安全性和防止未经授权的使用，提供指南来帮助你遵守 GLBA 的要求。
+Microsoft Azure、Microsoft Office 365、Dynamics 365 和 Microsoft Power BI 可以帮助满足为金融服务机构提供云服务的严格要求。 作为支持的一部分，我们通过提供技术和组织安全措施来帮助维护安全性和防止未经授权的使用，来指导你遵守 GLBA 的要求。
 
-Microsoft 已针对[Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)和 Office 365[](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)开发风险评估工具，帮助你更有效地对 Azure 和 Office 365 服务进行风险评估。 该工具 (Excel 电子表格) 具有多个信息安全域 (例如用于跟踪金融服务法规和其他相关标准的要求的安全策略和风险管理) ，其中包括 Azure 电子表格的 R 列中的 GLBA (和 Office 365 电子表格) 中的 Q 列。 这些工具介绍了 Azure 和 Office 365如何遵守适用于云服务提供商的每个要求，并可帮助你满足 GLBA 安全要求。
+Microsoft 已针对[Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)和 Office 365[](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)开发风险评估工具，帮助你更有效地对 Azure 和 Office 365 服务进行风险评估。 该工具 (Excel 电子表格) 具有多个信息安全域 (例如，用于跟踪金融服务法规和其他相关标准的要求的安全策略和风险管理) ，包括 Azure 电子表格中 R 列中的 GLBA (和 Office 365 电子表格) 中的 Q 列。 这些工具介绍了 Azure 和 Office 365如何遵守适用于云服务提供商的每个要求，并可帮助你满足 GLBA 安全要求。
 
 ## <a name="promote-your-glba-compliance"></a>提升 GLBA 合规性
 
@@ -64,14 +64,14 @@ Microsoft 已针对[Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocu
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | Azure Active Directory, Azure 信息保护, Bookings, 合规性管理器, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender for Office 365, Microsoft Graph, Microsoft Teams, Microsoft 待办事项网页版, MyAnalytics, Office 365 高级合规版加载项, Office 365 Cloud App Security, Office 365 组, Office 365 安全与合规中心, Office 365 视频, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **商业** | Azure Active Directory, Azure 信息保护, Bookings, 合规性管理器, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender for Office 365, Microsoft Graph, Microsoft Teams, Microsoft 待办事项网页版, MyAnalytics, Office 365 高级合规版加载项, Office 365 Cloud App Security, Office 365 组, Office 365 安全与合规中心, Office 365 视频, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 | **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365 Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
 
 ### <a name="frequently-asked-questions"></a>常见问题解答
 
 **我如何知道我的金融机构是否必须遵守 GLB 法案？**
 
-FTC 在其 GLB 法案页面上对此进行详细说明[，Who是否受](https://www.ftc.gov/tips-advice/business-center/guidance/how-comply-privacy-consumer-financial-information-rule-gramm#whois)隐私规则保护？
+FTC 在其 GLB 法案页面上对此进行详细说明[，Who是否受隐私规则保护](https://www.ftc.gov/tips-advice/business-center/guidance/how-comply-privacy-consumer-financial-information-rule-gramm#whois)？
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

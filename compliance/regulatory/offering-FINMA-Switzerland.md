@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 405a752b9a6d8e1bdb5d7d5c0ad937aba634806033ea87a36c92629bf458bf3a
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: ff74580117a3ff1883b35331f2c9bed076d17bb8
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292499"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58261003"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>瑞士金融市场监督管理局 (FINMA)
 
@@ -33,7 +33,7 @@ FINMA 发布了 [Circular 2018/3 Outsourcing–banks and insurers](https://www.f
 
 ## <a name="microsoft-and-finma"></a>Microsoft 和 FINMA
 
-为了给正在考虑将业务职能外包到云的瑞士金融机构提供指导，Microsoft 发布了[一份针对瑞士金融机构的合规性清单](https://aka.ms/FinServ-Guide-Switzerland)。 通过查看和完成这份清单，金融组织可放心地采用 Microsoft 商业云服务，确保自己遵守适用的法规要求。
+为了给正在考虑将业务职能外包到云的瑞士金融机构提供指导，Microsoft 发布了[一份针对瑞士金融机构的合规性清单](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=343ee8d6-db99-4e03-903c-1c24c9ce893c&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)。 通过查看和完成这份清单，金融组织可放心地采用 Microsoft 商业云服务，确保自己遵守适用的法规要求。
 
 当瑞士金融机构外包商业活动时，他们必须遵守瑞士金融市场监管机构 (FINMA) 的要求，并知晓包含《瑞士银行法案》、《瑞士银行条例》和《瑞士保险业监管法案》在内的其他要求和指导方针。
 
@@ -50,7 +50,7 @@ Microsoft 清单可对正在就 Microsoft 商业云服务进行尽职调查评�
 
 ## <a name="how-to-implement"></a>如何实现
 
-- [合规性清单：瑞士](https://aka.ms/FinServ-Guide-Switzerland)：金融企业可在对 Microsoft 商业云服务进行风险评估方面获得帮助。
+- [合规性清单：瑞士](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=343ee8d6-db99-4e03-903c-1c24c9ce893c&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)：金融企业可在对 Microsoft 商业云服务进行风险评估方面获得帮助。
 - [风险评估和合规性指南](https://aka.ms/RiskGovernanceGuide)：针对 Microsoft 云服务风险评估和监管机构通知创建一个管理模型。
 - [金融用例](/azure/industry/financial/)：在案例概述、教程和其他资源的帮助下构建适合金融服务的 Azure 解决方案。
 

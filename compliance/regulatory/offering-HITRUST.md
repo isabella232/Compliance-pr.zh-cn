@@ -1,6 +1,6 @@
 ---
-title: '健康信息信任联盟 (HITRUST) CSF (Common Security Framework) '
-description: Azure 和 Office 365 已通过健康信息信任联盟认证 (HITRUST) Common Security Framework (CSF) 。
+title: '健康信息信任联盟 (HITRUST) CSF (SECURITY Framework) '
+description: Azure 和 Office 365 已通过健康信息信任联盟 (HITRUST) Common Security Framework (CSF) 。
 keywords: Microsoft 365, 合规性, 产品/服务
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,26 +16,26 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 763f2f9d342692ea3cbed237b76fea841bd686487b61b22aad43ade42fec765f
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: e910593e80c49acf7f1e94c9ade74fb51f225912
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288680"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260696"
 ---
-# <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>健康信息信任联盟 (HITRUST) CSF (Common Security Framework) 
+# <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>健康信息信任联盟 (HITRUST) CSF (SECURITY Framework) 
 
 ## <a name="hitrust-csf-overview"></a>HITRUST CSF 概述
 
-健康信息信任联盟 (HITRUST) 是一家由医疗保健行业代表管理的组织。 HITRUST 创建和维护 Common Security Framework (CSF) ，这是一个可认证框架，可帮助医疗保健组织及其提供商以一致且简化的方式证明其安全性和合规性。
+健康信息信任联盟 (HITRUST) 是一家由医疗保健行业的代表管理的组织。 HITRUST 创建和维护通用安全框架 (CSF) ，这是一个可认证框架，可帮助医疗保健组织及其提供商以一致且简化的方式证明其安全性和合规性。
 
-CSF 建立在 HIPAA 和 HITECH 法案的基础上，这两项美国医疗保健法律对使用、披露和保护个人身份健康信息制定了相关要求，并强制执行了不相容性。 HITRUST 提供了一个基准，即标准化的合规性框架、评估和认证过程，云服务提供商和涵盖的运行状况实体可基于该基准衡量合规性。 CSF 还纳入支付卡行业数据安全标准 ([PCI-DSS](https://www.microsoft.com/trustcenter/compliance/pci) [) 、ISO/IEC 27001](https://www.microsoft.com/trustcenter/compliance/iso-iec-27001) 信息安全管理标准以及 Exchanges ([MARS-E](https://www.microsoft.com/trustcenter/compliance/mars-e)) 最低可接受风险标准等现有框架中的特定医疗保健安全、隐私和其他法规要求。
+CSF 基于 HIPAA 和 HITECH 法案，这两项美国医疗保健法对使用、披露和保护个人身份健康信息制定了相关要求，并强制执行了不相容性。 HITRUST 提供了一个基准，即标准化的合规性框架、评估和认证流程，云服务提供商和涵盖的运行状况实体可基于该基准衡量合规性。 CSF 还纳入支付卡行业数据安全标准 ([PCI-DSS](https://www.microsoft.com/trustcenter/compliance/pci) [) 、ISO/IEC 27001](https://www.microsoft.com/trustcenter/compliance/iso-iec-27001) 信息安全管理标准以及 Exchanges ([MARS-E](https://www.microsoft.com/trustcenter/compliance/mars-e)) 最低可接受风险标准等现有框架中的特定医疗保健安全、隐私和其他法规要求。
 
 CSF 分为 19 个不同的域，包括终结点保护、移动设备安全性和访问控制。 HITRUST 针对这些控件证明 IT 产品/服务。 HITRUST 还根据组织、系统和法规因素调整针对组织风险的认证要求。
 
-健康信息信任联盟 (HITRUST) CSF (Common Security Framework) 
+健康信息信任联盟 (HITRUST) CSF (SECURITY Framework) 
 
-HITRUST 提供三种保证或评估级别：自我评估、CSF 验证和 CSF 认证。 每个级别在它下面的级别上都增加了严格性。 经过 CSF 认证的最高级别的组织符合 CSF 的所有认证要求。 Microsoft Azure和Office 365是首个获得 HITRUST CSF 认证的超大规模云服务。 FIRE 是一家 HITRUST 评估公司，根据 Azure 和 Office 365实施保护敏感信息的安全、隐私和法规要求执行评估。 Microsoft 支持 HITRUST 共享责任计划。
+HITRUST 提供三种保证或评估级别：自我评估、CSF 验证和 CSF 认证。 每个级别在它下面的级别上都增加了严格性。 经过 CSF 认证的最高级别的组织符合 CSF 的所有认证要求。 Microsoft Azure和Office 365是首个获得 HITRUST CSF 认证的超大规模云服务。 一家 HITRUST 评估公司（一家 HITRUST 评估公司）根据 Azure 和 Office 365实施保护敏感信息的安全、隐私和法规要求执行了评估。 Microsoft 支持 HITRUST 共享责任计划。
 
 了解如何使用 Azure 安全与合规蓝图加快 HITRUST 部署。
 
@@ -64,7 +64,7 @@ HITRUST 提供三种保证或评估级别：自我评估、CSF 验证和 CSF 认
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **商业** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
 
 ### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
 
@@ -76,11 +76,11 @@ HITRUST 提供三种保证或评估级别：自我评估、CSF 验证和 CSF 认
 
 **为什么某些Office 365服务不在认证范围内？**
 
-与其他云服务提供商相比，Microsoft 提供了最全面的产品/服务。 为了与跨地区和行业的广泛合规性产品/服务保持一致性，我们根据市场需求、客户反馈和产品生命周期，在保证工作范围内包括服务。 如果服务未包含在特定合规性产品的当前范围内，则你的组织有责任根据合规性义务评估风险并确定你处理该服务中数据的方式。 我们会持续收集客户的反馈，并与监管机构和审核员合作，扩大合规性范围以满足您的安全性和合规性需求。
+与其他云服务提供商相比，Microsoft 提供了最全面的产品/服务。 为了与跨地区和行业的广泛合规性产品/服务保持一致性，我们根据市场需求、客户反馈和产品生命周期，在保证工作范围内包括服务。 如果某个服务未包括在特定合规性产品的当前范围内，则组织有责任根据合规性义务评估风险并确定您处理该服务中数据的方式。 我们会持续收集客户的反馈，并与监管机构和审核员合作，扩大合规性范围以满足您的安全性和合规性需求。
 
 **Microsoft 认证是否意味着我的组织使用Office 365，是否符合 HITRUST CSF？**
 
-当你将数据存储在 SaaS（如 Office 365）中时，实现合规性是 Microsoft 和组织之间的共同责任。 Microsoft 管理大多数基础结构控件，包括物理安全性、网络控件、应用程序级别控件等，并且你的组织有责任管理访问控制和保护敏感数据。 HITRUST Office 365证明 Microsoft 控制框架的合规性。 基于此，组织需要实现和维护自己的数据保护控件，以满足 HITRUST CSF 要求。
+当你将数据存储在 SaaS（如 Office 365）中时，实现合规性是 Microsoft 和组织之间的共同责任。 Microsoft 管理大多数基础结构控件，包括物理安全性、网络控件、应用程序级别控件等，并且你的组织有责任管理访问控制和保护敏感数据。 HITRUST Office 365证明 Microsoft 控制框架的合规性。 基于这一点，组织需要实现和维护自己的数据保护控件，以满足 HITRUST CSF 要求。
 
 **Microsoft 是否为我的组织提供在使用产品时实施相应Office 365？**
 
