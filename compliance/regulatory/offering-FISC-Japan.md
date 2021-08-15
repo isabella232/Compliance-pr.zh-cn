@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 88a5e554fc2307dfa427ccb0023e7a00e006d536fc8cca276d550aa9510dbc29
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: c6f9a01ff954465240b74f9526c93b926fb08006
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287292"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260484"
 ---
 # <a name="center-for-financial-industry-information-systems-fisc"></a>金融行业信息系统中心 (FISC)
 
@@ -67,7 +67,7 @@ Microsoft 聘请了外部评估人员来验证 Microsoft Azure、Dynamics 365 �
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **Office 365** | Access Online， Azure Active Directory， Delve， Exchange Online， Exchange Online Protection， Microsoft Teams， Office 365 专业增强版， Office Online， OneDrive for Business， Power BI for Office 365， Project Online， SharePoint Online， Skype for Business |
+| **商业** | Access Online， Azure Active Directory， Delve， Exchange Online， Exchange Online Protection， Microsoft Teams， Office 365 专业增强版， Office Online， OneDrive for Business， Power BI for Office 365， Project Online， SharePoint Online， Skype for Business |
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -84,7 +84,7 @@ FISC 发布了其专家委员会出具的两份报告：
 
 **在哪里可以详细了解 Microsoft 针对 FISC 框架的响应举措？**
 
-您还可以查看已对 Microsoft 云服务的 FISC 合规性进行评估的第三方提供的安全参考（[日语](https://aka.ms/microsoftresponsetofiscguidancejapanese)）。
+有关评估 Microsoft 云服务 FISC 符合性的第三方的安全参考，请联系你的 Microsoft 帐户代表。
 
 **能否在我所在组织的资格认定过程中利用 Microsoft 针对此框架的响应举措？**
 
