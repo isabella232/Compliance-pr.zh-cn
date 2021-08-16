@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 0453e148c38de9cc6e7171becd21576646dd4be50796ecb674a02fc8fef4ff43
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 525870883b67ef37b45af2aa690ce849acd9217d
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287911"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58261119"
 ---
 # <a name="microsoft-365-iso-27001-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 ISO 27001 行动计划 - 前 30 天、前 90 天以及之后的首要行动
 
@@ -29,7 +29,7 @@ ms.locfileid: "54287911"
 
 ISO/IEC 27001 是实现信息安全管理系统 (ISMS) 的国际标准。ISMS 描述了所用必要方法，以及与在任何类型组织中实现可靠信息资产安全管理所必须符合的要求相关的证据。  
 
-本文介绍了努力符合 ISO/IEC 27001 的要求时，可遵循的已确定优先级的行动计划。此行动计划是与专门从事合规性工作的 Microsoft 合作伙伴 Protiviti 共同制定。请参加以下会话，详细了解如何在 Microsoft Ignite 大会中使用此行动计划：[绘制 Microsoft 365 合规性路径和信息保护策略](https://myignite.techcommunity.microsoft.com/videos/65720)（主讲人：Maithili Dandige (Microsoft) 和 Antonio Maio (Protiviti)）。
+本文介绍了致力于符合 ISO/IEC 27001 要求时可遵循的优先行动计划。此行动计划是与专门从事合规性工作的 Microsoft 合作伙伴 Protiviti 共同制定的。
 
 ## <a name="action-plan-outcomes"></a>行动计划结果
 
