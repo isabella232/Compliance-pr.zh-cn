@@ -14,19 +14,19 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 ms.service: O365-seccomp
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: f49762321e33ee72835c352abdc96dfe8af96eddfc87f91f093137f4ad08204f
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 3b03feab5e1a73d7e8409e5dcfda78051b5a4a00
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288331"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481604"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-devtest-environment"></a>开发/测试环境中的 GDPR 发现、保护和报告
 
@@ -185,7 +185,7 @@ ms.locfileid: "54288331"
 
 ## <a name="phase-5-demonstrate-data-protection"></a>第 5 阶段：演示数据保护
 
-保护 Microsoft 365 中的个人信息，包括使用数据丢失防护 (DLP) 功能。  利用 DLP 策略，可以自动保护 Microsoft 365 中的敏感信息。
+Microsoft 365 中对个人信息的保护包括使用数据丢失防护 （DLP）功能。借助 DLP 策略，你可以自动保护 Microsoft 365 内的敏感信息。
 
 有多种方式可以应用保护。引导和提高在你的环境中存储欧盟常驻数据的位置的意识以及允许员工处理该数据的方式，这表示使用 Office 365 DLP 进行信息保护的一个级别。
 

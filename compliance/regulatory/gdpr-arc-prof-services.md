@@ -2,7 +2,7 @@
 title: 适用于 GDPR 的 Microsoft 支持和专业服务责任就绪清单
 description: 方便你在使用 Microsoft 专业服务和支持服务时访问支持 GDPR 可能所需的信息。
 keywords: ARC, 责任准备情况清单, Microsoft 365, Microsoft 365 教育版, Microsoft 365 文档, GDPR
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 47f5508899933cd3f0293034c571824d36b7e95a485b96b1227dd1e0c43c63b2
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 044631cd05dc25f126388f38e9d45675ce397d4f
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290210"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58480374"
 ---
 # <a name="microsoft-support-and-professional-services-accountability-readiness-checklist-for-the-gdpr"></a>适用于 GDPR 的 Microsoft 支持和专业服务责任就绪清单
 
@@ -45,7 +45,7 @@ ms.locfileid: "54290210"
 |***征得和记录同意 (7.2.4)***|当确定需要执行此操作时，客户应适当地征得同意。此外，客户还应该了解如何提出和收集征得同意的请求。|Microsoft 专业服务不直接支持征得用户许可。|(7)(1)、(7)(2)、(9)(2)(a)|
 |***隐私影响评估 (7.2.5)***|客户应了解完成隐私影响评估的要求（何时执行、需要哪些类别的数据以及完成评估的时间）。|Microsoft 专业服务在服务信任门户[数据保护影响评估 (DPIA) 页面](https://servicetrust.microsoft.com/ViewPage/GDPRDPIA)中提供了何时以及如何确定何时执行 DPIA 的说明，以及 Microsoft DPIA 计划（包括涉及的 DPO）的概述。<p>若要获取 DPIA 方面的支持，请访问：<br>- Microsoft 专业服务适用的客户数据保护影响评估关键信息 [[9](gdpr-arc-prof-services.md#9)]</p>|文章 (35)|
 |***与 PII 处理者签订合同 (7.2.6)***|客户应确保其与处理者的合同包括帮助处理与处理和保护个人数据相关的任何相关法律或法规义务的要求。|Microsoft 合同要求我们协助你履行 GDPR 规定的义务，包括支持数据主体权利。<br>- Microsoft 专业服务数据保护附录 [[1](gdpr-arc-prof-services.md#1)]|(5)(2)、(28)(3)(e)、(28)(9)|
-|***与处理 PII 有关的记录 (7.2.7)***|客户应保存与处理个人数据相关的所有必要和必需的记录（例如用途、安全措施等）。如果某些记录必须由次级处理者提供，则客户应确保他们可以获取这些记录。|Microsoft 专业服务维护必要记录以证明合规性以及支持履行 GDPR 规定的责任。 请参阅 Microsoft 专业服务安全文档[[2](gdpr-arc-prof-services.md#2)]|(5)(2)、(24)(1)、(30)(1)(a)、(30)(1)(b)、(30)(1)(c)、(30)(1)(d)、(30)(1)(g)、(30)(1)(f)、(30)(3)、(30)(4)、(30)(5)|
+|***与处理 PII 有关的记录 (7.2.7)***|客户应保存与处理个人数据相关的所有必要和必需的记录（例如用途、安全措施等）。如果某些记录必须由次级处理者提供，则客户应确保他们可以获取这些记录。|Microsoft 专业服务维护必要的记录来证明合规性并支持履行 GDPR 规定的责任。请参阅 Microsoft 专业服务安全文档 [[2](gdpr-arc-prof-services.md#2)]|(5)(2)、(24)(1)、(30)(1)(a)、(30)(1)(b)、(30)(1)(c)、(30)(1)(d)、(30)(1)(g)、(30)(1)(f)、(30)(3)、(30)(4)、(30)(5)|
 
 ## <a name="3-rights-of-data-subjects"></a>3. 数据主体的权限
 
