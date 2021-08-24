@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 38bb8c8492c3bbff6ed96380ac3a4d284f220a0ec5b2fb7b7c00814033a5c02c
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: a35e6757d64dd0c2bffc1b1cbc62e23f524b8ac9
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292181"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481734"
 ---
 # <a name="microsoft-security-incident-management"></a>Microsoft 安全事件管理
 
@@ -39,7 +39,7 @@ Microsoft 联机服务安全团队和各种服务团队共同协作，并采用�
 
 ## <a name="microsoft-approach-to-security-incident-management"></a>Microsoft 安全事件管理方法
 
-Microsoft 管理安全事件的方法符合美国国家标准和技术协会 [NIST () ](https://www.nist.gov/) Special Publication (SP) 800-61。 Microsoft 有几个专门的团队协同工作，以预防、监视、检测和响应安全事件。
+Microsoft 管理安全事件的方法符合美国国家标准和技术协会 [ (NIST) ](https://www.nist.gov/) 特殊出版物 (SP) 800-61。 Microsoft 有几个专门的团队协同工作，以预防、监视、检测和响应安全事件。
 
 |**团队/区域**|**说明**|
 |:------------|:--------------|
@@ -48,26 +48,26 @@ Microsoft 管理安全事件的方法符合美国国家标准和技术协会 [NI
 | 公司、外部和法律事务 | 为可疑的安全事件提供法律和监管建议。 |
 | Microsoft 数据中心安全团队 | 专注于常见安全工程投资的各种服务的团队，用于保护、检测和响应服务体系结构风险和威胁。 |
 | Microsoft 安全响应团队 | 独立的 Azure、Dynamics 365 和 Microsoft 365安全团队，与服务团队合作以构建适当的安全事件管理流程并推动任何安全事件响应。 |
-| Microsoft 治理、风险和合规性 (GRC) 团队 | 提供有关法规要求、合规性和隐私的指南。 |
-| 服务团队 | Azure、Dynamics 365 和 Microsoft 365团队，负责每项服务的安全相关策略和决策。 |
+| Microsoft 管理、风险和合规性 (GRC) 团队 | 提供有关法规要求、合规性和隐私的指南。 |
+| 服务团队 | Azure、Dynamics 365 Microsoft 365团队，负责每项服务的安全相关策略和决策。 |
 | Azure 运营经理 | 监督调查和解决与 Azure 相关的安全和隐私事件。 |
 | Microsoft 威胁智能中心 (MSTIC)  | 提供针对 Microsoft 基础结构和资产的数字安全威胁的当前技术状态，帮助 Microsoft 内的合作伙伴团队确定缓解和防护工作行动计划的优先级，并采用近实时事件监视/检测来增强保护。 |
 | 客户体验沟通团队 | 工程团队负责有关安全和服务事件的所有客户通信。 单独的团队专用于 Azure、Dynamics 365 和 Microsoft 365。 |
 
 ## <a name="response-management-process"></a>响应管理过程
 
-Microsoft 联机服务安全团队和服务团队协同工作，并采用相同方法处理安全事件，这基于 NIST 800-61 响应管理阶段：
+Microsoft 联机服务安全团队和服务团队协同工作，并采用相同的方法处理安全事件，这基于 NIST 800-61 响应管理阶段：
 
 - **准备**：是指能够响应的组织准备工作，包括工具、流程、能力和准备情况。
 - **检测&** 分析：是指检测生产环境中的安全事件并分析所有事件以确认安全事件的真实性的活动。
-- **包含、抑制、** 恢复：是指根据上一阶段中完成的分析，为包含安全事件而采取的适当必需操作。 在此阶段，可能还需要进行更多分析，以从安全事件完全恢复。
+- **包含、抑制、** 恢复：是指根据在上一阶段中完成的分析，为包含安全事件而采取的适当必需操作。 在此阶段，可能还需要进行更多分析，以从安全事件完全恢复。
 - **事后活动**：是指在恢复安全事件后执行的事后分析。 将检查在过程中执行的操作，以确定是否需要在准备或检测和分析阶段进行任何更改。
 
 ![安全事件管理阶段](../media/assurance-sim-phases.png)
 
 ## <a name="federated-security-response-model"></a>联合安全响应模型
 
-Microsoft 在线服务由核心 Microsoft 产品组成，包括 Azure、Dynamics 365 和 Microsoft 365。 每个服务由具有其自己的安全运营流程的单独团队运营。 Microsoft 的其他团队（如 MSTIC）也参与 Microsoft 联机服务的各个安全方面。 由于许多团队致力于跨所有服务（包括 Microsoft 联机服务）进行安全操作管理，因此 Microsoft 实施了联合安全响应模型。
+Microsoft 在线服务由核心 Microsoft 产品组成，包括 Azure、Dynamics 365 和 Microsoft 365。 每个服务由具有其自己的安全运营流程的单独团队运营。 Microsoft 的其他团队（如 MSTIC）也参与 Microsoft 联机服务的各个安全方面。 由于许多团队致力于跨所有各种服务（包括 Microsoft 联机服务）进行安全操作管理，因此 Microsoft 实施了联合安全响应模型。
 
 此表显示了各种 Microsoft 联机服务安全运营团队和 Microsoft 服务团队之间的操作边界：
 

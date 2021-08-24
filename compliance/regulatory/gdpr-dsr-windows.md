@@ -2,7 +2,7 @@
 title: Windows 诊断数据处理器配置 GDPR 和 CCPA 的数据主体请求
 description: 了解如何使用 Microsoft 产品、服务和管理工具来查找和处理个人数据以响应 DSR。
 keywords: Microsoft 365, Microsoft 365 教育版, Microsoft 365 文档, GDPR
-localization_priority: Priority
+ms.localizationpriority: high
 ROBOTS: NOINDEX, NOFOLLOW
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 hideEdit: true
-ms.openlocfilehash: 365aa84ce2c88468b7f6689aa73507e458a435fd2d3bc58583114f37f50537ac
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 202b8aa75d3dd6fc94025a1a30f922563fc73e7b
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293049"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482375"
 ---
 # <a name="windows-diagnostic-data-processor-configuration-data-subject-requests-for-the-gdpr-and-ccpa"></a>Windows 诊断数据处理器配置 GDPR 和 CCPA 的数据主体请求
 

@@ -2,7 +2,7 @@
 title: 信息系统安全管理和评估计划 （ISMAP）
 description: Microsoft 具有满足信息系统安全管理和评估计划 （ISMAP） 要求的控件。
 keywords: Microsoft 365,合规性,产品/服务
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0fa2391237b695e352c1e2a7f47ea784218adb4c1b891803beee438440f7d279
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 5f51e0eb46550734a3906e6011a67323fe67fc78
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294259"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482887"
 ---
 # <a name="information-system-security-management-and-assessment-program-ismap"></a>信息系统安全管理和评估计划 （ISMAP）
 

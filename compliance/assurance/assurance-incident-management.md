@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 977f6fcb60dd57033cf2f3555d9d4bf2bf74066c
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 203adce9b4c7167315abbbfbebce0efdd604fefe
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260767"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481944"
 ---
 # <a name="incident-management-overview"></a>事件管理概述
 
@@ -35,19 +35,19 @@ Microsoft 在其联机服务中将安全事件定义为已确认的安全漏洞�
 
 ## <a name="how-does-microsoft-respond-to-security-incidents"></a>Microsoft 如何响应安全事件？
 
-每当发生安全事件时，Microsoft 都会努力快速响应，以保护Microsoft 服务客户数据。 Microsoft 采用旨在快速高效地调查、包含和删除安全威胁的事件响应策略。
+每当发生安全事件时，Microsoft 都会努力快速响应并有效保护Microsoft 服务客户数据。 Microsoft 采用旨在快速高效地调查、包含和删除安全威胁的事件响应策略。
 
 Microsoft 云服务会持续受到监视，以发现泄露的迹象。 除了自动安全监视和警报之外，所有员工都每年接受一次培训，以识别和报告潜在安全事件的迹象。 员工、客户或安全监视工具检测到的任何可疑活动都升级为特定于服务的安全响应团队进行调查。 所有服务运营团队（包括特定于服务的安全响应团队）保持深层的呼叫轮换，以确保资源可用于 24x7x365 事件响应。 我们的呼叫轮换使 Microsoft 能够随时或大规模地装入有效的事件响应，包括大范围或并发事件。
 
 当检测到可疑活动并上报时，特定于服务的安全响应团队将启动分析、抑制、 **消除和恢复过程**。 这些团队协调潜在事件的分析以确定其范围，包括对客户或客户数据的任何影响。 基于此分析，特定于服务的安全响应团队与受影响服务团队合作，共同制定包含威胁并最大限度地减少事件影响的计划，从环境中消除威胁，并完全恢复到已知安全状态。 相关服务团队在特定于服务的安全响应团队的支持下实施计划，以确保成功消除威胁，并且影响的服务将进行完整恢复。
 
-在事件解决后，服务团队将实施从事件获得的任何经验，以更好地防止、检测和响应将来发生的类似事件。 选择安全事件，尤其是影响客户或导致数据泄露的事件，在事后进行完整事件。 事后剖析旨在识别技术失效、过程失败、手动错误以及可能导致事件发生的或在事件响应过程中识别的其他流程缺陷。 在事后分析期间确定的改进在特定于服务的安全响应团队的协作下实现，以帮助防止未来事件并改进检测和响应功能。
+在事件解决后，服务团队将实施从事件获得的任何经验，以更好地在将来预防、检测和响应类似的事件。 选择安全事件，尤其是影响客户或导致数据泄露的事件，在事后进行完整事件。 事后剖析旨在识别技术失效、过程失败、手动错误以及可能导致事件发生的或在事件响应过程中识别的其他流程缺陷。 在事后分析期间确定的改进在特定于服务的安全响应团队的协作下实施，以帮助防止未来事件并改进检测和响应功能。
 
 ## <a name="how-and-when-are-customers-notified-of-security-or-privacy-incidents"></a>如何以及何时向客户通知安全或隐私事件？
 
 只要 Microsoft 发现涉及未经授权丢失、泄露或修改客户数据的安全漏洞，Microsoft 就会在 72 小时内通知受影响的客户，如联机服务条款 (OST) 的数据保护附录 (DPA) 所述。 通知日程表承诺从正式安全事件声明发生时开始。 在声明发生安全事件后，通知流程将尽快进行，不要出现不当的延迟。
 
-通知包括泄露性质、大致用户影响和缓解措施 (（如果适用) ）。 如果 Microsoft 的调查在初始通知时尚未完成，则通知还将指示后续步骤和后续通信日程表。
+通知包括泄露性质、近似用户影响和缓解步骤 (（如果适用) ）。 如果 Microsoft 的调查在初始通知时尚未完成，则通知还将指示后续步骤和后续通信日程表。
 
 如果客户意识到会对 Microsoft 产生影响的事件，包括但不限于数据泄露，客户应负责根据 DPA 中的定义，立即通知 Microsoft 该事件。
 

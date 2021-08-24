@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 95762cef8c7287c7a028554efd18ad0098b49198
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 8ba736fbd6e72963badc3245e11cbed2292cba94
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260747"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481724"
 ---
 # <a name="security-monitoring-overview"></a>安全监视概述
 
@@ -53,7 +53,7 @@ Microsoft 联机服务使用集中日志记录来收集和分析可能指示安�
 
 Microsoft 主动监视其系统，以指示资源过度使用和异常使用。 资源监控由服务冗余进行补充，以帮助避免意外停机，并为客户提供对产品和服务的可靠访问。 Microsoft 联机服务运行状况问题通过服务运行状况仪表板 (SHD) 。
 
-Azure 和 Dynamics 365 联机服务利用多个基础结构服务来监视其安全性和运行状况可用性。 STX 测试 (综合事务) 使 Azure 和 Dynamics 服务能够检查其服务的可用性。 STX 框架旨在支持在运行服务时自动测试组件，并针对实时站点故障警报进行测试。 此外，Azure 安全 (ASM) 服务已实施集中综合测试过程，以验证安全警报在新建和正在运行的服务中是否正常工作。
+Azure 和 Dynamics 365 联机服务利用多个基础结构服务来监视其安全性和运行状况可用性。 实施综合事务 (STX) 测试允许 Azure 和 Dynamics 服务检查其服务的可用性。 STX 框架旨在支持在运行服务时自动测试组件，并针对实时站点故障警报进行测试。 此外，Azure 安全 (ASM) 服务已实施集中综合测试过程，以验证安全警报在新建和正在运行的服务中是否正常工作。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 

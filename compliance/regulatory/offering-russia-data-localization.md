@@ -2,7 +2,7 @@
 title: 俄语个人数据本地化要求
 description: 了解如何在位于俄罗斯的 Microsoft 服务 和数据库中收集个人数据、俄语公民的个人数据记录、系统化、保存、存储、说明和提取。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,20 +16,20 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 559614554eb661be33a751c212080bea20d967565daf37de59a292851b9a28e8
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 093ec578cd83dc6c52485101d232d9ccff88489e
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287141"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482797"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>俄语个人数据本地化要求
 
-自 2015 年 9 月 1 日起，被视为个人数据操作员的组织必须确保在收集个人数据时，通过位于俄罗斯 ( 的个人数据本地化要求") "的数据库执行俄语公民的个人数据记录、系统化、保存、存储、说明 (更新、更改) 和提取。<sup>1</sup>
+自 2015 年 9 月 1 日起，被视为个人数据操作员的组织必须确保，在收集个人数据时，俄语公民的个人数据记录、系统化、保存、存储、说明 (更新、更改) 和提取操作是通过位于俄罗斯 ("个人数据本地化要求") 的数据库执行的。<sup>1</sup>
 
-Microsoft 服务 适用于 (包括但不限于教育机构)  (以下称为"客户") 的机构，包括启用个人数据处理（如 Microsoft Azure、Microsoft 365、Dynamics 365 和 Power Platform）的组织，它们从位于俄罗斯 (之外的数据处理中心提供，有关详细信息，请访问[Microsoft](https://www.microsoft.com/trust-center)信任中心) 。
+Microsoft 服务 组织 (包括但不限于以下称为"客户") 的教育机构)  (包括启用个人数据处理（如 Microsoft Azure、Microsoft 365、Dynamics 365 和 Power Platform）的组织，这些组织从位于俄罗斯 (之外的数据处理中心提供，有关详细信息，请访问[Microsoft](https://www.microsoft.com/trust-center)信任中心) 。
 
-根据客户信息系统处理的信息类型和内容，此类系统（包括使用 Microsoft 云产品的系统）被视为个人数据信息系统 ( PDIS、ISPD") 。 如果客户想在通过其体系结构和所处理信息类型限定为 PDIS 的系统中使用 Microsoft 服务，Microsoft 会邀请其客户考虑下面指定的可用解决方案。 提供的所有方案都可供客户作为标准商业产品/服务的其他选项使用。
+根据客户信息系统处理的信息类型和内容，此类系统（包括那些使用 Microsoft 云产品的系统）可能会被视为个人数据信息系统 ("PDIS"，"ISPD") 。 如果客户想在通过其体系结构和所处理信息类型限定为 PDIS 的系统中使用 Microsoft 服务，Microsoft 会邀请其客户考虑以下指定的可用解决方案。此外，Microsoft 还邀请其客户考虑使用的解决方案。 提供的所有方案都可供客户作为标准商业产品/服务的其他选项使用。
 
 应该注意到，作为 PDIS 的个人数据操作员的客户负责合规，应分析和评估个人数据本地化的适用法律要求，并自行决定独立确定足够措施，以确保 PDIS 中的个人数据处理符合俄语个人数据法律。<sup>2</sup>
 

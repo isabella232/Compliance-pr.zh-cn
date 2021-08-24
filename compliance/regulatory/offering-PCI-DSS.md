@@ -2,7 +2,7 @@
 title: 支付卡行业 (PCI) 数据安全标准 (DSS)
 description: Azure、SharePoint Online 和 OneDrive for Business 符合支付卡行业数据安全标准 Level 1 3.2 版。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 78078698bbe5b69c02cb7a53d4affc4e58e8a0d3
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 09c18fce6544984a7e9d639e68d0f0201c584768
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260297"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482857"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>支付卡行业 (PCI) 数据安全标准 (DSS)
 

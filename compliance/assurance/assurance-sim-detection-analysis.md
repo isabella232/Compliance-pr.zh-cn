@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 9ec3e0456934c178b32a6f5fac987d70c267ef8046ff5c361abce914a2cea90a
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: ba9d4c5f3e2781613ef3946e1089deff6e6266f7
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291861"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481684"
 ---
 # <a name="microsoft-security-incident-management-detection-and-analysis"></a>Microsoft 安全事件管理：检测和分析
 
@@ -40,7 +40,7 @@ Microsoft 联机服务中的安全检测机制还包括由不同源启动的通�
 
 检测的主要支柱之一是通知：
 
-- 每个服务团队都负责根据联机服务安全团队的要求记录服务内的任何操作或事件。 由不同服务团队创建的所有日志都由 SIEM (安全信息和事件) 预定义的安全和检测规则进行处理。 这些规则根据安全团队的建议（根据从以前的安全事件获得的信息）进行改进，以确定是否有可疑或恶意活动。
+- 每个服务团队都负责根据联机服务安全团队的要求记录服务内的任何操作或事件。 由不同服务团队创建的所有日志都由 SIEM 安全信息和事件管理 (预定义) 和检测规则的解决方案进行处理。 这些规则根据安全团队的建议（根据从以前的安全事件获得的信息）进行改进，以确定是否有可疑或恶意活动。
 - 如果客户确定正在处理安全事件，他们可能会向 Microsoft 开启支持案例，该案例将分配给 Microsoft 通信团队，并转变为向所有相应团队上报。
 
 Azure、Dynamics 365 和 Microsoft 365 服务团队还使用通过安全监视和日志记录在趋势分析中获得的信息来检测 Microsoft 在线服务信息系统中可能指示攻击或安全事件的异常。 Microsoft 联机服务系统将生产环境中这些日志的输出聚合到集中日志记录服务器中。 从这些集中日志记录服务器中，检查日志以发现整个生产环境的趋势。 集中服务器中聚合的数据安全地传输到日志记录服务中，用于高级查询、仪表板生成和检测异常和恶意活动。 该服务还使用机器学习通过日志输出检测异常。
@@ -50,7 +50,7 @@ Azure、Dynamics 365 和 Microsoft 365 服务团队还使用通过安全监视�
 - 联机服务安全与合规团队
 - Microsoft 威胁智能中心 (MSTIC) 
 - Microsoft 安全响应中心 (MSRC) 
-- CELA (、外部和法律) 
+- CELA (公司、外部和法律) 
 - Azure 安全性
 - Microsoft 365工程和其他项目。
 
@@ -69,7 +69,7 @@ Azure、Dynamics 365 和 Microsoft 365 服务团队还使用通过安全监视�
 
 收到有关安全事件的上报后，安全团队将组织一个虚拟团队 (v-team) ，该虚拟团队由来自 Microsoft 联机服务安全响应团队、服务团队和事件通信团队的成员组成。 然后，v 团队必须确认安全事件是否安全，并消除任何误报。 由准备阶段确定的指示器提供的信息的准确性至关重要。 通过按矢量攻击类别分析此信息，v 团队可以确定安全事件是否合理。
 
-在调查开始时，安全事件响应团队根据我们的案例管理策略记录有关事件的所有信息。 随着案例的进展，我们将跟踪正在进行的操作，并遵循证据处理标准，以在事件生命周期内收集、保留和保护此数据。
+在调查开始时，安全事件响应团队根据我们的案例管理策略记录有关事件的所有信息。 随着案例的进展，我们将跟踪正在进行的操作，并遵循证据处理标准，以收集、保留和保护整个事件生命周期中的此数据。
 
 这些操作的示例包括：
 

@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: d0eb38519ff0eb8d186d2f539e4a99d62410bfd5b5e25125100cd04e5cef82f0
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: dc53f42c6aa7ce16e1291538bfad6d63c5a1689d
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291129"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482004"
 ---
 # <a name="encryption-and-key-management-overview"></a>加密和密钥管理概述
 
@@ -33,13 +33,13 @@ ms.locfileid: "54291129"
 
 大多数 Microsoft 商业云服务都是多租户的，这意味着客户内容可能存储在与其他客户相同的物理硬件上。 为了保护客户内容的机密性，Microsoft 在线服务使用一些最强大和最安全的加密协议对静态和传输中的所有数据进行加密。
 
-加密不能替代强访问控制。 Microsoft 的访问控制策略 Zero Standing Access (ZSA) 保护客户内容免受 Microsoft 员工未经授权的访问。 加密通过保护存储位置的客户内容机密性和防止在 Microsoft 在线服务系统之间传输或 Microsoft 联机服务与客户之间传输时读取内容来补充访问控制。
+加密不能替代强访问控制。 Microsoft 的访问控制策略 Zero Standing Access (ZSA) 保护客户内容免受 Microsoft 员工未经授权的访问。 加密通过保护存储位置的客户内容机密性和防止在 Microsoft 联机服务系统之间或 Microsoft 联机服务与客户之间传输时读取内容来补充访问控制。
 
 ## <a name="how-do-microsoft-online-services-encrypt-data-at-rest"></a>Microsoft 联机服务如何加密其余数据？
 
-Microsoft 联机服务中所有客户内容都受一种或多种加密形式的保护。 Microsoft 服务器使用 BitLocker 在卷级别加密包含客户内容的磁盘驱动器。 如果其他过程或控件 (（例如，访问控制或硬件) 的回收）存在故障，可能会导致对包含客户内容的磁盘进行未经授权的物理访问，BitLocker 提供的加密将保护客户内容。
+Microsoft 联机服务中所有客户内容都受一种或多种加密形式的保护。 Microsoft 服务器使用 BitLocker 在卷级别加密包含客户内容的磁盘驱动器。 如果其他过程或控件 (（例如访问控制或硬件) 的回收）存在故障，可能会导致对包含客户内容的磁盘进行未经授权的物理访问，BitLocker 提供的加密将保护客户内容。
 
-除了卷级加密之外，Microsoft 在线服务还使用应用程序层的服务加密来加密客户内容。 服务加密提供权限保护以及强加密保护的管理功能。 它还允许在操作系统Windows由这些操作系统存储或处理的客户数据之间分离。
+除了卷级加密之外，Microsoft 在线服务还使用应用程序层的服务加密来加密客户内容。 服务加密提供权限保护以及强加密保护的管理功能。 它还允许在操作系统Windows这些操作系统存储或处理的客户数据之间分离。
 
 ## <a name="how-do-microsoft-online-services-encrypt-data-in-transit"></a>Microsoft 联机服务如何加密传输数据？
 
@@ -49,11 +49,11 @@ Microsoft 在线服务使用强传输协议（如 TLS）来防止未经授权的
 
 ## <a name="how-do-microsoft-online-services-manage-the-keys-used-for-encryption"></a>Microsoft 联机服务如何管理用于加密的密钥？
 
-强加密仅与用于加密数据的密钥一样安全。 Microsoft 使用自己的安全证书加密传输数据的 TLS 连接。 对于静态数据，受 BitLocker 保护的卷使用全卷加密密钥进行加密，该密钥使用卷主密钥进行加密，而卷主密钥又绑定到服务器中的受信任的平台模块 (TPM) 。 BitLocker 使用符合 FIPS 的算法来确保从不会以清晰方式通过线路存储或发送加密密钥。
+强加密只与用于加密数据的密钥一样安全。 Microsoft 使用自己的安全证书加密传输数据的 TLS 连接。 对于静态数据，受 BitLocker 保护的卷使用全卷加密密钥进行加密，该密钥使用卷主密钥进行加密，而卷主密钥又绑定到服务器中的受信任的平台模块 (TPM) 。 BitLocker 使用符合 FIPS 的算法来确保从不会以清晰方式通过线路存储或发送加密密钥。
 
 服务加密为客户静态数据提供了另一层加密，为客户提供了两种加密密钥管理选项：Microsoft 管理的密钥或客户密钥。 使用 Microsoft 管理的密钥时，Microsoft 联机服务自动生成并安全存储用于服务加密的根密钥。
 
-如果客户要求控制自己的根加密密钥，可以将服务加密与客户密钥一同使用。 使用客户密钥，客户可以使用本地硬件服务模块 (HSM) 或 AKV (生成自己的) 。 客户根密钥存储在 AKV 中，可在 AKV 中用作加密客户邮箱数据或文件的密钥链之一的根。 客户根密钥只能由 Microsoft 联机服务代码间接访问，用于数据加密，并且不能由 Microsoft 员工直接访问。
+如果客户要求控制自己的根加密密钥，可以将服务加密与客户密钥一同使用。 通过使用客户密钥，客户可以使用本地硬件服务模块 (HSM) 或 AKV (Azure 密钥保管库) 。 客户根密钥存储在 AKV 中，可在 AKV 中用作加密客户邮箱数据或文件的密钥链之一的根。 客户根密钥只能由 Microsoft 联机服务代码间接访问，用于数据加密，并且不能由 Microsoft 员工直接访问。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 

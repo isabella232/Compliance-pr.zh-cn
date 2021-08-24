@@ -2,7 +2,7 @@
 title: 基线 Informatiebeveiliging Rijksdienst 标准 (BIR 2012)
 description: Microsoft 云服务帮助荷兰的公共部门机构遵守 BIR 2012 标准。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f82dcb1395823fbfe618537a9fc13f6d7106d56f
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: d0f7bd0db5d71c91a163e05e582ad8c227a8aa22
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58261099"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482747"
 ---
 # <a name="baseline-informatiebeveiliging-rijksdienst-standard-bir-2012"></a>基线 Informatiebeveiliging Rijksdienst 标准 (BIR 2012)
 

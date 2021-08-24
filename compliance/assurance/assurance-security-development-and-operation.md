@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 062284cb1cb56602bbcc4ba683670bfeb98460db2569bd837eaf748feceaae7d
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: fc6113dbf5c095cc4b22eb8ed0a4527d84f7e143
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292170"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481744"
 ---
 # <a name="security-development-and-operations-overview"></a>安全开发和操作概述
 
@@ -35,7 +35,7 @@ Microsoft 的安全开发生命周期(SDL)是侧重于开发和操作安全软�
 
 ## <a name="how-does-microsofts-sdl-improve-application-security"></a>Microsoft 的 SDL 如何提高应用程序安全性？
 
-Microsoft 的 SDL 流程可考虑以下五个开发阶段：要求、设计、实现、验证和发布。 首先是定义软件要求并考虑安全性。 为实现此目标，我们询问有关应用程序必须完成的任务的安全相关问题。 应用程序需要收集敏感数据吗? 应用程序将执行敏感或重要任务吗? 应用程序需要接受来自不受信任的源的输入吗?
+Microsoft 的 SDL 流程可考虑以下五个开发阶段：要求、设计、实现、验证和发布。 首先是定义软件要求并考虑安全性。 为了实现此目标，我们询问有关应用程序必须完成的任务的安全相关问题。 应用程序需要收集敏感数据吗? 应用程序将执行敏感或重要任务吗? 应用程序需要接受来自不受信任的源的输入吗?
 
 确定相关安全要求后，我们会设计软件以合并满足这些要求的安全功能。 我们的开发人员会在代码中实施 SDL 和设计要求，我们会通过手动代码审查、自动化安全工具以及渗透测试来验证这一点。 最后，在发布代码之前，新功能和重大更改将经过最终安全和隐私审查，以确保满足所有要求。
 

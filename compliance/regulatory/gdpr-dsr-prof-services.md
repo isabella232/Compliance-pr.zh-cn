@@ -2,7 +2,7 @@
 title: Microsoft 支持和专业服务与 GDPR 和 CCPA 数据主体请求
 description: 了解 Microsoft 支持和专业服务如何处理 GDPR 和 CCPA 数据主体请求。
 keywords: 专业服务，Microsoft 365，Microsoft 365 教育版，Microsoft 365 文档，GDPR，CCPA
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 165fd006f8cd5390b057d38e9972cf4ce4edda3d6ffe169fcdeb0508d319bc0b
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 06dbe8eeeddc32fb98b7b4bf0351834fb6a34944
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293169"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482627"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Microsoft 支持和专业服务与 GDPR 和 CCPA 数据主体请求
 

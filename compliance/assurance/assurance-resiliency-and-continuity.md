@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 9fb013647bc558856f7005c2d5e1ccdb656db9b9b04ceb5882df35a599e7ebff
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: ff1719ce931a50904fb6b7e6069cd29a1883aa90
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292160"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481794"
 ---
 # <a name="resiliency-and-continuity-overview"></a>弹性和连续性概述
 
@@ -33,7 +33,7 @@ ms.locfileid: "54292160"
 
 Microsoft Enterprise 业务连续性管理 (EBCM) 团队负责监管跨 Microsoft 服务 和云产品/服务的业务连续性管理和灾难恢复活动。 来自 Microsoft 业务部门的代表与 EBCM 团队合作，以制定业务连续性计划并验证是否符合业务连续性要求。
 
-业务连续性管理 (BCM) 生命周期是 BCM 方法的核心。 此三阶段过程旨在适应各种 Microsoft 业务模型实现。 它从评估 **阶段** 开始，以确定业务连续性计划应包括的关键流程和目标。 评估阶段还需要业务影响分析 (BIA) 。 规划 **阶段** 侧重于制定和实施复原和恢复策略，并记录在官方业务连续性计划中。 最后， **功能验证** 测试业务连续性计划及其实现，以验证有效性并确定潜在改进。
+BCM (生命周期) 业务连续性管理是 BCM 方法的核心。 此三阶段过程旨在适应各种 Microsoft 业务模型实现。 它从评估 **阶段** 开始，以确定业务连续性计划应包括的关键流程和目标。 评估阶段还需要业务影响分析 (BIA) 。 规划 **阶段** 侧重于制定和实施复原和恢复策略，并记录在官方业务连续性计划中。 最后， **功能验证** 测试业务连续性计划及其实现，以验证有效性并确定潜在的改进。
 
 Microsoft 在线服务业务连续性策略使用硬件、网络和数据中心冗余。 数据中心之间的数据复制在灾难性事件期间提供高可用性和可靠性。 它还提高了对意外事件的复原能力，如隔离硬件故障或数据损坏。
 
@@ -43,7 +43,7 @@ Microsoft 的 Enterprise 业务连续性管理 (EBCM) 策略规定，必须每�
 
 为了针对各种潜在事件验证复原能力和恢复策略，EBCM 计划定义了影响人员、位置和技术的多种类别的测试方案。 每个服务所需的验证级别取决于服务的关键程度，更关键的服务会受到更严格的验证。 每个 Microsoft 联机服务团队都根据 EBCM 准则测试其业务连续性计划，以衡量计划的有效性和服务团队执行计划的准备情况。
 
-根据 EBCM 准则，业务连续性计划和功能验证的每年评审必须在上一次审阅的 12 个月内进行。 功能验证必须包括对支持文档（如 BIA）的审阅，以确保其保持准确。 Microsoft 通过季度报告为客户提供精选 Microsoft 在线服务的功能验证结果。
+根据 EBCM 准则，业务连续性计划和功能验证的每年评审必须在上次审阅的 12 个月内进行。 功能验证必须包括对支持文档（如 BIA）的审阅，以确保其保持准确。 Microsoft 通过季度报告为客户提供精选 Microsoft 在线服务的功能验证结果。
 
 ## <a name="how-do-microsoft-online-services-ensure-system-capacity-meets-demand"></a>Microsoft 联机服务如何确保系统容量满足需求？
 
@@ -55,7 +55,7 @@ Microsoft 的 Enterprise 业务连续性管理 (EBCM) 策略规定，必须每�
 
 Microsoft 在线服务通过冗余体系结构、数据复制和自动完整性检查实现服务恢复。 冗余体系结构涉及在地理位置和物理上独立的硬件上部署服务的多个实例，为 Microsoft 联机服务提供更高的容错能力。 数据复制可确保不同容错区域中始终存在客户数据的多个副本，从而允许在客户损坏、丢失甚至意外删除时恢复关键客户数据。 自动完整性检查通过自动还原受多种物理或逻辑损坏影响的数据来增加数据可用性。
 
-## <a name="related-external-regulations--certifications"></a>认证的相关&法规
+## <a name="related-external-regulations--certifications"></a>认证相关的&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与复原和连续性相关的控件的验证，请参阅下表。
 

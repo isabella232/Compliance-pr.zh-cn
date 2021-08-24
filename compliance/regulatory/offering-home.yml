@@ -15,7 +15,7 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/30/2020
-  localization_priority: Normal
+  ms.localizationpriority: medium
 conceptualContent:
   title: Azure、Dynamics 365 和 Microsoft 365合规性产品/服务
   summary: Azure、Dynamics 365、Microsoft 365 和 Power Platform 以及其他服务的信息，可帮助制定有关数据收集和使用的国家、区域和行业特定法规。
@@ -46,7 +46,7 @@ conceptualContent:
         - url: offering-ISO-27017.md
           itemType: reference
           text: ISO 27017
-    - title: 全局
+    - title: 全球
       links:
         - url: offering-ISO-27018.md
           itemType: reference
@@ -163,7 +163,7 @@ conceptualContent:
           text: FINMA（瑞士）
         - url: offering-finra-4511.md
           itemType: reference
-          text: 'FINRA 4511 (美国) '
+          text: FINRA 4511（美国）
         - url: offering-fisc-japan.md
           itemType: reference
           text: FISC（日本）
@@ -172,7 +172,7 @@ conceptualContent:
           text: FSA（丹麦）
         - url: offering-glba.md
           itemType: reference
-          text: 'GLBA (US) '
+          text: GLBA（美国）
         - url: /azure/compliance/offerings/offering-gsma
           itemType: reference
           text: GSMA
@@ -259,7 +259,7 @@ conceptualContent:
           text: 加拿大隐私法
         - url: offering-ccpa.md
           itemType: reference
-          text: 'CCPA (美国加州) '
+          text: 'CCPA (美国加利福尼亚) '
         - url: /azure/compliance/offerings/offering-uk-cyber-essentials-plus
           itemType: reference
           text: Cyber Essentials Plus（英国）
@@ -285,7 +285,7 @@ conceptualContent:
           text: ENS（西班牙）
         - url: offering-eu-model-clauses.md
           itemType: reference
-          text: 欧盟示范条款
+          text: 欧盟模式条款
         - url: 'https://www.trustcenter.cn/compliance/default.html#GB18030'
           itemType: reference
           text: GB 18030（中国）

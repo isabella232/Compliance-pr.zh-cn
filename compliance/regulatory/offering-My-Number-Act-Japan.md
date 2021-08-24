@@ -2,7 +2,7 @@
 title: 个人编号法案（日本）
 description: Microsoft 商业云服务符合日本关于保护个人编号数据隐私的个人编号法案标准。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b42632e272946b13e2b4055ae3411f44a37c0f24
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: e38e5f2c370692a60d07ac25491ae457e0ed34c0
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260966"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482205"
 ---
 # <a name="my-number-act-japan"></a>个人编号法案（日本）
 

@@ -12,7 +12,7 @@ ms.topic: article
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -22,18 +22,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: f9cd84fed225764b61049aefc3ec95b2eb75fce845b2b9ef752fc194d949c409
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: b2f88172d2a8158a2232acd1c4312217d7c3fef4
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292439"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482085"
 ---
 # <a name="datacenter-security-overview"></a>数据中心安全概述
 
 ## <a name="how-does-microsoft-host-its-online-services"></a>Microsoft 如何托管其联机服务？
 
-Microsoft 为客户提供了 200 多个云服务，包括 Microsoft Azure、Microsoft 365 和 Microsoft Dynamics 365 等企业服务。 这些服务托管在由全球分布式数据中心、边缘计算节点和服务运营中心组成的 Microsoft 云基础结构中。 它们受全球最大网络之一的支持和连接，且具有广泛的光纤占用。
+Microsoft 为客户提供了 200 多个云服务，包括 Microsoft Azure、Microsoft 365 和 Microsoft Dynamics 365 等企业服务。 这些服务托管在由全球分布的数据中心、边缘计算节点和服务运营中心组成的 Microsoft 云基础结构中。 它们受全球最大网络之一的支持和连接，且具有广泛的光纤占用。
 
 为云产品/服务提供支持的数据中心侧重于高可靠性、卓越运营、成本效益、环境可持续性，以及为全球客户和合作伙伴提供可信赖的联机体验。 Microsoft 会定期进行内部和第三方审核，以测试数据中心安全性。 因此，世界上高度管控的组织信任 Microsoft 云，比任何其他云服务提供商都符合更多的认证。
 
@@ -63,7 +63,7 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 |:--------------------|:------------|:-----------------------|  
 | [Azure (ISO 27001/27002) ](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=e9116047-f327-430c-a83f-166b7e561ad6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=00af6c3e-7f3e-4e0d-8b0e-79f45ef2cef1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=d7af5304-3a31-40e6-9abb-e26352305d41&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.11：物理和环境安全 | 2020 年 12 月 2 日 |
 | [Azure (SOC 1) ](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=66043614-5628-4e26-83be-057eb3bb026c&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | PE-1：数据中心物理访问设置 <br> PE-2：数据中心安全验证 <br> PE-3：数据中心用户访问评审 <br> PE-4：数据中心物理访问机制 <br> PE-5：数据中心物理监控监控 <br> PE-6：数据中心关键环境维护 <br> PE-7：数据中心环境控件 <br> PE-8：数据中心事件响应 | 2020 年 10 月 30 日 |
-| [Azure (SOC 2) ](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=ce5bfbea-3514-40ae-a8a6-3617106a0b56&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | PE-1：数据中心物理访问设置 <br> PE-2：数据中心安全验证 <br> PE-3：数据中心用户访问评审 <br> PE-4：数据中心物理访问机制 <br> PE-5：数据中心物理监控监控 <br> PE-6：数据中心关键环境维护 <br> PE-7：数据中心环境控件 <br> PE-8：数据中心事件响应 | 2020 年 10 月 30 日 |
+| [AZURE (SOC 2) ](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=ce5bfbea-3514-40ae-a8a6-3617106a0b56&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | PE-1：数据中心物理访问设置 <br> PE-2：数据中心安全验证 <br> PE-3：数据中心用户访问评审 <br> PE-4：数据中心物理访问机制 <br> PE-5：数据中心物理监控监控 <br> PE-6：数据中心关键环境维护 <br> PE-7：数据中心环境控件 <br> PE-8：数据中心事件响应 | 2020 年 10 月 30 日 |
 
 ## <a name="resources"></a>资源
 

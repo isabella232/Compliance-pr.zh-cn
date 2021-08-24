@@ -2,7 +2,7 @@
 title: '国际武器贸易条例 (ITAR) '
 description: Azure 政府支持客户构建支持武器注册系统的美国国际通信。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,24 +16,24 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d5bebc4a270a11518989c548ef17ac48b8f79b5cc5720f09bc8677c40e422421
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 5f3a17ca4f06f61b62bcc13e44b74ad4d436a6da
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293880"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482917"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>国际武器贸易条例 (ITAR) 
 
 ## <a name="itar-overview"></a>ITAR 概述
 
-美国国防部负责管理美国国防条款的导出和临时导入 (美国商品列表下指定的任何项目或技术数据。 如 Title 22 CFR 121.1) that are described by the Title 22 USC 2778) by the (Title 22 CFR 120-130) and the International Traffic in Arms Regulations (ITAR)  (Title 22 CFR 120-130) . 美国国防贸易管理局 (DDTC) 负责管理这些计划下管理的实体。
+美国国防部负责管理美国国防条款的导出和临时导入 (美国国防部列表下指定的任何项目或技术数据。 如 Title 22 CFR 121.1) that are described in the Title 22 CFR 121.1) that are governed by the Arms Export Control Act (Title 22 USC 2778) and the International Traffic in Arms Regulations (ITAR)  (Title 22 CFR 120-130) . 美国国防贸易管理局 (DDTC) 负责管理这些计划下管理的实体。
 
 ## <a name="microsoft-and-itar"></a>Microsoft 和 ITAR
 
 Microsoft 提供了一些云服务或服务功能，可帮助客户履行 ITAR 义务。 尽管 ITAR 没有合规性认证，但 Microsoft 运营并设计范围内服务，能够支持客户的 ITAR 义务和合规性计划。  
   
-Microsoft Azure美国政府Microsoft Office 365政府国防计划通过针对存储数据的位置的其他合同承诺，以及限制美国人员访问此类数据的能力，为受 ITAR 限制的客户提供支持。 Microsoft 为这些政府云服务的基础结构和运营组件提供这些保证，但客户最终负责在其环境中对其应用程序的保护和体系结构。  
+Microsoft Azure美国政府Microsoft Office 365政府国防计划通过就存储数据的位置以及访问此类数据的能力限制向受 ITAR 限制的客户提供额外合同承诺，为受 ITAR 限制的客户提供支持。 Microsoft 为这些政府云服务的基础结构和运营组件提供这些保证，但客户最终负责在其环境中对其应用程序的保护和体系结构。  
   
 客户必须签署其他协议，正式通知 Microsoft 他们打算存储 ITAR 控制的数据，以便 Microsoft 可以履行对我们客户和美国政府的责任。  
   
@@ -41,7 +41,7 @@ ITAR 有报告违反行为的特定义务，这可以提供一些风险缓解优
   
 希望托管 ITAR 监管数据的客户应该与 Microsoft 帐户和许可团队协作，以了解更多信息、获得适当的协议以及访问相关的系统体系结构信息。
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内云平台和云服务
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure 政府
 - Office 365美国政府 - 高、Office 365防御

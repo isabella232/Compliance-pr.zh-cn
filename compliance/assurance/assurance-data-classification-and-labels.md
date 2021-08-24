@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 396063b9ab094c7e5834572fe778046464ade81d
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: a68332971da909d8739039be6f0c8d84310ff9f9
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260327"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482135"
 ---
 # <a name="data-classification--sensitivity-label-taxonomy"></a>数据分类&敏感度标签分类
 
@@ -39,8 +39,8 @@ ms.locfileid: "58260327"
 
 ## <a name="what-is-a-data-classification-framework"></a>什么是数据分类框架？
 
-数据分类框架（有时称为"数据分类策略 (通常编成一个正式企业范围的策略) 通常由 3-5 个分类级别组成。 这些元素通常包括三个元素：名称、说明和实际示例。 Microsoft 建议不要超过五个顶级父标签，每个标签具有五个子标签 (25) ，以保持用户界面 (UI) 可管理。 级别通常从最低到最敏感（如 *公共*、内部、*机密* 和 *高度* 
- *机密）排列*。 你可能会遇到的其他级别名称变体包括 *Restricted、Unrestricted* 和 *Consumer Protected*。 Microsoft 建议使用自我描述性标签名称，并明确突出显示其相对敏感度。 例如 *，"机密*"和"受限"可能会让用户猜出哪个标签合适，而"机密"和"高度机密"更为清晰，哪个标签更为敏感。  
+数据分类框架（有时称为"数据分类策略 (通常编成一个正式企业范围的策略) 通常由 3-5 个分类级别组成。 这些元素通常包括三个元素：名称、说明和实际示例。 Microsoft 建议不要超过五个顶级父标签，每个标签具有五个子标签 (25) ，以保持用户界面 (UI) 可管理。 级别通常从最低到最敏感进行排列，如 *公共*、内部 *、机密* 和 *高度* 
+ *机密*。 你可能会遇到的其他级别名称变体包括 *Restricted、Unrestricted* 和 *Consumer Protected*。 Microsoft 建议使用自我描述性标签名称，并明确突出显示其相对敏感度。 例如 *，"机密*"和"受限"可能会让用户猜出哪个标签合适，而"机密"和"高度 *机密*"更清楚地解释哪个标签更为敏感。 
 
 下表显示了高度 *机密数据分类* 框架级别的示例：
 
@@ -51,7 +51,7 @@ ms.locfileid: "58260327"
 >[!TIP]
 >Microsoft 的企业数据分类框架最初在试点阶段使用名为"Internal"的类别和标签，但发现出于合理原因，文档在外部共享并转移到使用"常规"。
 
-数据分类框架的另一个重要组件是每个级别关联的控件。 数据分类级别本身只是用于 (标签或) 标签，用于指示内容的值或敏感度。 为了保护 *该* 内容，数据分类框架定义了应针对每个数据分类级别实施的控制。 这些控件可能包括与以下相关的要求：
+数据分类框架的另一个重要组件是每个级别关联的控件。 数据分类级别本身只是 (标签或) 标签，用于指示内容的值或敏感度。 为了保护 *该* 内容，数据分类框架定义了应针对每个数据分类级别实施的控制。 这些控件可能包括与以下相关的要求：
 
 - 存储类型和位置
 - 加密
@@ -72,4 +72,4 @@ ms.locfileid: "58260327"
 
 数据分类处理指南将帮助最终用户获得有关如何在生命周期内为不同存储媒体适当处理每一级数据的特定指南。 这些指南可帮助最终用户在实际操作中正确应用规则，例如在共享文档、发送电子邮件或跨不同平台和组织进行协作时。
 
-Microsoft 客户表示，大约 50% 的信息保护项目专注于业务而不是技术，因此最终用户培训和沟通对于成功至关重要。
+Microsoft 客户表示，大约 50% 的信息保护项目侧重于业务而不是技术，因此最终用户培训和沟通对于成功至关重要。

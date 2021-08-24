@@ -2,7 +2,7 @@
 title: 加州消费者隐私法案 (CCPA)
 description: Microsoft 服务和加州消费者隐私法案 (CCPA) 。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 75f814c49395e5b945d0b9092b1158fad3376ce684ea3a8fb43115d51fe6bba5
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 61b15a095dec310aac74bac10b2d062eb1011750
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288251"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482657"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>加州消费者隐私法案 (CCPA)
 
@@ -29,15 +29,15 @@ ms.locfileid: "54288251"
 
 加州消费者隐私法案 (CCPA) 美国第一个全面的隐私法。 它向加州消费者提供各种隐私权利。  CCPA 监管的企业会向这些消费者履行多项义务，包括披露、一般数据保护条例 (GDPR) 等消费者数据主体权利 (DSR) 、某些数据传输的"选择退出"和未成年人的"选择加入"要求。
 
-CCPA 仅适用于在加利福尼亚经营业务但满足以下一项或一项以上条件的公司： (1) 年收入超过 2，500 万美元， 或 (2) 通过销售加利福尼亚消费者个人信息获得其年收入超过 50%，或者每年购买、销售或共享超过 50，000 个加州消费者的个人信息的 (3) 。
+CCPA 仅适用于在加利福尼亚经营业务但满足以下一项或一项以上条件的公司： (1) 年收入超过 2，500 万美元， 或 (2) 通过销售加利福尼亚消费者个人信息获得其年收入超过 50%，或者每年购买、销售或共享超过 50，000 个加利福尼亚消费者的个人信息的 (3) 。
 
 CCPA 将于 2020 年 1 月 1 日生效。 但是，由加州律师总 (AG) 将于 2020 年 7 月 1 日开始。
 
-加州公司将强制执行 CCPA，并拥有对不符合规定罚款的罚款。 CCPA 还提供了仅限于数据泄露的私有行动权利。 私人诉权规定，每位消费者在每个事件中受到的损失可能介于 100 美元到 750 美元之间。 加州司法部长还可在整体上实施 CCPA，可就每次违规征收不超过 2,500 美元的民事罚款，就每次故意违规征收 7,500 的的民事罚款。
+加州银行将强制执行 CCPA，并拥有对不符合规定罚款的罚款。 CCPA 还提供了仅限于数据泄露的私有行动权利。 私人诉权规定，每位消费者在每个事件中受到的损失可能介于 100 美元到 750 美元之间。 加州司法部长还可在整体上实施 CCPA，可就每次违规征收不超过 2,500 美元的民事罚款，就每次故意违规征收 7,500 的的民事罚款。
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft 和 CCPA
 
-对于在加利福尼亚有业务业务的商业客户，Microsoft 将充当在线服务和在线服务Professional服务提供商。  联机服务条款 (OST) 和 Microsoft Professional Services 数据保护附录 (MSDPA) 的条款已满足 CCPA 下服务提供商的要求，通常足以允许客户继续将数据转移到我们的联机服务。 因此，客户无需进行额外的合同更改，就可以根据 CCPA 依赖 Microsoft 作为服务提供商。
+对于在加利福尼亚有业务业务的商业客户，Microsoft 将充当在线服务和在线服务Professional服务提供商。  在线服务条款 (OST) 和 Microsoft Professional Services 数据保护附录 (MSDPA) 已满足 CCPA 下服务提供商的要求，通常足以允许客户继续将数据转移到我们的联机服务。 因此，客户无需进行额外的合同更改，就可以根据 CCPA 依赖 Microsoft 作为服务提供商。
 
 如 OST 中所列，Microsoft 遵守适用于在线服务的所有法律和法规，其中包括 CCPA。  
 
@@ -53,7 +53,7 @@ CCPA 将于 2020 年 1 月 1 日生效。 但是，由加州律师总 (AG) 将�
 
 ## <a name="how-you-can-prepare-for-your-ccpa-compliance-when-using-microsoft-products-and-services"></a>如何使用 Microsoft 产品和服务准备 CCPA 合规性
 
-以下是为 CCPA 做好准备的一些步骤：
+以下是准备 CCPA 的一些步骤：
 
 - 开始在合规性管理器中利用 GDPR [评估，作为](/microsoft-365/compliance/compliance-manager) CCPA 隐私计划的一部分。
 - 建立一个流程，以使用数据主体请求工具 (DSAR) 响应数据主体访问请求。
@@ -66,7 +66,7 @@ CCPA 将于 2020 年 1 月 1 日生效。 但是，由加州律师总 (AG) 将�
 
 CCPA 向加利福尼亚人提供的许多权利都类似于 GDPR 提供的权利，包括披露和数据主体权利 (DSR) 请求，如访问、删除和可移植性。 因此，客户可以查找我们现有的 GDPR 解决方案，以帮助他们遵守 CCPA。
 
-要开始 CCPA 之旅，应专注于发现信息、确定个人信息的共享方式、管理信息的使用方式、保护方式以及制定正式的数据泄露响应计划。
+要开始 CCPA 之旅，应专注于信息发现、确定个人信息的共享方式、管理信息的使用方式、保护方式以及制定正式的数据泄露响应计划。
 
 **GDPR 与 CCPA 之间有何区别？**
 
@@ -77,7 +77,7 @@ CCPA 向加利福尼亚人提供的许多权利都类似于 GDPR 提供的权利
 - 定义"服务提供商"，与 GDPR 定义具有类似合同义务的"处理者"的方式类似，
 - 包含 GDPR 定义的"控制者"的"企业"的定义。
 
-CCPA 中的最大差异是允许选择不向第三方销售数据的核心要求 (并广泛定义"出售"以包括共享数据，以便获得有价值的) 。
+CCPA 中的最大差异是，核心要求是允许选择不向第三方销售数据 (并广泛定义"出售"，以包括共享数据，以便获得有价值的) 。
 
 **根据 CCPA 的规定，公司必须落实哪些权利？**
 
@@ -93,7 +93,7 @@ CCPA 要求收集、传输个人信息以及向其中销售个人信息的受监
 **CCPA 如何适用于儿童？**
 
 - 针对未满 13 岁的儿童，CCPA 引入了与美国《儿童在线隐私保护法案》(COPPA) 相符的家长同意义务。
-- 对于 13 到 16 之间的儿童，CCPA 规定了一项新义务，以征得该儿童选择加入同意。
+- 对于 13 到 16 之间的儿童，CCPA 规定了一项从该儿童获得选择加入同意的新义务。
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

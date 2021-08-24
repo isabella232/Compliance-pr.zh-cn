@@ -1,8 +1,8 @@
 ---
-title: '澳大利亚审慎监管局 (A一) '
+title: '澳大利亚审慎监管局 (A在) '
 description: 帮助金融服务客户遵守澳大利亚审慎监管局外包标准的 Microsoft 指南。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 912b9770f4b8afb54fb98455b313498d7ebf7af4
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: e8e6ca43cbce4755ab29f3ef7cadc06a5dda7e32
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260624"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482285"
 ---
-# <a name="australian-prudential-regulation-authority-apra"></a>澳大利亚审慎监管局 (A一) 
+# <a name="australian-prudential-regulation-authority-apra"></a>澳大利亚审慎监管局 (A在) 
 
 ## <a name="apra-overview"></a>APRA 概述
 
-澳大利亚 [审慎监管](https://www.apra.gov.au/) 局 (A且) 澳大利亚银行、信用联合银行、保险公司和其他金融服务机构。 认识到云计算的发展，A ENTITI 已要求受管制实体实施考虑周到的云采用策略，有效治理、全面的风险评估和定期保证流程。 监管机构在外包实质性业务活动（任何可能（如果中断）对金融机构的业务运营或有效管理风险的能力有显著影响的活动时，必须遵守 ASO 审慎标准 [CPS 231](https://www.apra.gov.au/sites/default/files/Prudential-Standard-CPS-231-Outsourcing-%28July-2017%29.pdf) 外包。 基于对涉及提交到 A从而涉及云计算服务的外包安排的回顾，A且 A且在其信息白皮书中发布了具体的详细指南[](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)：涉及云计算服务的外包，以帮助被监管实体更有效地评估云提供商和服务，并指导他们解决外包到云的法规问题。  外包（包括外包到云服务）时，受监管机构还必须审查并考虑其是否持续遵守 A ONGOING [审慎标准 CPS 234 信息安全](https://www.legislation.gov.au/Details/F2018L01745)。
+澳大利亚 [审慎监管](https://www.apra.gov.au/) 局 (A且) 澳大利亚银行、信用额度、保险公司和其他金融服务机构。 认识到云计算的发展，A ENTITI 已要求受管制实体实施考虑周到的云采用策略，有效治理、全面的风险评估和定期保证流程。 监管机构在外包实质性业务活动（任何可能（如果中断）对金融机构的业务运营或有效管理风险的能力有显著影响的活动时，必须遵守 ASO 审慎标准 [CPS 231](https://www.apra.gov.au/sites/default/files/Prudential-Standard-CPS-231-Outsourcing-%28July-2017%29.pdf) 外包。 基于对涉及提交到 A从而涉及云计算服务的外包安排的回顾，A且 A且在其信息白皮书中发布了具体的详细指南[](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)：涉及云计算服务的外包，以帮助受管制实体更有效地评估云提供商和服务，并指导他们解决外包到云的法规问题。  外包（包括外包到云服务）时，受监管机构还必须审查并考虑其是否持续遵守 A ONGOING [审慎标准 CPS 234 信息安全](https://www.legislation.gov.au/Details/F2018L01745)。
 
 ## <a name="microsoft-and-apra"></a>Microsoft 和 APRA
 
@@ -37,7 +37,7 @@ ms.locfileid: "58260624"
 - [Microsoft 云服务：澳大利亚金融机构的合规性清单](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)
 - [Microsoft 云服务：符合 ASO 审慎标准 CPS 234](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OsZg)
 
-它们共同演示金融公司如何将数据和工作负载移动到 Microsoft Azure，并证明他们遵守澳大利亚审慎监管局 (A且) 法规和指导。
+它们一起演示金融公司如何将数据和工作负载移动到Microsoft Azure，并证明他们遵守澳大利亚审慎监管局 (A且) 法规和指导。
 
 若要了解 Azure 上符合 A ISO 的金融服务的好处，请阅读 [Regtech meets Fintech： 永久和 Microsoft transform the finance-sector一](https://news.microsoft.com/en-au/features/regtech-meets-fintech-perpetual-microsoft-transform-finance-sector/) 文。
 
@@ -45,7 +45,7 @@ ms.locfileid: "58260624"
 
 本 Microsoft 白皮书针对金融服务提供了详细的指导，并针对涉及云计算服务的 A此操作信息纸张外包中提出的每个问题 [提供了详细响应](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)。 A从而确定云使用通常属于的三种风险类别（低、高和极端固有风险）并重点说明受管制实体必须视为其风险评估一部分的关键问题。
 
-Microsoft 的响应重点关注两个风险最高的类别。 尽管任何风险类别均不禁止云服务，但 A从而希望您采取明显更高的监管级别，并且您应该在风险类别上移时，预计 A从而得到更高级别的 A从而进行审核。 A OUTSOURCING 列出了一系列因素，这些因素通常指示云外包的高或极端固有风险。 Microsoft 深入解决了其中每个因素，提供了一些信息和工具，可帮助你评估和管理将数据和工作负载迁移到 Azure 的风险。
+Microsoft 的响应重点关注两个风险最高的类别。 尽管任何风险类别均不禁止云服务，但 A从而希望您采取明显更高的监管级别，并且您应该在风险类别上移时，预计 A从而获得更高级别的 A从而进行审核。 A OUTSOURCING 列出了一系列因素，这些因素通常指示云外包的高或极端固有风险。 Microsoft 深入解决了其中每个因素，提供了一些信息和工具，可帮助你评估和管理将数据和工作负载迁移到 Azure 的风险。
 
 Microsoft 还解决了每个 A ONGOING 风险管理注意事项：策略、治理、解决方案选择过程、A ONGOING 访问和操作能力、转换方法、风险评估和安全性、持续监督、业务中断以及审核和保证。 我们会提供建议并提供工具，帮助你在部署 Azure 时响应每个问题。
 
@@ -96,13 +96,13 @@ Microsoft 云服务：遵守[A且谨慎标准 CPS 234](https://query.prod.cms.rt
 
 **在外包材料业务活动之前，金融机构是否需要 A唯一审批？**
 
-否。 但是，大多数受监管金融组织在签订协议以外包澳大利亚范围内的材料业务活动之后，必须通知 A分钟内，或咨询 A分钟内将这些活动外包给澳大利亚以外的组织。
+不正确。 但是，大多数受监管金融组织在签订协议以外包澳大利亚范围内的材料业务活动之后，必须通知 A分钟内，或咨询 A分钟内将这些活动外包给澳大利亚以外的组织。
 
 此外，如果认为云服务具有云上的 [A操作信息](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)白皮书中所述的"高风险或极端固有风险"，则鼓励金融机构 (但不要求) 咨询 A分钟内的服务，无论该服务是在澳大利亚内部还是外部提供。
 
 **是否允许在澳大利亚以外传输数据？**
 
-可以。 一般隐私 (法律适用于所有部门，而不仅是金融机构，) 在某些条件下允许在澳大利亚以外传输。 Microsoft 同意根据澳大利亚隐私原则的合同条款，以便使用 Microsoft 云服务时允许传输澳大利亚以外的数据。 但是，我们的许多澳大利亚金融服务客户利用澳大利亚数据中心提供的云服务，我们为此做出特定的合同承诺，将其余的数据类别存储在澳大利亚地理位置。 这些承诺在合规性清单中进 [一步概述了](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)。
+是。 一般隐私 (法律适用于所有部门，而不仅是金融机构，) 在某些条件下允许在澳大利亚以外传输。 Microsoft 同意根据澳大利亚隐私原则的合同条款，以便使用 Microsoft 云服务时允许传输澳大利亚以外的数据。 但是，我们的许多澳大利亚金融服务客户利用澳大利亚数据中心提供的云服务，我们为此做出特定的合同承诺，将其余的数据类别存储在澳大利亚地理位置。 这些承诺在合规性清单中进 [一步概述了](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)。
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

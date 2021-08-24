@@ -10,23 +10,23 @@ f1.keywords:
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 78c27f10d963dd3653e7ab444143baae7c989e3ff7f3ce62cb2f45db7a55922f
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 71e84ad97c560cd90b8ba49a1c568dd70fd516f5
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287263"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482065"
 ---
 # <a name="developing-your-business-continuity-plan"></a>制定业务连续性计划
 
-本主题提供有关制定业务连续性计划的指南，该计划Microsoft 365依赖关系。 此处推荐了分析业务功能和确定依赖于 Microsoft 365 服务的内容的方法。 执行此分析时，做好将出现服务故障的预计，并且必须为这些可能性做好准备。
+本主题提供有关制定业务连续性计划的指南，该计划将Microsoft 365依赖关系考虑在内。 此处推荐了分析业务功能和确定依赖于 Microsoft 365 服务的内容的方法。 执行此分析时，做好将出现服务故障的预计，并且必须为这些可能性做好准备。
 
 一般说来，业务连续性计划包括四个方面，即评估、计划、功能验证以及通信和协调。
 
@@ -93,9 +93,9 @@ ms.locfileid: "54287263"
 
 在业务影响分析和依赖关系分析期间，将会映射关键流程及其依赖的技术或服务。 在计划和考虑备选方案过程中，请特别留意有关通信的注意事项。 下面是一些示例。
 
-- 如果电子邮件是随时通知用户和利益干系人的主要方法，而电子邮件服务已降级或不可用，那么你可以使用其他服务（如 Microsoft Teams、Yammer 或其他第三方服务）作为备份。 关键是事先建立这些备份，并向用户培训它们的访问位置。 如果Yammer或没有为线程添加书签，则线程线程将没有用处。  
+- 如果电子邮件是随时通知用户和利益干系人的主要方法，而电子邮件服务已降级或不可用，那么你可以使用其他服务（如 Microsoft Teams、Yammer 或其他第三方服务）作为备份。 关键是事先建立这些备份，并向用户培训它们的访问位置。 如果Yammer或没有人为线程添加书签，则线程线程将没有用处。  
 - 如果内部事件管理流程依赖于语音通信来协调响应，请建立一个备选电话服务解决方案，以便在危机过程中使用。 此解决方案不需要与主要服务完全对等，但应提供最低级别的协作，以协调业务连续性和事件管理团队。 此外，要求用户在全局地址列表中发布移动电话号码，可在极端情况下提供额外层面的备份通信。
-- 你可能需要创建自定义服务运行状况仪表板或其他此类站点，从而在事件发生期间提供状态更新。 培训用户预先获取信息的位置将有助于减少对帮助台的不必要呼叫，并灌输用户群体对快速高效处理情况的信心。 使用 O365 服务通信 API 将此信息Microsoft 365内容，实现更高级别的可见性。  
+- 你可能需要创建自定义服务运行状况仪表板或其他此类站点，从而在事件发生期间提供状态更新。 培训用户预先获取信息的位置将有助于减少对帮助台的不必要呼叫，并灌输用户群体对快速高效处理情况的信心。 使用 O365 服务通信 API 将此信息Microsoft 365内容，以提升可见性级别。  
 - 重要的是业务连续性计划和标准操作程序的位置应当是众所周知的。 建议保留关键文档的在线和离线副本，例如将 SharePoint Online 或 OneDrive for Business 配置为自动同步到本地设备。 对于服务/网络运营中心和其他对恢复至关重要的类似团队，你可能还需要保留可供在紧急情况下使用的硬拷贝。
 
 ## <a name="know-your-external-points-of-integration"></a>了解外部集成点

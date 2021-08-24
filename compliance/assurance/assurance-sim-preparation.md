@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: faa44ccc21ce4252745b7878bf0a280c7ec69f7a5d51e96a236a68359cf8f4ea
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: ca194511e000a7d98ddd89ae9ef85a1ee1ee01bd
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291780"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481664"
 ---
 # <a name="microsoft-security-incident-management-preparation"></a>Microsoft 安全事件管理：准备
 
@@ -47,7 +47,7 @@ ms.locfileid: "54291780"
 - 查找有关安全性和隐私性的其他信息的位置，以及上报联系人。
 - 每年可能相关的任何其它安全重点领域
 
-每个使用 Microsoft 在线服务的员工都需接受相应且全面的背景调查，其中包括应聘者的教育、雇佣、犯罪历史记录和其他美国法规（如健康保险可移植性和责任法案 (HIPAA) 、国际武器贸易条例 (ITAR) 、联邦风险和授权管理计划 (FedRAMP) 等）的其他特定信息。
+每个使用 Microsoft 联机服务的员工都需接受适当而全面的背景调查，其中包括应聘者的教育、雇佣、犯罪历史记录和其他特定信息，如健康保险可移植性和责任法案 (HIPAA) 、国际武器贸易条例 (ITAR) 、联邦风险和授权管理计划 (FedRAMP) 等。
 
 对于在 Microsoft 工程部门工作的所有员工来说，背景检查是必需的。 某些 Microsoft 联机服务环境和操作员角色可能还需要完全指纹、公民要求、政府许可要求和其他更严格的控制。 此外，一些服务团队和角色可能会根据需要通过专门的安全培训。 最后，安全团队成员本身需要接受直接与安全相关的专门培训，并参与安全直接相关的会议。 此培训因团队和员工需要而异，但包含行业会议、内部 Microsoft 安全会议，以及行业内知名安全培训供应商的外部培训课程等内容。 我们还每年为 Microsoft 的安全社区发布专门的安全培训文章，并定期专门介绍 Microsoft 联机服务。
 

@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 1804fd2ccac4314dd4f2363e460c9470fa0f2299
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 3212ca2a42677dc27afda8a7598b39d7f24bf27c
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260337"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482185"
 ---
 # <a name="audit-logging-overview"></a>审核日志记录概述
 
@@ -60,7 +60,7 @@ Microsoft 联机服务中用于收集和处理审核记录的工具不允许对�
 
 ## <a name="how-do-microsoft-online-services-protect-user-personal-data-that-may-be-captured-in-audit-logs"></a>Microsoft 联机服务如何保护可能在审核日志中捕获的用户个人数据？
 
-在上载日志数据之前，自动日志管理应用程序使用清理服务删除包含客户数据（如租户信息和用户个人数据）的任何字段，并使用哈希值替换这些字段。 将重写匿名日志和哈希日志，然后将这些日志上载到Cosmos。 所有日志传输均通过 FIPS 140-2 (TLS 加密连接) 。
+在上载日志数据之前，自动日志管理应用程序使用清理服务删除包含客户数据（如租户信息和用户个人数据）的任何字段，并使用哈希值替换这些字段。 匿名日志和哈希日志将被重写，然后上传到Cosmos。 所有日志传输均通过 FIPS 140-2 (TLS 加密连接) 。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 

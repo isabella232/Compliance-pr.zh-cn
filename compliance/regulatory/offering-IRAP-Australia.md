@@ -2,7 +2,7 @@
 title: '澳大利亚政府信息安全注册评估员计划 (IRAP) '
 description: Microsoft 包含在澳大利亚认证云服务列表中，用于未分类传播限制标记 (DLM) 和基于澳大利亚网络安全中心 (ACSC) 进行 IRAP 评估和认证的受保护数据。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: df88a1837b948f5f1dc31ad04244b5d9a84442bc
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: cd7ad9a68f69f134689262ad7e379eec89284035
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260307"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483007"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>澳大利亚政府信息安全注册评估员计划 (IRAP) 
 
@@ -34,14 +34,14 @@ IRAP (注册评估员计划) 针对澳大利亚政府政策和指南对系统安
 - 2014 年，Azure 作为澳大利亚第一个 IRAP 评估的云服务启动，托管自 Melbourne 和都州数据中心。 通过这两个数据中心，澳大利亚客户可以控制其客户数据的存储位置，同时通过两个位置的备份提供增强的数据持续性。
 - 2015 年初，Office 365成为首个完成此评估的云生产力服务。
 - 2015 年 4 月，ASD 宣布 Azure 和 Office 365 以及 2015 年 11 月 Dynamics 365 的 CCSL 认证。
-- 2017 年 6 月，ASD 宣布重新Microsoft Azure和Office 365服务集重新认证。
+- 2017 年 6 月，ASD 宣布重新Microsoft Azure和Office 365服务集的重新认证。
 - 2018 年 4 月，ACSC 在受保护的分类中Office 365 Azure 和 Azure 认证。 Microsoft 是首个且唯一一家获得此认证级别的公共云提供商。
 - 2019 年 9 月，Microsoft 更新后的 IRAP 评估范围扩展到了受保护的分类中的 113 项服务。
-- 2020 年 12 月，Microsoft 针对 Azure 和 Microsoft 发布了两项增量 IRAP Office 365。 这些报告利用了 CCSL 认证云服务列表发布后 (指南) 。 这些报告包含对 Microsoft 作为云服务提供商 (CSP) 的评估，以及 Azure、Dynamics 和 Office 365 2019 年报告中递增的其他服务。
+- 2020 年 12 月，Microsoft 发布了针对 Azure 和 Office 365 的两项增量 IRAP 评估。 这些报告利用了 CCSL 认证云服务列表发布后 (指南) 。 这些报告包含对 Microsoft 作为云服务提供商 (CSP) 的评估，以及 Azure、Dynamics 和 Office 365 2019 报告中的增量服务。
 
 ## <a name="microsoft-and-irap"></a>Microsoft 和 IRAP
 
-2020 年 12 月，Microsoft 完成了两项 Azure & Dynamics 和 Office 365评估。 这些评估添加了更多评估到 PROTECTED 分类级别的服务。 此外，这些评估是在 CCSL 云安全指南之后的新发布下进行的，如 ACSC 的云评估和 [云指南](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) 分析中概述。
+2020 年 12 月，Microsoft 完成了两项 Azure & Dynamics 和 Office 365评估。 这些评估添加了更多评估到 PROTECTED 分类级别的服务。 此外，这些评估是在 CCSL 云安全指南之后的新发布下进行的，如 ACSC 云评估和 [计算机](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) 指南剖析所述。
 
 对于每个评估，Microsoft 都聘请了 ACSC 认证 IRAP 评估员，负责检查 Microsoft IT 运营团队、物理数据中心、入侵检测、加密、跨域和网络安全、访问控制以及范围内服务的信息安全风险管理所使用的安全控制和流程。 IRAP 评估发现，Microsoft 系统体系结构基于合理的安全原则，适用的澳大利亚政府信息安全手册 (ISM) 控制已到位，并且在我们的评估服务中完全有效。
 
@@ -91,7 +91,7 @@ IRAP 适用于所有使用云服务的澳大利亚联邦、州以及当地政府
 
 **能否在组织的风险评估和审批过程中使用 Microsoft 的合规性？**
 
-可以。 如果你的组织需要或正在寻求根据 ISM 进行运营的审批，可以在风险评估中对 Azure、Dynamics 365、Microsoft 托管桌面 和 Office 365 进行 IRAP 安全评估。 但是，你负责聘请评估员来评估在 Microsoft 平台上部署的实施情况，以及你自己组织内部的控制措施和流程。
+是。 如果你的组织需要或正在寻求审批以与 ISM 一起运行，可以在风险评估中使用 Azure、Dynamics 365、Microsoft 托管桌面 和 Office 365 的 IRAP 安全评估。 但是，你负责聘请评估员来评估在 Microsoft 平台上部署的实施情况，以及你自己组织内部的控制措施和流程。
 
 **从何处着手执行我的组织自己的风险评估和审批？**
 

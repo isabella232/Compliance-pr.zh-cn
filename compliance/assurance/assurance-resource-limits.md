@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365资源限制
-description: 在本文中，您可以找到有关应用程序内各种应用程序的资源Microsoft 365。
+description: 在本文中，您可以找到有关应用程序内各种应用程序的资源限制Microsoft 365。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 2f64b1201077e25d28d99f49b573912078e4e428ccb51011e17934b1440f75ac
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 764259e22b23ecc7cea363283fc313a94875a2d1
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290540"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481784"
 ---
 # <a name="service-resource-limits"></a>服务资源限制
 
@@ -38,8 +38,8 @@ ms.locfileid: "54290540"
 - [YammerREST API 和速率限制](https://developer.yammer.com/docs/rest-api-rate-limits)
 - [Sway 中的文件大小限制](https://support.office.com/article/File-size-limits-in-Sway-4db21bc6-b42b-499f-9272-66e089db109f)
 
-除了这些限制之外，Azure AD 和 Azure AD 中还使用了一些Microsoft 365。 服务中的限制尤为重要，因为 Microsoft 数据中心的网络资源已针对使用服务的广泛客户进行了优化。 限制机制包括：
+除了这些限制之外，Azure AD 和 Azure 服务中还使用了一些Microsoft 365。 服务中的限制尤为重要，因为 Microsoft 数据中心的网络资源已针对使用服务的广泛客户进行了优化。 限制机制包括：
 
-- Azure AD 和 Microsoft 365 功能用户级别限制，它按脚本或代码 (限制单个用户可以执行的) 或并发呼叫数。
+- Azure AD 和 Microsoft 365 功能用户级别限制，它按脚本或代码 (限制单个用户) 执行的事务数或并发呼叫数。
 - 默认 PowerShell 限制策略在租户创建时分配给每个租户。 这些设置会影响其他项目，例如单个管理员可同时打开的最大 PowerShell 会话数。
 - 每个Exchange Online客户都有一个针对 EWS 客户端操作进行调整的默认 Exchange Web 服务 (EWS) 策略，以及适用于所有 Outlook 客户端Outlook策略。

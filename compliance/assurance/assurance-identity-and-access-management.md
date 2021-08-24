@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 373c910f4c97f7f9ff89ea346c8dceef84dd6a07
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 933db3783c6672fa952f70f18c4815955bcedb21
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260833"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481954"
 ---
 # <a name="identity-and-access-management-overview"></a>标识和访问管理概述
 
 ## <a name="how-do-microsoft-online-services-protect-production-systems-from-unauthorized-or-malicious-access"></a>Microsoft 联机服务如何保护生产系统免受未经授权的或恶意的访问？
 
-Microsoft 在线服务旨在允许 Microsoft 工程师在不访问客户内容的情况下操作服务。 默认情况下，Microsoft 工程师具有零长期访问 (ZSA) 访问客户内容，并且没有对生产环境的特权访问。 Microsoft 联机服务使用实时 (JIT) Just-Enough-Access (JEA) 模型，在需要此访问权限以支持 Microsoft 联机服务时，为服务团队工程师提供对生产环境的临时特权访问。 JIT 访问模型将传统的长期管理访问权限替换为工程师在需要时请求临时提升为特权角色的过程。
+Microsoft 在线服务旨在允许 Microsoft 工程师在不访问客户内容的情况下操作服务。 默认情况下，Microsoft 工程师具有零长期访问 (ZSA) 访问客户内容，并且没有对生产环境的特权访问。 Microsoft 联机服务使用实时 (JIT) 、Just-Enough-Access (JEA) 模型，当需要此类访问来支持 Microsoft 联机服务时，为服务团队工程师提供对生产环境的临时特权访问。 JIT 访问模型将传统的长期管理访问权限替换为工程师在需要时请求临时提升为特权角色的过程。
 
 工程师被分配到服务团队，通过标识和访问管理解决方案支持生产服务请求服务团队帐户的资格。 资格申请触发了一系列人员检查，以确保工程师已通过所有云筛选要求、完成必要的培训，并获得了帐户创建前的适当管理批准。 只有在满足所有资格要求后，才能为申请环境创建服务团队帐户。 若要维护服务团队帐户的资格，人员每年必须接受基于角色的培训，并每两年重新进行一次审查。 未能完成或通过这些检查会导致资格被自动吊销。
 

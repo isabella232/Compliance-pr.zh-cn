@@ -2,7 +2,7 @@
 title: 符合 GDPR 和 CCPA 的 Visual Studio 系列数据主体请求
 description: 了解如何使用 Microsoft 工具在针对 GDPR 和 CCPA 的 Visual Studio 中管理系列数据主体请求。
 keywords: Visual Studio, Visual Studio Code, Visual Studio for Mac, Visual Studio 文档, 隐私, GDPR, CCPA
-localization_priority: Priority
+ms.localizationpriority: high
 audience: itpro
 ms.prod: visual-studio-family
 ms.topic: article
@@ -20,12 +20,12 @@ ms.workload:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: be51b20692b003c3f59838a616ac95eb95eb95280f0ddae3a1aed4a6b95d8b41
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 4a3119ad93c0de5de96e748f7692ba6ddef42c80
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293119"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482877"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Visual Studio 系列数据主体请求
 

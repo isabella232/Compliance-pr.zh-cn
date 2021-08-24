@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: f732ccf412272ec7138ac24fcc1f89dcf9bacacf1e64865ebfb9ba4e9dc6daf8
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 1cecf95d167e75f1c31360bca831184dee3e322e
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291000"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481964"
 ---
 # <a name="human-resources-overview"></a>人力资源概述
 
@@ -42,13 +42,13 @@ Microsoft 对所有员工、员工和临时员工都遵循严格的人员筛选�
 - 性注册表审查
 - 全局处罚列表审阅
 
-## <a name="what-additional-checks-are-performed-for-employees-that-manage-cloud-services"></a>对管理云服务的员工执行哪些额外的检查？
+## <a name="what-additional-checks-are-performed-for-employees-that-manage-cloud-services"></a>对管理云服务的员工执行哪些附加检查？
 
 除了雇佣前筛选之外，在美国维护 Microsoft 在线服务的 Microsoft 员工还必须接受 Microsoft 云背景调查，这是访问联机服务系统的先决条件。 背景检查的要求各不相同，以遵守适用的法律和服务交付模型。 Microsoft 云背景检查的结果存储在员工数据库中，并且至少每两年续订一次。 如果 Microsoft 云背景检查过期且员工未续订它，则撤消对联机服务的访问权限，在 Microsoft 云背景检查完成之前不再可用。 同样，当与 Microsoft 的雇佣关系终止时，将立即撤消所有访问权限。
 
 ## <a name="how-does-microsoft-ensure-employees-maintain-sufficient-skills-and-knowledge-to-perform-their-responsibilities-and-follow-microsoft-policies"></a>Microsoft 如何确保员工保持足够的技能和知识来履行他们的责任并遵循 Microsoft 政策？
 
-所有 Microsoft 员工都需要完成基本安全意识培训。 新员工开始在 Microsoft 工作时进行初始培训，此后每年都会进行年度复习培训。 培训旨在让员工了解 Microsoft 的基本安全方法。 在授予个人的工作职责所需的任何特定访问权限之前，还需要基于角色的适用安全培训。 Microsoft 员工的安全培训每年刷新一次，当系统或策略更改需要新培训时。
+所有 Microsoft 员工都需要完成基本安全意识培训。 新员工开始在 Microsoft 工作时将接受初始培训，此后每年都会进行年度进修培训。 培训旨在使员工对 Microsoft 的安全措施形成基本了解。 在授予个人的工作职责所需的任何特定访问权限之前，还需要基于角色的适用安全培训。 Microsoft 员工的安全培训每年刷新一次，当系统或策略更改需要新培训时。
 
 除了安全意识培训之外，Microsoft 员工还必须完成商业标准行为准则培训。 此培训包括业务准则、员工安全、隐私、反骚扰和零容忍度（针对无信息行为）。 课程结束时，员工必须证明他们将遵守在组织级别跟踪的 Microsoft 业务行为准则。 业务行为标准培训每年更新一次。
 
@@ -60,9 +60,9 @@ Microsoft 对所有员工、员工和临时员工都遵循严格的人员筛选�
 
 ## <a name="how-does-microsoft-ensure-third-party-suppliers-meet-the-same-personnel-requirements-as-microsoft-employees"></a>Microsoft 如何确保第三方供应商满足与 Microsoft 员工相同的人员要求？
 
-Microsoft 在线服务要求第三方供应商在 MSSA (主供应商服务) 。 本协议要求供应商遵守 Microsoft 策略和程序，包括人员安全策略和过程。 Microsoft 通过直接跟踪筛选结果来监视第三方人员的屏蔽要求的合规性。 Microsoft 要求供应商直接向 Microsoft 提交第三方人员的筛选结果。
+Microsoft 在线服务要求第三方供应商在 MSSA (签订主供应商服务) 。 本协议要求供应商遵守 Microsoft 策略和程序，包括人员安全策略和过程。 Microsoft 通过直接跟踪筛选结果来监视第三方人员的屏蔽要求的合规性。 Microsoft 要求供应商直接向 Microsoft 提交第三方人员的筛选结果。
 
-## <a name="related-external-regulations--certifications"></a>认证的相关&法规
+## <a name="related-external-regulations--certifications"></a>认证相关的&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与人力资源相关的控制措施的验证，请参阅下表。
 

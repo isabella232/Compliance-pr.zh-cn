@@ -2,7 +2,7 @@
 title: 法国健康数据托管 (HDS)
 description: Microsoft 云服务已经过认证，符合健康数据托管 (Hébergeurs de Données de Santé) 标准。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4d69d75e99537e7087a4ddf880f1f26ee03af463d23738f548499f0c6b39daed
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: aea00230d5f34c2e682aa278ab5dc6ca062fa803
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293799"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482475"
 ---
 # <a name="health-data-hosting-hds-france"></a>法国健康数据托管 (HDS)
 

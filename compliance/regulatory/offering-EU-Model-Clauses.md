@@ -2,7 +2,7 @@
 title: 欧盟模式条款
 description: Microsoft 提供欧盟标准合同条款，可保证个人数据的传输。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 806f5ed0636ea9eceb9e57d5c445d0902896fce8
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: ad57ba94dbb79e1e8d5536598ef4e2fd3f0fbf55
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58261068"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482245"
 ---
 # <a name="european-union-model-clauses"></a>欧盟模式条款
 
@@ -99,5 +99,5 @@ Microsoft 会持续评估欧盟标准，并根据需要更新其服务。
 - [欧洲数据保护委员会](https://edpb.europa.eu/)
 - [Dynamics 365 和 Office 365 欧盟模式条款常见问题解答](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
 - [Microsoft 公共控制中心合规性框架](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
+- [Microsoft 联机服务条款](https://aka.ms/Online-Services-Terms)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

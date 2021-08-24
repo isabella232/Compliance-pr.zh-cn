@@ -2,7 +2,7 @@
 title: 信息保护
 description: 了解 Microsoft 365 中针对一般数据保护规则 (GDPR) 中的信息保护功能。
 keywords: Microsoft 365, Microsoft 365 教育版, Microsoft 365 文档, GDPR
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 1a612f40ee095ed6bc55bd4db5d3eda164b1a74a41856d53e227dbf938af681b
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: cf5ef95e9504ba2d63a56dc3d4f7d22398d61255
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287951"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482777"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>使用 Microsoft 365 功能履行 GDPR 信息保护
 
