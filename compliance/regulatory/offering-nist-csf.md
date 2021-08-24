@@ -2,7 +2,7 @@
 title: '国家标准与技术 (NIST) 网络安全框架 (CSF) '
 description: Microsoft 云服务符合美国国家标准和技术协会 (NIST) 网络安全框架 (CSF) 。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,22 +16,22 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 84a7515c8d23a3e224118bbf56175e6ec79f1ecb
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: aef50dc21274c863708c5b5d774b401e91407114
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58259791"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58480514"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>国家标准与技术 (NIST) 网络安全框架 (CSF) 
 
 ## <a name="nist-csf-overview"></a>NIST CSF 概述
 
-NIST 国家标准 (协会) 并维护度量标准和指南，以帮助组织评估风险。 为响应有关加强联邦网络和关键基础结构的网络安全的 13636 号行政命令，NIST 于 2014 年 2 月发布了增强关键基础结构网络安全 (FICIC) 的框架。
+NIST 国家标准 (技术) 促进和维护度量标准和指南，以帮助组织评估风险。 为响应有关加强联邦网络和关键基础结构的网络安全的 13636 号行政命令，NIST 于 2014 年 2 月发布了增强关键基础结构网络安全 (FICIC) 的框架。
 
 FICIC 的主要优先级是制定一组标准和做法，以帮助组织管理网络安全风险，同时提高业务效率。 NIST 框架解决了网络安全风险，而不考虑针对政府组织和私有部门组织的其他法规要求。
 
-FIC 引用了全球认可的标准，包括 NIST Framework 的附录 A 中关于改进关键基础结构网络安全的 NIST [](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11)SP 800-53。 FICIC 框架内的每个控件都映射到 FedRAMP 中等基线内相应的 NIST 800-53 控件。
+FIC 参考了全球认可的标准，包括 NIST Framework 的附录 A 中关于改进关键基础结构网络安全的 NIST [](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11)SP 800-53。 FICIC 框架内的每个控件都映射到 FedRAMP 中等基线内相应的 NIST 800-53 控件。
 
 ## <a name="microsoft-and-the-nist-csf"></a>Microsoft 和 NIST CSF
 
@@ -40,7 +40,7 @@ NIST 网络安全框架 (CSF) 是一个自愿性框架，包含用于管理网�
 了解如何使用合规性分数和我们的 Azure 安全与合规蓝图加速 NIST 网络安全框架部署：
 
 - [NIST SP 800-53 R4 蓝图示例概述](/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
-- [在合规性分数中了解有关用于Office 365 NIST CSF 评估](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
+- [合规性分数中的"合规性分数"中Office 365 NIST CSF 评估。](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
@@ -76,7 +76,7 @@ NIST 网络安全框架 (CSF) 是一个自愿性框架，包含用于管理网�
 
 **独立评估员是否验证Office 365 NIST CSF 要求？**
 
-是的，Office 365 2019 年 7 月从 HITRUST 获得[NIST CSF](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=2a472d92-7c3b-47e0-9ae7-0f539da31f42&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)认证信函。
+是的，Office 365 2019 年 7 月从 HITRUST 获得[NIST CSF](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=2a472d92-7c3b-47e0-9ae7-0f539da31f42&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)认证书。
 
 **Microsoft 云服务如何证明与框架的合规性？**
 
@@ -84,15 +84,15 @@ NIST 网络安全框架 (CSF) 是一个自愿性框架，包含用于管理网�
 
 **Microsoft 在保持遵守此计划方面承担什么责任？**
 
-自愿参与 FICIC。 但是，Microsoft 确保Office 365管理联机服务条款和适用的服务级别协议中定义的条款。
+自愿参与 FICIC。 但是，Microsoft Office 365管理联机服务条款和适用的服务级别协议中定义的条款。
 
 **能否将 Microsoft 的合规性用于我的组织？**
 
-可以。 FedRAMP 标准的独立第三方合规性报告证实 Microsoft 为维护 Microsoft 云服务的安全性和隐私而实施的控制措施的有效性。 Microsoft 客户可能会将这些相关报告中所述的审核控制措施用作其自己的 FedRAMP 和 NIST FICICIC 的风险分析和资格鉴定工作的一部分。
+是。 FedRAMP 标准的独立第三方合规性报告证实 Microsoft 为维护 Microsoft 云服务的安全性和隐私而实施的控制措施的有效性。 Microsoft 客户可能会将这些相关报告中所述的审核控制措施用作其自己的 FedRAMP 和 NIST FICICIC 的风险分析和资格鉴定工作的一部分。
 
 **哪些组织被美国政府视为关键基础结构？**
 
-根据安全部[](https://www.dhs.gov/critical-infrastructure-sectors)，这些部门包括以下部门的组织：建筑、商业设施、通信、关键制造、三十座、国防工业基础、紧急服务、能源、金融服务、能源、金融服务、政府设施、医疗保健和公共安全、信息技术、 (垃圾和) 、交通系统、水 (和) 。
+根据安全部[](https://www.dhs.gov/critical-infrastructure-sectors)，这些部门包括以下部门的组织：建筑、商业设施、通信、关键制造、三十座、国防工业基础、紧急服务、能源、金融服务、政府设施、医疗保健和公共安全、信息技术、 (垃圾和垃圾) 、交通系统和水 (和) 。
 
 **为什么某些Office 365服务不在认证范围内？**
 
@@ -105,7 +105,7 @@ NIST 网络安全框架 (CSF) 是一个自愿性框架，包含用于管理网�
 ### <a name="resources"></a>资源
 
 - [Microsoft 云服务授权](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
-- [将 Microsoft 网络产品映射到：NIST 网络安全框架 (CSF) 、CIS 控件、ISO27001：2013 和 HITRUST CSF](https://go.microsoft.com/fwlink/p/?linkid=2074025)
+- [将 Microsoft 网络产品映射到：NIST 网络安全框架 (CSF) 、CIS 控制措施、ISO27001：2013 和 HITRUST CSF](https://go.microsoft.com/fwlink/p/?linkid=2074025)
 - [改善关键基础结构网络安全的框架](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11)
 - [关于加强联邦网络和关键基础结构的网络安全的主管命令](https://www.whitehouse.gov/the-press-office/2017/05/11/presidential-executive-order-strengthening-cybersecurity-federal)
 - [Microsoft 政府云](https://go.microsoft.com/fwlink/p/?linkid=2087246)

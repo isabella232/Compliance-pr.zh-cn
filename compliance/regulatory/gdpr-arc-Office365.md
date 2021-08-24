@@ -2,7 +2,7 @@
 title: 适用于 GDPR 的责任准备情况清单
 description: 此责任准备情况清单 (ARC) 为你提供了使用 Office 365 时支持 GDPR 所需的信息。
 keywords: GDPR 责任准备情况, 责任准备情况清单, Microsoft 365, Microsoft 365 教育版, GDPR文件, GDPR
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 30f571ca36a80c66d7e23a472d048691ac3b6865c4b7f2a7675e91e497201509
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 7bce2fc5aaac14442eb466921d3acc130389446c
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290230"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58480394"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-365"></a>适用于 Microsoft 365 的责任准备情况清单
 

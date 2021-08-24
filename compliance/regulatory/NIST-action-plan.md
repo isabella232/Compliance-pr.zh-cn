@@ -3,7 +3,7 @@ title: Microsoft 365 NIST 800-53 行动计划 - 前 30 天、前 90 天以及之
 description: 努力符合美国国家标准和技术协会 (NIST) 的要求时可遵循的已确定优先级的行动计划
 keywords: Microsoft 365, Microsoft 365 教育版, Microsoft 365 文档, NIST, NIST 800-53
 author: BrendaCarter
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 25e60c25588110852e264fce9716bb9c58b5f71f017f5a25e45d4625095ecacd
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 71f2dcaaafc8dd4452ab8a556aafcb50a7da87d3
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288321"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481594"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 NIST 800-53 行动计划 - 前 30 天、前 90 天以及之后的首要行动
 

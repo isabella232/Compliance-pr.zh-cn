@@ -2,7 +2,7 @@
 title: '英国Government-Cloud (G-Cloud) '
 description: Commercial Commercial Service 将 Microsoft 云服务分类更新为政府云 v.6。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2ed9ba3e08dd75bd0d3209826497de80fc3781c4
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 805820ac031cd1fc1e1216c5e000e4ee2ad10837
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260936"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481044"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>英国Government-Cloud (G-Cloud) 
 
 ## <a name="uk-g-cloud-overview"></a>英国 G-Cloud 概述
 
-政府云 (G-Cloud) 是一项英国政府计划，旨在简化政府机构对云服务的采购工作，并促使政府范围内采用云计算。 G-Cloud 包含与云服务供应商（如 Microsoft) ）的一系列 (框架协议，以及联机应用商店（数字市场）中的服务列表。 它们使公共部门组织能够比较和采购这些服务，而无需执行自己的完全审阅过程。 要纳入数字市场，需要自行证明合规性，然后由政府数字服务 (GDS) 自行决定进行验证。
+政府云 (G-Cloud) 是一项英国政府计划，旨在简化政府机构对云服务的采购工作，并促使政府范围内采用云计算。 G-Cloud 包含与云服务供应商（如 Microsoft) ）的一系列 (框架协议，以及联机商店（数字市场）中的服务列表。 它们使公共部门组织能够比较和采购这些服务，而无需执行自己的全面审查过程。 纳入数字市场需要自行证明合规性，然后由政府数字服务 (GDS) 自行决定进行验证。
 
 2014 年简化了 G-Cloud 约会过程，以减少英国政府的时间和成本，政府的安全分类方案从六个级别简化为三个级别：OFFICIAL、SECRET 和 TOP SECRET。  (G-Cloud 认证级别不再表示为影响级别或 IL;Microsoft 以前为 Microsoft Azure Microsoft Dynamics 365 和 Microsoft Office 365.) 
 
@@ -35,11 +35,11 @@ ms.locfileid: "58260936"
 
 ## <a name="microsoft-and-uk-g-cloud"></a>Microsoft 和英国 G-Cloud
 
-Microsoft 每年都会准备文档并提交证据，以证明其范围内企业云服务遵守原则，让潜在 G-Cloud 客户大致了解其风险环境。  (与以前的 G-Cloud 认证一样，它依赖于 ISO 27001 认证。) GDS 认证者随后对 Microsoft 断言声明执行多次随机检查，对证据进行采样，然后确定合规性。
+Microsoft 每年都会准备文档并提交证据，以证明其范围内企业云服务遵守原则，让潜在 G-Cloud 客户大致了解其风险环境。  (与以前的 G-Cloud 认证一样，它依赖于 ISO 27001 认证。) GDS 认证者随后对 Microsoft 声明声明执行多次随机检查，对证据进行采样，然后确定合规性。
 
 对数字Microsoft 服务的约会意味着，英国政府机构和合作伙伴可以使用范围内服务来存储和处理英国官方政府数据（大多数政府数据）。 此外，G-Cloud 中现在包含 450 多个 Microsoft 合作伙伴，这些合作伙伴是 Microsoft 云服务的经销商。 他们可以直接在其自己的应用程序中声明范围内服务的合规性符合 14 原则。 但是，客户和合作伙伴需要针对 Microsoft 云服务的合规性证明和确定中未包括的任何组件实现其自己的合规性。
 
- [14 使用](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/)Microsoft Azure 英国云的云安全控制提供客户策略，以将其服务移动到 Azure，并帮助履行 CESG/NCSC 强制的英国义务。 该白皮书介绍了如何使用 Azure 帮助解决云安全主体中概述的 14 个控制措施，并概述了客户在采用 Microsoft Azure 服务时如何加快移动速度并实现更多目标，同时节省资金。
+ [14 使用](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/)Microsoft Azure 英国云的云安全控制提供客户策略，以将其服务移动到 Azure，并帮助满足 CESG/NCSC 强制的英国义务。 该白皮书介绍了如何使用 Azure 帮助解决云安全主体中概述的 14 个控制措施，并概述了客户在采用 Microsoft Azure 服务时如何加快移动速度并实现更多目标，同时节省资金。
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 

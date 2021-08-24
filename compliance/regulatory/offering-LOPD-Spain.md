@@ -2,7 +2,7 @@
 title: 西班牙皇家法令 1720/2007，西班牙有机法 15/1999 (LOPD)
 description: Microsoft 云客户获得西班牙数据保护机构 (AEPD) 授权，可跨境传输数据。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 752fcd4453b8db696826bb3a33080066cb4b342d
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 3e3d8bdd755ae032b0f027150a2211a5fe14f7e5
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260454"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58479754"
 ---
 # <a name="spanish-royal-decree-17202007-spanish-organic-law-151999-lopd"></a>西班牙皇家法令 1720/2007，西班牙有机法 15/1999 (LOPD)
 

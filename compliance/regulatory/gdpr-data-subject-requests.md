@@ -1,7 +1,7 @@
 ---
 title: 针对 GDPR 和 CCPA 的数据主体请求
 keywords: Microsoft 365, Microsoft 365 教育版, Microsoft 365 文档, GDPR, CCPA
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -18,12 +18,12 @@ titleSuffix: Microsoft GDPR
 description: 了解如何使用 Microsoft 产品和服务，在一般数据保护条例 (GPDR) 和加州消费者隐私法案 (CCPA) 下完成 DSR。
 ms.custom: seo-marvel-mar2020
 hideEdit: true
-ms.openlocfilehash: 58bea55beae9d5d8d4b018812f68b07b2d356d3db9cdf49d04ef8523e4db0b5b
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: b5ef9464a686a5f2c8823f196408fd71026fa52d
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289950"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58479834"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>针对 GDPR 和 CCPA 的数据主体请求
 

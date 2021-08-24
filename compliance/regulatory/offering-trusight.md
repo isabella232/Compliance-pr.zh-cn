@@ -2,7 +2,7 @@
 title: TruSight
 description: TruSight 对 Microsoft 云服务进行了全面风险评估，旨在满足其金融服务客户的严格要求。
 keywords: Microsoft 365, 合规性, 产品/服务
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0e9a29d85fcf58b31c1ba14cd115741396be79fa3b42dc6ceb09e262845376fb
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 812e64e9e66218abc402b012f57a18bb6bbf357f
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293949"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58480424"
 ---
 # <a name="trusight"></a>TruSight
 
