@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3084bc6e70bb1c2d9aa1e199a8e1bc4bde8fb2b5
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 18da1f6b422327f42dc517fa0f9c8abe9c91e253
+ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482495"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505915"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Internet 安全中心 (CIS) 基准
 
@@ -42,13 +42,17 @@ CIS 基准提供两个级别的安全设置：
 
 ## <a name="microsoft-and-the-cis-benchmarks"></a>Microsoft 和 CIS 基准
 
-Internet 安全中心 (CIS) 已发布适用于 Microsoft 产品和服务的基准，其中包括 Microsoft Azure 和 Microsoft 365 Foundations 基准、Windows 10 基准和 Windows Server 2016 基准。  
+Internet 安全中心 (CIS) 已发布适用于 Microsoft 产品和服务的基准，其中包括 Microsoft Azure 和 Microsoft 365 Foundations 基准、Windows 10 基准和 Windows Server 2016 基准。 [ CIS Microsoft Azure Foundations Benchmark ](https://www.cisecurity.org/benchmark/azure/)适用于计划开发、部署、评估或保护包含 Azure 解决方案的客户。 该文档为建立 Azure 的安全基线配置提供了规范性的指导。
   
 CIS 基准是国际公认的保护 IT 系统和数据免受网络攻击的安全标准。 这些标准被成千上万的企业所使用，为建立安全的基准配置提供了说明性指导。 系统和应用程序管理员、安全专家以及使用 Microsoft 产品和服务开发解决方案的其他人员，都可以使用这些最佳做法来评估和提高其应用程序的安全性。  
   
 与所有 CIS 基准一样，Microsoft 基准使用一致的审查流程所创建，汇集了具有多样背景知识（包括软件开发、审核和合规性、安全研究、运营、政府和法律）的主题专家的建议。 Microsoft 在这些 CIS 工作中是不可或缺的合作伙伴。 例如，已针对上架服务对 Office 365 进行了测试，生成的 Microsoft 365 Foundation 基准涵盖了一系列关于设置适当安全策略的建议，包括帐户和身份验证、数据管理、应用程序权限、存储和其他安全策略领域。  
   
-除了 Microsoft 产品和服务的基准之外，CIS 还发布了 [CIS 强化映像](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/)，用于配置满足 CIS 基准 Azure 虚拟机。 其中包括经过认证可在 Azure 上运行的适用于 Microsoft Windows Server 2016 的 CIS 强化映像。 CIS 声明：“所有在 [Azure 市场](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security)提供的 CIS 强化映像都经过认证，可以在 Azure 上运行。 已预测试了它们的就绪性，以及与 Azure 公有云、由服务提供商通过云 OS 网络托管的 Microsoft 云平台和由客户管理的本地私有云 Windows Server Hyper-V 部署的兼容性。”
+除了 Microsoft 产品和服务的基准之外，CIS 还发布了[Azure 上的 CIS 强化映像](https://www.cisecurity.org/cis-hardened-images/microsoft/)，这些映像配置为符合 CIS 基准，可从 Microsoft Azure 商店获取。 这些映像包括用于 Windows Server 2016 和 Windows Server 2019 的 CIS 强化映像，以及许多版本的 Linux。 Azure 市场中提供的所有 CIS 强化映像都经过认证，可在 Microsoft Azure 上运行。 正如[ CIS ](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/)所规定，"它们已经预先测试了与 Microsoft Azure 公共云、服务提供商通过云操作系统网络托管的 Microsoft 云平台，以及客户托管的本地私有云 Windows Server Hyper-V 部署兼容性。"
+
+[CIS 强化映像](https://www.cisecurity.org/cis-hardened-images/)是安全配置的虚拟机映像，基于强化到级别 1 或级别 2 CIS 基准配置文件的 CI 基准测试进行配置。 强化是一种通过限制使系统易受网络攻击的潜在漏洞，帮助防止未经授权的访问、拒绝服务和其他网络威胁的过程。 CIS 强化映像适用于 Azure 和 Azure 政府。
+
+为了向客户提供更多的帮助，Microsoft 提供了[ Azure 蓝图](https://azure.microsoft.com/services/blueprints/)，这是一项服务，使用可组合项目，如 Azure 资源管理器模板预配资源、基于角色的访问控制和策略，有助于重复部署和更新云环境。 通过 Azure 蓝图预配的资源符合组织的标准、模式和合规性要求。 Azure 蓝图的总体目标是帮助实现云环境中合规性和网络安全风险管理的自动化。 为了帮助你部署任何基于 Azure 体系结构的一组核心策略，必须实施 CIS Azure Foundations 基准建议，Microsoft 发布了 [ CIS Microsoft Azure FoundationsBenchmark 的 Azure 蓝图](/azure/governance/blueprints/samples/cis-azure-1-3-0)。 当分配到体系结构时，Azure 策略会评估资源是否符合分配的策略定义。
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
@@ -94,7 +98,15 @@ CIS 指出，“基准是通过行业专家、技术供应商、公共和专用 
 
 ## <a name="resources"></a>资源
 
-- [安全使用 Microsoft 365 的 CIS 最佳做法](https://www.microsoft.com/security/blog/2019/01/10/best-practices-for-securely-using-microsoft-365-the-cis-microsoft-365-foundations-benchmark-now-available/)
+- [ Azure 合规性文档](/azure/compliance/)
+- [ Azure 实现合规性世界](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
+- [ Microsoft 365 合规性产品/服务](/compliance/regulatory/offering-home)
+- [ Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [ CIS Microsoft Azure Foundations   Benchmark ](https://www.cisecurity.org/benchmark/azure/)提供了用于保护 Azure 的步骤清单。
+- [ Microsoft Azure 上的 CIS 强化映像 ](https://www.cisecurity.org/cis-hardened-images/microsoft/) 是 Azure 认证并预配置到 CIS 基准的安全建议。  它们适用于 Azure 和 Azure 政府。
+- [ CIS Microsoft Azure Foundations Benchmark 的 Azure 蓝图](/azure/governance/blueprints/samples/cis-azure-1-3-0)有助于客户为必须实施CIS Azure Foundations Benchmark 建议的任何基于 Azure 的体系结构部署一组核心策略。
+- [ Azure 策略建议映射](/azure/governance/policy/samples/cis-azure-1-3-0)提供有关上述蓝图中包含的策略定义，以及这些策略定义映射到 CIS Microsoft Azure Foundations Benchmark 中的合规性域和控件的方式。 当分配到体系结构时，Azure 策略会评估资源是否符合分配的策略定义。
+- [ CIS 控件云配套指南](https://www.cisecurity.org/white-papers/cis-controls-cloud-companion-guide/)提供有关将 CIS 控件版本 7 中的安全最佳做法应用到云环境的指南。
+- [ CIS Microsoft 365 Foundations Benchmark ](https://www.cisecurity.org/benchmark/microsoft_office/)提供了为 Microsoft 365 建立安全基线配置的规范性指导。  
 - [Windows 10 安全策略设置](/windows/security/threat-protection/security-policy-settings/security-policy-settings)
 - [Windows 10 企业安全性](/windows/security/index)
-- [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)

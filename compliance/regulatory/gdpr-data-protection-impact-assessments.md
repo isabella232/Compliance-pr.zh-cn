@@ -2,7 +2,7 @@
 title: 数据保护影响评估
 description: 这些文档为数据控制者相关信息，帮助他们确定是否需要 DPIA 以及要包含的详细信息。
 keywords: 数据保护影响评估, DPIA, Dynamics 365, Microsoft 专业服务, Microsoft 365, Microsoft 365 文档, GDPR
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: f1aa67817553c1ca7c8f9535965409ffb83a55117914254c4d58eec50eb38eba
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: c634e1c63a123232f600cbe085964cf9d2e366a9
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289970"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58479794"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>GDPR 规定的数据保护影响评估
 
@@ -53,7 +53,7 @@ DPIA 指南适用于 Office 365、Azure、Dynamics 365 以及 Microsoft 支持�
 - 大规模地处理特殊类别的数据（揭示唯一识别自然人的信息的数据），或与刑事犯罪和违法行为相关的个人数据。
 - 大规模地系统监视公开区域。
 
-GDPR 澄清：“如果处理所涉及的个人数据来自个体医生、其他医疗保健专业人员或律师的患者或客户，不得将个人数据处理视为大规模。 在这种情况下，不得强制进行数据保护影响评估。”
+GDPR 声明如下：“如果涉及由个体医生、其他医疗保健专业人员或律师来处理患者或客户的个人数据，则个人数据的处理不应视为处理大量数据。在这种情况下，数据保护影响评估不应是强制性的。”
 
 **完成 DPIA 需要什么？**
 

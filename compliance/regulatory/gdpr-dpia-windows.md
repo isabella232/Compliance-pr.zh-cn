@@ -2,7 +2,7 @@
 title: 数据保护影响评估 （DPIA） - 控制者使用 Windows 诊断数据处理者配置的指南
 description: 查找信息以确定在使用 Microsoft Windows 企业数据处理者服务时是否需要进行数据保护影响评估 (DPIA)。
 keywords: DPIA, Microsoft 365, Microsoft 365 教育版, Microsoft 365 文档, GDPR
-localization_priority: Priority
+ms.localizationpriority: high
 ROBOTS: NOINDEX, NOFOLLOW
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 hideEdit: true
-ms.openlocfilehash: 912bd80aea4e02eaa7e4d18f2f019eb3a6909e5d011204a1bb2cc299015f78fe
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 325dc91f1d3480414236abfde38eb48d372f3e69
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289870"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482425"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-controllers-using-windows-diagnostic-data-processor-configuration"></a>数据保护影响评估：控制者使用 Windows 诊断数据处理者配置的指南
 
@@ -35,7 +35,7 @@ ms.locfileid: "54289870"
 此文档的目的是为控制者提供 Windows 诊断数据处理者配置的相关信息，帮助他们确定是否需要 DPIA 以及要包含的详细信息（如果需要）。
 
 >[!Note]
->Microsoft 在此文档中未提供任何法律建议。 本文档仅供参考。 我们鼓励客户与其隐私官和法律顾问合作，以确定与使用 Windows 诊断数据处理者配置或任何其他 Microsoft 联机服务相关的任何 DPIA 的必要性和内容。
+>Microsoft 在此文档中未提供任何法律建议。本文档仅供参考。我们鼓励客户与其隐私官和法律顾问合作，以确定与使用 Windows 诊断数据处理者配置或任何其他 Microsoft 联机服务相关的任何 DPIA 的必要性和内容。
 
 ## <a name="part-1-determining-whether-a-dpia-is-needed"></a>第 1 部分：确定是否需要 DPIA
 
@@ -66,7 +66,7 @@ GDPR 第 35 条规定要求由控制者来创建数据保护影响评估（DPIA�
 | 处理的个人数据类别 | **Windows 诊断数据** — Windows 设备中有关设备以及 Windows 和相关软件性能的技术数据。 用它可以使 Windows 保持最新、安全、可靠、高性能，并改进产品。 Windows 诊断数据的一些示例包括正在使用的硬件类型、安装的应用程序及其用途，以及设备驱动程序的可靠性信息。 某些 Windows 组件和应用会直接连接到 Microsoft 服务，但它们交换的数据不是 Windows 诊断数据。 例如，交换用户的位置以获取当地天气或新闻不是 Windows 诊断数据的示例。 <br><br> 有关使用 Windows 诊断数据处理者配置时的数据处理的详细信息，请参阅[在组织中配置 Windows 诊断数据](/windows/privacy/configure-windows-diagnostic-data-in-your-organization)，以及[Microsoft 信任中心](https://www.microsoft.com/trust-center)。|
 | 数据保留 | 根据 Microsoft 产品条款启用 Windows 诊断数据处理者配置时，Microsoft 将保留并处理收集的 Windows 诊断数据。 客户可以使用[适用于 GDPR 和 CCPA 的 Windows 诊断数据处理者配置数据主体请求](gdpr-dsr-windows.md)中所述的功能 ，根据数据主体请求删除和导出Windows 诊断数据。|
 | 个人数据的位置和传输 | 启用 Windows 诊断数据处理者配置时收集的 Windows 诊断数据保留在美国的 Microsoft 数据中心。 |
-| 与第三方共享数据 | Microsoft 会与充当下级处理者（即处理个人数据的分包商）角色的第三方共享数据，以实现客户和技术支持、服务维护和其他操作。 Microsoft 向其传输按照 Windows 诊断数据处理者配置收集的 Windows 诊断数据或支持数据的分包商都将与 Microsoft 签订书面协议，这些协议的保护性不低于 Microsoft 产品条款中的条款。 与其分享 Windows 诊断数据或支持数据的所有第三方分包商都包括在[分包商列表](https://www.microsoft.com/zh-CN/trust-center/privacy/data-access#subcontractors)中（请参阅“我们限制分包商的访问”）。 <br><br>Microsoft 产品条款中还规定了 Microsoft 如何回应执法机构和第三方请求按照 Windows 诊断数据处理者配置收集的 Windows 诊断数据和支持数据的情况。Microsoft 会尝试将执法机构或第三方的请求直接转达给客户，除非法律禁止。 |
+| 与第三方共享数据 | Microsoft 会与充当下级处理者（即处理个人数据的分包商）角色的第三方共享数据，以实现客户和技术支持、服务维护和其他操作。 Microsoft 向其传输按照 Windows 诊断数据处理者配置收集的 Windows 诊断数据或支持数据的分包商都将与 Microsoft 签订书面协议，这些协议的保护性不低于 Microsoft 产品条款中的条款。 与其分享 Windows 诊断数据或支持数据的所有第三方分包商都包括在[分包商列表](https://www.microsoft.com/en-us/trust-center/privacy/data-access#subcontractors)中（请参阅“我们限制分包商的访问”）。 <br><br>Microsoft 产品条款中还规定了 Microsoft 如何回应执法机构和第三方请求按照 Windows 诊断数据处理者配置收集的 Windows 诊断数据和支持数据的情况。Microsoft 会尝试将执法机构或第三方的请求直接转达给客户，除非法律禁止。 |
 | 数据主体权力 | 作为数据处理者，Microsoft 会向客户（即控制者）提供其数据主体的个人数据，并赋予客户在数据主体依据 GDPR 行使权利时满足其请求的能力。Microsoft 以符合产品功能和其数据处理者角色的方式实现此目标。如果 Microsoft 收到来自客户数据主体的请求（请求依据 GDPR 行使其一项或多项权利），会将请求转发给数据控制者。<br><br> [适用于 GDPR 和 CCPA 的 Windows 诊断数据处理者配置数据主体请求](gdpr-dsr-windows.md) 介绍了如何支持按照 Windows 诊断数据处理者配置收集的Windows 诊断数据的数据主体权利。 |
 | 对与处理操作的目的相关的必要性和合理性的评估 | 这种评估将取决于数据控制者的处理需求和目的。 <br><br> 如 Microsoft 产品条款所反映的处理目的，Microsoft 需要进行某些处理，此类处理是必要且合理的。 |
 | 对数据主体的权利和自由带来的风险的评估 | 使用按照 Windows 诊断数据处理者配置收集的 Windows 诊断数据对数据使用者的权利和自由带来的关键风险取决于控制者实施、配置和使用 Windows 诊断数据的方式和环境。 <br><br> 按照 Windows 诊断数据处理者配置收集的 Windows 诊断数据可能存在未经授权的访问或无意泄漏的风险。 Microsoft 产品条款中讨论了 Microsoft 为应对此类风险而采取的措施。 |
