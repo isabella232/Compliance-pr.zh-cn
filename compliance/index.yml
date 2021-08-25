@@ -17,30 +17,18 @@ metadata:
   ms.date: 11/30/2020
 highlightedContent:
   items:
-    - title: Microsoft 365 合规性入门快速任务
-      itemType: get-started
-      url: /microsoft-365/compliance/compliance-quick-tasks
-    - title: 为数据隐私法规部署信息保护
-      itemType: get-started
-      url: /microsoft-365/solutions/information-protection-deploy
-    - title: 了解云中的共同责任
-      itemType: overview
-      url: /azure/security/fundamentals/shared-responsibility
     - title: 了解 Microsoft 如何保护客户数据
       itemType: learn
       url: /learn/paths/audit-safeguard-customer-data/
+    - title: 了解云中的共同责任
+      itemType: overview
+      url: /azure/security/fundamentals/shared-responsibility
     - title: 了解 Microsoft 合规性管理器
       itemType: learn
       url: /learn/paths/compmgmt/
-    - title: 在 Microsoft 365 中管理内部风险
-      itemType: learn
-      url: /learn/paths/m365-compliance-insider/
-    - title: 管理信息保护和治理
-      itemType: learn
-      url: /learn/paths/m365-compliance-information/
-    - title: 了解Advanced eDiscovery和高级审核
-      itemType: learn
-      url: /learn/paths/compliance-discover/
+    - title: 开始使用Microsoft 365合规性解决方案指南
+      itemType: get-started
+      url: /microsoft-365/solutions/information-protection-deploy
 productDirectory:
   title: 法规&行业合规性
   summary: Microsoft 有关遵守行业领域和国际&标准和法规的指南。
@@ -93,7 +81,7 @@ conceptualContent:
         - url: /compliance/assurance/assurance-encryption
           itemType: concept
           text: 加密和密钥管理概述
-    - title: 管控
+    - title: 治理
       links:
         - url: /learn/modules/audit-governance/
           itemType: learn

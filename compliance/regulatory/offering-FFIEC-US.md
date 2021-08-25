@@ -1,6 +1,6 @@
 ---
 title: '联邦金融机构检查委员会 (FFIEC) '
-description: Microsoft 帮助金融服务客户遵守 FFIEC (联邦金融机构检查委员会) 。
+description: Microsoft 帮助金融服务客户遵守联邦金融机构考试委员会 (FFIEC) 。
 keywords: Microsoft 365, 合规性, 产品/服务
 ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
@@ -16,28 +16,33 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1c2d1167a68362be700a7cf39cf2cdd7bf61ca97
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 7cdc024d19ce0753d3d0c0e5cf45b6276939d6f2
+ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482687"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505895"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>联邦金融机构检查委员会 (FFIEC) 
 
 ## <a name="ffiec-overview"></a>FFIEC 概述
 
-联邦金融机构检查委员会 (FFIEC) 是一个正式机构，由五家银行监管机构组成，它们负责美国联邦金融机构在美国的监管机构。 FFIEC 教育版Office面向 FFIEC 成员机构现场培训的 IT 考试手册。
+FFIEC (联邦金融机构考试委员会) 是一个正式机构，由五家银行监管机构组成，它们负责美国联邦金融机构在美国的监管机构。 FFIEC 教育版Office面向 FFIEC 成员机构现场培训的 IT 考试手册。
 
 [FFIEC 审核 IT 检查](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)手册包含针对这些企业的指导，用于评估金融机构和 TSP 的 IT 审核计划的质量和有效性。 具体而言，它包括美国注册公共会计协会 (AICPA) 的 SOC 1、SOC 2 和 SOC 3 证明报告作为独立审核报告的示例。 但是，FFIEC 建议金融机构不要仅依赖这些报告中包含的信息，而应使用 [FFIEC](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)外包技术服务 IT 检查手册中详细讨论的验证和监视过程。
 
 ## <a name="microsoft-and-ffiec"></a>Microsoft 和 FFIEC
 
-Microsoft Azure、Microsoft Power BI 和 Microsoft Office 365 专为满足为金融服务机构提供云服务的严格要求而构建。 作为支持的一部分，我们提供指导，帮助你遵守 FFIEC 信息技术审核要求，以及履行 FFIEC 合规性义务时使用 Azure SOC 证明的能力。
+Microsoft Azure、Microsoft Power BI 和 Microsoft Office 365 专为满足为金融服务机构提供云服务的严格要求而构建。 Azure 向金融机构提供独立审计公司生成的 SOC 1 类型 2、SOC 2 类型 2 和 SOC 3 证明报告，以帮助客户履行自己的 FFIEC 合规义务。 例如 [，SOC 1 类型 2 证明](./offering-soc-1.md) 在以下下执行：
 
-为了帮助金融机构客户满足其针对 Azure 的 FFIEC 合规性要求，Microsoft 开发了 [适用于 FFIEC](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)监管服务工作负载的 Azure 安全性和合规性蓝图。 它提供 Azure 云服务使用指南，以及客户遵守 FFIEC 要求和风险评估准则的注意事项。
+- SSAE 编号。 18，证明标准：阐明和重新编纂，包括 AT-C 第 320 部分， *对与用户实体财务报告的内部控制相关的服务组织中的控制检查进行报告* （AICPA、专业标准）。
+- SOC 1 对与用户实体财务报告的内部控制相关的服务组织中的控制检查进行报告（AICPA 指南）。
 
-为了进一步帮助你遵守 FFIEC 要求，Microsoft 云服务提供由独立 CPA 公司生成的 [SOC](offering-SOC.md) 证明报告。 例如，SOC 1 类型 2 证明基于 AICPA SSAE 18 标准 (请参阅取代 SAS 70 的 AT-C 第 105) 节，适用于报告针对财务报告的某些控制措施。 SOC 报告包括审核员有关 Microsoft 控制措施在指定的监视期间实现相关控制措施目标的有效性的意见。 金融机构在向部署在 Azure、Power BI 和 Office 365 上的资产履行 FFIEC 特定的合规性义务时，可以使用此正式Office 365。
+AICPA SSAE 18 标准取代了 SAS 70，适用于报告服务组织中与用户实体对金融服务的内部控制相关的控制措施。 这是金融机构在向在 Azure 上部署的资产履行自己的 FFIEC 特定合规性义务时，利用它进行第三方技术服务提供商审查的正式审核。 它包括审核员有关控制有效性的意见，以在指定的监视期间实现相关控制目标。
+
+此外，Azure 还开发了一Excel基于云的安全诊断工具，该工具旨在加快金融机构可能希望针对 Azure 服务进行的风险评估。 该工具基于包含 19 个独立域的电子表格，这些域标识了相关标准和金融服务相关法规（包括 FFIEC IT 检查手册）中提出的要求。  风险评估工具预先填充了 Azure 如何遵守适用于云服务提供商的要求的说明，并可以帮助客户满足自己的 FFIEC 合规性要求。
+
+此外，客户还可使用 Azure FFIEC 云安全诊断工作簿配套工具，它提供 Azure 服务使用指南以及客户遵守 FFIEC 要求的注意事项
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
@@ -46,9 +51,12 @@ Microsoft Azure、Microsoft Power BI 和 Microsoft Office 365 专为满足为金
 - Office 365，Office 365美国政府
 - Power BI 云服务（作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供）
 
-## <a name="azure-dynamics-365-and-ffiec"></a>Azure、Dynamics 365 和 FFIEC
+## <a name="azure-guidance-documents"></a>Azure 指南文档
 
-有关 Azure、Dynamics 365 和其他在线服务合规性的信息，请参阅 Azure [FFIEC 产品/服务](/azure/compliance/offerings/offering-ffiec-us)。
+为帮助受 FFIEC 监管的金融机构采用云，Microsoft 发布了以下指南文档，可从服务信任门户数据保护资源 - 合规性 [指南](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3) 部分下载这些文档：
+
+- Azure - 云安全诊断工具
+- Azure - FFIEC 云安全诊断工作簿配套
 
 ## <a name="office-365-and-ffiec"></a>Office 365 和 FFIEC
 
@@ -79,17 +87,18 @@ Microsoft Azure、Microsoft Power BI 和 Microsoft Office 365 专为满足为金
 
 [Microsoft 合规性管理器](/microsoft-365/compliance/compliance-manager)是 [Microsoft 365 合规中心](/microsoft-365/compliance/microsoft-365-compliance-center)中的一项预览功能，旨在帮助你了解组织的合规情况并采取措施帮助降低风险。 合规性管理器提供了一个高级模板，用于对此法规建立评估。 在合规性管理器的“**评估模板**”页面中找到模板。 了解如何[在合规性管理器中建立评估](/microsoft-365/compliance/compliance-manager-assessments)。
 
-### <a name="resources"></a>资源
+## <a name="resources"></a>资源
 
 - [联邦金融机构检查委员会 (FFIEC) ](https://www.ffiec.gov/)
 - [美国的云计算和法规原则合规性地图](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [FFIEC 审核 IT 检查手册](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)
 - [FFIEC 外包技术服务 IT 检查手册](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)
 
-### <a name="other-microsoft-resources-for-financial-services"></a>针对金融服务的其他 Microsoft 资源
+## <a name="other-microsoft-resources-for-financial-services"></a>针对金融服务的其他 Microsoft 资源
 
-- [Microsoft 金融服务合规性计划](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Azure 中的金融服务合规性](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Microsoft 商业云服务和金融服务](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
-- [Shared responsibilities for cloud computing](https://aka.ms/sharedresponsibility)（关于云计算的共同责任）
-- [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Azure 合规性文档](/azure/compliance/)
+- [Azure 实现合规性世界](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
+- [Microsoft 云金融服务资源](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
+- [Microsoft 云金融服务合规性计划](https://aka.ms/FSCP-Print)
+- [Microsoft 云中金融机构的风险评估和合规性指南](https://azure.microsoft.com/resources/risk-assessment-and-compliance-guide-for-financial-institutions-in-the-microsoft-cloud-/)
+- [金融服务行业用例](/azure/industry/financial/)

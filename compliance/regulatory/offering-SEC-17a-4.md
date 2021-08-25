@@ -1,5 +1,5 @@
 ---
-title: 美国证券交易Exchange委员会 (美国) 第 17a-4 (4) 条
+title: 美国证券交易Exchange美国 (美国) 规则 17a-4 () SEC
 description: 一家独立的评估公司验证了 Azure 和 Office 365 可以帮助金融公司满足 SEC 规则 17a-4 (f) 记录保留和不可变存储要求。
 keywords: Microsoft 365, 合规性, 产品/服务
 ms.localizationpriority: medium
@@ -16,14 +16,14 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e4fd87384f7be620ab755f29031b52e8877582ce
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 57e5a9140c7a4aaff49bceb798bb6815e675f328
+ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482455"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505925"
 ---
-# <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>美国证券交易Exchange委员会 (美国) 第 17a-4 (4) 条
+# <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>美国证券交易Exchange美国 (美国) 规则 17a-4 () SEC
 
 ## <a name="about-sec-rule-17a-4f"></a>关于 SEC 规则 17a-4 (f) 
 
@@ -39,15 +39,28 @@ SEC 对选择在电子存储媒体上保留书籍和记录的受管制实体定�
 
 Microsoft Azure使用策略存储和保留锁定Microsoft Office 365不可变 Blob 存储可帮助金融机构满足 SEC 规则 17a-4 (f) 的不可变存储要求。
 
-为了评估 Azure 和 Office 365是否符合 SEC 规则 17a-4 (f) ，Microsoft 保留了一家专门负责记录管理和信息管理的独立评估公司 Cohasset Associates。 在生成的报告中：
-
-- **Azure：SEC** [17a-4 (f) 合规性评估：Microsoft Azure 存储](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)，Cohasset 验证了使用策略锁定选项的 Azure 不可变 [Blob 存储（](/azure/storage/blobs/storage-blob-immutable-storage)用于以不可擦除和不可重写的 (WORM) 格式保留基于时间的 Blob）符合 SEC 规则的不可变存储要求。 每个 Blob (记录) 在要求的保留期到期且任何关联的合法保留解除之前，防止其被修改、覆盖或删除。 具有敏感工作负载的软件提供商和合作伙伴现在可以依赖 Azure 不可变 Blob 存储作为一种用于记录保留和不可变存储的云解决方案。 金融机构现在可以构建自己的应用程序，以利用这些功能，同时保持合规性。
-- **Microsoft 365：** 对于 [SEC 17a-4 (f)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d)要求，Cohasset 验证了 Microsoft 365 包括存档功能，这些功能允许受管制客户（包括代理经销商）以一种有助于他们遵守 SEC 记录保留要求的方式存储数据。 电子邮件中的Microsoft 365功能有助于保留各种数据，包括电子邮件、语音邮件、共享文档、即时消息和第三方数据。 特别是，Microsoft 365中的存档功能使客户能够设置全局或细化邮件保留策略，以存储已定义时间段及以后不可重写、不可擦除格式的数据。
-
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
+
+## <a name="independent-assessments"></a>独立评估
+
+为了评估 Azure 和 Office 365是否符合 SEC 规则 17a-4 (f) ，Microsoft 保留了一家专门负责记录管理和信息管理的独立评估公司 Cohasset Associates。
+
+### <a name="azure"></a>Azure
+
+[Azure Blob 存储的不](/azure/storage/blobs/storage-blob-immutable-storage) 可变存储使用户能够在一次写入中存储业务关键记录，一旦读取 (WORM) 状态。 此状态使数据在用户指定的间隔内不可擦除和不可修改。 在保留间隔内，可创建和读取 blob，但不能修改或删除 blob。 Azure 不可变存储的这些功能可帮助客户满足其记录保留要求。
+
+Microsoft 保留了一家独立的第三方评估公司，该公司专门负责记录管理和信息管理，以评估 Azure Blob 存储不可变存储是否符合 SEC 规则 17a-4 (要求) 要求。 生成的报告 *[Cohasset Assessment： Microsoft Azure WORM 存储](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/)* 可供客户使用。
+
+评估员认为，具有 *Azure Blob* 的不可变存储功能且基于时间锁定的策略选项的 Azure 存储以不可擦除和不可重写的格式保留基于时间的 Blob (记录) ，并满足 SEC 规则 17a-4 (f) 的相关存储要求。 [FINRA 规则 4511 (c)](/azure/compliance/offering-finra-4511-us.md)，以及 CFTC 规则 [1.31 (c) - (d) 。](offering-cftc-1-31-us.md)
+
+根据请求，Microsoft 还将提供满足 SEC 17a-4 (f)  (2) 要求所需的 *90* 天信函，以便客户在使用电子存储媒体前至少 90 天通知指定的检查机构。 如法规所规定，"成员、代理或客户必须提供其自己的表示形式，或者由存储中型供应商或其他具有适当专业知识的第三方提供，所选存储媒体满足本段 (f)  (2) 中规定的条件。" 若要获取 *Microsoft* 电子 存储 媒体服务 for SEC 规则 17a-4 的证明，具有 Azure [](https://azure.microsoft.com/support/create-ticket/)支持计划的客户可以在 [Azure](https://azure.microsoft.com/support/plans/)门户创建支持票证，并请求 SEC 规则 17a-4 的证明书。 在此文档中，Microsoft 提供与 SEC 17a-4 (2)  (2) 相关的保证。
+
+### <a name="office-365"></a>Office 365
+
+对于[SEC 17a-4 (f) ](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d)要求，Cohasset 验证了 Microsoft 365 包括存档功能，这些功能允许受管制客户（包括代理经销商）以有助于其遵守 SEC 记录保留要求的方式存储数据。 Microsoft 365中的保留功能有助于保留各种数据，包括电子邮件、语音邮件、共享文档、即时消息和第三方数据。 特别是，Microsoft 365中的存档功能使客户能够设置全局或细化邮件保留策略，以存储已定义时间段及以后不可重写、不可擦除格式的数据。
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
@@ -55,9 +68,11 @@ Microsoft Azure使用策略存储和保留锁定Microsoft Office 365不可变 Bl
 
 - [SEC 17a-4 (f) & CFTC 1.31 (c-d) 合规性Azure 存储](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/)
 
+可以通过 *创建支持票证存储 媒体服务* Azure 支持请求 Microsoft 电子数据证明（适用于 SEC 规则 [](https://azure.microsoft.com/support/create-ticket/)17a-4）。 [](https://azure.microsoft.com/support/plans/) 在此证明信中，Microsoft 提供保证，帮助客户遵守 SEC 17a-4 (f)  (2) 要求。
+
 ### <a name="office-365--sec-rule-17"></a>Office 365 & SEC 规则 17
 
-- [SEC 17a-4 () 合规性评估：& 具有 SharePoint、OneDrive、Teams、Exchange 和 Skype for Business 的 Microsoft 安全与合规Skype for Business](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=2dc92867-5f83-49d8-ad04-9e7295c9e40e&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
+- [SEC 17a-4 (合规性) ：& 具有 SharePoint、OneDrive、Teams、Exchange 和 Skype for Business 的 Microsoft 安全与合规Skype for Business](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=2dc92867-5f83-49d8-ad04-9e7295c9e40e&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
 
 ## <a name="how-to-implement"></a>如何实现
 
@@ -79,11 +94,12 @@ Microsoft Azure使用策略存储和保留锁定Microsoft Office 365不可变 Bl
 
 ## <a name="resources"></a>资源
 
+- [Azure 合规性文档](/azure/compliance/)
+- [Azure 实现合规性世界](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
+- [美国证券交易Exchange美国](https://www.sec.gov/) (美国) [规则 17a-4](https://www.sec.gov/rules/final/34-38245.txt)
+- [Microsoft 云金融服务资源](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
+- [Microsoft 云金融服务合规性计划](https://aka.ms/FSCP-Print)
+- [云计算法规原则和 Microsoft 在线服务的合规性地图](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Microsoft 云中金融机构的风险评估和合规性指南](https://azure.microsoft.com/resources/risk-assessment-and-compliance-guide-for-financial-institutions-in-the-microsoft-cloud-/)
+- [金融服务行业用例](/azure/industry/financial/)
 - [存档Microsoft Office 365、数据保留和规则 17a-4 中的存档](https://www.microsoft.com/microsoft-365/blog/2015/11/10/office-365-exchange-online-archiving-now-meets-sec-rule-17a-4-requirements/)
-- [合规性 Microsoft 金融服务](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
-- [合规性计划 Microsoft 商业云服务和金融服务](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
-- [Azure 中的金融服务合规性](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Azure 金融服务云风险评估工具](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
-- [Microsoft Office 365保留策略](/office365/securitycompliance/retention-policies)
-- [Microsoft 金融服务Community](https://techcommunity.microsoft.com/t5/financial-services/ct-p/FinancialServices)
-- [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
