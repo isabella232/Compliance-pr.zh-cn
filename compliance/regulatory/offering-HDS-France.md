@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: aea00230d5f34c2e682aa278ab5dc6ca062fa803
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: f8c99a93cac767439d157a7d709c7ed1d706c113
+ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482475"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505935"
 ---
 # <a name="health-data-hosting-hds-france"></a>法国健康数据托管 (HDS)
 
@@ -48,7 +48,11 @@ HDS 认证使法国医疗保健提供商能够使用 Microsoft 云服务通过�
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
-- [Azure](https://aka.ms/AzureCompliance)。 HDS 证书适用于在 Azure 合规性产品/服务中列出的符合 ISO/IEC 27001 标准的 Azure 服务，并且由法国中部、法国南部、欧洲西部和欧洲北部的 Azure 区域提供。
+- [Azure](https://aka.ms/AzureCompliance)。 HDS 证书适用于在 Azure 合规性产品/服务中列为符合 ISO/IEC 27001 标准，并在以下区域中预配的 Azure 服务：
+    - 法国中部（巴黎）
+    - 法国南部（马赛）
+    - 北欧（爱尔兰）
+    - 西欧（荷兰）
 - Dynamics 365。 HDS 证书适用于从法国和欧盟地区提供的 Dynamics 365 [核心在线服务](https://aka.ms/Online-Services-Terms)。
 - Intune
 - Microsoft 365。 HDS 证书适用于从法国和欧盟地区提供的 Office 365 [核心在线服务](https://aka.ms/Online-Services-Terms)。
@@ -58,10 +62,7 @@ HDS 证书不适用于在预览或预发布阶段的 Microsoft 在线服务。
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
-HDS 认证的有效期为 3 年。
-
-- HDS: 2018: [ASIP SANTÉ](https://esante.gouv.fr/)
-- [BSI 组](https://www.bsigroup.com/fr-FR/Nos-services/Certification/Recherche-dans-le-repertoire-des-certificats-et-des-clients/Resultats-de-la-recherche-dans-le-repertoire-des-certificats-et-des-clients/?searchkey=licence%3dHDS%2b701569%26company%3dMicrosoft%2bCorp&licencenumber=HDS%20701569)
+[HDS 认证](https://esante.gouv.fr/labels-certifications/hebergement-des-donnees-de-sante) 对托管服务和云提供商实施高级安全和隐私要求，以确保敏感数据的保密性和完整性受到充分保护。 Microsoft 云服务（包括 Azure）已获得 HDS 认证，如 ASIP Santé [HDS 认证主机列表](https://esante.gouv.fr/labels-certifications/hds/liste-des-herbergeurs-certifies) 所示。
 
 ## <a name="how-to-implement"></a>如何实现
 
@@ -70,6 +71,7 @@ HDS 认证的有效期为 3 年。
 
 ## <a name="resources"></a>资源
 
+- [ Azure 合规性文档](/azure/compliance/)
 - [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
 - [Microsoft HDS 认证博客](https://news.microsoft.com/2018/11/06/microsoft-1er-acteur-majeur-du-cloud-public-a-etre-certifie-hebergeur-de-donnees-de-sante-en-france/)
 - [Azure 法国](https://azure.microsoft.com/global-infrastructure/france/)

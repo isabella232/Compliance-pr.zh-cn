@@ -16,20 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ad57ba94dbb79e1e8d5536598ef4e2fd3f0fbf55
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: e57b10527b5eb1bd1baefebb36c9a8f37a97f59e
+ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482245"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505905"
 ---
 # <a name="european-union-model-clauses"></a>欧盟模式条款
 
 ## <a name="european-union-model-clauses-overview"></a>欧盟模式条款概述
 
-欧盟 (EU) 数据保护法规范了向欧洲经济区 (EEA) 以外的国家/地区（包括所有欧盟国家/地区及冰岛、列支敦士登和挪威）转移欧盟客户个人数据的行为。 欧盟模式条款是服务提供商（如 Microsoft）与其客户之间达成的协议中使用的标准化合同条款，旨在确保在传输离开 EEA 的任何个人数据时始终遵循欧盟数据保护法并符合欧盟数据保护指令 95/46/EC 的各项要求。
-
-在实践层面，遵守欧盟数据保护法律也意味着，客户只需从很少几个机构获得批准就可将个人数据传输到欧盟之外，因为如果传输是基于符合模式条款的协议，则大部分欧盟成员国不需要额外授权。
+欧盟 (EU) 数据保护法规范了向欧洲经济区 (EEA) 以外的国家/地区（包括所有欧盟国家/地区及冰岛、列支敦士登和挪威）转移欧盟客户个人数据的行为。 在实践层面，遵守欧盟数据保护法律也意味着，客户只需从很少几个机构获得批准就可将个人数据传输到欧盟之外，因为如果传输是基于符合模式条款的协议，则大部分欧盟成员国不需要额外授权。
 
 ## <a name="microsoft-and-european-union-model-clauses"></a>Microsoft 和欧盟模式条款
 
@@ -71,10 +69,6 @@ Microsoft 会持续评估欧盟标准，并根据需要更新其服务。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
-**什么是欧盟数据保护指令 95/46/EC？**
-
-该指令为在欧盟内部处理个人数据设定了基准。 它提供了法规框架，Microsoft 据此将个人数据传输到欧盟之外。 根据该指令和我们的合约协议，Microsoft 充当客户数据的数据处理者。 客户充当数据控制者，拥有数据的最终所有权并负责确保数据可合法传输给 Microsoft 以便在 EEA 以外地区进行处理。
-
 **为什么遵守模式条款很重要？**
 
 按照合同规定遵守模式条款的服务提供商需向其客户保证，他们将按照欧盟数据保护法传输和处理个人数据。 使用模式条款还意味着，客户在将个人数据传输到欧盟以外的其他国家/地区时，只需接受为数不多的几个数据保护机构的审批即可。
@@ -93,6 +87,7 @@ Microsoft 会持续评估欧盟标准，并根据需要更新其服务。
 
 ## <a name="resources"></a>资源
 
+- [ Azure 合规性文档](/azure/compliance/)
 - [欧盟标准组织](https://eur-lex.europa.eu/)
 - [欧盟模式条款](https://aka.ms/EU-model_clauses)
 - [欧盟数据保护指令](https://aka.ms/EU-DPD)
