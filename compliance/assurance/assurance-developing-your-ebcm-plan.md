@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 71e84ad97c560cd90b8ba49a1c568dd70fd516f5
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 6a44866d5c82ffa93e6c3c0d9c0ece3946651bd2
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482065"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58676781"
 ---
 # <a name="developing-your-business-continuity-plan"></a>制定业务连续性计划
 
@@ -83,7 +83,7 @@ ms.locfileid: "58482065"
 在对业务流程进行盘存并将关系映射到其他流程和技术后，需要为所有流程构建验证方案。 基本而言，就是确定如何验证业务流程连续性计划。 你可能会发现某些人比其他人更重要，你希望对他们设置优先级。
 请记住，制定计划后，在事件响应和连续性措施方面定期培训员工是非常重要的。 应通过将学习与每个验证或测试相结合，采用事后回顾的方法来增强复原策略。
 
-![功能验证 visio](../media/capability-validation-visio.png)
+![功能验证 visio。](../media/capability-validation-visio.png)
 
 ## <a name="incident-coordination-and-communication"></a>事件协调和通信
 

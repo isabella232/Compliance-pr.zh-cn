@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: a35e6757d64dd0c2bffc1b1cbc62e23f524b8ac9
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: cb9d27f02ec53c98e2f00d3106f8e4be8798d78f
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481734"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58678581"
 ---
 # <a name="microsoft-security-incident-management"></a>Microsoft 安全事件管理
 
@@ -63,7 +63,7 @@ Microsoft 联机服务安全团队和服务团队协同工作，并采用相同�
 - **包含、抑制、** 恢复：是指根据在上一阶段中完成的分析，为包含安全事件而采取的适当必需操作。 在此阶段，可能还需要进行更多分析，以从安全事件完全恢复。
 - **事后活动**：是指在恢复安全事件后执行的事后分析。 将检查在过程中执行的操作，以确定是否需要在准备或检测和分析阶段进行任何更改。
 
-![安全事件管理阶段](../media/assurance-sim-phases.png)
+![安全事件管理阶段。](../media/assurance-sim-phases.png)
 
 ## <a name="federated-security-response-model"></a>联合安全响应模型
 
@@ -73,7 +73,7 @@ Microsoft 在线服务由核心 Microsoft 产品组成，包括 Azure、Dynamics
 
 |**活动**|**Microsoft 安全团队操作**|**Microsoft 服务团队操作**|
 |:-----------|:-----------------------------------------|:----------------------------------------|
-| 检测和分析 | - 检测要求 <br> - 安全监视和分析 <br> - IOC 扫描 (泄露) 指示器 <br> - 泄露搜寻 <br> - 24x7 呼叫和事件响应领导 | - 检测要求 <br> - 监视基础结构部署 <br> - 服务分析和见解 <br> - 事件和警报会审 <br> - 24x7 服务工程呼叫  |
+| 检测和分析 | - 检测要求 <br> - 安全监视和分析 <br> - IOC (扫描) 泄露指示器 <br> - 泄露搜寻 <br> - 24x7 呼叫和事件响应领导 | - 检测要求 <br> - 监视基础结构部署 <br> - 服务分析和见解 <br> - 事件和警报会审 <br> - 24x7 服务工程呼叫  |
 | 包含、抑制、恢复 | - 事件响应主管 <br> - 取证调查 <br> - 安全专长和咨询 <br> - 恢复指南 | - 安全事件所有者 <br> - 服务见解和专业知识 <br> - 执行包含、消除和恢复 |
 | 事件后活动 | - 事后分析主管 <br> - 数据收集和存档 <br> - 经验与错误请求 <br> - 事件报告 | - 服务器端事件分析 <br> - 确定后续活动优先级 <br> - 实施安全投资 <br> - 服务安全准备情况 |
 
