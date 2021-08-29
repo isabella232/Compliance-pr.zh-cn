@@ -20,12 +20,12 @@ ms.collection:
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 951dd6063477a29fc3d442d07886d5d62e4d0dae
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: e29c6501ce4c8f1ee645a8c4b5bf22eee6e9cab8
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482607"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58678641"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-microsoft-365-compliance-center"></a>使用 Microsoft 365 合规中心中的 DSR 案例工具管理 GDPR 数据主体请求
 
@@ -106,7 +106,7 @@ ms.locfileid: "58482607"
 
     将会显示一个页面，确认已创建新的 DSR 案例。
 
-    ![开始搜索或关闭“新建 DSR 案例”页面](../media/b5e62c2c-cafe-4a8d-a38c-789ed9f9ccbd.png)
+    ![开始搜索或关闭“新建 DSR 案例”页面。](../media/b5e62c2c-cafe-4a8d-a38c-789ed9f9ccbd.png)
   
     此时，你可以执行以下两项操作中的一项：
 
@@ -201,7 +201,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
 
 4. 在“**导出结果**”页面上，为 DSR 导出请求选择以下建议选项。 
 
-    ![配置导出设置](../media/25416b79-57da-46a1-ae07-e640602a8fa4.png)
+    ![配置导出设置。](../media/25416b79-57da-46a1-ae07-e640602a8fa4.png)
   
     a. 在“**输出选项**”下方，选择第一个选项（**所有项（不包括具有无法识别格式的项）已加密，或由于其他原因未编制索引**）以仅导出已编制索引的项目。 不建议从内置搜索中导出部分索引项的原因是，这样做会连同其他用户的已编入索引的部分项目一起导出。 若要仅导出数据主体的部分索引项，建议创建单独的搜索。 有关详细信息，请参阅“有关使用 DSR 案例工具的更多信息”部分的“[导出部分索引项](#exporting-partially-indexed-items)”。
 
@@ -221,7 +221,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
 
 8. 在“**导出密钥**”下，点击“**复制到剪贴板**”。 在步骤 11 中，将使用此密钥下载搜索结果。
 
-9. 点击导出浮出页面顶部的![导出搜索结果图标](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **下载结果**。 
+9. 点击导出浮出页面顶部的![导出搜索结果图标。](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **下载结果**。 
 
 10. 在页面底部的弹出窗口中，点击“**打开**”以打开“**电子数据展示导出工具**”。 如果是首次下载搜索结果，则会安装 **电子数据展示导出工具**。 
 
@@ -262,7 +262,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
 
 2. 在搜索查询的“**位置**”下方，点击“**特定位置**”选项旁边的“**修改**”。 
 
-    ![点击“修改”，更改内置搜索查询的内容位置](../media/d66f7ba7-b71f-4ff5-a030-460ff02e3123.png)
+    ![点击“修改”，更改内置搜索查询的内容位置。](../media/d66f7ba7-b71f-4ff5-a030-460ff02e3123.png)
   
     将显示“**修改位置**”浮出页面。 页面中会显示内置搜索中内容位置的说明，以及有关修改所搜索位置的一些信息。 
 
@@ -305,13 +305,13 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
   
 1. 在 Microsoft 365 合规中心中，单击 **数据主体请求**，然后单击要为其导出使用情况数据的数据主体的 DSR 案例旁边的"**打开案例**"。 
 
-2. 单击页面顶部的“**搜索**”选项卡，然后点击![添加图标](../media/ITPro-EAC-AddIcon.gif) **引导式搜索**。
+2. 单击页面顶部的“**搜索**”选项卡，然后点击![添加图标。](../media/ITPro-EAC-AddIcon.gif) **引导式搜索**。
 
 3. 在 **命名搜索 **页面上，点击“** 取消**”。 
 
 4. 在“**搜索查询**”下，“**类型**”条件中，选中“**Office 漫游服务**”旁边的复选框。 
 
-    ![选中 Office 漫游服务复选框以导出使用情况数据](../media/O365_DSRCase_SDSDataExport1.png)
+    ![选中 Office 漫游服务复选框以导出使用情况数据。](../media/O365_DSRCase_SDSDataExport1.png)
   
     “**类型**”条件（即电子邮件类）应是搜索查询中的唯一项。 可以删除 **关键字** 框或留空。 
 
@@ -327,13 +327,13 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
 
  **若要导出 Office 漫游服务数据，请执行以下操作：**
   
-1. 当上个步骤中创建的搜索完成后，点击页面顶部的“**搜索**”选项卡，然后点击搜索旁边的复选框。 可能必须点击“![刷新](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) **刷新**”才能显示搜索。
+1. 当上个步骤中创建的搜索完成后，点击页面顶部的“**搜索**”选项卡，然后点击搜索旁边的复选框。 可能需要单击![刷新。](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) **刷新** 以显示搜索。
 
 2. 在浮出页面上，单击“**导出结果**”。
 
 3. 在“**导出结果**”页面上，选择建议的选项以导出使用情况数据。 
 
-    ![导出 Office 漫游服务使用情况数据时的导出选项](../media/470a7d1e-eeae-4b42-95aa-15cb82ce2f68.png)
+    ![导出 Office 漫游服务使用情况数据时的导出选项。](../media/470a7d1e-eeae-4b42-95aa-15cb82ce2f68.png)
   
     a. 在“**输出选项**”下方，选择第一个选项（**所有项（不包括具有无法识别格式的项）已加密，或由于其他原因未编制索引**）以仅导出已编制索引的项目。
 
@@ -351,7 +351,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
 
 7. 在“**导出密钥**”下，点击“**复制到剪贴板**”。 在步骤 10 中，将使用此密钥下载搜索结果。
 
-8. 点击导出浮出页面顶部的![导出搜索结果图标](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **下载结果**。 
+8. 点击导出浮出页面顶部的![导出搜索结果图标。](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **下载结果**。 
 
 9. 在页面底部的弹出窗口中，点击“**打开**”以打开“**电子数据展示导出工具**”。 如果是首次下载搜索结果，则会安装 **电子数据展示导出工具**。 
 

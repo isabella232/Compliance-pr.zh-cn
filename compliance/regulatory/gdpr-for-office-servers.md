@@ -14,12 +14,12 @@ titleSuffix: Microsoft GDPR
 ms.collection: MS-Compliance
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: d9a84e886fc81d760e249180c603432ca45c2e65
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: f514a966b576f15b2eeba1ae36c5cb88f3e91bd8
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482335"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58678631"
 ---
 # <a name="gdpr-for-office-on-premises-servers"></a>用于本地 Office 服务器的 GDPR
 
@@ -44,7 +44,7 @@ ms.locfileid: "58482335"
 
 下图列出了在各个工作负载中使用的推荐功能，用于发现、保护和监视个人数据并对其进行分类。有关更多信息，请参阅该部分中的文章。
 
-![描述跨工作负载发现、分类、保护和监视个人数据的功能图表](../media/gdpr-for-office-servers-image1.png)
+![描述跨工作负载发现、分类、保护和监视个人数据的功能图表。](../media/gdpr-for-office-servers-image1.png)
 
 ## <a name="illustration-description"></a>图示说明
 
