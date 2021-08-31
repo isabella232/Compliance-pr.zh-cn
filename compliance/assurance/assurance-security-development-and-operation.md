@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: fc6113dbf5c095cc4b22eb8ed0a4527d84f7e143
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: b74c004e63838900f87c774a8acf84ab8aeb03d4
+ms.sourcegitcommit: 70efe7749db2c6dd4ae0faa8ac22da6e87109c79
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481744"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58707111"
 ---
 # <a name="security-development-and-operations-overview"></a>安全开发和操作概述
 
@@ -56,7 +56,7 @@ Microsoft 已采用管理开放源代码安全性的高级别策略，该策略�
 - 确定这些组件是否具有任何漏洞。
 - 当发现影响这些组件的漏洞时，请正确响应。
 
-Microsoft 工程团队负责产品或服务中包含的所有开源软件的安全性。 为了大规模实现此安全性，Microsoft 通过 CG 将基本功能内置到工程系统中，从而自动进行开放源代码检测、法律要求工作流和针对易受攻击的组件发出警报。 自动化 CG 工具扫描 Microsoft 内部版本，以发现开放源代码组件和相关安全漏洞或法律要求。 发现的组件已注册，并提交给适当的团队进行业务和安全评审。 这些审查旨在评估与开放源代码组件关联的任何法律义务或安全漏洞，并在批准部署组件之前解决这些漏洞。
+Microsoft 工程团队负责产品或服务中包含的所有开源软件的安全性。 为了大规模实现此安全性，Microsoft 通过组件治理 (CG) 将基本功能内置到工程系统中，从而自动执行开放源代码检测、法律要求工作流和针对易受攻击的组件发出警报。 自动化 CG 工具扫描 Microsoft 内部版本，以发现开放源代码组件和相关安全漏洞或法律要求。 发现的组件已注册，并提交给适当的团队进行业务和安全评审。 这些审查旨在评估与开放源代码组件关联的任何法律义务或安全漏洞，并在批准部署组件之前解决这些漏洞。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 

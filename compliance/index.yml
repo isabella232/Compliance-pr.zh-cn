@@ -22,11 +22,11 @@ highlightedContent:
       url: /learn/paths/audit-safeguard-customer-data/
     - title: 了解云中的共同责任
       itemType: overview
-      url: /azure/security/fundamentals/shared-responsibility
+      url: /azure/security/fundamentals/shared-responsibility?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - title: 了解 Microsoft 合规性管理器
       itemType: learn
       url: /learn/paths/compmgmt/
-    - title: 开始使用Microsoft 365合规性解决方案指南
+    - title: 开始使用 Microsoft 365 合规性解决方案指南
       itemType: get-started
       url: /microsoft-365/solutions/
 productDirectory:
@@ -43,7 +43,7 @@ productDirectory:
       url: /compliance/regulatory/offering-home
     - title: 适用于行业的 Microsoft 云
       imageSrc: /office/media/icons/on-premises-blue.png
-      summary: 了解 Microsoft Azure、Dynamics 365、Microsoft 365 和 Microsoft Power Platform 如何支持你的行业的合规性需求。
+      summary: 了解 Microsoft Azure、Dynamics 365、Microsoft 365 和 Microsoft Power Platform 如何支持行业合规性需求。
       url: /industry/
 conceptualContent:
   title: 服务保证
