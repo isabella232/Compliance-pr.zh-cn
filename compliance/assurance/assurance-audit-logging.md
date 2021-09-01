@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 3212ca2a42677dc27afda8a7598b39d7f24bf27c
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 11695a941e5d5e6740833ab19bf2d68ac487c1c5
+ms.sourcegitcommit: 5e6e25ed264b248522ad49ea25490962db08e471
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482185"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58832255"
 ---
 # <a name="audit-logging-overview"></a>审核日志记录概述
 
@@ -54,13 +54,15 @@ Microsoft 联机服务内部审核日志记录从各种源捕获日志数据，�
 
 有关安全监视和警报详细信息，请参阅 [安全监视概述](assurance-security-monitoring.md)。
 
+![审核数据流。](../media/assurance-audit-data-flow.png)
+
 ## <a name="how-do-microsoft-online-services-protect-audit-logs"></a>Microsoft 联机服务如何保护审核日志？
 
 Microsoft 联机服务中用于收集和处理审核记录的工具不允许对原始审核记录内容或时间顺序进行永久或不可恢复的更改。 仅限授权人员访问存储在 Cosmos 或 Kusto 中的 Microsoft 联机服务数据。 此外，Microsoft 将审核日志的管理限制为负责审核功能的有限安全团队成员子集。 安全团队人员没有长期管理权限访问 Cosmos Kusto。 管理访问需要实时访问 (JIT) 权限审批，并且记录并审核Cosmos日志记录机制的所有更改。 审核日志的保留时间足够长，以支持事件调查和满足法规要求。 数据保留审核日志由服务团队确定;大多数审核日志数据在 Kusto 中保留 90 Cosmos 180 天。
 
 ## <a name="how-do-microsoft-online-services-protect-user-personal-data-that-may-be-captured-in-audit-logs"></a>Microsoft 联机服务如何保护可能在审核日志中捕获的用户个人数据？
 
-在上载日志数据之前，自动日志管理应用程序使用清理服务删除包含客户数据（如租户信息和用户个人数据）的任何字段，并使用哈希值替换这些字段。 匿名日志和哈希日志将被重写，然后上传到Cosmos。 所有日志传输均通过 FIPS 140-2 (TLS 加密连接) 。
+在上载日志数据之前，自动日志管理应用程序使用清理服务删除包含客户数据（如租户信息和用户个人数据）的任何字段，并使用哈希值替换这些字段。 将重写匿名日志和哈希日志，然后将这些日志上载到Cosmos。 所有日志传输均通过 FIPS 140-2 (TLS 加密连接) 。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 
