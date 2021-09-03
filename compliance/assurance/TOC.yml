@@ -30,6 +30,8 @@
       href: assurance-datacenter-security.md
     - name: 数据中心 TVRA
       href: assurance-threat-vulnerability-risk-assessment.md
+    - name: 数据承载设备破坏
+      href: assurance-data-bearing-device-destruction.md
     - name: 供应链安全性
       href: /azure/security/fundamentals/firmware?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: 加密和密钥管理
@@ -126,8 +128,6 @@
       href: assurance-exchange-online-data-deletion.md
     - name: SharePoint Online 数据删除
       href: assurance-sharepoint-online-data-deletion.md
-    - name: Microsoft 365 数据销毁
-      href: assurance-data-destruction.md
     - name: Microsoft 365 数据不变性
       href: assurance-data-immutability.md
     - name: Microsoft 365 数据位置
