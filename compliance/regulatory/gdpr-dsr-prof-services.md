@@ -19,11 +19,11 @@ titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
 ms.openlocfilehash: 06dbe8eeeddc32fb98b7b4bf0351834fb6a34944
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482627"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947547"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Microsoft 支持和专业服务与 GDPR 和 CCPA 数据主体请求
 
@@ -31,7 +31,7 @@ ms.locfileid: "58482627"
 
 Microsoft 专业服务包括一个由技术架构师、工程师、顾问和支持专业人员组成的多元化团队，专门负责履行 Microsoft 让客户实现更多收获更多的使命。我们的专业服务团队总共包括 21000 多名顾问、数字顾问、顶级支持、工程师和销售专业人员，他们在 191 个国家/地区工作，支持 46 种不同语言，每个月管理数百万个服务活动，并通过本地、电话、网络、社区和自动化工具与客户和合作伙伴交互。此组织利用将我们与企业客户连接在一起的由合作伙伴、技术社区、工具、诊断以及渠道所构成的广泛网络，汇聚了整个 Microsoft 产品组合的广泛专业知识。
 
-有关 Microsoft 专业服务的详细信息，请访问 [Microsoft 专业服务安全文档网页](https://www.microsoft.com/professionalservices/overview)。 Microsoft 专业服务非常重视《一般数据保护条例》(GDPR) 规定的义务。 本文档中的信息旨在回答客户有关 Microsoft 的支持和咨询服务如何响应和协助客户响应 GDPR 规定的数据主体请求 (DSR) 义务的问题。
+有关 Microsoft 专业服务的详细信息，请访问 [Microsoft 专业服务安全文档网页](https://www.microsoft.com/professionalservices/overview)。Microsoft 专业服务非常重视《一般数据保护条例》(GDPR) 规定的义务。本文档中的信息旨在回答客户有关 Microsoft 的支持和咨询服务如何响应和协助客户响应 GDPR 规定的数据主体请求 (DSR) 义务的问题。
 
 ### <a name="introduction-to-dsrs"></a>DSR 简介 
 
