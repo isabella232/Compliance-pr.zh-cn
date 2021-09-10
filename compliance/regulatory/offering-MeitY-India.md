@@ -1,5 +1,5 @@
 ---
-title: '电子和信息技术 (部门) '
+title: '电子行业和信息技术 (MeitY) '
 description: Microsoft 获得印度电子和信息技术部的完整认证。
 keywords: Microsoft 365, 合规性, 产品/服务
 ms.localizationpriority: medium
@@ -17,31 +17,31 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 7f597f5267482868c472ed04fada2a2f73490ab7
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482947"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947708"
 ---
-# <a name="ministry-of-electronics-and-information-technology-meity"></a>电子和信息技术 (部门) 
+# <a name="ministry-of-electronics-and-information-technology-meity"></a>电子行业和信息技术 (MeitY) 
 
 ## <a name="meity-overview"></a>MeitY 概述
 
-电子产品和信息技术 (部门) ，一家印度政府机构，它向所有政府机构和州公共部门组织提供策略指南。 其准则还经常被受监管行业的私有组织采用，如金融服务和电信。
+电子产品和信息技术 (部门) ，作为印度政府机构，它向所有政府机构和州公共部门组织提供策略指南。 其准则还经常被受监管行业的私有组织采用，如金融服务和电信。
 
-MeitY 提供由 MeitY (称为云服务提供商的"empanelment") 的认证服务，这需要根据一组预定义的安全、互操作性、数据可移植性、服务级别协议以及合同条款和条件对云服务进行认证。 MeitY 认证的审核员通过审核云服务提供商来验证合规性。
+MeitY 提供由 MeitY (称为云服务提供商的") "资格鉴定，这要求根据一组预定义的安全、互操作性、数据可移植性、服务级别协议以及合同条款和条件对云服务进行认证。 MeitY 认证的审核员通过审核云服务提供商来验证合规性。
 
 通过认证后，云服务提供商将列在政府云服务目录中，公共部门组织可在其中比较和采购经认证的云服务。 该目录是[印度](https://meity.gov.in/content/gi-cloud-meghraj)云 (或 GI 政府云计划)  (的一项服务，它促进政府中的云计算的使用，并管理公共部门 \[ IT 服务的实施。 \]
 
-## <a name="microsoft-and-ministry-of-electronics-and-information-technology-meity"></a>Microsoft 和电子产品和信息技术部门 (MeitY) 
+## <a name="microsoft-and-ministry-of-electronics-and-information-technology-meity"></a>Microsoft 和电子产品和信息技术 (MeitY) 
 
 2017 年 11 月，Microsoft 成为第一批通过 MeitY 获得其三种云模型的完全认证的全球云服务提供商之一：
 
 - 公共云，用于共享、多租户公共云服务
 - 政府虚拟私有云，必须在逻辑上与云服务提供商的公共和其他产品/服务分开
-- 政府社区云，适用于专用于政府机构且物理上与云服务提供商的公共和其他产品/服务的云服务
+- 政府社区云，适用于专用于政府机构且物理上独立于云服务提供商的公共和其他产品/服务的云服务
 
-Microsoft 的 MeitY 资格鉴定是由标准化测试和质量认证 (STQC) （一家提供质量保证服务的政府机构）执行严格审核的结果，该组织使用基于 MeghRaj 云计划工作的评估框架。 通过 Microsoft Azure，公共部门组织现在可以绘制各种部署模型和服务产品，包括基础结构即服务 (IaaS) 、平台即服务 (PaaS) 、灾难恢复、DevOps 和托管备份。
+Microsoft 的 MeitY 资格鉴定是由标准化测试和质量认证 (STQC) （一家提供质量保证服务的政府机构）执行严格审核的结果，它使用基于 MeghRaj 云计划工作的评估框架。 通过 Microsoft Azure，公共部门组织现在可以绘制各种部署模型和服务产品，包括基础结构即服务 (IaaS) 、平台即服务 (PaaS) 、灾难恢复、DevOps 和托管备份。
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 

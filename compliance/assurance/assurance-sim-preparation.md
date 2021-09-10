@@ -20,11 +20,11 @@ ms.collection:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: ca194511e000a7d98ddd89ae9ef85a1ee1ee01bd
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481664"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58946998"
 ---
 # <a name="microsoft-security-incident-management-preparation"></a>Microsoft 安全事件管理：准备
 
@@ -47,7 +47,7 @@ ms.locfileid: "58481664"
 - 查找有关安全性和隐私性的其他信息的位置，以及上报联系人。
 - 每年可能相关的任何其它安全重点领域
 
-每个使用 Microsoft 联机服务的员工都需接受适当而全面的背景调查，其中包括应聘者的教育、雇佣、犯罪历史记录和其他特定信息，如健康保险可移植性和责任法案 (HIPAA) 、国际武器贸易条例 (ITAR) 、联邦风险和授权管理计划 (FedRAMP) 等。
+每个使用 Microsoft 在线服务的员工都需接受适当而全面的背景调查，其中包括应聘者的教育、雇佣、犯罪历史记录和其他美国法规（如健康保险可移植性和责任法案 (HIPAA) 、国际武器贸易条例 (ITAR) 、联邦风险和授权管理计划 (FedRAMP) 等）的其他特定信息。
 
 对于在 Microsoft 工程部门工作的所有员工来说，背景检查是必需的。 某些 Microsoft 联机服务环境和操作员角色可能还需要完全指纹、公民要求、政府许可要求和其他更严格的控制。 此外，一些服务团队和角色可能会根据需要通过专门的安全培训。 最后，安全团队成员本身需要接受直接与安全相关的专门培训，并参与安全直接相关的会议。 此培训因团队和员工需要而异，但包含行业会议、内部 Microsoft 安全会议，以及行业内知名安全培训供应商的外部培训课程等内容。 我们还每年为 Microsoft 的安全社区发布专门的安全培训文章，并定期专门介绍 Microsoft 联机服务。
 
@@ -60,7 +60,7 @@ Microsoft 与各个行业部门和安全专家合作以了解新的威胁和不�
 1. **自动安全测试：** 内部和外部人员定期根据 Microsoft SDL 实践、开放 Web 应用程序安全性 Project (OWASP) 10 大风险以及不同行业机构报告的新兴威胁来扫描 Microsoft 在线服务环境。
 2. **漏洞评估：** 与独立第三方测试人员正式合作，定期验证关键逻辑控制是否有效运行，以履行各种监管人员的服务职责。 评估由注册道德安全测试员委员会 (CREST) 认证人员执行，以 OWASP 10 大风险和其他服务适用的威胁为基础。 发现的所有威胁都跟踪至其结束。
 3. **持续系统漏洞测试：** Microsoft 执行定期测试，其中，团队尝试使用新兴威胁、混合威胁和/或高级持久威胁来破坏系统，而其他团队则尝试阻止此类攻击尝试。
-4. **Microsoft Online Services Bug 布尔计划**：此计划执行一项策略，允许在 Microsoft 在线服务上进行由客户来源的有限漏洞评估。 有关详细信息，请参阅 [Microsoft 联机服务漏洞赏金条款](https://www.microsoft.com/msrc/bounty-terms)。
+4. **Microsoft Online Services Bug 布尔计划**：此计划执行一项策略，允许对 Microsoft 在线服务进行由客户来源的有限漏洞评估。 有关详细信息，请参阅 [Microsoft 联机服务漏洞赏金条款](https://www.microsoft.com/msrc/bounty-terms)。
 
 Microsoft 联机服务工程团队定期发布各种合规性文档。 其中几个文档可在遵守保密协议的前提下，从 [Microsoft 云服务信任门户](https://aka.ms/STP) 或 [Microsoft 365 合规中心](https://compliance.office.com) 的服务保证区域获取。
 

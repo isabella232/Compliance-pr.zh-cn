@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: fe5f8ff2208fd2586ef2806aed73a5ee77cb5b97
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482255"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947562"
 ---
 # <a name="european-standards-en-301-549"></a>欧洲标准 EN 301 549
 

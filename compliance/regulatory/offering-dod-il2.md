@@ -1,6 +1,6 @@
 ---
 title: '美国国防部 (DOD) 影响级别 2 (IL2) '
-description: 了解 Microsoft 如何满足美国国防部 (DoD) 级别 2 (IL2) 标准。
+description: 了解 Microsoft 如何满足美国国防部 (DOD) 2 级 (IL2) 标准。
 keywords: Microsoft 365, 合规性, 产品/服务
 ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
@@ -17,23 +17,23 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: c57183a53c563fffa2bb3eb1cedb2fca23db26f4
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482445"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947555"
 ---
 # <a name="department-of-defense-dod-impact-level-2-il2"></a>美国国防部 (DOD) 影响级别 2 (IL2) 
 
 ## <a name="dod-il2-overview"></a>DoD IL2 概述
 
-国防信息系统局 (DISA) 是美国国防部 (DoD) 的一个机构，负责开发和维护 DoD 云计算安全要求指南 [ (SRG) ](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html)。 SRG 定义 DoD 用于评估云服务提供商 (CSP) 的安全状况的基准安全要求，以支持授权 DoD 临时授权 (PA) 的决定，该授权允许云解决方案提供商托管 DoD 任务。 它合并、取代并撤销之前发布的 DoD 云安全模型 (CSM) 并映射到 DoD 风险管理框架 (RMF) 。
+美国国防部信息系统局 (DISA) 是美国国防部 (DoD) 的一个机构，负责开发和维护 DoD 云计算安全要求指南 [ (SRG) ](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html)。 SRG 定义 DoD 用于评估云服务提供商 (CSP) 的安全状况的基准安全要求，以支持授权 DoD 临时授权 (PA) 的决定，该授权允许云解决方案提供商托管 DoD 任务。 它合并、取代并撤销以前发布的 DoD 云安全模型 (CSM) 并映射到 DoD 风险管理框架 (RMF) 。
 
-DISA 指导 DoD 机构和部门规划和授权 CSP 的使用。 它还评估 CSP 产品/服务是否符合 SRG，SRG 是一个授权流程，CSP 可在其中提供概述其是否符合 DoD 标准的文档。 它在适当时 (DoD 临时授权) PA，因此 DoD 机构和支持组织可以使用云服务，而无需自行完成完全审批过程，从而节省时间和精力。
+DISA 指导 DoD 机构和部门规划和授权 CSP 的使用。 它还评估 CSP 产品/服务是否符合 SRG，SRG 是一个授权流程，CSP 可在其中提供概述其是否符合 DoD 标准的文档。 它在适当的时候 (DoD 临时授权) PA，因此 DoD 机构和支持组织可以使用云服务，而无需自行完成完全审批过程，从而节省时间和精力。
 
-[2014 年 12](https://www.esi.mil/contentview.aspx?id=585)月 15日有关购买和使用商业云计算服务的更新指南的 DoD CIO 备忘录指出，"FedRAMP 将充当所有 DoD 云服务的最低安全基线"。 SRG 在所有信息影响级别使用 FedRAMP 中等基线 (IL) ，并在某些情况下考虑高基线。
+[2014 年 12](https://www.esi.mil/contentview.aspx?id=585)月 15日有关购买和使用商业云计算服务的更新指南的 DoD CIO 备忘录指出，"FedRAMP 将充当所有 DoD 云服务的最低安全基线"。 SRG 使用 FedRAMP 中等基线，在所有信息影响级别 (IL) ，并在某些级别考虑高基线。
 
-[SRG Section 5.1.1](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#5SECURITYREQUIREMENTS) *DoD use of FedRAMP Security Controls* 指出，IL2 信息可能托管在一个 CSP 中，该 CSP 中最少具有 FedRAMP 中等 PA 和 DoD 级别 2 PA，但需遵守第 5.6.2 节中列出的人员安全要求。 但是，此方法不会减少云解决方案提供商满足任务所有者要求的其他安全和集成要求。 根据 [SRG 5.2.2.1](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#5.2LegalConsiderations) *IL2* 位置和分离要求，FedRAMP 中等 PA 充分涵盖了 DoD IL2 PA，因此不会为 IL2 PA 额外评估这些要求。
+[SRG Section 5.1.1](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#5SECURITYREQUIREMENTS) *DoD use of FedRAMP Security Controls* 指出，IL2 信息可能托管在一个 CSP 中，该 CSP 中最少具有 FedRAMP 中等 PA 和 DoD 级别 2 PA，但需遵守第 5.6.2 节中概述的人员安全要求。 但是，此方法不会减少云解决方案提供商满足任务所有者要求的其他安全和集成要求。 根据 [SRG 5.2.2.1](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#5.2LegalConsiderations) *IL2* 位置和分离要求，FedRAMP 中等 PA 充分涵盖了 DoD IL2 PA，因此不会为 IL2 PA 额外评估这些要求。
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
@@ -65,8 +65,8 @@ DISA 指导 DoD 机构和部门规划和授权 CSP 的使用。 它还评估 CSP
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **GCC** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
-| **GCC 高级** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **GCC** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、Intelligent Services、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **GCC 高级** | 活动源服务、必应 服务、Delve、Exchange Online Protection、Exchange Online、Intelligent Services、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
 
 ### <a name="resources"></a>资源
 

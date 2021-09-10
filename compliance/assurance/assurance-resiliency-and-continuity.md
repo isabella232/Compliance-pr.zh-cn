@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: ff1719ce931a50904fb6b7e6069cd29a1883aa90
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481794"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947015"
 ---
 # <a name="resiliency-and-continuity-overview"></a>弹性和连续性概述
 
@@ -55,7 +55,7 @@ Microsoft 的 Enterprise 业务连续性管理 (EBCM) 策略规定，必须每�
 
 Microsoft 在线服务通过冗余体系结构、数据复制和自动完整性检查实现服务恢复。 冗余体系结构涉及在地理位置和物理上独立的硬件上部署服务的多个实例，为 Microsoft 联机服务提供更高的容错能力。 数据复制可确保不同容错区域中始终存在客户数据的多个副本，从而允许在客户损坏、丢失甚至意外删除时恢复关键客户数据。 自动完整性检查通过自动还原受多种物理或逻辑损坏影响的数据来增加数据可用性。
 
-## <a name="related-external-regulations--certifications"></a>认证相关的&法规
+## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与复原和连续性相关的控件的验证，请参阅下表。
 

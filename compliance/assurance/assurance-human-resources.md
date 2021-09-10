@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 1cecf95d167e75f1c31360bca831184dee3e322e
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481964"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58946978"
 ---
 # <a name="human-resources-overview"></a>人力资源概述
 
@@ -60,9 +60,9 @@ Microsoft 对所有员工、员工和临时员工都遵循严格的人员筛选�
 
 ## <a name="how-does-microsoft-ensure-third-party-suppliers-meet-the-same-personnel-requirements-as-microsoft-employees"></a>Microsoft 如何确保第三方供应商满足与 Microsoft 员工相同的人员要求？
 
-Microsoft 在线服务要求第三方供应商在 MSSA (签订主供应商服务) 。 本协议要求供应商遵守 Microsoft 策略和程序，包括人员安全策略和过程。 Microsoft 通过直接跟踪筛选结果来监视第三方人员的屏蔽要求的合规性。 Microsoft 要求供应商直接向 Microsoft 提交第三方人员的筛选结果。
+Microsoft 在线服务要求第三方供应商在 MSSA (主供应商服务) 。 本协议要求供应商遵守 Microsoft 策略和程序，包括人员安全策略和过程。 Microsoft 通过直接跟踪筛选结果来监视第三方人员的屏蔽要求的合规性。 Microsoft 要求供应商直接向 Microsoft 提交第三方人员的筛选结果。
 
-## <a name="related-external-regulations--certifications"></a>认证相关的&法规
+## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与人力资源相关的控制措施的验证，请参阅下表。
 

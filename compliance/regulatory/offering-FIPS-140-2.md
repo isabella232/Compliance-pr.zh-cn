@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 0e087393901b76a798c4a4ea3bef25fad8dcda84
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481224"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947561"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>联邦信息处理标准 (140-2) FIPS
 
@@ -29,13 +29,13 @@ ms.locfileid: "58481224"
 
 联邦信息处理标准 (FIPS) 出版物 140-2 是一项美国政府标准，它定义信息技术产品中加密模块的最低安全要求，如 1996 年信息技术管理变革法案第 5131 节中的定义。
 
-加密模块验证计划[ (](https://csrc.nist.gov/Projects/cryptographic-module-validation-program) CMVP) 是美国国家标准和技术协会 (NIST) 和加拿大网络安全中心 (CCCS) 的一项联合努力，它验证加密模块符合加密模块的安全要求标准 (即 FIPS 140-2) 和相关 FIPS 加密标准。  FIPS 140-2 安全要求涵盖与设计和实现加密模块相关的 11 个方面。 NIST 信息技术实验室运行相关程序，以验证模块中 FIPS 批准的加密算法。
+加密模块验证计划[ (](https://csrc.nist.gov/Projects/cryptographic-module-validation-program) CMVP) 是美国国家标准和技术协会 (NIST) 和加拿大网络安全中心 (CCCS) 的一项联合努力，它验证加密模块符合加密模块标准 (即 FIPS 140-2) 和相关 FIPS 加密标准。  FIPS 140-2 安全要求涵盖与设计和实现加密模块相关的 11 个方面。 NIST 信息技术实验室运行相关程序，用于验证模块中 FIPS 批准的加密算法。
 
 ## <a name="microsofts-approach-to-fips-140-2-validation"></a>Microsoft 对 FIPS 140-2 验证的方法
 
-自 2001 年制定标准以来，Microsoft 一直积极致力于满足 140-2 要求，并验证了加密模块。 Microsoft 根据国家标准和技术协会 NIST (加密模块验证) CMVP (验证[](https://csrc.nist.gov/Projects/cryptographic-module-validation-program)其加密模块) 。 多个 Microsoft 产品（包括许多云服务）使用这些加密模块。
+自 2001 年制定标准以来，Microsoft 一直积极致力于满足 140-2 要求，并验证了加密模块。 Microsoft 根据国家标准和技术协会 NIST (加密模块验证计划) CMVP ([](https://csrc.nist.gov/Projects/cryptographic-module-validation-program)验证其加密模块) 。 多个 Microsoft 产品（包括许多云服务）使用这些加密模块。
 
-有关 Microsoft Windows 加密模块、每个模块的安全策略以及 CMVP 证书详细信息的目录的技术信息，请参阅 Windows[和 Windows Server FIPS 140-2 内容](https://aka.ms/AA6ehud)。
+有关 Microsoft Windows 加密模块、每个模块的安全策略以及 CMVP 证书详细信息目录的技术信息，请参阅[Windows 和 Windows Server FIPS 140-2 内容](https://aka.ms/AA6ehud)。
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
@@ -79,7 +79,7 @@ Microsoft 在运行 Windows 10 和 Windows Server 的具有代表性的硬件配
 
 **NIST 网站上列出了许多模块。我如何知道哪个适用于我的代理？**
 
-如果需要使用通过 FIPS 140-2 验证的加密模块，则需要验证使用的版本是否显示在验证列表中。 CMVP 和 Microsoft 维护经过验证的加密模块列表（按产品发布组织）以及用于标识哪些模块安装在 Windows系统的说明。 有关配置符合标准的系统的信息，请参阅 Windows 和 Windows [Server FIPS 140-2 内容](https://aka.ms/AA6ehud)。
+如果需要使用通过 FIPS 140-2 验证的加密模块，则需要验证使用的版本是否显示在验证列表中。 CMVP 和 Microsoft 维护一个经验证的加密模块列表（按产品发布组织）以及用于确定哪些模块安装在 Windows 系统的说明。 有关配置符合标准的系统的信息，请参阅 Windows 和 Windows [Server FIPS 140-2 内容](https://aka.ms/AA6ehud)。
 
 **"在 FIPS 模式下操作时"对证书意味着什么？**
 
@@ -87,7 +87,7 @@ Microsoft 在运行 Windows 10 和 Windows Server 的具有代表性的硬件配
 
 **FedRAMP 是否需要 FIPS 140-2 验证？**
 
-是的，联邦风险和授权管理计划 (FedRAMP) 依赖于 [NIST SP 800-53 修订版 4](https://nvd.nist.gov/800-53/Rev4/)定义的控制基线，包括 [SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13) 加密保护，它管理使用经 FIPS 验证的加密或 NSA 批准的加密。
+是的，联邦风险和授权管理计划 (FedRAMP) 依赖于 [NIST SP 800-53 修订版 4](https://nvd.nist.gov/800-53/Rev4/)定义的控制基线，包括 [SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13) 加密保护，它管理 FIPS 验证加密或 NSA 批准的加密的使用。
 
 **能否在我的机构认证过程中使用 Microsoft 遵守 FIPS 140-2？**
 

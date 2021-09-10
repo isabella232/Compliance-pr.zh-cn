@@ -20,11 +20,11 @@ ms.custom:
 titleSuffix: Microsoft GDPR
 hideEdit: true
 ms.openlocfilehash: 5f9dc6f94ee9299668adf1ac8814f59ae16adba1
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58480364"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947529"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>通过责任就绪清单支持 GDPR 计划
 

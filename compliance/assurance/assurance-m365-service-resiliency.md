@@ -18,11 +18,11 @@ ms.collection:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 592cfcdf3da33e6c26e90d5a83fb6bcd3b4241e0
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481914"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58946975"
 ---
 # <a name="built-in-service-resiliency-in-microsoft-365"></a>内置服务恢复能力Microsoft 365
 
@@ -43,10 +43,10 @@ ms.locfileid: "58481914"
 服务事件的范围由其严重程度、持续时间和受影响的客户数量来衡量。 我们努力通过以下方式限制所有事件的范围：
 
 - 将每个服务的多个实例彼此隔离
-- 使用验证通道以受控渐进的方式部署更新，以便在部署过程的早期检测并缓解更新中可能出现的任何问题。 此设计允许根据需要对更新进行回归，并首先在 Microsoft (内部环) 内的一个小组中回归更新，然后再将其部署到大型组（如所有 140，000 名 Microsoft 员工 (圈 2) ）中，然后针对早期采用者圈 (圈 3) 并最终针对全局 (圈 4) 的所有客户。
+- 使用验证通道以受控渐进的方式部署更新，以便在部署过程的早期检测并缓解更新中可能出现的任何问题。 此设计允许根据需要对更新进行回归，并首先在 Microsoft (内部环) 内的一个小组中回归更新，然后再为较大组（如所有 140，000 名 Microsoft 员工 (ring 2) ）部署更新，然后针对早期采用者圈 (圈 3) 并最终针对全局 (圈 4) 的所有客户。
 - 通过自动化推动监视方面的改进。 Microsoft 365是一项大型服务，SLA 目标运行时间较高。 在服务事件的最开始，如果必须让人参与检测和响应，那么我们的响应速度将无法满足 SLA。 自动化是快速高效地检测和响应服务事件的关键。 我们越早知道问题，就能越快地解决它。
 
-除了内置在服务体系结构中的主动/Microsoft 365功能外，这些工作还降低了服务事件期间受到影响的客户的严重性、持续时间和数量。  
+除了内置在服务体系结构中的主动/Microsoft 365功能外，这些工作还降低了服务事件期间受影响客户的严重性、持续时间和数量。  
 
 ## <a name="fault-isolation"></a>故障隔离
 

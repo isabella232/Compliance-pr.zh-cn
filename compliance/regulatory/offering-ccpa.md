@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 61b15a095dec310aac74bac10b2d062eb1011750
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482657"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947541"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>加州消费者隐私法案 (CCPA)
 
@@ -29,7 +29,7 @@ ms.locfileid: "58482657"
 
 加州消费者隐私法案 (CCPA) 美国第一个全面的隐私法。 它向加州消费者提供各种隐私权利。  CCPA 监管的企业会向这些消费者履行多项义务，包括披露、一般数据保护条例 (GDPR) 等消费者数据主体权利 (DSR) 、某些数据传输的"选择退出"和未成年人的"选择加入"要求。
 
-CCPA 仅适用于在加利福尼亚经营业务但满足以下一项或一项以上条件的公司： (1) 年收入超过 2，500 万美元， 或 (2) 通过销售加利福尼亚消费者个人信息获得其年收入超过 50%，或者每年购买、销售或共享超过 50，000 个加利福尼亚消费者的个人信息的 (3) 。
+CCPA 仅适用于在加利福尼亚经营并满足以下一项或一项以上条件的公司： (1) 的年收入超过 2，500 万美元，或者 (2) 通过销售加州消费者个人信息获得超过 50% 的年收入，或 (3) 购买、销售或共享超过 50，000 个加州消费者的个人信息。
 
 CCPA 将于 2020 年 1 月 1 日生效。 但是，由加州律师总 (AG) 将于 2020 年 7 月 1 日开始。
 
@@ -37,7 +37,7 @@ CCPA 将于 2020 年 1 月 1 日生效。 但是，由加州律师总 (AG) 将�
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft 和 CCPA
 
-对于在加利福尼亚有业务业务的商业客户，Microsoft 将充当在线服务和在线服务Professional服务提供商。  在线服务条款 (OST) 和 Microsoft Professional Services 数据保护附录 (MSDPA) 已满足 CCPA 下服务提供商的要求，通常足以允许客户继续将数据转移到我们的联机服务。 因此，客户无需进行额外的合同更改，就可以根据 CCPA 依赖 Microsoft 作为服务提供商。
+对于在加利福尼亚有业务业务的商业客户，Microsoft 将充当我们的在线服务和在线服务Professional服务提供商。  联机服务条款 (OST) 和 Microsoft Professional Services 数据保护附录 (MSDPA) 的条款已满足 CCPA 下服务提供商的要求，通常足以允许客户继续将数据转移到我们的联机服务。 因此，客户无需进行额外的合同更改，就可以根据 CCPA 依赖 Microsoft 作为服务提供商。
 
 如 OST 中所列，Microsoft 遵守适用于在线服务的所有法律和法规，其中包括 CCPA。  
 
@@ -48,7 +48,7 @@ CCPA 将于 2020 年 1 月 1 日生效。 但是，由加州律师总 (AG) 将�
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://aka.ms/o365-compliance-framework)
-- 支持和Professional服务
+- 支持和 Professional 服务
 - Visual Studio
 
 ## <a name="how-you-can-prepare-for-your-ccpa-compliance-when-using-microsoft-products-and-services"></a>如何使用 Microsoft 产品和服务准备 CCPA 合规性
@@ -64,7 +64,7 @@ CCPA 将于 2020 年 1 月 1 日生效。 但是，由加州律师总 (AG) 将�
 
 **CCPA 将如何影响我的公司？**
 
-CCPA 向加利福尼亚人提供的许多权利都类似于 GDPR 提供的权利，包括披露和数据主体权利 (DSR) 请求，如访问、删除和可移植性。 因此，客户可以查找我们现有的 GDPR 解决方案，以帮助他们遵守 CCPA。
+CCPA 向加利福尼亚人提供的许多权利都类似于 GDPR 提供的权利，包括泄露和数据主体权利 (DSR) 请求，如访问、删除和可移植性。 因此，客户可以查找我们现有的 GDPR 解决方案，以帮助他们遵守 CCPA。
 
 要开始 CCPA 之旅，应专注于信息发现、确定个人信息的共享方式、管理信息的使用方式、保护方式以及制定正式的数据泄露响应计划。
 
@@ -77,7 +77,7 @@ CCPA 向加利福尼亚人提供的许多权利都类似于 GDPR 提供的权利
 - 定义"服务提供商"，与 GDPR 定义具有类似合同义务的"处理者"的方式类似，
 - 包含 GDPR 定义的"控制者"的"企业"的定义。
 
-CCPA 中的最大差异是，核心要求是允许选择不向第三方销售数据 (并广泛定义"出售"，以包括共享数据，以便获得有价值的) 。
+CCPA 中的最大差异是允许选择不向第三方销售数据的核心要求 (并广泛定义"出售"以包括共享数据，以便获得有价值的) 。
 
 **根据 CCPA 的规定，公司必须落实哪些权利？**
 

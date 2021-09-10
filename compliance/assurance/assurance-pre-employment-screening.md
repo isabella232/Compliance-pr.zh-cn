@@ -21,11 +21,11 @@ ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 633873434620266d0fc9f24bbe7a3470554c35f3
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481824"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58946983"
 ---
 # <a name="microsoft-pre-employment-screening"></a>Microsoft 聘用前筛选
 
@@ -33,7 +33,7 @@ Microsoft 致力于维护安全的环境，以正确保护员工、客户、属�
 
 ## <a name="the-microsoft-personnel-screening-standard"></a>Microsoft 人员屏蔽标准
 
-Microsoft 人员屏蔽标准适用于参与向政府或商业云客户开发、运营或交付在线服务的所有 Microsoft 员工、管理人员和临时员工。
+Microsoft 人员屏蔽标准适用于参与向政府或商业云客户开发、运营或交付联机服务的所有 Microsoft 员工、管理人员和临时员工。
 
 Microsoft 在线服务的人员筛选做法符合 Microsoft 的企业标准和美国国家标准和技术协会 NIST (NIST) 人员筛选控制措施。 需要访问以下内容的 Microsoft 员工需遵守 Microsoft 人员屏蔽标准：
 
@@ -56,7 +56,7 @@ Microsoft 的全球安全部门负责确保在向 Microsoft 雇用候选人之�
 - 在州、县、地方级以及联邦一级，如果在美国适用，犯罪历史记录最多会检查七年的犯罪和违法行为。 根据当地法律 (国际犯罪历史记录检查) 适用于美国以外的地区。
 - 确认最高教育程度
 - 五年雇佣历史记录
-- 全局处罚和执行检查，包括Office"外资产控制 (OFAC) "列表、工业与安全局 (BIS) 列表以及 Office"国防贸易控制""人员 (DDTC) "列表检查。
+- 全局处罚和执行检查，包括Office OFAC (OFAC) 列表、工业与安全局 (BIS) 列表以及 Office of Defense Trade Controls Debarred Persons (DDTC) list checks。
 
 ## <a name="supplier-screening"></a>供应商筛选
 

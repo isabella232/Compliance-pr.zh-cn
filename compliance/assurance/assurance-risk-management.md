@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 8be83f6faa3d365e2cb91c996e2c87367797670f
-ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58678591"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947014"
 ---
 # <a name="risk-management-overview"></a>风险管理概述
 
@@ -37,13 +37,13 @@ Microsoft 的风险管理与 Enterprise ERM (框架) 一致。 ERM 支持整个�
 
 ![风险管理结构。](../media/assurance-risk-management-structure.png)
 
-Microsoft ERM 在整个企业中启用常见的风险管理原则，以便业务部门可以独立促进一致和比较的风险评估。 这种协调使 Microsoft 能够以统一的方式聚合并报告风险信息，以用于管理。 ERM 为 Microsoft 的业务部门提供风险管理流程的常见方法、工具和目标。 Microsoft 365以及其他工程组和业务部门使用这些工具，在 ERM 指导下，在其自己的风险管理计划内执行个别风险评估。
+Microsoft ERM 在整个企业中启用常见的风险管理原则，以便业务部门可以独立促进一致和比较的风险评估。 这种协调使 Microsoft 能够以统一的方式聚合并报告风险信息，以用于管理。 ERM 为 Microsoft 的业务部门提供风险管理流程的常见方法、工具和目标。 Microsoft 365其他工程组和业务部门使用这些工具，在 ERM 指导下，在其自己的风险管理计划内执行个别风险评估。
 
 ## <a name="how-do-microsoft-online-services-work-with-erm"></a>Microsoft 联机服务如何与 ERM 一起工作？
 
 每个联机服务都遵循 ERM 指南来管理整个Microsoft 服务。 该计划侧重于使 ERM 框架与现有的 Microsoft 工程、服务操作和合规性流程保持一致，使风险管理计划更加高效。 每个联机服务的风险管理活动最终汇总到 ERM 流程并通知 ERM 流程。
 
-作为风险评估活动的一部分，每个联机服务都分析作为 Microsoft Controls Framework () 的一部分实现的控制措施的设计和操作) 。 框架是一组经过合理调整的控制措施，当正确实施控制措施和支持合规性活动时，工程团队可以遵守关键法规和认证。
+作为风险评估活动的一部分，每个联机服务都分析作为 Microsoft Controls Framework) 的一部分实现的控制措施 (有效性。 框架是一组经过合理调整的控制措施，当正确实施控制措施和支持合规性活动时，工程团队可以遵守关键法规和认证。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 

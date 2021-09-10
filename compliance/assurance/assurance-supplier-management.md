@@ -21,19 +21,19 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 3b0a4c7f12eba49c252f71e47eda1685fd4d41a4
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481654"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947021"
 ---
 # <a name="supplier-management-overview"></a>供应商管理概述
 
 ## <a name="how-does-microsoft-manage-risk-related-to-suppliers"></a>Microsoft 如何管理与供应商相关的风险？
 
-Microsoft 合作伙伴与第三方公司合作，帮助满足客户的需求。 这些第三方公司称为供应商或下级处理者。 Microsoft 的供应商安全和隐私由我们的供应商安全和隐私保证 [ (SSPA) ](https://www.microsoft.com/procurement/sspa?activetab=pivot1%3aprimaryr6)计划管理，该计划是一套企业范围的要求，适用于与 Microsoft 合作以提供在线服务的所有供应商。 SSPA 计划提供对供应商群的全面治理和管理，而各个业务部门可能仍对供应商保持其他要求。
+Microsoft 合作伙伴与第三方公司合作，帮助满足客户的需求。 这些第三方公司称为供应商或下级处理者。 Microsoft 的供应商安全和隐私受到我们的供应商安全和隐私保证 [ (SSPA) ](https://www.microsoft.com/procurement/sspa?activetab=pivot1%3aprimaryr6)计划的约束，该计划是一套企业范围的要求，适用于与 Microsoft 合作以提供在线服务的所有供应商。 虽然 SSPA 计划提供对供应商群的全面治理和管理，但各个业务部门可能仍对供应商保持其他要求。
 
-## <a name="how-does-microsofts-supplier-security-and-privacy-assurance-sspa-program-protect-customer-data"></a>Microsoft 供应商安全和隐私保证 (SSPA) 保护客户数据？
+## <a name="how-does-microsofts-supplier-security-and-privacy-assurance-sspa-program-protect-customer-data"></a>Microsoft 供应商安全和隐私保证计划如何 (SSPA) 保护客户数据？
 
 SSPA 是 Microsoft 采购、公司外部和法律事务和公司安全之间的合作关系，以确保供应商遵守 Microsoft 的隐私和安全原则。 SSPA 的范围涵盖处理个人数据或 Microsoft 机密数据的所有供应商。 SSPA 计划注册包括遵守 Microsoft 的数据保护要求 (或) 。 THEMICROSOFT consists of security and privacy controls that suppliers must implement before beginning contracted work with Microsoft. 所有已注册供应商每年自行证明遵守了一次。。
 
@@ -50,7 +50,7 @@ SSPA 是 Microsoft 采购、公司外部和法律事务和公司安全之间的�
     - 第一种扩充形式为员工提供支持、运营和维护 Microsoft 联机服务。 在履行职责的同时，这些子处理器可能会接触到客户数据或个人数据。 例如，子处理器可能会在 Microsoft 服务器上执行远程故障排除，但这样做可能会接触到在服务器故障转储日志中的客户数据片段。
     - 第二种形式的员工扩充涉及与 Microsoft 全职员工一起合作以支持、运营和维护 Microsoft 联机服务的下级处理者。 这一类子处理器在与 Microsoft 全职员工一起工作时，可能会接触到假名化数据。
 
-技术与配套子处理者需要实现访问控制，以遵守 Microsoft 的 DATA Protection Requirements (MICROSOFT) 。 这些要求符合或超过 Microsoft 在 OST (条款中向客户) 。 执行员工扩充工作的供应商受 Microsoft 全职员工相同的访问控制。
+技术和配套子处理者需要实现访问控制，以遵守 Microsoft 的 DATA Protection Requirements (MICROSOFT) 。 这些要求符合或超过 Microsoft 在 OST 协议联机服务条款中 (合同) 。 执行员工扩充工作的供应商受 Microsoft 全职员工相同的访问控制。
 
 ## <a name="how-does-microsoft-onboard-suppliers"></a>Microsoft 如何载入供应商？
 

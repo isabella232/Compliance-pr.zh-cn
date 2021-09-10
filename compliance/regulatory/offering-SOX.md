@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 375f7a58db675f3f14bd98ff580919ef40f603f1
-ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505885"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947748"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>2002 年萨班尼斯-奥克斯莱法案 (Sarbanes-Oxley Act of 2002, SOX)
 
@@ -35,7 +35,7 @@ SEC 不定义或实施 SOX 认证过程。 相反，它为上市公司提供了�
 
 遵守 Sarbanes-Oxley 法案 (SOX) 的 Microsoft 云服务客户可以使用 MICROSOFT 在履行自己的 SOX 合规义务时从独立审计公司收到的 SOC 1 类型 2 证明。 此证明适用于报告对财务信息进行的内部控制。
 
-即使没有针对云服务提供商的 SOX 认证或验证，Microsoft 也可以帮助客户履行 SOX 义务。 例如，SOX 要求对准备和审阅财务报表进行内部控制，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。 为帮助公司，Microsoft 维护了适用于跨各种服务组合报告此类控件的 SOC 1 类型 2 证明，这些服务组合可用于构建各种应用程序。 它基于美国注册公共会计协会 (AICPA) 18 (SSAE 18) 标准声明和国际标准保障服务活动 No。 3402（ISAE 3402）。  (此证明取代了 SAS 70.) 
+即使没有针对云服务提供商的 SOX 认证或验证，Microsoft 也可以帮助客户履行 SOX 义务。 例如，SOX 要求对准备和审阅财务报表进行内部控制，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。 为帮助公司，Microsoft 维护了适用于跨各种服务组合报告此类控件的 SOC 1 类型 2 证明，这些服务组合可用于构建各种应用程序。 它基于美国注册公共会计协会 (AICPA) 证明服务 18 (SSAE 18) 标准声明和国际标准保障服务活动 No。 3402（ISAE 3402）。  (此证明取代了 SAS 70.) 
 
 第三方审核公司生成的审核报告证实 Microsoft 控制措施设计正确，在指定的日期运行，且在指定的时段内有效运行。 客户可以审阅报告，了解 Microsoft 控制措施目标及其控制措施的有效性，并访问补充控制措施。
 
@@ -92,10 +92,10 @@ AICPA SSAE 18 标准取代了 SAS 70，适用于报告服务组织中与用户�
 
 ### <a name="resources"></a>资源
 
-- [Azure 合规性文档](/azure/compliance/)
-- [Azure 实现合规性世界](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
-- [Microsoft 365合规性产品/服务](/compliance/regulatory/offering-home)
-- [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [ Azure 合规性文档](/azure/compliance/)
+- [ Azure 实现合规性世界](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
+- [ Microsoft 365 合规性产品/服务](/compliance/regulatory/offering-home)
+- [ Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [2002 年萨班斯-奥克斯利法案 (](https://www.congress.gov/bill/107th-congress/house-bill/3763) SOX) 
 - [美国证券交易Exchange委员会](https://www.sec.gov/) (SEC) 
 - [Microsoft 云金融服务资源](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)

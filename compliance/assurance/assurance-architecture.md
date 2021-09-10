@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 97fe615296f03c8f72dbf23d886501988686b53a
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482195"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58946897"
 ---
 # <a name="architecture-overview"></a>体系结构概述
 
@@ -37,7 +37,7 @@ Microsoft 在线服务是指 Microsoft 提供的基于云的服务，其中包�
 
 ## <a name="what-is-azure"></a>什么是 Azure？
 
-Microsoft Azure是一个云计算平台，用于通过 Microsoft 和第三方托管数据中心的全球网络生成、部署和管理应用程序。 它支持平台即服务 (PaaS) 和基础结构即服务 (IaaS) 云服务模型，并支持将云服务与客户本地资源集成在一起的混合解决方案。 Microsoft Azure支持跨各种产品和服务、地理位置和行业的许多客户、合作伙伴和政府组织。 Microsoft Azure旨在满足其安全性、机密性和合规性要求。
+Microsoft Azure是一个云计算平台，用于通过 Microsoft 和第三方托管数据中心的全球网络生成、部署和管理应用程序。 它支持平台即服务 (PaaS) 和基础结构即服务 (IaaS) 云服务模型，并启用将云服务与客户本地资源集成在一起的混合解决方案。 Microsoft Azure支持跨各种产品和服务、地理位置和行业的许多客户、合作伙伴和政府组织。 Microsoft Azure旨在满足其安全性、机密性和合规性要求。
 
 ## <a name="what-is-dynamics-365"></a>什么是 Dynamics 365？
 
@@ -45,7 +45,7 @@ Dynamics 365 是一个联机业务应用程序套件，将客户关系管理 (CR
 
 ## <a name="what-is-microsoft-365"></a>什么是 Microsoft 365？
 
-Microsoft 365由云支持、基于订阅的 Office、Windows 10、企业移动性 + 安全性 和合规性版本。 Microsoft 365客户获取 Outlook 和 Windows 等客户端，并且他们还可以从 Microsoft 代表自己托管的服务（如 Exchange Online、Microsoft Teams 和 SharePoint Online）中获益。 服务的所有组件会定期作为订阅模型的一部分进行更新，以便我们的客户拥有"常青"产品。 Microsoft 代表客户管理服务基础结构，这意味着 Microsoft 负责保护存储客户数据的基础结构。
+Microsoft 365支持基于云的、基于订阅的 Office、Windows 10、企业移动性 + 安全性 和合规性版本。 Microsoft 365客户获取 Outlook 和 Windows 等客户端，并且他们还可以从 Microsoft 代表自己托管的服务（如 Exchange Online、Microsoft Teams 和 SharePoint Online）中获益。 服务的所有组件会定期作为订阅模型的一部分进行更新，以便我们的客户拥有"常青"产品。 Microsoft 代表客户管理服务基础结构，这意味着 Microsoft 负责保护存储客户数据的基础结构。
 
 就规模而言，Microsoft 目前使用近一百万台计算机来为Microsoft 365电源。 支持这些服务的基础结构因 Azure、Windows 和 Linux 以及多租户和专用平台中的特定于服务的硬件和虚拟化环境而有很大差异。 Microsoft 365 的业务范围遍及全球，我们的基础结构分布在世界各地的数据中心，使我们的客户能够满足数据驻留和主权要求。
 
@@ -69,7 +69,7 @@ Microsoft 联机服务团队将关键系统组件及其依赖项标识为业务�
 
 定期自动验证 Microsoft 在线服务体系结构，并自动使用基于云的工具验证是否符合我们的安全原则，并持续测试隔离和恢复能力功能。 体系结构验证可自动标识服务当前状态偏离所需状态的实例，并标记任何偏差以便进行审阅和缓解。 体系结构验证的目标是确保服务基础结构的管理功能继续正常工作。
 
-## <a name="related-external-regulations--certifications"></a>认证相关的&法规
+## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与体系结构相关的控件的验证，请参阅下表。
 

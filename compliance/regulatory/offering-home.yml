@@ -3,7 +3,7 @@ title: Microsoft 合规性产品/服务
 summary: 了解 Microsoft 产品和服务如何帮助你的组织满足法规合规性标准。
 brand: m365
 metadata:
-  title: 适用于 Microsoft 365、Azure 和其他Microsoft 服务。
+  title: 适用于 Microsoft 365、Azure 和其他服务Microsoft 服务。
   description: 了解 Microsoft 产品和服务如何帮助你的组织满足法规合规性标准。
   services: service
   ms.service: O365-seccomp
@@ -259,7 +259,7 @@ conceptualContent:
           text: 加拿大隐私法
         - url: offering-ccpa.md
           itemType: reference
-          text: 'CCPA (美国加利福尼亚) '
+          text: 'CCPA (美国加州) '
         - url: /azure/compliance/offerings/offering-uk-cyber-essentials-plus
           itemType: reference
           text: Cyber Essentials Plus（英国）

@@ -1,6 +1,6 @@
 ---
 title: 数据保留、删除和销毁Microsoft 365
-description: 有关数据保留、删除Microsoft 365的 Microsoft 策略概述。
+description: 有关数据保留、Microsoft 365和销毁的 Microsoft 策略概述。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -20,15 +20,15 @@ f1.keywords:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: c851b235a70104720457d08c51529ee7b25c65e4
-ms.sourcegitcommit: 1fd50ef5f165228109a3f2f0aef4b0c2aa59b2ff
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862352"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58946908"
 ---
 # <a name="data-retention-deletion-and-destruction-in-microsoft-365"></a>数据保留、删除和销毁Microsoft 365
 
-Microsoft 有一个适用于 Microsoft 365 标准策略，用于指定删除后客户数据的保留时间。 通常有两种删除客户数据的情况：
+Microsoft 有一个适用于 Microsoft 365 标准策略，该策略指定删除后客户数据的保留时间。 通常有两种删除客户数据的情况：
 
 - **主动** 删除：租户具有活动订阅，用户或管理员删除数据，或者管理员删除用户。
 - **被动删除**：租户订阅结束。
@@ -40,8 +40,8 @@ Microsoft 有一个适用于 Microsoft 365 标准策略，用于指定删除后�
 | 数据类别 | 数据分类 | 说明 | 示例 | 保留期 |
 |-----------------|-----------------|-----------------|----------------------------------|-------------------------------|
 | 客户数据 | 客户内容| 管理员和用户直接提供/创建的内容 <br><br> 包括使用 Microsoft 数据中心内的服务时在 Microsoft 数据中心创建和存储的所有文本、声音、视频、图像Microsoft 365 | 允许用户创作数据的最常用 Microsoft 365 应用程序的示例包括 Word、Excel、PowerPoint、Outlook 和 OneNote <br><br> 客户内容还包括客户拥有/提供的密码 (、证书、加密密钥、存储密钥)  | **主动删除方案：** 最多 30 天 <br><br> **被动删除方案：** 最多 180 天 |
-| 客户数据 | EUII (最终用户可识别)  | 标识或可用于标识 Microsoft 服务用户的数据。 EUII 不包含客户内容 | 用户名或显示名称 (DOMAIN\UserName)  <br><br> 用户主体名称 (name@domain)  <br><br>  特定于用户的 IP 地址 | **主动删除方案：** 最多 180 天 (租户管理员操作)  <br><br> **被动删除方案：** 最多 180 天 |
-| 个人数据 <br>  (数据不包含在客户数据记录)  | EUPI 用户的最终用户假名 ()  | Microsoft 创建的与 Microsoft 服务用户绑定的标识符。 与其他信息（如映射表）结合使用时，EUPI 将标识最终用户 <br><br> EUPI 不包含客户上载或创建的信息 | 用户 GUID、PUID 或 SID <br><br> 会话 ID | **主动删除方案：** 最多 30 天 <br><br> **被动删除方案：** 最多 180 天 |
+| 客户数据 | EUII (最终用户可识别)  | 标识或可用于标识 Microsoft 服务用户的数据。 EUII 不包含客户内容 | 用户名或显示名称 (DOMAIN\UserName)  <br><br> 用户主体名称 (name@domain)  <br><br>  特定于用户的 IP 地址 | **主动删除方案：** 最多 180 (租户管理员操作)  <br><br> **被动删除方案：** 最多 180 天 |
+| 个人数据 <br>  (数据不包含在客户数据)  | EUPI 用户的最终用户假名 ()  | Microsoft 创建的与 Microsoft 服务用户绑定的标识符。 与其他信息（如映射表）结合使用时，EUPI 将标识最终用户 <br><br> EUPI 不包含客户上载或创建的信息 | 用户 GUID、PUID 或 SID <br><br> 会话 ID | **主动删除方案：** 最多 30 天 <br><br> **被动删除方案：** 最多 180 天 |
 
 ## <a name="subscription-retention"></a>订阅保留
 
@@ -57,7 +57,7 @@ Microsoft 有一个适用于 Microsoft 365 标准策略，用于指定删除后�
 
 ## <a name="related-links"></a>相关链接
 
-- [数据影响设备销毁](assurance-data-bearing-device-destruction.md)
+- [数据承载设备破坏](assurance-data-bearing-device-destruction.md)
 - [Office 365 中的永久性](assurance-data-immutability.md)
 - [Exchange Online 数据删除](assurance-exchange-online-data-deletion.md)
 - [SharePoint Online 数据删除](assurance-sharepoint-online-data-deletion.md)

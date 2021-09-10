@@ -1,6 +1,6 @@
 ---
 title: 格雷姆-里奇-比利雷法案 (GLBA)
-description: Microsoft 帮助金融服务客户遵守 GLBA 法规中《格雷姆-格雷姆-格雷姆 (隐私) 。
+description: Microsoft 帮助金融服务客户遵守 GLBA 法规中《格雷姆-格雷姆 (隐私和安全) 。
 keywords: Microsoft 365, 合规性, 产品/服务
 ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
@@ -17,23 +17,23 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: b7b1e3ea3600023c2ec95d4db7f318d70183b197
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482677"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947577"
 ---
 # <a name="gramm-leach-bliley-act-glba"></a>格雷姆-里奇-比利雷法案 (GLBA)
 
 ## <a name="glba-overview"></a>GLBA 概述
 
-格雷姆-格雷姆-拉雷法案 (GLBA) 是一项美国法律，对金融服务行业进行变革，允许商业和金融机构、咨询公司和保险公司整合并解决有关保护消费者隐私的问题。 它要求联邦 (FTC) 和其他金融服务监管机构实施法规，以解决金融隐私条例和保护措施规则等隐私条款。 保护敏感消费者数据的 GLBA 要求适用于向消费者提供财务产品和服务的金融机构，如贷款、投资建议和保险。 FTC 负责强制执行合规性。
+ (GlBA) 是一项美国法律，对金融服务行业进行监管，允许商业和金融机构、咨询公司和保险公司合并并解决有关保护消费者隐私的问题。 它要求联邦 (FTC) 和其他金融服务监管机构实施法规，以解决金融隐私条例和保护措施规则等隐私条款。 保护敏感消费者数据的 GLBA 要求适用于向消费者提供财务产品和服务的金融机构，如贷款、投资建议和保险。 FTC 负责强制执行合规性。
 
 ## <a name="microsoft-and-glba"></a>Microsoft 和 GLBA
 
 Microsoft Azure、Microsoft Office 365、Dynamics 365 和 Microsoft Power BI 可以帮助满足为金融服务机构提供云服务的严格要求。 作为支持的一部分，我们通过提供技术和组织安全措施来帮助维护安全性和防止未经授权的使用，来指导你遵守 GLBA 的要求。
 
-Microsoft 已针对[Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)和 Office 365[](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)开发风险评估工具，帮助你更有效地对 Azure 和 Office 365 进行风险评估。 该工具 (Excel 电子表格) 具有许多信息安全域 (例如用于跟踪金融服务法规和其他相关标准的要求的安全策略和风险管理) ，其中包括 Azure 电子表格的 R 列中的 GLBA (和 Office 365 电子表格) 中的 Q 列。 这些工具介绍了 Azure 和 Office 365如何遵守适用于云服务提供商的每个要求，并可帮助你满足 GLBA 安全要求。
+Microsoft 已针对[Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)和 Office 365[](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)开发风险评估工具，帮助你更有效地对 Azure 和 Office 365 服务进行风险评估。 该工具 (Excel 电子表格) 具有多个信息安全域 (例如，用于跟踪金融服务法规和其他相关标准（包括 Azure 电子表格 R 列中的 GLBA (和 Office 365 电子表格) 中的 Q 列）要求的安全策略和风险管理) 。 这些工具介绍了 Azure 和 Office 365如何遵守适用于云服务提供商的每个要求，并可帮助你满足 GLBA 安全要求。
 
 ## <a name="promote-your-glba-compliance"></a>提升 GLBA 合规性
 
@@ -45,7 +45,7 @@ Microsoft 已针对[Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocu
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Office 365，Office 365美国政府
+- Office 365、Office 365美国政府
 - Power BI 云服务（作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供）
 
 ## <a name="azure-dynamics-365-and-glba"></a>Azure、Dynamics 365 和 GLBA
@@ -71,7 +71,7 @@ Microsoft 已针对[Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocu
 
 **我如何知道我的金融机构是否必须遵守 GLB 法案？**
 
-FTC 在其 GLB 法案页面上对此进行详细说明[，Who是否受](https://www.ftc.gov/tips-advice/business-center/guidance/how-comply-privacy-consumer-financial-information-rule-gramm#whois)隐私规则保护？
+FTC 在其 GLB 法案页面上对此进行详细说明[，Who是否受隐私规则保护](https://www.ftc.gov/tips-advice/business-center/guidance/how-comply-privacy-consumer-financial-information-rule-gramm#whois)？
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

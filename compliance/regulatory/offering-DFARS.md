@@ -17,17 +17,17 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: e190a98a475d6170e793e92e8052012048cc3d7f
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482265"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947558"
 ---
 # <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>国防联邦购置条例补充 (DFARS) 
 
 ## <a name="dfars-overview"></a>DFARS 概述
 
-2016 年 10 月 21 日，美国国防部 (DoD) 发布了其最终规则，其中修订了国防联邦购置条例补充程序 (DFARS) ，并规定其信息系统处理、存储或传输覆盖的防御信息 (CDI) 的防御承包商的安全措施和网络事件报告义务。  
+2016 年 10 月 21 日，美国国防部 (DoD) 发布了其最终规则，其中修订了国防联邦购置条例补充程序 (DFARS) 并规定其信息系统处理、存储或传输覆盖的防御信息 (CDI) 的防御承包商的安全措施和网络事件报告义务。  
   
 最终的 DFARS 条款 252.204-7012 (Safeguarding Covered Defense Information and Cyber Incident Reporting) 指定安全措施，以包含网络事件报告要求和云服务提供商的其他注意事项。 根据 DFARS 252.204-7012，所有 DoD 承包商和国防工业基础均必须遵守 DFARS 要求，确保"尽快、最晚于 2017 年 12 月 31 日"实现足够安全。
 
@@ -75,13 +75,13 @@ Office 365美国政府国防版允许我们的国防工业基础和国防承包�
 
 **是否由独立评估员验证Office 365美国政府国防队支持 DFARS 要求？**
 
-是的，第三方评估组织已证明 Office 365 美国政府国防版云服务满足 DFARS 条款 252.204-7012 (保护未经分类的受控技术信息) 的适用要求。
+是的，第三方评估组织已证明 Office 365 美国政府国防版云服务满足 DFARS 条款 252.204-7012 (保护未分类受控技术信息) 的适用要求。
 
 **受控未分类信息与 CUI (与 CDI) 涵盖 (之间的关系) ？**
 
 CUI 是要求根据法律、法规或政府范围策略保护或传播控制措施的信息。 [CUI 注册表标识](https://www.archives.gov/cui/registry/category-list.html)已批准的 CUI 类别和子类别。
 
-CDI 是控制的技术信息或其他信息 (如 CUI 注册表) 要求保护或传播控件，并且为：
+CDI 是控制的技术信息或其他信息 (如 CUI 注册表) 要求保护或传播控件中所述，并且为：
 
 - 在合同、任务订单或交付订单中标记或以其他方式标识，并且由 DoD 或代表 DoD 向承包商提供与合同或
 - 由承包商或代表承包商收集、开发、接收、传输、使用或存储，以支持合同履行
@@ -90,7 +90,7 @@ CDI 是控制的技术信息或其他信息 (如 CUI 注册表) 要求保护或�
 
 2016 年 10 月，美国国防部 (DoD) 制定了一条最终规则，以实施适用于通过信息系统处理、存储或传输"覆盖的防御信息"的所有 DoD 承包商的联邦购置条例补充程序 (DFARS) 条款。 该规则指出，此类系统必须满足 NIST SP 800-171、保护非软件信息系统[](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)和组织中的受控未分类信息或 DoD 主管批准的"可选但同样有效的安全措施"中规定的安全要求。 如果 DoD 承包商使用外部云服务提供商处理、存储或传输覆盖的防御信息，则此类提供商必须满足等同于 FedRAMP 中等基线的安全要求。
 
-以下Microsoft Office 365云服务已收到 FedRAMP 中等授权，并且足以用于 DFARS：Office 365美国政府Office 365美国政府防御局。
+以下Microsoft Office 365云服务已收到 FedRAMP 中等授权，足以用于 DFARS：Office 365美国政府Office 365美国政府防御局。
 
 此外，DoD 承包商可能使用 FedRAMP 认证边界之外的 Microsoft 产品/服务处理、存储或传输"覆盖的防御信息"，正在进行审核，以满足 2017 年 12 月 31 日合规性截止时间。 Microsoft 致力于记录这些面向内部和客户的服务如何遵守 NIST SP 800-171 或可接受的安全等效项，以满足 DFARS 相关条款。
 

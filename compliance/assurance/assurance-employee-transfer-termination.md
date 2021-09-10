@@ -21,17 +21,17 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 2450a075d1ae3922cf047e92109a399d10d269ac
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482034"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58946963"
 ---
 # <a name="microsoft-employee-transfer-and-termination"></a>Microsoft 员工转移和离职
 
 与其他每个组织一样，Microsoft 会处理员工离职和离职问题，这是其正常业务运营的一部分。 当员工更改职位或离开公司时，必须及时撤销不适当的访问权限。 为了推动高效的访问更改和访问吊销，Microsoft 使用标准化过程和自动化流程来协调人力资源信息系统 (HRIS) 与标识管理 (IDM) 系统。 这两个系统之间的自动协调对于维护运营一致性、保护 Microsoft 的在线服务和数据、防止特权妨碍以及降低与内部威胁相关的风险至关重要。
 
-Microsoft 在线服务旨在运行，无需为工程师提供对生产环境的管理访问权限。 Microsoft 使用实时 (JIT) Just-Enough-Access (JEA) 模型为工程师提供所需的临时访问权限，以便根据需要支持他们的服务。 若要请求并使用服务团队帐户进行 JIT 访问，工程师必须通过 IDM 工具请求和维护资格。 当员工被转移或离职时，将自动修改其服务团队帐户和相关资格，以防止不当访问。
+Microsoft 在线服务旨在运行，无需为工程师提供对生产环境的管理访问权限。 Microsoft 使用实时 (JIT) Just-Enough-Access (JEA) 模型，为工程师提供所需的临时访问权限，以便根据需要支持他们的服务。 若要请求并使用服务团队帐户进行 JIT 访问，工程师必须通过 IDM 工具请求和维护资格。 当员工被转移或离职时，将自动修改其服务团队帐户和相关资格，以防止不当访问。
 
 ## <a name="transfer-and-reassignment"></a>转移和重新分配
 
@@ -41,4 +41,4 @@ Microsoft 在线服务旨在运行，无需为工程师提供对生产环境的�
 
 当员工离职时，Microsoft 使用明确定义的策略和过程来立即撤销其对 Microsoft 系统和资源的物理和逻辑访问权限。 当员工发出通知时，员工的经理会向 HRIS 输入终止日期。 在员工最后一个工作日之后，HRIS 将员工标记为已终止，并共享信息给 IDM，这将自动删除所有服务团队帐户和资格。
 
-对于雇佣终止，HR 与员工的经理合作，以按照相应步骤终止和离职员工。 与自愿终止类似，终止信息连同任何必要步骤（如有效日期协调、访问删除和与转换离开角色相关的任何其他步骤）输入到 HRIS 中。
+对于雇佣终止，HR 与员工的经理合作，以按照相应步骤终止和离职员工。 与自愿终止类似，终止信息连同任何必要步骤（如有效日期协调、访问删除和与转换角色转移相关的任何其他步骤）输入到 HRIS 中。

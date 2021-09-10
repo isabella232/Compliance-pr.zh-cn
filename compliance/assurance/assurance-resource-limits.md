@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365资源限制
-description: 在本文中，您可以找到有关应用程序内各种应用程序的资源限制Microsoft 365。
+description: 在本文中，您可以找到有关应用程序内各种应用程序的资源Microsoft 365。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -21,15 +21,15 @@ ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 764259e22b23ecc7cea363283fc313a94875a2d1
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481784"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947011"
 ---
 # <a name="service-resource-limits"></a>服务资源限制
 
-资源限制是使用配额和 (限制) 强制实施的。 Azure Active Directory (Azure AD) 和单个 Microsoft 365 服务都使用这两者。 限制特定于服务，并随着新功能的添加而发生变化。 有关各种服务的当前限制的详细信息，请参阅下列主题：
+使用配额和限制 (限制) 资源限制。 Azure Active Directory (Azure AD) 和单个 Microsoft 365 服务都使用这两者。 限制特定于服务，并随着新功能的添加而发生变化。 有关各种服务的当前限制的详细信息，请参阅下列主题：
 
 - [Azure AD 服务限制](/azure/azure-resource-manager/management/azure-subscription-service-limits)
 - [Exchange Online 限制](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)
@@ -40,6 +40,6 @@ ms.locfileid: "58481784"
 
 除了这些限制之外，Azure AD 和 Azure 服务中还使用了一些Microsoft 365。 服务中的限制尤为重要，因为 Microsoft 数据中心的网络资源已针对使用服务的广泛客户进行了优化。 限制机制包括：
 
-- Azure AD 和 Microsoft 365 功能用户级别限制，它按脚本或代码 (限制单个用户) 执行的事务数或并发呼叫数。
+- Azure AD 和 Microsoft 365 功能用户级别限制，它按脚本或代码 (限制单个用户可以执行的) 事务或并发呼叫数。
 - 默认 PowerShell 限制策略在租户创建时分配给每个租户。 这些设置会影响其他项目，例如单个管理员可同时打开的最大 PowerShell 会话数。
 - 每个Exchange Online客户都有一个针对 EWS 客户端操作进行调整的默认 Exchange Web 服务 (EWS) 策略，以及适用于所有 Outlook 客户端Outlook策略。

@@ -19,11 +19,11 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 ms.openlocfilehash: 325dc91f1d3480414236abfde38eb48d372f3e69
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482425"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947768"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-controllers-using-windows-diagnostic-data-processor-configuration"></a>数据保护影响评估：控制者使用 Windows 诊断数据处理者配置的指南
 

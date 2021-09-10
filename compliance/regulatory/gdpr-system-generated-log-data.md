@@ -18,11 +18,11 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 hideEdit: true
 ms.openlocfilehash: f634224f02726f0e0ee49c268bf4a77027481c2f
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482305"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947785"
 ---
 # <a name="additional-steps-to-export-system-generated-log-data"></a>导出系统生成日志数据所需的其他步骤
 

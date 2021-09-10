@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 92da9e7bb2716f61088e02c244cb9905af142ead
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481834"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947006"
 ---
 # <a name="network-security-overview"></a>网络安全性概述
 
@@ -35,13 +35,13 @@ Microsoft 在线服务采用多种策略来保护其网络边界，包括自动�
 
 ## <a name="how-do-microsoft-online-services-defend-against-ddos-attacks"></a>Microsoft 在线服务如何防御 DDoS 攻击？
 
-Microsoft 的大型 Internet 状态使 Microsoft 免受许多分布式拒绝服务攻击和 DDoS (攻击) 负面影响。 每个 Microsoft 联机服务的分布式实例和每个服务的多个路由限制 DDoS 攻击对系统的影响。 这种冗余提高了 Microsoft 联机服务吸收 DDoS 攻击的能力，并增加了在 DDoS 攻击影响服务可用性之前检测并减少 DDoS 攻击的时间量。
+Microsoft 的大型 Internet 状态使 Microsoft 无法免受许多分布式拒绝服务攻击和 DDoS (攻击) 负面影响。 每个 Microsoft 联机服务的分布式实例和每个服务的多个路由限制 DDoS 攻击对系统的影响。 这种冗余提高了 Microsoft 联机服务吸收 DDoS 攻击的能力，并增加了在 DDoS 攻击影响服务可用性之前检测并减少 DDoS 攻击的时间量。
 
 除了 Microsoft 的冗余系统体系结构之外，Microsoft 还使用复杂的检测和缓解工具来响应 DDoS 攻击。 专用防火墙在将不需要的流量跨越边界进入网络之前监视和丢弃不需要的流量，从而减少位于网络边界内的系统压力。 为了进一步保护云服务，Microsoft 利用部署为云解决方案一部分的 DDoS Microsoft Azure。 Azure DDoS 防御系统旨在抵御来自外部和其他 Azure 租户的攻击。
 
 ## <a name="how-does-microsoft-protect-users-against-spam-and-malware-being-uploaded-or-sent-through-online-services"></a>Microsoft 如何保护用户免受通过联机服务上载或发送的垃圾邮件和恶意软件？
 
-Microsoft 在线服务将反恶意软件保护构建到可能是恶意代码的矢量的服务中，如 Exchange Online 和 SharePoint Online。 Exchange Online Protection (EOP) 在进入和退出系统时扫描所有电子邮件和电子邮件附件中的恶意软件，以防止被感染的邮件和附件被传递。 高级垃圾邮件筛选自动应用于入站和出站邮件，以帮助客户组织接收和发送垃圾邮件。 此保护层可抵御利用未经请求或未经授权的电子邮件的攻击，如钓鱼攻击。 SharePointOnline 使用相同的病毒检测引擎选择性地扫描上传的文件，以发现恶意软件。 如果文件被标记为已感染，则阻止用户下载或同步文件以保护客户端终结点。 同样，Azure 将上载到 Azure 存储 文件的哈希与已知恶意软件的哈希进行比较。 当找到匹配项时，将在 Azure 安全中心中发出警报，其中将决定警报是否安全以及如何解决。
+Microsoft 在线服务将反恶意软件保护构建到可能是恶意代码的矢量的服务中，例如 Exchange Online 和 SharePoint Online。 Exchange Online Protection (EOP) 在进入和退出系统时扫描所有电子邮件和电子邮件附件中的恶意软件，以防止被感染的邮件和附件被传递。 高级垃圾邮件筛选自动应用于入站和出站邮件，以帮助客户组织接收和发送垃圾邮件。 此保护层可抵御利用未经请求或未经授权的电子邮件的攻击，如钓鱼攻击。 SharePointOnline 使用相同的病毒检测引擎选择性地扫描上传的文件，以发现恶意软件。 如果文件被标记为已感染，将阻止用户下载或同步文件以保护客户端终结点。 同样，Azure 将上载到 Azure 存储 文件的哈希与已知恶意软件的哈希进行比较。 当找到匹配项时，将在 Azure 安全中心中发出警报，其中将决定警报是否安全以及如何解决。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 

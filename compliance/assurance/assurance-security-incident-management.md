@@ -20,11 +20,11 @@ ms.collection:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: cb9d27f02ec53c98e2f00d3106f8e4be8798d78f
-ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58678581"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58946994"
 ---
 # <a name="microsoft-security-incident-management"></a>Microsoft 安全事件管理
 
@@ -39,7 +39,7 @@ Microsoft 联机服务安全团队和各种服务团队共同协作，并采用�
 
 ## <a name="microsoft-approach-to-security-incident-management"></a>Microsoft 安全事件管理方法
 
-Microsoft 管理安全事件的方法符合美国国家标准和技术协会 [ (NIST) ](https://www.nist.gov/) 特殊出版物 (SP) 800-61。 Microsoft 有几个专门的团队协同工作，以预防、监视、检测和响应安全事件。
+Microsoft 管理安全事件的方法符合美国国家标准和技术协会 [ (NIST) ](https://www.nist.gov/) SP (SP) 800-61。 Microsoft 有几个专门的团队协同工作，以预防、监视、检测和响应安全事件。
 
 |**团队/区域**|**说明**|
 |:------------|:--------------|
@@ -48,7 +48,7 @@ Microsoft 管理安全事件的方法符合美国国家标准和技术协会 [ (
 | 公司、外部和法律事务 | 为可疑的安全事件提供法律和监管建议。 |
 | Microsoft 数据中心安全团队 | 专注于常见安全工程投资的各种服务的团队，用于保护、检测和响应服务体系结构风险和威胁。 |
 | Microsoft 安全响应团队 | 独立的 Azure、Dynamics 365 和 Microsoft 365安全团队，与服务团队合作以构建适当的安全事件管理流程并推动任何安全事件响应。 |
-| Microsoft 管理、风险和合规性 (GRC) 团队 | 提供有关法规要求、合规性和隐私的指南。 |
+| Microsoft 治理、风险和合规性 (GRC) 团队 | 提供有关法规要求、合规性和隐私的指南。 |
 | 服务团队 | Azure、Dynamics 365 Microsoft 365团队，负责每项服务的安全相关策略和决策。 |
 | Azure 运营经理 | 监督调查和解决与 Azure 相关的安全和隐私事件。 |
 | Microsoft 威胁智能中心 (MSTIC)  | 提供针对 Microsoft 基础结构和资产的数字安全威胁的当前技术状态，帮助 Microsoft 内的合作伙伴团队确定缓解和防护工作行动计划的优先级，并采用近实时事件监视/检测来增强保护。 |

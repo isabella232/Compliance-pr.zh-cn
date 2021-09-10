@@ -17,21 +17,21 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 6785c459f8350714b8e4636a0f1a5dc9f4ff667d
-ms.sourcegitcommit: 9bb0e86b2fd4121a3a79a23dde95aa2584ce3167
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58744258"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947728"
 ---
 # <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>新西兰政府信息安全和隐私注意事项 (ISPC) 
 
 ## <a name="new-zealand-government-information-security-and-privacy-considerations-overview"></a>新西兰政府信息安全和隐私注意事项概述
 
-2015 年 10 月，新西兰政府修订了一项政府性 ICT 策略，其"云第一"策略将在整个公共部门使用信息技术。 修订后的策略保留由 NZ 政府首席信息官和 GCIO (和实现的"云计算风险和保障) 。
+2015 年 10 月，新西兰政府修订了一项政府性 ICT 策略，其"云第一"策略将在整个公共部门使用信息技术。 修订后的策略保留了在 NZ 政府首席信息官和 GCIO (下制定和实施的"云计算风险和保障) 。
 
 政府希望所有新西兰 State Service 机构在评估和采用云服务时都在此框架内工作。 "云计算要求"概述了采用云服务时机构必须执行哪些工作，并概述了政府云策略的历史记录。
 
-为帮助 NZ 政府机构就潜在云解决方案进行一致且可靠的审慎调查，GCIO 发布了云计算 [：ISPC ](https://www.digital.govt.nz/dmsdocument/1~cloud-computing-information-security-and-privacy-considerations/html) (信息安全和隐私) 。 本文档包含 100 多个问题，重点关注数据威胁、隐私、安全、管理、机密性、数据完整性、可用性以及事件响应和管理。 ISPC 未定义 NZ 政府标准，云服务提供商必须针对该标准证明正式合规性。 但是，本文档中介绍的许多问题都指向了解云服务提供商如何遵守大量相关标准的重要性。
+为帮助 NZ 政府机构就潜在云解决方案进行一致且稳固的审慎调查，GCIO 发布了云计算 [：ISPC ](https://www.digital.govt.nz/dmsdocument/1~cloud-computing-information-security-and-privacy-considerations/html) (信息安全和隐私) 。 本文档包含 100 多个问题，重点关注数据威胁、隐私、安全、管理、机密性、数据完整性、可用性以及事件响应和管理。 ISPC 未定义 NZ 政府标准，云服务提供商必须针对该标准证明正式合规性。 但是，本文档中介绍的许多问题都指向了解云服务提供商如何遵守大量相关标准的重要性。
 
 ## <a name="microsoft-and-new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Microsoft 和新西兰政府云计算安全和隐私注意事项
 
@@ -60,7 +60,7 @@ ms.locfileid: "58744258"
 | **商业** | Exchange Online、SharePoint Online、Skype for Business |
 
 >[!Note]
->Microsoft NZ 与 GCIO 团队合作，共同开发集成 Exchange Online 和 SEEMail（如 Office 365：SEEMail 集成和参考体系结构中所述）的参考体系结构。
+>Microsoft NZ 与 GCIO 团队合作，共同开发集成 Exchange Online 和 SEEMail 的参考体系结构Office 365：SEEMail 集成和参考体系结构。
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -74,7 +74,7 @@ ms.locfileid: "58744258"
 
 ## <a name="resources"></a>资源
 
-- [托管的安全要求Office生产力服务：托管服务的安全Office 365](https://aka.ms/o365-gcio-conformance-guidance)
+- [托管的主机Office生产力服务的安全要求：Office 365](https://aka.ms/o365-gcio-conformance-guidance)
 - [NZ Government ICT Strategy 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [云计算：ISPC (信息安全和隐私) ](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
 - [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)

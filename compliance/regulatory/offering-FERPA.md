@@ -1,5 +1,5 @@
 ---
-title: 'FERPA 家庭教育 (和隐私) '
+title: 'FERPA (家庭教育权和隐私) '
 description: Microsoft 符合美国家庭教育权和隐私法案的要求。
 keywords: Microsoft 365, 合规性, 产品/服务
 ms.localizationpriority: medium
@@ -17,13 +17,13 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 0ec79c5be17018f8b01eb3d938b65392b021ce77
-ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505945"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947570"
 ---
-# <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA 家庭教育 (和隐私) 
+# <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA (家庭教育权和隐私) 
 
 ## <a name="ferpa-overview"></a>FERPA 概述
 
@@ -83,7 +83,7 @@ FERPA 不要求或识别审核或认证。
 
 **COPPA 和 CIPA 对 Azure 有什么合规性影响？**
 
-COPPA 和 CIPA 是旨在保护儿童隐私的其他法律;但是，它们不适用于 Azure。 COPPA (《儿童在线隐私保护法》) 一项美国联邦法律，保护 13 岁儿童的隐私。 它由美国联邦贸易委员会 (FTC) 。 COPPA 适用于面向儿童的网站和在线服务，并规定这些网站和服务必须征得家长同意才能收集和使用属于儿童的任何个人信息。 《儿童 Internet 保护法》 (CIPA) 以解决有关儿童通过 Internet 访问有害的内容的问题。 美国联邦通信委员会 (），) 实施 CIPA 的规则，并针对受 CIPA 限制的学校和库定义要求。 在 Azure 采用上下文中搜索 COPPA 和 CIPA 的客户应查看联机服务条款 [DPA](https://aka.ms/DPA) 中标题为"教育机构"的部分，其中我们解释客户负责获得任何最终用户对 Microsoft 在线服务的任何使用的任何家长同意。
+COPPA 和 CIPA 是旨在保护儿童隐私的其他法律;但是，它们不适用于 Azure。 COPPA (《儿童在线隐私保护法》) 保护 13 以下儿童隐私的美国联邦法律。 它由美国联邦贸易委员会 (FTC) 。 COPPA 适用于面向儿童的网站和在线服务，并规定这些网站和服务必须征得家长同意才能收集和使用属于儿童的任何个人信息。 《儿童 Internet 保护法》 (CIPA) 以解决有关儿童通过 Internet 访问有害的内容的问题。 联邦通信委员会 (与) 颁发了实施 CIPA 的规则，并定义了受 CIPA 限制的学校和库的要求。 在 Azure 采用上下文中搜索 COPPA 和 CIPA 的客户应查看联机服务条款 [DPA](https://aka.ms/DPA) 中标题为"教育机构"的部分，其中我们解释客户负责获得任何最终用户对 Microsoft 在线服务的任何使用的任何家长同意。
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 
@@ -91,11 +91,11 @@ COPPA 和 CIPA 是旨在保护儿童隐私的其他法律;但是，它们不适�
 
 ### <a name="resources"></a>资源
 
-- [Azure 合规性文档](/azure/compliance/)
-- [Azure 实现合规性世界](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
+- [ Azure 合规性文档](/azure/compliance/)
+- [ Azure 实现合规性世界](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
 - [家庭教育权和隐私法案](https://www.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
 - [联邦法规电子代码：FERPA](https://aka.ms/FERPA-GPO)
 - Microsoft Online Services [条款数据保护附录](https://aka.ms/DPA)
-- [《家庭教育权利与隐私法》 (FERPA) ](https://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title34/34cfr99_main_02.tpl)
+- [FERPA 家庭教育 (隐私) ](https://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title34/34cfr99_main_02.tpl)
 - [联邦注册：FERPA 最终规则](https://www.govinfo.gov/content/pkg/FR-2011-12-02/pdf/2011-30683.pdf)
 - [美国教育部 FERPA 登陆页面](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html)

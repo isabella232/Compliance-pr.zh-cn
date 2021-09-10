@@ -1,6 +1,6 @@
 ---
 title: '联邦金融机构检查委员会 (FFIEC) '
-description: Microsoft 帮助金融服务客户遵守联邦金融机构考试委员会 (FFIEC) 。
+description: Microsoft 帮助金融服务客户遵守 FFIEC (联邦金融机构检查委员会) 。
 keywords: Microsoft 365, 合规性, 产品/服务
 ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
@@ -17,19 +17,19 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 7cdc024d19ce0753d3d0c0e5cf45b6276939d6f2
-ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505895"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947573"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>联邦金融机构检查委员会 (FFIEC) 
 
 ## <a name="ffiec-overview"></a>FFIEC 概述
 
-FFIEC (联邦金融机构考试委员会) 是一个正式机构，由五家银行监管机构组成，它们负责美国联邦金融机构在美国的监管机构。 FFIEC 教育版Office面向 FFIEC 成员机构现场培训的 IT 考试手册。
+联邦金融机构考试委员会 (FFIEC) 是一个正式机构，由五家银行监管机构组成，负责美国联邦金融机构在美国的监管机构。 FFIEC 教育版Office面向 FFIEC 成员机构现场培训的 IT 考试手册。
 
-[FFIEC 审核 IT 检查](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)手册包含针对这些企业的指导，用于评估金融机构和 TSP 的 IT 审核计划的质量和有效性。 具体而言，它包括美国注册公共会计协会 (AICPA) 的 SOC 1、SOC 2 和 SOC 3 证明报告作为独立审核报告的示例。 但是，FFIEC 建议金融机构不要仅依赖这些报告中包含的信息，而应使用 [FFIEC](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)外包技术服务 IT 检查手册中详细讨论的验证和监视过程。
+[FFIEC 审核 IT 检查](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)手册包含针对这些企业的指导，用于评估金融机构和 TSP 的 IT 审核计划的质量和有效性。 具体而言，它包括美国注册会计协会 (AICPA) 的 SOC 1、SOC 2 和 SOC 3 证明报告作为独立审核报告的示例。 但是，FFIEC 建议金融机构不要仅依赖这些报告中包含的信息，而应使用 [FFIEC](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)外包技术服务 IT 检查手册中详细讨论的验证和监视过程。
 
 ## <a name="microsoft-and-ffiec"></a>Microsoft 和 FFIEC
 
@@ -40,7 +40,7 @@ Microsoft Azure、Microsoft Power BI 和 Microsoft Office 365 专为满足为金
 
 AICPA SSAE 18 标准取代了 SAS 70，适用于报告服务组织中与用户实体对金融服务的内部控制相关的控制措施。 这是金融机构在向在 Azure 上部署的资产履行自己的 FFIEC 特定合规性义务时，利用它进行第三方技术服务提供商审查的正式审核。 它包括审核员有关控制有效性的意见，以在指定的监视期间实现相关控制目标。
 
-此外，Azure 还开发了一Excel基于云的安全诊断工具，该工具旨在加快金融机构可能希望针对 Azure 服务进行的风险评估。 该工具基于包含 19 个独立域的电子表格，这些域标识了相关标准和金融服务相关法规（包括 FFIEC IT 检查手册）中提出的要求。  风险评估工具预先填充了 Azure 如何遵守适用于云服务提供商的要求的说明，并可以帮助客户满足自己的 FFIEC 合规性要求。
+此外，Azure 还开发了Excel基于云的安全诊断工具，旨在加快金融机构可能希望针对 Azure 服务进行的风险评估。 该工具基于包含 19 个独立域的电子表格，这些域标识了相关标准和金融服务相关法规（包括 FFIEC IT 检查手册）中提出的要求。  风险评估工具预先填充了 Azure 如何遵守适用于云服务提供商的要求的说明，并可以帮助客户满足自己的 FFIEC 合规性要求。
 
 此外，客户还可使用 Azure FFIEC 云安全诊断工作簿配套工具，它提供 Azure 服务使用指南以及客户遵守 FFIEC 要求的注意事项
 
@@ -96,8 +96,8 @@ AICPA SSAE 18 标准取代了 SAS 70，适用于报告服务组织中与用户�
 
 ## <a name="other-microsoft-resources-for-financial-services"></a>针对金融服务的其他 Microsoft 资源
 
-- [Azure 合规性文档](/azure/compliance/)
-- [Azure 实现合规性世界](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
+- [ Azure 合规性文档](/azure/compliance/)
+- [ Azure 实现合规性世界](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
 - [Microsoft 云金融服务资源](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [Microsoft 云金融服务合规性计划](https://aka.ms/FSCP-Print)
 - [Microsoft 云中金融机构的风险评估和合规性指南](https://azure.microsoft.com/resources/risk-assessment-and-compliance-guide-for-financial-institutions-in-the-microsoft-cloud-/)
