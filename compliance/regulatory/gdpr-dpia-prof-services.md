@@ -18,18 +18,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d30214f68911553b0e835e072e02233428bf296bc4927c7c0e49fb04718a9282
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 838f6bfbae65770071cfa1e07e668bb6641e89a8
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289880"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947761"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-professional-services"></a>数据保护影响评估：使用 Microsoft 专业服务的数据控制者指南
 
 ## <a name="introduction-to-microsoft-professional-services"></a>Microsoft 专业服务简介
 
-Microsoft 专业服务包括多元化的技术架构师、工程师、顾问和支持专业人员社区，他们致力于履行 Microsoft 的使命，即让客户完成更多工作并实现更多目标。 有关 Microsoft 专业服务的详细信息，请访问 [Microsoft 专业服务信任网页](https://aka.ms/pstrust)。
+Microsoft 专业服务包括由技术架构师、工程师、顾问和支持专业人员组成的多元化团队，他们致力于履行 Microsoft 的使命，即让客户完成更多工作并实现更多目标。有关 Microsoft 专业服务的详细信息，请访问 [Microsoft 专业服务信任网页](https://aka.ms/pstrust)。
 
 Microsoft 专业服务严格遵守一般数据保护条例 (GDPR) 的要求。本文档中的信息旨在说明客户在根据 GDPR 准备数据保护影响评估 (DPIA) 时可以使用的 Microsoft 支持和咨询服务。
 
@@ -51,7 +51,7 @@ GDPR 第 35 条规定需要由数据控制者来创建数据保护影响评估�
 |||
 
 > [!Note]
-> <sup>1</sup> 关于处理“大量”数据的标准，GDPR 的第 91 篇声明陈述如下：“如果涉及由个体医生、其他医疗保健专业人员或律师来处理患者或客户的个人数据，则个人数据的处理不应视为处理大量数据。 在这种情况下，数据保护影响评估不应是强制性的。”
+> <sup>1</sup> 关于处理“大量”数据的标准，GDPR 的第 91 篇声明陈述如下：“如果涉及由个体医生、其他医疗保健专业人员或律师来处理患者或客户的个人数据，则个人数据的处理不应视为处理大量数据。在这种情况下，数据保护影响评估不应是强制性的。”
   
 [自定义开发说明]专业服务提供各种咨询解决方案。数据控制者可能会请求一种解决方案，而根据上述标准，它可能是一种高风险解决方案。例如，数据控制者可能会请求专业服务来创建解决方案，以便为招聘决策或信用应用程序或解决方案开发商业智能引擎，其中涉及用户跟踪、专业使用人工智能 (AI)/分析或处理特殊类别的个人数据。
 
