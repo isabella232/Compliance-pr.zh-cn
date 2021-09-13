@@ -21,8 +21,8 @@ ms.openlocfilehash: 1b513c80c24ae6c06488972196579aff30e703fa
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947010"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158260"
 ---
 # <a name="enterprise-business-continuity-management-legal-disclaimer"></a>企业业务连续性管理法律免责声明
 
@@ -30,7 +30,7 @@ ms.locfileid: "58947010"
 
 请阅读此！ 这是 MICROSOFT CORPORATION（以下简称“MICROSOFT”）与这些材料的接收者（无论是个人、公司还是其他实体，以下简称“你”）之间的法律协议。 单击“我接受”即可下载或使用此材料，并表示你同意这些条款。 如果将本协议附加到材料上，通过访问或使用附加材料，表示你同意这些条款。
 
-1. 出于良好且有价值的考虑，确认其收据和是否充分，你和 Microsoft 同意如下： (a) 如果您是公司或其他实体的授权代表 ("Company") ， 且此类公司已执行 Microsoft Corporation 保密协议，该协议不限于特定主题或事件 ("Microsoft NDA") ，表示你有权代表公司采取行动，并同意 Microsoft NDA 中定义的机密信息受 Microsoft NDA 的条款和条件限制，并且公司将相应地处理机密信息; (b) 如果你是个人，并且已执行 Microsoft NDA，则表明你同意 Microsoft NDA 中定义的机密信息受 Microsoft NDA 的条款和条件限制，并且你将相应地处理机密信息;或 (c) 如果尚未执行 Microsoft N (DA，则如果你是个人) 或公司 (（如果你是公司) 的授权代表，则你同意： 
+1. 出于良好且有价值的考虑，确认其接收和是否充分，你和 Microsoft 同意如下： (a) 如果您是公司或其他实体的授权代表 ("Company") ， 且此类公司已执行 Microsoft Corporation 保密协议，该协议不限于特定主题或事件 ("Microsoft NDA") ，表示你有权代表公司采取行动，并同意 Microsoft NDA 中定义的机密信息受 Microsoft NDA 的条款和条件限制，并且公司将相应地处理机密信息; (b) 如果你是个人，并且已执行 Microsoft NDA，则表明你同意 Microsoft NDA 中定义的机密信息受 Microsoft NDA 的条款和条件限制，并且你将相应地处理机密信息;或 (c) 如果尚未执行 Microsoft N (DA，则如果你是个人) 或公司 (（如果你是公司) 的授权代表，则你同意： 
     -  () 从 Microsoft 将机密信息披露给公司/您之日起的 5 () 年内泄露机密信息或向任何第三方分发机密信息; 
     -  (b) 避免复制或汇总机密信息;和 
     -  (c) 采取合理的安全预防措施，至少要像保护自身机密信息所采取预防措施一样小心，但必须合理谨慎，以保密机密信息。 但是，你/公司可能会根据命令或其他政府命令披露机密信息，但只要你/公司 

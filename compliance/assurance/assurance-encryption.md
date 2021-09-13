@@ -1,6 +1,6 @@
 ---
 title: 加密和密钥管理概述
-description: 了解加密和密钥管理中的Microsoft 365
+description: 了解加密和密钥管理Microsoft 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -24,8 +24,8 @@ ms.openlocfilehash: dc53f42c6aa7ce16e1291538bfad6d63c5a1689d
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946967"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158208"
 ---
 # <a name="encryption-and-key-management-overview"></a>加密和密钥管理概述
 
@@ -37,9 +37,9 @@ ms.locfileid: "58946967"
 
 ## <a name="how-do-microsoft-online-services-encrypt-data-at-rest"></a>Microsoft 联机服务如何加密其余数据？
 
-Microsoft 联机服务中所有客户内容都受一种或多种加密形式的保护。 Microsoft 服务器使用 BitLocker 在卷级别加密包含客户内容的磁盘驱动器。 如果其他过程或控制 (（例如，访问控制或硬件) 的回收）存在故障，可能会导致对包含客户内容的磁盘进行未经授权的物理访问，BitLocker 提供的加密将保护客户内容。
+Microsoft 联机服务中所有客户内容都受一种或多种加密形式的保护。 Microsoft 服务器使用 BitLocker 在卷级别加密包含客户内容的磁盘驱动器。 如果其他过程或控件（例如 (访问控制或硬件) 的回收）存在故障，可能会导致对包含客户内容的磁盘进行未经授权的物理访问，BitLocker 提供的加密将保护客户内容。
 
-除了卷级加密之外，Microsoft 在线服务还使用应用程序层的服务加密来加密客户内容。 服务加密提供权限保护以及强加密保护的管理功能。 它还允许在操作系统Windows这些操作系统存储或处理的客户数据之间分离。
+除了卷级加密之外，Microsoft 在线服务还使用应用程序层的服务加密来加密客户内容。 服务加密提供权限保护以及强加密保护的管理功能。 它还允许在操作系统Windows由这些操作系统存储或处理的客户数据之间分离。
 
 ## <a name="how-do-microsoft-online-services-encrypt-data-in-transit"></a>Microsoft 联机服务如何加密传输数据？
 
@@ -53,7 +53,7 @@ Microsoft 在线服务使用强传输协议（如 TLS）来防止未经授权的
 
 服务加密为客户静态数据提供了另一层加密，为客户提供了两种加密密钥管理选项：Microsoft 管理的密钥或客户密钥。 使用 Microsoft 管理的密钥时，Microsoft 联机服务自动生成并安全存储用于服务加密的根密钥。
 
-如果客户要求控制自己的根加密密钥，可以将服务加密与客户密钥一同使用。 使用客户密钥，客户可以使用本地硬件服务模块 (HSM) 或 AKV (生成自己的加密密钥) 。 客户根密钥存储在 AKV 中，可在 AKV 中用作加密客户邮箱数据或文件的密钥链之一的根。 客户根密钥只能由 Microsoft 联机服务代码间接访问，用于数据加密，并且不能由 Microsoft 员工直接访问。
+如果客户要求控制自己的根加密密钥，可以将服务加密与客户密钥一同使用。 通过使用客户密钥，客户可以使用本地硬件服务模块 (HSM) 或 AKV (Azure 密钥保管库) 。 客户根密钥存储在 AKV 中，可在 AKV 中用作加密客户邮箱数据或文件的密钥链之一的根。 客户根密钥只能由 Microsoft 联机服务代码间接访问，用于数据加密，并且不能由 Microsoft 员工直接访问。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 

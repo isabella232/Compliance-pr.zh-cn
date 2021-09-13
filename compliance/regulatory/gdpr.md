@@ -22,8 +22,8 @@ ms.openlocfilehash: d0016ed24cec4797ff515efa5614d8016fe7f1c1
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947530"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158223"
 ---
 # <a name="general-data-protection-regulation-summary"></a>一般数据保护条例摘要
 

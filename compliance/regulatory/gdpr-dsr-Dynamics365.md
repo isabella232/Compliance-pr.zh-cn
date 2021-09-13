@@ -23,8 +23,8 @@ ms.openlocfilehash: 7b6919cbdf2ece468eeec8931b652972a74b07dc
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947542"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158854"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Dynamics 365 数据主体请求
 

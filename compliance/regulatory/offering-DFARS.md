@@ -20,20 +20,20 @@ ms.openlocfilehash: e190a98a475d6170e793e92e8052012048cc3d7f
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947558"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158319"
 ---
 # <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>国防联邦购置条例补充 (DFARS) 
 
 ## <a name="dfars-overview"></a>DFARS 概述
 
-2016 年 10 月 21 日，美国国防部 (DoD) 发布了其最终规则，其中修订了国防联邦购置条例补充程序 (DFARS) 并规定其信息系统处理、存储或传输覆盖的防御信息 (CDI) 的防御承包商的安全措施和网络事件报告义务。  
+2016 年 10 月 21 日，美国国防部 (DoD) 发布了最终规则，修改了国防联邦购置条例补充程序 (DFARS) ，并规定其信息系统处理、存储或传输覆盖的防御信息 (CDI) 的防御承包商的安全措施和网络事件报告义务。  
   
 最终的 DFARS 条款 252.204-7012 (Safeguarding Covered Defense Information and Cyber Incident Reporting) 指定安全措施，以包含网络事件报告要求和云服务提供商的其他注意事项。 根据 DFARS 252.204-7012，所有 DoD 承包商和国防工业基础均必须遵守 DFARS 要求，确保"尽快、最晚于 2017 年 12 月 31 日"实现足够安全。
 
 ## <a name="microsoft-and-dfars"></a>Microsoft 和 DFARS
 
-Microsoft 政府云服务可帮助美国国防工业基础和国防承包商客户满足 DFARS 要求，如适用于云服务提供商的 252.204-7012 的 DFARS 条款所枚举。 当国防承包商必须遵守合同中的 DFARS 条款 252.204-7012 时，Microsoft 可以支持适用于 Azure 政府版和 Office 365 美国政府国防版服务的云服务提供商的要求。 这两项服务均证明支持客户通过向美国国防部安全要求指南的 L5 资格鉴定来遵守 DFARS 7012 条款所需的功能。  
+Microsoft 政府云服务可帮助美国国防工业基础和国防承包商客户满足 DFARS 要求，如适用于云服务提供商的 252.204-7012 的 DFARS 条款所枚举。 当国防承包商必须遵守合同中的 DFARS 条款 252.204-7012 时，Microsoft 可以支持适用于 Azure 政府版和 Office 365 美国政府国防版服务的云服务提供商的要求。 这两项服务都证明支持客户通过向美国国防部安全要求指南的 L5 资格鉴定来遵守 DFARS 7012 条款所需的功能。  
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
@@ -77,11 +77,11 @@ Office 365美国政府国防版允许我们的国防工业基础和国防承包�
 
 是的，第三方评估组织已证明 Office 365 美国政府国防版云服务满足 DFARS 条款 252.204-7012 (保护未分类受控技术信息) 的适用要求。
 
-**受控未分类信息与 CUI (与 CDI) 涵盖 (之间的关系) ？**
+**受控未分类信息与 CUI (和 CDI) 涵盖 (之间的关系) ？**
 
 CUI 是要求根据法律、法规或政府范围策略保护或传播控制措施的信息。 [CUI 注册表标识](https://www.archives.gov/cui/registry/category-list.html)已批准的 CUI 类别和子类别。
 
-CDI 是控制的技术信息或其他信息 (如 CUI 注册表) 要求保护或传播控件中所述，并且为：
+CDI 是控制的技术信息或其他信息 (如 CUI 注册表) 要求保护或传播控件，并且为：
 
 - 在合同、任务订单或交付订单中标记或以其他方式标识，并且由 DoD 或代表 DoD 向承包商提供与合同或
 - 由承包商或代表承包商收集、开发、接收、传输、使用或存储，以支持合同履行

@@ -26,8 +26,8 @@ ms.openlocfilehash: c1a2cc9e770678683fb3823da73ed667de6d1f2b
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946894"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158282"
 ---
 # <a name="auditing-and-reporting-in-microsoft-cloud-services"></a>Microsoft 云服务中的审核和报告
 
@@ -39,13 +39,13 @@ Microsoft 365[安全](https://protection.office.com)&合规中心[、Microsoft 3
 
 这些中心包括用于访问多个功能的导航窗格：
 
-- **警报：** 使你可以管理警报、查看与安全相关的警报，以及使用 云应用安全 管理 [高级云应用安全。](/cloud-app-security/what-is-cloud-app-security)
-- **权限：** 使您可以将 [合规性管理员](/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center) 、电子数据展示管理员等权限分配给组织成员，以便他们可以在这些中心执行任务。 为每个中心中的大多数功能分配权限，但必须使用管理中心Exchange配置其他SharePoint权限。
+- **警报：** 使你可以管理警报、查看与安全相关的警报，以及使用安全 [云应用安全。](/cloud-app-security/what-is-cloud-app-security)
+- **权限：** 使您可以将 [合规性管理员](/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center) 、电子数据展示管理员等权限分配给组织成员，以便他们可以在这些中心执行任务。 你可以为每个中心中的大多数功能分配权限，但必须使用管理中心和管理中心Exchange配置SharePoint权限。
 - **威胁管理：** 使您可以使用 [Microsoft 365](https://support.microsoft.com/office/overview-of-basic-mobility-and-security-for-microsoft-365-faa7d8e5-645d-4d59-839c-c8d4c1869e4a)的基本移动性和安全性创建和应用设备管理策略，为组织设置数据丢失防护 [ (](/microsoft-365/compliance/data-loss-prevention-policies) DLP) 策略，以配置电子邮件筛选、反恶意软件、域密钥识别邮件 (DKIM) 、安全附件、安全链接和 OAuth 应用。
-- **数据管理：** 使您可以将 [电子邮件或](https://support.office.com/article/Import-PST-files-or-SharePoint-data-to-Office-365-ba688e0a-0fcb-4bd7-8e57-2b669564ea84)SharePoint数据导入到 Microsoft 365 中，配置存档邮箱，并设置 [](https://support.office.com/article/Enable-archive-mailboxes-in-the-Office-365-Security-Compliance-Center-268a109e-7843-405b-bb3d-b9393b2342ce)组织中电子邮件和其他内容的保留策略。 [](/microsoft-365/compliance/retention-policies)
-- **搜索&调查：** 提供 [内容](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)搜索 [、审核日志、](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)隔离和电子数据展示 [](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)案例管理工具，以快速深入了解 Exchange Online 邮箱、组和公用文件夹、SharePoint Online 和 OneDrive for Business。
+- **数据管理：** 使您可以将 [电子邮件或](https://support.office.com/article/Import-PST-files-or-SharePoint-data-to-Office-365-ba688e0a-0fcb-4bd7-8e57-2b669564ea84)SharePoint数据导入 Microsoft 365、配置存档邮箱，以及设置组织中电子邮件和其他内容的 [](https://support.office.com/article/Enable-archive-mailboxes-in-the-Office-365-Security-Compliance-Center-268a109e-7843-405b-bb3d-b9393b2342ce)保留策略。 [](/microsoft-365/compliance/retention-policies)
+- **搜索&调查：** 提供 [内容](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)搜索 [、审核日志、](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)隔离和电子数据展示案例 [](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)管理工具，以快速深入了解 Exchange Online 邮箱、组和公用文件夹、SharePoint Online 和 OneDrive for Business。
 - **报告：** 使你可以 [快速访问](https://support.office.com/article/Reports-in-the-Office-365-Security-Compliance-Center-7acd33ce-1ec8-49fb-b625-43bac7b58c5a)SharePoint Online、OneDrive for Business、Exchange Online 和 Azure AD 的报告。
-- **服务保证：** 提供有关 Microsoft 如何维护安全、隐私和遵从 Microsoft 365、Azure、Microsoft Dynamics CRM Online、Microsoft Intune 和其他云服务的全球标准的信息。 还包括访问第三方 ISO、SOC 和其他审核报告以及审核控制措施，其中提供了有关由 Microsoft 365 的第三方审核员测试和验证的各种控制措施的详细信息。
+- **服务保证：** 提供有关 Microsoft 如何维护安全、隐私和遵守 Microsoft 365、Azure、Microsoft Dynamics CRM Online、Microsoft Intune 和其他云服务标准的信息。 还包括访问第三方 ISO、SOC 和其他审核报告，以及审核控制措施，其中详细介绍了由 Microsoft 365 的第三方审核员测试和验证的各种控制措施。
 
 ## <a name="service-assurance"></a>服务保障
 

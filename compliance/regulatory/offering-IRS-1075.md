@@ -20,8 +20,8 @@ ms.openlocfilehash: 94e032efec2fd10f1d352f4f1b610916abe23cf7
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947581"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158625"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>美国国税局出版物 1075
 
@@ -39,26 +39,26 @@ Microsoft Azure美国政府[Microsoft Office 365](https://products.office.com/go
   
 为帮助政府机构进行合规性工作，Microsoft：
 
-- 提供详细指导，帮助机构了解他们的责任以及各种 IRS 控制措施如何映射到 Azure 政府Office 365美国政府版中的功能。 IRS 1075 安全保护报告 (SSR) 全面记录 Microsoft 服务 如何实施适用的 IRS 控制措施，并基于 Azure 政府版和 Office 365 美国政府的 FedRAMP 程序包。 由于 IRS 1075 和 FedRAMP 都基于 NIST 800-53，因此 IRS 1075 的合规性边界与 FedRAMP 授权相同。
+- 提供详细指导，帮助机构了解他们的责任以及各种 IRS 控制措施如何映射到 Azure 政府Office 365美国政府版中的功能。 IRS 1075 安全保护报告 (SSR) 全面记录 Microsoft 服务 如何实施适用的 IRS 控制措施，并基于 Azure 政府及 Office 365 美国政府的 FedRAMP 程序包。 由于 IRS 1075 和 FedRAMP 都基于 NIST 800-53，因此 IRS 1075 的合规性边界与 FedRAMP 授权相同。
 - IRS 必须明确批准发布任何 IRS 安全措施文档，以便只有 NDA 下政府客户才能查看 SSR。
 - 提供独立评估员针对其云服务生成的审核报告和监控信息。
-- 介绍了 IRS Azure 政府合规性注意事项和 Office 365 美国政府合规性注意事项，其中概述了机构如何按照符合 IRS 1075 要求的方式使用 Microsoft 政府云政府版服务。 NDA 下政府客户可以请求这些文档。
-- 为客户提供免费 (与 Microsoft 行业) 或外部审核员进行沟通的机会（如果需要）。
+- 提供 IRS Azure 政府合规性注意事项和 Office 365 美国政府合规性注意事项，其中概述了机构如何按照符合 IRS 1075 要求的方式使用 Microsoft 云政府版服务。 NDA 下政府客户可以请求这些文档。
+- 为客户提供了一 (他们) 与 Microsoft 行业专家或外部审核员沟通的机会（如果需要）。
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
-FedRAMP 授权基于 NIST 准则在三个影响级别授予 — 低、中和高。 这些对丢失机密性、完整性或可用性对组织的影响进行排名 - 低 (有限影响) 、中等 (严重负面影响) 以及高 (严重或灾难性) 。
+FedRAMP 授权基于 NIST 准则在三个影响级别授予 — 低、中和高。 这些对丢失机密性、完整性或可用性对组织的影响进行排名 - 低 (有限影响) 、中 (严重负面影响) 以及高 (严重或灾难性) 。
 
 - Azure 与 Azure 政府
 - Dynamics 365 美国政府版
-- Office 365、Office 365美国政府
+- Office 365，Office 365美国政府
 - Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 
 ## <a name="azure-dynamics-365-and-irs-1075"></a>Azure、Dynamics 365 和 IRS 1075
 
-有关 Azure、Dynamics 365 和其他联机服务合规性的信息，请参阅 [Azure IRS 1075 产品/服务](/azure/compliance/offerings/offering-irs-1075)。
+有关 Azure、Dynamics 365 和其他在线服务合规性的信息，请参阅 Azure [IRS 1075 产品/服务](/azure/compliance/offerings/offering-irs-1075)。
 
-## <a name="office-365-and-irs-1075"></a>Office 365和 IRS 1075
+## <a name="office-365-and-irs-1075"></a>Office 365 和 IRS 1075
 
 ### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
@@ -84,7 +84,7 @@ FedRAMP 审核每年都会涵盖符合 IRS 1075 这一重大要求的情况。
 
 Microsoft 定期监视其安全性、隐私和运营控制以及 NIST 800-53 修订版。FedRAMP 基线对中等影响信息系统要求进行 4 次控制。 它通过持续监控报告提供对此信息的季度访问。 Azure 政府Office 365美国政府客户可以通过服务信任门户访问此[敏感的合规性信息](https://aka.ms/stphelp)。
 
-此外，Microsoft 还致力于将 IRS 1075 控制措施包括在其 Azure 政府版和美国政府版的主控制措施Office 365中，并每年进行一次审核。
+此外，Microsoft 还致力于将 IRS 1075 控制措施包括在其 Azure 政府版和美国政府版Office 365控制集内，并每年进行一次审核。
 
 **我能否查看 FedRAMP 程序包或系统安全计划？**
 

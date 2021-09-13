@@ -22,8 +22,8 @@ ms.openlocfilehash: 820197523e37958873853e00afdcff555408f423
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947543"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158630"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>针对 GDPR 和 CCPA 的 Azure 数据主体请求
 

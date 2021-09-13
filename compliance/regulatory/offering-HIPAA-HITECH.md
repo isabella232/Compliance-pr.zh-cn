@@ -20,8 +20,8 @@ ms.openlocfilehash: 31fcc11280e8026bc962136c271713cd5e26078b
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947701"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158722"
 ---
 # <a name="health-insurance-portability-and-accountability-act-hipaa--health-information-technology-for-economic-and-clinical-health-hitech-act"></a>Health Insurance Portability and Accountability Act (HIPAA) & Health Information Technology for Economic and Clinical Health (HITECH) Act
 
@@ -79,7 +79,7 @@ FedRAMP 评估还涵盖 Microsoft 企业云服务。 Microsoft Azure政府Micros
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | Access Online、Azure Active Directory、 Azure 通信服务、合规性管理器、客户密码箱、Delve、Exchange Online、表单、管理程序、标识管理器、密码箱 (Torus) 、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 客户门户、Office 365 微服务 (包括但不限于 Kaizala、ObjectStore、Sway、Power Automate， PowerPoint Online Document Service、Query Annotation Service、学校数据同步、Siphon、Speech、StaffHub、Staff) Hub、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、Office Services 基础结构、OneDrive for Business、Planner、PowerApps、Power BI、Project Online、Project Online、使用客户密钥的服务加密、SharePoint Online、Skype for Business、Stream |
+| **商业** | Access Online、Azure Active Directory、Azure Communications Service、 合规性管理器、客户密码箱、Delve、Exchange Online、Forms、一致性、标识管理器、密码箱 (Torus) 、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 客户门户、Office 365 微服务 (包括但不限于 Kaizala、ObjectStore、Sway、Power Automate， PowerPoint Online 文档服务、查询注释服务、学校数据同步、Siphon、语音、StaffHub、) 、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、Office 服务基础结构、OneDrive for Business、Planner、PowerApps、Power BI、Project Online、使用客户密钥的服务加密、SharePoint Online、Skype for Business、流 |
 | **GCC** | Azure Active Directory、Azure 通信服务、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
 
 ### <a name="frequently-asked-questions"></a>常见问题解答
@@ -109,7 +109,7 @@ HIPAA 业务关联协议还可用于范围内 Microsoft Professional 服务。 �
 为了帮助客户完成此任务，Microsoft 发布了以下指南：
 
 - 适用于 [Azure](/azure/governance/blueprints/samples/hipaa-hitrust-9-2/) 隐私、安全与合规部主管及其他负责 HIPAA 和 HITECH 法案实施的人的 HIPAA/HITECH Act 实施指南介绍了贵组织为维护合规性可采取的具体步骤。
-- [使用安全解决方案设计安全Microsoft Azure](https://aka.ms/azureindustrysecurity)指南可帮助你更好地了解以安全方式成功采用云服务需要执行哪些操作。
+- [使用解决方案设计安全运行状况](https://aka.ms/azureindustrysecurity)解决方案Microsoft Azure帮助您更好地了解以安全方式成功采用云服务需要哪些方法。
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

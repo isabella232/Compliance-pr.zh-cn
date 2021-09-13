@@ -20,8 +20,8 @@ ms.openlocfilehash: 375f7a58db675f3f14bd98ff580919ef40f603f1
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947748"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158869"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>2002 年萨班尼斯-奥克斯莱法案 (Sarbanes-Oxley Act of 2002, SOX)
 
@@ -35,7 +35,7 @@ SEC 不定义或实施 SOX 认证过程。 相反，它为上市公司提供了�
 
 遵守 Sarbanes-Oxley 法案 (SOX) 的 Microsoft 云服务客户可以使用 MICROSOFT 在履行自己的 SOX 合规义务时从独立审计公司收到的 SOC 1 类型 2 证明。 此证明适用于报告对财务信息进行的内部控制。
 
-即使没有针对云服务提供商的 SOX 认证或验证，Microsoft 也可以帮助客户履行 SOX 义务。 例如，SOX 要求对准备和审阅财务报表进行内部控制，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。 为帮助公司，Microsoft 维护了适用于跨各种服务组合报告此类控件的 SOC 1 类型 2 证明，这些服务组合可用于构建各种应用程序。 它基于美国注册公共会计协会 (AICPA) 证明服务 18 (SSAE 18) 标准声明和国际标准保障服务活动 No。 3402（ISAE 3402）。  (此证明取代了 SAS 70.) 
+即使没有针对云服务提供商的 SOX 认证或验证，Microsoft 也可以帮助客户履行 SOX 义务。 例如，SOX 要求对准备和审阅财务报表进行内部控制，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。 为帮助公司，Microsoft 维护了适用于跨各种服务组合报告此类控件的 SOC 1 类型 2 证明，这些服务组合可用于构建各种应用程序。 它基于美国注册公共会计协会 (AICPA) 18 (SSAE 18) 认证标准声明和保证保证服务 No 国际标准。 3402（ISAE 3402）。  (此证明取代了 SAS 70.) 
 
 第三方审核公司生成的审核报告证实 Microsoft 控制措施设计正确，在指定的日期运行，且在指定的时段内有效运行。 客户可以审阅报告，了解 Microsoft 控制措施目标及其控制措施的有效性，并访问补充控制措施。
 
@@ -74,7 +74,7 @@ AICPA SSAE 18 标准取代了 SAS 70，适用于报告服务组织中与用户�
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | 扩充循环、自动替换文字、 Azure 信息保护、二进制转换服务、Bookings、Delve、文档项、编辑器、Exchange Online、表单、插入联机媒体、Insights、Kaizala、Microsoft Analytics、Microsoft Booking、Microsoft Graph、Microsoft Teams、MyAnalytics、Office 365 云应用安全、Office 365 组、Office 365 视频、OneDrive for Business、Planner、Power Apps、PowerApps、Power Automate、Power BI、PowerPointDesigner、PowerPoint Online Document Service、SharePoint Online、Skype for Business、StaffHub、Stream、Sway、微软待办、Web 呈现服务Yammer Enterprise  |
+| **商业** | 扩充循环、自动替换文本、Azure 信息保护、 二进制转换服务、Bookings、Delve、文档项、编辑器、Exchange Online、表单、插入联机媒体、Insights、Kaizala、Microsoft Analytics、Microsoft Booking、Microsoft Graph、Microsoft Teams、MyAnalytics、Office 365 云应用安全、Office 365 组、Office 365 视频、OneDrive for Business、Planner、Power Apps、PowerApps、Power Automate、Power BI、PowerPointDesigner、PowerPoint Online Document Service、SharePoint Online、Skype for Business、StaffHub、Stream、Sway、微软待办、Web 呈现服务Yammer Enterprise  |
 
 ### <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

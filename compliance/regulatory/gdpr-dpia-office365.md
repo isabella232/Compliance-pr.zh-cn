@@ -21,8 +21,8 @@ ms.openlocfilehash: 9b7a88bd84ccd39d0d4cd9572a250ba4a8a0a773
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947756"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158638"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>数据保护影响评估：使用 Microsoft Office 365 的数据控制者指南 
 
@@ -44,7 +44,7 @@ GDPR 第 35 条规定需要由数据控制者来创建数据保护影响评估�
 |||
 
 >[!Note]
-><sup>1</sup> 关于处理“大量”数据的标准，GDPR 的第 91 篇声明陈述如下：“如果涉及由个体医生、其他医疗保健专业人员或律师来处理患者或客户的个人数据，则个人数据的处理不应视为处理大量数据。 在这种情况下，不得强制进行数据保护影响评估。”
+><sup>1</sup> 关于处理“大量”数据的标准，GDPR 的第 91 篇声明陈述如下：“如果涉及由个体医生、其他医疗保健专业人员或律师来处理患者或客户的个人数据，则个人数据的处理不应视为处理大量数据。在这种情况下，数据保护影响评估不应是强制性的。”
 
 ## <a name="part-2-contents-of-a-dpia"></a>第 2 部分：DPIA 的内容
 

@@ -24,8 +24,8 @@ ms.openlocfilehash: 11695a941e5d5e6740833ab19bf2d68ac487c1c5
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946898"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158283"
 ---
 # <a name="audit-logging-overview"></a>审核日志记录概述
 
@@ -50,7 +50,7 @@ Microsoft 联机服务内部审核日志记录从各种源捕获日志数据，�
 
 许多不同类型的日志数据从 Microsoft 服务器上载到专有安全监视解决方案，用于近实时 (NRT) 分析和内部大数据计算服务 (Cosmos) 或 Azure 数据资源管理器 (Kusto) ，用于长期存储。 此数据传输通过 FIPS 140-2 验证的 TLS 连接在批准的端口和协议上使用自动日志管理工具进行。
 
-日志使用基于规则、统计和机器学习方法在 NRT 中处理，以检测系统性能指标和潜在的安全事件。 机器学习模型使用传入日志数据和存储在 Cosmos Kusto 中的历史记录日志数据来持续改进检测功能。 与安全相关的检测会生成警报，向呼叫工程师通知潜在事件，并触发自动修正操作（如果适用）。 除了自动安全监视之外，服务团队还使用分析工具和仪表板进行数据关联、交互式查询和数据分析。 这些报告用于监视和改进服务的整体性能。
+日志使用基于规则、统计和机器学习方法在 NRT 中处理，以检测系统性能指标和潜在的安全事件。 机器学习模型使用传入日志数据和存储在 Cosmos 或 Kusto 中的历史记录日志数据来持续改进检测功能。 与安全相关的检测会生成警报，向呼叫工程师通知潜在事件，并触发自动修正操作（如果适用）。 除了自动安全监视之外，服务团队还使用分析工具和仪表板进行数据关联、交互式查询和数据分析。 这些报告用于监视和改进服务的整体性能。
 
 有关安全监视和警报详细信息，请参阅 [安全监视概述](assurance-security-monitoring.md)。
 
@@ -58,11 +58,11 @@ Microsoft 联机服务内部审核日志记录从各种源捕获日志数据，�
 
 ## <a name="how-do-microsoft-online-services-protect-audit-logs"></a>Microsoft 联机服务如何保护审核日志？
 
-Microsoft 联机服务中用于收集和处理审核记录的工具不允许对原始审核记录内容或时间顺序进行永久或不可恢复的更改。 对存储在 Microsoft 或 Kusto Cosmos Microsoft 联机服务数据的访问权限仅限于授权人员。 此外，Microsoft 将审核日志的管理限制为负责审核功能的有限安全团队成员子集。 安全团队人员没有长期管理权限访问 Cosmos Kusto。 管理访问需要实时访问 (JIT) 权限审批，并且记录并审核Cosmos日志记录机制的所有更改。 审核日志的保留时间足够长，以支持事件调查和满足法规要求。 数据保留审核日志由服务团队确定;大多数审核日志数据在 Kusto 中保留 90 Cosmos 180 天。
+Microsoft 联机服务中用于收集和处理审核记录的工具不允许对原始审核记录内容或时间顺序进行永久或不可恢复的更改。 仅限授权人员访问存储在 Cosmos 或 Kusto 中的 Microsoft 联机服务数据。 此外，Microsoft 将审核日志的管理限制为负责审核功能的有限安全团队成员子集。 安全团队人员没有长期管理权限访问 Cosmos Kusto。 管理访问需要实时访问 (JIT) 权限审批，并且记录并审核Cosmos日志记录机制的所有更改。 审核日志的保留时间足够长，以支持事件调查和满足法规要求。 数据保留审核日志由服务团队确定;大多数审核日志数据在 Kusto 中保留 90 Cosmos 180 天。
 
 ## <a name="how-do-microsoft-online-services-protect-user-personal-data-that-may-be-captured-in-audit-logs"></a>Microsoft 联机服务如何保护可能在审核日志中捕获的用户个人数据？
 
-在上载日志数据之前，自动日志管理应用程序使用清理服务删除包含客户数据（如租户信息和用户个人数据）的任何字段，并使用哈希值替换这些字段。 将重写匿名日志和哈希日志，然后将这些日志上载到Cosmos。 所有日志传输都通过 FIPS 140-2 (TLS 加密连接) 。
+在上载日志数据之前，自动日志管理应用程序使用清理服务删除包含客户数据（如租户信息和用户个人数据）的任何字段，并使用哈希值替换这些字段。 匿名日志和哈希日志将被重写，然后上传到Cosmos。 所有日志传输均通过 FIPS 140-2 (TLS 加密连接) 。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 

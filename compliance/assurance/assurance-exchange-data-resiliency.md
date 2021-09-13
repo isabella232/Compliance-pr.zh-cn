@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 中的 Exchange Online 数据弹性
-description: 本文介绍数据恢复能力在 Exchange Online 和 Microsoft 365。
+description: 本文将介绍数据恢复能力在 Exchange Online 和 Microsoft 365。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -24,24 +24,24 @@ ms.openlocfilehash: 0e3f050c1f28fa0ca8ac89c8bb8d7151cf9cba10
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946907"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158207"
 ---
 # <a name="exchange-online-data-resiliency-in-microsoft-365"></a>Exchange Online数据恢复能力Microsoft 365
 
 >[!IMPORTANT]
->随着我们将继续以不同方式投资来保留邮箱内容，我们宣布停用 Exchange 管理中心 (EAC) 中的 In-Place 保留Exchange Online。 从 2020 年 7 月 1 日开始，将无法创建新的保留In-Place保留。 但你仍然可以在 EAC 中In-Place或通过使用 PowerShell 中的 **Set-MailboxSearch** cmdlet 管理Exchange Online保留。 但是，从 2020 年 10 月 1 日起，你将无法管理In-Place保留。 只能在 EAC 中或通过使用 **Remove-MailboxSearch** cmdlet 删除它们。 使用In-Place保留Exchange Server Exchange混合部署仍将受支持。 有关停用旧版电子数据展示In-Place保留Exchange Online，请参阅停用[旧版电子数据展示工具](/microsoft-365/compliance/legacy-ediscovery-retirement)。
+>随着我们将继续以不同方式投资来保留邮箱内容，我们宣布在 Exchange Online 中的 Exchange 管理中心 (EAC) 停用 In-Place 保留。 从 2020 年 7 月 1 日开始，将无法创建新的保留In-Place保留。 但你仍然可以在 EAC 中In-Place或通过使用 PowerShell 中的 **Set-MailboxSearch** cmdlet 管理Exchange Online保留。 但是，从 2020 年 10 月 1 日起，你将无法管理In-Place保留。 只能在 EAC 中或通过使用 **Remove-MailboxSearch** cmdlet 删除它们。 在In-Place保留Exchange Server Exchange混合部署仍将受支持。 有关停用旧版电子数据展示In-Place保留Exchange Online，请参阅停用[旧版电子数据展示工具](/microsoft-365/compliance/legacy-ediscovery-retirement)。
 
 就地保留将保留所有邮箱内容，包括已删除项目和已修改项目的原始版本。 所有此类邮箱项目均会返回到[就地电子数据展示](/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)搜索中。 当您将 In-Place 置于用户邮箱上时，相应的存档邮箱 (中的内容（如果已启用) ）也会置于保留状态，并返回到电子数据展示搜索中。
 
 有两种类型的损坏可能会影响 Exchange 数据库：物理损坏（通常是由硬件 (导致，特别是存储硬件) 问题）和逻辑损坏（由其他因素导致）。 通常，在数据库内可能发生两种类型的逻辑损坏Exchange损坏：
 
-- **数据库逻辑损坏** - 数据库页校验和匹配，但页面上的数据逻辑错误。 当数据库引擎 (可扩展 存储 引擎 (ESE) ) 尝试写入数据库页时，可能会发生这种情况，即使操作系统返回成功消息，数据要么从未写入磁盘，要么被写入错误的位置。 这称为丢失 *刷新*。 ESE 包括许多旨在防止数据库和其他数据丢失情况的物理损坏的功能和安全措施。 为了防止丢失刷新丢失数据，ESE 在数据库中包括丢失刷新检测机制，以及一个 (页面还原功能) 进行更正。
-- **存储逻辑** 损坏 - 以用户不想的方式添加、删除或操作数据。 这些情况由第三方应用程序导致。 从用户认为损坏的意义上来说，它通常是损坏的。 Exchange 存储会考虑产生一系列有效 MAPI 操作的逻辑损坏的事务。 Exchange Online[中的](/exchange/security-and-compliance/create-or-remove-in-place-holds)就地保留功能可防止存储逻辑损坏 (因为它可防止用户或应用程序用户或应用程序) 。 
+- **数据库逻辑损坏** - 数据库页校验和匹配，但页面上的数据逻辑错误。 当数据库引擎 (可扩展 存储 引擎 (ESE) ) 尝试写入数据库页时，可能会发生这种情况，即使操作系统返回成功消息，数据也永远不会写入磁盘或写入错误的位置。 这称为丢失 *刷新*。 ESE 包括许多旨在防止数据库和其他数据丢失情况的物理损坏的功能和安全措施。 为了防止丢失刷新丢失数据，ESE 在数据库中包括丢失刷新检测机制，以及一个 (页面还原功能) 进行更正。
+- **存储逻辑** 损坏 - 以用户不想的方式添加、删除或操作数据。 这些情况由第三方应用程序导致。 从用户认为损坏的意义上来说，它通常是损坏的。 Exchange 存储会考虑产生一系列有效 MAPI 操作的逻辑损坏的事务。 Exchange Online[中的](/exchange/security-and-compliance/create-or-remove-in-place-holds)就地保留功能可防止存储逻辑损坏 (因为它可以防止用户或应用程序用户或应用程序) 。 
 
-Exchange Online在日志检查和日志重播期间对复制的日志文件执行几个一致性检查。 这些一致性检查可防止系统复制物理损坏。 例如，在日志检查期间，存在一个物理完整性检查，用于验证 日志文件 并验证记录在 日志文件 中的校验和是否与内存中生成的校验和匹配。 此外，检查日志文件标头以确保日志标头日志文件记录的内容签名与记录日志日志文件。 在日志重播期间，日志文件进一步审查。 例如，数据库标头还包含日志签名，该日志签名与日志文件签名进行比较以确保它们相匹配。 
+Exchange Online在日志检查和日志重播期间对复制的日志文件执行几个一致性检查。 这些一致性检查可防止系统复制物理损坏。 例如，在日志检查过程中，存在一个物理完整性检查，用于验证 日志文件 并验证记录在 日志文件 中的校验和是否与内存中生成的校验和匹配。 此外，检查日志文件标头以确保日志标头日志文件记录的内容签名与记录日志日志文件。 在日志重播期间，日志文件进一步审查。 例如，数据库标头还包含日志签名，该日志签名与日志文件签名进行比较以确保它们相匹配。 
 
-通过使用 Exchange Native Data Protection（一种复原策略，利用跨多个服务器和多个数据中心的应用程序级复制以及其他功能来帮助防止由于损坏或其他原因丢失数据）实现 Exchange Online 中的邮箱数据的损坏防护。 这些功能包括由 Microsoft 或应用程序本身Exchange Online本机功能，例如：
+通过使用 Exchange Native Data Protection（一种复原策略，利用跨多个服务器和多个数据中心的应用程序级复制以及帮助防止由于损坏或其他原因丢失数据的其他功能）实现 Exchange Online 中的邮箱数据的损坏防护。 这些功能包括由 Microsoft 或应用程序本身Exchange Online本机功能，例如：
 
 - [数据可用性组](/exchange/back-up-email)
 - 单位更正 
@@ -85,7 +85,7 @@ ESE 包括一种检测和解决单位 CRC 错误 (也称为单位翻转) ，这�
 ## <a name="single-page-restore"></a>单页还原 
 单页还原（也称为页面修补）是一个自动过程，其中损坏的数据库页面将替换为正常副本中的正常副本。 损坏页面的修复过程取决于数据库副本是主动还是被动。 当活动数据库副本遇到损坏的页面时，它可以从其中一个副本复制页面，只要它复制的页面是最新的。 此过程通过将页面请求放入日志流（这是邮箱数据库复制的基础）完成。 副本一旦遇到页面请求，就会通过向请求的数据库副本发送页面副本来做出响应。 单页还原还为活动提供从副本请求页面的异步通信机制，即使副本当前处于脱机状态也是如此。 
 
-如果被动数据库副本（包括滞后数据库副本）损坏，由于这些副本始终位于主动副本之后，因此始终可以安全地将任何页面从主动副本复制到被动副本。 被动数据库副本本质上是高度可用的，因此在页面修补过程中，日志重播将暂停，但日志复制将继续。 被动数据库副本从主动副本检索损坏页面的副本，等待复制并检查满足最大所需日志生成要求的 日志文件，然后修补损坏的页面。 修复页面后，日志重播恢复。 对于滞后数据库副本，此过程是相同的，只是滞后数据库首先重播实现可修补状态所需的所有日志文件。 
+如果被动数据库副本（包括滞后数据库副本）损坏，由于这些副本始终位于主动副本之后，因此始终可以安全地将任何页面从主动副本复制到被动副本。 被动数据库副本本质上是高度可用的，因此在页面修补过程中，日志重播将暂停，但日志复制将继续。 被动数据库副本从主动副本中检索损坏页面的副本，等待复制并检查满足最大所需日志生成要求的 日志文件，然后修补损坏的页面。 修复页面后，日志重播恢复。 对于滞后数据库副本，此过程是相同的，只是滞后数据库首先重播实现可修补状态所需的所有日志文件。 
 
 ## <a name="mailbox-replication-service"></a>邮箱复制服务 
 移动邮箱是管理大型电子邮件服务的关键部分。 始终有更新的技术、硬件和版本升级需要处理，因此具有一个稳固的受限系统，我们的工程师可以在保持邮箱对用户 (透明移动的同时，确保他们在整个过程中保持联机状态) 这一点很关键，并确保当邮箱不断变大时，此过程可以正常扩展。 

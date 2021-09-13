@@ -24,14 +24,14 @@ ms.openlocfilehash: 8ba736fbd6e72963badc3245e11cbed2292cba94
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946899"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158690"
 ---
 # <a name="security-monitoring-overview"></a>安全监视概述
 
 ## <a name="what-is-microsofts-strategy-for-monitoring-security"></a>Microsoft 的监视安全策略是什么？
 
-Microsoft 持续监视其系统，以检测和响应对 Microsoft 在线服务的威胁。 安全监视和警报的关键原则是：
+Microsoft 持续监视其系统，以检测和响应对 Microsoft 联机服务的威胁。 安全监视和警报的关键原则是：
 
 - 稳定性：检测各种攻击行为的信号和逻辑
 - 准确性：有意义的警报，以避免干扰噪音

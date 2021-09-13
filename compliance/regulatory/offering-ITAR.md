@@ -20,18 +20,18 @@ ms.openlocfilehash: 5f3a17ca4f06f61b62bcc13e44b74ad4d436a6da
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947560"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158342"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>国际武器贸易条例 (ITAR) 
 
 ## <a name="itar-overview"></a>ITAR 概述
 
-美国国防部负责管理美国国防条款的导出和临时导入 (美国商品列表下指定的任何项目或技术数据。 如 Title 22 CFR 121.1) that are described by the (Title 22 USC 2778) and the International Traffic in Arms Regulations (ITAR)  (Title 22 CFR 120-130) 监管。 美国国防贸易控制 (DDTC) 负责管理这些计划下管理的实体。
+美国国防部负责管理导出和临时导入的防御 (美国商品列表下指定的任何项目或技术数据。 如 Title 22 CFR 121.1) that are described by the (Title 22 USC 2778) and the International Traffic in Arms Traffic (ITAR)  (Title 22 CFR 120-130) 监管。 美国国防贸易 (DDTC) 负责管理这些计划下管理的实体。
 
 ## <a name="microsoft-and-itar"></a>Microsoft 和 ITAR
 
-Microsoft 提供了一些云服务或服务功能，可帮助客户履行 ITAR 义务。 尽管 ITAR 没有合规性认证，但 Microsoft 运营并设计范围内服务，能够支持客户的 ITAR 义务和合规性计划。  
+Microsoft 提供了一些云服务或服务功能，可帮助客户履行 ITAR 义务。 尽管 ITAR 没有合规性认证，但 Microsoft 运营并设计范围内服务，以支持客户的 ITAR 义务和合规性计划。  
   
 Microsoft Azure美国政府Microsoft Office 365政府国防计划通过就存储数据的位置以及访问此类数据的能力限制与客户做出其他合同承诺，为受 ITAR 限制的客户提供支持。 Microsoft 为这些政府云服务的基础结构和运营组件提供这些保证，但客户最终负责在其环境中对其应用程序的保护和体系结构。  
   

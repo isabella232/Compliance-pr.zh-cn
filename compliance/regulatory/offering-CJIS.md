@@ -20,16 +20,16 @@ ms.openlocfilehash: 313905ec68c7d730cd2372ebd4679943ff124993
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947553"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158813"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>刑事犯罪信息服务 (CJIS) 安全策略
 
 ## <a name="cjis-overview"></a>CJIS 概述
 
-美国联邦调查局 (FEDERAL) 的刑事犯罪信息服务 (CJIS) 部门向州、地方、联邦执法机构和犯罪犯罪机构提供对刑事犯罪信息 (CJI) 的访问权限，例如指纹记录和犯罪历史记录。 执法机构和美国的其他政府机构必须确保他们使用云服务传输、存储或处理 CJI 符合 [CJIS](https://aka.ms/cjis-security-policy)安全策略，该安全策略建立了最低安全要求和控制来保护 CJI。
+美国联邦调查局 (FEDERAL) 的刑事犯罪信息服务 (CJIS) 部门向州、当地和联邦执法机构和犯罪犯罪机构提供对刑事犯罪信息 (CJI) 的访问权限，例如指纹记录和犯罪历史记录。 执法机构和美国的其他政府机构必须确保他们使用云服务传输、存储或处理 CJI 符合 [CJIS](https://aka.ms/cjis-security-policy)安全策略，该安全策略建立了最低安全要求和控制来保护 CJI。
 
-CJIS 安全策略集成了国家标准和技术协会 NIST (的法规、联邦法律以及刑事犯罪社区的建议策略委员会) 决策。 该策略会定期更新，以反映不断变化的安全要求。
+CJIS 安全策略集成了国家标准与技术协会 NIST (咨询策略委员会决策、联邦法律以及犯罪人士社区 (机构) 。 该策略会定期更新，以反映不断变化的安全要求。
 
 CJIS 安全策略定义了 13 个私有承包商（如云服务提供商）必须评估的区域，以确定其对云服务的使用是否与 CJIS 要求一致。 这些领域与 NIST 800-53 紧密对应，NIST 800-53 也是联邦风险和授权管理计划 [ (FedRAMP) ](offering-FedRAMP.md)的基础，该计划通过 Microsoft 政府云产品/服务认证。
 
@@ -74,7 +74,7 @@ MICROSOFT 不提供 Microsoft 遵守 CJIS 要求的认证。 相反，Microsoft 
 
 [Microsoft CJIS 云要求](https://aka.ms/MicrosoftCJISCloudRequirements)
 
-### <a name="cjis-status-in-the-united-states-current-as-of-1152020"></a>截至 2020 年 11 月 5 (美国 CJIS 状态) 
+### <a name="cjis-status-in-the-united-states-current-as-of-1152020"></a>自 2020 年 11 月 5 (起，美国 CJIS 状态) 
 
 45 个州以及具有管理协议（在地图上以绿色突出显示）的学区包括：
 

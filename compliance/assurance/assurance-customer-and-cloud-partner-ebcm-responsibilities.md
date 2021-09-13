@@ -21,8 +21,8 @@ ms.openlocfilehash: 5bc9f37cdf6d8f30ea71eddb612232b11844a4ba
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946900"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158279"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>客户和云合作伙伴在企业业务连续性方面的责任
 

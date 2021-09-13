@@ -20,14 +20,14 @@ ms.openlocfilehash: 093ec578cd83dc6c52485101d232d9ccff88489e
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947729"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158321"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>俄语个人数据本地化要求
 
 自 2015 年 9 月 1 日起，被视为个人数据操作员的组织必须确保，在收集个人数据时，俄语公民的个人数据记录、系统化、保存、存储、说明 (更新、更改) 和提取操作是通过位于俄罗斯 ('个人数据本地化要求') 的数据库执行的。<sup>1</sup>
 
-Microsoft 服务 适用于 (包括但不限于教育机构)  (（以下称为"客户") ）的组织，包括启用个人数据处理（如 Microsoft Azure、Microsoft 365、Dynamics 365 和 Power Platform）的组织，它们从位于俄罗斯 (之外的数据处理中心提供，有关详细信息，请访问[Microsoft](https://www.microsoft.com/trust-center)信任中心) 。
+Microsoft 服务 适用于 (包括但不限于以下称为"客户") 的教育机构)  (，包括启用个人数据处理（如 Microsoft Azure、Microsoft 365、Dynamics 365 和 Power Platform）的组织，它们从位于俄罗斯 (之外的数据处理中心提供，有关详细信息，请访问[Microsoft](https://www.microsoft.com/trust-center)信任中心) 。
 
 根据客户信息系统处理的信息类型和内容，此类系统（包括那些使用 Microsoft 云产品的系统）被视为个人数据信息系统 ("PDIS"，"ISPD") 。 如果客户想在通过其体系结构和所处理信息类型限定为 PDIS 的系统中使用 Microsoft 服务，Microsoft 会邀请其客户考虑下面指定的可用解决方案。此外，Microsoft 还邀请其客户考虑使用的解决方案。 提供的所有方案都可供客户作为标准商业产品/服务的其他选项使用。
 

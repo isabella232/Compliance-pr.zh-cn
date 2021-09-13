@@ -20,21 +20,21 @@ ms.openlocfilehash: 3f178689655662272fc8149259cf769ce122a18a
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947551"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158838"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>联邦风险和授权管理项目 (FedRAMP)
 
 ## <a name="fedramp-overview"></a>FedRAMP 概述
 
-建立美国联邦风险和授权管理计划 (FedRAMP) ，以提供根据联邦信息安全管理法案 (FISMA) 评估、监视和授权云计算产品和服务的标准化方法，并加速联邦机构采用安全的云解决方案。
+建立美国联邦风险和授权管理计划 (FedRAMP) 以提供一种标准方法，用于根据联邦信息安全管理法案 (FISMA) 评估、监视和授权云计算产品和服务，并加速联邦机构采用安全的云解决方案。
 
 管理Office预算计划现在要求所有联邦行政机构使用 FedRAMP 验证云服务的安全性。  (由于其他机构也采用了该标准，因此它还在公共部门的其他国家/地区也很有用。) 美国国家标准和技术协会 (NIST) SP 800-53 设置了强制性标准，建立了信息系统的安全类别（机密性、完整性和可用性）来评估在信息和信息系统受到威胁时对组织的潜在影响。 FedRAMP 是一个计划，它证明云服务提供商 (CSP) 符合这些标准。
 
 准备向联邦机构销售服务的 CSP 可以通过三种途径来演示 FedRAMP 合规性：
 
-- 从 JAB 联合授权 (联合授权) 获得临时授权 (P-ATO) 。 JAB 是 FedRAMP 的主要管理和决策正文。 来自国防部、国防安全部和一般服务管理部门的代表负责。 该板向已证明 FedRAMP 合规性的 CSP 授予 P-ATO。
-- 从联邦机构接收 (ATO) 运营授权。
+- 从联合授权委员会 (联合授权) 获得临时授权以 (P-ATO) 。 JAB 是 FedRAMP 的主要管理和决策正文。 来自国防部、国防安全部和一般服务管理部门的代表负责。 该板向已证明 FedRAMP 合规性的 CSP 授予 P-ATO。
+- 从联邦机构 (ATO) 运营授权。
 - 或者，独立开发满足计划要求的云解决方案提供商提供包。
 
 上述每个途径都要求 FedRAMP 计划管理 Office (PMO) 由经该计划认证的独立第三方组织进行评估。
@@ -61,9 +61,9 @@ Microsoft 政府云服务为公共部门客户提供一系列与 FedRAMP 兼容�
 
 ## <a name="office-365-and-fedramp"></a>Office 365 和 FedRAMP
 
-- Office 365美国政府Office 365美国健康与公共服务部门的 ATO (DHH) 。
-- Office 365美国政府国防队具有来自美国国防信息系统局的 P-ATO， (DISA) 。 任何希望Office 365美国政府国防队的客户都可使用 DISA P-ATO 生成代理 ATO 来记录其接受。
-- Office 365 (美国政府) Office 365计划的 FEDRAMP 机构 ATO 具有来自检查员常规的 DH DH DH OFFICE 中等影响级别的 FedRAMP 机构 ATO。 Office 365美国政府是首个获得此授权的基于云的电子邮件和协作服务。
+- Office 365美国政府Office 365美国健康与公共服务部门的 ATO (DH DH DH) 。
+- Office 365美国政府国防队具有来自美国国防信息系统局的 P-ATO (DISA) 。 任何希望Office 365美国政府国防队的客户都可使用 DISA P-ATO 生成机构 ATO 来记录其接受。
+- Office 365 (美国政府) Office 365计划的 FEDRAMP 机构 ATO 具有来自检查员常规的 DH DH DH OFFICE中等影响级别的 FedRAMP 机构 ATO。 Office 365美国政府是首个获得此授权的基于云的电子邮件和协作服务。
 
 ### <a name="office-365-cloud-environments"></a>Office 365 云环境
 

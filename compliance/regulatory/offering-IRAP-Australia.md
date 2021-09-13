@@ -20,16 +20,16 @@ ms.openlocfilehash: cd7ad9a68f69f134689262ad7e379eec89284035
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947693"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158309"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>澳大利亚政府信息安全注册评估员计划 (IRAP) 
 
-IRAP (注册评估员计划) 针对澳大利亚政府政策和指南对系统安全进行独立评估提供了一个全面过程。 IRAP 的目标是通过专注于存储、处理和传达信息的信息技术基础结构，最大限度地提高澳大利亚联邦、州以及当地政府数据的安全性。
+信息安全注册评估 (IRAP) 为针对澳大利亚政府政策和指南的独立评估系统安全提供了一个综合流程。 IRAP 的目标是通过专注于存储、处理和传达信息的信息技术基础结构，最大限度地提高澳大利亚联邦、州以及当地政府数据的安全性。
 
 ## <a name="irap-overview"></a>IRAP 概述
 
-信息安全注册评估员计划 (IRAP) 由澳大利亚网络安全中心和 ACSC (管理) 。 IRAP 提供了一个框架，用于认可来自私有和公共部门的个人，以便向澳大利亚政府提供网络安全评估服务。 组织 IRAP 评估员可以提供对 ICT 安全的独立评估，建议缓解措施，并突出显示遗留的风险。 IRAP 提供了根据澳大利亚政府政策和指南独立评估系统安全性的综合流程。 IRAP 的目标是通过专注于存储、处理和传达信息的信息技术基础结构，最大限度地提高澳大利亚联邦、州以及当地政府数据的安全性。
+信息安全注册评估员计划 (IRAP) 由澳大利亚网络安全中心和 ACSC (管理) 。 IRAP 提供了一个框架，用于认可来自私有和公共部门的个人，以便向澳大利亚政府提供网络安全评估服务。 组织 IRAP 评估员可以提供对 ICT 安全的独立评估，建议缓解措施，并突出显示遗留的风险。 IRAP 提供了根据澳大利亚政府政策和指南对系统安全进行独立评估的综合过程。 IRAP 的目标是通过专注于存储、处理和传达信息的信息技术基础结构，最大限度地提高澳大利亚联邦、州以及当地政府数据的安全性。
 
 - 2014 年，Azure 作为澳大利亚第一个 IRAP 评估的云服务启动，托管自 Melbourne 和都州数据中心。 通过这两个数据中心，澳大利亚客户可以控制其客户数据的存储位置，同时通过两个位置的备份提供增强的数据持续性。
 - 2015 年初，Office 365成为首个完成此评估的云生产力服务。
@@ -37,15 +37,15 @@ IRAP (注册评估员计划) 针对澳大利亚政府政策和指南对系统安
 - 2017 年 6 月，ASD 宣布重新Microsoft Azure和Office 365服务集的重新认证。
 - 2018 年 4 月，ACSC 在受保护的分类中Office 365 Azure 和 Azure 认证。 Microsoft 是首个且唯一一家获得此认证级别的公共云提供商。
 - 2019 年 9 月，Microsoft 更新后的 IRAP 评估范围扩展到了受保护的分类中的 113 项服务。
-- 2020 年 12 月，Microsoft 发布了针对 Azure 和 Office 365 的两项增量 IRAP 评估。 这些报告利用了 CCSL 认证云服务列表发布后 (指南) 。 这些报告包含对 Microsoft 作为云服务提供商 (CSP) 的评估，以及 Azure、Dynamics 和 microsoft 2019 报告中递增的其他Office 365。
+- 2020 年 12 月，Microsoft 发布了针对 Azure 和 Office 365 的两项增量 IRAP 评估。 这些报告利用了 CCSL 认证云服务列表发布后 (指南) 。 报告包含对 Microsoft 作为云服务提供商 (CSP) 的评估，以及 Azure、Dynamics 和 Office 365 2019 报告中的增量服务。
 
 ## <a name="microsoft-and-irap"></a>Microsoft 和 IRAP
 
 2020 年 12 月，Microsoft 完成了两项 Azure & Dynamics 和 Office 365评估。 这些评估添加了更多评估到 PROTECTED 分类级别的服务。 此外，这些评估是在 CCSL 云安全指南之后的新发布下进行的，如 ACSC 的云评估和 [云指南](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) 分析中概述。
 
-对于每个评估，Microsoft 都聘请了 ACSC 认证 IRAP 评估员，负责检查 Microsoft IT 运营团队、物理数据中心、入侵检测、加密、跨域和网络安全、访问控制以及范围内服务的信息安全风险管理所使用的安全控制和流程。 IRAP 评估发现，Microsoft 系统体系结构基于合理的安全原则，适用的澳大利亚政府信息安全手册 (ISM) 控制已到位，在我们的评估服务中完全有效。
+对于每个评估，Microsoft 都聘请了 ACSC 认证 IRAP 评估员，负责检查 Microsoft 的 IT 运营团队、物理数据中心、入侵检测、加密、跨域和网络安全、访问控制以及范围内服务的信息安全风险管理所使用的安全控制和流程。 IRAP 评估发现，Microsoft 系统体系结构基于合理的安全原则，适用的澳大利亚政府信息安全手册 (ISM) 控制已到位，并且在我们的评估服务中完全有效。
 
-ISM 使用的风险管理框架来自美国国家标准和技术协会 (NIST) Special [Publication (SP) 800-37 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final)。 在此风险管理框架中，可以使用各种风险管理标准（如国际标准化组织 [ (ISO) 31000：2018，](https://www.iso.org/standard/65694.html)风险管理 - 准则）来识别风险和选择安全控制措施。 大致来说，ISM 使用的风险管理框架有六个步骤：
+ISM 使用的风险管理框架来自美国国家标准和技术协会[ (NIST) Special Publication (SP) 800-37 Rev. 2。](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final) 在此风险管理框架中，可以使用各种风险管理标准（如国际标准化组织 [ (ISO) 31000：2018，](https://www.iso.org/standard/65694.html)风险管理 - 准则）来识别风险和选择安全控制措施。 大致来说，ISM 使用的风险管理框架有六个步骤：
 
 - 定义系统
 - 选择安全控件

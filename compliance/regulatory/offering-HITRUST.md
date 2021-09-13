@@ -20,16 +20,16 @@ ms.openlocfilehash: 97875374c58bf174090a9dd34f26d3e22b2b50b3
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947704"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158313"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>健康信息信任联盟 (HITRUST) CSF (SECURITY Framework) 
 
 ## <a name="hitrust-csf-overview"></a>HITRUST CSF 概述
 
-健康信息信任联盟 (HITRUST) 是一家由医疗保健行业的代表管理的组织。 HITRUST 创建和维护通用安全框架 (CSF) ，这是一个可认证框架，可帮助医疗保健组织及其提供商以一致且简化的方式证明其安全性和合规性。
+健康信息信任联盟 (HITRUST) 是一家由医疗保健行业代表管理的组织。 HITRUST 创建和维护通用安全框架 (CSF) ，这是一个可认证框架，可帮助医疗保健组织及其提供商以一致和简化的方式证明其安全性和合规性。
 
-CSF 基于 HIPAA 和 HITECH 法案，这两项美国医疗保健法对使用、披露和保护个人身份健康信息制定了相关要求，并强制执行了不相容性。 HITRUST 提供了一个基准，即标准化的合规性框架、评估和认证流程，云服务提供商和涵盖的运行状况实体可基于该基准衡量合规性。 CSF 还纳入支付卡行业数据安全标准 ([PCI-DSS](https://www.microsoft.com/trustcenter/compliance/pci) [) 、ISO/IEC 27001](https://www.microsoft.com/trustcenter/compliance/iso-iec-27001) 信息安全管理标准以及 Exchanges ([MARS-E](https://www.microsoft.com/trustcenter/compliance/mars-e)) 最低可接受风险标准等现有框架中的特定医疗保健安全、隐私和其他法规要求。
+CSF 基于 HIPAA 和 HITECH 法案，这两项美国医疗保健法对使用、披露和保护个人身份健康信息制定了相关要求，并强制执行了不相容性。 HITRUST 提供了一个基准，即标准化的合规性框架、评估和认证过程，云服务提供商和涵盖的运行状况实体可基于该基准衡量合规性。 CSF 还纳入支付卡行业数据安全标准 ([PCI-DSS](https://www.microsoft.com/trustcenter/compliance/pci) [) 、ISO/IEC 27001](https://www.microsoft.com/trustcenter/compliance/iso-iec-27001) 信息安全管理标准以及 Exchanges ([MARS-E](https://www.microsoft.com/trustcenter/compliance/mars-e)) 最低可接受风险标准等现有框架中的特定医疗保健安全、隐私和其他法规要求。
 
 CSF 分为 19 个不同的域，包括终结点保护、移动设备安全性和访问控制。 HITRUST 针对这些控件证明 IT 产品/服务。 HITRUST 还根据组织、系统和法规因素调整针对组织风险的认证要求。
 
@@ -74,7 +74,7 @@ HITRUST 提供三种保证或评估级别：自我评估、CSF 验证和 CSF 认
 
 ### <a name="frequently-asked-questions"></a>常见问题解答
 
-**为什么某些Office 365服务不在此认证范围内？**
+**为什么某些Office 365服务不在认证范围内？**
 
 与其他云服务提供商相比，Microsoft 提供了最全面的产品/服务。 为了与跨地区和行业的广泛合规性产品/服务保持一致性，我们根据市场需求、客户反馈和产品生命周期，在保证工作范围内包括服务。 如果某个服务未包括在特定合规性产品的当前范围内，则组织有责任根据合规性义务评估风险并确定您处理该服务中数据的方式。 我们会持续收集客户的反馈，并与监管机构和审核员合作，扩大合规性范围以满足您的安全性和合规性需求。
 

@@ -23,8 +23,8 @@ ms.openlocfilehash: 820c912dc55d5cc98cedc38676b5039591cf5baa
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946995"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158678"
 ---
 # <a name="microsoft-security-incident-management-post-incident-activity"></a>Microsoft 安全事件管理：事后活动
 
@@ -33,7 +33,7 @@ ms.locfileid: "58946995"
 某些安全事件（尤其是影响客户或导致数据泄露的事件）会接受完整的事件事后分析。 安全响应团队与参与安全事件响应的各方一起执行详细的事后调查，以：
 
 - 记录导致事件的事件序列。
-- 创建事件的技术摘要，该证据支持该证据包括泄露事件所涉及的 (如果已知) 。 此摘要将包括响应的执行方式和其他关键要点。
+- 创建事件的技术摘要，该证据支持该证据包括泄露事件所涉及的 (（如果已知) ）。 此摘要将包括响应的执行方式和其他关键要点。
 - 确定安全事件响应过程中发现的技术缺陷、过程失败、手动错误、流程缺陷和通信故障和/或任何以前未知的攻击途径。
 
 事后分析将在 Microsoft 在线服务工程开发周期中设置新的优先级，直接影响 Microsoft 在线服务改进、运营流程和文档。

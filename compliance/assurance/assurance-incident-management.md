@@ -24,8 +24,8 @@ ms.openlocfilehash: 203adce9b4c7167315abbbfbebce0efdd604fefe
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946986"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158193"
 ---
 # <a name="incident-management-overview"></a>事件管理概述
 
@@ -47,7 +47,7 @@ Microsoft 云服务会持续受到监视，以发现泄露的迹象。 除了自
 
 只要 Microsoft 发现涉及未经授权丢失、泄露或修改客户数据的安全漏洞，Microsoft 就会在 72 小时内通知受影响的客户，如联机服务条款 (OST) 的数据保护附录 (DPA) 所述。 通知日程表承诺从正式安全事件声明发生时开始。 在声明发生安全事件后，通知流程将尽快进行，不要出现不当的延迟。
 
-通知包括泄露性质、近似用户影响和缓解措施 (（如果适用) ）。 如果 Microsoft 的调查在初始通知时尚未完成，则通知还将指示后续步骤和后续通信日程表。
+通知包括泄露性质、近似用户影响和缓解步骤 (（如果适用) ）。 如果 Microsoft 的调查在初始通知时尚未完成，则通知还将指示后续步骤和后续通信日程表。
 
 如果客户意识到会对 Microsoft 产生影响的事件，包括但不限于数据泄露，客户应负责根据 DPA 中的定义，立即通知 Microsoft 该事件。
 

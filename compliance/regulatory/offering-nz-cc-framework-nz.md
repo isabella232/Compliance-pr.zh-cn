@@ -20,14 +20,14 @@ ms.openlocfilehash: 6785c459f8350714b8e4636a0f1a5dc9f4ff667d
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947728"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158323"
 ---
 # <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>新西兰政府信息安全和隐私注意事项 (ISPC) 
 
 ## <a name="new-zealand-government-information-security-and-privacy-considerations-overview"></a>新西兰政府信息安全和隐私注意事项概述
 
-2015 年 10 月，新西兰政府修订了一项政府性 ICT 策略，其"云第一"策略将在整个公共部门使用信息技术。 修订后的策略保留了在 NZ 政府首席信息官和 GCIO (下制定和实施的"云计算风险和保障) 。
+2015 年 10 月，新西兰政府修订了一项政府性 ICT 策略，其"云第一"策略将在整个公共部门使用信息技术。 修订后的策略保留了在 NZ 政府首席信息官 (GCIO) 下制定和实施的"云计算风险和保障框架"。
 
 政府希望所有新西兰 State Service 机构在评估和采用云服务时都在此框架内工作。 "云计算要求"概述了采用云服务时机构必须执行哪些工作，并概述了政府云策略的历史记录。
 
@@ -74,7 +74,7 @@ ms.locfileid: "58947728"
 
 ## <a name="resources"></a>资源
 
-- [托管的主机Office生产力服务的安全要求：Office 365](https://aka.ms/o365-gcio-conformance-guidance)
+- [托管的主机的安全Office生产力服务：托管服务的安全Office 365](https://aka.ms/o365-gcio-conformance-guidance)
 - [NZ Government ICT Strategy 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [云计算：ISPC (信息安全和隐私) ](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
 - [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)

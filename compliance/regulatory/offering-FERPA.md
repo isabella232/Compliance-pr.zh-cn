@@ -20,8 +20,8 @@ ms.openlocfilehash: 0ec79c5be17018f8b01eb3d938b65392b021ce77
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947570"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158846"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA (家庭教育权和隐私) 
 
@@ -67,7 +67,7 @@ Microsoft 同意在客户数据中指定为具有"合法教育兴趣"的"学校�
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
 | **商业** | Azure Active Directory, Azure 信息保护, Bookings, 合规性管理器, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender for Office 365, Microsoft Graph, Microsoft Teams, Microsoft 待办事项网页版, MyAnalytics, Office 365 高级合规版加载项, Office 365 Cloud App Security, Office 365 组, Office 365 安全与合规中心, Office 365 视频, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
-| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规性中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、harePoint Online、Skype for Business、Stream |
+| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版 加载项、Office 365 安全 & 合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、harePoint Online、Skype for Business、Stream |
 | **GCC 高级** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
 | **DoD** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、Power BI、SharePoint Online、Skype for Business |
 
@@ -83,7 +83,7 @@ FERPA 不要求或识别审核或认证。
 
 **COPPA 和 CIPA 对 Azure 有什么合规性影响？**
 
-COPPA 和 CIPA 是旨在保护儿童隐私的其他法律;但是，它们不适用于 Azure。 COPPA (《儿童在线隐私保护法》) 保护 13 以下儿童隐私的美国联邦法律。 它由美国联邦贸易委员会 (FTC) 。 COPPA 适用于面向儿童的网站和在线服务，并规定这些网站和服务必须征得家长同意才能收集和使用属于儿童的任何个人信息。 《儿童 Internet 保护法》 (CIPA) 以解决有关儿童通过 Internet 访问有害的内容的问题。 联邦通信委员会 (与) 颁发了实施 CIPA 的规则，并定义了受 CIPA 限制的学校和库的要求。 在 Azure 采用上下文中搜索 COPPA 和 CIPA 的客户应查看联机服务条款 [DPA](https://aka.ms/DPA) 中标题为"教育机构"的部分，其中我们解释客户负责获得任何最终用户对 Microsoft 在线服务的任何使用的任何家长同意。
+COPPA 和 CIPA 是旨在保护儿童隐私的其他法律;但是，它们不适用于 Azure。 COPPA (《儿童在线隐私保护法》) 保护 13 以下儿童隐私的美国联邦法律。 它由美国联邦贸易委员会 (FTC) 。 COPPA 适用于面向儿童的网站和在线服务，并规定这些网站和服务必须征得家长同意才能收集和使用属于儿童的任何个人信息。 《儿童 Internet 保护法》 (CIPA) 以解决有关儿童通过 Internet 访问有害的内容的问题。 联邦通信委员会 (，) 颁发了实施 CIPA 的规则，并定义了受 CIPA 限制的学校和库的要求。 在 Azure 采用上下文中搜索 COPPA 和 CIPA 的客户应查看联机服务条款 [DPA](https://aka.ms/DPA) 中标题为"教育机构"的部分，其中我们解释客户负责获得任何最终用户对 Microsoft 在线服务的任何使用的任何家长同意。
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

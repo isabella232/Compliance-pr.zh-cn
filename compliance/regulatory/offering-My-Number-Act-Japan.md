@@ -20,8 +20,8 @@ ms.openlocfilehash: e38e5f2c370692a60d07ac25491ae457e0ed34c0
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947713"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158293"
 ---
 # <a name="my-number-act-japan"></a>个人编号法案（日本）
 

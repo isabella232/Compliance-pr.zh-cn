@@ -24,14 +24,14 @@ ms.openlocfilehash: 933db3783c6672fa952f70f18c4815955bcedb21
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946982"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158194"
 ---
 # <a name="identity-and-access-management-overview"></a>标识和访问管理概述
 
 ## <a name="how-do-microsoft-online-services-protect-production-systems-from-unauthorized-or-malicious-access"></a>Microsoft 联机服务如何保护生产系统免受未经授权的或恶意的访问？
 
-Microsoft 在线服务旨在允许 Microsoft 工程师在不访问客户内容的情况下操作服务。 默认情况下，Microsoft 工程师具有零长期访问 (ZSA) 访问客户内容，并且没有对生产环境的特权访问。 Microsoft 联机服务使用实时 (JIT) 、Just-Enough-Access (JEA) 模型，在需要此访问权限以支持 Microsoft 联机服务时，为服务团队工程师提供对生产环境的临时特权访问。 JIT 访问模型将传统的长期管理访问权限替换为工程师在需要时请求临时提升为特权角色的过程。
+Microsoft 在线服务旨在允许 Microsoft 工程师在不访问客户内容的情况下操作服务。 默认情况下，Microsoft 工程师具有零长期访问 (ZSA) 访问客户内容，并且没有对生产环境的特权访问。 Microsoft 联机服务使用实时 (JIT) Just-Enough-Access (JEA) 模型，在需要访问支持 Microsoft 联机服务时，为服务团队工程师提供对生产环境的临时特权访问。 JIT 访问模型将传统的长期管理访问权限替换为工程师在需要时请求临时提升为特权角色的过程。
 
 工程师被分配到服务团队，通过标识和访问管理解决方案支持生产服务请求服务团队帐户的资格。 资格申请触发了一系列人员检查，以确保工程师已通过所有云筛选要求、完成必要的培训，并获得了帐户创建前的适当管理批准。 只有在满足所有资格要求后，才能为申请环境创建服务团队帐户。 若要维护服务团队帐户的资格，人员每年必须接受基于角色的培训，并每两年重新进行一次审查。 未能完成或通过这些检查会导致资格被自动吊销。
 
@@ -39,7 +39,7 @@ Microsoft 在线服务旨在允许 Microsoft 工程师在不访问客户内容�
 
 JEA 由资格和密码箱角色在请求 JIT 访问时强制执行。 只接受对工程师资格范围内资产的访问请求，并传递给审批者。 密码箱会自动拒绝超出工程师资格和密码箱角色范围的 JIT 请求，包括超出允许阈值的请求。  
 
-## <a name="how-do-microsoft-online-services-use-role-based-access-control-rbac-with-lockbox-to-enforce-least-privilege"></a>Microsoft 联机服务如何使用基于角色的访问控制 (密码) 密码箱来强制实施最小特权？
+## <a name="how-do-microsoft-online-services-use-role-based-access-control-rbac-with-lockbox-to-enforce-least-privilege"></a>Microsoft 联机服务如何使用基于角色的访问控制 (RBAC) 密码箱强制实施最小特权？
 
 服务团队帐户不会授予任何长期管理员权限或客户内容的访问权限。 受限管理员权限的 JIT 请求通过密码箱进行管理。 密码箱使用 RBAC 限制 JIT 提升请求工程师可以提出的类型，从而提供额外的保护层以强制实施最小特权。 RBAC 还通过将服务团队帐户限制到适当的角色来帮助强制实施职责分离。
 支持服务的工程师将基于其角色被授予安全组的成员身份。 安全组的成员身份不会授予任何特权访问权限。 相反，安全组允许工程师使用密码箱请求 JIT 提升（如果需要支持系统）。 工程师可以提出的特定 JIT 请求受其安全组成员身份限制。

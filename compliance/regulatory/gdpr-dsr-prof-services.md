@@ -22,8 +22,8 @@ ms.openlocfilehash: 06dbe8eeeddc32fb98b7b4bf0351834fb6a34944
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947547"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158179"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Microsoft 支持和专业服务与 GDPR 和 CCPA 数据主体请求
 

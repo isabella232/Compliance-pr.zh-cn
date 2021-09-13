@@ -23,8 +23,8 @@ ms.openlocfilehash: 02df77f949cf1633017dd25f4cff17175c536d53
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947016"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158689"
 ---
 # <a name="sharepoint-and-onedrive-data-resiliency-in-microsoft-365"></a>Microsoft 365中的SharePoint和OneDrive数据恢复能力
 
@@ -55,45 +55,45 @@ SharePoint Azure SQL 提供的复制模型，并构建了专有自动化技术�
 
 ![元数据恢复。](../media/assurance-metadata-resiliency-diagram.png)
 
-SharePoint Azure SQL 备份系统在最多 14 天内 (PITR) 时间点还原。 将稍后部分对 PITR [进行更多介绍。](#deletion-backup-and-point-in-time-restore)
+SharePoint Azure SQL 备份系统在 PITR (时间点还原) 最多 14 天。 将稍后部分对 PITR [进行更多介绍。](#deletion-backup-and-point-in-time-restore)
 
 ## <a name="automated-failover"></a>自动故障转移
 
-SharePoint使用自定义的自动故障转移，以在发生特定于位置的事件时最大程度地降低对客户体验的影响。 监控驱动的自动化检测超出特定阈值的单组件或多组件故障将导致所有用户的活动从有问题的环境中自动重定向到温辅助环境。 故障转移会导致元数据和计算存储完全从新数据中心提供。 由于 blob 存储始终完全处于活动状态/处于活动状态，因此故障转移不需要任何更改。 计算层将首选最近的 blob 容器，但将随时使用本地和远程 blob 存储位置以确保可用性。
+SharePoint自定义的自动故障转移，以在特定于位置的事件发生时最大程度地降低对客户体验的影响。 监控驱动的自动化检测超出特定阈值的单组件或多组件故障将导致所有用户的活动从有问题的环境中自动重定向到温辅助环境。 故障转移会导致元数据和计算存储完全从新数据中心提供。 由于 blob 存储始终完全处于活动状态/处于活动状态，因此故障转移不需要任何更改。 计算层将首选最近的 blob 容器，但将随时使用本地和远程 blob 存储位置以确保可用性。
 
-SharePoint Azure Front Door 服务在 Microsoft 网络内部提供路由。 此配置允许独立于 DNS 的故障转移重定向，并减少本地计算机缓存的影响。 大多数故障转移操作对最终用户都是透明的。 如果存在故障转移，则客户无需进行任何更改，即维护对服务的访问权限。
+SharePoint Azure Front Door 服务提供到 Microsoft 网络内部的路由。 此配置允许独立于 DNS 的故障转移重定向，并减少本地计算机缓存的影响。 大多数故障转移操作对最终用户都是透明的。 如果存在故障转移，则客户无需进行任何更改，即维护对服务的访问权限。
 
 ## <a name="versioning-and-files-restore"></a>版本控制与文件还原
 
 对于新创建的文档库，SharePoint每个文件的默认版本为 500 个，并可以配置为保留更多版本（如果需要）。 UI 不允许设置少于 100 个版本的值，但可以设置系统以使用公共 API 存储较少的版本。 为了可靠性，不建议使用小于 100 的任何值，这可能会导致用户活动导致意外的数据丢失。
 
-有关版本控制详细信息，请参阅 SharePoint 中的[版本控制](/microsoft-365/community/versioning-basics-best-practices)。
+有关版本控制详细信息，请参阅 SharePoint[中的版本控制](/microsoft-365/community/versioning-basics-best-practices)。
 
-文件还原是一种功能，可返回任何时间文档库，SharePoint到最近 30 天内的任何秒。 此过程可用于从勒索软件、批量删除、损坏或其他任何事件恢复。 此功能使用文件版本，因此减少默认版本会降低此还原的有效性。
+文件还原是一种功能，可以返回任何时间文档库，SharePoint到最近 30 天内的任何秒。 此过程可用于从勒索软件、批量删除、损坏或其他任何事件恢复。 此功能使用文件版本，因此减少默认版本会降低此还原的有效性。
 
-文件还原功能已针对 OneDrive 和[SharePoint](https://support.office.com/article/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15)进行[记录](https://support.office.com/article/Restore-a-document-library-317791c3-8bd0-4dfd-8254-3ca90883d39a)。
+"文件还原"功能针对 OneDrive[和](https://support.office.com/article/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15)[SharePoint。](https://support.office.com/article/Restore-a-document-library-317791c3-8bd0-4dfd-8254-3ca90883d39a)
 
 ## <a name="deletion-backup-and-point-in-time-restore"></a>删除、备份和时间点还原
 
 从网站中删除SharePoint内容将经过以下删除流。
 
-已删除的项目在回收站中保留一段时间。 对于SharePoint，保留时间为 93 天。 从项目的原始位置删除项目时，它将开始。 当您从网站回收站中删除项目时，它会进入 [网站集回收站](https://support.office.com/article/restore-deleted-items-from-the-site-collection-recycle-bin-5fa924ee-16d7-487b-9a0a-021b9062d14b)。 它将在 93 天的剩余时间内一直保留在那里，然后永久删除。 有关如何使用回收站的信息，请参阅以下链接：
+已删除的项目在回收站中保留一段时间。 对于SharePoint，保留时间为 93 天。 从项目的原始位置删除项目时，它将开始。 当您从网站回收站中删除项目时，它会进入 [网站集回收站](https://support.office.com/article/restore-deleted-items-from-the-site-collection-recycle-bin-5fa924ee-16d7-487b-9a0a-021b9062d14b)。 它将在剩余的 93 天内保留，然后永久删除。 有关如何使用回收站的信息，请参阅以下链接：
 
 - [还原回收站中的项目](https://support.office.com/article/Restore-items-in-the-Recycle-Bin-of-a-SharePoint-site-6df466b6-55f2-4898-8d6e-c0dff851a0be)
 - [从网站集回收站还原已删除的项目](https://support.office.com/article/Restore-deleted-items-from-the-site-collection-recycle-bin-5fa924ee-16d7-487b-9a0a-021b9062d14b)。
 
 此过程是默认删除流，不会考虑保留策略或标签。 有关详细信息，请参阅了解[SharePoint 和 OneDrive](/microsoft-365/compliance/retention-policies-sharepoint)的保留。
 
-完成 93 天的回收管道后，将针对元数据和 Blob 项目独立进行存储。 将立即从数据库中删除元数据，这使得内容不可读，除非从备份中还原元数据。 SharePoint维护 14 天的元数据备份。 这些备份以近实时状态本地进行，然后根据此发布时的文档，按 5-10[](/azure/sql-database/sql-database-automated-backups)分钟计划推送到冗余 Azure 存储 容器中的存储。
+完成 93 天的回收管道后，将单独删除元数据和 Blob 存储。 将立即从数据库中删除元数据，这使得内容不可读，除非从备份中还原元数据。 SharePoint维护 14 天的元数据备份。 这些备份以近实时状态本地进行，然后根据此发布时的文档，按 5-10[](/azure/sql-database/sql-database-automated-backups)分钟计划推送到冗余 Azure 存储 容器中的存储。
 
 删除 Blob 存储内容时，SharePoint Azure Blob 文件的软删除存储防止意外或恶意删除。 使用此功能，我们总共有 14 天的时间在内容被永久删除之前还原内容。
 
 >[!Note]
->虽然 Microsoft 应用程序将内容发送到标准进程的回收站，SharePoint提供了允许跳过回收站并强制立即删除的 API。 检查应用程序以确保仅在出于合规性原因需要时完成此操作。
+>尽管 Microsoft 应用程序将内容发送到标准进程的回收站，但 SharePoint提供了允许跳过回收站并强制立即删除的 API。 检查应用程序以确保仅在出于合规性原因需要时完成此操作。
 
 ## <a name="integrity-checks"></a>完整性检查
 
-SharePoint使用各种方法来确保数据生命周期所有阶段 blob 和元数据的完整性：
+SharePoint使用各种方法来确保数据生命周期所有阶段的 blob 和元数据的完整性：
 
 - **存储在元数据中的** 文件哈希：整个文件的哈希与文件元数据一起存储，以确保在所有操作过程中保持文档级别数据完整性
 - **存储在元数据中的 Blob** 哈希：每个 blob 项存储加密内容的哈希，以防范基础 Azure 存储中的损坏。

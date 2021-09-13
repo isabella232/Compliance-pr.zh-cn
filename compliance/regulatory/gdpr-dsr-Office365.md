@@ -22,8 +22,8 @@ ms.openlocfilehash: f5b0acae758e149f2bfde5683a0b9f2c45f0db29
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947554"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158906"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>符合 GDPR 和 CCPA 的 Office 365 数据主体请求
 

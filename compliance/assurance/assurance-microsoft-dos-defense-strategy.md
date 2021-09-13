@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 拒绝服务防御策略
-description: 本文概述了拒绝服务攻击和 DoS 攻击 (Microsoft) 策略。
+description: 本文概述了拒绝服务攻击和 DoS (Microsoft) 策略。
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -24,18 +24,18 @@ ms.openlocfilehash: 56888f704d3cc5da5e820e3cb80a3d10cbb1ef95
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946991"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158243"
 ---
 # <a name="microsoft-365-denial-of-service-defense-strategy"></a>Microsoft 365 拒绝服务防御策略
 
 ## <a name="core-principles-of-defense-against-denial-of-service-attacks"></a>防御拒绝服务攻击的核心原则
 
-防御基于网络的拒绝服务攻击和 DoS (攻击时，) 三个核心原则：预防、检测和缓解。 抑制在检测之前发生，并且必须先进行检测，然后才能开始缓解。 如果即使是一个小 DoS 攻击也无法得到解决，那么服务将无法在足够长的时间内生存，无法检测到该攻击。 通过检测系统无法承受的攻击，防御者可以实施响应计划。
+防御基于网络的拒绝服务攻击和 DoS (攻击时，) 三个核心原则：预防、检测和缓解。 抑制在检测之前发生，并且必须先进行检测，然后才能开始缓解。 如果即使是一个小的 DoS 攻击也无法得到解决，那么服务将无法在足够长的时间内生存，无法检测到该攻击。 通过检测系统无法承受的攻击，防御者可以实施响应计划。
 
 以下公式可帮助估计受 DoS 攻击影响的时间：
 
-  **Maximum Capacity (in bytes/sec) / Growth Rate (in bytes/sec) = 影响 (的时间（以秒为单位)**
+  **Maximum Capacity (in bytes/sec) / Growth Rate (in bytes/sec) = 影响数据 (的时间（以秒为单位)**
 
 如果检测时间长于影响时间，则 DoS 攻击可能会成功。 如果检测时间短于影响时间，如果缓解策略成功，受攻击服务应保持联机和可访问。
 
@@ -44,11 +44,11 @@ ms.locfileid: "58946991"
 - 增加容量以提高最大容量限制 (这反过来会有更多的时间来检测攻击) ;或
 - 减少检测攻击的时间。
 
-使用 Microsoft 云服务的一个安全优势是，大型 Microsoft 服务如何以经济高效的方式为云客户提供强大的网络保护。 即使在大规模上，还必须在吸收、检测和缓解之间保持平衡。 为了找到平衡点，Microsoft 研究攻击速率，以估计Microsoft 服务量。
+使用 Microsoft 云服务的一个安全优势是，大型 Microsoft 服务如何以经济高效的方式为云客户提供强大的网络保护。 即使在大规模上，还必须在吸收、检测和缓解之间保持平衡。 为了找到平衡点，Microsoft 研究攻击速率以估计需要Microsoft 服务量。
 
 ## <a name="denial-of-service-defense-strategy"></a>拒绝服务防御策略
 
-Microsoft 针对基于网络的 DoS 攻击进行防御的策略因我们的规模和全局占用而是唯一的。 此规模允许 Microsoft 利用对大多数其他组织不可用的策略和技术。 DoS 策略的基础是全局状态。 Microsoft 与 Internet 提供商、对等 (以及) 和私有公司合作。 此参与为 Microsoft 提供了重要的 Internet 状态，使 Microsoft 能够在较大的图面区域中吸收攻击。
+Microsoft 针对基于网络的 DoS 攻击进行防御的策略因我们的规模和全局占用而是唯一的。 此规模允许 Microsoft 利用对大多数其他组织不可用的策略和技术。 DoS 策略的基础是全局状态。 Microsoft 与 Internet 提供商、 (公共和私有) 以及私有公司之间的对等提供商合作。 此参与为 Microsoft 提供了重要的 Internet 状态，使 Microsoft 能够在较大的图面区域中吸收攻击。
 
 随着 Microsoft 的边缘容量逐渐增加，对各个边缘的攻击的重要性已大大降低。 由于这一减少，Microsoft 已分离 DoS 防护系统的检测和缓解组件。 Microsoft 在区域数据中心部署多层检测系统，以检测接近其饱和点的攻击，同时在边缘节点维持全局缓解。 此策略可确保Microsoft 服务可以处理多个同时攻击。
 
@@ -58,12 +58,12 @@ Microsoft 针对 DoS 攻击采用的最有效且成本较低的防御措施之�
 
 为了进一步保护云服务，Microsoft 365使用内置于 Microsoft Azure 持续监视和渗透测试流程的分布式拒绝服务 (DDoS) 防御系统。 Azure DDoS 防御系统不仅设计用于抵御外部攻击，还旨在抵御来自其他 Azure 租户的攻击。 Azure 使用标准检测和缓解技术（如 SYN Cookie、速率限制和连接限制）防止 DDoS 攻击。 为了支持我们的自动保护，跨工作负载 DoS 事件响应团队标识了各个团队的角色和职责、升级标准以及受影响团队的事件处理协议。
 
-针对目标发起的大多数 DoS 攻击都位于开放系统互连 (OSI) 模型的 Network (L3) 和 Transport [](/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model) (L4) 层。 针对 L3 和 L4 层的攻击旨在用攻击流量来淹没网络接口或服务，使资源消耗过重，并拒绝响应合法流量的能力。 为了防范 L3 和 L4 攻击，Microsoft DoS 解决方案使用来自数据中心路由器的流量采样数据来保护基础结构和客户目标。 流量采样数据由网络监控服务进行分析以检测攻击。 检测到攻击时，自动防御机制将启动以缓解攻击，并确保针对一个客户的攻击流量不会给其他客户造成附属损坏或网络服务质量降低。
+针对目标发起的大多数 DoS 攻击都位于开放系统互连 (OSI) 模型的 Network (L3) 和传输[](/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model) (L4) 层。 针对 L3 和 L4 层的攻击旨在用攻击流量来淹没网络接口或服务，使资源消耗过重，并拒绝响应合法流量的能力。 为了防范 L3 和 L4 攻击，Microsoft DoS 解决方案使用来自数据中心路由器的流量采样数据来保护基础结构和客户目标。 流量采样数据由网络监控服务进行分析以检测攻击。 检测到攻击时，自动防御机制将启动以缓解攻击，并确保针对一个客户的攻击流量不会给其他客户造成附属损坏或网络服务质量降低。
 
 ## <a name="application-level-defenses"></a>应用程序级防御
 
-Microsoft 工程团队遵循 Microsoft 运营安全保证 [所](https://www.microsoft.com/SDL/OperationalSecurityAssurance) 设置的严格标准，以帮助保护客户数据。 Microsoft 的云服务专为支持高负载而特意构建，可帮助抵御应用程序级 DoS 攻击。 Microsoft 365扩展体系结构跨多个全球数据中心分布服务，并针对相关工作负载使用区域隔离和特定于工作负载限制功能。
+Microsoft 工程团队遵循 Microsoft 运营安全保证 [所](https://www.microsoft.com/SDL/OperationalSecurityAssurance) 设置的严格标准，以帮助保护客户数据。 Microsoft 的云服务专为支持高负载而特意构建，可帮助抵御应用程序级 DoS 攻击。 Microsoft 365扩展体系结构跨多个全球数据中心分布服务，并针对相关工作负载使用区域隔离和特定于工作负荷限制功能。
 
-客户管理员在服务的初始设置过程中标识的每个客户的一个或多个国家/地区决定了该客户数据的主存储位置。 客户数据根据主/备份策略在冗余数据中心之间复制。 主数据中心承载应用程序软件以及软件上运行的所有主客户数据。 备份数据中心提供自动故障转移。 如果主数据中心因任何原因停止运行，请求将重定向到备份数据中心中的软件和客户数据的副本。 在任何给定时间，客户数据可以在主数据中心或备份数据中心进行处理。 跨多个数据中心分布数据可减少受影响的表面区域，以防一个数据中心受到攻击。 此外，受影响数据中心中的服务可以快速重定向到辅助数据中心，以在攻击期间保持可用性，在攻击得到缓解后重定向回主数据中心。
+客户管理员在服务的初始设置过程中标识的每个客户的一个或多个国家/地区决定了该客户数据的主存储位置。 客户数据根据主/备份策略在冗余数据中心之间复制。 主数据中心承载应用程序软件以及软件上运行的所有主客户数据。 备份数据中心提供自动故障转移。 如果主数据中心因任何原因停止运行，请求会重定向到备份数据中心中的软件和客户数据的副本。 在任何给定时间，客户数据可以在主数据中心或备份数据中心进行处理。 跨多个数据中心分布数据可减少受影响的表面区域，以防一个数据中心受到攻击。 此外，受影响数据中心中的服务可以快速重定向到辅助数据中心，以在攻击期间保持可用性，在攻击得到缓解后重定向回主数据中心。
 
-作为针对 DoS 攻击的另一种缓解措施，个别工作负载包括管理资源利用率的内置功能。 例如，Exchange Online 和 SharePoint Online 中的限制机制是抵御 DoS 攻击的多层方法的一部分。
+作为针对 DoS 攻击的另一种缓解措施，个别工作负载包括管理资源利用率的内置功能。 例如，Exchange Online SharePoint Online 中的限制机制是抵御 DoS 攻击的多层方法的一部分。

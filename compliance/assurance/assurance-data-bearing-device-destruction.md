@@ -24,8 +24,8 @@ ms.openlocfilehash: 6a26334b805be069298302d3ad1e8e5b9e728150
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58946891"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158277"
 ---
 # <a name="data-bearing-device-destruction"></a>数据承载设备破坏
 
@@ -42,7 +42,7 @@ DBD 是能够存储客户或专有 Microsoft 数据的任何存储设备：
 - SD/Compact Flash 卡
 - HSM 卡
 - PCIe SSD 卡
-- NVDIMM (非易失性双行内存模块模块) 
+- NVDIMM (非易失性双行内存模块) 
 
 在 Microsoft 数据中心内使用的故障 DBD 在数据中心园区内进行审核和销毁。 根据任何适用的规则、法律和法规，评估从服务中停用的任何资产，以与其安全/隐私要求和资产分类相一样的方式处置。
 
@@ -52,7 +52,7 @@ Microsoft 对包含数据的 DBD 和资产使用三类数据删除：
 - **Purge：** 与物理或逻辑技术相关，这些技术使用一些技术使目标数据恢复无法实现。
 - **销毁**：使用一些现代技术使目标数据恢复无法实现，并随后导致无法使用该媒体存储数据。
 
-清除和销毁清理是使用安全组批准的工具和流程执行的。 记录将保留对资产的清除和销毁。 对于仅对磁介质) 、多引脚 (（如 SSD) ）进行解压缩或销毁，无法完成清除操作的设备会成功取消 (。
+清除和销毁清理是使用安全组批准的工具和流程执行的。 记录将保留对资产的清除和销毁。 对于仅对磁介质 (，未完成清除操作的设备成功取消对)  (的解压，为基于切分的板（如 SSD) ）使用多引脚连接 (，或销毁。
 
 ## <a name="clear"></a>Clear
 

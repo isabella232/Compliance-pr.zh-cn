@@ -22,8 +22,8 @@ ms.openlocfilehash: facb5fbcdc847d70425f3d6aa925ee6bcf7cf3dd
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947527"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158761"
 ---
 # <a name="azure-dynamics-365-and-windows-accountability-readiness-checklist-for-the-gdpr"></a>适用于 GDPR 的 Azure、Dynamics 365 和 Windows 责任就绪清单
 

@@ -22,8 +22,8 @@ ms.openlocfilehash: cf5ef95e9504ba2d63a56dc3d4f7d22398d61255
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947531"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158766"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>使用 Microsoft 365 功能履行 GDPR 信息保护
 

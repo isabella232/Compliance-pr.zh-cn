@@ -24,8 +24,8 @@ ms.openlocfilehash: b74c004e63838900f87c774a8acf84ab8aeb03d4
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947018"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158698"
 ---
 # <a name="security-development-and-operations-overview"></a>安全开发和操作概述
 
@@ -41,7 +41,7 @@ Microsoft 的 SDL 流程可考虑以下五个开发阶段：要求、设计、�
 
 ## <a name="how-does-microsoft-test-source-code-for-common-vulnerabilities"></a>Microsoft 如何测试常见漏洞的源代码？
 
-为了支持开发人员在代码开发期间和发布后实施安全要求，Microsoft 提供了一套安全开发工具，用于自动检查源代码中的安全缺陷和漏洞。 Microsoft 定义并发布供开发人员使用的已批准工具列表，如编译器和开发环境，以及 Microsoft 生成管道中自动执行的内置安全检查。 我们的开发人员使用最新版本的受批准工具来利用新的安全功能。
+为了支持开发人员在代码开发期间和发布后实施安全要求，Microsoft 提供了一套安全开发工具，用于自动检查源代码中的安全缺陷和漏洞。 Microsoft 定义并发布供开发人员使用的已批准工具列表，例如编译器和开发环境，以及 Microsoft 生成管道中自动执行的内置安全检查。 我们的开发人员使用最新版本的受批准工具来利用新的安全功能。
 
 在将代码签入发布分支之前，SDL 需要由单独的审阅者手动检查代码。 代码审查员会检查编码错误并验证代码更改是否满足 SDL 和设计要求、通过功能和安全测试并可靠地执行。 他们还会审查相关的文档、配置和依赖项，以确保正确记录代码更改并且不会导致意外的副作用。 如果审查者在代码审查期间发现问题，他们可以要求提交者在进行建议更改和额外测试后重新提交代码。 代码审查者也可能决定完全阻止不符合要求的代码签入。 在审阅者认为代码满意后，审阅者会提供审批，在代码可以继续执行下一个部署阶段之前需要此审批。
 

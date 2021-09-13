@@ -20,8 +20,8 @@ ms.openlocfilehash: 2ed2ce303b0db91162915fbb894faa7d806582a0
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947563"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158730"
 ---
 # <a name="european-banking-authority-eba"></a>欧洲银行管理局 (EBA)
 

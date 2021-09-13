@@ -20,16 +20,16 @@ ms.openlocfilehash: 5d6f590a9035b8628645bdfa46f794c1dfbcd4fb
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947566"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158769"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>食物和食物管理 CFR 标题 21 第 11 部分
 
 ## <a name="fda-cfr-title-21-overview"></a>FDA CFR 标题 21 概述
 
-《联邦法规法》 (CFR) 包含针对美国联邦政府机构和机构的法规。 CFR 的 50 个标题分别处理不同的受管制区域。
+CFR 联邦法规 (CFR) 包含美国联邦政府机构和机构的法规。 CFR 的 50 个标题分别处理不同的受管制区域。
 
-在FDA [CFR 标题 21](https://aka.ms/FDA-CFR)的管辖下，由美国的国家税务管理局 () 、税务管制管理和国家税务控制政策 Office 监管，在美国制造或消费。 CFR 标题 21 第 11 部分中列出的法规为管理受 FDA 监管的组织使用的信息的技术系统设定了基础规则。 管理 GxP 流程的任何技术系统（如良好的实验室实践 (GLP) 、良好的实验室实践 (GCP) 和良好的制造实践 (PM) 也要求验证其是否遵守 GxP。
+在FDA [CFR 标题 21](https://aka.ms/FDA-CFR)的管辖下，由美国的国家税务局 (FDA) 、管制局和国家税务控制政策Office监管在美国制造或消费。 CFR 标题 21 第 11 部分中列出的法规为管理受 FDA 监管的组织使用的信息的技术系统设定了基础规则。 管理 GxP 流程的任何技术系统（如良好的实验室实践 (GLP) 、良好的实验室实践 (GCP) 和良好的制造实践 (PM) ）也需要验证其是否遵守 GxP。
 
 CFR 标题 21 第 11 部分设置了要求，以确保电子记录和签名是可信赖、可靠且等效的纸张记录和手写签名的替代项。 它还提供了一些指南，以提高受 FDA 监管的行业中计算机系统的安全性。 主题公司必须证明其流程和产品能够正常工作，如果这些流程和产品发生变化，则必须重新验证该证据。 最佳做法准则包括：
 
@@ -39,9 +39,9 @@ CFR 标题 21 第 11 部分设置了要求，以确保电子记录和签名是�
 
 ## <a name="microsoft-and-fda-cfr-title-21"></a>Microsoft 和 FDA CFR 标题 21
 
-Microsoft 企业云服务接受常规的独立第三方 SOC 1 类型 2 和 SOC 2 类型 2 审核，并且根据 ISO/IEC 27001 和 ISO/IEC 27018 标准进行认证。
+Microsoft 企业云服务接受常规独立第三方 SOC 1 类型 2 和 SOC 2 类型 2 审核，并且根据 ISO/IEC 27001 和 ISO/IEC 27018 标准进行认证。
 
-尽管这些常规审核和认证并非专门侧重于 FDA 法规合规性，但目的和目标在本质上与 CFR 标题 21 第 11 部分类似，并且有助于确保 Microsoft 云服务中存储数据的机密性、完整性和可用性。 我们的资格认证方法也基于行业最佳实践，包括国际工程协会 (ISPE) GAMP 系列良好实践指南和检测检查合作计划 (PIC/S) 针对管控 GxP 环境中计算机化系统的最佳实践。
+尽管这些常规审核和认证并非专门侧重于 FDA 法规合规性，但目的和目标在本质上与 CFR 标题 21 第 11 部分类似，并且有助于确保 Microsoft 云服务中存储数据的机密性、完整性和可用性。 我们的资格认证方法也基于行业最佳实践，包括国际工程协会 (ISPE) GAMP 系列良好实践指南和检测检测合作方案 (PIC/S) Good Practices for Computerized Systems in Regulated GxP Environments。
 
 客户可以通过 Microsoft 客户代表或服务信任门户请求访问合规性报告，但需遵守保密协议 [条款和条件](https://aka.ms/stphelp)。 此外，Microsoft Azure 和 Microsoft Office 365 的资格准则详细说明了 Microsoft 审核控制措施如何与 CFR 标题 21 第 11 部分的要求相对应、实现 FDA 资格策略的指导以及共同责任领域的说明。
 
@@ -69,9 +69,9 @@ FDA CFR 标题 21 第 11 部分适用于具有产品和服务的组织，这些�
 
 **Microsoft 企业云服务如何证明符合 FDA CFR 标题 21 第 11 部分？**
 
-使用第三方为 SOC 1 类型 2、SOC 2 类型 2、ISO/IEC 27001 和 ISO/IEC 27018 准备的正式审核，Microsoft 能够显示这些报告内指出的相关控制措施如何满足要求。
+通过使用第三方为 SOC 1 类型 2、SOC 2 类型 2、ISO/IEC 27001 和 ISO/IEC 27018 准备的正式审核，Microsoft 能够显示这些报告内指出的相关控制措施如何满足要求。
 
-Microsoft 实施的已审核控制措施有助于确保数据的机密性、完整性和可用性，并且符合标题 21 第 11 部分中定义的已确定为 Microsoft 责任的适用法规要求。 Azure 和 Azure 的资格准则Office 365 Microsoft 审核控制措施如何与这些要求对应。
+Microsoft 实施的已审核控制措施有助于确保数据的机密性、完整性和可用性，并且符合标题 21 第 11 部分中定义的已确定为 Microsoft 责任的适用法规要求。 Azure 和 Microsoft Office 365准则详细介绍了 Microsoft 审核控制措施如何与这些要求对应。
 
 **如何获取审核员报告的副本？**
 
