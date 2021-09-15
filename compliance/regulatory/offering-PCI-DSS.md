@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 09c18fce6544984a7e9d639e68d0f0201c584768
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 63303389fc8fae69b9a6803a513efeb1281f781e
+ms.sourcegitcommit: 4afc3ca7f8c18ae7136b4c82c572531947e82daa
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158877"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "59349956"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>支付卡行业 (PCI) 数据安全标准 (DSS)
 
@@ -68,11 +68,11 @@ Microsoft 由经认可的合格安全性评估师 (QSA) 完成 PCI DSS 年度评
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | OneDrive for Business（美国）、SharePoint Online |
+| **商业** | OneDrive for Business（美国）、SharePoint Online（美国） |
 
 ### <a name="office-365-audit-reports-and-certificates"></a>Office 365 审核、报告和证书
 
-- [OneDrive for Business 和 SharePoint Online PCI DSS 合规性证明 (AoC)](https://aka.ms/spo-pci)
+- [OneDrive for Business 和 SharePoint Online PCI DSS 合规性证明 (AoC)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=f1962237-32ea-4123-939e-1c8f04d13c16&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_PCI_DSS)
 
 ### <a name="frequently-asked-questions"></a>常见问题解答
 
