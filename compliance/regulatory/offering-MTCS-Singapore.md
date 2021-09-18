@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 81de800d437427d77c5004f20e0cdf672db3a533
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 67830f9abd3fb81048fdcb327dd99c208d9fc713
+ms.sourcegitcommit: 0ba64300a1e172c84af37978bbf04514636b3acd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158805"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59438393"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>新加坡多层云安全 (MTCS) 标准
 
@@ -47,7 +47,7 @@ Microsoft Azure 服务（IaaS 和 PaaS）、Microsoft Dynamics 365 服务 (SaaS)
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft 范围内的云平台和云服务
 
 - Azure
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- Dynamics 365 联机服务（Business Central、商务、客户服务、现场服务、财务、欺诈防护、市场营销、销售、供应链管理）
 - Genomics
 - Intune
 - Microsoft 云应用安全
