@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: b42797a1987251ab34dc8ee44e654667992f0ee3
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: dc958775342570cc15a2549bb83e22a2b53db8fe
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58259730"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486210"
 ---
 <!-- This file is a part of all Office 365 compliance offering topics. Please coordinate with Robert Mazzoli (robmazz) for any changes.-->
 
@@ -12,8 +12,9 @@ Microsoft Office 365 是一个多租户超大规模云平台，同时面向全�
 
 本部分介绍以下 Office 365 云环境：
 
+- **客户端软件（客户端）**：客户设备上运行的商业客户端软件。
 - **Office 365（商业）**：全球范围内提供的商业公共 Office 365 云服务。
-- **Office 365 政府社区云 (GCC)**：[Office 365 GCC 云服务](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc)适用于美国联邦、州、地方和部落政府，以及代表美国政府持有或处理数据的承包商。
+- **Office 365 政府社区云 (GCC)**：[Office 365 GCC 云服务](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc)适用于美国联邦、州、地方、部落政府，以及代表美国政府持有或处理数据的承包商。
 - **Office 365 政府社区云 - 高 (GCC High)**：[Office 365 GCC High 云服务](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)根据美国国防部 (DoD) 安全要求准则级别 4 控件进行设计，并支持严格监管的联邦和防御信息。 联邦机构、国防工业基地 (DIB) 和政府承包商使用此环境。
 - **Office 365 DoD (DoD)**：[Office 365 DoD 云服务](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)根据 DoD 安全要求准则级别 5 控件进行设计，并支持严格的联邦和防御法规。 此环境供美国国防部专用。
 
