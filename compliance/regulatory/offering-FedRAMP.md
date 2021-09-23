@@ -16,28 +16,28 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3f178689655662272fc8149259cf769ce122a18a
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 36e3ddb58a61bc3a0a14a300e15f22262027fc92
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158838"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486339"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>联邦风险和授权管理项目 (FedRAMP)
 
 ## <a name="fedramp-overview"></a>FedRAMP 概述
 
-建立美国联邦风险和授权管理计划 (FedRAMP) 以提供一种标准方法，用于根据联邦信息安全管理法案 (FISMA) 评估、监视和授权云计算产品和服务，并加速联邦机构采用安全的云解决方案。
+建立美国联邦风险和授权管理计划 (FedRAMP) ，以提供根据联邦信息安全管理法案 (FISMA) 评估、监视和授权云计算产品和服务的标准化方法，并加速联邦机构采用安全的云解决方案。
 
-管理Office预算计划现在要求所有联邦行政机构使用 FedRAMP 验证云服务的安全性。  (由于其他机构也采用了该标准，因此它还在公共部门的其他国家/地区也很有用。) 美国国家标准和技术协会 (NIST) SP 800-53 设置了强制性标准，建立了信息系统的安全类别（机密性、完整性和可用性）来评估在信息和信息系统受到威胁时对组织的潜在影响。 FedRAMP 是一个计划，它证明云服务提供商 (CSP) 符合这些标准。
+管理Office预算计划现在要求所有联邦行政机构使用 FedRAMP 验证云服务的安全性。  (由于其他机构也采用了该标准，因此它还在公共部门的其他领域很有用。) 美国国家标准和技术协会 (NIST) SP 800-53 设置了强制性标准，建立了信息系统的安全类别（机密性、完整性和可用性）来评估在信息和信息系统受到威胁时对组织的潜在影响。 FedRAMP 是一项计划，它证明云服务提供商 (CSP) 符合这些标准。
 
-准备向联邦机构销售服务的 CSP 可以通过三种途径来演示 FedRAMP 合规性：
+准备向联邦机构销售服务的 CSP 可以通过三条途径来演示 FedRAMP 合规性：
 
-- 从联合授权委员会 (联合授权) 获得临时授权以 (P-ATO) 。 JAB 是 FedRAMP 的主要管理和决策正文。 来自国防部、国防安全部和一般服务管理部门的代表负责。 该板向已证明 FedRAMP 合规性的 CSP 授予 P-ATO。
+- 从 JAB 联合授权 (联合授权) 获得临时授权 (P-ATO) 。 JAB 是 FedRAMP 的主要管理和决策正文。 来自国防部、国防安全部和一般服务管理部门的代表负责。 该板向已证明 FedRAMP 合规性的 CSP 授予 P-ATO。
 - 从联邦机构 (ATO) 运营授权。
 - 或者，独立开发满足计划要求的云解决方案提供商提供包。
 
-上述每个途径都要求 FedRAMP 计划管理 Office (PMO) 由经该计划认证的独立第三方组织进行评估。
+上述每个途径都需要 FedRAMP 计划管理 Office (PMO) 由经该计划认证的独立第三方组织进行评估。
 
 FedRAMP 授权基于 NIST 准则在三个影响级别授予：低、中和高。 这些级别对丢失机密性、完整性或可用性对组织的影响进行排名：低 (有限影响) 、中等 (严重负面影响) 以及高 (严重或灾难性) 。
 
@@ -52,7 +52,7 @@ Microsoft 政府云服务为公共部门客户提供一系列与 FedRAMP 兼容�
 - Azure 与 Azure 政府
 - [Dynamics 365 美国政府版](https://aka.ms/d365-compliance-list)
 - Intune
-- Office 365美国政府，Office 365美国政府 - 高级Office 365美国政府防御
+- Office 365美国政府，Office 365美国政府 - 高级Office 365美国政府国防队
 - Power BI 云服务，作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供
 
 ## <a name="azure-dynamics-365-and-fedramp"></a>Azure、Dynamics 365 和 FedRAMP
@@ -61,9 +61,9 @@ Microsoft 政府云服务为公共部门客户提供一系列与 FedRAMP 兼容�
 
 ## <a name="office-365-and-fedramp"></a>Office 365 和 FedRAMP
 
-- Office 365美国政府Office 365美国健康与公共服务部门的 ATO (DH DH DH) 。
-- Office 365美国政府国防队具有来自美国国防信息系统局的 P-ATO (DISA) 。 任何希望Office 365美国政府国防队的客户都可使用 DISA P-ATO 生成机构 ATO 来记录其接受。
-- Office 365 (美国政府) Office 365计划的 FEDRAMP 机构 ATO 具有来自检查员常规的 DH DH DH OFFICE中等影响级别的 FedRAMP 机构 ATO。 Office 365美国政府是首个获得此授权的基于云的电子邮件和协作服务。
+- Office 365美国政府Office 365美国健康与公共服务部门的 ATO (DH→) 。
+- Office 365美国政府国防队具有来自美国国防信息系统局的 P-ATO (DISA) 。 任何希望Office 365美国政府国防队的客户都可使用 DISA P-ATO 生成代理 ATO 来记录其接受。
+- Office 365 (美国政府和美国政府) Office 365计划具有来自检查员常规的 DH DH DH OFFICE中等影响级别的 FedRAMP 机构 ATO。 Office 365美国政府是首个获得此授权的基于云的电子邮件和协作服务。
 
 ### <a name="office-365-cloud-environments"></a>Office 365 云环境
 
@@ -75,9 +75,9 @@ Microsoft 政府云服务为公共部门客户提供一系列与 FedRAMP 兼容�
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **GCC** | 活动源服务、必应 服务、Delve、Exchange Online、Exchange Online Protection、基础结构、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
-| **GCC 高级** | 活动源服务、必应 服务、Exchange Online、Exchange Online Protection、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
-| **DoD** | 活动源服务、必应 服务、Exchange Online Protection、Exchange Online、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office 使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **GCC** | 活动源服务、必应 服务、Bookings、Delve、Exchange Online、Exchange Online Protection、基础结构、智能服务、Microsoft Teams、Office 365 客户门户OfficeOnline、Office Service、Office Usage Reports、OneDrive for Business、People Card、SharePoint Online、Skype for Business、Windows Ink |
+| **GCC 高级** | 活动源服务、必应 服务、预订、Exchange Online、Exchange Online Protection、智能服务、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
+| **DoD** | 活动源服务、必应 服务、Bookings、Exchange Online Protection、Exchange Online、Intelligent Services、Microsoft Teams、Office 365 客户门户、Office Online、Office 服务基础结构、Office使用情况报告、OneDrive for Business、人员卡片、SharePoint Online、Skype for Business、Windows Ink |
 
 ### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
 
@@ -87,7 +87,7 @@ Microsoft 每年都必须重新证明其云服务，以维持其 P-ATO 和 ATO �
 
 ### <a name="frequently-asked-questions"></a>常见问题解答
 
-**Microsoft 云服务是否遵守 FISMA (联邦信息安全管理) ？**
+**Microsoft 云服务是否遵守 FISMA (联邦信息安全) ？**
 
 FISMA 是联邦法律，要求美国联邦机构及其合作伙伴仅从遵守 FISMA 要求的组织采购信息系统和服务。 指示它们符合 FISMA 的多数机构及其供应商都是指它们如何满足特别出版物 800-53 修订版 4 中 NIST 标识的控制措施。 FISMA 流程 (，但基础标准本身) 于 2011 年由 FedRAMP 取代。
 
@@ -97,11 +97,11 @@ FISMA 是联邦法律，要求美国联邦机构及其合作伙伴仅从遵守 F
 
 **我的代理在哪里开始自己的合规性工作？**
 
-有关联邦机构为成功导航 FedRAMP 并满足其要求而必须执行的步骤的概述，请转到获取 [授权：代理授权](https://www.fedramp.gov/agency-authorization/)。
+有关联邦机构成功导航 FedRAMP 并满足其要求所必须执行步骤的概述，请转到获取 [授权：代理授权](https://www.fedramp.gov/agency-authorization/)。
 
 **能否在我的代理的授权过程中使用 Microsoft 合规性？**
 
-能。 你可以将 Microsoft 云服务认证用作任何需要来自联邦政府机构 ATO 的计划或计划的基础。 但是，你需要为这些服务之外的组件获得自己的授权。
+是。 你可以将 Microsoft 云服务认证用作任何需要来自联邦政府机构 ATO 的计划或计划的基础。 但是，你需要为这些服务之外的组件获得自己的授权。
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>使用 Microsoft 合规性管理器评估风险
 

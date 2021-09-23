@@ -1,6 +1,6 @@
 ---
 title: '联邦金融机构检查委员会 (FFIEC) '
-description: Microsoft 帮助金融服务客户遵守联邦金融机构检查委员会 (FFIEC) 。
+description: Microsoft 帮助金融服务客户遵守 FFIEC (联邦金融机构检查委员会) 。
 keywords: Microsoft 365, 合规性, 产品/服务
 ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
@@ -16,20 +16,20 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7cdc024d19ce0753d3d0c0e5cf45b6276939d6f2
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 79d0f7bfff27f28b65d8f29c71f472024fbcd07e
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158925"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486349"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>联邦金融机构检查委员会 (FFIEC) 
 
 ## <a name="ffiec-overview"></a>FFIEC 概述
 
-FFIEC (联邦金融机构考试委员会) 是一个正式的机构内部机构，由五家银行监管机构组成，负责美国政府对美国的金融机构的监管。 FFIEC 教育版Office面向 FFIEC 成员机构现场培训的 IT 考试手册。
+联邦金融机构检查委员会 (FFIEC) 是一个正式机构，由五家银行监管机构组成，它们负责美国联邦金融机构在美国的监管机构。 FFIEC 教育版Office面向 FFIEC 成员机构现场培训的 IT 考试手册。
 
-[FFIEC 审核 IT 检查](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)手册包含针对这些企业的指导，用于评估金融机构和 TSP 的 IT 审核计划的质量和有效性。 具体而言，它包括美国注册会计协会 (AICPA) SOC 1、SOC 2 和 SOC 3 证明报告作为独立审核报告示例。 但是，FFIEC 建议金融机构不要仅依赖这些报告中包含的信息，而应使用 [FFIEC](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)外包技术服务 IT 检查手册中详细讨论的验证和监视过程。
+[FFIEC 审核 IT 检查](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)手册包含针对这些企业的指导，用于评估金融机构和 TSP 的 IT 审核计划的质量和有效性。 具体而言，它包括美国注册公共会计协会 (AICPA) SOC 1、SOC 2 和 SOC 3 证明报告作为独立审核报告的示例。 但是，FFIEC 建议金融机构不要仅依赖这些报告中包含的信息，而应使用 [FFIEC](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)外包技术服务 IT 检查手册中详细讨论的验证和监视过程。
 
 ## <a name="microsoft-and-ffiec"></a>Microsoft 和 FFIEC
 
@@ -48,7 +48,7 @@ AICPA SSAE 18 标准取代了 SAS 70，它适用于报告与用户实体对金�
 
 - Azure
 - Intune
-- Office 365、Office 365美国政府
+- Office 365，Office 365美国政府
 - Power BI 云服务（作为独立服务提供，或者随 Office 365 品牌计划或套件一并提供）
 
 ## <a name="azure-guidance-documents"></a>Azure 指南文档
@@ -70,7 +70,7 @@ AICPA SSAE 18 标准取代了 SAS 70，它适用于报告与用户实体对金�
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | Azure Active Directory, Azure 信息保护, Bookings, 合规性管理器, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender for Office 365, Microsoft Graph, Microsoft Teams, Microsoft 待办事项网页版, MyAnalytics, Office 365 高级合规版加载项, Office 365 Cloud App Security, Office 365 组, Office 365 安全与合规中心, Office 365 视频, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **商业** | Azure Active Directory、Azure 信息保护、预订、合规性管理器、Delve、Exchange Online、Exchange Online Protection、Forms、Kaizala、Microsoft Analytics、Microsoft Booking、Microsoft Defender for Office 365， Microsoft Graph、Microsoft Teams、Microsoft To-Do for Web、MyAnalytics、Office 365 高级合规版 加载项、Office 365 云应用安全、Office 365 组、Office 365 安全 & 合规性中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Power BI Online、Skype for Business、StaffHub、Stream、SwayYammer Enterprise |
 | **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
 
 ### <a name="office-365-audits-reports-and-certificates"></a>Office 365 审核、报告及证书
@@ -89,7 +89,7 @@ AICPA SSAE 18 标准取代了 SAS 70，它适用于报告与用户实体对金�
 
 ## <a name="resources"></a>资源
 
-- [联邦金融机构检查委员会 (FFIEC) ](https://www.ffiec.gov/)
+- [联邦金融机构考试委员会 (FFIEC) ](https://www.ffiec.gov/)
 - [美国的云计算和法规原则合规性地图](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [FFIEC 审核 IT 检查手册](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)
 - [FFIEC 外包技术服务 IT 检查手册](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)

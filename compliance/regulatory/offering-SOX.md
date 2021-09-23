@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 375f7a58db675f3f14bd98ff580919ef40f603f1
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: aa85357047d3f92b694023b102fa7141eb26344d
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158869"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486439"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>2002 年萨班尼斯-奥克斯莱法案 (Sarbanes-Oxley Act of 2002, SOX)
 
 ## <a name="sox-overview"></a>SOX 概述
 
-SOX [2002 年萨班斯-奥克斯利法案 (](https://www.congress.gov/bill/107th-congress/house-bill/3763) SOX) 是美国联邦法律，由美国证券交易委员会Exchange美国 (监管[](https://www.sec.gov/)) 。 此外，SOX 还要求公开交易公司具有适当的内部控制结构，以验证其财务报表是否准确反映其财务结果。 SOX 受到客户内部流程的严重影响，尤其是在控制财务报告方面。 例如，SOX 要求涉及内部客户控制措施，用于准备和审阅财务报表，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。
+SOX [2002 年萨班斯-奥克斯利法案 (](https://www.congress.gov/bill/107th-congress/house-bill/3763) SOX) 是美国联邦法律，由美国证券交易委员会Exchange美国 (监管) 。 [](https://www.sec.gov/) 此外，SOX 还要求公开交易公司具有适当的内部控制结构，以验证其财务报表是否准确反映其财务结果。 SOX 受到客户内部流程的严重影响，尤其是在控制财务报告方面。 例如，SOX 要求涉及内部客户控制措施，用于准备和审阅财务报表，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。
 
 SEC 不定义或实施 SOX 认证过程。 相反，它为上市公司提供了广泛的准则，以确定如何遵守 SOX 报告要求。
 
@@ -35,7 +35,7 @@ SEC 不定义或实施 SOX 认证过程。 相反，它为上市公司提供了�
 
 遵守 Sarbanes-Oxley 法案 (SOX) 的 Microsoft 云服务客户可以使用 MICROSOFT 在履行自己的 SOX 合规义务时从独立审计公司收到的 SOC 1 类型 2 证明。 此证明适用于报告对财务信息进行的内部控制。
 
-即使没有针对云服务提供商的 SOX 认证或验证，Microsoft 也可以帮助客户履行 SOX 义务。 例如，SOX 要求对准备和审阅财务报表进行内部控制，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。 为帮助公司，Microsoft 维护了适用于跨各种服务组合报告此类控件的 SOC 1 类型 2 证明，这些服务组合可用于构建各种应用程序。 它基于美国注册公共会计协会 (AICPA) 18 (SSAE 18) 认证标准声明和保证保证服务 No 国际标准。 3402（ISAE 3402）。  (此证明取代了 SAS 70.) 
+即使没有针对云服务提供商的 SOX 认证或验证，Microsoft 也可以帮助客户履行 SOX 义务。 例如，SOX 要求对准备和审阅财务报表进行内部控制，尤其是影响与财务信息相关的重大更改的准确性、完整性、有效性和公开披露的控制措施。 为帮助公司，Microsoft 维护了适用于跨各种服务组合报告此类控件的 SOC 1 类型 2 证明，这些服务组合可用于构建各种应用程序。 它基于美国注册公共会计协会 (AICPA) 18 (SSAE 18) 标准声明和保证服务国际准则。 3402（ISAE 3402）。  (此证明取代了 SAS 70.) 
 
 第三方审核公司生成的审核报告证实 Microsoft 控制措施设计正确，在指定的日期运行，且在指定的时段内有效运行。 客户可以审阅报告，了解 Microsoft 控制措施目标及其控制措施的有效性，并访问补充控制措施。
 
@@ -58,7 +58,7 @@ SEC 不定义或实施 SOX 认证过程。 相反，它为上市公司提供了�
 - SSAE 编号。 18，证明标准：阐明和重新编纂，包括 AT-C 第 320 部分， *对与用户实体财务报告的内部控制相关的服务组织中的控制检查进行报告* （AICPA、专业标准）。
 - SOC 1 对与用户实体财务报告的内部控制相关的服务组织中的控制检查进行报告（AICPA 指南）。
 
-AICPA SSAE 18 标准取代了 SAS 70，适用于报告服务组织中与用户实体对金融服务的内部控制相关的控制措施。 这是在向在 Azure 上部署的资产履行自己的行业特定合规性义务时，你可以依赖的第三方技术服务提供商审查的正式审核。 它包括审核员有关控制有效性的意见，以在指定的监视期间实现相关控制目标。
+AICPA SSAE 18 标准取代了 SAS 70，适用于报告服务组织中与用户实体对金融服务的内部控制相关的控制措施。 这是在向在 Azure 上部署的资产履行自己的行业特定合规性义务时，你可以依赖第三方审查技术服务提供商的正式审核。 它包括审核员有关控制有效性的意见，以在指定的监视期间实现相关控制目标。
 
 此外，Azure 还生成 [了](https://azure.microsoft.com/resources/microsoft-azure-guidance-for-sarbanes-oxley-sox/) 指南文档，可帮助你在履行自己的 SOX 合规义务时使用 Azure 的现有合规性报告。 它利用将 SOX 相关应用程序迁移到 Azure 的内部 Microsoft 体验。 此外，本指南还提供迁移最佳做法，包括 SOX 合规性含义、对两个公开提供的案例研究的回顾以及从 Microsoft 内部迁移项目中获得的经验。
 
@@ -74,7 +74,7 @@ AICPA SSAE 18 标准取代了 SAS 70，适用于报告服务组织中与用户�
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | 扩充循环、自动替换文本、Azure 信息保护、 二进制转换服务、Bookings、Delve、文档项、编辑器、Exchange Online、表单、插入联机媒体、Insights、Kaizala、Microsoft Analytics、Microsoft Booking、Microsoft Graph、Microsoft Teams、MyAnalytics、Office 365 云应用安全、Office 365 组、Office 365 视频、OneDrive for Business、Planner、Power Apps、PowerApps、Power Automate、Power BI、PowerPointDesigner、PowerPoint Online Document Service、SharePoint Online、Skype for Business、StaffHub、Stream、Sway、微软待办、Web 呈现服务Yammer Enterprise  |
+| **商业** | 扩充循环、自动替换文本、Azure 信息保护、二进制转换服务、预订、Delve、文档项、编辑器、Exchange Online、表单、插入联机媒体、Insights、Kaizala、Microsoft Analytics、Microsoft Booking、Microsoft Graph、Microsoft Teams、MyAnalytics、Office 365 云应用安全、Office 365 组、OneDrive for Business、Planner、Power Apps、PowerApps、Power Automate、Power BI、PowerPoint Designer、PowerPoint Online 文档服务、SharePoint Online、Skype for Business、StaffHub、Stream、Sway、微软待办、Web 呈现服务Yammer Enterprise  |
 
 ### <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
