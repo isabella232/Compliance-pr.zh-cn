@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3e3d8bdd755ae032b0f027150a2211a5fe14f7e5
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: d972e06683289d4a50b634ce27fc4176d854f6f4
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158340"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486309"
 ---
 # <a name="spanish-royal-decree-17202007-spanish-organic-law-151999-lopd"></a>西班牙皇家法令 1720/2007，西班牙有机法 15/1999 (LOPD)
 
@@ -54,7 +54,7 @@ Microsoft 是第一个为客户利益而获得西班牙数据保护局（Agencia
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | Azure Active Directory, Azure 信息保护, Bookings, 合规性管理器, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender for Office 365, Microsoft Graph, Microsoft Teams, Microsoft 待办事项网页版, MyAnalytics, Office 365 高级合规版加载项, Office 365 Cloud App Security, Office 365 组, Office 365 安全与合规中心, Office 365 视频, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **商业** | Azure Active Directory, Azure 信息保护, Bookings, 合规性管理器, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender for Office 365, Microsoft Graph, Microsoft Teams, 微软待办网页版, MyAnalytics, Office 365 高级合规版附加产品, Office 365 云应用安全, Office 365 组, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d0f7bd0db5d71c91a163e05e582ad8c227a8aa22
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 766d018b6070ce4bda016b2711925533c210413e
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158750"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486399"
 ---
 # <a name="baseline-informatiebeveiliging-rijksdienst-standard-bir-2012"></a>基线 Informatiebeveiliging Rijksdienst 标准 (BIR 2012)
 
@@ -55,7 +55,7 @@ BIR 覆盖率报告提供了指南，其中 BIR 标准由 Microsoft 云服务可
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | Azure 信息保护， Bookings， Exchange Online Protection， Exchange Online， Kaizala， Microsoft Analytics， Microsoft Booking， Microsoft Graph， Microsoft Teams， Microsoft 待办事项网页版， MyAnalytics， Office 365 云应用安全， Office 365 组， Office 365 视频， Office Delve， OneDrive for Business， Planner， Power Apps， Power Automate， Power BI for Office 365， PowerApps， SharePoint Online， Skype for Business， StaffHub，Stream，Sway，Yammer Enterprise |
+| **商业** | Azure 信息保护, Bookings, Exchange Online Protection, Exchange Online, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, 微软待办网页版, MyAnalytics, Office 365 云应用安全, Office 365 组, Office Delve, OneDrive for Business, Planner, Power Apps, Power Automate, Power BI for Office 365, PowerApps, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

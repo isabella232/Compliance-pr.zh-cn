@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9802fd35cbb93386a42462c6ddd94ddce422ec7e
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 300bb6479f8395cebeb523a0d86f1572d49baff8
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158322"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486419"
 ---
 # <a name="argentina-personal-data-protection-act-pdpa"></a>阿根廷个人数据保护法 (PDPA)
 
@@ -59,7 +59,7 @@ Microsoft 数据传输协议是在线服务条款中的数据处理条款的修�
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | Azure 信息保护， Bookings， Exchange Online， Exchange Online Protection， Kaizala， Microsoft Analytics， Microsoft Booking， Microsoft Graph， Microsoft Teams， Microsoft 待办事项网页版， MyAnalytics， Office 365 云应用安全， Office 365 组， Office 365 视频， Office Delve， OneDrive for Business， Planner， Power Apps， Power BI for Office 365， PowerApps， Power Automate， SharePoint Online， Skype for Business， StaffHub，Stream，Sway，Yammer Enterprise |
+| **商业** | Azure 信息保护, Bookings, Exchange Online, Exchange Online Protection, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, 微软代办网页版, MyAnalytics, Office 365 云应用安全, Office 365 组, Office Delve, OneDrive for Business, Planner, Power Apps, Power BI for Office 365, PowerApps, Power Automate, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="how-to-implement"></a>如何实现
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 438780ab33c99bae410218bdb54265093105c16b
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: b43e882bc23523929a3bbcf7e0c9f667a2ab783f
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158286"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486259"
 ---
 # <a name="nen-7510"></a>NEN 7510
 
@@ -53,7 +53,7 @@ Microsoft 已分析我们当前的认证和保证声明，并且已创建 [NEN 7
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | Azure 信息保护， Bookings， Delve， Exchange Online， Exchange Online Protection， Kaizala， Microsoft Analytics， Microsoft Booking， Microsoft Graph， Microsoft Teams， Microsoft 待办事项网页版， MyAnalytics， Office 365 云应用安全， Office 365 组， Office 365 视频， OneDrive for Business， Planner， Power Apps， Power Automate， Power BI for Office 365， PowerApps， SharePoint Online， Skype for Business， StaffHub，Stream，Sway，Yammer Enterprise |
+| **商业** | Azure 信息保护, Bookings, Delve, Exchange Online, Exchange Online Protection, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, 微软代办网页版, MyAnalytics, Office 365 云应用安全, Office 365 组, OneDrive for Business,Planner, Power Apps, Power Automate, Power BI for Office 365, PowerApps, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 

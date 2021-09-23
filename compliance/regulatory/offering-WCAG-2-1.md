@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 79f4efec9c7e441405228de88e68916f8de3f754
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 3208fab9675c02ec1e7af0824a05f9a062b311b2
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158829"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486429"
 ---
 # <a name="web-content-accessibility-guidelines"></a>Web 内容辅助功能准则
 
@@ -62,10 +62,11 @@ Microsoft 发布的 WCAG 报告反映了完整的产品或服务。 该公司通
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | Excel, Exchange 管理中心, Office 365 管理中心（门户）, Office 365 和 Azure AD 登录体验, Office 365 客户门户, Office 365 安全与合规中心, Office 365 视频, Office Lens, Office.com, OneDrive 管理中心, OneDrive for Business, OneDrive 同步客户端, OneNote, Orcas, Outlook Groups, Outlook, PowerPoint, Project, Word  |
-| **GCC** | Azure Active Directory、合规性管理器、Delve、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、MyAnalytics、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、Stream |
-| **GCC 高级** | Azure Active Directory、Exchange Online、Forms、Microsoft Defender for Office 365、Microsoft Teams、Office 365 高级合规版附加产品、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business |
-| **DoD** | Azure Active Directory, Exchange Online, Microsoft Defender for Office 365, Microsoft Teams, Office 365 高级合规版加载项, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, Forms, Power BI, SharePoint Online, Skype for Business |
+| **客户端** | Access, Excel, Android 版 Office 365 管理门户, iOS 版 Office 365 管理门户, Office 配置工具, Office Lens, OneNote, Outlook, PowerPoint, Project, SharePoint, 待办, Visio, Word |
+| **商业** | Exchange 管理中心, Office 365 客户门户, Office 365 安全与合规中心, Office.com, OneDrive 管理中心, OneDrive for Business, OneDrive 同步客户端, Orcas, Outlook Groups |
+| **GCC** | Azure Active Directory, 合规性管理器, Delve, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, MyAnalytics, Office 365 高级合规版附加产品, Office 365 客户门户, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, Skype for Business, Stream |
+| **GCC 高级** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender for Office 365, Microsoft Teams, Office 365 高级合规版附加产品, Office 365 客户门户, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, Skype for Business |
+| **DoD** | Azure Active Directory, Exchange Online, Microsoft Defender for Office 365, Microsoft Teams, Office 365 高级合规版附加产品, Office 365 客户门户, Office 365 安全与合规中心, Office Online, Office Pro Plus, OneDrive for Business, Planner, Forms, Power BI, Skype for Business |
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Microsoft 辅助功能一致性报告
 
