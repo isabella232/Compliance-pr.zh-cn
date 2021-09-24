@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e57b10527b5eb1bd1baefebb36c9a8f37a97f59e
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 37b71715c49e543ad8bbf78f5e1821d91206fc14
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158770"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486369"
 ---
 # <a name="european-union-model-clauses"></a>欧盟模式条款
 
@@ -61,7 +61,7 @@ ms.locfileid: "59158770"
 
 | **适用性** | **范围内服务** |
 |:------------------|:----------------------|
-| **商业** | 高级威胁防护， Azure Active Directory， Azure 信息保护， Bookings， 合规性管理器， Delve， Exchange Online， Exchange Online Protection， Forms， Kaizala， Microsoft Analytics， Microsoft Booking， Microsoft Graph， Microsoft Teams， Microsoft 待办事项网页版， MyAnalytics， Office 365 高级合规性加载项， Office 365 Cloud App Security， Office 365 组， Office 365 安全与合规中心， Office 365 视频， Office Online， Office Pro Plus， OneDrive for Business， Planner， PowerApps， Power Automate， Power BI， SharePoint Online， Skype for Business， StaffHub， Stream， Sway， Yammer Enterprise |
+| **商业** | 高级威胁防护、Azure Active Directory、Azure 信息保护、Bookings、合规性管理器、Delve、Exchange Online、Exchange Online Protection、Forms、Kaizala、Microsoft 分析、Microsoft Booking、Microsoft Graph、Microsoft Teams、微软待办网页版、MyAnalytics、Office 365 高级合规版加载项、Office 365 云应用安全、Office 365 组、Office 365 安全与合规中心、Office Online、Office Pro Plus、OneDrive for Business、Planner、PowerApps、Power Automate、Power BI、SharePoint Online、Skype for Business、StaffHub、Stream、Sway、Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>审核、报告和证书
 
@@ -94,5 +94,5 @@ Microsoft 会持续评估欧盟标准，并根据需要更新其服务。
 - [欧洲数据保护委员会](https://edpb.europa.eu/)
 - [Dynamics 365 和 Office 365 欧盟模式条款常见问题解答](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
 - [Microsoft 公共控制中心合规性框架](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Microsoft 在线服务条款](https://aka.ms/Online-Services-Terms)
+- [Microsoft 联机服务条款](https://aka.ms/Online-Services-Terms)
 - [Microsoft 信任中心内的合规性](https://www.microsoft.com/trust-center/compliance/compliance-overview)
