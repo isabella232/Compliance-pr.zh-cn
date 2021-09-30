@@ -88,7 +88,7 @@
               href: /azure/compliance/offerings/offering-nerc?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: 金融服务
           items:
-            - name: 23 NYCRR 500 部分
+            - name: 23 NYCRR 500 部分（美国）
               href: offering-23-nycrr-part-500.md
             - name: AFM + DNB（荷兰）
               href: offering-afm-dnb-netherlands.md
