@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: cf5ef95e9504ba2d63a56dc3d4f7d22398d61255
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 4153c28a6e82829114abd51169dbdfa3220aa76c
+ms.sourcegitcommit: 0777355cfb73c07d2b7e11d95a5996be8913b2af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158766"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60050586"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>使用 Microsoft 365 功能履行 GDPR 信息保护
 
@@ -59,7 +59,7 @@ Microsoft 提供了可入手的推荐配置：
 
 - [Office 365 安全路线图：前 30 天、前 90 天以及更长时间范围的首要任务](/microsoft-365/security/office-365-security/security-roadmap)。此路线图提供了有关如何实现各项功能的建议。 
 - [ Office 365 中的威胁防护](/microsoft-365/security/office-365-security/protect-against-threats)。了解 Microsoft 365 安全中心内采取的防护措施。
-- [Windows 威胁防护](/windows/security/threat-protection/)。深入了解 Windows 10 中有关 Microsoft Defender for Endpoint 和其他 Windows 10 的功能的详细信息。
+- [Windows 威胁防护](/windows/security/threat-protection/)。了解 Windows 10 和 Windows 11 中有关 Microsoft Defender for Endpoint 和其他功能的详细信息。
 
 ## <a name="learn-more"></a>了解详细信息
 

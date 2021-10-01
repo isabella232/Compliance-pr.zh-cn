@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: d0016ed24cec4797ff515efa5614d8016fe7f1c1
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 10f8253d9acbed535d4aec31734be1ee16dd2b3a
+ms.sourcegitcommit: 0777355cfb73c07d2b7e11d95a5996be8913b2af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158223"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60050576"
 ---
 # <a name="general-data-protection-regulation-summary"></a>一般数据保护条例摘要
 
@@ -313,7 +313,7 @@ GDPR 规范了“个人数据”的收集、存储、使用和共享。根据 GD
 
 **GDPR 是否处理加密？**
 
-GDPR 将加密视为一种保护措施，当受到泄露影响时，可使个人数据变得难以被人理解。 因此，是否使用加密可能会影响通知个人数据泄露的要求。 GDPR 还指出，在某些情况下加密是一种适当的技术或组织举措，具体取决于风险。 加密既是支付卡行业数据安全标准的一项要求，也是金融服务行业严格合规性指南的一部分。 Microsoft 产品和服务（例如 Azure、Dynamics 365、企业移动性 + 安全性、Office Microsoft 365、SQL Server/Azure SQL 数据库和 Windows 10）为传输中的数据和静态数据提供了强大的加密功能。
+GDPR 将加密视为一种保护措施，当受到泄露影响时，可使个人数据变得难以被人理解。 因此，是否使用加密可能会影响通知个人数据泄露的要求。 GDPR 还指出，在某些情况下加密是一种适当的技术或组织举措，具体取决于风险。 加密既是支付卡行业数据安全标准的一项要求，也是金融服务行业严格合规性指南的一部分。 Microsoft 产品和服务（例如 Azure、Dynamics 365、企业移动性 + 安全性、Office Microsoft 365、SQL Server/Azure SQL 数据库、 Windows 10 和 Windows 11）为传输中的数据和静态数据提供了可靠的加密功能。
 
 **GDPR 如何更改组织对个人数据泄露的响应？**
 
