@@ -18,21 +18,22 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 hideEdit: true
-ms.openlocfilehash: 202b8aa75d3dd6fc94025a1a30f922563fc73e7b
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 52db464f30ac518cb60fcb62ad908e0fb3de31eb
+ms.sourcegitcommit: 0777355cfb73c07d2b7e11d95a5996be8913b2af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158176"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60050566"
 ---
 # <a name="windows-diagnostic-data-processor-configuration-data-subject-requests-for-the-gdpr-and-ccpa"></a>Windows 诊断数据处理器配置 GDPR 和 CCPA 的数据主体请求
 
->[!NOTE]
->本主题适用于 2021 年 7 月更新的版本 1809 及更高版本的 Windows 10 企业版、专业版和教育版。
+**适用于：**
+-   Windows 10 企业版、专业版、教育版版本 1809，具有 2021 年 7 月或更高版本的更新
+-   Windows 11 企业版、专业版、教育版
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>数据主体请求 (DSR) 简介
 
-一般数据保护条例 (GDPR) 赋予民众（在条例中称为 _数据主体_）权利，即管理已由雇主或其他类型机构或组织（称为 _数据控制者_ 或简称为 _控制者_）收集的个人数据。 根据 GDPR，个人数据的定义很宽泛，即指与已识别或可识别的自然人相关的任何数据。 GDPR 赋予数据主体对其个人数据的特定权利；这些权利包括，获取个人数据副本、请求更正个人数据、限制个人数据处理、删除个人数据，或接收能转移给另一个控制者的电子格式个人数据。 数据主体向控制者发出的对其个人数据执行操作的正式请求，称为 _数据主体请求_ (DSR)。
+欧盟通用数据保护条例 (GDPR) 赋予民众（在条例中称为“_数据主体_”）权利，即管理已由雇主或其他类型机构或组织（称为“_数据控制者_”或简称为“_控制者_”）收集的个人数据。根据 GDPR，个人数据的定义很宽泛，即指与已识别或可识别的自然人相关的任何数据。GDPR 赋予数据主体对其个人数据的特定权利；这些权利包括获取个人数据副本、请求更正个人数据、限制个人数据处理、删除个人数据，或接收能转移给另一个控制者的电子格式个人数据。数据主体为了对自己的个人数据执行操作而向控制者发出的正式请求称为“_数据主体请求_”或“DSR”。
 
 同样，加州消费者隐私法案 (CCPA) 规定了加州消费者的隐私权和义务，包括与 GDPR 的数据主体权利类似的权利，例如删除、访问和接收（可移植性）其个人信息的权利。 CCPA 还就某些披露规定了在选择行使权限时防止歧视的保障措施，并就分类为“销售”的特定数据传输提出了“选择退出/选择加入”要求。 “出售”广义定义为包含共享数据来换取有值对价的行为。 有关 CCPA 的详细信息，请参阅[加州消费者隐私法案](/microsoft-365/compliance/offering-ccpa)和[加州消费者隐私法案常见问题解答](/microsoft-365/compliance/ccpa-faq)。
 
@@ -72,7 +73,7 @@ Microsoft 使你能够访问、删除和导出与用户使用启用了 Windows �
 > 某些 Windows 诊断数据仅与设备标识符相关联，不与特定用户关联。 此类型的设备级别数据不会导出，并且会在 30 天内从我们的系统中删除。<br><br>
 > 不支持修正 Windows 诊断数据的功能。 Windows 诊断数据构成 Windows 内执行的实际操作，对此类数据的修改将会损坏操作的历史记录，增加安全风险并危害可靠性。
 
-下一部分提供有关如何对与 Azure Active Directory (AAD) 用户 ID 关联的 Windows 诊断数据执行数据主体请求的步骤。 有关详细信息，请参阅 [Windows 10 和隐私合规性：面向 IT 和合规专业人员的指南](/windows/privacy/windows-10-and-privacy-compliance)。
+下一部分提供有关如何对与 Azure Active Directory (AAD) 用户 ID 关联的 Windows 诊断数据执行数据主体请求的步骤。 有关详细信息，请参阅 [Windows 10 和 Windows 11 隐私合规性：面向 IT 和合规专业人员的指南](/windows/privacy/windows-10-and-privacy-compliance)。
 
 ## <a name="executing-dsrs-against-windows-diagnostic-data"></a>针对 Windows 诊断数据执行 DSR
 
@@ -90,16 +91,16 @@ Microsoft 提供了基于特定用户的 Azure Active Directory 对象执行基�
 
 对于基于用户的删除请求，Microsoft 提供了两种解决方案。  门户体验，让企业客户的租户管理员能够管理 DSR 删除请求。 [Azure DSR，第 1 部分，步骤 5：删除](/microsoft-365/compliance/gdpr-dsr-azure#step-5-delete)，介绍了如何通过删除用户和关联的数据，通过 Azure 门户对 Windows 诊断数据执行 DSR 删除请求。
 
-Microsoft 还提供了通过预先存在的应用程序编程接口 (API) 直接删除用户（进而删除 Windows 诊断数据）的功能。 有关详细信息，请参阅 [API 参考文档](/graph/api/directory-deleteditems-delete)。
+Microsoft 也提供通过预先存在的应用程序编程接口 (API) 直接删除用户（进而删除 Windows 诊断数据）的功能。有关详细信息，请参阅 [API 参考文档](/graph/api/directory-deleteditems-delete)。
 
 >[!IMPORTANT]
 >删除收集的数据不会停止从设备进一步收集。 若要关闭数据收集，请按照[各个服务的参考文档](/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enterprise-management)中所述的步骤进行操作。
 
 ### <a name="step-3-export"></a>步骤 3：导出
 
-租户管理员是组织中唯一可以访问与特定用户使用启用了 Windows 诊断数据处理器配置的设备相关的 Windows 诊断数据的人员。 为导出请求检索到的数据将以机器可读格式提供，并在允许用户知道数据与哪些设备和服务关联的文件中提供。 如前文所述，检索到的数据不包括可能会危及 Windows 设备安全性或稳定性的数据。 [Azure DSR，第 2 部分，步骤 3：导出](/microsoft-365/compliance/gdpr-dsr-azure#step-3-export)，介绍了如何通过 Azure 门户对 Windows 诊断数据执行 DSR 导出请求。
+租户管理员是组织中唯一可以访问特定 Windows 诊断数据（与特定用户对启用了 Windows 诊断数据处理器配置的设备的使用有关）的人员。为导出请求检索到的数据将以机器可读格式提供，并在允许用户知道数据与哪些设备和服务关联的文件中提供。如前文所述，检索到的数据不包括可能会危及 Windows 设备安全性或稳定性的数据。[Azure DSR，第 2 部分，步骤 3：导出](/microsoft-365/compliance/gdpr-dsr-azure#step-3-export)介绍如何通过 Azure 门户执行 Windows 诊断数据的 DSR 导出请求。
 
-Microsoft 还提供通过预先存在的应用程序编程接口 (API) 直接导出 Windows 诊断数据的功能。 有关详细信息，请参阅 [API 参考文档](/graph/api/user-exportpersonaldata)。
+Microsoft 也提供通过预先存在的应用程序编程接口 (API) 直接导出 Windows 诊断数据的功能。有关详细信息，请参阅 [API 参考文档](/graph/api/user-exportpersonaldata)。
 
 ## <a name="notify-us-about-exporting-or-deleting-issues"></a>通知我们有关导出或删除问题
 
