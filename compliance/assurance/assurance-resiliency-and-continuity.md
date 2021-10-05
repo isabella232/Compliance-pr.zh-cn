@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: ff1719ce931a50904fb6b7e6069cd29a1883aa90
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 188e041c36911b952ebe99b60e51eb8920d93b14
+ms.sourcegitcommit: 39c52058f94d49e6019d18953c05f06f08394e72
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158299"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60099807"
 ---
 # <a name="resiliency-and-continuity-overview"></a>弹性和连续性概述
 
@@ -33,7 +33,7 @@ ms.locfileid: "59158299"
 
 Microsoft Enterprise 业务连续性管理 (EBCM) 团队负责监管跨 Microsoft 服务 和云产品/服务的业务连续性管理和灾难恢复活动。 来自 Microsoft 业务部门的代表与 EBCM 团队合作，以制定业务连续性计划并验证是否符合业务连续性要求。
 
-BCM (生命周期) 业务连续性管理是 BCM 方法的核心。 此三阶段过程旨在适应各种 Microsoft 业务模型实现。 它从评估 **阶段** 开始，以确定业务连续性计划应包括的关键流程和目标。 评估阶段还需要业务影响分析 (BIA) 。 规划 **阶段** 侧重于制定和实施复原和恢复策略，并记录在官方业务连续性计划中。 最后， **功能验证** 测试业务连续性计划及其实现，以验证有效性并确定潜在的改进。
+业务连续性管理 (BCM) 生命周期是 BCM 方法的核心。 此三阶段过程旨在适应各种 Microsoft 业务模型实现。 它从评估 **阶段** 开始，以确定业务连续性计划应包括的关键流程和目标。 评估阶段还需要业务影响分析 (BIA) 。 规划 **阶段** 侧重于制定和实施复原和恢复策略，并记录在官方业务连续性计划中。 最后， **功能验证** 测试业务连续性计划及其实现，以验证有效性并确定潜在的改进。
 
 Microsoft 在线服务业务连续性策略使用硬件、网络和数据中心冗余。 数据中心之间的数据复制在灾难性事件期间提供高可用性和可靠性。 它还提高了对意外事件的复原能力，如隔离硬件故障或数据损坏。
 
@@ -80,7 +80,7 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 ## <a name="resources"></a>资源
 
 - [Microsoft Enterprise 业务连续性管理计划白皮书](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=64f922a6-d624-40dd-a8ae-6f996b5186f3&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f)
-- [Microsoft 云 EBCM 和灾难恢复计划验证报告：FY21 Q4](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=83dc940a-2078-4e14-8b7d-07128e5b453d&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
+- [Microsoft 云 EBCM 和灾难恢复计划验证报告：FY22 Q1](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=f47df93a-f6a0-4013-96e6-35b91af90a78&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
 
 ## <a name="legal-disclaimer"></a>法律免责声明
 
