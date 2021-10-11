@@ -9,8 +9,6 @@ f1.keywords:
 - NOCSH
 audience: Admin
 ms.topic: article
-f1_keywords:
-- ms.o365.cc.SupervisoryReview
 ms.service: O365-seccomp
 ms.localizationpriority: medium
 ms.collection:
@@ -22,18 +20,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: b2f88172d2a8158a2232acd1c4312217d7c3fef4
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 283eb6837032f44db29e1d64e8ce6a5e1236e747
+ms.sourcegitcommit: cf424cb1e7c12048120977f294f780b776119a96
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158263"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60265034"
 ---
 # <a name="datacenter-security-overview"></a>数据中心安全概述
 
 ## <a name="how-does-microsoft-host-its-online-services"></a>Microsoft 如何托管其联机服务？
 
-Microsoft 为客户提供 200 多个云服务，包括 Microsoft Azure、Microsoft 365 和 Microsoft Dynamics 365 等企业服务。 这些服务托管在由全球分布的数据中心、边缘计算节点和服务运营中心组成的 Microsoft 云基础结构中。 它们受全球最大网络之一的支持和连接，且具有广泛的光纤占用。
+Microsoft 为客户提供了 200 多个云服务，包括 Microsoft Azure、Microsoft 365 和 Microsoft Dynamics 365 等企业服务。 这些服务托管在由全球分布式数据中心、边缘计算节点和服务运营中心组成的 Microsoft 云基础结构中。 它们受全球最大网络之一的支持和连接，并且具有广泛的光纤占用。
 
 为云产品/服务提供支持的数据中心侧重于高可靠性、卓越运营、成本效益、环境可持续性，以及为全球客户和合作伙伴提供可信赖的联机体验。 Microsoft 会定期进行内部和第三方审核，以测试数据中心安全性。 因此，世界上高度管控的组织信任 Microsoft 云，比任何其他云服务提供商都符合更多的认证。
 
@@ -55,7 +53,7 @@ Microsoft 采用各种安全措施，防止对数据中心可用性的环境威�
 
 我们的云基础结构和产品符合一组广泛的国际和行业合规性标准（如 ISO、HIPAA、FedRAMP 和 SOC）以及特定于国家/地区的标准（如澳大利亚的 IRAP、英国的 G-Cloud 和新加坡的 MTCS）。 严格的第三方审核验证我们对这些标准规定的严格安全控制措施的遵守情况。 我们的数据中心基础结构和云服务的审核报告可在 Microsoft 服务信任门户 [上获得](https://servicetrust.microsoft.com/)。
 
-## <a name="related-external-regulations--certifications"></a>认证的相关&法规
+## <a name="related-external-regulations--certifications"></a>认证相关的&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与数据中心安全相关的控件的验证，请参阅下表。
 
