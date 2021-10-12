@@ -28,10 +28,18 @@
   items:
     - name: 数据中心安全概述
       href: assurance-datacenter-security.md
-    - name: 数据中心 TVRA
+    - name: 数据中心体系结构和基础结构
+      href: assurance-datacenter-architecture-infrastructure.md
+    - name: 数据中心风险管理
       href: assurance-threat-vulnerability-risk-assessment.md
+    - name: 环境保护措施
+      href: assurance-datacenter-environmental-safeguards.md
+    - name: 物理访问安全
+      href: assurance-datacenter-physical-access-security.md
     - name: 数据承载设备破坏
       href: assurance-data-bearing-device-destruction.md
+    - name: 业务连续性和灾难恢复
+      href: assurance-datacenter-business-continuity-disaster-recovery.md
     - name: 供应链安全性
       href: /azure/security/fundamentals/firmware?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: 加密和密钥管理
