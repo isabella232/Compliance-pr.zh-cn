@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6ff20d9ac81562353a5971386d0d498b44edfd3b
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 632c8c40348e155d4acefb0c2ed66f1e1a2500b1
+ms.sourcegitcommit: 963eeffcf34f2696a1530ef95154adc2fa3a1941
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158337"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60266702"
 ---
 # <a name="cloud-security-alliance-csa-star-self-assessment"></a>云安全联盟 (CSA) STAR 自我评估
 
@@ -80,11 +80,11 @@ CCM 与行业接受的安全标准、法规和控制措施框架相对应，例�
 
 **Office 365 获得了哪些 CSA STAR 级别的保障？**
 
-- **级别 1**：**CSA STAR 自我评估**：是云服务提供商免费提供的一项产品/服务，可用于记录其安全控制措施，帮助客户对服务的安全性进行评估。
+- **级别 1**：**CSA STAR 自我评估**：是云服务提供商提供的 [免费产品/服务](https://cloudsecurityalliance.org/star/registry/services/microsoft-office-365)，用于记录其安全控制措施，以帮助客户对服务的安全性进行评估。
 
 ### <a name="office-365-resources"></a>Office 365 资源
 
-- [云安全联盟](https://cloudsecurityalliance.org/)
+- [云安全联盟 - Microsoft 365](https://cloudsecurityalliance.org/star/registry/services/microsoft-office-365)
 - [云控制矩阵 (CCM)](https://cloudsecurityalliance.org/group/cloud-controls-matrix/)
 - [共识评估倡议调查表 (CAIQ)](https://cloudsecurityalliance.org/group/consensus-assessments/)
 - [CSA 安全、信任及保证注册表 (STAR)](https://cloudsecurityalliance.org/star/)
