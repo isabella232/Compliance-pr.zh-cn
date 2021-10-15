@@ -328,3 +328,7 @@
   items:
     - name: CCPA - 常见问题
       href: ccpa-faq.yml
+- name: 弗吉尼亚州消费者数据保护法案 （VCDPA）
+  items:
+    - name: VCDPA - 常见问题
+      href: vcdpa-faq.yml

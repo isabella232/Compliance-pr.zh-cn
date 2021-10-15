@@ -36,6 +36,8 @@
       href: assurance-datacenter-environmental-safeguards.md
     - name: 物理访问安全
       href: assurance-datacenter-physical-access-security.md
+    - name: 资产管理
+      href: assurance-datacenter-asset-management.md
     - name: 数据承载设备破坏
       href: assurance-data-bearing-device-destruction.md
     - name: 业务连续性和灾难恢复

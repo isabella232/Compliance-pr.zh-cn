@@ -3,7 +3,7 @@ title: Microsoft 合规性产品/服务
 summary: 了解 Microsoft 产品和服务如何帮助你的组织满足法规合规性标准。
 brand: m365
 metadata:
-  title: 适用于 Microsoft 365 Azure 和其他 Microsoft 服务 的合规性产品/
+  title: 适用于 Microsoft 365 Azure 和其他 Microsoft 服务 的合规性Microsoft 服务。
   description: 了解 Microsoft 产品和服务如何帮助你的组织满足法规合规性标准。
   services: service
   ms.service: O365-seccomp
@@ -292,11 +292,11 @@ conceptualContent:
         - url: gdpr.md
           itemType: reference
           text: GDPR（欧盟）
-    - title: 区域
-      links:
         - url: offering-g-cloud-uk.md
           itemType: reference
           text: G-Cloud（英国）
+    - title: 区域
+      links:
         - url: 'https://www.idw.de/the-idw/about-the-idw'
           itemType: reference
           text: IDW PS 951（德国）
@@ -308,7 +308,7 @@ conceptualContent:
           text: ISMS（韩国）
         - url: /azure/compliance/offerings/offering-germany-it-grundschutz-workbook
           itemType: reference
-          text: 'IT-Grundschutz工作簿 (德国) '
+          text: 'IT-Grundschutz德国 (工作簿) '
         - url: offering-lopd-spain.md
           itemType: reference
           text: LOPD（西班牙）
@@ -318,11 +318,11 @@ conceptualContent:
         - url: offering-mtcs-singapore.md
           itemType: reference
           text: MTCS（新加坡）
-    - title: 区域
-      links:
         - url: offering-my-number-act-japan.md
           itemType: reference
           text: My Number（日本）
+    - title: 区域
+      links:
         - url: offering-nz-cc-framework-nz.md
           itemType: reference
           text: NZ CC Framework（新西兰）
@@ -338,3 +338,6 @@ conceptualContent:
         - url: 'https://aka.ms/TRUCS-Compliance'
           itemType: reference
           text: TRUCS（中国）
+        - url: vcdpa-faq.yml
+          itemType: reference
+          text: 'VCDPA (美国-) '
