@@ -1,6 +1,6 @@
 ---
 title: 事件管理概述
-description: 了解事件管理中的Microsoft 365
+description: 了解事件管理Microsoft 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 203adce9b4c7167315abbbfbebce0efdd604fefe
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 959d9c7b3a483ff71d43c325def048c8aaffff3a
+ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158193"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60582615"
 ---
 # <a name="incident-management-overview"></a>事件管理概述
 
@@ -39,9 +39,9 @@ Microsoft 在其联机服务中将安全事件定义为已确认的安全漏洞�
 
 Microsoft 云服务会持续受到监视，以发现泄露的迹象。 除了自动安全监视和警报之外，所有员工都每年接受一次培训，以识别和报告潜在安全事件的迹象。 员工、客户或安全监视工具检测到的任何可疑活动都升级为特定于服务的安全响应团队进行调查。 所有服务运营团队（包括特定于服务的安全响应团队）保持深层的呼叫轮换，以确保资源可用于 24x7x365 事件响应。 我们的呼叫轮换使 Microsoft 能够随时或大规模地装入有效的事件响应，包括大范围或并发事件。
 
-当检测到可疑活动并上报时，特定于服务的安全响应团队将启动分析、抑制、 **消除和恢复过程**。 这些团队协调潜在事件的分析以确定其范围，包括对客户或客户数据的任何影响。 基于此分析，特定于服务的安全响应团队与受影响服务团队合作，共同制定包含威胁并最大限度地减少事件影响的计划，从环境中消除威胁，并完全恢复到已知安全状态。 相关服务团队在特定于服务的安全响应团队的支持下实施计划，以确保成功消除威胁，并且影响的服务将进行完整恢复。
+当检测到可疑活动并上报时，特定于服务的安全响应团队将启动分析、抑制、 **消除和恢复过程**。 这些团队协调潜在事件的分析以确定其范围，包括对客户或客户数据的任何影响。 基于此分析，特定于服务的安全响应团队与受影响服务团队合作，共同制定包含威胁和尽量减少事件影响的计划，从环境中消除威胁，并完全恢复到已知安全状态。 相关服务团队在特定于服务的安全响应团队的支持下实施计划，以确保成功消除威胁，并且影响的服务将进行完整恢复。
 
-在事件解决后，服务团队将实施从事件获得的任何经验，以更好地防止、检测和响应将来发生的类似事件。 选择安全事件，尤其是影响客户或导致数据泄露的事件，在事后进行完整事件。 事后剖析旨在识别技术失效、过程失败、手动错误以及可能导致事件发生的或在事件响应过程中识别的其他流程缺陷。 在事后分析期间确定的改进在特定于服务的安全响应团队的协作下实现，以帮助防止未来事件并改进检测和响应功能。
+在事件解决后，服务团队将实施从事件获得的任何经验，以更好地防止、检测和响应将来发生的类似事件。 选择安全事件，尤其是影响客户或导致数据泄露的事件，在事后进行完整事件。 事后剖析旨在识别技术失效、过程失败、手动错误以及可能导致事件发生的或在事件响应过程中识别的其他流程缺陷。 在事后分析期间确定的改进在特定于服务的安全响应团队的协作下实施，以帮助防止未来事件并改进检测和响应功能。
 
 ## <a name="how-and-when-are-customers-notified-of-security-or-privacy-incidents"></a>如何以及何时向客户通知安全或隐私事件？
 
@@ -70,10 +70,10 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | IR-4：事件处理 <br> IR-6：事件报告 <br> IR-8：事件响应计划 | 2020 年 9 月 24 日 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.16.1：信息安全事件管理和改进 | 2021 年 4 月 20 日 |
-| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.10.1：有关涉及 PII 的数据泄露的通知  | 2021 年 4 月 20 日 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.16.1：信息安全事件管理和改进 | 2021 年 4 月 20 日 |
+| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=43e89534-f48d-42ea-a7a7-3523ff516036&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)  | A.10.1：有关涉及 PII 的数据泄露的通知  | 2021 年 4 月 20 日 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-26：安全事件报告 <br> CA-47：事件响应 | 2020 年 12 月 24 日 |
-| [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-12：SLA (服务级别)  <br> CA-13：事件响应指南 <br> CA-15：服务运行状况通知  <br>  <br> CA-26：安全事件报告 <br> CA-29：呼叫工程师 <br> CA-47：事件响应 | 2020 年 12 月 24 日 |
+| [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-12：与 SLA (服务级别)  <br> CA-13：事件响应指南 <br> CA-15：服务运行状况通知  <br>  <br> CA-26：安全事件报告 <br> CA-29：呼叫工程师 <br> CA-47：事件响应 | 2020 年 12 月 24 日 |
 | [SOC 3](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=274054e5-4968-48d2-bf94-9a8eda5d7a93&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CUEC-08：报告事件  | 2020 年 12 月 24 日  |
 
 ## <a name="resources"></a>资源

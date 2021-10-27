@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: dc53f42c6aa7ce16e1291538bfad6d63c5a1689d
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: cc5ea6944b330a12cecb7c6238db91c597005990
+ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158208"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60582635"
 ---
 # <a name="encryption-and-key-management-overview"></a>加密和密钥管理概述
 
@@ -37,9 +37,9 @@ ms.locfileid: "59158208"
 
 ## <a name="how-do-microsoft-online-services-encrypt-data-at-rest"></a>Microsoft 联机服务如何加密其余数据？
 
-Microsoft 联机服务中所有客户内容都受一种或多种加密形式的保护。 Microsoft 服务器使用 BitLocker 在卷级别加密包含客户内容的磁盘驱动器。 如果其他过程或控件（例如 (访问控制或硬件) 的回收）存在故障，可能会导致对包含客户内容的磁盘进行未经授权的物理访问，BitLocker 提供的加密将保护客户内容。
+Microsoft 联机服务中所有客户内容都受一种或多种加密形式的保护。 Microsoft 服务器使用 BitLocker 在卷级别加密包含客户内容的磁盘驱动器。 如果其他过程或控件 (（例如，访问控制或硬件) 的回收）存在故障，可能会导致对包含客户内容的磁盘进行未经授权的物理访问，BitLocker 提供的加密将保护客户内容。
 
-除了卷级加密之外，Microsoft 在线服务还使用应用程序层的服务加密来加密客户内容。 服务加密提供权限保护以及强加密保护的管理功能。 它还允许在操作系统Windows由这些操作系统存储或处理的客户数据之间分离。
+除了卷级加密之外，Microsoft 在线服务还使用应用程序层的服务加密来加密客户内容。 服务加密提供权限保护以及强加密保护的管理功能。 它还允许在操作系统Windows这些操作系统存储或处理的客户数据之间分离。
 
 ## <a name="how-do-microsoft-online-services-encrypt-data-in-transit"></a>Microsoft 联机服务如何加密传输数据？
 
@@ -53,7 +53,7 @@ Microsoft 在线服务使用强传输协议（如 TLS）来防止未经授权的
 
 服务加密为客户静态数据提供了另一层加密，为客户提供了两种加密密钥管理选项：Microsoft 管理的密钥或客户密钥。 使用 Microsoft 管理的密钥时，Microsoft 联机服务自动生成并安全存储用于服务加密的根密钥。
 
-如果客户要求控制自己的根加密密钥，可以将服务加密与客户密钥一同使用。 通过使用客户密钥，客户可以使用本地硬件服务模块 (HSM) 或 AKV (Azure 密钥保管库) 。 客户根密钥存储在 AKV 中，可在 AKV 中用作加密客户邮箱数据或文件的密钥链之一的根。 客户根密钥只能由 Microsoft 联机服务代码间接访问，用于数据加密，并且不能由 Microsoft 员工直接访问。
+如果客户要求控制自己的根加密密钥，可以将服务加密与客户密钥一同使用。 使用客户密钥，客户可以使用本地硬件服务模块 (HSM) 或 AKV (生成自己的加密密钥) 。 客户根密钥存储在 AKV 中，可在 AKV 中用作加密客户邮箱数据或文件的密钥链之一的根。 客户根密钥只能由 Microsoft 联机服务代码间接访问，用于数据加密，并且不能由 Microsoft 员工直接访问。
 
 ## <a name="related-external-regulations--certifications"></a>认证的相关&法规
 
@@ -73,7 +73,7 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | SC-8：传输机密性和完整性 <br> SC-13：加密的使用 <br> SC-28：保护其余信息 <br>  | 2020 年 9 月 24 日 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.10.1：加密控件 <br> A.18.1.5：加密控件 | 2021 年 4 月 20 日 |
-| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.11.6：通过公共数据传输网络传输的 PII 加密 | 2021 年 4 月 20 日 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.10.1：加密控件 <br> A.18.1.5：加密控件 | 2021 年 4 月 20 日 |
+| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=43e89534-f48d-42ea-a7a7-3523ff516036&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.11.6：通过公共数据传输网络传输的 PII 加密 | 2021 年 4 月 20 日 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-44：传输数据加密 <br> CA-54：静态数据加密 <br> CA-62：客户密钥邮箱加密 <br> CA-63：客户密钥数据删除 <br> CA-64：客户密钥 | 2020 年 12 月 24 日 |
 | [SOC 3](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=274054e5-4968-48d2-bf94-9a8eda5d7a93&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CUEC-16：客户加密密钥 <br> CUEC-17：客户密钥保管库 <br>  CUEC-18：客户密钥轮换| 2020 年 12 月 24 日 |

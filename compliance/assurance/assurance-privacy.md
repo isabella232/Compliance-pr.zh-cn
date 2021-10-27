@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 29d0c6633c67d65c6bef27a9768fa213a9e50ac4
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: cc886e0a0aec4d2fdfd9b0bc1568ca2d6f4537d3
+ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158303"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60582585"
 ---
 # <a name="privacy-overview"></a>隐私概述
 
 ## <a name="how-does-microsoft-approach-privacy-for-customers"></a>Microsoft 如何为客户处理隐私？
 
-[Microsoft](https://privacy.microsoft.com/#whatinformationwecollectmodule)的隐私方法的基础基于以下六个原则：客户控制、透明度、安全性、强大的隐私保护、无基于内容的目标以及从我们收集的任何数据中为客户提供好处。 [安全开发生命周期 (SDL) ](https://www.microsoft.com/securityengineering/sdl/)和隐私声明提供有关[](https://privacy.microsoft.com/privacystatement)我们作为保护客户的透明隐私做法的一部分的开发过程的详细信息。 此外，Microsoft 在联机服务条款 ([OST) ](https://www.microsoft.com/licensing/product-licensing/products) 中做出广泛的合同承诺，并详细说明了我们处理联机服务数据保护附录 ([DPA ](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=67)) 中数据的义务。
+[Microsoft](https://privacy.microsoft.com/#whatinformationwecollectmodule)的隐私方法的基础基于以下六个原则：客户控制、透明度、安全性、强大的隐私保护、无基于内容的目标以及从我们收集的任何数据中为客户提供好处。 [SDL (](https://www.microsoft.com/securityengineering/sdl/)生命周期) 和隐私声明提供有关我们作为保护客户的透明[](https://privacy.microsoft.com/privacystatement)隐私做法的一部分的开发过程的详细信息。 此外，Microsoft 在联机服务条款 ([OST) ](https://www.microsoft.com/licensing/product-licensing/products) 中做出广泛的合同承诺，并详细说明了我们处理联机服务数据保护附录 ([DPA ](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=67)) 中数据的义务。
 
 ## <a name="how-does-microsoft-implement-its-privacy-commitments"></a>Microsoft 如何实现其隐私承诺？
 
@@ -41,7 +41,7 @@ Microsoft 维护 Microsoft 企业隐私策略和 Microsoft 隐私标准，以确
 
 数据生命周期介绍了 Microsoft 如何根据客户指南以及适用的安全和隐私法处理数据。 数据生命周期的阶段包括收集、处理、第三方 (（如果适用) 、保留和销毁）。 Microsoft 的隐私方法通知数据生命周期的每个阶段，以保护客户的隐私。
 
-Microsoft 将客户数据集合限定为四个特定[数据](https://www.microsoft.com/trust-center/privacy/customer-data-definitions?rtc=1)类别：客户数据、服务生成的数据、诊断数据和Professional数据。 Microsoft 使用这些类别中的数据来执行一组有限的合法业务运营， () ALB 来为客户提供服务。 当收集和处理数据以执行 LBOS 时，Microsoft 会通过化名诊断数据和在使用前聚合数据来保护单个客户和用户。 我们不会访问客户数据的内容，以确定哪些特定数据部分可能被视为个人数据。 相反，我们假定所有客户数据以及所有专业服务数据都包含个人数据，并相应地保护这些数据。
+Microsoft 将客户数据集合限定为四个特定[数据](https://www.microsoft.com/trust-center/privacy/customer-data-definitions?rtc=1)类别：客户数据、服务生成的数据、诊断数据Professional服务数据。 Microsoft 使用这些类别中的数据来执行一组有限的合法业务运营， (ALB) 我们为客户提供服务所需的一系列业务。 当收集和处理数据以执行 LBOS 时，Microsoft 会通过化名诊断数据和在使用前聚合数据来保护单个客户和用户。 我们不会访问客户数据的内容，以确定哪些特定数据部分可能被视为个人数据。 相反，我们假定所有客户数据以及所有专业服务数据都包含个人数据，并相应地保护这些数据。
 
 ## <a name="how-does-microsoft-handle-third-party-sharing"></a>Microsoft 如何处理第三方共享？
 
@@ -69,8 +69,8 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|  
-| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A-2.1：公共云 PII 处理器的用途 | 2021 年 4 月 20 日 |
-| [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-12：SLA (服务级别)  <br> CA-17：Microsoft 安全策略 <br> CA-25：控制框架更新 | 2020 年 12 月 24 日 |
+| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=43e89534-f48d-42ea-a7a7-3523ff516036&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A-2.1：公共云 PII 处理器的用途 | 2021 年 4 月 20 日 |
+| [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-12：与 SLA (服务级别)  <br> CA-17：Microsoft 安全策略 <br> CA-25：控制框架更新 | 2020 年 12 月 24 日 |
 
 ## <a name="resources"></a>资源
 

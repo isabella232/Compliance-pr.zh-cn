@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 86885737bb3e6acd0a9503c240b09cb3349da7a8
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 9014bc06d54f6d5c7e33a8cb316be51146439e41
+ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158196"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60582625"
 ---
 # <a name="governance-overview"></a>治理概述
 
@@ -33,7 +33,7 @@ ms.locfileid: "59158196"
 
 Microsoft 知道必须在企业内持续实施有效的安全策略，以保护 Microsoft 信息系统和客户。 安全策略还必须考虑到业务功能和信息系统中的变化才能做到普遍适用。 为满足这些要求，Microsoft 实施了全面的安全治理计划，作为 Microsoft 策略框架的一部分。 安全治理属于 Microsoft 安全策略 (MSP) 的一部分。
 
-MSP 组织 Microsoft 的安全策略、标准和要求，以便可以在所有 Microsoft 工程组和业务部门中实现这些策略、标准和要求。 单个业务部门负责 Microsoft 安全策略的具体实现。 例如，Microsoft 365将安全实现记录在 Microsoft 365 安全策略和相关 Microsoft 365 框架中。 Azure 和 Dynamics 365 在标准操作程序 (SOP) Azure Control Framework 中记录其安全实现。 这些安全实现与 MSP 的目标一致。
+MSP 组织 Microsoft 的安全策略、标准和要求，以便可以在所有 Microsoft 工程组和业务部门中实现这些策略、标准和要求。 单个业务部门负责 Microsoft 安全策略的具体实现。 例如，Microsoft 365信息安全策略Microsoft 365相关的安全控制框架Microsoft 365实现。 Azure 和 Dynamics 365 在标准操作程序 (SOP) Azure Control Framework 中记录其安全实现。 这些安全实现与 MSP 的目标一致。
 
 Microsoft 的安全治理计划由各种法规和合规性框架告知，并与这些框架保持一致。 安全要求在不断演变，以考虑新技术、法规和合规性要求以及安全威胁。 由于这些更改，Microsoft 会定期更新我们的安全策略和支持文档，以保护 Microsoft 系统和客户、履行我们的承诺并保持客户的信任。
 
@@ -41,7 +41,7 @@ Microsoft 的安全治理计划由各种法规和合规性框架告知，并与�
 
 Microsoft 365将安全实现记录在Microsoft 365安全策略中。 此策略遵循 Microsoft 安全策略并治理 Microsoft 365 信息系统，包括收集、处理、维护、使用、共享、传播和处置数据过程中涉及的所有 Microsoft 365 环境和所有资源。 同样，Azure 和 Dynamics 365 使用 Microsoft 安全策略来管理其信息系统。
 
-信息系统包括受 Microsoft 365 信息安全策略 (for Microsoft 365) 和 Microsoft Security Policy (for Azure 和 Dynamics 365) 管理的组件：
+信息系统包括受 Microsoft 365 信息安全策略 (for Microsoft 365) 和 Microsoft Security Policy (for Azure 和 Dynamics 365) 控制的组件：
 
 - 基础结构：Azure、Dynamics 365 和 Microsoft 365 系统的物理和硬件 (、设备和) 
 - 软件：Azure、Dynamics 365 和 Microsoft 365 系统的程序和 (、应用程序和实用程序) 
@@ -49,7 +49,7 @@ Microsoft 365将安全实现记录在Microsoft 365安全策略中。 此策略�
 - 过程：Azure、Dynamics 365 和 Microsoft 365系统的操作所涉及的编程和手动过程
 - 数据：Azure、Dynamics 365 和 Microsoft 365 系统生成、收集和处理的信息 (流、文件、数据库和表) 
 
-Microsoft 365 信息安全策略由 Microsoft 365 控制框架补充。 该Microsoft 365控制框架详细介绍了所有 Microsoft 365 服务和信息系统组件的最低安全要求。 它还引用每个控件背后的法律和公司要求。 该框架包含控制活动名称、说明以及指南，以确保服务团队高效实施控制。 Microsoft 365控件框架跟踪内部和外部报告的控件实现。 同样，Azure 控件框架中的 Azure 和 Dynamics 365 记录控制实现。
+Microsoft 365 信息安全策略由 Microsoft 365 控制框架补充。 此Microsoft 365控制框架详细介绍了所有 Microsoft 365 服务和信息系统组件的最低安全要求。 它还引用每个控件背后的法律和公司要求。 该框架包含控制活动名称、说明以及指南，以确保服务团队高效实施控制。 Microsoft 365控件框架跟踪内部和外部报告的控件实现。 同样，Azure 控件框架中的 Azure 和 Dynamics 365 记录控制实现。
 
 ## <a name="how-do-online-services-limit-and-track-exceptions-to-established-policies-and-procedures"></a>联机服务如何限制和跟踪已制定的策略和程序的例外？
 
@@ -77,7 +77,7 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | CA-2：安全评估 <br> PL-2：系统安全计划 | 2020 年 9 月 24 日 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.18.1：遵守法律和合同要求 <br> A.18.2：信息安全审查 | 2021 年 4 月 20 日 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.18.1：遵守法律和合同要求 <br> A.18.2：信息安全审查 | 2021 年 4 月 20 日 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-11：策略框架更新 <br> CA-17：Microsoft 安全策略 <br> CA-25：控制框架更新 | 2020 年 12 月 24 日 |
 
 ## <a name="resources"></a>资源
