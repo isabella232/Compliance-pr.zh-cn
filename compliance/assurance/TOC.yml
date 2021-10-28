@@ -1,3 +1,5 @@
+- name: Microsoft Cloud 风险评估指南
+  href: assurance-risk-assessment-guide.md
 - name: 体系结构
   items:
     - name: 体系结构概述
@@ -10,8 +12,6 @@
       href: assurance-microsoft-365-isolation-controls.md
     - name: Microsoft 365 基础结构安全性
       href: assurance-securing-microsoft-365-infrastructure.md
-    - name: 共同责任
-      href: /azure/security/fundamentals/shared-responsibility?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: 审核日志记录
   items:
     - name: 审核日志记录概述
@@ -192,6 +192,8 @@
   items:
     - name: 安全开发运营概述
       href: assurance-security-development-and-operation.md
+    - name: Microsoft 365 合规性计划
+      href: assurance-microsoft-365-compliance-program.md
     - name: Azure 代码完整性
       href: /azure/security/fundamentals/code-integrity?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: 安全监视
