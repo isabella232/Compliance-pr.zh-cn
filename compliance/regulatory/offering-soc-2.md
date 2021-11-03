@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 92fb47f98e60eb655ee68b38cb747a7d2eb9d2ff
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 99144f348b74ffa15752dbd9ec80ff8fbf17e538
+ms.sourcegitcommit: 85b36ce8c79fb111980cc6462f2addb44a924065
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158922"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60678439"
 ---
 # <a name="system-and-organization-controls-soc-2-type-2"></a>系统和组织控制 (SOC) 2 类型 2
 
@@ -44,7 +44,7 @@ Office 365 SOC 2 证明基于可信誉良好的 CPA 公司进行的严格独立�
 Azure SOC 2 类型 2 证明报告中显示了范围内的 Microsoft 联机服务：
 
 - Azure（有关详细见解，请参阅 [Microsoft Azure 合规性产品/服务](https://azure.microsoft.com/resources/microsoft-azure-compliance-offerings/)或 Azure SOC 2 类型 2 证明报告）
-- Azure DevOps（请另外参阅 Azure DevOps SOC 2 类型 2 证明报告）
+- Azure DevOps（请参阅单独 [Azure DevOps SOC 2 类型 2 证明报告](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3)）
 - Dynamics 365（有关详细见解，请参阅 Azure SOC 2 类型 2 证明报告）
 - Microsoft 365 Defender
 - Microsoft Cloud App Security (MCAS)
@@ -87,9 +87,9 @@ Azure SOC 2 类型 2 证明报告中显示了范围内的 Microsoft 联机服务
 
 ### <a name="office-365-audit-reports"></a>Office 365 审核报告
 
-- [Office 365 Core - SSAE 18 SOC 2 报告](https://aka.ms/o365SOC-2)
-- [Office 365 微服务 T1-SSAE 18 SOC2 类型 I 报告](https://aka.ms/o365-MS-SOC-2-type1)
-- [请参阅过渡函和其他审核报告](https://aka.ms/auditreports)
+- [Office 365 Core - SSAE 18 SOC 2 报告](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports)
+- [Office 365 微服务 T1-SSAE 18 SOC2 类型 I 报告](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=e2dd6942-e70d-4222-8013-960514742f19&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports)
+- [请参阅过渡函和其他审核报告](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports)
 
 必须要有 Office 365 或 [Office](https://azure.microsoft.com/global-infrastructure/government/request/) 365 美国政府版的现有订阅或免费试用帐户，才能根据需要下载 SOC 1 和 SOC 2 证明报告和任何过渡函。
 
