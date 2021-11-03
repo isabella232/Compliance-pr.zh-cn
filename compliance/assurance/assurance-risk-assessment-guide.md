@@ -1,5 +1,5 @@
 ---
-title: Microsoft 云风险评估指南
+title: Microsoft Cloud 风险评估指南
 description: 了解 Microsoft 云风险评估指南
 ms.author: robmazz
 author: robmazz
@@ -20,14 +20,14 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: a7b6e345afa49d82f96d9eb9e5c804fc7cbf5ffe
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: df4b98f90c70bab3bd7f09e6312833d8a7ea768b
+ms.sourcegitcommit: 85b36ce8c79fb111980cc6462f2addb44a924065
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60584843"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60678429"
 ---
-# <a name="risk-assessment-guide-for-microsoft-cloud"></a>Microsoft 云风险评估指南
+# <a name="risk-assessment-guide-for-microsoft-cloud"></a>Microsoft Cloud 风险评估指南
 
 云风险评估的目标是确保迁移到云时考虑的系统和数据不会给组织带来任何新的或无法识别的风险。 重点是确保信息处理的机密性、完整性、可用性和隐私性，并且将识别的风险保持在接受的内部风险阈值以下。
 
@@ -39,9 +39,9 @@ ms.locfileid: "60584843"
 
 ## <a name="understand-shared-responsibility-in-the-cloud"></a>了解云中的共同责任
 
-云部署可以分类为基础结构即服务 (IaaS) 、平台即服务 (PaaS) 或软件即服务 (SaaS) 。 根据适用的云服务模型，解决方案的安全控制的责任级别在云解决方案提供商和客户之间转移。 在传统的本地模型中，客户负责整个堆栈。 迁移到云时，所有物理安全职责将转移到云解决方案提供商。 根据组织的云服务模型，其他责任将转移到云解决方案提供商。 但是，在大多数服务模型中，你的组织仍负责用于访问云的设备、网络连接、帐户和标识以及你的数据。 Microsoft 在创建允许客户在整个生命周期内控制其数据的服务方面投入大量资金。
+云部署可以归类为基础结构即服务 (IaaS) 、平台即服务 (PaaS) 或软件即服务 (SaaS) 。 根据适用的云服务模型，解决方案的安全控制的责任级别在云解决方案提供商和客户之间转移。 在传统的本地模型中，客户负责整个堆栈。 迁移到云时，所有物理安全责任将转移到云解决方案提供商。 根据组织的云服务模型，其他责任将转移到云解决方案提供商。 但是，在大多数服务模型中，你的组织仍负责用于访问云的设备、网络连接、帐户和标识以及你的数据。 Microsoft 在创建允许客户在整个生命周期内控制其数据的服务方面投入大量资金。
 
-Microsoft 云在超大规模运行，依靠 DevSecOps 和自动化的组合来标准化操作模型。 与传统的内部部署操作模型相比，Microsoft 运营模型改变了处理风险的方式，导致实施不同的（有时不熟悉）控制措施来管理风险。 在执行云风险评估时，请记住，Microsoft 的目标是确保解决所有风险，但不一定实现组织所实施的控制。 Microsoft 可能会通过一组不同的控制措施应对相同的风险，这些风险应反映在云风险评估中。 设计和实施强大的预防性控制措施可以减少检测型和纠正型控制措施所需的大部分工作。
+Microsoft 云在超大规模运行，依靠 DevSecOps 和自动化的组合来标准化操作模型。 与传统的内部部署操作模型相比，Microsoft 运营模型改变了处理风险的方式，导致实施不同的（有时不熟悉）控制措施来管理风险。 在执行云风险评估时，请记住，Microsoft 的目标是确保解决所有风险，但不一定实现组织所实施的控制。 Microsoft 可能会通过一组不同的控制措施应对相同的风险，这些风险应反映在云风险评估中。 设计和实施强预防性控制措施可以减少检测型和纠正型控制措施所需的大部分工作。 例如，Microsoft 实现零长期访问 ([ZSA) 。 ](assurance-microsoft-365-service-engineer-access-control.md)
 
 ## <a name="adopt-a-framework"></a>采用框架
 
@@ -57,12 +57,12 @@ Microsoft 建议客户将内部风险和控制框架映射到以标准化方式�
 
 - [按需Learning路径](/learn/roles/auditor)：Microsoft 的学习平台提供数以百计的不同主题的学习路径和模块。 其中， [请了解 Microsoft 如何保护客户数据](/learn/paths/audit-safeguard-customer-data/) ，以了解 Microsoft 的基本安全和隐私做法。
 
-- [Microsoft 合规性服务保证](/compliance/#service-assurance)：有关 Microsoft 实践的文章分为 16 个域，以便于审阅。 每个域包含概述，可捕获 Microsoft 如何管理与每个区域关联的风险。 提供审核表，其中包含指向存储在服务信任门户上的最新报告的链接、相关部分以及 Microsoft 联机服务的审核报告执行日期。 如果可用，则提供演示控制实现的项目的链接，例如第三方漏洞评估和业务连续性计划验证报告。 与审核报告一样，这些项目托管在 STP 上，并且需要进行身份验证来访问。
+- [Microsoft 合规性服务保证](/compliance/#service-assurance)：有关 Microsoft 实践的文章分为 16 个域，便于查看。 每个域包含概述，可捕获 Microsoft 如何管理与每个区域关联的风险。 提供审核表，其中包含指向存储在服务信任门户上的最新报告的链接、相关部分以及 Microsoft 联机服务的审核报告执行日期。 如果可用，则提供演示控制实现的项目的链接，例如第三方漏洞评估和业务连续性计划验证报告。 与审核报告一样，这些项目托管在 STP 上，并且需要进行身份验证来访问。
 
 | **域** |**说明** |
 |:---------- |:-------------- |
 | [**体系结构**](assurance-architecture.md) | Microsoft 在线服务的设计以及充当其基础的安全原则。 |
-| [**Audit logging**](assurance-audit-logging.md) | Microsoft 如何捕获、处理、存储和保护使安全和性能监视成为可能的日志。 |
+| [**审核日志记录**](assurance-audit-logging.md) | Microsoft 如何捕获、处理、存储和保护使安全和性能监视成为可能的日志。 |
 | [**数据中心安全**](assurance-datacenter-security.md) | Microsoft 如何安全地运营数据中心，提供在全球运营 Microsoft 联机服务的方式。 |
 | [**加密和密钥管理**](assurance-encryption.md) | 客户通信以及云中存储和处理的数据的加密保护。 |
 | [**治理**](assurance-governance.md) | Microsoft 如何在整个企业内创建、分发、更新和实施安全策略，以满足客户的承诺和合规性要求。 |

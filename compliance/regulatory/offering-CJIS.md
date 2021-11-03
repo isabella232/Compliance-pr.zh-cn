@@ -16,22 +16,22 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 313905ec68c7d730cd2372ebd4679943ff124993
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 4b255918c3bb46757d5bd12ae33d907200dd37b0
+ms.sourcegitcommit: 85b36ce8c79fb111980cc6462f2addb44a924065
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158813"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60678449"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>刑事犯罪信息服务 (CJIS) 安全策略
 
 ## <a name="cjis-overview"></a>CJIS 概述
 
-美国联邦调查局 (FEDERAL) 的刑事犯罪信息服务 (CJIS) 部门向州、当地和联邦执法机构和犯罪犯罪机构提供对刑事犯罪信息 (CJI) 的访问权限，例如指纹记录和犯罪历史记录。 执法机构和美国的其他政府机构必须确保他们使用云服务传输、存储或处理 CJI 符合 [CJIS](https://aka.ms/cjis-security-policy)安全策略，该安全策略建立了最低安全要求和控制来保护 CJI。
+美国联邦调查局 () 的刑事犯罪信息服务 (CJIS) 部门向州、地方和联邦执法机构和犯罪犯罪机构提供对犯罪情报 (CJI) （例如指纹记录和犯罪历史记录）的访问权限。 执法机构和美国的其他政府机构必须确保他们使用云服务传输、存储或处理 CJI 符合 [CJIS](https://aka.ms/cjis-security-policy)安全策略，该安全策略建立了最低安全要求和控制来保护 CJI。
 
-CJIS 安全策略集成了国家标准与技术协会 NIST (咨询策略委员会决策、联邦法律以及犯罪人士社区 (机构) 。 该策略会定期更新，以反映不断变化的安全要求。
+CJIS 安全策略集成了国家标准和技术协会 NIST (的联邦指令、联邦法律以及刑事犯罪社区的建议策略委员会) 决策。 该策略会定期更新，以反映不断变化的安全要求。
 
-CJIS 安全策略定义了 13 个私有承包商（如云服务提供商）必须评估的区域，以确定其对云服务的使用是否与 CJIS 要求一致。 这些领域与 NIST 800-53 紧密对应，NIST 800-53 也是联邦风险和授权管理计划 [ (FedRAMP) ](offering-FedRAMP.md)的基础，该计划通过 Microsoft 政府云产品/服务认证。
+CJIS 安全策略定义了 13 个私有承包商（如云服务提供商）必须评估的区域，以确定其对云服务的使用是否与 CJIS 要求一致。 这些方面与 NIST 800-53 紧密对应，NIST 800-53 也是联邦风险和授权管理计划 [ (FedRAMP) ](offering-FedRAMP.md)的基础，该计划通过 Microsoft 政府云产品/服务认证。
 
 此外，处理 CJI 的所有私有承包商都必须签署 CJIS 安全附录，这是美国律师总署批准的统一协议，有助于确保安全策略要求的 CJI 的安全性和机密性。 它还承诺承包商维护符合联邦和州法律、法规和标准的安全计划，并限制使用 CJI 至政府机构提供它的目的。
 
@@ -74,9 +74,9 @@ MICROSOFT 不提供 Microsoft 遵守 CJIS 要求的认证。 相反，Microsoft 
 
 [Microsoft CJIS 云要求](https://aka.ms/MicrosoftCJISCloudRequirements)
 
-### <a name="cjis-status-in-the-united-states-current-as-of-1152020"></a>自 2020 年 11 月 5 (起，美国 CJIS 状态) 
+### <a name="cjis-status-in-the-united-states-current-as-of-1152020"></a>截至 2020 年 11 月 5 (美国 CJIS 状态) 
 
-45 个州以及具有管理协议（在地图上以绿色突出显示）的学区包括：
+在地图上以绿色突出显示的 44 个州以及具有管理协议的"省/市/县"包括：
 
 该州是，加利福尼亚、格鲁吉亚 哥伦比亚、爱达荷州、波利尼西亚、阿鲁巴岛、马来西岛、密尔尼西亚、剑桥、明尼西亚、圣文莱纳、内巴斯卡、剑桥、纽约、北尼西亚、北美、北达库塔、格林威斯、俄勒冈、密尔尼群岛、南尼西亚、顶点、华盛顿州、华盛顿州、西尼西亚、华盛顿州。
 
