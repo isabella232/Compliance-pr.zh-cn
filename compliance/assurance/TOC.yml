@@ -96,12 +96,10 @@
       href: /azure/security/fundamentals/customer-lockbox-overview?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: Microsoft 365帐户管理
       href: assurance-microsoft-365-account-management.md
-    - name: Microsoft 365 技术控制
-      href: assurance-technology-controls.md
+    - name: Microsoft 365 服务工程师访问控制
+      href: assurance-microsoft-365-service-engineer-access-control.md
     - name: Office 365 客户密码箱
       href: /microsoft-365/compliance/customer-lockbox-requests?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
-    - name: Yammer Enterprise访问控制
-      href: assurance-yammer-enterprise-access-controls.md
 - name: 事件管理
   items:
     - name: 事件管理概述
