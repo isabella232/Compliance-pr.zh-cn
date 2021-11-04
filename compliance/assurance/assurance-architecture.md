@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 513fe8b9f9a4ed5db71606704738cb46a6af8ed1
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: 86c49d78deee975b0f7a1504938d81b0dc609cdf
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60582665"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60780108"
 ---
 # <a name="architecture-overview"></a>体系结构概述
 
@@ -41,13 +41,13 @@ Microsoft Azure是一个云计算平台，用于通过 Microsoft 和第三方托
 
 ## <a name="what-is-dynamics-365"></a>什么是 Dynamics 365？
 
-Dynamics 365 是一个联机业务应用程序套件，将客户关系管理 (CRM) 功能及其扩展与 Enterprise 资源规划 (ERP) 功能集成。 这些端到端业务应用程序帮助客户将关系转变为收益、赢得客户并加快业务增长。 Dynamics 365 是一款基于 Azure 基础结构构建的软件即服务 (SaaS) 套件，并通过全球分布式数据中心提供给世界各地的客户。
+Dynamics 365 是一个联机业务应用程序套件，将客户关系管理 (CRM) 功能及其扩展与 Enterprise Resource Planning (ERP) 功能集成。 这些端到端业务应用程序帮助客户将关系转变为收益、赢得客户并加快业务增长。 Dynamics 365 是一款基于 Azure 基础结构构建的软件即服务 (SaaS) 套件，并通过全球分布式数据中心提供给世界各地的客户。
 
 ## <a name="what-is-microsoft-365"></a>什么是 Microsoft 365？
 
-Microsoft 365支持云的、基于订阅的 Office、Windows 10、企业移动性 + 安全性 和合规性版本。 Microsoft 365客户获取 Outlook 和 Windows 等客户端，并且他们还可以从 Microsoft 代表自己托管的服务（如 Exchange Online、Microsoft Teams 和 SharePoint Online）中获益。 服务的所有组件会定期作为订阅模型的一部分进行更新，以便我们的客户拥有"常青"产品。 Microsoft 代表客户管理服务基础结构，这意味着 Microsoft 负责保护存储客户数据的基础结构。
+Microsoft 365支持基于云的、基于订阅的 Office、Windows 10、企业移动性 + 安全性 和合规性版本。 Microsoft 365客户获取 Outlook 和 Windows 等客户端，他们还可以从 Microsoft 代表自己托管的服务（如 Exchange Online、Microsoft Teams 和 SharePoint Online）中获益。 服务的所有组件会定期作为订阅模型的一部分进行更新，以便我们的客户拥有"常青"产品。 Microsoft 代表客户管理服务基础结构，这意味着 Microsoft 负责保护存储客户数据的基础结构。
 
-就规模而言，Microsoft 目前使用近一百万台计算机来为Microsoft 365电源。 为这些服务提供电源的基础结构因 Azure、Windows 和 Linux 以及多租户和专用平台中的特定于服务的硬件和虚拟化环境而有很大差异。 Microsoft 365 的业务范围遍及全球，我们的基础结构分布在世界各地的数据中心，使我们的客户能够满足数据驻留和主权要求。
+在规模方面，Microsoft 目前使用近一百万台计算机来为Microsoft 365电源。 支持这些服务的基础结构因 Azure、Windows 和 Linux 以及多租户和专用平台中的特定于服务的硬件和虚拟化环境而有很大差异。 Microsoft 365 的业务范围遍及全球，我们的基础结构分布在世界各地的数据中心，使我们的客户能够满足数据驻留和主权要求。
 
 ## <a name="how-do-microsoft-online-services-ensure-isolation-between-customer-tenants"></a>Microsoft 联机服务如何确保客户租户之间的隔离？
 
@@ -69,7 +69,7 @@ Microsoft 联机服务团队将关键系统组件及其依赖项标识为业务�
 
 定期自动验证 Microsoft 在线服务体系结构，并自动使用基于云的工具验证是否符合我们的安全原则，并持续测试隔离和恢复能力功能。 体系结构验证可自动标识服务当前状态偏离所需状态的实例，并标记任何偏差以便进行审阅和缓解。 体系结构验证的目标是确保服务基础结构的管理功能继续正常工作。
 
-## <a name="related-external-regulations--certifications"></a>认证的相关&法规
+## <a name="related-external-regulations--certifications"></a>认证相关的&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与体系结构相关的控件的验证，请参阅下表。
 
@@ -86,6 +86,6 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | AC-4：信息流强制 <br> CP-9：信息系统备份 <br> PL-8：信息安全体系结构 <br> SC-7：边界保护 <br> SC-22：体系结构和设置 | 2020 年 9 月 24 日 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.6：信息安全组织 <br> A.13.1：网络安全管理 <br> A.17.2：冗余 | 2021 年 4 月 20 日 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.6：信息安全组织 <br> A.13.1：网络安全管理 <br> A.17.2：冗余 | 2021 年 4 月 20 日 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-37：租户隔离 <br> CA-49：备份策略 <br> CA-51：数据复制 | 2020 年 12 月 24 日 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-05：数据流图 <br> CA-37：租户隔离 <br> CA-49：备份策略 <br> CA-51：数据复制 | 2020 年 12 月 24 日 |

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 95b1f2eedd9123ba9f6d2d8f8c175ed773bbd5ce
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: f6dbc970e37b206df8cedf2adc986d0c3b7c3b55
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60582645"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60780018"
 ---
 # <a name="human-resources-overview"></a>人力资源概述
 
@@ -60,9 +60,9 @@ Microsoft 对所有员工、员工和临时员工都遵循严格的人员筛选�
 
 ## <a name="how-does-microsoft-ensure-third-party-suppliers-meet-the-same-personnel-requirements-as-microsoft-employees"></a>Microsoft 如何确保第三方供应商满足与 Microsoft 员工相同的人员要求？
 
-Microsoft 在线服务要求第三方供应商通过 MSSA 协议 (主供应商服务) 。 本协议要求供应商遵守 Microsoft 策略和程序，包括人员安全策略和过程。 Microsoft 通过直接跟踪筛选结果来监视第三方人员的屏蔽要求的合规性。 Microsoft 要求供应商直接向 Microsoft 提交第三方人员的筛选结果。
+Microsoft 在线服务要求第三方供应商与 MSSA (签订主供应商服务) 。 本协议要求供应商遵守 Microsoft 策略和程序，包括人员安全策略和过程。 Microsoft 通过直接跟踪筛选结果来监视第三方人员的屏蔽要求的合规性。 Microsoft 要求供应商直接向 Microsoft 提交第三方人员的筛选结果。
 
-## <a name="related-external-regulations--certifications"></a>认证的相关&法规
+## <a name="related-external-regulations--certifications"></a>认证相关的&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与人力资源相关的控制措施的验证，请参阅下表。
 
@@ -80,6 +80,6 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|  
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | AT-2：安全意识 <br> AT-3：基于角色的安全培训 <br> AT-4：安全培训记录 <br> PS-3：人员屏蔽 <br> PS-4：人员终止 <br> PS-5：人员转移 <br> PS-7：第三方人员安全 | 2020 年 9 月 24 日 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.7：人力资源安全 | 2021 年 4 月 20 日 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.7：人力资源安全 | 2021 年 4 月 20 日 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-08：后台检查 <br> CA-43：帐户吊销 | 2020 年 12 月 24 日 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-07：SBC 业务 (标准)  <br> CA-08：后台检查 <br> CA-43：帐户吊销 <br> ELC-08/13/14：雇佣协议 | 2020 年 12 月 24 日 |

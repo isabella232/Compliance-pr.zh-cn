@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 086ed5da087493b0e7950e4cb268eb9b3d231e33
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: c7938e3468750a56fe8cc7c36a4d78b1eb51c014
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60582496"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60780007"
 ---
 # <a name="security-development-and-operations-overview"></a>安全开发和操作概述
 
@@ -41,7 +41,7 @@ Microsoft 的 SDL 流程可考虑以下五个开发阶段：要求、设计、�
 
 ## <a name="how-does-microsoft-test-source-code-for-common-vulnerabilities"></a>Microsoft 如何测试常见漏洞的源代码？
 
-为了支持开发人员在代码开发期间和发布后实施安全要求，Microsoft 提供了一套安全开发工具，用于自动检查源代码中的安全缺陷和漏洞。 Microsoft 定义并发布供开发人员使用的已批准工具列表，例如编译器和开发环境，以及 Microsoft 生成管道中自动执行的内置安全检查。 我们的开发人员使用最新版本的受批准工具来利用新的安全功能。
+为了支持开发人员在代码开发期间和发布后实施安全要求，Microsoft 提供了一套安全开发工具，用于自动检查源代码中的安全缺陷和漏洞。 Microsoft 定义并发布供开发人员使用的已批准工具列表，如编译器和开发环境，以及 Microsoft 生成管道中自动执行的内置安全检查。 我们的开发人员使用最新版本的受批准工具来利用新的安全功能。
 
 在将代码签入发布分支之前，SDL 需要由单独的审阅者手动检查代码。 代码审查员会检查编码错误并验证代码更改是否满足 SDL 和设计要求、通过功能和安全测试并可靠地执行。 他们还会审查相关的文档、配置和依赖项，以确保正确记录代码更改并且不会导致意外的副作用。 如果审查者在代码审查期间发现问题，他们可以要求提交者在进行建议更改和额外测试后重新提交代码。 代码审查者也可能决定完全阻止不符合要求的代码签入。 在审阅者认为代码满意后，审阅者会提供审批，在代码可以继续执行下一个部署阶段之前需要此审批。
 
@@ -58,7 +58,7 @@ Microsoft 已采用管理开放源代码安全性的高级别策略，该策略�
 
 Microsoft 工程团队负责产品或服务中包含的所有开源软件的安全性。 为了大规模实现此安全性，Microsoft 通过组件治理 (CG) 将基本功能内置到工程系统中，从而自动执行开放源代码检测、法律要求工作流和针对易受攻击的组件发出警报。 自动化 CG 工具扫描 Microsoft 内部版本，以发现开放源代码组件和相关安全漏洞或法律要求。 发现的组件已注册，并提交给适当的团队进行业务和安全评审。 这些审查旨在评估与开放源代码组件关联的任何法律义务或安全漏洞，并在批准部署组件之前解决这些漏洞。
 
-## <a name="related-external-regulations--certifications"></a>认证的相关&法规
+## <a name="related-external-regulations--certifications"></a>认证相关的&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与安全开发和操作相关的控件的验证，请参阅下表。
 
@@ -75,7 +75,7 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | SA-3：系统开发生命周期 | 2020 年 9 月 24 日 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.12.1.2：更改管理控件 <br> A.14.2：开发和支持过程中的安全性 | 2021 年 4 月 20 日 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.12.1.2：更改管理控件 <br> A.14.2：开发和支持过程中的安全性 | 2021 年 4 月 20 日 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) <br> [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-03：风险管理 <br> CA-18：变更管理 <br> CA-19：更改监视 <br> CA-21：更改测试 <br> CA-38：基线配置 <br> CA-46：安全审查 | 2020 年 12 月 24 日 |
 
 ## <a name="resources"></a>资源

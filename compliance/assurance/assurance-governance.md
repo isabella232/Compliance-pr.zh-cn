@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 9014bc06d54f6d5c7e33a8cb316be51146439e41
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: 7b4e8bef0c5aca8749ed963c7fac2674d5cbf015
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60582625"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60780088"
 ---
 # <a name="governance-overview"></a>治理概述
 
@@ -37,11 +37,11 @@ MSP 组织 Microsoft 的安全策略、标准和要求，以便可以在所有 M
 
 Microsoft 的安全治理计划由各种法规和合规性框架告知，并与这些框架保持一致。 安全要求在不断演变，以考虑新技术、法规和合规性要求以及安全威胁。 由于这些更改，Microsoft 会定期更新我们的安全策略和支持文档，以保护 Microsoft 系统和客户、履行我们的承诺并保持客户的信任。
 
-## <a name="how-do-microsoft-online-services-implement-the-microsoft-security-policy-msp"></a>Microsoft 联机服务如何实施 Microsoft 安全策略 (MSP) ？
+## <a name="how-do-microsoft-online-services-implement-the-microsoft-security-policy-msp"></a>Microsoft 在线服务如何实施 Microsoft 安全策略 (MSP) ？
 
 Microsoft 365将安全实现记录在Microsoft 365安全策略中。 此策略遵循 Microsoft 安全策略并治理 Microsoft 365 信息系统，包括收集、处理、维护、使用、共享、传播和处置数据过程中涉及的所有 Microsoft 365 环境和所有资源。 同样，Azure 和 Dynamics 365 使用 Microsoft 安全策略来管理其信息系统。
 
-信息系统包括受 Microsoft 365 信息安全策略 (for Microsoft 365) 和 Microsoft Security Policy (for Azure 和 Dynamics 365) 控制的组件：
+信息系统包括受 Microsoft 365 Information Security Policy (for Microsoft 365) 和 Microsoft Security Policy (for Azure 和 Dynamics 365) 控制的组件：
 
 - 基础结构：Azure、Dynamics 365 和 Microsoft 365 系统的物理和硬件 (、设备和) 
 - 软件：Azure、Dynamics 365 和 Microsoft 365 系统的程序和 (、应用程序和实用程序) 
@@ -59,7 +59,7 @@ Microsoft 365 信息安全策略由 Microsoft 365 控制框架补充。 此Micro
 
 GRC 的每个在线服务团队的治理、风险和 (团队) 持续维护控制框架。 多个方案可能需要 GRC 团队更新控制框架，包括相关法规或法律的更改、新出现的威胁、渗透测试结果、安全事件、审核反馈和新合规性要求。 当需要更改框架时，信任团队将确定负责批准和实施更改的关键利益干系人，以确保更改可行且不会导致联机服务出现意外问题。 在 GRC 团队和相关利益干系人就更改要求达成一致后，负责实施更改集目标完成日期的工作负荷将努力在各自的服务中实施更改。 在达到实现目标后，信任团队会使用新的或更新的控件更新控制框架。
 
-## <a name="related-external-regulations--certifications"></a>认证的相关&法规
+## <a name="related-external-regulations--certifications"></a>认证相关的&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与治理相关的控制措施的验证，请参阅下表。
 
@@ -77,7 +77,7 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | CA-2：安全评估 <br> PL-2：系统安全计划 | 2020 年 9 月 24 日 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.18.1：遵守法律和合同要求 <br> A.18.2：信息安全审查 | 2021 年 4 月 20 日 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.18.1：遵守法律和合同要求 <br> A.18.2：信息安全审查 | 2021 年 4 月 20 日 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-11：策略框架更新 <br> CA-17：Microsoft 安全策略 <br> CA-25：控制框架更新 | 2020 年 12 月 24 日 |
 
 ## <a name="resources"></a>资源

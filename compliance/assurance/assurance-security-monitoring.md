@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 37213f9c9ccab59bbd956cb64c1b2f16a8d72821
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: 55cca0d9e6cf3ce306c0f659c867ad717586754a
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60582475"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60779958"
 ---
 # <a name="security-monitoring-overview"></a>安全监视概述
 
@@ -53,9 +53,9 @@ Microsoft 联机服务使用集中日志记录来收集和分析可能指示安�
 
 Microsoft 主动监视其系统，以指示资源过度使用和异常使用。 资源监控由服务冗余进行补充，以帮助避免意外停机，并为客户提供对产品和服务的可靠访问。 Microsoft 联机服务运行状况问题通过服务运行状况仪表板 (SHD) 。
 
-Azure 和 Dynamics 365 联机服务利用多个基础结构服务来监视其安全性和运行状况可用性。 实施综合事务 (STX) 测试使 Azure 和 Dynamics 服务能够检查其服务的可用性。 STX 框架旨在支持在运行服务时自动测试组件，并针对实时站点故障警报进行测试。 此外，Azure 安全 (ASM) 服务已实施集中综合测试过程，以验证安全警报在新建和正在运行的服务中是否正常工作。
+Azure 和 Dynamics 365 联机服务利用多个基础结构服务来监视其安全性和运行状况可用性。 实施 STX (综合) 测试允许 Azure 和 Dynamics 服务检查其服务的可用性。 STX 框架旨在支持在运行服务时自动测试组件，并针对实时站点故障警报进行测试。 此外，Azure 安全 (ASM) 服务已实施集中综合测试过程，以验证安全警报在新建和正在运行的服务中是否正常工作。
 
-## <a name="related-external-regulations--certifications"></a>认证的相关&法规
+## <a name="related-external-regulations--certifications"></a>认证相关的&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与安全监视相关的控制措施的验证，请参阅下表。
 
@@ -73,7 +73,7 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------|:--------|:------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | AC-2：帐户管理 <br> AC-17：远程访问 <br> AU-7：减少审核并生成报告 <br> SI-4：信息系统监控 <br> SI-7：软件、固件和信息完整性 <br> | 2020 年 9 月 24 日 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> <br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.12.1.3：可用性监视和容量规划 | 2021 年 4 月 20 日 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> <br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [认证](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.12.1.3：可用性监视和容量规划 | 2021 年 4 月 20 日 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-19：更改监视 <br> CA-26：安全事件报告 <br> CA-29：呼叫工程师 <br> CA-48：数据中心日志记录 | 2020 年 12 月 24 日 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-19：更改监视 <br> CA-26：安全事件报告 <br> CA-29：呼叫工程师 <br> CA-30：可用性监视 <br> CA-48：数据中心日志记录 | 2020 年 12 月 24 日 |
 | [SOC 3](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=274054e5-4968-48d2-bf94-9a8eda5d7a93&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CUEC-08：报告事件 <br> CUEC-10：服务合同 | 2020 年 12 月 24 日 |

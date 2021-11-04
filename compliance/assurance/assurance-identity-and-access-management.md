@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 933db3783c6672fa952f70f18c4815955bcedb21
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: d5983ce587aa515be68c462c49eee87d7709bb23
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158194"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60780028"
 ---
 # <a name="identity-and-access-management-overview"></a>标识和访问管理概述
 
 ## <a name="how-do-microsoft-online-services-protect-production-systems-from-unauthorized-or-malicious-access"></a>Microsoft 联机服务如何保护生产系统免受未经授权的或恶意的访问？
 
-Microsoft 在线服务旨在允许 Microsoft 工程师在不访问客户内容的情况下操作服务。 默认情况下，Microsoft 工程师具有零长期访问 (ZSA) 访问客户内容，并且没有对生产环境的特权访问。 Microsoft 联机服务使用实时 (JIT) Just-Enough-Access (JEA) 模型，在需要访问支持 Microsoft 联机服务时，为服务团队工程师提供对生产环境的临时特权访问。 JIT 访问模型将传统的长期管理访问权限替换为工程师在需要时请求临时提升为特权角色的过程。
+Microsoft 在线服务旨在允许 Microsoft 工程师在不访问客户内容的情况下操作服务。 默认情况下，Microsoft 工程师具有零长期访问 (ZSA) 访问客户内容，并且没有对生产环境的特权访问。 Microsoft 联机服务使用实时 (JIT) 、Just-Enough-Access (JEA) 模型，在需要服务团队工程师支持 Microsoft 联机服务时，提供对生产环境的临时特权访问。 JIT 访问模型将传统的长期管理访问权限替换为工程师在需要时请求临时提升为特权角色的过程。
 
 工程师被分配到服务团队，通过标识和访问管理解决方案支持生产服务请求服务团队帐户的资格。 资格申请触发了一系列人员检查，以确保工程师已通过所有云筛选要求、完成必要的培训，并获得了帐户创建前的适当管理批准。 只有在满足所有资格要求后，才能为申请环境创建服务团队帐户。 若要维护服务团队帐户的资格，人员每年必须接受基于角色的培训，并每两年重新进行一次审查。 未能完成或通过这些检查会导致资格被自动吊销。
 
@@ -52,9 +52,9 @@ Microsoft 联机服务使用 SECURE Admin Workstations (SAW) for service team re
 
 ## <a name="how-does-customer-lockbox-add-additional-protection-for-customer-content"></a>客户密码箱如何为客户内容添加其他保护？
 
-客户可以通过启用客户密码箱来向其内容添加其他级别的访问控制。 当密码箱提升请求涉及访问客户内容时，客户密码箱需要客户批准，这是审批工作流的最后一步。 此过程使组织可以选择批准或拒绝这些请求，并为客户提供直接访问控制。 如果客户拒绝客户密码箱请求，则对所请求内容的访问将被拒绝。 如果客户在特定时间内不拒绝或批准请求，那么请求将自动过期，Microsoft 不会获得客户内容的访问权限。 如果客户批准请求，Microsoft 对客户内容的临时访问将在分配完成疑难解答操作的时间到期后自动记录、审核和撤消。
+客户可以通过启用客户密码箱来向其内容添加其他级别的访问控制。 当密码箱提升请求涉及访问客户内容时，客户密码箱需要客户批准，这是审批工作流的最后一步。 此过程使组织可以选择批准或拒绝这些请求，并为客户提供直接访问控制。 如果客户拒绝客户密码箱请求，则对所请求内容的访问将被拒绝。 如果客户在特定时间内未拒绝或批准请求，那么请求将自动过期，Microsoft 不会获得客户内容的访问权限。 如果客户批准请求，Microsoft 对客户内容的临时访问将在分配完成疑难解答操作的时间到期后自动记录、审核和撤消。
 
-## <a name="related-external-regulations--certifications"></a>认证的相关&法规
+## <a name="related-external-regulations--certifications"></a>认证相关的&法规
 
 Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证。 有关与标识和访问控制相关的控件的验证，请参阅下表。
 
@@ -71,7 +71,7 @@ Microsoft 的在线服务会定期进行审核，以遵守外部法规和认证�
 | **外部审核** | **Section** | **最新报告日期** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | AC-2：帐户管理 <br> AC-3：实施访问 <br> AC-5：职责分离 <br> AC-6：最小特权 <br> AC-17：远程访问 | 2020 年 9 月 24 日 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.9.1：访问控制的业务要求 <br> A.9.2：用户访问管理 <br> A.9.3：用户责任 <br> A.9.4：系统和应用程序访问控制 <br> A.15.1：供应商关系中的信息安全 | 2021 年 4 月 20 日 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [适用性声明](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.9.1：访问控制的业务要求 <br> A.9.2：用户访问管理 <br> A.9.3：用户责任 <br> A.9.4：系统和应用程序访问控制 <br> A.15.1：供应商关系中的信息安全 | 2021 年 4 月 20 日 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-33：帐户修改 <br> CA-34：用户身份验证 <br> CA-35：特权访问 <br> CA-36：远程访问 <br> CA-57：客户密码箱 Microsoft 管理审批 <br> CA-58：客户密码箱服务请求 <br> CA-59：客户密码箱通知 <br> CA-61：JIT 审阅和审批 | 2020 年 12 月 24 日 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-32：共享帐户策略 <br> CA-33：帐户修改 <br> CA-34：用户身份验证 <br> CA-35：特权访问 <br> CA-36：远程访问 <br> CA-53：第三方监控 <br> CA-56：客户密码箱客户批准 <br> CA-57：客户密码箱 Microsoft 管理审批 <br> CA-58：客户密码箱服务请求 <br> CA-59：客户密码箱通知 <br> CA-61：JIT 审阅和审批 | 2020 年 12 月 24 日 |
 | [SOC 3](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=274054e5-4968-48d2-bf94-9a8eda5d7a93&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CUEC-15：客户密码箱请求 | 2020 年 12 月 24 日 |
